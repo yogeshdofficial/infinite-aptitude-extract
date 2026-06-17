@@ -10,133 +10,352 @@ from gemini_utils import call_gemini
 import PyPDF2
 
 PATTERN_DOC_PROMPT = """
-You are an expert mathematics educator creating comprehensive learning material.
+You are an expert mathematics educator and aptitude trainer.
 
-Create detailed markdown documentation for this sub-pattern:
+Create a concise but high-quality markdown revision note for this pattern.
 
-**Pattern Name:** {pattern_name}
-**Type:** {pattern_description}
-**Related Problems:** {question_count}
-**Reference:** Pages {page_range}
+The goal is to help students quickly understand and solve most questions belonging to this pattern.
 
-**Available Context:**
+Do NOT write like a textbook.
+
+Prefer formulas, frameworks, tricks, and recognition clues over lengthy explanations.
+
+Pattern Name: {pattern_name}
+
+Pattern Description:
+{pattern_description}
+
+Reference Pages:
+{page_range}
+
+Source Material:
 {pdf_content}
+
+────────────────────────
+
+Generate markdown with the following sections.
+
+# {{pattern_name}}
+
+## Overview
+
+Explain briefly:
+
+* What this pattern represents.
+* What kind of questions belong here.
+* The central idea used to solve them.
+
+Maximum 3 short paragraphs.
 
 ---
 
-GENERATE MARKDOWN WITH THESE SECTIONS:
+## Recognition Clues
 
-## 1. Pattern Overview
-- One clear sentence defining what this pattern solves
-- Why this pattern matters
+List:
 
-## 2. Key Formulas
-- Display ALL relevant formulas using $$formula$$
-- Label each formula clearly
-- Use proper mathematical notation
-- Example: $$\\text{{Profit %}} = \\frac{{Profit}}{{Cost Price}} \\times 100$$
+* keywords,
+* phrases,
+* common problem structures,
+* what is usually GIVEN,
+* what is usually FOUND.
 
-## 3. When to Use This Pattern
-- List specific keywords/phrases that signal this pattern
-- Recognition clues from problem statements
-- What's typically GIVEN and what's to be FOUND
-
-## 3. Core Concept & Theory
-- Explain the fundamental idea
-- Why the approach works
-
-## 5. Step-by-Step Solution Method
-- Number each step with explanation of WHAT and WHY
-- Show which formula to use at each step
-- Include decision branches
-
-## 6. Worked Examples (2-3 complete)
-- Show full working with all steps
-- Explain reasoning at each step
-- Format:
-  **Example 1: [Description]**
-  Given: ...
-  Solution: [Full working]
-
-## 7. Recognition Clues & Keywords
-- Phrases that signal this pattern
-- When to apply this pattern
-- What NOT to confuse with
-
-## 8. Common Mistakes (3-4)
-- Frequent errors students make
-- Why they're wrong
-- How to avoid them
-
-## 9. Practice Tips
-- How to master this pattern
-- Related patterns to study
+Use bullets.
 
 ---
 
-RULES:
-- Use # ## ### for headers
-- Use $math$ for inline, $$math$$ for display
-- Make formulas CLEAR and COMPLETE
-- Use **bold** for key terms
-- Be pedagogical - explain reasoning
-- Suitable for first-time learners
-- Include ALL relevant formulas
+## Important Formulas
 
-Return ONLY valid markdown (no code fences or extra text).
-"""
+List ALL important formulas relevant to this pattern.
 
+Include all useful variations and derived formulas whenever appropriate.
 
-CHAPTER_OVERVIEW_PROMPT = """
-You are an expert mathematics educator creating an introduction page for a chapter.
+Use proper LaTeX.
 
-Write a clear chapter introduction in markdown for:
+For each formula:
 
-**Chapter Title:** {chapter_title}
-**Reference Pages:** {page_range}
+* formula,
+* meaning,
+* when to use it.
 
-Use the source text below as the only reference material:
-{pdf_content}
+Example:
 
-The document must feel like a useful study guide, not a file index.
+### Effective Capital
 
-Include these sections:
+$$
+\text{{Effective Capital}}
+=
+\text{{Capital}}
+\times
+\text{{Time}}
+$$
 
-## 1. Chapter Introduction
-- What this chapter is about
-- Why the topic matters
+### Profit Share
 
-## 2. Core Ideas
-- Explain the main ideas in simple language
-- Mention the typical situations covered in the chapter
+$$
+\frac{{P_1}}{{P_2}}
+=
 
-## 3. Important Formulas
-- List the key formulas clearly
-- Use display math for formulas
-- Add a short note on when each formula is used
+\frac{{C_1T_1}}{{C_2T_2}}
+$$
 
-## 4. Important Facts and Shortcuts
-- Summarize rules, patterns, and quick observations from the chapter
-- Keep them practical for revision
+Mention alternate forms and rearrangements whenever useful.
 
-## 5. How to Recognize the Problem Type
-- Mention keywords or clues from questions
-- Relate them to the chapter patterns
+More formulas are acceptable if they are genuinely useful.
 
-## 6. Common Mistakes
-- List 3-5 common mistakes students make
+---
 
-## 7. Chapter Pattern Map
-- Briefly mention the major sub-patterns discovered in this chapter
-- Keep this short, as supporting context only
+## Solution Framework
+
+Give the standard solving approach.
+
+Use numbered steps.
+
+Keep it concise.
+
+Students should be able to memorize this framework.
+
+---
+
+## Shortcut Tricks
+
+Include practical competitive exam tricks.
+
+Focus on:
+
+* ratio tricks,
+* symmetry,
+* simplifications,
+* elimination,
+* common observations,
+* mental math.
+
+Include only genuinely useful tricks.
+
+---
+
+## Common Mistakes
+
+List 5-10 common mistakes.
+
+Mention:
+
+* mistake,
+* why it happens,
+* how to avoid it.
+
+Keep each point short.
+
+---
+
+## Similar Patterns
+
+Mention nearby patterns and how to distinguish them.
+
+Focus on recognition clues.
+
+Keep this section brief.
+
+---
+
+## Revision Summary
+
+Provide a cheat sheet.
+
+### Key Formula
+
+...
+
+### Recognition Signal
+
+...
+
+### Main Trick
+
+...
+
+### Common Trap
+
+...
+
+────────────────────────
 
 Rules:
-- Use markdown headings
-- Keep the language crisp and student-friendly
-- Do not mention that the text was extracted from a PDF
-- Do not produce a table of contents or a generic outline
-- Include only content supported by the provided source text
-- Return only valid markdown
+
+* Use concise markdown.
+* Use bullets heavily.
+* Use proper LaTeX for formulas.
+* Prefer formulas over long explanations.
+* Include useful formula variations.
+* Avoid unnecessary theory.
+* Avoid historical discussion.
+* Optimize for revision and problem solving.
+* Keep the document compact but information-dense.
+
+Return only valid markdown.
+"""
+
+CHAPTER_OVERVIEW_PROMPT = """
+You are an expert mathematics educator and aptitude trainer.
+
+Create a concise and high-quality chapter overview in markdown.
+
+The document should act as a roadmap and revision sheet for the chapter.
+
+Do NOT write like a textbook.
+
+Prefer formulas, tricks, and pattern recognition over lengthy explanations.
+
+Chapter Title:
+{chapter_title}
+
+Reference Pages:
+{page_range}
+
+Source Material:
+{pdf_content}
+
+Pattern Summary:
+{pattern_summary}
+
+────────────────────────
+
+Generate markdown with the following sections.
+
+# {{chapter_title}}
+
+## Chapter Overview
+
+Explain briefly:
+
+* What this chapter is about.
+* The central idea behind the chapter.
+* Why the chapter matters.
+
+Maximum 3 short paragraphs.
+
+---
+
+## Core Concepts
+
+Explain the major ideas of the chapter.
+
+Use bullets.
+
+Keep explanations short.
+
+---
+
+## Important Formulas
+
+List ALL important formulas of the chapter.
+
+Use proper LaTeX.
+
+Include useful variations and derived formulas whenever appropriate.
+
+For each formula mention:
+
+* formula,
+* meaning,
+* when to use it.
+
+More formulas are acceptable if they are genuinely useful.
+
+---
+
+## Shortcut Tricks
+
+Include useful competitive exam tricks.
+
+Focus on:
+
+* ratio tricks,
+* symmetry,
+* simplifications,
+* observations,
+* elimination tricks,
+* mental math shortcuts.
+
+Include only genuinely useful tricks.
+
+---
+
+## Pattern Map
+
+Briefly list the major patterns discovered in this chapter.
+
+For each pattern mention:
+
+* what kind of questions belong to it,
+* one recognition clue.
+
+Keep this section concise.
+
+---
+
+## Problem Recognition Guide
+
+Mention:
+
+* common keywords,
+* common question structures,
+* what is usually GIVEN,
+* what is usually FOUND.
+
+Use bullets.
+
+---
+
+## Common Mistakes
+
+List 5-10 common mistakes students make in this chapter.
+
+For each:
+
+* mistake,
+* why it happens,
+* how to avoid it.
+
+Keep each point short.
+
+---
+
+## Revision Sheet
+
+Provide a very compact cheat sheet.
+
+### Most Important Formula
+
+...
+
+### Main Idea
+
+...
+
+### Fast Trick
+
+...
+
+### Biggest Trap
+
+...
+
+────────────────────────
+
+Rules:
+
+* Use concise markdown.
+* Use bullets heavily.
+* Use proper LaTeX for formulas.
+* Include useful formula variations.
+* Avoid unnecessary theory.
+* Avoid historical discussion.
+* Avoid textbook style.
+* Keep the document compact but information-dense.
+* Optimize for revision and problem solving.
+* Make the notes genuinely useful for competitive exams.
+
+Return only valid markdown.
 """
 
 
@@ -281,9 +500,8 @@ def create_main_pattern_overview(
     prompt = CHAPTER_OVERVIEW_PROMPT.format(
         chapter_title=Path(categorized_file).stem.replace("_categorized", ""),
         page_range=f"{pdf_pages[0]}-{pdf_pages[1]}",
-        pdf_content=(
-            f"{pdf_content[:5000]}\n\nChapter pattern summary:\n{pattern_summary}"
-        ),
+        pdf_content=pdf_content[:5000],
+        pattern_summary=pattern_summary,
     )
 
     overview = call_gemini(prompt)

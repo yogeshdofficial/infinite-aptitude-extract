@@ -66,7 +66,7 @@
           "alligation"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "solved_example",
@@ -130,7 +130,7 @@
           "combined_work"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "solved_example",
@@ -194,7 +194,7 @@
           "combined_work"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "solved_example",
@@ -258,7 +258,7 @@
           "alligation"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "solved_example",
@@ -323,7 +323,7 @@
           "combined_work"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "solved_example",
@@ -388,7 +388,7 @@
           "alligation"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "solved_example",
@@ -516,7 +516,7 @@
           "combined_work"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "solved_example",
@@ -580,7 +580,7 @@
           "combined_work"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "solved_example",
@@ -644,7 +644,7 @@
           "combined_work"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "solved_example",
@@ -709,7 +709,7 @@
           "simple_interest"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "solved_example",
@@ -773,7 +773,7 @@
           "work_and_time"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "solved_example",
@@ -837,7 +837,7 @@
           "compound_interest"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "solved_example",
@@ -899,7 +899,7 @@
           "work_and_time"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -963,7 +963,7 @@
           "work_and_time"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -1026,7 +1026,7 @@
           "time_weighted_capital_ratio"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -1090,7 +1090,7 @@
           "simple_interest"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -1153,7 +1153,7 @@
           "time_weighted_capital_ratio"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -1216,7 +1216,7 @@
           "time_weighted_capital_ratio"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -1280,7 +1280,7 @@
           "time_weighted_capital_ratio"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -1410,7 +1410,7 @@
           "time_weighted_investment"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -1475,7 +1475,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -1540,7 +1540,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -1605,7 +1605,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -1670,7 +1670,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -1735,7 +1735,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -1800,7 +1800,7 @@
           "time_weighted_investment"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -1865,7 +1865,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -1929,7 +1929,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -1996,7 +1996,7 @@
           "simple_interest_distribution"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -2058,7 +2058,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -2120,7 +2120,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -2182,7 +2182,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -2618,7 +2618,7 @@
           "time_weighted_investment"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -2681,7 +2681,7 @@
           "time_weighted_investment"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -2870,7 +2870,7 @@
           "time_weighted_investment"
         ]
       },
-      "sub_pattern": "Complex Profit Sharing"
+      "sub_pattern": "Working Partner Salary"
     },
     {
       "section": "exercise",
@@ -2996,7 +2996,7 @@
           "time_weighted_investment"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -3059,7 +3059,7 @@
           "time_weighted_investment"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -3122,7 +3122,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -3185,7 +3185,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Equivalent Units"
     },
     {
       "section": "exercise",
@@ -3317,7 +3317,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Capital Changes"
     },
     {
       "section": "exercise",
@@ -3511,7 +3511,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -3577,7 +3577,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Working Partner Salary"
     },
     {
       "section": "exercise",
@@ -3641,7 +3641,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -3705,7 +3705,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -3771,7 +3771,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Simple Partnership"
     },
     {
       "section": "exercise",
@@ -3834,7 +3834,7 @@
           "simple_partnership"
         ]
       },
-      "sub_pattern": "Basic Partnership"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -3898,7 +3898,7 @@
           "simple_interest_time_calculation"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -3962,7 +3962,7 @@
           "work_and_time_efficiency"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -4025,7 +4025,7 @@
           "simple_interest_principal_calculation"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -4088,7 +4088,7 @@
           "work_efficiency_problems"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -4151,7 +4151,7 @@
           "simple_interest_profit_sharing"
         ]
       },
-      "sub_pattern": "Capital Changes"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -4214,7 +4214,7 @@
           "simple_interest_investment"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -4277,7 +4277,7 @@
           "simple_interest_total_amount"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -4340,7 +4340,7 @@
           "work_efficiency_ratio"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -4403,7 +4403,7 @@
           "work_efficiency_inverse_ratio"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -4532,7 +4532,7 @@
           "simple_interest_ratio"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -4597,7 +4597,7 @@
           "work_and_time"
         ]
       },
-      "sub_pattern": "Missing Investment/Time"
+      "sub_pattern": "Capital/Time Calculation"
     },
     {
       "section": "exercise",
@@ -4726,7 +4726,7 @@
           "average_calculation"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",
@@ -4853,7 +4853,7 @@
           "work_and_time"
         ]
       },
-      "sub_pattern": "Capital Changes"
+      "sub_pattern": "Variable Time Phases"
     },
     {
       "section": "exercise",
@@ -4916,7 +4916,7 @@
           "simple_interest"
         ]
       },
-      "sub_pattern": "Different Durations"
+      "sub_pattern": "Different Time Periods"
     },
     {
       "section": "exercise",

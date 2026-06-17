@@ -5,7 +5,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "1",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "X, Y, and Z started a venture by contributing ₹ 1,60,000, ₹ 1,80,000, and ₹ 2,00,000 respectively. If the total annual profit is ₹ 75,600, what is the share of each partner?",
       "paraphrased_option_a": "X: ₹ 22,400, Y: ₹ 25,200, Z: ₹ 28,000",
       "paraphrased_option_b": "X: ₹ 21,000, Y: ₹ 24,000, Z: ₹ 30,600",
@@ -49,7 +49,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "2",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "Alice invested ₹ 50,000 to start a business. After 4 months, Bob joined with ₹ 80,000. After another 4 months, Charlie joined with ₹ 1,00,000. At the end of the year, they earned a profit of ₹ 29,000. What is the share of each?",
       "paraphrased_option_a": "Alice: ₹ 12,000, Bob: ₹ 9,600, Charlie: ₹ 7,400",
       "paraphrased_option_b": "Alice: ₹ 15,000, Bob: ₹ 8,000, Charlie: ₹ 6,000",
@@ -93,7 +93,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "3",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "X, Y, and Z start a business with ₹ 30,000 each. After 6 months, X withdraws ₹ 10,000, Y withdraws ₹ 5,000, and Z adds ₹ 10,000. At the end of the year, the total profit is ₹ 81,000. Find the share of each.",
       "paraphrased_option_a": "X: ₹ 22,500, Y: ₹ 26,250, Z: ₹ 32,250",
       "paraphrased_option_b": "X: ₹ 20,000, Y: ₹ 25,000, Z: ₹ 36,000",
@@ -137,7 +137,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "4",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "A, B, and C are partners. A invests twice as much as B, and B invests half of what C invests. If the total profit is ₹ 8,000, what is B's share?",
       "paraphrased_option_a": "₹ 1,600",
       "paraphrased_option_b": "₹ 2,000",
@@ -181,7 +181,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "5",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "A, B, and C invest in a ratio of $\\frac{1}{2} : \\frac{1}{3} : \\frac{1}{4}$. After 6 months, A increases his investment by 20%. If the total annual profit is ₹ 5,200, find the share of each.",
       "paraphrased_option_a": "A: ₹ 2,400, B: ₹ 1,600, C: ₹ 1,200",
       "paraphrased_option_b": "A: ₹ 2,200, B: ₹ 1,800, C: ₹ 1,200",
@@ -226,7 +226,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "6",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "A, B, and C invest ₹ 20,000, ₹ 25,000, and ₹ 15,000. A gets 20% of the profit for management. The rest is shared by capital. If A gets ₹ 1,000 more than B, what is the total profit?",
       "paraphrased_option_a": "₹ 5,000",
       "paraphrased_option_b": "₹ 6,000",
@@ -314,7 +314,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "8",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "Two people, X and Y, rent a pasture. X puts 10 horses for 4 months, Y puts 20 cows for 3 months. If 2 horses eat as much as 3 cows, what is the ratio of their rent?",
       "paraphrased_option_a": "2:3",
       "paraphrased_option_b": "3:2",
@@ -358,7 +358,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "9",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "A, B, and C rent a house for ₹ 12,000 for a year. They stay together for 3 months, then C leaves. After 3 more months, B leaves. How much rent should each pay?",
       "paraphrased_option_a": "A: ₹ 6,000, B: ₹ 4,000, C: ₹ 2,000",
       "paraphrased_option_b": "A: ₹ 5,000, B: ₹ 4,000, C: ₹ 3,000",
@@ -402,7 +402,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "10",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "X invests ₹ 80,000. After some months, Y joins with ₹ 60,000. At the end of the year, the profit is shared in a 2:1 ratio. After how many months did Y join?",
       "paraphrased_option_a": "3 months",
       "paraphrased_option_b": "4 months",
@@ -446,7 +446,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "11",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "The ratio of capital invested by two partners X and Y is 5 : 6 and the ratio of their annual profits is 4 : 5. If X invested his capital for 10 months, for how many months did Y invest his capital?",
       "paraphrased_option_a": "8 months",
       "paraphrased_option_b": "10 months",
@@ -491,7 +491,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "12",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "A, B, and C are partners. A, whose capital was invested for 3 months, claims 1/6 of the profit. B, whose capital was invested for 4 months, claims 1/3 of the profit. C invested ₹ 2400 for 6 months. What was the capital contribution of A?",
       "paraphrased_option_a": "₹ 1200",
       "paraphrased_option_b": "₹ 1600",
@@ -535,7 +535,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "13",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "P, Q, and R invest in a business in the ratio 2 : 3 : 5. After 1 year, Q adds ₹ 100,000 and R adds ₹ 100,000 after 2 years. At the end of 3 years, profits are shared in the ratio 4 : 7 : 9. Find the initial investment of P.",
       "paraphrased_option_a": "₹ 100,000",
       "paraphrased_option_b": "₹ 150,000",
@@ -579,7 +579,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "14",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "X, Y, and Z enter a partnership. Their capital contributions are in the ratio 7 : 6 : 5. At the end of the term, they share profits in the ratio 7 : 4 : 3. What is the ratio of the time periods for which they invested their capital?",
       "paraphrased_option_a": "1 : 1 : 1",
       "paraphrased_option_b": "1 : 2 : 3",
@@ -623,7 +623,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "1",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "Amit, Bimal, and Chintu started a business. Amit invested 1/4 of the capital, Bimal invested 1/5 of the capital, and the remaining capital was invested by Chintu. What is the ratio of their profits?",
       "paraphrased_option_a": "5 : 4 : 11",
       "paraphrased_option_b": "4 : 5 : 11",
@@ -667,7 +667,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "2",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "X and Y started a business by investing ₹ 90,000 and ₹ 20,000 respectively. In what ratio should the profit earned after 3 years be divided between X and Y?",
       "paraphrased_option_a": "9 : 2",
       "paraphrased_option_b": "2 : 9",
@@ -710,7 +710,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "3",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "Sita and Gita started a business investing ₹ 30,000 and ₹ 45,000 respectively. Out of a total profit of ₹ 15,000, what is Gita's share?",
       "paraphrased_option_a": "₹ 6,000",
       "paraphrased_option_b": "₹ 7,500",
@@ -754,7 +754,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "4",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Three friends, A, B, and C, rented a car for ₹ 900. They used it for 3 hours, 4 hours, and 5 hours respectively. What is C's share of the rent?",
       "paraphrased_option_a": "₹ 225",
       "paraphrased_option_b": "₹ 300",
@@ -797,7 +797,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "5",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "X, Y, and Z invested ₹ 20,000, ₹ 30,000, and ₹ 50,000 respectively. At the end of 2 years, they earned a profit of ₹ 100,000. What is Y's share in the profit?",
       "paraphrased_option_a": "₹ 20,000",
       "paraphrased_option_b": "₹ 30,000",
@@ -840,7 +840,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "6",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "A, B, and C invested ₹ 10 lakh, ₹ 15 lakh, and ₹ 5 lakh respectively. The total profit at the end of 3 years was ₹ 12 lakh. What is 50% of C's share in the profit?",
       "paraphrased_option_a": "₹ 1 lakh",
       "paraphrased_option_b": "₹ 1.5 lakh",
@@ -929,7 +929,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "8",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "Three individuals started a firm with a total capital of ₹ 4000. B invests ₹ 400 less than A, and C invests ₹ 600 less than B. What is B’s share in a total profit of ₹ 800?",
       "paraphrased_option_a": "₹ 200",
       "paraphrased_option_b": "₹ 240",
@@ -974,7 +974,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "9",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Alice and Bob are partners. Alice invests ₹ 40000 for 6 months and Bob invests ₹ 30000 for 8 months. Out of a total profit of ₹ 28000, what is Alice's share?",
       "paraphrased_option_a": "₹ 12000",
       "paraphrased_option_b": "₹ 14000",
@@ -1019,7 +1019,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "10",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Vikram started a business with ₹ 200,000. After 4 months, Sameer joined him with ₹ 250,000. They earned a profit of ₹ 1,200,000 after one year. What is Sameer's share?",
       "paraphrased_option_a": "₹ 500,000",
       "paraphrased_option_b": "₹ 550,000",
@@ -1064,7 +1064,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "11",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Raj started a business with ₹ 40000. After 4 months, Sunil joined with ₹ 60000. At the end of the year, the total profit was ₹ 24000. What is the difference between their profit shares?",
       "paraphrased_option_a": "₹ 2000",
       "paraphrased_option_b": "₹ 2400",
@@ -1109,7 +1109,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "12",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Amit started a business with ₹ 50000. Sumit joined 6 months later with ₹ 40000. What is the ratio of their profit shares after 2 years?",
       "paraphrased_option_a": "5 : 2",
       "paraphrased_option_b": "5 : 3",
@@ -1154,7 +1154,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "13",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Kiran started a business with ₹ 40000. After 8 months, Meena joined with ₹ 60000. After 2 years, they earned a profit of ₹ 20000. What was Kiran's share?",
       "paraphrased_option_a": "₹ 10000",
       "paraphrased_option_b": "₹ 12000",
@@ -1199,7 +1199,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "14",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "X, Y, and Z started a business with ₹ 3000, ₹ 6000, and ₹ 9000. After one year, the profit was distributed. If Y's share was ₹ 4000, what was the total profit?",
       "paraphrased_option_a": "₹ 8000",
       "paraphrased_option_b": "₹ 10000",
@@ -1244,7 +1244,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "15",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "A and B invested ₹ 30000 and ₹ 20000. After 6 months, C joined with ₹ 20000. What is B's share in a profit of ₹ 35000 after 2 years?",
       "paraphrased_option_a": "₹ 10000",
       "paraphrased_option_b": "₹ 12000",
@@ -1289,7 +1289,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "16",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "P started a business with ₹ 80000. Q joined after 6 months with ₹ 120000, and R joined after another 6 months with ₹ 160000. What is the profit sharing ratio after 3 years?",
       "paraphrased_option_a": "2 : 3 : 4",
       "paraphrased_option_b": "4 : 5 : 6",
@@ -1333,7 +1333,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "17",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Rahul launched a startup with an investment of ₹ 80000. Six months later, Sameer joined him by contributing ₹ 160000. After one year, Tanya also joined the partnership with ₹ 100000. If the business generated a total profit of ₹ 540000 after two years, what is Sameer's share of the profit?",
       "paraphrased_option_a": "₹ 180000",
       "paraphrased_option_b": "₹ 220000",
@@ -1380,7 +1380,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "18",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Amit, Bimal, and Chitra invested ₹ 9000, ₹ 6000, and ₹ 9000 respectively in a venture. Amit withdrew his investment after four months. If the total profit after eight months was ₹ 4600, what is Bimal's share?",
       "paraphrased_option_a": "₹ 1200",
       "paraphrased_option_b": "₹ 1380",
@@ -1422,7 +1422,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "19",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "X and Y started a business with capital in the ratio 3 : 4. After 1 year, X exited the business, but Y continued. After 2 years, the total profit earned was ₹ 35000. What is Y's share of the profit?",
       "paraphrased_option_a": "₹ 20000",
       "paraphrased_option_b": "₹ 25000",
@@ -1464,7 +1464,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "20",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "P, Q, and R enter a partnership. P invests a sum at the start, Q invests double that amount after 4 months, and R invests triple that amount after 6 months. If the annual profit is ₹ 44000, what is P's share?",
       "paraphrased_option_a": "₹ 12000",
       "paraphrased_option_b": "₹ 16000",
@@ -1758,7 +1758,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "27",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "X, Y, and Z contribute a total of ₹ 60000 to start a business. X contributes ₹ 6000 more than Y, and Y contributes ₹ 4000 more than Z. If the total annual profit is ₹ 45000, what is X's share?",
       "paraphrased_option_a": "₹ 12000",
       "paraphrased_option_b": "₹ 15000",
@@ -1802,7 +1802,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "28",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "Three partners P, Q, and R invested a total of ₹ 28000 in a business. At the end of the year, their profit shares were ₹ 675, ₹ 2250, and ₹ 1275 respectively. What is the difference between the investments of Q and P?",
       "paraphrased_option_a": "₹ 4400",
       "paraphrased_option_b": "₹ 6400",
@@ -1931,7 +1931,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "31",
-      "sub_pattern": "Complex Profit Sharing",
+      "sub_pattern": "Working Partner Salary",
       "paraphrased_question": "X is a working partner and Y is a sleeping partner. X invests ₹ 4000 and Y invests ₹ 6000. X receives 20% of the profit for management, and the remaining profit is shared in proportion to their capitals. If the total profit is ₹ 1000, what does each receive?",
       "paraphrased_option_a": "₹ 520, ₹ 480",
       "paraphrased_option_b": "₹ 550, ₹ 450",
@@ -2017,7 +2017,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "33",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "Three partners A, B, and C start a business. 4 times A's capital equals 6 times B's capital, and B's capital is 2 times C's capital. Out of a total profit of ₹ 22000, what is B's share?",
       "paraphrased_option_a": "₹ 4000",
       "paraphrased_option_b": "₹ 6000",
@@ -2060,7 +2060,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "34",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "If 2(A's capital) = 3(B's capital) = 5(C's capital), then out of a profit of ₹ 6200, what will C receive?",
       "paraphrased_option_a": "₹ 1200",
       "paraphrased_option_b": "₹ 1800",
@@ -2103,7 +2103,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "35",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "X, Y, and Z enter a partnership. X invests an amount at the start. Y invests double the amount after 4 months, and Z invests triple the amount after 6 months. If the total profit is ₹ 55000, what is Z's share?",
       "paraphrased_option_a": "₹ 10000",
       "paraphrased_option_b": "₹ 15000",
@@ -2146,7 +2146,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "36",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Equivalent Units",
       "paraphrased_question": "Four farmers rented a field. A grazed 10 cows for 5 months, B grazed 8 cows for 3 months, C grazed 12 cows for 4 months, and D grazed 15 cows for 2 months. If A's share of rent is ₹ 1000, what is C's share?",
       "paraphrased_option_a": "₹ 800",
       "paraphrased_option_b": "₹ 960",
@@ -2235,7 +2235,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "38",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Capital Changes",
       "paraphrased_question": "P, Q, and R are partners with capital shares in the ratio 1/2 : 1/3 : 1/4. P withdraws half of his capital after 10 months. If the total profit after 20 months is ₹ 5200, what is R's share?",
       "paraphrased_option_a": "₹ 1200",
       "paraphrased_option_b": "₹ 1350",
@@ -2369,7 +2369,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "41",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "In a business, X invests 1/4 of the capital for 1/4 of the time, Y invests 1/2 of the capital for 1/2 of the time, and Z invests the remaining capital for the full time. If the total profit is ₹ 5600, what is Y's share?",
       "paraphrased_option_a": "₹ 700",
       "paraphrased_option_b": "₹ 800",
@@ -2415,7 +2415,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "42",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Working Partner Salary",
       "paraphrased_question": "P, Q, and R start a business. P invests ₹ 5000 for 8 months, Q invests ₹ 6000 for 6 months, and R invests ₹ 8000 for 4 months. P receives 10% of the total profit for management. If the total profit is ₹ 9200, what is Q's share?",
       "paraphrased_option_a": "₹ 2400",
       "paraphrased_option_b": "₹ 2700",
@@ -2461,7 +2461,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "43",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "X received ₹ 4000 as his share from a total profit of ₹ 7000 earned with Y in one year. If X invested ₹ 16000 for 8 months, and Y invested his capital for the full year, what was Y's investment?",
       "paraphrased_option_a": "₹ 6000",
       "paraphrased_option_b": "₹ 8000",
@@ -2505,7 +2505,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "44",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "X, Y, and Z are partners. X invested ₹ 3000 and Y invested ₹ 2500. At the end of the year, the total profit was ₹ 1320, of which X received ₹ 480. What was Z's capital?",
       "paraphrased_option_a": "₹ 3000",
       "paraphrased_option_b": "₹ 3500",
@@ -2548,7 +2548,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "45",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Simple Partnership",
       "paraphrased_question": "X, Y, and Z enter a partnership. X contributes 1/4 of the capital, and Y contributes as much as X and Z together. If the total profit is ₹ 800, what does Z receive?",
       "paraphrased_option_a": "₹ 100",
       "paraphrased_option_b": "₹ 150",
@@ -2594,7 +2594,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "46",
-      "sub_pattern": "Basic Partnership",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "X and Y started a business. X's investment was 4 times Y's, and the duration of X's investment was 3 times Y's. If Y received ₹ 2000 as profit, what is the total profit?",
       "paraphrased_option_a": "₹ 20000",
       "paraphrased_option_b": "₹ 24000",
@@ -2637,7 +2637,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "47",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "Xavier started a venture with ₹ 24000 and was joined later by Yvette with ₹ 32000. If the annual profits were split equally, after how many months did Yvette join?",
       "paraphrased_option_a": "2",
       "paraphrased_option_b": "3",
@@ -2681,7 +2681,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "48",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "Arthur invested ₹ 90000 to start a business. He was joined later by Beatrice with ₹ 45000. For how many months did Beatrice invest if the annual profit was shared in a ratio of 4 : 1?",
       "paraphrased_option_a": "4 months",
       "paraphrased_option_b": "5 months",
@@ -2725,7 +2725,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "49",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "Alice starts a business with ₹ 4000 and after 4 months, Bob joins as a partner. After one year, the profit is divided in the ratio 3 : 2. What is Bob’s capital contribution?",
       "paraphrased_option_a": "₹ 3000",
       "paraphrased_option_b": "₹ 4000",
@@ -2768,7 +2768,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "50",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "X and Y start a business with ₹ 40000 and ₹ 50000. Z joins after $y$ months with ₹ 60000, and Y leaves $y$ months before the year ends. If the profit ratio is 16 : 15 : 18, find $y$.",
       "paraphrased_option_a": "2",
       "paraphrased_option_b": "3",
@@ -2811,7 +2811,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "51",
-      "sub_pattern": "Capital Changes",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "In a business, A invests ₹ 500 more than B. B's capital is invested for 8 months, while A's is invested for 10 months. If the total profit is ₹ 700 and B receives ₹ 100 less than A, what is A's capital?",
       "paraphrased_option_a": "₹ 2000",
       "paraphrased_option_b": "₹ 2500",
@@ -2854,7 +2854,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "52",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "X and Y start a business. X invests ₹ 20000 for 6 months and Y remains for 3 months. If Y claims $\\frac{1}{5}$ of the total profit, what was Y's capital contribution?",
       "paraphrased_option_a": "₹ 10000",
       "paraphrased_option_b": "₹ 12000",
@@ -2897,7 +2897,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "53",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "Two partners A and B invest in a ratio of 3 : 4. C joins after 4 months with an investment equal to B's. At year-end, a 25% profit was earned, totaling ₹ 100,000. What was C's investment?",
       "paraphrased_option_a": "₹ 100000",
       "paraphrased_option_b": "₹ 120000",
@@ -2940,7 +2940,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "54",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Three partners shared profit in the ratio 4 : 5 : 6. They invested for 10 months, 8 months, and 5 months respectively. What was the ratio of their investments?",
       "paraphrased_option_a": "16 : 25 : 36",
       "paraphrased_option_b": "8 : 10 : 12",
@@ -2983,7 +2983,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "55",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "A, B, and C invested in the ratio 2 : 3 : 5. If their profit shares are equal, what is the ratio of their investment durations?",
       "paraphrased_option_a": "15 : 10 : 6",
       "paraphrased_option_b": "5 : 3 : 2",
@@ -3070,7 +3070,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "57",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "Sita and Gita start a business with capital in the ratio 4 : 5. After 8 months, Sita withdraws her entire investment. If they share the total profit in the ratio 4 : 7, for how many months was Gita's capital invested?",
       "paraphrased_option_a": "10 months",
       "paraphrased_option_b": "11 months",
@@ -3115,7 +3115,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "58",
-      "sub_pattern": "Missing Investment/Time",
+      "sub_pattern": "Capital/Time Calculation",
       "paraphrased_question": "P and Q are partners. P invested $\\frac{1}{4}$ of the total capital for 8 months. If Q received $\\frac{3}{5}$ of the total profit, for how many months was Q's money invested?",
       "paraphrased_option_a": "4 months",
       "paraphrased_option_b": "6 months",
@@ -3205,7 +3205,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "60",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "Ram, Shyam, and Mohan invested ₹ 6000, ₹ 3000, and ₹ 6000 respectively. Ram left after 4 months. If the total profit after 12 months was ₹ 5500, what is Shyam's share?",
       "paraphrased_option_a": "₹ 1000",
       "paraphrased_option_b": "₹ 1100",
@@ -3292,7 +3292,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "62",
-      "sub_pattern": "Capital Changes",
+      "sub_pattern": "Variable Time Phases",
       "paraphrased_question": "In a business, B invests $\\frac{1}{3}$ of A's capital. After 4 months, C joins with an amount equal to B's investment. After 9 months, B withdraws. If C's share of the annual profit is ₹ 1600, what is the total profit?",
       "paraphrased_option_a": "₹ 5000",
       "paraphrased_option_b": "₹ 5200",
@@ -3336,7 +3336,7 @@
     {
       "chapter_title": "Chapter_14_Partnership",
       "question_number": "63",
-      "sub_pattern": "Different Durations",
+      "sub_pattern": "Different Time Periods",
       "paraphrased_question": "A, B, and C invest ₹ 10000, ₹ 12000, and ₹ 8000. B leaves after 5 months. If the total profit after 10 months is ₹ 25000, what is C's share?",
       "paraphrased_option_a": "₹ 8000",
       "paraphrased_option_b": "₹ 9000",

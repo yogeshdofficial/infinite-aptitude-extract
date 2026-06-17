@@ -12,159 +12,281 @@ You are an expert mathematics educator, curriculum designer, and competitive exa
 
 You are given ALL questions and solutions from ONE chapter.
 
-Your task is to divide the questions into well-defined groups of similar problems.
+Your task is to discover PATTERNS that are genuinely useful for students.
 
 ══════════════════════════════
 GOAL
 ══════════════════════════════
 
-The purpose of grouping is student learning.
+The purpose of these patterns is student learning.
 
-A student should be able to select one group and practice all questions in that group together.
+Students should be able to select one pattern and study all questions belonging to that pattern together.
 
-Each group should correspond to ONE lesson or ONE markdown note.
+Each pattern should correspond to ONE lesson or ONE markdown note.
 
-Questions in the same group should:
+A pattern represents:
 
-* use similar ideas,
-* use similar formulas,
-* follow similar reasoning,
-* share common shortcuts,
-* share common mistakes,
-* share common recognition clues.
+* one recognition process,
+* one mental model,
+* one solving framework,
+* one set of shortcuts,
+* one family of common mistakes.
 
-Overly broad groups are unacceptable.
+Patterns should reflect how students naturally organize problems in their minds.
 
-If a group contains many different problem setups, split it into smaller groups.
+══════════════════════════════
+MOST IMPORTANT RULE
+══════════════════════════════
 
-Groups should represent recognizable question families rather than broad chapter themes.
+Imagine you are writing a textbook or preparing coaching lectures.
+
+If two sets of questions would normally be taught in different lectures, they MUST belong to different patterns.
+
+Even if they use the same formula, separate them if they have different recognition clues or different solving frameworks.
+
+Do not optimize for the minimum number of patterns.
+
+Optimize for how a human teacher would divide the chapter into lessons.
+
+══════════════════════════════
+DO NOT GROUP ONLY BY FORMULAS
+══════════════════════════════
+
+Many questions may use the same underlying formula.
+
+This does NOT mean they belong to the same pattern.
+
+For example, in Partnership, many questions use:
+
+Profit ∝ Capital × Time
+
+However, students study these separately:
+
+* Simple Partnership
+* Different Time Periods
+* Capital Changes
+* Additional Investment
+* Withdrawal Cases
+* Working Partner
+* Salary + Share
+* Mixed Distribution
+* Find Capital
+* Find Time
+* Rent Sharing
+* Equivalent Units
+* Multiple Time Phases
+
+Using the same formula alone is NOT sufficient reason to merge patterns.
+
+══════════════════════════════
+WHAT DEFINES A PATTERN
+══════════════════════════════
+
+Patterns should differ by:
+
+1. Recognition clues.
+2. Keywords appearing in the question.
+3. Information given.
+4. Quantity to be found.
+5. Typical question structure.
+6. Solving framework.
+7. Intermediate variables introduced.
+8. Shortcuts used.
+9. Common mistakes.
+10. Whether students would benefit from a separate lesson.
 
 ══════════════════════════════
 IMPORTANT REQUIREMENTS
 ══════════════════════════════
 
-* Every question MUST belong to exactly one group.
+* Every question MUST belong to exactly one pattern.
 * No question may remain uncategorized.
-* Similar questions MUST always receive exactly the same group name.
+* Similar questions MUST always receive exactly the same pattern name.
 * Use stable and consistent names.
 * Avoid duplicate names.
-* Use concise names (prefer 1-4 words).
-* Balance specificity and generality.
-* Questions in the same group should be teachable with a single markdown note.
-* Avoid overly broad groups.
-* Avoid unnecessary tiny groups.
-* More groups are acceptable if they represent genuinely different problem types.
-* The number of groups should emerge naturally.
+* Prefer creating too many patterns rather than too few.
+* More patterns are acceptable if they represent genuinely different solving frameworks.
+* Overly broad patterns are unacceptable.
+* Catch-all patterns are unacceptable.
 
 ══════════════════════════════
-GROUPS SHOULD DIFFER BY
+AVOID CATCH-ALL PATTERNS
 ══════════════════════════════
 
-1. Typical problem setup.
-2. Information given.
-3. Quantity to be found.
-4. Keywords appearing in the question.
-5. The reasoning process.
-6. Shortcuts used.
-7. Common mistakes.
-8. Special cases.
-9. Whether a student would benefit from a separate explanation.
+The following are unacceptable:
+
+* Complex Problems
+* Advanced Problems
+* Miscellaneous
+* Mixed Problems
+* Formula Problems
+* Difficult Problems
+* Type 1
+* Type 2
+* Chapter Name
+
+These names do not explain WHY the questions belong together.
+
+Pattern names should describe the underlying idea or solving framework.
 
 ══════════════════════════════
-IMPORTANT
+GOOD PATTERN NAMES
 ══════════════════════════════
 
-Avoid creating groups that simply correspond to the chapter itself.
+Examples:
 
-For example, in a Partnership chapter:
+Simple Partnership
+Different Time Periods
+Capital Changes
+Additional Investment
+Withdrawal Cases
+Working Partner
+Salary + Share
+Mixed Distribution
+Find Capital
+Find Time
+Rent Sharing
+Equivalent Units
+Multiple Time Phases
 
-BAD:
+Find SP
+Find CP
+Profit Percentage
+Loss Percentage
+Marked Price
+Successive Change
+False Weight
+
+Combined Work
+Efficiency Ratio
+Pipes With Leak
+Men-Women-Children
+Work And Wages
+
+══════════════════════════════
+BAD PATTERN NAMES
+══════════════════════════════
 
 * Partnership Problems
-* Basic Partnership
-
-GOOD:
-
-* Equal Investment
-* Different Durations
-* Missing Investment
-* Missing Time
-* Joining Later
-* Leaving Early
-* Working Partner
-* Salary + Share
-* Admission of Partner
-* Retirement of Partner
-* Mixed Cases
-
-Similarly, in Profit and Loss:
-
-BAD:
-
 * Profit Problems
-
-GOOD:
-
-* Find SP
-* Find CP
-* Profit %
-* Loss %
-* Marked Price
-* Successive Change
-* False Weight
-* Alligation
-
-The groups should be useful for revision and practice.
-
-══════════════════════════════
-GROUP NAMES
-══════════════════════════════
-
-Group names should be:
-
-* concise,
-* memorable,
-* easy for students to recognize,
-* suitable as markdown filenames.
-
-Prefer names with 1-4 words.
-
-GOOD EXAMPLES
-
-* Find SP
-* Find CP
-* Profit %
-* Loss %
-* Successive Change
-* False Weight
-* Marked Price
-* Alligation
-* Mixture
-* Relative Speed
-* Replacement
-* Partial Work
-* Pipes With Leak
-
-BAD EXAMPLES
-
-* Finding Selling Price Given Cost Price and Profit Percentage
-* Miscellaneous
-* Type 1
+* Complex Profit Sharing
+* Basic Problems
 * Easy Questions
 * Formula Based Problems
+* Miscellaneous
+
+══════════════════════════════
+INTERNAL REASONING PROCESS
+══════════════════════════════
+
+Think deeply and perform the following steps internally before producing the final JSON.
+
+STEP 1
+
+For each question, identify:
+
+* recognition clues,
+* keywords,
+* information given,
+* quantity to be found,
+* formulas involved,
+* mental model,
+* solving framework,
+* shortcuts,
+* common mistakes.
+
+STEP 2
+
+Discover candidate question families.
+
+Questions belong to the same family if they share:
+
+* recognition process,
+* mental model,
+* solving framework,
+* shortcuts,
+* common mistakes.
+
+Imagine that one teacher could explain all questions in that family in one lecture.
+
+STEP 3
+
+Split overly broad families.
+
+If a family contains multiple recognition processes or multiple solving frameworks, split it.
+
+Prefer too many patterns rather than too few.
+
+STEP 4
+
+Merge overly narrow families.
+
+Merge only if:
+
+* recognition clues are similar,
+* solving framework is the same,
+* shortcuts are the same,
+* and students would naturally revise them together.
+
+STEP 5
+
+Simulate a student.
+
+Ask:
+
+"If I were revising this chapter, would I naturally want to practice these questions together?"
+
+If yes, group them together.
+
+If no, separate them.
+
+STEP 6
+
+Simulate a teacher.
+
+Ask:
+
+"Would I teach these questions in one lecture or separate lectures?"
+
+Questions taught in separate lectures should belong to different patterns.
+
+STEP 7
+
+Perform a final quality check.
 
 ══════════════════════════════
 QUALITY CHECK
 ══════════════════════════════
 
-Before returning the answer, verify:
+Verify:
 
-* Every question is assigned to exactly one group.
-* Similar questions share the same group name.
-* No group is excessively broad.
-* No group contains unrelated question families.
-* Each group could realistically be explained by one markdown note.
-* A student could select a group and study that topic independently.
+* every question belongs to exactly one pattern,
+* no question remains uncategorized,
+* similar questions receive identical pattern names,
+* no pattern is based on difficulty,
+* no pattern is a catch-all bucket,
+* no pattern is excessively broad,
+* each pattern has one recognition process,
+* each pattern has one solving framework,
+* each pattern could realistically be explained by one markdown note,
+* students would naturally revise the questions in that pattern together.
+
+Only after completing these steps should you return the final JSON.
+
+══════════════════════════════
+GROUP NAME RULES
+══════════════════════════════
+
+Use concise names.
+
+Prefer 2-5 words.
+
+Names should be:
+
+* memorable,
+* descriptive,
+* suitable as markdown filenames,
+* useful for revision.
 
 ══════════════════════════════
 RETURN FORMAT
@@ -173,14 +295,14 @@ RETURN FORMAT
 Return ONLY valid JSON.
 
 {{
-"groups": [
+"patterns": [
 {{
-"name": "",
+"pattern_name": "",
 "description": "",
 "question_numbers": []
 }}
 ],
-"question_to_group": {{
+"question_to_pattern": {{
 "1": "",
 "2": ""
 }}
@@ -211,7 +333,10 @@ def normalize_categorization_response(categorization: dict) -> dict:
 
     # sub_patterns = categorization.get("sub_patterns", [])
     sub_patterns = (
-        categorization.get("sub_patterns") or categorization.get("groups") or []
+        categorization.get("patterns")
+        or categorization.get("sub_patterns")
+        or categorization.get("groups")
+        or []
     )
     normalized_patterns = []
 
@@ -241,9 +366,10 @@ def normalize_categorization_response(categorization: dict) -> dict:
                     question_numbers = []
 
                 name = (
-                    pattern.get("subpattern_name")
-                    or pattern.get("pattern_name")
-                    or f"Subpattern {index}"
+                    pattern.get("pattern_name")
+                    or pattern.get("name")
+                    or pattern.get("subpattern_name")
+                    or f"Pattern {index}"
                 )
 
                 normalized_patterns.append(
