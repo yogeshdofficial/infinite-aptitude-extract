@@ -41,6 +41,7 @@ from categorization_pass import categorize_with_gemini, add_subpatterns_to_json
 from documentation_pass import (
     create_pattern_markdown_files,
     create_main_pattern_overview,
+    create_chapter_cheatsheet,
 )
 
 
@@ -471,6 +472,12 @@ def process_file(
                 output_file=str(output_dir / f"{input_path.stem}_PATTERNS_OVERVIEW.md"),
                 overwrite=False,
             )
+            # create_chapter_cheatsheet(
+            #     categorized_file=str(output_path),
+            #     pdf_path=str(input_path),
+            #     output_file=str(output_dir / f"{input_path.stem}_CHEATSHEET.md"),
+            #     overwrite=false,
+            # )
 
 
 def main():

@@ -358,6 +358,121 @@ Rules:
 Return only valid markdown.
 """
 
+CHAPTER_CHEATSHEET_PROMPT = """
+You are an expert aptitude trainer.
+
+Create a ONE-PAGE revision cheat sheet.
+
+The goal is rapid revision.
+
+Avoid lengthy explanations.
+
+Chapter Title:
+{chapter_title}
+
+Pattern Summary:
+{pattern_summary}
+
+Source Material:
+{pdf_content}
+
+---
+
+Generate markdown.
+
+# {chapter_title} Cheat Sheet
+
+## Core Idea
+
+Summarize the chapter in 2-3 sentences.
+
+---
+
+## Essential Formulas
+
+List ALL important formulas.
+
+Use LaTeX.
+
+Include useful variations.
+
+Keep explanations short.
+
+---
+
+## Shortcut Tricks
+
+Include practical competitive exam tricks.
+
+Focus on:
+
+* observations,
+* ratio tricks,
+* simplifications,
+* elimination tricks,
+* symmetry,
+* mental math.
+
+---
+
+## Pattern Map
+
+List major patterns.
+
+For each pattern:
+
+* one line description.
+
+---
+
+## Recognition Clues
+
+Common keywords.
+
+What is usually GIVEN.
+
+What is usually FOUND.
+
+---
+
+## Common Traps
+
+List common mistakes.
+
+Keep each point short.
+
+---
+
+## Revision Summary
+
+### Most Important Formula
+
+...
+
+### Main Idea
+
+...
+
+### Fastest Trick
+
+...
+
+### Biggest Trap
+
+...
+
+Rules:
+
+* concise,
+* information dense,
+* bullet points,
+* LaTeX formulas,
+* revision oriented,
+* no textbook style.
+
+Return markdown only.
+"""
+
 
 def extract_pdf_pages(pdf_path: str, start_page: int, end_page: int) -> str:
     """Extract text from PDF pages."""
@@ -514,3 +629,54 @@ def create_main_pattern_overview(
         f.write(overview)
 
     print(f"  ✓ Overview: {output_file}")
+
+
+def create_chapter_cheatsheet(
+    categorized_file: str,
+    pdf_path: str,
+    pdf_pages: tuple,
+    output_file: str = "CHAPTER_CHEATSHEET.md",
+    overwrite: bool = True,
+) -> None:
+    """Create a chapter cheat sheet for the current chapter."""
+
+    output_path = Path(output_file)
+    if not overwrite and output_path.exists():
+        print(f"  ✓ Cheat sheet already exists: {output_file}")
+        return
+
+    with open(categorized_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    questions = data.get("questions", []) if isinstance(data, dict) else data
+
+    pdf_content = extract_pdf_pages(pdf_path, pdf_pages[0], pdf_pages[1])
+
+    patterns_map = {}
+    for item in questions:
+        pattern = item.get("sub_pattern", "Uncategorized")
+        patterns_map.setdefault(pattern, []).append(item["question_number"])
+
+    pattern_summary = "\n".join(
+        f"- {pattern}: {len(qs)} questions"
+        for pattern, qs in sorted(patterns_map.items())
+    )
+
+    prompt = CHAPTER_CHEATSHEET_PROMPT.format(
+        chapter_title=Path(categorized_file).stem.replace("_categorized", ""),
+        pattern_summary=pattern_summary,
+        pdf_content=pdf_content[:5000],
+    )
+
+    cheatsheet = call_gemini(prompt)
+
+    if not cheatsheet or len(cheatsheet.strip()) < 100:
+        cheatsheet = (
+            "# Chapter Cheat Sheet\n\n"
+            "*Failed to generate chapter cheat sheet. Please retry.*"
+        )
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(cheatsheet)
+
+    print(f"  ✓ Cheat sheet: {output_file}")
