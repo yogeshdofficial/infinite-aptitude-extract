@@ -65,8 +65,7 @@
         "confusing_patterns": [
           "alligation"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "solved_example",
@@ -129,8 +128,7 @@
         "confusing_patterns": [
           "combined_work"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "solved_example",
@@ -193,8 +191,7 @@
         "confusing_patterns": [
           "combined_work"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "solved_example",
@@ -257,8 +254,7 @@
         "confusing_patterns": [
           "alligation"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "solved_example",
@@ -322,8 +318,7 @@
         "confusing_patterns": [
           "combined_work"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "solved_example",
@@ -387,8 +382,7 @@
         "confusing_patterns": [
           "alligation"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "solved_example",
@@ -451,8 +445,7 @@
         "confusing_patterns": [
           "combined_work"
         ]
-      },
-      "sub_pattern": "Complex Profit Sharing"
+      }
     },
     {
       "section": "solved_example",
@@ -515,8 +508,7 @@
         "confusing_patterns": [
           "combined_work"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "solved_example",
@@ -579,8 +571,7 @@
         "confusing_patterns": [
           "combined_work"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "solved_example",
@@ -643,8 +634,7 @@
         "confusing_patterns": [
           "combined_work"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "solved_example",
@@ -708,8 +698,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "solved_example",
@@ -772,8 +761,7 @@
         "confusing_patterns": [
           "work_and_time"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "solved_example",
@@ -836,8 +824,7 @@
         "confusing_patterns": [
           "compound_interest"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "solved_example",
@@ -898,8 +885,7 @@
         "confusing_patterns": [
           "work_and_time"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -962,8 +948,7 @@
         "confusing_patterns": [
           "work_and_time"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -1025,8 +1010,7 @@
         "confusing_patterns": [
           "time_weighted_capital_ratio"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -1089,8 +1073,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -1152,8 +1135,7 @@
         "confusing_patterns": [
           "time_weighted_capital_ratio"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -1215,8 +1197,7 @@
         "confusing_patterns": [
           "time_weighted_capital_ratio"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -1279,8 +1260,7 @@
         "confusing_patterns": [
           "time_weighted_capital_ratio"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -1344,8 +1324,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Complex Profit Sharing"
+      }
     },
     {
       "section": "exercise",
@@ -1409,8 +1388,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -1474,8 +1452,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -1539,8 +1516,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -1604,8 +1580,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -1669,8 +1644,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -1734,8 +1708,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -1799,8 +1772,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -1864,8 +1836,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -1928,8 +1899,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -1995,8 +1965,7 @@
         "confusing_patterns": [
           "simple_interest_distribution"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -2057,8 +2026,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -2119,8 +2087,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -2181,8 +2148,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -2243,8 +2209,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -2305,8 +2270,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -2367,8 +2331,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -2429,8 +2392,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -2491,8 +2453,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -2553,8 +2514,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -2617,8 +2577,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -2680,8 +2639,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -2743,8 +2701,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -2806,8 +2763,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Complex Profit Sharing"
+      }
     },
     {
       "section": "exercise",
@@ -2869,8 +2825,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Complex Profit Sharing"
+      }
     },
     {
       "section": "exercise",
@@ -2932,8 +2887,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Complex Profit Sharing"
+      }
     },
     {
       "section": "exercise",
@@ -2995,8 +2949,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -3058,8 +3011,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -3121,8 +3073,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -3184,8 +3135,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -3250,8 +3200,7 @@
         "confusing_patterns": [
           "time_weighted_investment"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -3316,8 +3265,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -3380,8 +3328,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -3444,8 +3391,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -3510,8 +3456,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -3576,8 +3521,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -3640,8 +3584,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -3704,8 +3647,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -3770,8 +3712,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -3833,8 +3774,7 @@
         "confusing_patterns": [
           "simple_partnership"
         ]
-      },
-      "sub_pattern": "Basic Partnership"
+      }
     },
     {
       "section": "exercise",
@@ -3897,8 +3837,7 @@
         "confusing_patterns": [
           "simple_interest_time_calculation"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -3961,8 +3900,7 @@
         "confusing_patterns": [
           "work_and_time_efficiency"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -4024,8 +3962,7 @@
         "confusing_patterns": [
           "simple_interest_principal_calculation"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -4087,8 +4024,7 @@
         "confusing_patterns": [
           "work_efficiency_problems"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -4150,8 +4086,7 @@
         "confusing_patterns": [
           "simple_interest_profit_sharing"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -4213,8 +4148,7 @@
         "confusing_patterns": [
           "simple_interest_investment"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -4276,8 +4210,7 @@
         "confusing_patterns": [
           "simple_interest_total_amount"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -4339,8 +4272,7 @@
         "confusing_patterns": [
           "work_efficiency_ratio"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -4402,8 +4334,7 @@
         "confusing_patterns": [
           "work_efficiency_inverse_ratio"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -4466,8 +4397,7 @@
         "confusing_patterns": [
           "simple_interest_with_deductions"
         ]
-      },
-      "sub_pattern": "Complex Profit Sharing"
+      }
     },
     {
       "section": "exercise",
@@ -4531,8 +4461,7 @@
         "confusing_patterns": [
           "simple_interest_ratio"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -4596,8 +4525,7 @@
         "confusing_patterns": [
           "work_and_time"
         ]
-      },
-      "sub_pattern": "Missing Investment/Time"
+      }
     },
     {
       "section": "exercise",
@@ -4661,8 +4589,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -4725,8 +4652,7 @@
         "confusing_patterns": [
           "average_calculation"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -4788,8 +4714,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -4852,8 +4777,7 @@
         "confusing_patterns": [
           "work_and_time"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     },
     {
       "section": "exercise",
@@ -4915,8 +4839,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Different Durations"
+      }
     },
     {
       "section": "exercise",
@@ -4980,8 +4903,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Capital Changes"
+      }
     }
   ]
 }

@@ -8,48 +8,186 @@ from typing import Optional
 from gemini_utils import call_gemini
 
 CATEGORIZATION_PROMPT = """
-You are an expert mathematics educator. Analyze the following questions and solutions.
+You are an expert mathematics educator, curriculum designer, and competitive exam trainer.
 
-Your task: Identify and categorize these into DISTINCT SUB-PATTERNS based on:
-1. The specific mathematical technique or formula required
-2. The problem setup and type of information given
-3. The solution approach and steps involved
-4. The conceptual understanding needed
+You are given ALL questions and solutions from ONE chapter.
 
-IMPORTANT GUIDELINES:
-- 3-8 patterns maximum (not too fragmented)
-- Pattern names should be DESCRIPTIVE and ACTIONABLE (e.g., "Finding Cost Price from Given Loss" not just "Loss Problems")
-- Each pattern must have a UNIQUE solution approach
-- Group problems only if they use the SAME technique
+Your task is to divide the questions into well-defined groups of similar problems.
 
-Pattern criteria:
-- Should differ in HOW problems are solved
-- Should differ in what's GIVEN vs what's to be FOUND
-- Can be recognized by KEYWORDS and PROBLEM STRUCTURE
+══════════════════════════════
+GOAL
+══════════════════════════════
 
-Example good patterns:
-- "Finding Profit/Loss Percentage from CP and SP"
-- "Finding Selling Price Given Cost Price and Profit Percentage"  
-- "Finding Cost Price from Loss Percentage and Selling Price"
+The purpose of grouping is student learning.
 
-For EACH question, determine the simplest, most specific pattern that fits.
+A student should be able to select one group and practice all questions in that group together.
 
-Return valid JSON ONLY (no explanations):
+Each group should correspond to ONE lesson or ONE markdown note.
+
+Questions in the same group should:
+
+* use similar ideas,
+* use similar formulas,
+* follow similar reasoning,
+* share common shortcuts,
+* share common mistakes,
+* share common recognition clues.
+
+Overly broad groups are unacceptable.
+
+If a group contains many different problem setups, split it into smaller groups.
+
+Groups should represent recognizable question families rather than broad chapter themes.
+
+══════════════════════════════
+IMPORTANT REQUIREMENTS
+══════════════════════════════
+
+* Every question MUST belong to exactly one group.
+* No question may remain uncategorized.
+* Similar questions MUST always receive exactly the same group name.
+* Use stable and consistent names.
+* Avoid duplicate names.
+* Use concise names (prefer 1-4 words).
+* Balance specificity and generality.
+* Questions in the same group should be teachable with a single markdown note.
+* Avoid overly broad groups.
+* Avoid unnecessary tiny groups.
+* More groups are acceptable if they represent genuinely different problem types.
+* The number of groups should emerge naturally.
+
+══════════════════════════════
+GROUPS SHOULD DIFFER BY
+══════════════════════════════
+
+1. Typical problem setup.
+2. Information given.
+3. Quantity to be found.
+4. Keywords appearing in the question.
+5. The reasoning process.
+6. Shortcuts used.
+7. Common mistakes.
+8. Special cases.
+9. Whether a student would benefit from a separate explanation.
+
+══════════════════════════════
+IMPORTANT
+══════════════════════════════
+
+Avoid creating groups that simply correspond to the chapter itself.
+
+For example, in a Partnership chapter:
+
+BAD:
+
+* Partnership Problems
+* Basic Partnership
+
+GOOD:
+
+* Equal Investment
+* Different Durations
+* Missing Investment
+* Missing Time
+* Joining Later
+* Leaving Early
+* Working Partner
+* Salary + Share
+* Admission of Partner
+* Retirement of Partner
+* Mixed Cases
+
+Similarly, in Profit and Loss:
+
+BAD:
+
+* Profit Problems
+
+GOOD:
+
+* Find SP
+* Find CP
+* Profit %
+* Loss %
+* Marked Price
+* Successive Change
+* False Weight
+* Alligation
+
+The groups should be useful for revision and practice.
+
+══════════════════════════════
+GROUP NAMES
+══════════════════════════════
+
+Group names should be:
+
+* concise,
+* memorable,
+* easy for students to recognize,
+* suitable as markdown filenames.
+
+Prefer names with 1-4 words.
+
+GOOD EXAMPLES
+
+* Find SP
+* Find CP
+* Profit %
+* Loss %
+* Successive Change
+* False Weight
+* Marked Price
+* Alligation
+* Mixture
+* Relative Speed
+* Replacement
+* Partial Work
+* Pipes With Leak
+
+BAD EXAMPLES
+
+* Finding Selling Price Given Cost Price and Profit Percentage
+* Miscellaneous
+* Type 1
+* Easy Questions
+* Formula Based Problems
+
+══════════════════════════════
+QUALITY CHECK
+══════════════════════════════
+
+Before returning the answer, verify:
+
+* Every question is assigned to exactly one group.
+* Similar questions share the same group name.
+* No group is excessively broad.
+* No group contains unrelated question families.
+* Each group could realistically be explained by one markdown note.
+* A student could select a group and study that topic independently.
+
+══════════════════════════════
+RETURN FORMAT
+══════════════════════════════
+
+Return ONLY valid JSON.
+
 {{
-  "sub_patterns": [
-    {{
-      "pattern_name": "Descriptive pattern name",
-      "description": "Brief description of technique/approach",
-      "question_numbers": ["1", "2", "3"]
-    }}
-  ],
-  "question_to_pattern": {{
-    "1": "Pattern Name",
-    "2": "Pattern Name"
-  }}
+"groups": [
+{{
+"name": "",
+"description": "",
+"question_numbers": []
+}}
+],
+"question_to_group": {{
+"1": "",
+"2": ""
+}}
 }}
 
-Questions and Solutions:
+Questions and solutions:
+
 {questions_solutions}
 """
 
@@ -61,9 +199,9 @@ def format_for_gemini(questions_solutions: list[dict]) -> str:
         formatted.append(f"""
 Q{item['question_number']}: {item.get('question_text', item.get('question', ''))}
 
-Solution: {item['solution'][:500]}...
+Solution: {item['solution']}...
 """)
-    return "\n---\n".join(formatted[:20])  # Limit to first 20 to avoid token overflow
+    return "\n---\n".join(formatted)  # Limit to first 20 to avoid token overflow
 
 
 def normalize_categorization_response(categorization: dict) -> dict:
@@ -71,7 +209,10 @@ def normalize_categorization_response(categorization: dict) -> dict:
     if not isinstance(categorization, dict):
         return {}
 
-    sub_patterns = categorization.get("sub_patterns", [])
+    # sub_patterns = categorization.get("sub_patterns", [])
+    sub_patterns = (
+        categorization.get("sub_patterns") or categorization.get("groups") or []
+    )
     normalized_patterns = []
 
     if isinstance(sub_patterns, dict):
@@ -85,7 +226,7 @@ def normalize_categorization_response(categorization: dict) -> dict:
 
             normalized_patterns.append(
                 {
-                    "pattern_name": str(pattern_name),
+                    "subpattern_name": str(pattern_name),
                     "description": "",
                     "question_numbers": normalized_question_numbers,
                 }
@@ -99,11 +240,15 @@ def normalize_categorization_response(categorization: dict) -> dict:
                 elif not isinstance(question_numbers, list):
                     question_numbers = []
 
+                name = (
+                    pattern.get("subpattern_name")
+                    or pattern.get("pattern_name")
+                    or f"Subpattern {index}"
+                )
+
                 normalized_patterns.append(
                     {
-                        "pattern_name": str(
-                            pattern.get("pattern_name", f"Pattern {index}")
-                        ),
+                        "subpattern_name": str(name),
                         "description": str(pattern.get("description", "")),
                         "question_numbers": [str(q) for q in question_numbers],
                     }
@@ -111,24 +256,30 @@ def normalize_categorization_response(categorization: dict) -> dict:
             elif isinstance(pattern, str):
                 normalized_patterns.append(
                     {
-                        "pattern_name": pattern,
+                        "subpattern_name": pattern,
                         "description": "",
                         "question_numbers": [],
                     }
                 )
 
-    question_to_pattern = categorization.get("question_to_pattern", {})
+    # question_to_pattern = categorization.get("question_to_pattern", {})
+    question_to_pattern = (
+        categorization.get("question_to_pattern")
+        or categorization.get("question_to_group")
+        or {}
+    )
     if not isinstance(question_to_pattern, dict):
         question_to_pattern = {}
 
     derived_question_to_pattern = {}
+
     for pattern in normalized_patterns:
         for qnum in pattern.get("question_numbers", []):
-            derived_question_to_pattern[str(qnum)] = pattern["pattern_name"]
-
+            derived_question_to_pattern[str(qnum)] = pattern["subpattern_name"]
     for qnum, pattern_name in derived_question_to_pattern.items():
         question_to_pattern.setdefault(qnum, pattern_name)
-
+    for pattern in normalized_patterns:
+        pattern["pattern_name"] = pattern["subpattern_name"]
     categorization["sub_patterns"] = normalized_patterns
     categorization["question_to_pattern"] = {
         str(question_number): str(pattern_name)
@@ -150,6 +301,7 @@ def categorize_with_gemini(questions_solutions: list[dict]) -> Optional[dict]:
         json_match = re.search(r"\{.*\}", response, re.DOTALL)
         if json_match:
             categorization = json.loads(json_match.group())
+            print(json.dumps(categorization, indent=2))
             return normalize_categorization_response(categorization)
     except json.JSONDecodeError as e:
         print(f"Failed to parse Gemini response: {e}")
