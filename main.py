@@ -41,7 +41,7 @@ from categorization_pass import categorize_with_gemini, add_subpatterns_to_json
 from documentation_pass import (
     create_pattern_markdown_files,
     create_main_pattern_overview,
-    create_chapter_cheatsheet,
+    create_chapter_cheatsheet_v2,
 )
 
 
@@ -408,6 +408,7 @@ def process_file(
             # Extract Q&S pairs
             qs_pairs = [
                 {
+                    "section": q["section"],
                     "question_number": q["question_number"],
                     "question_text": q.get("question_text", q.get("question", "")),
                     "solution": q.get("solution", ""),
@@ -437,6 +438,15 @@ def process_file(
                 print(f"  → Categorized JSON: {categorized_path}")
                 export_flattened_ai_enrichment(categorized_path)
                 output_path = categorized_path  # Update for next pass
+            else:
+                raise RuntimeError(
+                    "Categorization (Pass 4) failed to produce any patterns. "
+                    "Refusing to continue with --generate-docs, since Pass 5 "
+                    "groups documentation strictly by sub_pattern, and every "
+                    "question would otherwise be silently written as "
+                    "'Uncategorized'. Re-run with --categorize once the "
+                    "underlying API/parsing issue is fixed."
+                )
 
     # PASS 5: DOCUMENTATION GENERATION
     if args.generate_docs:
@@ -472,12 +482,12 @@ def process_file(
                 output_file=str(output_dir / f"{input_path.stem}_PATTERNS_OVERVIEW.md"),
                 overwrite=False,
             )
-            # create_chapter_cheatsheet(
-            #     categorized_file=str(output_path),
-            #     pdf_path=str(input_path),
-            #     output_file=str(output_dir / f"{input_path.stem}_CHEATSHEET.md"),
-            #     overwrite=false,
-            # )
+
+            create_chapter_cheatsheet_v2(
+                categorized_file=str(output_path),
+                output_file=str(output_dir / f"{input_path.stem}_CHEATSHEET.md"),
+                overwrite=False,
+            )
 
 
 def main():

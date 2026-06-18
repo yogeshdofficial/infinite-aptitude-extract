@@ -39,6 +39,103 @@ def _latex_formula(formula: str) -> str:
     return f"${text}$"
 
 
+def _fix_currency_inside_math_boundary(text: str) -> tuple[str, int]:
+    """
+    Safety net for a specific real bug: a closing \\right) or \\right]
+    immediately followed by '= ₹ <number>' BEFORE the closing $, which
+    pulls the currency symbol and amount inside KaTeX math mode where
+    ₹ is not a valid symbol and breaks rendering.
+
+    Example of the bug this fixes:
+        "$\\left(\\frac{12}{5}\\times15\\right) = ₹ 36$"
+    becomes:
+        "$\\left(\\frac{12}{5}\\times15\\right)$ = ₹ 36"
+
+    Deliberately narrow: only triggers on the confirmed \\right)/\\right]
+    immediately-before-currency shape, so it does not touch other ₹
+    placements (e.g. "$75,600 \\times \\frac{8}{27} = ₹ 22,400$") that
+    are a different, less clearly broken shape.
+    """
+    if not text or "₹" not in text or "\\right" not in text:
+        return text, 0
+
+    pattern = re.compile(r"(\\right[\)\]])(\s*=\s*)(₹\s*[\d,]+(?:\.\d+)?)(\$)")
+    fix_count = 0
+
+    def _fix(m):
+        nonlocal fix_count
+        fix_count += 1
+        right_paren, eq, currency_part, dollar = m.groups()
+        return f"{right_paren}{dollar}{eq}{currency_part}"
+
+    fixed = pattern.sub(_fix, text)
+    return fixed, fix_count
+
+
+def _fix_bare_fractions(text: str) -> tuple[str, int]:
+    """
+    Safety net: find digit/digit fractions sitting outside $...$ and
+    wrap them as \\frac{a}{b}. Returns (fixed_text, number_of_fixes).
+
+    This exists because the LLM is asked to never emit bare fractions,
+    but prompts are not 100% reliable — this catches what slips through
+    before it reaches the final JSON.
+    """
+    if not text or "/" not in text:
+        return text, 0
+
+    # Split on $...$ blocks so we never touch text already inside LaTeX.
+    parts = re.split(r"(\$[^$]*\$)", text)
+    fix_count = 0
+    bare_fraction = re.compile(r"\b(\d+)\s*/\s*(\d+)\b")
+
+    for i, part in enumerate(parts):
+        if part.startswith("$") and part.endswith("$"):
+            continue  # already LaTeX, leave untouched
+
+        def _wrap(m):
+            nonlocal fix_count
+            fix_count += 1
+            return f"$\\frac{{{m.group(1)}}}{{{m.group(2)}}}$"
+
+        parts[i] = bare_fraction.sub(_wrap, part)
+
+    return "".join(parts), fix_count
+
+
+def fix_latex_in_ai_enrichment(ai_enrichment: dict) -> dict:
+    """
+    Run LaTeX safety-net fixes over the human-readable text fields:
+    1. Bare fractions (1/4) sitting outside $...$.
+    2. Currency symbols pulled inside math mode right after \\right).
+    Mutates and returns ai_enrichment. Logs how many fixes were applied.
+    """
+    text_fields = [
+        "paraphrased_question",
+        "traditional_solution",
+        "shortcut_solution",
+    ]
+    total_fixes = 0
+    for field in text_fields:
+        value = ai_enrichment.get(field)
+        if isinstance(value, str) and value:
+            value, frac_fixes = _fix_bare_fractions(value)
+            value, currency_fixes = _fix_currency_inside_math_boundary(value)
+            count = frac_fixes + currency_fixes
+            if count:
+                ai_enrichment[field] = value
+                total_fixes += count
+
+    if total_fixes:
+        qn = ai_enrichment.get("question_number", "?")
+        print(
+            f"[latex-fix] auto-wrapped {total_fixes} bare fraction(s)"
+            f" (question {qn})"
+        )
+
+    return ai_enrichment
+
+
 def normalize_ai_enrichment(ai_enrichment: dict, chapter_name: str) -> dict:
     """Normalize AI enrichment structure and content for stable downstream usage."""
     ai = dict(ai_enrichment or {})
@@ -57,6 +154,8 @@ def normalize_ai_enrichment(ai_enrichment: dict, chapter_name: str) -> dict:
 
     ai["formulas_used"] = [_latex_formula(str(item)) for item in formulas if item]
     ai.pop("formulae_used", None)
+
+    ai = fix_latex_in_ai_enrichment(ai)
 
     return ai
 
@@ -162,13 +261,29 @@ def enrich_question_batch(
         "required": ["items"],
     }
 
+    expected_count = len(payload)
+
+    def _validate_item_count(result):
+        items = result.get("items") if isinstance(result, dict) else None
+        if not isinstance(items, list) or len(items) != expected_count:
+            got = len(items) if isinstance(items, list) else "no"
+            raise ValueError(
+                f"Expected {expected_count} enrichments, got {got} "
+                "(likely a degenerate generation, e.g. the model looped "
+                "on a tricky question and burned the token budget)"
+            )
+
     result = call_gemini_text(
         client=client,
         model=model,
         prompt=prompt,
         response_schema=schema,
         rate_limiter=rate_limiter,
+        validate=_validate_item_count,
     )
+
+    if result is None:
+        return None
 
     return result["items"]
 

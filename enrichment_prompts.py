@@ -35,6 +35,24 @@ Choose new numbers carefully so that:
 • ugly fractions are avoided
 • the resulting answer is similar in complexity to the original answer
 
+If the question involves two or more unknowns whose values are tied
+together by several simultaneous ratio or equation constraints at
+once (for example: investments changing at different points in time,
+a profit split governed by more than one ratio at once, or working
+backward from a final ratio to several initial unknowns), finding
+brand-new numbers that satisfy every constraint AND produce a clean
+final answer is a hard search, not a simple substitution. In that
+situation, do not spend extra effort hunting for new numbers:
+
+• keep the original question's numbers exactly as given,
+• only change names, objects, and wording,
+• the worked solution may then reuse the original numeric values.
+
+This is the correct, intended choice for such questions — it is not
+a fallback or a lesser-quality output. Preserving structure and
+wording variety is what matters for these; clean new numbers matter
+far less than not getting stuck searching for them.
+
 Do not make unnecessary changes.
 
 Students familiar with the original problem should immediately recognize the pattern.
@@ -57,6 +75,11 @@ Preserve:
 Do not merely reorder options.
 
 Generate natural distractors.
+
+If you kept the original numbers under the escape hatch above
+(because of multiple simultaneous unknowns), keep the original
+options in the same positions as well, rather than inventing new
+distractors around numbers that did not change.
 
 Return:
 
@@ -134,9 +157,47 @@ Stay close to the original method.
 
 Use the same approach as the textbook whenever possible.
 
-Explain like an experienced teacher.
+Write for a BEGINNER who is seeing this pattern for the first time.
+Assume they know basic arithmetic, ratios, and percentages, but
+nothing about this specific trick or pattern.
 
-The solution should teach the student how to think.
+──────────────────────────────
+THE "WHY" RULE (most important rule in this section)
+──────────────────────────────
+
+Every time you write a step that is not immediately obvious,
+add a short clause explaining WHY that step is valid — not just WHAT
+it computes.
+
+A step needs a "why" if a beginner could reasonably ask:
+"wait, where did that come from?" or "why are we allowed to do that?"
+
+A step does NOT need a "why" if it is pure arithmetic
+(e.g. multiplying two numbers, simplifying a fraction).
+
+Bad (states the step, hides the reasoning):
+"A's profit share is $\frac{1}{5}$."
+
+Good (states the step AND why it is true):
+"Since the capitals are in the ratio $1:1:3$, A and B each get
+$\frac{1}{5}$ of the total capital, so A's profit share is also
+$\frac{1}{5}$ of the total profit."
+
+Bad:
+"C's ratio = $\frac{1}{3}$ of (A+B)'s ratio."
+
+Good:
+"C's share is 1/4 of the total profit, which means A and B together
+get the remaining 3/4. So C's ratio must equal $\frac{1}{3}$ of
+A and B's combined ratio, because $\frac{1}{4} = \frac{1}{3}\times\frac{3}{4}$."
+
+This is the single biggest difference between a confusing solution
+and a clear one. Apply it consistently, especially at the step where
+a ratio, a fraction-of-total, or a substitution first appears.
+
+──────────────────────────────
+GENERAL STYLE
+──────────────────────────────
 
 Show the reasoning behind each major step.
 
@@ -152,7 +213,8 @@ Show every important intermediate calculation.
 
 Do not skip algebraic steps.
 
-The solution should feel like a teacher solving the problem on a board.
+The solution should feel like a teacher solving the problem on a board,
+pausing exactly at the points where a student would normally get lost.
 
 Avoid robotic wording.
 
@@ -168,17 +230,15 @@ First,
 
 Next,
 
+Since,
+
+Because,
+
 Therefore,
 
 Hence,
 
-Because,
-
-Since,
-
 Thus,
-
-The explanation should be concise but sufficiently detailed for a student seeing the pattern for the first time.
 
 Never assume that the student already understands the method.
 
@@ -196,7 +256,8 @@ The solution should appear final and polished.
 
 Aim for approximately 5–15 short lines.
 
-Balance explanation and brevity.
+Balance explanation and brevity: explain every non-obvious step,
+but do not pad obvious arithmetic with unnecessary words.
 
 The solution should be easy to read on a mobile phone.
 
@@ -211,6 +272,13 @@ If no genuine shortcut exists:
 
 provide a shorter version of the traditional solution.
 
+The shortcut_solution is allowed to skip explanations
+ONLY for steps already explained in traditional_solution.
+
+If the shortcut introduces a NEW idea not present in
+traditional_solution (e.g. a direct ratio trick), it still needs
+one short clause of "why", using the same WHY RULE as above.
+
 Never leave shortcut_solution empty.
 
 Never invent unrealistic tricks.
@@ -221,7 +289,7 @@ Keep the shortcut concise and easy to remember.
 LATEX
 ══════════════════════════════
 
-Render EVERY mathematical expression using LaTeX.
+Render EVERY mathematical expression using LaTeX. No exceptions.
 
 Apply this to:
 
@@ -231,7 +299,85 @@ Apply this to:
 • traditional_solution
 • shortcut_solution
 
-Examples:
+──────────────────────────────
+ABSOLUTE FRACTION RULE
+──────────────────────────────
+
+ANY number written as a fraction — including inside a normal English
+sentence, including "1/4 of the capital", including ratio-derived
+fractions like "1/5 of the profit" — MUST be wrapped as
+$\frac{a}{b}$.
+
+There is no such thing as a "casual" fraction that can stay as plain
+text. If you write a "/" between two numbers anywhere in the output,
+that is a bug.
+
+WRONG (plain-text fraction mixed into a sentence):
+"A and B get half of 2/5 each, which is 1/5."
+
+CORRECT:
+"A and B each get half of $\frac{2}{5}$, which is $\frac{1}{5}$."
+
+WRONG (real bug seen in production — fraction in the question itself):
+"Amit invested 1/4 of the capital, Bimal invested 1/5 of the capital"
+
+CORRECT:
+"Amit invested $\frac{1}{4}$ of the capital, Bimal invested
+$\frac{1}{5}$ of the capital"
+
+This rule applies identically inside paraphrased_question. A fraction
+appearing in the question text is just as much a bug as one appearing
+in the solution.
+
+──────────────────────────────
+CURRENCY AND PERCENT BOUNDARIES (real bug seen in production)
+──────────────────────────────
+
+The ₹ symbol and the % sign are NOT math symbols. They must never sit
+inside a $...$ block without being properly handled, and they must
+never straddle the boundary of one.
+
+WRONG (real bug — ₹ and the final number get pulled inside the math
+block, right after \right), with no \text{} wrapper around them):
+"Cost price of 15 oranges = $\left( \frac{12}{5} \times 15 \right) = ₹ 36$."
+
+The closing $ in that example landed AFTER "₹ 36" instead of right
+after \right). This puts a bare ₹ character inside KaTeX math mode,
+where it is not a valid math symbol, breaking the render.
+
+CORRECT — close the $ block immediately after the LaTeX expression
+ends, then write ₹ and the number as plain text outside it:
+"Cost price of 15 oranges = $\left(\frac{12}{5}\times15\right)$ = ₹36."
+
+Rule: the $ ... $ boundary must end exactly where the LaTeX expression
+ends. Never let plain text (₹, a currency amount, a word like "profit")
+fall inside the $ ... $ block. Never let the closing $ trail behind
+the actual end of the math.
+
+Same rule applies to %. If a percent sign is the final result of a
+calculation, prefer keeping the whole expression — including the %
+— inside one clean $...$ block using \%, rather than splitting % awkwardly
+across the boundary:
+
+WRONG (the boundary is unclear — \% sits right at the edge with a
+trailing $ placed inconsistently):
+"Profit percentage = $\left( \frac{9}{36} \times 100 \right) \% = 25\%$."
+
+CORRECT (entire calculation including \% stays inside one $...$ block,
+with the $ closing immediately after the last character of the math,
+no trailing plain text inside it):
+"Profit percentage = $\left(\frac{9}{36}\times100\right)\% = 25\%$"
+
+The test before finalizing: read the characters immediately before
+the closing $ in every formula. If those characters are ₹ followed by
+a plain number, or any word, that $ is misplaced — move it to
+immediately after the last LaTeX command/symbol instead.
+
+──────────────────────────────
+OTHER MATH SYMBOLS
+──────────────────────────────
+
+Use:
 
 $\frac{a}{b}$
 
@@ -249,7 +395,24 @@ $35:10:9$
 
 ₹ $\frac{2430\times10}{54}$
 
-Never mix plain text mathematics and LaTeX.
+Percentages: write $50\%$, never plain "50%", whenever the number is
+part of a calculation or being combined with other math. (Plain "50%"
+in an ordinary sentence with no other math around it is acceptable,
+but when in doubt, wrap it.)
+
+──────────────────────────────
+NO MIXING WITHIN A SENTENCE
+──────────────────────────────
+
+Never mix plain text mathematics and LaTeX in the same sentence or
+the same field.
+
+WRONG:
+"C gets 3/5. Remainder is 2/5. Ratio of capitals = $1:1:3$."
+
+CORRECT:
+"C gets $\frac{3}{5}$. Remainder is $\frac{2}{5}$. Ratio of capitals
+= $1:1:3$."
 
 Never output escaped LaTeX such as:
 
@@ -262,6 +425,25 @@ Output proper LaTeX:
 \frac
 
 \sqrt
+
+──────────────────────────────
+SELF-CHECK BEFORE RETURNING
+──────────────────────────────
+
+Before finalizing each item, re-scan paraphrased_question,
+traditional_solution, and shortcut_solution for the character "/"
+appearing between two numbers (e.g. 1/4, 3/5, 75600/27). If found
+outside a $...$ block, convert it to \frac{}{} and rewrite that
+sentence. This check is mandatory for every item, every time.
+
+Also re-scan every closing $ in those same fields. Check the
+characters immediately before each closing $. If you find ₹ followed
+by a number, or any plain word, immediately before a closing $, that
+$ is misplaced — the currency symbol and number got pulled inside
+math mode by mistake. Move the closing $ to immediately after the
+last real LaTeX command or symbol, and write the ₹ amount as plain
+text right after it instead. This check is mandatory for every item,
+every time.
 
 ══════════════════════════════
 DISPLAY
@@ -287,6 +469,11 @@ Do not compress many equations into one sentence.
 
 Do not put several equations on the same line.
 
+If traditional_solution would otherwise come out shorter than
+5 lines, that almost always means a step's explanation got
+compressed into the same line as its equation — split them onto
+separate lines instead of shortening the explanation.
+
 Prefer:
 
 Given
@@ -310,32 +497,23 @@ Aim for 5–15 short lines.
 The answer should be visually clean and pleasant to read.
 
 ══════════════════════════════
-CLASSIFICATION
+CHAPTER
 ══════════════════════════════
 
 Provide:
 
 chapter
 
-pattern
-
-subpattern
-
-canonical_method
-
 Use snake_case.
 
-Examples:
+Example:
 
-profit_sharing
+partnership
 
-time_weighted_capital_ratio
-
-combined_work
-
-unit_digit_cycle
-
-alligation
+This is just the chapter identifier. Pattern and sub-pattern
+classification are handled by a separate pass and are NOT part of
+this task — do not invent pattern, subpattern, or canonical_method
+values here.
 
 ══════════════════════════════
 DIFFICULTY

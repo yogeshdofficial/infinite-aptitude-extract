@@ -74,7 +74,16 @@ Never create questions from:
 
 A question must contain an explicit problem statement.
 
-Reject blocks beginning with:
+A question must ask something — it must contain a question mark, or
+an explicit instruction like "Find...", "What is...", "Calculate...".
+A block that only states a fact, a conclusion, or a final computed
+value is NOT a question, even if it looks like one at first glance.
+
+Reject any block that is a continuation of a calculation or
+conclusion rather than a new problem statement. This commonly looks
+like a block beginning with a connective or a "result =" pattern, such
+as (these are illustrative examples from one chapter — apply the same
+logic to whatever connective/result pattern appears in THIS chapter):
 
 Hence,
 Therefore,
@@ -85,6 +94,12 @@ A : B : C =,
 B's share =,
 C's share =,
 Required answer =,
+
+The underlying rule, not the specific words above, is what matters:
+if a block is restating or concluding a calculation that was already
+in progress — rather than posing a fresh, self-contained problem for
+the reader to solve — reject it, regardless of which chapter or which
+specific connective word it starts with.
 
 ══════════════════════════════
 BOUNDARY RULES
@@ -263,6 +278,50 @@ into
 $\frac{{2430\times35}}{{54}}$
 
 Never leave fractions as plain text.
+
+This applies EVERYWHERE a fraction appears, including inside an
+ordinary sentence in question_text or solution, not only inside a
+standalone displayed equation.
+
+Example:
+
+Input:
+
+A invested 1/4 of the capital and B invested 1/5 of the capital.
+
+Output:
+
+A invested $\frac{{1}}{{4}}$ of the capital and B invested
+$\frac{{1}}{{5}}$ of the capital.
+
+══════════════════════════════
+CURRENCY AND PERCENT SYMBOL BOUNDARIES
+══════════════════════════════
+
+₹ and % are plain text, not LaTeX. They must never be left sitting
+inside a $...$ block by accident, and the closing $ must always sit
+immediately after the LaTeX expression ends — never after a trailing
+₹ amount or word.
+
+Wrong (the closing $ trails behind \right), pulling ₹ and 36 inside
+math mode where ₹ is not a valid symbol):
+
+$\left(\frac{{12}}{{5}}\times15\right) = ₹ 36$
+
+Correct (the $ closes immediately after \right), then ₹ 36 sits
+outside it as plain text):
+
+$\left(\frac{{12}}{{5}}\times15\right)$ = ₹ 36
+
+If a percent sign is the final result of a calculation, keep \% and
+the final number inside one clean $...$ block with the $ closing
+immediately after the last character of the math — do not let the
+boundary land in the middle of the percent sign or split it from its
+number.
+
+Before finalizing, check the character immediately before every
+closing $. If it is ₹ followed by a number, or any plain word, that
+$ is misplaced.
 
 ══════════════════════════════
 OPTIONS
@@ -551,6 +610,50 @@ into
 $\frac{{2430\times35}}{{54}}$
 
 Never leave fractions as plain text.
+
+This applies EVERYWHERE a fraction appears, including inside an
+ordinary sentence in question_text or solution, not only inside a
+standalone displayed equation.
+
+Example:
+
+Input:
+
+A invested 1/4 of the capital and B invested 1/5 of the capital.
+
+Output:
+
+A invested $\frac{{1}}{{4}}$ of the capital and B invested
+$\frac{{1}}{{5}}$ of the capital.
+
+══════════════════════════════
+CURRENCY AND PERCENT SYMBOL BOUNDARIES
+══════════════════════════════
+
+₹ and % are plain text, not LaTeX. They must never be left sitting
+inside a $...$ block by accident, and the closing $ must always sit
+immediately after the LaTeX expression ends — never after a trailing
+₹ amount or word.
+
+Wrong (the closing $ trails behind \right), pulling ₹ and 36 inside
+math mode where ₹ is not a valid symbol):
+
+$\left(\frac{{12}}{{5}}\times15\right) = ₹ 36$
+
+Correct (the $ closes immediately after \right), then ₹ 36 sits
+outside it as plain text):
+
+$\left(\frac{{12}}{{5}}\times15\right)$ = ₹ 36
+
+If a percent sign is the final result of a calculation, keep \% and
+the final number inside one clean $...$ block with the $ closing
+immediately after the last character of the math — do not let the
+boundary land in the middle of the percent sign or split it from its
+number.
+
+Before finalizing, check the character immediately before every
+closing $. If it is ₹ followed by a number, or any plain word, that
+$ is misplaced.
 
 ══════════════════════════════
 OPTIONS

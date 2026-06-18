@@ -9,16 +9,41 @@ from typing import Optional
 from gemini_utils import call_gemini
 import PyPDF2
 
-PATTERN_DOC_PROMPT = """
-You are an expert mathematics educator and aptitude trainer.
+# ─────────────────────────────────────────────────────────────────
+# PATTERN DOC PROMPT  (unchanged — per-pattern revision note)
+# ─────────────────────────────────────────────────────────────────
+PATTERN_DOC_PROMPT = r"""
+You are an expert mathematics educator and aptitude trainer, writing a
+revision note for a student preparing for Indian competitive exams
+(SSC, Banking, CAT, placement tests).
 
-Create a concise but high-quality markdown revision note for this pattern.
+Create a concise but high-quality markdown revision note for ONE pattern.
 
-The goal is to help students quickly understand and solve most questions belonging to this pattern.
+The reader has already studied the chapter once. This note is for
+REVISION and PATTERN RECOGNITION, not first-time learning. Assume they
+know basic arithmetic, ratios, and percentages.
 
-Do NOT write like a textbook.
+The goal: a student should be able to read this note in 3-4 minutes
+and immediately recognize and solve any question of this type in an
+exam.
 
-Prefer formulas, frameworks, tricks, and recognition clues over lengthy explanations.
+──────────────────────────────
+GROUNDING RULE (most important)
+──────────────────────────────
+
+Base Recognition Clues, Important Formulas, and Common Mistakes on
+the ACTUAL questions listed below under "Questions In This Chapter
+Belonging To This Pattern". Do not write generic, chapter-level
+content that could apply to any partnership/profit-loss/work problem.
+If a formula or trick doesn't actually appear in these specific
+questions, leave it out — do not pad the note with material that
+isn't grounded in what's given.
+
+Use the Source Material only for terminology, notation, and to
+double-check a formula. Never copy long passages from it.
+
+Do NOT write like a textbook. Prefer formulas, frameworks, tricks,
+and recognition clues over lengthy explanations.
 
 Pattern Name: {pattern_name}
 
@@ -28,7 +53,10 @@ Pattern Description:
 Reference Pages:
 {page_range}
 
-Source Material:
+Questions In This Chapter Belonging To This Pattern:
+{pattern_questions}
+
+Source Material (full chapter, for terminology and notation context):
 {pdf_content}
 
 ────────────────────────
@@ -39,171 +67,146 @@ Generate markdown with the following sections.
 
 ## Overview
 
-Explain briefly:
+In 2-3 short sentences (not paragraphs), explain:
 
-* What this pattern represents.
-* What kind of questions belong here.
-* The central idea used to solve them.
+* What kind of question this is — describe it the way a student
+  would recognize it on sight, not in abstract terms.
+* The one central idea used to solve it.
 
-Maximum 3 short paragraphs.
+Skip this section's intro fluff. Get straight to the idea.
 
 ---
 
 ## Recognition Clues
 
-List:
+How to spot this pattern in under 10 seconds while skimming an exam.
 
-* keywords,
-* phrases,
-* common problem structures,
+List, as short bullets:
+
+* exact keywords/phrases that appear in these specific questions,
 * what is usually GIVEN,
-* what is usually FOUND.
+* what is usually ASKED.
 
-Use bullets.
+3-6 bullets. Every bullet must be something a student can literally
+scan for in a question — not a vague description.
 
 ---
 
 ## Important Formulas
 
-List ALL important formulas relevant to this pattern.
+List the formulas actually used to solve the questions above. Each
+formula needs:
 
-Include all useful variations and derived formulas whenever appropriate.
+* the formula itself, in display LaTeX using `$$ ... $$`,
+* one line on what each symbol means,
+* one line on when to reach for it.
 
-Use proper LaTeX.
+Use this exact format for each formula:
 
-For each formula:
-
-* formula,
-* meaning,
-* when to use it.
-
-Example:
-
-### Effective Capital
+### [Formula Name]
 
 $$
-\text{{Effective Capital}}
-=
-\text{{Capital}}
-\times
-\text{{Time}}
+\text{{...}}
 $$
 
-### Profit Share
+*Meaning:* ...
 
-$$
-\frac{{P_1}}{{P_2}}
-=
+*Use when:* ...
 
-\frac{{C_1T_1}}{{C_2T_2}}
-$$
-
-Mention alternate forms and rearrangements whenever useful.
-
-More formulas are acceptable if they are genuinely useful.
+Only include formulas that genuinely appear in the questions above.
+2-4 formulas is normal. More is fine only if they are all genuinely
+distinct and used.
 
 ---
 
 ## Solution Framework
 
-Give the standard solving approach.
+The standard step-by-step approach for this pattern, as a numbered
+list. Each step should be one short line — this is a checklist to
+follow under exam time pressure, not an explanation.
 
-Use numbered steps.
-
-Keep it concise.
-
-Students should be able to memorize this framework.
+Aim for 3-6 steps. A student should be able to memorize this list.
 
 ---
 
 ## Shortcut Tricks
 
-Include practical competitive exam tricks.
+Practical exam-time shortcuts that genuinely apply to THESE questions
+— ratio shortcuts, symmetry, elimination of options, mental math.
 
-Focus on:
+Each trick: one line stating the trick, one line on why it's valid
+(so it doesn't feel like an unexplained rule to memorize blindly).
 
-* ratio tricks,
-* symmetry,
-* simplifications,
-* elimination,
-* common observations,
-* mental math.
-
-Include only genuinely useful tricks.
+Only include a trick if it is genuinely faster than the standard
+framework above. If no real shortcut exists for this pattern, say so
+in one line instead of inventing one.
 
 ---
 
 ## Common Mistakes
 
-List 5-10 common mistakes.
+3-6 mistakes students actually make on THIS pattern (not generic
+arithmetic slips). For each:
 
-Mention:
-
-* mistake,
-* why it happens,
-* how to avoid it.
-
-Keep each point short.
+* the mistake, stated concretely,
+* the one-line reason it happens,
+* the one-line fix.
 
 ---
 
 ## Similar Patterns
 
-Mention nearby patterns and how to distinguish them.
-
-Focus on recognition clues.
-
-Keep this section brief.
+1-2 lines on the pattern(s) most likely to be confused with this one,
+and the single clearest way to tell them apart. If this pattern is
+fairly distinct from everything else in the chapter, say that
+briefly instead of forcing a comparison.
 
 ---
 
 ## Revision Summary
 
-Provide a cheat sheet.
+A 4-line cheat sheet, each line a single short sentence:
 
-### Key Formula
+**Key formula:** ...
 
-...
+**Spot it by:** ...
 
-### Recognition Signal
+**Fastest method:** ...
 
-...
-
-### Main Trick
-
-...
-
-### Common Trap
-
-...
+**Biggest trap:** ...
 
 ────────────────────────
 
-Rules:
+FORMATTING RULES (for mobile/KaTeX rendering):
 
-* Use concise markdown.
-* Use bullets heavily.
-* Use proper LaTeX for formulas.
-* Prefer formulas over long explanations.
-* Include useful formula variations.
-* Avoid unnecessary theory.
-* Avoid historical discussion.
-* Optimize for revision and problem solving.
-* Keep the document compact but information-dense.
+* Use `$$ ... $$` for standalone formulas, `$...$` for inline math.
+* Never leave a fraction as plain text like 1/2 — always `\frac{{1}}{{2}}`.
+* Never mix LaTeX and plain-text math in the same line.
+* Keep bullets short — one idea per bullet, not multi-clause sentences.
+* No long paragraphs anywhere in this document.
+* Use concise markdown, bullets heavily, proper LaTeX for all formulas.
+* Avoid unnecessary theory or historical discussion.
+* Keep the document compact and information-dense — this is a
+  revision note, not a lesson.
 
-Return only valid markdown.
+Return only valid markdown. No preamble, no explanation of what you did.
 """
 
-CHAPTER_OVERVIEW_PROMPT = """
-You are an expert mathematics educator and aptitude trainer.
+# ─────────────────────────────────────────────────────────────────
+# CHAPTER OVERVIEW PROMPT  (rewritten — intro + core formulas + terms)
+# ─────────────────────────────────────────────────────────────────
+CHAPTER_OVERVIEW_PROMPT = r"""
+You are an expert mathematics educator writing a chapter introduction
+for a student preparing for Indian competitive exams (SSC, Banking,
+CAT, placement tests).
 
-Create a concise and high-quality chapter overview in markdown.
+This document is read FIRST, before any pattern notes. Its job is to
+teach the chapter's core concepts, key terminology, and foundational
+formulas so the student has the right mental model before drilling
+individual patterns.
 
-The document should act as a roadmap and revision sheet for the chapter.
-
-Do NOT write like a textbook.
-
-Prefer formulas, tricks, and pattern recognition over lengthy explanations.
+Think of it as "the one page you'd read if you had 10 minutes to
+understand what this chapter is about".
 
 Chapter Title:
 {chapter_title}
@@ -211,11 +214,11 @@ Chapter Title:
 Reference Pages:
 {page_range}
 
+Patterns Discovered In This Chapter (name: question count):
+{pattern_summary}
+
 Source Material:
 {pdf_content}
-
-Pattern Summary:
-{pattern_summary}
 
 ────────────────────────
 
@@ -223,254 +226,167 @@ Generate markdown with the following sections.
 
 # {{chapter_title}}
 
-## Chapter Overview
+## What This Chapter Is About
 
-Explain briefly:
+2-3 sentences. State clearly:
+- What real-world situation or mathematical domain this chapter deals with.
+- The central quantity or relationship that ALL problems in this chapter
+  revolve around.
 
-* What this chapter is about.
-* The central idea behind the chapter.
-* Why the chapter matters.
-
-Maximum 3 short paragraphs.
-
----
-
-## Core Concepts
-
-Explain the major ideas of the chapter.
-
-Use bullets.
-
-Keep explanations short.
+No history, no motivation, no "in this chapter we will learn". Just
+orient the student factually.
 
 ---
 
-## Important Formulas
+## Key Terms
 
-List ALL important formulas of the chapter.
+A compact glossary of the 4-8 terms a student MUST know to read any
+question in this chapter. Format:
 
-Use proper LaTeX.
+**Term** — one-line definition, in plain English. If the term has a
+standard formula attached to it, include it inline as `$...$`.
 
-Include useful variations and derived formulas whenever appropriate.
-
-For each formula mention:
-
-* formula,
-* meaning,
-* when to use it.
-
-More formulas are acceptable if they are genuinely useful.
+Only include terms that genuinely appear in questions of this chapter.
+Do not add generic math terms (ratio, fraction, percentage) unless
+they have a chapter-specific meaning here.
 
 ---
 
-## Shortcut Tricks
+## Core Formulas
 
-Include useful competitive exam tricks.
+The 3-6 formulas that appear most frequently across ALL patterns in
+this chapter. These are the chapter's building blocks — pattern-specific
+formulas belong in each pattern's own note.
 
-Focus on:
+Use this format for each:
 
-* ratio tricks,
-* symmetry,
-* simplifications,
-* observations,
-* elimination tricks,
-* mental math shortcuts.
+### [Formula Name]
 
-Include only genuinely useful tricks.
+$$
+\text{{...}}
+$$
 
----
+*When to use:* one line — describe the scenario, not the math.
 
-## Pattern Map
+*Variables:* brief key for each symbol used.
 
-Briefly list the major patterns discovered in this chapter.
-
-For each pattern mention:
-
-* what kind of questions belong to it,
-* one recognition clue.
-
-Keep this section concise.
+Only include formulas genuinely needed across multiple question types.
+If a formula is used by only one pattern, leave it for that pattern's note.
 
 ---
 
-## Problem Recognition Guide
+## How Patterns Connect
 
-Mention:
+For each pattern listed under "Patterns Discovered In This Chapter",
+write exactly ONE line:
 
-* common keywords,
-* common question structures,
-* what is usually GIVEN,
-* what is usually FOUND.
+**[Pattern Name]** — what kind of question this pattern covers,
+written so a student can immediately tell it apart from the others.
 
-Use bullets.
-
----
-
-## Common Mistakes
-
-List 5-10 common mistakes students make in this chapter.
-
-For each:
-
-* mistake,
-* why it happens,
-* how to avoid it.
-
-Keep each point short.
+List every pattern given to you, in the order given. Do not skip,
+merge, or invent patterns. This is a navigation aid, not a description.
 
 ---
 
-## Revision Sheet
+## Common Traps (Chapter-Wide)
 
-Provide a very compact cheat sheet.
+2-4 mistakes that cut across ALL patterns in this chapter — things
+students get wrong regardless of which pattern they're solving.
+One bullet per trap, max 2 lines each. Do not repeat pattern-specific
+traps that belong in the individual pattern notes.
 
-### Most Important Formula
-
-...
-
-### Main Idea
-
-...
-
-### Fast Trick
-
-...
-
-### Biggest Trap
-
-...
+If fewer than 2 genuine chapter-wide traps exist, skip this section.
 
 ────────────────────────
 
-Rules:
+FORMATTING RULES:
 
-* Use concise markdown.
-* Use bullets heavily.
-* Use proper LaTeX for formulas.
-* Include useful formula variations.
-* Avoid unnecessary theory.
-* Avoid historical discussion.
-* Avoid textbook style.
-* Keep the document compact but information-dense.
-* Optimize for revision and problem solving.
-* Make the notes genuinely useful for competitive exams.
+* Use proper LaTeX for any formula (`$$...$$` for display, `$...$` inline).
+* Never write a fraction as plain text — always `\frac{{a}}{{b}}`.
+* Use concise markdown with bullets where listed above.
+* No long paragraphs. Every section should be scannable in under a minute.
+* Avoid textbook-style explanations or restating content that belongs
+  in individual pattern notes.
 
-Return only valid markdown.
+Return only valid markdown. No preamble.
 """
 
-CHAPTER_CHEATSHEET_PROMPT = """
-You are an expert aptitude trainer.
+# ─────────────────────────────────────────────────────────────────
+# CHAPTER CHEATSHEET PROMPT  (improved density + structure)
+# ─────────────────────────────────────────────────────────────────
+CHAPTER_CHEATSHEET_PROMPT = r"""
+You are an expert aptitude trainer writing a ONE-PAGE cheat sheet for
+a student doing last-minute revision before an exam — they have
+5-10 minutes for this entire chapter.
 
-Create a ONE-PAGE revision cheat sheet.
-
-The goal is rapid revision.
-
-Avoid lengthy explanations.
+This is the densest, most compressed document in the set. Zero
+explanations, zero teaching — pure lookup reference. If the student
+has time to read only one document before the exam, this is it.
 
 Chapter Title:
 {chapter_title}
 
-Pattern Summary:
+Patterns In This Chapter (name: question count):
 {pattern_summary}
 
-Source Material:
-{pdf_content}
+Extracted Data Per Pattern (formulas, mistakes, shortcuts — sourced directly from solved questions):
+{enriched_context}
+
+────────────────────────
+
+Generate markdown with the following sections.
+
+# {chapter_title} — Cheat Sheet
+
+## Formula Bank
+
+For EVERY pattern listed above, list its key formulas in display LaTeX.
+Group by pattern with a bold label. Format:
+
+**[Pattern Name]**
+$$\text{{formula}}$$
+*→ [4-word label for what this computes]*
+
+List every pattern. Do not skip, merge, or invent patterns.
+If a pattern has more than one essential formula, list all of them —
+one formula per block.
 
 ---
 
-Generate markdown.
+## Recognition Table
 
-# {chapter_title} Cheat Sheet
+A markdown table: 3 columns — Pattern | Trigger Keywords | What's Asked.
 
-## Core Idea
-
-Summarize the chapter in 2-3 sentences.
-
----
-
-## Essential Formulas
-
-List ALL important formulas.
-
-Use LaTeX.
-
-Include useful variations.
-
-Keep explanations short.
+One row per pattern. Keep each cell to ≤6 words. This is the student's
+first-pass scan when reading an exam question.
 
 ---
 
-## Shortcut Tricks
+## Fastest Tricks
 
-Include practical competitive exam tricks.
-
-Focus on:
-
-* observations,
-* ratio tricks,
-* simplifications,
-* elimination tricks,
-* symmetry,
-* mental math.
+One bullet per trick. Format: **[Pattern or scenario]:** trick in ≤12 words.
+Only include tricks that are genuinely faster than the standard method.
+5-8 bullets max. No explanations.
 
 ---
 
-## Pattern Map
+## Trap Watch
 
-List major patterns.
+One bullet per standout mistake. Format: **[Pattern]:** trap in ≤8 words.
+Skip patterns where there's no memorable trap. Do not force one.
 
-For each pattern:
+────────────────────────
 
-* one line description.
+FORMATTING RULES:
 
----
+* Maximum density. No paragraphs, no intros, no summaries-of-summaries.
+* Every formula in proper LaTeX (`$$...$$` display, `$...$` inline).
+* Never write a plain-text fraction like 1/2 — always `\frac{{a}}{{b}}`.
+* The table must be a real markdown table (pipe-delimited).
+* This document must fit comfortably on one phone screen of scrolling
+  per section. Cut content rather than cramming.
 
-## Recognition Clues
-
-Common keywords.
-
-What is usually GIVEN.
-
-What is usually FOUND.
-
----
-
-## Common Traps
-
-List common mistakes.
-
-Keep each point short.
-
----
-
-## Revision Summary
-
-### Most Important Formula
-
-...
-
-### Main Idea
-
-...
-
-### Fastest Trick
-
-...
-
-### Biggest Trap
-
-...
-
-Rules:
-
-* concise,
-* information dense,
-* bullet points,
-* LaTeX formulas,
-* revision oriented,
-* no textbook style.
-
-Return markdown only.
+Return markdown only. No preamble.
 """
 
 
@@ -495,12 +411,48 @@ def safe_filename_stem(text: str) -> str:
     return stem or "document"
 
 
+def humanize_chapter_title(stem: str) -> str:
+    """
+    Turn a raw filename stem like 'Chapter_14_Partnership' into a
+    readable title like 'Partnership' for use in markdown headings.
+    Strips a leading 'Chapter_<number>_' prefix if present and
+    replaces underscores with spaces.
+    """
+    cleaned = re.sub(r"^chapter_\d+_", "", stem, flags=re.IGNORECASE)
+    cleaned = cleaned.replace("_", " ").strip()
+    return cleaned.title() if cleaned else stem
+
+
+def format_pattern_questions(questions: list[dict], max_chars: int = 6000) -> str:
+    """
+    Format the actual questions belonging to one pattern for grounding
+    the documentation prompt. Truncates by whole-question boundaries
+    (never mid-question) once max_chars is reached.
+    """
+    blocks = []
+    total_len = 0
+    for q in questions:
+        qnum = q.get("question_number", "?")
+        qtext = q.get("question_text", q.get("question", ""))
+        solution = q.get("solution", "") or q.get("traditional_solution", "")
+        block = f"Q{qnum}: {qtext}\nSolution: {solution}"
+        if total_len + len(block) > max_chars and blocks:
+            blocks.append(
+                f"... ({len(questions) - len(blocks)} more questions omitted for length)"
+            )
+            break
+        blocks.append(block)
+        total_len += len(block)
+    return "\n---\n".join(blocks) if blocks else "(no questions found for this pattern)"
+
+
 def generate_pattern_documentation(
     pattern_name: str,
     pattern_description: str,
     question_count: int,
     pdf_content: str,
     page_range: tuple,
+    pattern_questions: str = "",
 ) -> str:
     """Generate markdown documentation for a pattern using Gemini."""
 
@@ -509,13 +461,13 @@ def generate_pattern_documentation(
         pattern_description=pattern_description,
         question_count=question_count,
         page_range=f"{page_range[0]}-{page_range[1]}",
-        pdf_content=pdf_content[:2000],  # Include more PDF context
+        pattern_questions=pattern_questions,
+        pdf_content=pdf_content[:2000],
     )
 
     try:
         documentation = call_gemini(prompt)
 
-        # Validate that documentation has content
         if not documentation or len(documentation.strip()) < 100:
             print(f"  WARNING: Generated documentation too short for {pattern_name}")
 
@@ -534,50 +486,66 @@ def create_pattern_markdown_files(
 ) -> None:
     """Create markdown files for each sub-pattern."""
 
-    # Load categorized data
     with open(categorized_file, "r", encoding="utf-8") as f:
         data = json.load(f)
     questions = data.get("questions", []) if isinstance(data, dict) else data
 
-    # Extract PDF content
     pdf_content = extract_pdf_pages(pdf_path, pdf_pages[0], pdf_pages[1])
 
-    # Create output directory
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
-    # Identify unique patterns
-    patterns_map = {}
+    patterns_map: dict[str, list[dict]] = {}
     for item in questions:
-        pattern = item.get("sub_pattern", "Uncategorized")
-        if pattern not in patterns_map:
-            patterns_map[pattern] = []
-        patterns_map[pattern].append(item["question_number"])
+        pattern = item.get("sub_pattern") or "Uncategorized"
+        patterns_map.setdefault(pattern, []).append(item)
 
-    # Generate markdown for each pattern
-    for idx, (pattern_name, question_numbers) in enumerate(patterns_map.items(), 1):
+    if list(patterns_map.keys()) == ["Uncategorized"]:
+        print(
+            "  WARNING: every question is 'Uncategorized'. This usually means "
+            "Pass 4 (--categorize) was not run, or it failed. Pattern "
+            "documentation will not be meaningful until categorization "
+            "succeeds. Re-run with --categorize first."
+        )
+
+    # Build pattern_name -> filename map up front so we can backfill
+    # pattern_doc on every question regardless of skip_existing.
+    pattern_filenames: dict[str, str] = {
+        pattern_name: safe_filename_stem(pattern_name) + ".md"
+        for pattern_name in patterns_map
+    }
+
+    for idx, (pattern_name, pattern_questions) in enumerate(patterns_map.items(), 1):
         print(f"  [{idx}/{len(patterns_map)}] {pattern_name}...")
 
-        # Create filename early so resume mode can skip the Gemini call entirely.
-        filename = safe_filename_stem(pattern_name) + ".md"
+        filename = pattern_filenames[pattern_name]
         filepath = output_path / filename
 
         if skip_existing and filepath.exists():
             print(f"    → Skipping existing file: {filepath.name}")
-            continue
+        else:
+            documentation = generate_pattern_documentation(
+                pattern_name=pattern_name,
+                pattern_description=f"Pattern covering {len(pattern_questions)} problem types",
+                question_count=len(pattern_questions),
+                pdf_content=pdf_content,
+                page_range=pdf_pages,
+                pattern_questions=format_pattern_questions(pattern_questions),
+            )
 
-        # Generate documentation
-        documentation = generate_pattern_documentation(
-            pattern_name=pattern_name,
-            pattern_description=f"Pattern covering {len(question_numbers)} problem types",
-            question_count=len(question_numbers),
-            pdf_content=pdf_content,
-            page_range=pdf_pages,
-        )
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(documentation)
 
-        # Save markdown
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(documentation)
+    # Backfill pattern_doc on every question in the categorized JSON,
+    # then save — this is what lets the app link a question to its doc.
+    for item in questions:
+        pattern = item.get("sub_pattern") or "Uncategorized"
+        item["pattern_doc"] = pattern_filenames.get(pattern, "")
+
+    with open(categorized_file, "w", encoding="utf-8") as f:
+        json.dump(data if isinstance(data, dict) else questions, f, indent=2, ensure_ascii=False)
+
+    print(f"  ✓ pattern_doc field written to {Path(categorized_file).name}")
 
 
 def create_main_pattern_overview(
@@ -602,18 +570,26 @@ def create_main_pattern_overview(
 
     patterns_map = {}
     for item in questions:
-        pattern = item.get("sub_pattern", "Uncategorized")
+        pattern = item.get("sub_pattern") or "Uncategorized"
         if pattern not in patterns_map:
             patterns_map[pattern] = []
         patterns_map[pattern].append(item["question_number"])
 
+    if list(patterns_map.keys()) == ["Uncategorized"]:
+        print(
+            "  WARNING: every question is 'Uncategorized' in the chapter "
+            "overview. Run --categorize first for a meaningful Pattern Map."
+        )
+
     pattern_summary = "\n".join(
-        f"- {pattern}: {len(questions)} questions"
-        for pattern, questions in sorted(patterns_map.items())
+        f"- {pattern_name}: {len(qnums)} questions"
+        for pattern_name, qnums in sorted(patterns_map.items())
     )
 
     prompt = CHAPTER_OVERVIEW_PROMPT.format(
-        chapter_title=Path(categorized_file).stem.replace("_categorized", ""),
+        chapter_title=humanize_chapter_title(
+            Path(categorized_file).stem.replace("_categorized", "")
+        ),
         page_range=f"{pdf_pages[0]}-{pdf_pages[1]}",
         pdf_content=pdf_content[:5000],
         pattern_summary=pattern_summary,
@@ -624,7 +600,6 @@ def create_main_pattern_overview(
     if not overview or len(overview.strip()) < 100:
         overview = "# Chapter Introduction\n\n*Failed to generate chapter introduction. Please retry.*"
 
-    # Save
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(overview)
 
@@ -654,7 +629,7 @@ def create_chapter_cheatsheet(
 
     patterns_map = {}
     for item in questions:
-        pattern = item.get("sub_pattern", "Uncategorized")
+        pattern = item.get("sub_pattern") or "Uncategorized"
         patterns_map.setdefault(pattern, []).append(item["question_number"])
 
     pattern_summary = "\n".join(
@@ -663,9 +638,118 @@ def create_chapter_cheatsheet(
     )
 
     prompt = CHAPTER_CHEATSHEET_PROMPT.format(
-        chapter_title=Path(categorized_file).stem.replace("_categorized", ""),
+        chapter_title=humanize_chapter_title(
+            Path(categorized_file).stem.replace("_categorized", "")
+        ),
         pattern_summary=pattern_summary,
         pdf_content=pdf_content[:5000],
+    )
+
+    cheatsheet = call_gemini(prompt)
+
+    if not cheatsheet or len(cheatsheet.strip()) < 100:
+        cheatsheet = (
+            "# Chapter Cheat Sheet\n\n"
+            "*Failed to generate chapter cheat sheet. Please retry.*"
+        )
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(cheatsheet)
+
+    print(f"  ✓ Cheat sheet: {output_file}")
+
+
+def build_cheatsheet_context(questions: list[dict]) -> dict[str, dict]:
+    """
+    Aggregate per-pattern data from the already-enriched JSON.
+    Returns dict keyed by pattern name with formulas, mistakes, shortcuts.
+    """
+    patterns: dict[str, dict] = {}
+
+    for q in questions:
+        pattern = q.get("sub_pattern") or "Uncategorized"
+        enrichment = q.get("ai_enrichment") or {}
+
+        entry = patterns.setdefault(
+            pattern,
+            {"question_count": 0, "formulas": [], "common_mistakes": [], "shortcuts": []},
+        )
+
+        entry["question_count"] += 1
+
+        for f in enrichment.get("formulas_used", []):
+            if f and f not in entry["formulas"]:
+                entry["formulas"].append(f)
+
+        for m in enrichment.get("common_mistakes", []):
+            if m and m not in entry["common_mistakes"]:
+                entry["common_mistakes"].append(m)
+
+        shortcut = (enrichment.get("shortcut_solution") or "").strip()
+        if shortcut:
+            first_sentence = re.split(r"(?<=[.!?])\s", shortcut)[0]
+            if first_sentence and first_sentence not in entry["shortcuts"]:
+                entry["shortcuts"].append(first_sentence)
+
+    return patterns
+
+
+def format_cheatsheet_context(patterns: dict[str, dict]) -> str:
+    """Serialize aggregated pattern data into a compact text block for the prompt."""
+    lines = []
+    for pattern_name, data in sorted(patterns.items()):
+        lines.append(f"### {pattern_name} ({data['question_count']} questions)")
+        if data["formulas"]:
+            lines.append("Formulas used:")
+            for f in data["formulas"][:6]:
+                lines.append(f"  - {f}")
+        if data["common_mistakes"]:
+            lines.append("Common mistakes:")
+            for m in data["common_mistakes"][:3]:
+                lines.append(f"  - {m}")
+        if data["shortcuts"]:
+            lines.append("Shortcuts:")
+            for s in data["shortcuts"][:3]:
+                lines.append(f"  - {s}")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def create_chapter_cheatsheet_v2(
+    categorized_file: str,
+    output_file: str = "CHAPTER_CHEATSHEET.md",
+    overwrite: bool = True,
+    # kept for call-site compatibility — not used
+    pdf_path: Optional[str] = None,
+    pdf_pages: Optional[tuple] = None,
+) -> None:
+    """
+    Create a chapter cheat sheet built entirely from the enriched JSON.
+    No PDF read — all data comes from ai_enrichment fields (Pass 3).
+    """
+    output_path = Path(output_file)
+    if not overwrite and output_path.exists():
+        print(f"  ✓ Cheat sheet already exists: {output_file}")
+        return
+
+    with open(categorized_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    questions = data.get("questions", []) if isinstance(data, dict) else data
+    patterns = build_cheatsheet_context(questions)
+
+    pattern_summary = "\n".join(
+        f"- {name}: {d['question_count']} questions"
+        for name, d in sorted(patterns.items())
+    )
+    enriched_context = format_cheatsheet_context(patterns)
+
+    prompt = CHAPTER_CHEATSHEET_PROMPT.format(
+        chapter_title=humanize_chapter_title(
+            Path(categorized_file).stem.replace("_categorized", "")
+        ),
+        pattern_summary=pattern_summary,
+        enriched_context=enriched_context,
     )
 
     cheatsheet = call_gemini(prompt)

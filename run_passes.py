@@ -103,6 +103,7 @@ def main():
     if args.step in ["both", "document"]:
         print(f"✓ Pattern docs: {args.docs_dir}/")
         print(f"✓ Overview: PATTERNS_OVERVIEW.md")
+        print(f"✓ Cheat sheet: CHAPTER_CHEATSHEET.md")
 
 
 if __name__ == "__main__":

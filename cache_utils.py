@@ -175,6 +175,7 @@ def export_flattened_ai_enrichment(source_path):
             "chapter_title": chapter_title,
             "question_number": question.get("question_number", ""),
             "sub_pattern": question.get("sub_pattern", ""),
+            "pattern_doc": question.get("pattern_doc", ""),
         }
         row.update(ai_enrichment)
         items.append(row)

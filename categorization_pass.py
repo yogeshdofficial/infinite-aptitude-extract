@@ -5,7 +5,53 @@ Categorization Pass: Extract Q&S and use Gemini to classify into sub-patterns
 import json
 import re
 from typing import Optional
-from gemini_utils import call_gemini
+from gemini_utils import call_gemini, call_gemini_text, create_client, RateLimiter
+
+_SECTION_PREFIX = {
+    "solved_example": "se",
+    "exercise": "ex",
+}
+
+
+def make_composite_key(section: str, question_number) -> str:
+    """
+    Build a stable identifier that disambiguates the same question_number
+    appearing in both 'solved_example' and 'exercise' sections (the
+    textbook restarts numbering at 1 in each section). Falls back to a
+    raw prefix for any unexpected section value rather than raising, so
+    a schema change elsewhere doesn't crash categorization outright.
+    """
+    prefix = _SECTION_PREFIX.get(section, str(section)[:2].lower() or "unk")
+    return f"{prefix}:{question_number}"
+
+
+def parse_composite_key(key: str) -> tuple[str, str]:
+    """Inverse of make_composite_key. Returns (section_prefix, question_number)."""
+    prefix, _, qnum = str(key).partition(":")
+    return prefix, qnum
+
+
+CATEGORIZATION_PATTERN_PROPS = {
+    "pattern_name": {"type": "STRING"},
+    "description": {"type": "STRING"},
+    "question_numbers": {"type": "ARRAY", "items": {"type": "STRING"}},
+}
+
+CATEGORIZATION_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "patterns": {
+            "type": "ARRAY",
+            "items": {
+                "type": "OBJECT",
+                "properties": CATEGORIZATION_PATTERN_PROPS,
+                "required": list(CATEGORIZATION_PATTERN_PROPS.keys()),
+            },
+        },
+    },
+    "required": ["patterns"],
+}
+
 
 CATEGORIZATION_PROMPT = """
 You are an expert mathematics educator, curriculum designer, and competitive exam trainer.
@@ -40,13 +86,13 @@ MOST IMPORTANT RULE
 
 Imagine you are writing a textbook or preparing coaching lectures.
 
-If two sets of questions would normally be taught in different lectures, they MUST belong to different patterns.
+If two sets of questions would normally be taught in DIFFERENT lectures because they need a different solving framework, they MUST belong to different patterns.
 
-Even if they use the same formula, separate them if they have different recognition clues or different solving frameworks.
+If two sets of questions would normally be taught in the SAME lecture — even if one has an extra step, an extra given fact, or a different cover story — they MUST belong to the SAME pattern.
 
-Do not optimize for the minimum number of patterns.
+Same formula is not sufficient reason to merge. But also: a minor variation is not sufficient reason to split. Both mistakes are equally bad.
 
-Optimize for how a human teacher would divide the chapter into lessons.
+Optimize for how a human teacher would divide the chapter into lessons — not for the number of patterns in either direction.
 
 ══════════════════════════════
 DO NOT GROUP ONLY BY FORMULAS
@@ -104,8 +150,16 @@ IMPORTANT REQUIREMENTS
 * Similar questions MUST always receive exactly the same pattern name.
 * Use stable and consistent names.
 * Avoid duplicate names.
-* Prefer creating too many patterns rather than too few.
-* More patterns are acceptable if they represent genuinely different solving frameworks.
+* Use the FEWEST patterns that are still genuinely correct — do not
+  create a new pattern just because a question has one extra detail;
+  only create a new pattern when the recognition process or solving
+  framework is actually different.
+* A pattern with only 1-2 questions is almost always a sign that you
+  fragmented a larger pattern rather than found a genuine standalone
+  lesson. Before keeping any pattern that small, you must be able to
+  name a DIFFERENT solving framework it uses compared to every other
+  pattern — if you cannot, merge it into the closest matching pattern
+  instead.
 * Overly broad patterns are unacceptable.
 * Catch-all patterns are unacceptable.
 
@@ -252,6 +306,45 @@ Questions taught in separate lectures should belong to different patterns.
 
 STEP 7
 
+Final naming pass. This step exists because the most common failure
+mode in this task is producing two patterns that are actually the
+same idea under different names — e.g. "Capital Withdrawal" and
+"Withdrawal Cases", or "Missing Time" and "Find Time", or
+"Profit Sharing Ratio" and "Profit Distribution". These look
+different as strings but describe the same recognition process and
+solving framework.
+
+A second, equally common failure mode: taking one real pattern and
+splitting it into "Base Pattern" plus "Base Pattern + minor variant"
+— e.g. "Rent Sharing" vs "Rent Sharing With Early Leaving Partner",
+or "Equivalent Units" vs "Rent Sharing Equivalence". If the core
+recognition process and solving framework are the same and the
+"variant" is really just one extra step or one extra piece of given
+information layered on top of the same base method, this is ONE
+pattern, not two. A genuinely separate pattern needs its OWN
+recognition process or solving framework — a qualifier suffix OR a
+"Base Name: Variant" colon-prefixed name (e.g. "Rent Sharing: Usage-
+Based Distribution", "Rent Sharing: Equivalent Units", "Rent Sharing:
+Phased Usage" — all three are fragments of ONE "Rent Sharing"
+pattern) on an existing pattern's name is a strong signal you have
+fragmented one pattern into pieces rather than discovered two distinct ones. When in doubt, default to the
+shorter, base name and fold the variation in as a sub-case covered by
+the same pattern, rather than inventing a longer compound name.
+
+Before finalizing, list all your candidate pattern names side by
+side and ask, for every pair:
+
+"Would a student studying one of these also need the other, or are
+they really the same lesson with two different names? Or is one of
+them just the other plus one extra step?"
+
+If they are the same lesson, merge them into a single pattern with
+one name and combine their question_numbers. Do this even if it
+means fewer patterns than you discovered in STEP 2-4 — a single
+clean pattern beats two fragments of the same idea.
+
+STEP 8
+
 Perform a final quality check.
 
 ══════════════════════════════
@@ -263,6 +356,13 @@ Verify:
 * every question belongs to exactly one pattern,
 * no question remains uncategorized,
 * similar questions receive identical pattern names,
+* no two pattern names describe the same recognition process and
+  solving framework (re-run STEP 7's merge check if unsure),
+* no pattern name is just another pattern's name plus a qualifier
+  suffix for a minor variant (e.g. avoid having both "Rent Sharing"
+  and "Rent Sharing Leaving Pattern" — that split signals
+  fragmentation, not two genuine patterns; fold the variant into the
+  base pattern instead),
 * no pattern is based on difficulty,
 * no pattern is a catch-all bucket,
 * no pattern is excessively broad,
@@ -277,22 +377,54 @@ Only after completing these steps should you return the final JSON.
 GROUP NAME RULES
 ══════════════════════════════
 
-Use concise names.
+HARD LIMIT: 2-3 words. Never more than 3.
 
-Prefer 2-5 words.
+Names must be:
 
-Names should be:
+* a noun phrase — no verbs ("Find Capital" not "Finding Capital"),
+* no filler: "based on", "with", "using", "from", "for",
+* no redundant chapter word (never prefix every name with the chapter title),
+* memorable, suitable as a short markdown filename.
 
-* memorable,
-* descriptive,
-* suitable as markdown filenames,
-* useful for revision.
+Bad → Good (enforce these):
+  "Simple Partnership: Profit Distribution"           → "Simple Partnership"
+  "Partnership with Varying Time Periods"             → "Varying Time"
+  "Partnership with Capital Changes"                  → "Capital Changes"
+  "Partnership with Relative Investments"             → "Relative Investment"
+  "Partnership with Mixed Profit Distribution"        → "Mixed Distribution"
+  "Rent Sharing based on Usage"                       → "Rent Sharing"
+  "Finding Missing Time in Partnership"               → "Missing Time"
+  "Finding Missing Capital in Partnership"            → "Missing Capital"
+  "Deriving Investment/Time Ratios from Profit Ratios" → "Profit Ratio"
+
+══════════════════════════════
+COMPLETENESS CHECK (do this before returning)
+══════════════════════════════
+
+Each question below is labeled with an identifier in the form
+Q[se:1] or Q[ex:1] — "se" means solved example, "ex" means exercise.
+These identifiers are NOT the printed question numbers; they exist
+because solved examples and exercises restart numbering separately,
+so "1" alone is ambiguous. Always copy the FULL identifier inside the
+brackets (e.g. "se:1", "ex:1") into question_numbers — never strip the
+prefix and never reuse the bare number.
+
+You are given a list of question identifiers below. Before returning your
+answer, count them. Then count how many identifiers appear across
+all of your "patterns" entries combined. These two counts MUST match
+exactly.
+
+Every identifier given to you must appear in the question_numbers
+list of EXACTLY ONE pattern. Not zero patterns. Not two patterns.
+
+If you are unsure which pattern a question belongs to, choose the
+single closest match rather than omitting it or duplicating it.
 
 ══════════════════════════════
 RETURN FORMAT
 ══════════════════════════════
 
-Return ONLY valid JSON.
+Return ONLY valid JSON, matching this shape:
 
 {{
 "patterns": [
@@ -301,12 +433,16 @@ Return ONLY valid JSON.
 "description": "",
 "question_numbers": []
 }}
-],
-"question_to_pattern": {{
-"1": "",
-"2": ""
+]
 }}
-}}
+
+question_numbers must contain the full Q[se:1] / Q[ex:1] style
+identifiers (without the "Q[" and "]", i.e. just "se:1" or "ex:1"),
+exactly as shown for each question below — not the bare printed number.
+
+Do not include a separate question-to-pattern mapping. The
+question_numbers array inside each pattern is the only place
+question assignment is recorded.
 
 Questions and solutions:
 
@@ -315,125 +451,191 @@ Questions and solutions:
 
 
 def format_for_gemini(questions_solutions: list[dict]) -> str:
-    """Format Q&S pairs for Gemini API."""
+    """Format Q&S pairs for Gemini API, using a composite section:number
+    identifier so questions are never ambiguous (the textbook restarts
+    numbering at 1 separately in solved examples and exercises)."""
     formatted = []
     for item in questions_solutions:
+        key = make_composite_key(item.get("section", ""), item["question_number"])
         formatted.append(f"""
-Q{item['question_number']}: {item.get('question_text', item.get('question', ''))}
+Q[{key}]: {item.get('question_text', item.get('question', ''))}
 
-Solution: {item['solution']}...
+Solution: {item['solution']}
 """)
-    return "\n---\n".join(formatted)  # Limit to first 20 to avoid token overflow
+    return "\n---\n".join(formatted)
 
 
-def normalize_categorization_response(categorization: dict) -> dict:
-    """Coerce Gemini output into the canonical categorization shape."""
+def _name_word_set(name: str) -> set:
+    """Normalize a pattern name into a set of significant words for
+    near-duplicate comparison (lowercase, strip common filler words)."""
+    filler = {"the", "a", "an", "of", "in", "with", "and", "case", "cases"}
+    words = re.findall(r"[a-z0-9]+", name.lower())
+    return {w for w in words if w not in filler}
+
+
+def find_near_duplicate_pattern_names(pattern_names: list[str]) -> list[tuple]:
+    """
+    Detect pattern name pairs that likely describe the same idea
+    (e.g. 'Capital Withdrawal' vs 'Withdrawal Cases'), as a safety net
+    for STEP 7's merge instruction in the prompt. Uses word-set overlap
+    rather than exact string matching, since the whole point is to
+    catch differently-worded duplicates.
+
+    Returns list of (name_a, name_b, overlap_ratio) for pairs that
+    share at least two-thirds of their significant words. (A lower
+    threshold like 0.5 catches more real duplicates but also flags
+    unrelated pairs that merely share one common word, e.g. both
+    mentioning "capital" — 0.66 is a better signal-to-noise balance.)
+    """
+    candidates = []
+    word_sets = [(name, _name_word_set(name)) for name in pattern_names]
+
+    for i in range(len(word_sets)):
+        name_a, words_a = word_sets[i]
+        if not words_a:
+            continue
+        for j in range(i + 1, len(word_sets)):
+            name_b, words_b = word_sets[j]
+            if not words_b:
+                continue
+            overlap = words_a & words_b
+            smaller = min(len(words_a), len(words_b))
+            if smaller == 0:
+                continue
+            ratio = len(overlap) / smaller
+            if ratio >= 0.66:
+                candidates.append((name_a, name_b, round(ratio, 2)))
+
+    return candidates
+
+
+def normalize_categorization_response(
+    categorization: dict,
+    expected_question_numbers: Optional[list[str]] = None,
+) -> dict:
+    """
+    Coerce Gemini's structured output into the canonical categorization shape,
+    and derive question_to_pattern directly from each pattern's
+    question_numbers (the single source of truth).
+
+    If expected_question_numbers is given, reports any questions that were
+    omitted or assigned to more than one pattern, so failures are visible
+    instead of silently producing an incomplete sub_pattern field.
+    """
     if not isinstance(categorization, dict):
-        return {}
+        return {"sub_patterns": [], "question_to_pattern": {}}
 
-    # sub_patterns = categorization.get("sub_patterns", [])
-    sub_patterns = (
-        categorization.get("patterns")
-        or categorization.get("sub_patterns")
-        or categorization.get("groups")
-        or []
-    )
+    raw_patterns = categorization.get("patterns") or []
+    if not isinstance(raw_patterns, list):
+        raw_patterns = []
+
     normalized_patterns = []
+    question_to_pattern = {}
+    duplicate_assignments = []
 
-    if isinstance(sub_patterns, dict):
-        for pattern_name, question_numbers in sub_patterns.items():
-            if isinstance(question_numbers, list):
-                normalized_question_numbers = [str(q) for q in question_numbers]
-            elif question_numbers is None:
-                normalized_question_numbers = []
-            else:
-                normalized_question_numbers = [str(question_numbers)]
+    for index, pattern in enumerate(raw_patterns, 1):
+        if not isinstance(pattern, dict):
+            continue
 
-            normalized_patterns.append(
-                {
-                    "subpattern_name": str(pattern_name),
-                    "description": "",
-                    "question_numbers": normalized_question_numbers,
-                }
+        name = str(pattern.get("pattern_name") or f"Pattern {index}").strip()
+        description = str(pattern.get("description", ""))
+
+        question_numbers = pattern.get("question_numbers", [])
+        if isinstance(question_numbers, str):
+            question_numbers = [question_numbers]
+        elif not isinstance(question_numbers, list):
+            question_numbers = []
+        question_numbers = [str(q) for q in question_numbers]
+
+        normalized_patterns.append(
+            {
+                "pattern_name": name,
+                "subpattern_name": name,
+                "description": description,
+                "question_numbers": question_numbers,
+            }
+        )
+
+        for qnum in question_numbers:
+            if qnum in question_to_pattern:
+                duplicate_assignments.append((qnum, question_to_pattern[qnum], name))
+            question_to_pattern[qnum] = name
+
+    if duplicate_assignments:
+        print(
+            f"  WARNING: {len(duplicate_assignments)} question(s) were assigned "
+            f"to more than one pattern by Gemini; keeping the last assignment seen:"
+        )
+        for qnum, first_pattern, second_pattern in duplicate_assignments:
+            print(
+                f"    Q{qnum}: '{first_pattern}' -> overwritten by '{second_pattern}'"
             )
-    elif isinstance(sub_patterns, list):
-        for index, pattern in enumerate(sub_patterns, 1):
-            if isinstance(pattern, dict):
-                question_numbers = pattern.get("question_numbers", [])
-                if isinstance(question_numbers, str):
-                    question_numbers = [question_numbers]
-                elif not isinstance(question_numbers, list):
-                    question_numbers = []
 
-                name = (
-                    pattern.get("pattern_name")
-                    or pattern.get("name")
-                    or pattern.get("subpattern_name")
-                    or f"Pattern {index}"
-                )
+    if expected_question_numbers is not None:
+        expected_set = {str(q) for q in expected_question_numbers}
+        missing = sorted(expected_set - question_to_pattern.keys(), key=str)
+        if missing:
+            print(
+                f"  WARNING: {len(missing)} question(s) were not assigned to any "
+                f"pattern by Gemini and will be marked 'Uncategorized': {missing}"
+            )
 
-                normalized_patterns.append(
-                    {
-                        "subpattern_name": str(name),
-                        "description": str(pattern.get("description", "")),
-                        "question_numbers": [str(q) for q in question_numbers],
-                    }
-                )
-            elif isinstance(pattern, str):
-                normalized_patterns.append(
-                    {
-                        "subpattern_name": pattern,
-                        "description": "",
-                        "question_numbers": [],
-                    }
-                )
+    pattern_names = [p["pattern_name"] for p in normalized_patterns]
+    near_duplicates = find_near_duplicate_pattern_names(pattern_names)
+    if near_duplicates:
+        print(
+            f"  WARNING: {len(near_duplicates)} pattern name pair(s) look like "
+            f"they might be the same idea under different names (Gemini's "
+            f"merge step in the prompt may have missed these — consider "
+            f"merging manually):"
+        )
+        for name_a, name_b, ratio in near_duplicates:
+            print(f"    '{name_a}' <-> '{name_b}' (word overlap: {ratio})")
 
-    # question_to_pattern = categorization.get("question_to_pattern", {})
-    question_to_pattern = (
-        categorization.get("question_to_pattern")
-        or categorization.get("question_to_group")
-        or {}
-    )
-    if not isinstance(question_to_pattern, dict):
-        question_to_pattern = {}
-
-    derived_question_to_pattern = {}
-
-    for pattern in normalized_patterns:
-        for qnum in pattern.get("question_numbers", []):
-            derived_question_to_pattern[str(qnum)] = pattern["subpattern_name"]
-    for qnum, pattern_name in derived_question_to_pattern.items():
-        question_to_pattern.setdefault(qnum, pattern_name)
-    for pattern in normalized_patterns:
-        pattern["pattern_name"] = pattern["subpattern_name"]
-    categorization["sub_patterns"] = normalized_patterns
-    categorization["question_to_pattern"] = {
-        str(question_number): str(pattern_name)
-        for question_number, pattern_name in question_to_pattern.items()
+    return {
+        "sub_patterns": normalized_patterns,
+        "question_to_pattern": question_to_pattern,
     }
-
-    return categorization
 
 
 def categorize_with_gemini(questions_solutions: list[dict]) -> Optional[dict]:
-    """Send Q&S to Gemini for categorization."""
+    """Send Q&S to Gemini for whole-chapter pattern categorization."""
     formatted = format_for_gemini(questions_solutions)
     prompt = CATEGORIZATION_PROMPT.format(questions_solutions=formatted)
 
-    response = call_gemini(prompt)
+    client = create_client()
+    rate_limiter = RateLimiter(max_per_minute=10)
+    model = "gemini-2.5-flash"
 
-    # Parse JSON from response
-    try:
-        json_match = re.search(r"\{.*\}", response, re.DOTALL)
-        if json_match:
-            categorization = json.loads(json_match.group())
-            print(json.dumps(categorization, indent=2))
-            return normalize_categorization_response(categorization)
-    except json.JSONDecodeError as e:
-        print(f"Failed to parse Gemini response: {e}")
-        print(f"Response: {response}")
+    result = call_gemini_text(
+        client=client,
+        model=model,
+        prompt=prompt,
+        response_schema=CATEGORIZATION_SCHEMA,
+        rate_limiter=rate_limiter,
+    )
 
-    return None
+    if result is None:
+        print(
+            "  ERROR: categorization call failed after retries; "
+            "no patterns were generated. sub_pattern will remain empty "
+            "for every question in this chapter."
+        )
+        return None
+
+    expected_question_numbers = [
+        make_composite_key(item.get("section", ""), item["question_number"])
+        for item in questions_solutions
+    ]
+
+    normalized = normalize_categorization_response(
+        result,
+        expected_question_numbers=expected_question_numbers,
+    )
+
+    print(json.dumps(normalized, indent=2, ensure_ascii=False))
+
+    return normalized
 
 
 def add_subpatterns_to_json(
@@ -447,10 +649,19 @@ def add_subpatterns_to_json(
 
     questions = data.get("questions", []) if isinstance(data, dict) else data
 
+    uncategorized = []
     for item in questions:
-        q_num = str(item["question_number"])
-        pattern = question_to_pattern.get(q_num, "Uncategorized")
+        key = make_composite_key(item.get("section", ""), item["question_number"])
+        pattern = question_to_pattern.get(key, "Uncategorized")
+        if pattern == "Uncategorized":
+            uncategorized.append(key)
         item["sub_pattern"] = pattern
+
+    if uncategorized:
+        print(
+            f"  WARNING: {len(uncategorized)}/{len(questions)} question(s) "
+            f"written as 'Uncategorized': {uncategorized}"
+        )
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)

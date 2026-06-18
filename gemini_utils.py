@@ -159,10 +159,26 @@ def call_gemini_text(
     prompt,
     response_schema,
     rate_limiter,
+    temperature=0.1,
+    temperature_escalation=0.3,
+    validate=None,
 ):
+    """
+    validate: optional callable(result) -> None. Raise inside it (or let
+    a KeyError/etc propagate) to signal "parsed fine but content is wrong"
+    (e.g. wrong item count). Treated the same as a parse failure: retried
+    with escalating temperature, since a fixed low temperature tends to
+    reproduce the same degenerate repetition loop on retry rather than
+    recovering from it.
+    """
     for attempt in range(1, max_retries + 1):
 
         rate_limiter.wait()
+
+        current_temperature = min(
+            temperature + temperature_escalation * (attempt - 1),
+            1.0,
+        )
 
         try:
 
@@ -172,24 +188,25 @@ def call_gemini_text(
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json",
                     response_schema=response_schema,
-                    temperature=0.1,
+                    temperature=current_temperature,
                     max_output_tokens=65536,
                 ),
             )
 
-            print("Output chars:", len(response.text))
+            print(
+                "Output chars:",
+                len(response.text),
+                f"(temperature={current_temperature:.2f})",
+            )
 
-            # result = json.loads(response.text)
             try:
 
                 result = json.loads(response.text)
 
-                return result
-
             except Exception:
 
                 with open(
-                    "bad_response.json",
+                    f"bad_response_attempt{attempt}.json",
                     "w",
                     encoding="utf-8",
                 ) as f:
@@ -197,6 +214,9 @@ def call_gemini_text(
                     f.write(response.text)
 
                 raise
+
+            if validate is not None:
+                validate(result)
 
             return result
 

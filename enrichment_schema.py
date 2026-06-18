@@ -37,15 +37,6 @@ AI_ENRICHMENT_PROPS = {
     "chapter": {
         "type": "STRING",
     },
-    "pattern": {
-        "type": "STRING",
-    },
-    "subpattern": {
-        "type": "STRING",
-    },
-    "canonical_method": {
-        "type": "STRING",
-    },
     "difficulty": {
         "type": "STRING",
         "enum": [
