@@ -6,7 +6,6 @@ from pathlib import Path
 DB_FILE = Path("infinite_aptitude.db")
 
 FIELDS_TO_DELETE = [
-    "sub_pattern",
     "pattern",
     "subpattern",
     "canonical_method",
