@@ -1,7 +1,3 @@
-"""
-Categorization Pass: Extract Q&S and use Gemini to classify into sub-patterns
-"""
-
 import json
 import re
 from typing import Optional
@@ -16,10 +12,7 @@ _SECTION_PREFIX = {
 def make_composite_key(section: str, question_number) -> str:
     """
     Build a stable identifier that disambiguates the same question_number
-    appearing in both 'solved_example' and 'exercise' sections (the
-    textbook restarts numbering at 1 in each section). Falls back to a
-    raw prefix for any unexpected section value rather than raising, so
-    a schema change elsewhere doesn't crash categorization outright.
+    appearing in both 'solved_example' and 'exercise' sections.
     """
     prefix = _SECTION_PREFIX.get(section, str(section)[:2].lower() or "unk")
     return f"{prefix}:{question_number}"
@@ -34,6 +27,7 @@ def parse_composite_key(key: str) -> tuple[str, str]:
 CATEGORIZATION_PATTERN_PROPS = {
     "pattern_name": {"type": "STRING"},
     "description": {"type": "STRING"},
+    "prerequisite_patterns": {"type": "ARRAY", "items": {"type": "STRING"}},
     "question_numbers": {"type": "ARRAY", "items": {"type": "STRING"}},
 }
 
@@ -406,16 +400,25 @@ genuinely distinct first moves a student would need. This is rare.
 
 STEP 8
 
-Assign prerequisite patterns (for learning sequencing).
+Assign prerequisite_patterns for each pattern.
 
 For each pattern, decide whether a student should be comfortable
-with another pattern from this same chapter BEFORE attempting this
+with another pattern from this SAME chapter BEFORE attempting this
 one. Only record a genuine dependency — e.g. "Capital Changes"
 naturally builds on "Simple Partnership," so "Simple Partnership"
-is a prerequisite. Most patterns will have zero prerequisites; leave
-the list empty rather than forcing a sequence that doesn't really
-exist. This field exists purely to help a student decide what order
-to study patterns in, not to rank pattern importance.
+is a prerequisite.
+
+Rules for prerequisite_patterns:
+* Only reference pattern_names from THIS SAME response.
+* Only list a prerequisite if studying it first genuinely makes the
+  current pattern easier to understand — not just because it is
+  "simpler."
+* Most patterns will have zero prerequisites — leave the list empty
+  rather than forcing a sequence that doesn't really exist.
+* Never create circular dependencies (if A lists B as a prerequisite,
+  B must not list A).
+* prerequisite_patterns is purely a study-order aid. It does not
+  imply one pattern is more important than another.
 
 STEP 9
 
@@ -433,10 +436,7 @@ Verify:
 * no two pattern names describe the same recognition process and
   solving framework (re-run STEP 7's merge check if unsure),
 * no pattern name is just another pattern's name plus a qualifier
-  suffix for a minor variant (e.g. avoid having both "Rent Sharing"
-  and "Rent Sharing Leaving Pattern" — that split signals
-  fragmentation, not two genuine patterns; fold the variant into the
-  base pattern instead),
+  suffix for a minor variant,
 * no pattern is based on difficulty,
 * no pattern is a catch-all bucket,
 * no pattern is excessively broad,
@@ -444,13 +444,12 @@ Verify:
 * each pattern has one solving framework,
 * every question pair within a pattern passes the SETUP TEST from
   STEP 5 (same first move, only numbers/names differ),
-* the total pattern count has survived the SCALE CHECK in STEP 7B —
-  if the count is high, every pattern can be justified by a genuine
-  new first move, not just a different cover story or extra given fact,
+* the total pattern count has survived the SCALE CHECK in STEP 7B,
 * each pattern could realistically be explained by one markdown note,
 * students would naturally revise the questions in that pattern together,
-* prerequisite_patterns only lists genuine dependencies, and is left
-  empty where no real ordering exists.
+* prerequisite_patterns only lists genuine dependencies from this
+  same response, is left empty where no real ordering exists, and
+  contains no circular references.
 
 Only after completing these steps should you return the final JSON.
 
@@ -564,9 +563,7 @@ Questions and solutions:
 
 
 def format_for_gemini(questions_solutions: list[dict]) -> str:
-    """Format Q&S pairs for Gemini API, using a composite section:number
-    identifier so questions are never ambiguous (the textbook restarts
-    numbering at 1 separately in solved examples and exercises)."""
+    """Format Q&S pairs for Gemini API using composite section:number identifiers."""
     formatted = []
     for item in questions_solutions:
         key = make_composite_key(item.get("section", ""), item["question_number"])
@@ -579,8 +576,7 @@ Solution: {item['solution']}
 
 
 def _name_word_set(name: str) -> set:
-    """Normalize a pattern name into a set of significant words for
-    near-duplicate comparison (lowercase, strip common filler words)."""
+    """Normalize a pattern name into a set of significant words."""
     filler = {"the", "a", "an", "of", "in", "with", "and", "case", "cases"}
     words = re.findall(r"[a-z0-9]+", name.lower())
     return {w for w in words if w not in filler}
@@ -588,17 +584,8 @@ def _name_word_set(name: str) -> set:
 
 def find_near_duplicate_pattern_names(pattern_names: list[str]) -> list[tuple]:
     """
-    Detect pattern name pairs that likely describe the same idea
-    (e.g. 'Capital Withdrawal' vs 'Withdrawal Cases'), as a safety net
-    for STEP 7's merge instruction in the prompt. Uses word-set overlap
-    rather than exact string matching, since the whole point is to
-    catch differently-worded duplicates.
-
-    Returns list of (name_a, name_b, overlap_ratio) for pairs that
-    share at least two-thirds of their significant words. (A lower
-    threshold like 0.5 catches more real duplicates but also flags
-    unrelated pairs that merely share one common word, e.g. both
-    mentioning "capital" — 0.66 is a better signal-to-noise balance.)
+    Detect pattern name pairs that likely describe the same idea.
+    Returns list of (name_a, name_b, overlap_ratio).
     """
     candidates = []
     word_sets = [(name, _name_word_set(name)) for name in pattern_names]
@@ -622,18 +609,30 @@ def find_near_duplicate_pattern_names(pattern_names: list[str]) -> list[tuple]:
     return candidates
 
 
+def _detect_circular_prereqs(patterns: list[dict]) -> list[tuple[str, str]]:
+    """
+    Detect direct circular prerequisite pairs (A requires B, B requires A).
+    Returns list of (name_a, name_b) pairs that form a cycle.
+    """
+    prereq_map = {
+        p["pattern_name"]: set(p.get("prerequisite_patterns", [])) for p in patterns
+    }
+    cycles = []
+    names = list(prereq_map.keys())
+    for i, a in enumerate(names):
+        for b in names[i + 1 :]:
+            if b in prereq_map[a] and a in prereq_map.get(b, set()):
+                cycles.append((a, b))
+    return cycles
+
+
 def normalize_categorization_response(
     categorization: dict,
     expected_question_numbers: Optional[list[str]] = None,
 ) -> dict:
     """
-    Coerce Gemini's structured output into the canonical categorization shape,
-    and derive question_to_pattern directly from each pattern's
-    question_numbers (the single source of truth).
-
-    If expected_question_numbers is given, reports any questions that were
-    omitted or assigned to more than one pattern, so failures are visible
-    instead of silently producing an incomplete sub_pattern field.
+    Coerce Gemini's structured output into the canonical categorization shape.
+    Preserves prerequisite_patterns and validates them.
     """
     if not isinstance(categorization, dict):
         return {"sub_patterns": [], "question_to_pattern": {}}
@@ -646,12 +645,39 @@ def normalize_categorization_response(
     question_to_pattern = {}
     duplicate_assignments = []
 
+    # First pass: collect all pattern names for prerequisite validation
+    all_pattern_names = {
+        str(p.get("pattern_name", "")).strip()
+        for p in raw_patterns
+        if isinstance(p, dict)
+    }
+
     for index, pattern in enumerate(raw_patterns, 1):
         if not isinstance(pattern, dict):
             continue
 
         name = str(pattern.get("pattern_name") or f"Pattern {index}").strip()
         description = str(pattern.get("description", ""))
+
+        # Normalize prerequisite_patterns — validate each one references a
+        # real pattern name from this same response
+        raw_prereqs = pattern.get("prerequisite_patterns", [])
+        if isinstance(raw_prereqs, str):
+            raw_prereqs = [raw_prereqs]
+        elif not isinstance(raw_prereqs, list):
+            raw_prereqs = []
+
+        prereqs = []
+        for p in raw_prereqs:
+            p = str(p).strip()
+            if p and p != name:  # never self-reference
+                if p in all_pattern_names:
+                    prereqs.append(p)
+                else:
+                    print(
+                        f"  WARNING: pattern '{name}' lists prerequisite "
+                        f"'{p}' which is not a known pattern name — dropped."
+                    )
 
         question_numbers = pattern.get("question_numbers", [])
         if isinstance(question_numbers, str):
@@ -665,6 +691,7 @@ def normalize_categorization_response(
                 "pattern_name": name,
                 "subpattern_name": name,
                 "description": description,
+                "prerequisite_patterns": prereqs,
                 "question_numbers": question_numbers,
             }
         )
@@ -676,8 +703,8 @@ def normalize_categorization_response(
 
     if duplicate_assignments:
         print(
-            f"  WARNING: {len(duplicate_assignments)} question(s) were assigned "
-            f"to more than one pattern by Gemini; keeping the last assignment seen:"
+            f"  WARNING: {len(duplicate_assignments)} question(s) assigned to "
+            f"more than one pattern; keeping the last assignment seen:"
         )
         for qnum, first_pattern, second_pattern in duplicate_assignments:
             print(
@@ -689,21 +716,33 @@ def normalize_categorization_response(
         missing = sorted(expected_set - question_to_pattern.keys(), key=str)
         if missing:
             print(
-                f"  WARNING: {len(missing)} question(s) were not assigned to any "
-                f"pattern by Gemini and will be marked 'Uncategorized': {missing}"
+                f"  WARNING: {len(missing)} question(s) not assigned to any "
+                f"pattern and will be marked 'Uncategorized': {missing}"
             )
 
+    # Detect near-duplicate pattern names
     pattern_names = [p["pattern_name"] for p in normalized_patterns]
     near_duplicates = find_near_duplicate_pattern_names(pattern_names)
     if near_duplicates:
         print(
             f"  WARNING: {len(near_duplicates)} pattern name pair(s) look like "
-            f"they might be the same idea under different names (Gemini's "
-            f"merge step in the prompt may have missed these — consider "
-            f"merging manually):"
+            f"the same idea under different names:"
         )
         for name_a, name_b, ratio in near_duplicates:
             print(f"    '{name_a}' <-> '{name_b}' (word overlap: {ratio})")
+
+    # Detect circular prerequisite dependencies
+    circular = _detect_circular_prereqs(normalized_patterns)
+    if circular:
+        print(f"  WARNING: {len(circular)} circular prerequisite pair(s) detected:")
+        for a, b in circular:
+            print(
+                f"    '{a}' <-> '{b}' (mutual prerequisite — breaking cycle by removing from '{b}')"
+            )
+            # Break the cycle by removing the back-edge from the later pattern
+            for p in normalized_patterns:
+                if p["pattern_name"] == b and a in p["prerequisite_patterns"]:
+                    p["prerequisite_patterns"].remove(a)
 
     return {
         "sub_patterns": normalized_patterns,
@@ -731,8 +770,7 @@ def categorize_with_gemini(questions_solutions: list[dict]) -> Optional[dict]:
     if result is None:
         print(
             "  ERROR: categorization call failed after retries; "
-            "no patterns were generated. sub_pattern will remain empty "
-            "for every question in this chapter."
+            "no patterns were generated."
         )
         return None
 
@@ -754,11 +792,17 @@ def categorize_with_gemini(questions_solutions: list[dict]) -> Optional[dict]:
 def add_subpatterns_to_json(
     input_file: str, output_file: str, categorization: dict
 ) -> None:
-    """Add sub_pattern field to original JSON file."""
+    """Add sub_pattern and prerequisite_patterns fields to the JSON file."""
     with open(input_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     question_to_pattern = categorization.get("question_to_pattern", {})
+
+    # Build a pattern_name -> prerequisite_patterns lookup
+    prereq_map: dict[str, list[str]] = {
+        sp["pattern_name"]: sp.get("prerequisite_patterns", [])
+        for sp in categorization.get("sub_patterns", [])
+    }
 
     questions = data.get("questions", []) if isinstance(data, dict) else data
 
@@ -769,12 +813,22 @@ def add_subpatterns_to_json(
         if pattern == "Uncategorized":
             uncategorized.append(key)
         item["sub_pattern"] = pattern
+        # Carry prerequisite_patterns through to each question so the app
+        # can surface "study these first" guidance per question.
+        item["prerequisite_patterns"] = prereq_map.get(pattern, [])
 
     if uncategorized:
         print(
             f"  WARNING: {len(uncategorized)}/{len(questions)} question(s) "
             f"written as 'Uncategorized': {uncategorized}"
         )
+
+    # Store the full categorization metadata in the JSON for downstream use
+    # (overview and cheatsheet generators read prerequisite_patterns from here)
+    if isinstance(data, dict):
+        data["categorization"] = {
+            "sub_patterns": categorization.get("sub_patterns", [])
+        }
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
