@@ -395,57 +395,121 @@ Stay close to the original method.
 Use the same approach as the textbook whenever possible.
 
 Write for a BEGINNER who is seeing this pattern for the first time
-and has never solved this exact type of question before. Assume they
-know basic arithmetic, ratios, fractions, and percentages — but
-assume NOTHING about this specific pattern, trick, or shortcut.
+and has never solved this exact type of question before.
+
+The student knows:
+- basic arithmetic (add, subtract, multiply, divide)
+- what a ratio means
+- what a fraction means
+- what a percentage means
+
+The student does NOT know:
+- which formula applies here
+- why a particular formula applies here
+- what to do first
+- what any intermediate result means in context
+
 Never assume the reader can fill in a gap on their own.
+If a step would make sense only to someone who already knows how to
+solve this type of question, it needs an explanation.
 
 ──────────────────────────────
 THE "WHY" RULE (most important rule in this section)
 ──────────────────────────────
 
-Every time you write a step that is not immediately obvious,
-add a short clause explaining WHY that step is valid — not just WHAT
-it computes.
+For every non-arithmetic step, write one plain-English sentence
+explaining WHY that step is valid before or immediately after the
+equation. The WHY sentence answers the question a beginner would ask
+at that exact moment.
 
-A step needs a "why" if a beginner could reasonably ask:
-"wait, where did that come from?" or "why are we allowed to do that?"
-This includes the moment a ratio first appears, the moment a fraction
-of the total is introduced, the moment a substitution is made, and
-the moment a formula is applied — name the formula or rule in plain
-words at the point it is first used, instead of assuming the reader
-recognizes it.
+A step needs a WHY sentence if it involves any of the following:
 
-A step does NOT need a "why" if it is pure arithmetic
-(e.g. multiplying two numbers, simplifying a fraction).
+• Introducing a formula for the first time
+  — name the rule and say why it applies here.
 
-Bad (states the step, hides the reasoning):
+• A ratio appearing that was not directly stated in the question
+  — explain where it came from.
+
+• A fraction of the total being taken
+  — say why that fraction and not some other.
+
+• One quantity being substituted or replaced by another
+  — say what justifies the substitution.
+
+• A simplification that uses a mathematical property
+  — name the property in plain words.
+
+• Any step where a beginner would reasonably ask:
+  "where did that come from?" or "why are we allowed to do that?"
+
+A step does NOT need a WHY sentence if it is pure arithmetic:
+multiplying, dividing, adding, subtracting, or simplifying a fraction
+that was already fully set up in the previous step.
+
+──────────────────────────────
+WORKED EXAMPLES OF THE WHY RULE
+──────────────────────────────
+
+These show the exact level of explanation required.
+
+— Example 1: profit sharing ratio —
+
+Bad (no explanation, beginner is lost):
 "A's profit share is $\frac{1}{5}$."
 
-Good (states the step AND why it is true):
-"Since the capitals are in the ratio $1:1:3$, A and B each get
-$\frac{1}{5}$ of the total capital, so A's profit share is also
-$\frac{1}{5}$ of the total profit, because in a partnership profit is
-always divided in the same ratio as capital."
+Good (explains the rule AND connects it to this question):
+"In a partnership, profit is always shared in the same ratio as the
+partners' capitals. Since the capitals are in the ratio $1:1:3$,
+the total ratio has $1+1+3=5$ parts. A's capital is 1 part out of 5,
+so A's share of the profit is also $\frac{1}{5}$ of the total."
 
-Bad:
+— Example 2: deriving one partner's ratio from another —
+
+Bad (equation with no context):
 "C's ratio = $\frac{1}{3}$ of (A+B)'s ratio."
 
-Good:
-"C's share is $\frac{1}{4}$ of the total profit, which means A and B
-together get the remaining $\frac{3}{4}$. So C's ratio must equal
-$\frac{1}{3}$ of A and B's combined ratio, because
+Good (builds the logic step by step):
+"We are told C gets $\frac{1}{4}$ of the total profit. That means
+A and B together get the remaining $\frac{3}{4}$. We can verify
+C's share is $\frac{1}{3}$ of A and B's combined share, because
 
 $$
-\frac{1}{4} = \frac{1}{3}\times\frac{3}{4}
+\frac{1}{3}\times\frac{3}{4}
+=
+\frac{1}{4}
+$$
+
+which matches what was given."
+
+— Example 3: setting up an equation from a word condition —
+
+Bad (equation appears with no justification):
+"$x + 10 = 2(y + 10)$"
+
+Good (translates the word condition into math explicitly):
+"The problem says that after 10 years, A's age will be twice B's age.
+A's age in 10 years is $x+10$. B's age in 10 years is $y+10$.
+'Twice' means we multiply B's future age by 2 and set it equal to A's:
+
+$$
+x+10=2(y+10)
 $$"
 
-This is the single biggest difference between a confusing solution
-and a clear one. Apply it consistently, especially at the step where
-a ratio, a fraction-of-total, or a substitution first appears. A
-beginner should never have to take a step on faith — if a number was
-not directly given in the question, say in plain words where it came
-from before using it in the next calculation.
+— Example 4: time-weighted investment —
+
+Bad (ratio stated without justification):
+"Effective capital ratio = $12000\times8 : 16000\times6$"
+
+Good (explains why time is multiplied in):
+"When partners invest for different time periods, the profit-sharing
+ratio is not just based on the amount invested but on
+capital × time — because a larger capital invested for a shorter
+period contributes the same as a smaller capital invested for longer.
+So the effective capital for each partner is:
+
+$$
+12000\times8 : 16000\times6
+$$"
 
 ──────────────────────────────
 GENERAL STYLE
@@ -453,44 +517,26 @@ GENERAL STYLE
 
 Show the reasoning behind each major step.
 
-Explain why formulas are being used.
-
 Do not merely write equations without explanation.
 
-However, avoid excessive verbosity.
-
-Use short explanatory sentences.
+Use short, natural sentences — one idea per sentence.
 
 Show every important intermediate calculation.
 
 Do not skip algebraic steps.
 
-The solution should feel like a teacher solving the problem on a board,
-pausing exactly at the points where a student would normally get lost.
+The solution should feel like a teacher solving the problem on a
+whiteboard, narrating every decision out loud, pausing at exactly the
+moments where a student would normally get stuck.
 
-Avoid robotic wording.
+Avoid robotic numbering:
 
-Avoid:
+Step 1 / Step 2 / Step 3
 
-Step 1
-Step 2
-Step 3
+Use natural connective words instead:
 
-Prefer:
-
-First,
-
-Next,
-
-Since,
-
-Because,
-
-Therefore,
-
-Hence,
-
-Thus,
+First, · Next, · Since, · Because, · Notice that, ·
+This means, · Therefore, · Hence, · Thus,
 
 Never assume that the student already understands the method.
 
@@ -501,10 +547,26 @@ internal thinking artifacts, not finished teaching material.
 
 The solution should appear final and polished.
 
-Aim for approximately 5–15 short lines.
+──────────────────────────────
+BALANCE RULE (explanation vs. brevity)
+──────────────────────────────
 
-Balance explanation and brevity: explain every non-obvious step,
-but do not pad obvious arithmetic with unnecessary words.
+The goal is a solution that is complete without being padded.
+
+Explain every non-arithmetic step (per the WHY RULE above).
+Do not explain pure arithmetic — a student who knows basic arithmetic
+does not need "we multiply 5 by 18 to get 90" spelled out.
+
+The right length is determined by the question's complexity:
+- A simple one-step ratio question may need only 4–6 lines.
+- A multi-party time-weighted partnership may need 12–18 lines.
+Do not pad a short question to hit an artificial minimum, and do not
+compress a complex question to hit an artificial maximum.
+
+A good test: read the solution imagining you are seeing this type of
+question for the first time. If any sentence could be removed without
+losing clarity, remove it. If any step would leave you confused about
+where the next line came from, add a WHY sentence there.
 
 The solution should be easy to read on a mobile phone.
 
@@ -1193,15 +1255,17 @@ The final output should look like professionally written study material.
 Return ONLY JSON matching the schema.
 
 The traditional_solution should teach the pattern, not merely perform
-calculations. Every major step must have a brief explanation of WHY
-it is valid, per the WHY RULE above — a beginner should never have to
-take a step on faith or already know the trick to follow along.
+calculations. Every non-arithmetic step must have a plain-English WHY
+sentence, per the WHY RULE above. A beginner should be able to follow
+every line without already knowing the trick — if a number or formula
+appears without explanation, that is a bug.
 
 A student should be able to fully understand the method from this
-solution alone, without looking at the original textbook and without
-any outside help.
+solution alone, without the original textbook and without any outside
+help.
 
-Keep explanations concise and natural.
+Keep explanations natural and proportionate to the question's
+complexity — do not pad simple questions, do not compress complex ones.
 
 Use new numerical values for most questions. For genuinely
 multi-constraint questions, or after two unsuccessful full-invention
