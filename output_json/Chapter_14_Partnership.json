@@ -1,0 +1,1723 @@
+{
+  "chapter_title": "Chapter_14_Partnership",
+  "question_count": 78,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C started a business by investing ₹ 120000, ₹ 135000 and ₹ 150000 respectively. Find the share of each, out of an annual profit of ₹ 56700.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Ratio of shares of A, B and C = Ratio of their investments\n= 120000 : 135000 : 150000 = 8 : 9 : 10.\n∴ A’s share = ₹ $\\left(56700\\times\\frac{8}{27}\\right)$ = ₹ 16800;\nB’s share = ₹ $\\left(56700\\times\\frac{9}{27}\\right)$ = ₹ 18900;\nC’s share = ₹ $\\left(56700\\times\\frac{10}{27}\\right)$ = ₹ 21000.",
+      "page_numbers": [
+        "476"
+      ],
+      "answer_page_numbers": [
+        "476"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Alfred started a business investing ₹ 45000. After 3 months, Peter joined him with a capital of ₹ 60000. After another 6 months, Ronald joined them with a capital of ₹ 90000. At the end of the year, they made a profit of ₹ 16500. Find the share of each.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, Alfred invested his capital for 12 months, Peter for 9 months and Ronald for 3 months.\nSo, ratio of their capitals = (45000 $\\times$ 12) : (60000 $\\times$ 9) : (90000 $\\times$ 3)\n= 540000 : 540000 : 270000 = 2 : 2 : 1.\n∴ Alfred’s share = ₹ $\\left(16500\\times\\frac{2}{5}\\right)$ = ₹ 6600;\nPeter’s share = ₹ $\\left(16500\\times\\frac{2}{5}\\right)$ = ₹ 6600;\nRonald’s share = ₹ $\\left(16500\\times\\frac{1}{5}\\right)$ = ₹ 3300.",
+      "page_numbers": [
+        "476"
+      ],
+      "answer_page_numbers": [
+        "476"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "SNAP, 2005",
+      "passage_text": "",
+      "question_text": "A, B and C start a business each investing ₹ 20000. After 5 months A withdrew ₹ 5000, B withdrew ₹ 4000 and C invests ₹ 6000 more. At the end of the year, a total profit of ₹ 69900 was recorded. Find the share of each.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Ratio of the capitals of A, B and C\n= 20000 $\\times$ 5 + 15000 $\\times$ 7 : 20000 $\\times$ 5 + 16000 $\\times$ 7 : 20000 $\\times$ 5 + 26000 $\\times$ 7\n= 205000 : 212000 : 282000 = 205 : 212 : 282.\n∴ A’s share = ₹ $\\left(69900\\times\\frac{205}{699}\\right)$ = ₹ 20500;\nB’s share = ₹ $\\left(69900\\times\\frac{212}{699}\\right)$ = ₹ 21200;\nC’s share = ₹ $\\left(69900\\times\\frac{282}{699}\\right)$ = ₹ 28200.",
+      "page_numbers": [
+        "477"
+      ],
+      "answer_page_numbers": [
+        "477"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C enter into partnership. A invests 3 times as much as B invests and B invests two-thirds of what C invests. At the end of the year, the profit earned is ₹ 6600. What is the share of B?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let C’s capital = ₹ $x$. Then, B’s capital = ₹ $\\left(\\frac{2}{3}x\\right)$.\nA’s capital = ₹ $\\left(3\\times\\frac{2}{3}x\\right)$ = ₹ $2x$.\n∴ Ratio of their capitals = $2x : \\frac{2}{3}x : x$ = 6 : 2 : 3.\nHence, B’s share = ₹ $\\left(6600\\times\\frac{2}{11}\\right)$ = ₹ 1200.",
+      "page_numbers": [
+        "477"
+      ],
+      "answer_page_numbers": [
+        "477"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C enter into a partnership with capitals in the ratio $\\frac{7}{2} : \\frac{4}{3} : \\frac{6}{5}$. After 4 months A increases his share of capital by 50%. If at the end of the year the total profit earned is ₹ 2430, find the share of each in the profit.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Ratio of capitals = $\\left(\\frac{7}{2}\\times30\\right) : \\left(\\frac{4}{3}\\times30\\right) : \\left(\\frac{6}{5}\\times30\\right) = 105 : 40 : 36$.\nLet the initial capitals of A, B and C be ₹ $105x$, ₹ $40x$ and ₹ $36x$ respectively.\nThen, ratio of profits = $[105x \\times 4 + (150\\% \\text{ of } 105x) \\times 8] : (40x \\times 12) : (36x \\times 12)$\n= 1680 : 480 : 432 = 35 : 10 : 9.\n∴ A’s share = ₹ $\\left(2430\\times\\frac{35}{54}\\right)$ = ₹ 1575;\nB’s share = ₹ $\\left(2430\\times\\frac{10}{54}\\right)$ = ₹ 450;\nC’s share = ₹ $\\left(2430\\times\\frac{9}{54}\\right)$ = ₹ 405.",
+      "page_numbers": [
+        "477"
+      ],
+      "answer_page_numbers": [
+        "477"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C enter into partnership with capitals of ₹ 25000, ₹ 30000 and ₹ 15000 respectively. A is the working partner and he gets 30% of the profit for managing the business. The balance profit is distributed in proportion to the capital investment. At the year-end, A gets ₹ 200 more than B and C together. Find the total profit and the share of each.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the total profit be ₹ $x$.\nAmount obtained by A for managing = ₹ $\\left(x\\times\\frac{30}{100}\\right)$ = ₹ $\\left(\\frac{3x}{10}\\right)$.\nBalance profit = ₹ $\\left(x - \\frac{3x}{10}\\right)$ = ₹ $\\left(\\frac{7x}{10}\\right)$.\nRatio of capitals = 25000 : 30000 : 15000 = 5 : 6 : 3.\n∴ A’s share = ₹ $\\left[\\left(\\frac{7x}{10}\\times\\frac{5}{14}\\right) + \\frac{3x}{10}\\right]$ = ₹ $\\left(\\frac{11x}{20}\\right)$;\nB’s share = ₹ $\\left(\\frac{7x}{10}\\times\\frac{6}{14}\\right)$ = ₹ $\\left(\\frac{3x}{10}\\right)$;\nC’s share = ₹ $\\left(\\frac{7x}{10}\\times\\frac{3}{14}\\right)$ = ₹ $\\left(\\frac{3x}{20}\\right)$.\n$\\frac{3x}{10} + \\frac{3x}{20} = \\frac{11x}{20} - 200 \\Rightarrow \\frac{3x}{10} + \\frac{3x}{20} = \\frac{11x}{20} - 200 \\Rightarrow \\frac{3x}{10} + \\frac{3x}{20} = \\frac{11x}{20} - 200 \\Rightarrow x = 2000$.\nSo, total profit = ₹ 2000.\n∴ A’s share = ₹ $\\left(\\frac{11\\times2000}{20}\\right)$ = ₹ 1100;\nB’s share = ₹ $\\left(\\frac{3\\times2000}{10}\\right)$ = ₹ 600;\nC’s share = ₹ $\\left(\\frac{3\\times2000}{20}\\right)$ = ₹ 300.",
+      "page_numbers": [
+        "477",
+        "478"
+      ],
+      "answer_page_numbers": [
+        "478"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Four milkmen rented a pasture. A grazed 24 cows for 3 months; B 10 cows for 5 months; C 35 cows for 4 months and D 21 cows for 3 months. If A’s share of rent is ₹ 720, find the total rent of the field.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Ratio of shares of A, B, C, D = (24 $\\times$ 3) : (10 $\\times$ 5) : (35 $\\times$ 4) : (21 $\\times$ 3)\n= 72 : 50 : 140 : 63.\nLet total rent be ₹ $x$. Then, A’s share = ₹ $\\left(\\frac{72x}{325}\\right)$.\n∴ $\\frac{72x}{325} = 720 \\Leftrightarrow x = \\frac{720\\times325}{72} = 3250$.\nHence, total rent of the field is ₹ 3250.",
+      "page_numbers": [
+        "478"
+      ],
+      "answer_page_numbers": [
+        "478"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two persons A and B take a field on rent. A put on it 21 horses for 3 months and 15 cows for 2 months; B puts 15 cows for 6 months and 40 sheep for $1\\frac{1}{2}$ months. If, in one day, 3 horses eat as much as 5 cows eat and 6 cows as much as 10 sheep, what part of the rent should A pay?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "6 cows $\\equiv$ 10 sheep $\\Rightarrow$ 1 cow $\\equiv$ $\\frac{5}{3}$ sheep.\n3 horses $\\equiv$ 5 cows $\\Rightarrow$ 1 horse $\\equiv$ $\\frac{5}{3}$ cows $\\equiv$ $\\left(\\frac{5}{3}\\times\\frac{5}{3}\\right)$ sheep $\\equiv$ $\\frac{25}{9}$ sheep.\nRatio of shares of A and B\n= $\\left[\\left(21\\times\\frac{25}{9}\\times3\\right) + \\left(15\\times\\frac{5}{3}\\times2\\right)\\right] : \\left[\\left(15\\times\\frac{5}{3}\\times6\\right) + \\left(40\\times\\frac{3}{2}\\right)\\right]$\n= 225 : 450 = 1 : 2.\nHence, part of the rent paid by A = $\\frac{1}{3}$.",
+      "page_numbers": [
+        "478"
+      ],
+      "answer_page_numbers": [
+        "478"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "A, B and C took a house on rent for one year for ₹ 13824. They remained together for 4 months and then C left the house. After 5 more months, B also left the house. How much rent should each pay?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Monthly rent = ₹ $\\left(\\frac{13824}{12}\\right)$ = ₹ 1152.\nRent for first 4 months = ₹ (1152 $\\times$ 4) = ₹ 4608.\nIt is to be divided equally among A, B and C.\n∴ Share of each = ₹ $\\left(\\frac{4608}{3}\\right)$ = ₹ 1536.\nRent for next 5 months = ₹ (1152 $\\times$ 5) = ₹ 5760.\nIt is to be divided equally between A and B.\n∴ Share of each = ₹ $\\left(\\frac{5760}{2}\\right)$ = ₹ 2880.\nRent for last 3 months = ₹ (1152 $\\times$ 3) = ₹ 3456.\nIt is to be paid by A only.\n∴ Total rent paid by A = ₹ (1536 + 2880 + 3456) = ₹ 7872.\nTotal rent paid by B = ₹ (1536 + 2880) = ₹ 4416.\nTotal rent paid by C = ₹ 1536.",
+      "page_numbers": [
+        "478"
+      ],
+      "answer_page_numbers": [
+        "478"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A invested ₹ 76000 in a business. After few months, B joined him with ₹ 57000. At the end of the year, the total profit was divided between them in the ratio 2 : 1. After how many months did B join?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Suppose B joined after $x$ months.\nThen, B’s money was invested for (12 – $x$) months.\n∴ $\\frac{76000\\times12}{57000(12-x)} = \\frac{2}{1}$\n$\\Leftrightarrow$ 912000 = 114000 (12 – $x$)\n$\\Leftrightarrow$ 114 (12 – $x$) = 912\n$\\Leftrightarrow$ (12 – $x$) = 8 $\\Leftrightarrow$ $x$ = 4.\nHence, B joined after 4 months.",
+      "page_numbers": [
+        "479"
+      ],
+      "answer_page_numbers": [
+        "479"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "S.S.C., 2008",
+      "passage_text": "",
+      "question_text": "The ratio of investments of two partners A and B is 11 : 12 and the ratio of their profits is 2 : 3. If A invested the money for 8 months, then for how much time B invested his money?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Suppose A invested ₹ $11x$ for 8 months and B invested ₹ $12x$ for $y$ months.\nThen, $\\frac{11x\\times8}{12x\\times y} = \\frac{2}{3} \\Rightarrow \\frac{88}{12y} = \\frac{2}{3} \\Rightarrow 24y = 264 \\Rightarrow y = 11$.\nHence, B invested the money for 11 months.",
+      "page_numbers": [
+        "479"
+      ],
+      "answer_page_numbers": [
+        "479"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C are partners in a business. A, whose money has been used for 4 months, claims $\\frac{1}{8}$ of the profit. B, whose money has been used for 6 months, claims $\\frac{1}{3}$ of the profit. C had invested ₹ 1560 for 8 months. How much money did A and B contribute?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the total profit be ₹ $x$.\nThen, A’s share = ₹ $\\frac{x}{8}$; B’s share = ₹ $\\frac{x}{3}$;\nC’s share = ₹ $\\left[x - \\left(\\frac{x}{8} + \\frac{x}{3}\\right)\\right]$ = ₹ $\\left(x - \\frac{11x}{24}\\right)$ = ₹ $\\left(\\frac{13x}{24}\\right)$.\n∴ Ratio of shares of A, B and C = $\\frac{x}{8} : \\frac{x}{3} : \\frac{13x}{24}$ = 3 : 8 : 13.\nSuppose A invested ₹ $y$ for 4 months and B invested ₹ $z$ for 6 months.\nThen, $\\frac{y\\times4}{1560\\times8} = \\frac{3}{13} \\Rightarrow 52y = 37440 \\Rightarrow y = 720$.\nAnd, $\\frac{z\\times6}{1560\\times8} = \\frac{8}{13} \\Rightarrow 78z = 99840 \\Rightarrow z = 1280$.\nHence, A’s contribution = ₹ 720; B’s contribution = ₹ 1280.",
+      "page_numbers": [
+        "479"
+      ],
+      "answer_page_numbers": [
+        "479"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C enter into a partnership by investing in the ratio of 3 : 2 : 4. After one year, B invests another ₹ 270000 and C, at the end of 2 years, also invests ₹ 270000. At the end of three years, profits are shared in the ratio of 3 : 4 : 5. Find the initial investment of each.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the initial investments of A, B and C be ₹ $3x$, ₹ $2x$ and ₹ $4x$ respectively.\nThen, $(3x \\times 36) : [(2x \\times 12) + (2x + 270000) \\times 24] : [(4x \\times 24) + (4x + 270000) \\times 12] = 3 : 4 : 5$\n$\\Leftrightarrow$ 108$x$ : (72$x$ + 6480000) : (144$x$ + 3240000) = 3 : 4 : 5\n∴ $\\frac{108x}{72x + 6480000} = \\frac{3}{4}$\n$\\Leftrightarrow$ 432$x$ = 216$x$ + 19440000 $\\Leftrightarrow$ 216$x$ = 19440000 $\\Leftrightarrow$ $x$ = 90000.\nHence, A’s initial investment = 3$x$ = ₹ 270000;\nB’s initial investment = 2$x$ = ₹ 180000;\nC’s initial investment = 4$x$ = ₹ 360000.",
+      "page_numbers": [
+        "479"
+      ],
+      "answer_page_numbers": [
+        "479"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C enter into a partnership. Their capital contribution is in the ratio 21 : 18 : 14. At the end of the business term they share profits in the ratio 15 : 8 : 9. Find the ratio of time for which they invest their capitals.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "",
+      "page_numbers": [
+        "479"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "P.C.S., 2006",
+      "passage_text": "",
+      "question_text": "Rahul, Arun and Sumit started a business. Rahul invested $\\frac{1}{2}$ part, Arun $\\frac{1}{3}$ part and rest of the capital was invested by Sumit. The ratio of their profits will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 : 3 : 1",
+      "option_b": "3 : 2 : 1",
+      "option_c": "2 : 3 : 6",
+      "option_d": "3 : 2 : 5",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the total capital be ₹ $x$. Then, Rahul’s share = ₹ $\frac{x}{2}$,\nArun’s share = ₹ $\frac{x}{3}$.\nSumit’s share = ₹ $\\left[x - \\left(\\frac{x}{2} + \\frac{x}{3}\\right)\\right] = \\frac{x}{6}$.\nRequired ratio = $\\frac{x}{2} : \\frac{x}{3} : \\frac{x}{6} = 3 : 2 : 1$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "P and Q started a business investing ₹ 85000 and ₹ 15000 respectively. In what ratio the profit earned after 2 years be divided between P and Q respectively?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 : 4",
+      "option_b": "3 : 5",
+      "option_c": "15 : 23",
+      "option_d": "17 : 23",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "$P : Q = 85000 : 15000 = 85 : 15 = 17 : 3$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Anand and Deepak started a business investing ₹ 22500 and ₹ 35000 respectively. Out of a total profit of ₹ 13800, Deepak’s share is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 5400",
+      "option_b": "₹ 7200",
+      "option_c": "₹ 8400",
+      "option_d": "₹ 9600",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Ratio of their shares = $22500 : 35000 = 9 : 14$. Deepak’s share = ₹ $\\left(13800 \\times \\frac{14}{23}\\right) = ₹ 8400$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "Samaira, Mahira and Kiara rented a set of DVDs at a rent of ₹ 578. If they used it for 8 hours, 12 hours and 14 hours respectively, what is Kiara’s share of rent to be paid?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 192",
+      "option_b": "₹ 204",
+      "option_c": "₹ 215",
+      "option_d": "₹ 238",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Ratio of shares = $8 : 12 : 14 = 4 : 6 : 7$.\nKiara’s share = ₹ $\\left(578 \\times \\frac{7}{17}\\right) = ₹ 238$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "P, Q and R invested ₹ 45000, ₹ 70000 and ₹ 90000 respectively to start a business. At the end of 2 years, they earned a profit of ₹ 164000. What will be Q’s share in the profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 36000",
+      "option_b": "₹ 56000",
+      "option_c": "₹ 64000",
+      "option_d": "₹ 72000",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$P : Q : R = 45000 : 70000 : 90000 = 9 : 14 : 18$.\nQ’s share = ₹ $\\left(164000 \\times \\frac{14}{41}\\right) = ₹ 56000$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "Prakash, Sachin and Anil started a business jointly investing ₹ 11 lakh, ₹ 16.5 lakh and ₹ 8.25 lakh respectively. The profit earned by them in the business at the end of 3 years was ₹ 19.5 lakh. What will be 50% of Anil’s share in the profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2.25 lakh",
+      "option_b": "₹ 2.5 lakh",
+      "option_c": "₹ 3.75 lakh",
+      "option_d": "₹ 4.5 lakh",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Ratio of shares = $11 : 16.5 : 8.25 = 4 : 6 : 3$.\nAnil’s share = ₹ $\\left(19.5 \\times \\frac{3}{13}\\right)$ lakh = ₹ $4.5$ lakh.\nRequired amount = $50\\%$ of ₹ $4.5$ lakh = ₹ $2.25$ lakh.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "Campus Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "Two friends invested ₹ 1500 and ₹ 2500 in a business. They earned a profit of ₹ 800. One-half of the profit was divided equally between them and the other half was divided in proportion to their capitals. How much did each of them receive?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 350 and ₹ 450",
+      "option_b": "₹ 360 and ₹ 440",
+      "option_c": "₹ 370 and ₹ 430",
+      "option_d": "₹ 375 and ₹ 425",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Ratio of shares = $1500 : 2500 = 3 : 5$.\nShare of first friend = ₹ $\\left[400 + \\left(400 \\times \\frac{3}{8}\\right)\\right] = ₹ (200 + 150) = ₹ 350$.\nShare of second friend = ₹ $\\left[400 + \\left(400 \\times \\frac{5}{8}\\right)\\right] = ₹ (200 + 250) = ₹ 450$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "Campus Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "Three persons stared a placement business with a capital of ₹ 3000. B invests ₹ 600 less than A and C invests ₹ 300 less than B. What is B’s share in a profit of ₹ 886?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 443",
+      "option_b": "₹ 354.40",
+      "option_c": "₹ 265.80",
+      "option_d": "₹ 177.20",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let A’s capital = ₹ $x$. Then, B’s capital = ₹ $(x - 600)$.\nC’s capital = ₹ $[(x - 600) - 300] = ₹ (x - 900)$.\n$x + (x - 600) + (x - 900) = 3000$\n$3x = 4500 \\Rightarrow x = 1500$.\nSo, $A : B : C = 1500 : 900 : 600 = 5 : 3 : 2$.\nHence, B’s share = ₹ $\\left(886 \\times \\frac{3}{10}\\right) = ₹ 265.80$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Reena and Shaloo are partners in a business. Reena invests ₹ 35000 for 8 months and Shaloo invests ₹ 42000 for 10 months. Out of a profit of ₹ 31570, Reena’s share is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 9471",
+      "option_b": "₹ 12,628",
+      "option_c": "₹ 18,040",
+      "option_d": "₹ 18942",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Ratio of their shares = $(35000 \\times 8) : (42000 \\times 10) = 2 : 3$.\nReena’s share = ₹ $\\left(31570 \\times \\frac{2}{5}\\right) = ₹ 12628$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "Shankar started a business with an investment of ₹ 120,000. After three months, Aniket joined him with an investment of ₹ 190,000. They earned a profit of ₹ 17,50,000 after one year. What is Aniket’s share in the profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 800000",
+      "option_b": "₹ 850000",
+      "option_c": "₹ 900000",
+      "option_d": "₹ 950000",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Shankar : Aniket = $(120000 \\times 12) : (190000 \\times 9) = 1440000 : 1710000 = 16 : 19$.\nAniket’s share = ₹ $\\left(1750000 \\times \\frac{19}{35}\\right) = ₹ 950000$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "Bank P.O., 2007",
+      "passage_text": "",
+      "question_text": "Arun started a business investing ₹ 38000. After 5 months Bakul joined him with a capital of ₹ 55000. At the end of the year the total profit was ₹ 22000. What is the approximate difference between the shares of profits of Arun and Bakul?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1007",
+      "option_b": "₹ 1192",
+      "option_c": "₹ 1568",
+      "option_d": "₹ 1857",
+      "option_e": "₹ 1928",
+      "correct_option": "d",
+      "solution": "Arun : Bakul = $(38000 \\times 12) : (55000 \\times 7) = 456000 : 385000 = 456 : 385$.\nRequired difference = ₹ $\\left[22000 \\times \\left(\\frac{456}{841} - \\frac{385}{841}\\right)\\right] = ₹ \\left(22000 \\times \\frac{71}{841}\\right) = ₹ 1857.31 \\approx ₹ 1857$.",
+      "page_numbers": [
+        "480"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "Gautam started a business with a sum of ₹ 60000. Jatin joined him 8 months later with a sum of ₹ 35000. At what respective ratio will the two share the profit after two years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 : 1",
+      "option_b": "3 : 1",
+      "option_c": "18 : 7",
+      "option_d": "37 : 14",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Gautam : Jatin = $(60000 \\times 12) : (35000 \\times 8) = 720000 : 280000 = 18 : 7$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "Bank P.O., 2004",
+      "passage_text": "",
+      "question_text": "Simran started a software business by investing ₹ 50000. After six months, Nanda joined her with a capital of ₹ 80000. After 3 years, they earned a profit of ₹ 24500. What was Simran’s share in the profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 9423",
+      "option_b": "₹ 10,250",
+      "option_c": "₹ 12500",
+      "option_d": "₹ 14000",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Simran : Nanda = $(50000 \\times 36) : (80000 \\times 30) = 1800000 : 2400000 = 3 : 4$.\nSimran’s share = ₹ $\\left(24500 \\times \\frac{3}{7}\\right) = ₹ 10500$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "Dilip, Ram and Avtar started a shop by investing ₹ 2700, ₹ 8100 and ₹ 7200 respectively. At the end of one year, the profit earned was distributed. If Ram’s share was ₹ 3600, what was their total profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8000",
+      "option_b": "₹ 10800",
+      "option_c": "₹ 11600",
+      "option_d": "Data inadequate",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Dilip : Ram : Avtar = $2700 : 8100 : 7200 = 3 : 9 : 8$.\nLet the total profit be ₹ $x$.\nThen, Ram’s share = ₹ $\\left(\\frac{9}{20}x\\right)$.\n$\\frac{9}{20}x = 3600 \\Rightarrow x = \\left(\\frac{3600 \\times 20}{9}\\right) = 8000$.\nHence, total profit = ₹ $8000$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B started a business in partnership investing ₹ 20000 and ₹ 15000 respectively. After six months, C joined them with ₹ 20000. What will be B’s share in the total profit of ₹ 25000 earned at the end of 2 years from the starting of the business?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 7500",
+      "option_b": "₹ 9000",
+      "option_c": "₹ 9500",
+      "option_d": "₹ 10000",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "$A : B : C = (20000 \\times 24) : (15000 \\times 24) : (20000 \\times 18) = 4 : 3 : 3$.\nB’s share = ₹ $\\left(25000 \\times \\frac{3}{10}\\right) = ₹ 7500$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Aman started a business investing ₹ 70000. Rakhi joined him after six months with an amount of ₹ 105000 and Sagar joined them with ₹ 1.4 lakhs after another six months. The amount of profit earned should be distributed in what ratio among Aman, Rakhi and Sagar respectively, 3 years after Aman started the business?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7 : 6 : 10",
+      "option_b": "12 : 15 : 16",
+      "option_c": "42 : 45 : 56",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Aman : Rakhi : Sagar = $(70000 \\times 36) : (105000 \\times 30) : (140000 \\times 24) = 12 : 15 : 16$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "Bank P.O., 2005",
+      "passage_text": "",
+      "question_text": "Sonia started a business investing ₹ 60000. After 6 months Vivek joined him with an amount of ₹ 140000. After 1 year Kirti also joined them with ₹ 120000. After 2 years the business yielded a total profit of ₹ 450000. What is the share of Vivek in the profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 140000",
+      "option_b": "₹ 198500",
+      "option_c": "₹ 210000",
+      "option_d": "₹ 215000",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Sonia : Vivek : Kirti = $(60000 \\times 24) : (140000 \\times 18) : (120000 \\times 12) = 1440000 : 2520000 : 1440000 = 4 : 7 : 4$.\nVivek’s share = ₹ $\\left(450000 \\times \\frac{7}{15}\\right) = ₹ 210000$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "485"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Arun, Kamal and Vinay invested ₹ 8000, ₹ 4000 and ₹ 8000 respectively in a business. Arun left after six months. If after eight months, there was a gain of ₹ 4005, then what will be the share of Kamal?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 890",
+      "option_b": "₹ 1335",
+      "option_c": "₹ 1602",
+      "option_d": "₹ 1780",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Arun : Kamal : Vinay = $(8000 \\times 6) : (4000 \\times 8) : (8000 \\times 8) = 48 : 32 : 64 = 3 : 2 : 4$.\nKamal’s share = ₹ $\\left(4005 \\times \\frac{2}{9}\\right) = ₹ 890$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "486"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "Bank Recruitment, 2007",
+      "passage_text": "",
+      "question_text": "P and Q started a business in the ratio of 2 : 3. After 1 year P left the business but Q continues. After 2 years he had the profit of ₹ 26000. What is the profit of Q?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 10400",
+      "option_b": "₹ 13000",
+      "option_c": "₹ 15600",
+      "option_d": "₹ 18500",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Let the initial capitals of P and Q be ₹ $2x$ and ₹ $3x$ respectively.\nThen, Ratio of profits = $(2x \\times 12) : (3x \\times 24) = 24x : 72x = 1 : 3$.\nQ’s share = ₹ $\\left(26000 \\times \\frac{3}{4}\\right) = ₹ 19500$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "486"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "G.B.O., 2007",
+      "passage_text": "",
+      "question_text": "A, B and C enter into a partnership. A invests some money at the beginning, B invests double the amount after six months and C invests thrice the amount after eight months. If the annual profit be ₹ 27000; C’s share (in ₹) is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8625",
+      "option_b": "₹ 9000",
+      "option_c": "₹ 10800",
+      "option_d": "₹ 11250",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the money invested by A, B and C be ₹ $x$, ₹ $2x$ and ₹ $3x$ respectively.\nThen, $A : B : C = (x \\times 12) : (2x \\times 6) : (3x \\times 4) = 12x : 12x : 12x = 1 : 1 : 1$.\nC’s share = ₹ $\\left(27000 \\times \\frac{1}{3}\\right) = ₹ 9000$.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "486"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C enter into a partner ship. They invest ₹ 40000, ₹ 80000 and ₹ 120000 respectively. At the end of the first year, B withdraws ₹ 40,000, while at the end of the second year, C withdraws ₹ 80000. In what ratio will the profit be shared at the end of 3 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 : 3 : 5",
+      "option_b": "3 : 4 : 7",
+      "option_c": "4 : 5 : 9",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$A:B:C=(40000\times36):(80000\times12+40000\times24):(120000\times24+40000\times12)$\n$=144:192:336=3:4:7.$",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C enter into a partnership. A initially invests ₹ 25 lakhs and adds another ₹ 10 lakhs after one year. B initially invests ₹ 35 lakhs and withdraws ₹ 10 lakhs after 2 years and C invests ₹ 30 lakhs. In what ratio should the profits be divided at the end of 3 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 : 10 : 9",
+      "option_b": "20 : 20 : 19",
+      "option_c": "20 : 19 : 18",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$A:B:C=(25\\text{ lakhs}\times1+35\\text{ lakhs}\times2):(35\\text{ lakhs}\times2+25\\text{ lakhs}\times1):(30\\text{ lakhs}\times3)$\n$=95\\text{ lakhs}:95\\text{ lakhs}:90\\text{ lakhs}=19:19:18.$",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "Bank P.O., 2006",
+      "passage_text": "",
+      "question_text": "Subhash starts a business by investing ₹ 25000. 6 months later Aditya joins him by investing ₹ 15000. After another 6 months Aditya invests an additional amount of ₹ 15000. At the end of 3 years they earn a profit of ₹ 247000. What is Aditya’s share in the profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 105000",
+      "option_b": "₹ 111500",
+      "option_c": "₹ 123000",
+      "option_d": "₹ 130000",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Subhash : Aditya = $(25000\times36):(15000\times6+30000\times24)$\n$=900000:810000=10:9.$\nAditya's share = ₹ $\\left(\frac{9}{19}\times247000\right)$ = ₹ 117000.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Shekhar started a business investing ₹ 25000 in 2009. In 2010, he invested an additional amount of ₹ 10000 and Rajeev joined him with an amount of ₹ 35000. In 2011, Shekhar invested another additional amount of ₹ 10000 and Jatin joined them with an amount of ₹ 35000. What will be Rajeev’s share in the profit of ₹ 150000 earned at the end of 3 years from the start of the business in 2009?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 45000",
+      "option_b": "₹ 50000",
+      "option_c": "₹ 70000",
+      "option_d": "₹ 75000",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Shekhar : Rajeev : Jatin\n$=(25000\times12+35000\times12+45000\times12):(35000\times24):(35000\times12)$\n$=1260000:840000:420000=3:2:1.$\nRajeev's share = ₹ $\\left(\frac{2}{6}\times150000\right)$ = ₹ 50000.",
+      "page_numbers": [
+        "481"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B entered into a partnership investing ₹ 16000 and ₹ 12000 respectively. After 3 months, A withdrew ₹ 5000 while B invested ₹ 5000 more. After 3 more months, C joins the business with a capital of ₹ 21000. The share of B exceeds that of C, out of a total profit of ₹ 26,400 after one year by",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2400",
+      "option_b": "₹ 3000",
+      "option_c": "₹ 3600",
+      "option_d": "₹ 4800",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$A:B:C=(16000\times3+11000\times9):(12000\times3+17000\times9):(21000\times6)$\n$=147:189:126=7:9:6.$\nDifference between B's and C's shares\n= ₹ $\\left(\frac{9}{22}\times26400-\frac{6}{22}\times26400\right)$ = ₹ 3600.",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "Bank P.O., 2003",
+      "passage_text": "",
+      "question_text": "A and B start a business with investments of ₹ 5000 and ₹ 4500 respectively. After 4 months, A takes out half of his capital. After two more months, B takes out one-third of his capital while C joins them with a capital of ₹ 7000. At the end of a year, they earn a profit of ₹ 5080. Find the share of each member in the profit.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "A – ₹ 1400, B – ₹ 1900, C – ₹ 1780",
+      "option_b": "A – ₹ 1600, B – ₹ 1800, C – ₹ 1680",
+      "option_c": "A – ₹ 1800, B – ₹ 1500, C – ₹ 1780",
+      "option_d": "A – ₹ 1680, B – ₹ 1600, C – ₹ 1800",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$A:B:C=(5000\times4+2500\times8):(4500\times6+3000\times6):(7000\times6)$\n$=40000:45000:42000=40:45:42.$\nA's share = ₹ $\\left(\frac{40}{127}\times5080\right)$ = ₹ 1600;\nB's share = ₹ $\\left(\frac{45}{127}\times5080\right)$ = ₹ 1800;\nC's share = ₹ $\\left(\frac{42}{127}\times5080\right)$ = ₹ 1680.",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A, B, C subscribe ₹ 50000 for a business. A subscribes ₹ 4000 more than B and B ₹ 5000 more than C. Out of a total profit of ₹ 35000, A receives:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8400",
+      "option_b": "₹ 11900",
+      "option_c": "₹ 13600",
+      "option_d": "₹ 14700",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let $C=x$. Then, $B=x+5000$ and $A=x+5000+4000=x+9000.$\nSo, $x+x+5000+x+9000=50000$\n$\\Leftrightarrow3x=36000\\Leftrightarrow x=12000.$\n$A:B:C=21000:17000:12000=21:17:12.$\nA's share = ₹ $\\left(\frac{21}{50}\times35000\right)$ = ₹ 14,700.",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "A, B and C are three partners. They altogether invested ₹ 14000 in business. At the end of the year, A got ₹ 337.50, B ₹ 1125 and C ₹ 637.50 as profit. The difference between the investments of B and A was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2200",
+      "option_b": "₹ 3200",
+      "option_c": "₹ 4200",
+      "option_d": "₹ 5250",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Ratio of investments of A, B and C = Ratio of their profits\n$=337.50:1125:637.50=9:30:17.$\nA's investment = ₹ $\\left(\frac{9}{56}\times14000\right)$ = ₹ 2250.\nB's investment = ₹ $\\left(\frac{30}{56}\times14000\right)$ = ₹ 7500.\nHence, required difference = ₹ $(7500-2250)$ = ₹ 5250.",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "Bank P.O., 2004",
+      "passage_text": "",
+      "question_text": "A, B and C started a business investing amounts in the ratio of 5 : 6 : 8 respectively. After one year, C withdrew 50% of the amount and A invested an additional amount of 60% of the original amount invested by him. In what ratio, the profit earned at the end of 2 years should be distributed among A, B and C respectively?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 : 3 : 3",
+      "option_b": "4 : 3 : 2",
+      "option_c": "13 : 12 : 12",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let the initial investments of A, B and C be $5x, 6x$ and $8x$ respectively. Then,\n$A:B:C=[5x\times12+(160\text{\\% of }5x)\times12]:(6x\times24):(8x\times12+4x\times12)$\n$=156x:144x:144x=13:12:12.$",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "M.B.A., 2009",
+      "passage_text": "",
+      "question_text": "John, Mona and Gordon, three US based business partners, jointly invested in a business project to supply nuclear fuel to India. As per their share in the investment, Gordon will receive $\\frac{2}{3}$ of the profits whereas John and Mona divide the remainder equally. It is estimated that the income of John will increase by $ 60 million when the rate of profit rises from 4% to 7%. What is Mona’s capital ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$ 2000 million",
+      "option_b": "$ 3000 million",
+      "option_c": "$ 5000 million",
+      "option_d": "$ 8000 million",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Fraction of profit received by each one of John and Mona\n$=\\left(1-\frac{2}{3}\right)=\frac{1}{6}.$\nRatio of capitals of John, Mona and Gordon = Ratio of their profits $= \frac{1}{6}:\frac{1}{6}:\frac{1}{3} = 1:1:4.$\nLet the total capital be ₹ $x$.\nThen, $\frac{1}{6}$ of $(7\text{\\% of }x-4\text{\\% of }x) = \\$ 60\text{ million}$\n$\\Rightarrow3\text{\\% of }x = \\$ 360\text{ million}$\n$\\Rightarrow x = \\$ \\left(\frac{360\times100}{3}\\right)\text{ million} = \\$ 12000\text{ million}.$\nMona's capital = $\\left(\frac{1}{6}\times\\$ 12000\text{ million}\\right) = \\$ 2000\text{ million}.$",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "Anu is a working partner and Bimla is a sleeping partner in a business. Anu puts in ₹ 5000 and Bimla puts in ₹ 6000. Anu receives 12.5% of the profit for managing the business and the rest is divided in proportion to their capitals. What does each get out of a profit of ₹ 880?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 400, ₹ 480",
+      "option_b": "₹ 450, ₹ 430",
+      "option_c": "₹ 460, ₹ 420",
+      "option_d": "₹ 470, ₹ 410",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Anu : Bimla $=5000:6000=5:6.$\nAnu's share for managing business $=12.5\text{\\% of ₹ }880 = ₹ 110.$\nNet profit = ₹ $(880-110) = ₹ 770.$\nAnu's share = ₹ $\\left(\frac{5}{11}\times770\right) = ₹ 350.$\nAnu's total share = ₹ $(110+350) = ₹ 460.$\nBimla's share = ₹ $\\left(\frac{6}{11}\times770\right) = ₹ 420.$",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two partners invested ₹ 125000 and ₹ 85000 respectively in a business. They distribute 60% of the profit equally and decide to distribute the remaining 40% as the interest on their capitals. If one partner received ₹ 3000 more than the other, the total profit is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 42250",
+      "option_b": "₹ 39375",
+      "option_c": "₹ 38840",
+      "option_d": "₹ 36575",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the total profit be ₹ $x$.\nThen, $60\text{\\% of the profit} = ₹ \\left(\frac{60}{100}\times x\\right) = ₹ \\left(\frac{3}{5}x\\right).$\nFrom this part of the profit each gets = ₹ $\\left(\frac{3}{10}x\\right).$\n$40\text{\\% of total profit} = ₹ \\left(\frac{40}{100}\times x\\right) = ₹ \\left(\frac{2}{5}x\\right).$\nNow, this amount of ₹ $\\left(\frac{2}{5}x\\right)$ has been divided in the ratio of capitals, which is $125000:85000$ or $25:17$ as interests.\nInterest on first capital = ₹ $\\left(\frac{2x}{5}\times\frac{25}{42}\\right) = ₹ \\left(\frac{5x}{21}\\right).$\nInterest on second capital = ₹ $\\left(\frac{2x}{5}\times\frac{17}{42}\\right) = ₹ \\left(\frac{17x}{105}\\right).$\nTotal money received by first partner = ₹ $\\left(\frac{3x}{10}+\frac{5x}{21}\\right) = ₹ \\left(\frac{113x}{210}\\right).$\nTotal money received by second partner = ₹ $\\left(\frac{3x}{10}+\frac{17x}{105}\\right) = ₹ \\left(\frac{97x}{210}\\right).$\n$\\left(\frac{113x}{210}-\frac{97x}{210}\\right) = 3000$ or $x = 39375.$\nHence, total profit = ₹ 39375.",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Three partners A, B, C start a business. Twice A’s capital is equal to thrice B’s capital and B’s capital is four times C’s capital. Out of a total profit of ₹ 16500 at the end of the year, B’s share is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4000",
+      "option_b": "₹ 6000",
+      "option_c": "₹ 7500",
+      "option_d": "₹ 6600",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let $C=x$. Then, $B=4x$ and $2A=3\times4x=12x$ or $A=6x.$\n$A:B:C=6x:4x:x=6:4:1.$\nSo, B's share = ₹ $\\left(\frac{4}{11}\times16500\\right) = ₹ 6000.$",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 4 (A’s capital) = 6 (B’s capital) = 10 (C’s capital), then out of a profit of ₹ 4650, C will receive",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 465",
+      "option_b": "₹ 900",
+      "option_c": "₹ 1550",
+      "option_d": "₹ 2250",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let $4A=6B=10C=k.$\nThen, $A=\frac{k}{4}, B=\frac{k}{6}$ and $C=\frac{k}{10}.$\n$A:B:C=\frac{k}{4}:\frac{k}{6}:\frac{k}{10}=15:10:6.$\nHence, C's share = ₹ $\\left(\frac{6}{31}\times4650\\right) = ₹ 900.$",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "Ninad, Vikas and Manav enter into a partnership. Ninad invests some amount at the beginning. Vikas invests double the amount after 6 months and Manav invests thrice the amount invested by Ninad after 8 months. They earn a profit of ₹ 45000 at the end of the year. What is Manav’s share in the profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 9000",
+      "option_b": "₹ 12000",
+      "option_c": "₹ 15000",
+      "option_d": "₹ 25000",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let Ninad's investment be ₹ $x$.\nThen, Ratio of capitals = $(x\times12):(2x\times6):(3x\times4)=12x:12x:12x=1:1:1.$\nManav's share = ₹ $\\left(\frac{1}{3}\times45000\\right) = ₹ 15000.$",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "Four milkmen rented a pasture. A grazed 15 cows for 4 months, B grazed 12 cows for 2 months, C grazed 18 cows for 6 months and D grazed 16 cows for 5 months. If A’s share of rent is ₹ 1020, what is C’s share of rent?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 816",
+      "option_b": "₹ 1360",
+      "option_c": "₹ 1836",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "$A:B:C:D=15\times4:12\times2:18\times6:16\times5=60:24:108:80=15:6:27:20.$\nLet the total rent be ₹ $x$.\nThen, A's share = ₹ $\\left(\frac{15}{68}x\\right).$\n$\\frac{15}{68}x=1020\\Rightarrow x=\\left(1020\times\frac{68}{15}\\right)=4624.$\nHence, C's share = ₹ $\\left(\frac{27}{68}\times4624\\right) = ₹ 1836.$",
+      "page_numbers": [
+        "482"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C enter into a partnership by making investments in the ratio 3 : 5 : 7. After a year, C invests another ₹ 337600 while A withdraws ₹ 45600. The ratio of investments then changes to 24 : 59 : 16.7. How much did A invest initially?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 45600",
+      "option_b": "₹ 96000",
+      "option_c": "₹ 141600",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the initial investments of A, B, C, be ₹ $3x$, ₹ $5x$ and ₹ $7x$ respectively. Then,\n$(3x-45600):5x:(7x+337600)=24:59:167.$\n$\\frac{3x-45600}{5x}=\\frac{24}{59}\\Rightarrow177x-2690400=120x\\Rightarrow57x=2690400\\Rightarrow x=47200.$\nHence, A's initial investment = ₹ $(47200\times3) = ₹ 141600.$",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "M.B.A., 2004",
+      "passage_text": "",
+      "question_text": "A, B and C are partners in a business. Their shares are in the proportion of $\\frac{1}{3} : \\frac{1}{4} : \\frac{1}{5}$. A withdraws half of his capital after 15 months and after another 15 months, a profit of ₹ 4340 is divided. The share of C is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1240",
+      "option_b": "₹ 1245",
+      "option_c": "₹ 1360",
+      "option_d": "₹ 1550",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Ratio of initial investments = $\frac{1}{3}:\frac{1}{4}:\frac{1}{5}=20:15:12.$\nLet their initial investments be $20x, 15x$ and $12x$ respectively.\n$A:B:C=(20x\times15+10x\times15):(15x\times30):(12x\times30)=450x:450x:360x=5:5:4.$\nC's share = ₹ $\\left(\frac{4}{14}\times4340\\right) = ₹ 1240.$",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "L.I.C.A.A.O., 2007",
+      "passage_text": "",
+      "question_text": "A, B, C started a business with their investments in the ratio 1 : 3 : 5. After 4 months, A invested the same amount as before and B as well as C withdrew half of their investments. The ratio of their profits at the end of the year is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 : 3 : 5",
+      "option_b": "5 : 6 : 10",
+      "option_c": "6 : 5 : 10",
+      "option_d": "10 : 5 : 6",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let their initial investments be $x, 3x$ and $5x$ respectively. Then,\n$A:B:C=\\left(x\times4+2x\times8\\right):\\left(3x\times4+\\frac{3x}{2}\times8\\right):\\left(5x\times4+\\frac{5x}{2}\times8\\right)=20x:24x:40x=5:6:10.$",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B entered into partnership with capitals in the ratio 4 : 5. After 3 months, A withdrew $\\frac{1}{4}$ of his capital and B withdrew $\\frac{1}{5}$ of his capital. The gain at the end of 10 months was ₹ 760. A’s share in this profit is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 330",
+      "option_b": "₹ 360",
+      "option_c": "₹ 380",
+      "option_d": "₹ 430",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$A:B=\\left[4x\times3+\\left(4x-\\frac{1}{4}x\\right)\times7\\right]:\\left[5x\times3+\\left(5x-\\frac{1}{5}x\\right)\times7\\right]$\n$=(12x+21x):(15x+28x)=33:43.$\nA's share = ₹ $\\left(\frac{33}{76}\times760\\right) = ₹ 330.$",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "M.B.A., 2004",
+      "passage_text": "",
+      "question_text": "In a partnership, A invests $\\frac{1}{6}$ of the capital for $\\frac{1}{6}$ of the time, B invests $\\frac{1}{3}$ of the capital for $\\frac{1}{3}$ of the time and C, the rest of the capital for the whole time. Out of a profit of ₹ 4600, B’s share is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 650",
+      "option_b": "₹ 800",
+      "option_c": "₹ 960",
+      "option_d": "₹ 1000",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Suppose A invests ₹ $\frac{x}{6}$ for $y$ months.\nThen, B invests ₹ $\frac{x}{3}$ for $\frac{y}{3}$ months.\nC invests $x - \frac{x}{6} - \frac{x}{3} = \frac{x}{2}$ for $y$ months.\n$\therefore$ A : B : C = $\frac{x}{6} \times y : \frac{x}{3} \times \frac{y}{3} : \frac{x}{2} \times y$\n$= \frac{1}{6} : \frac{1}{9} : \frac{1}{2} = 3 : 2 : 9$\nHence, B's share = ₹ $\frac{4600 \times 4}{23}$ = ₹ 800.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest ₹ 6500 for 6 months, B, ₹ 8400 for 5 months and C, ₹ 10,000 for 3 months. A wants to be the working member for which he was to receive 5% of the profits. The profit earned was ₹ 7400. Calculate the share of B in the profit.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1900",
+      "option_b": "₹ 2660",
+      "option_c": "₹ 2800",
+      "option_d": "₹ 2840",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "For managing, A receives = 5% of ₹ 7400 = ₹ 370.\nBalance = ₹ (7400 - 370) = ₹ 7030.\nRatio of their investments = (6500 $\times$ 6) : (8400 $\times$ 5) : (10000 $\times$ 3)\n= 39000 : 42000 : 30000 = 13 : 14 : 10.\n$\therefore$ B's share = ₹ $\frac{7030 \times 14}{37}$ = ₹ 2660.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Manick received ₹ 6000 as his share out of the total profit of ₹ 9000 which he and Raunaq earned at the end of one year. If Manick invested ₹ 20000 for 6 months, whereas Raunaq invested his amount for the whole year, what was the amount invested by Raunaq?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4000",
+      "option_b": "₹ 5000",
+      "option_c": "₹ 6000",
+      "option_d": "₹ 10,000",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Suppose Raunaq invested ₹ $x$.\nThen, Manick : Raunaq = (20000 $\times$ 6) : ($x$ $\times$ 12)\n$\frac{120000}{12x} = \frac{6000}{3000}$ or $x = \frac{120000}{24}$ = 5000.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "A, B and C entered into a partnership. A invested ₹ 2560 and B invested ₹ 2000. At the end of the year, they gained ₹ 1105, out of which A got ₹ 320. C’s capital was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2840",
+      "option_b": "₹ 4028",
+      "option_c": "₹ 4280",
+      "option_d": "₹ 4820",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let C's capital be ₹ $x$.\nThen, A : B : C = 2560 : 2000 : $x$.\nA's share = ₹ $\frac{2560 \times 1105}{4560 + x}$\n$1105 \times \frac{2560}{4560 + x} = 320$\n$\therefore$ 320$x$ + 1459200 = 2828800\n$\therefore$ 320$x$ = 1369600\n$\therefore$ $x$ = 4280.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "A, B and C enter into a partnership. A contributes one-third of the capital while B contributes as much as A and C together contribute. If the profit at the end of the year amounts to ₹ 900, what would C receive?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 100",
+      "option_b": "₹ 150",
+      "option_c": "₹ 200",
+      "option_d": "₹ 300",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let total capital = ₹ $x$. Then, A's capital = ₹ $\frac{x}{3}$.\nB's capital = (A + C)'s capital $\therefore$ 2(B's capital) = (A + B + C)'s capital = ₹ $x$\n$\therefore$ B's capital = ₹ $\frac{x}{2}$.\nC's capital = ₹ $\frac{x - (\frac{x}{3} + \frac{x}{2})}{1} = \frac{x}{6}$.\n$\therefore$ A : B : C = $\frac{x}{3} : \frac{x}{2} : \frac{x}{6} = 2 : 3 : 1$.\nSo, C's share = ₹ $\frac{900 \times 1}{6}$ = ₹ 150.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B started a business jointly. A’s investment was thrice the investment of B and the period of his investment was two times the period of investment of B. If B received ₹ 4000 as profit, then their total profit is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 16000",
+      "option_b": "₹ 20000",
+      "option_c": "₹ 24000",
+      "option_d": "₹ 28000",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Suppose B invested ₹ $x$ for $y$ months.\nThen, A invested ₹ 3$x$ for 2$y$ months.\nSo, A : B = (3$x$ $\times$ 2$y$) : ($x$ $\times$ $y$) = 6$xy$ : $xy$ = 6 : 1.\n$\therefore$ B's profit : Total profit = 1 : 7.\nLet the total profit be ₹ $x$.\nThen, $\frac{1}{7} = \frac{4000}{x}$ or $x$ = 28000.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A started a business with ₹ 21000 and is joined afterwards by B with ₹ 36000. After how many months did B join if the profits at the end of the year are divided equally?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "4",
+      "option_c": "5",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Suppose B joined after $x$ months.\nThen, 21000 $\times$ 12 = 36000 $\times$ (12 - $x$)\n$\therefore$ 36$x$ = 180 $\therefore$ $x$ = 5.\nHence, B joined after 5 months.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "N.I.F.T., 2003",
+      "passage_text": "",
+      "question_text": "A began a business with ₹ 85000. He was joined afterwards by B with ₹ 42500. For how much period does B join, if the profits at the end of the year are divided in the ratio of 3 : 1?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 months",
+      "option_b": "5 months",
+      "option_c": "6 months",
+      "option_d": "8 months",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Suppose B joined for $x$ months.\nThen, $\frac{85000 \times 12}{42500 \times x} = \frac{3}{1}$ or $x = \frac{85000 \times 12}{42500 \times 3} = 8$.\nSo, B joined for 8 months.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A starts business with ₹ 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B’s contribution in the capital?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 7500",
+      "option_b": "₹ 8000",
+      "option_c": "₹ 8500",
+      "option_d": "₹ 9000",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let B's capital be ₹ $x$.\nThen, $\frac{3500 \times 12}{7x} = \frac{2}{3} \therefore 14x = 126000 \therefore x = 9000.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "A and B enter into a partnership with ₹ 50000 and ₹ 60000 respectively. C joins them after x months, contributing ₹ 70000 and B leaves x months before the end of the year. If they share the profit in the ratio of 20 : 18 : 21, then the value of x is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "6",
+      "option_c": "8",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Clearly, A invested his capital for 12 months while each one of B and C invested his capital for (12 - $x$) months.\nRatio of profits of A, B and C\n= (50000 $\times$ 12) : [60000 $\times$ (12 - $x$)] : [70000 $\times$ (12 - $x$)]\n= 60 : 6(12 - $x$) : 7(12 - $x$)\n= 60 : (72 - 6$x$) : (84 - 7$x$)\nBut ratio of profits = 20 : 18 : 21 = 60 : 54 : 63.\n$\therefore$ 60 : (72 - 6$x$) : (84 - 7$x$) = 60 : 54 : 63\nSo, 72 - 6$x$ = 54 $\therefore$ 6$x$ = 18 $\therefore$ $x$ = 3.",
+      "page_numbers": [
+        "483"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a business A invests ₹ 600 more than B. The capital of B remained invested for $7\\frac{1}{2}$ months, while the capital of A remained invested for 2 more months. If the total profit be ₹ 620 and B gets ₹ 140 less than what A gets, then A’s capital is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2400",
+      "option_b": "₹ 2800",
+      "option_c": "₹ 3000",
+      "option_d": "₹ 3200",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let B's capital be ₹ $x$.\nThen, A's capital = ₹ ($x$ + 600).\n$\therefore$ A : B = ($x$ + 600) $\times$ 19 : $x$ $\times$ 15 = (19$x$ + 11400) : 15$x$.\nA's share = ₹ $\frac{620 \times (19x + 11400)}{34x + 11400}$\nB's share = ₹ $\frac{620 \times 15x}{34x + 11400}$\n$\therefore$ 620 $\times$ $\frac{19x + 11400 - 15x}{34x + 11400}$ = 140\n$\therefore$ 62(4$x$ + 11400) = 14(34$x$ + 11400)\n$\therefore$ 248$x$ + 706800 = 476$x$ + 159600\n$\therefore$ 228$x$ = 547200 $\therefore$ $x$ = 2400.\nHence, A's capital = ₹ (2400 + 600) = ₹ 3000.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B start a business jointly. A invests ₹ 16000 for 8 months and B remains in the business for 4 months. Out of the total profit, B claims $\\frac{2}{7}$ of the profit. How much money was contributed by B?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 10500",
+      "option_b": "₹ 11900",
+      "option_c": "₹ 12800",
+      "option_d": "₹ 13600",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the total profit be ₹ $x$.\nThen, B = $\frac{2}{7}x$ and A = $x - \frac{2}{7}x = \frac{5}{7}x$.\nSo, A : B = $\frac{5}{7}x : \frac{2}{7}x = 5 : 2$.\nLet B's capital be ₹ $y$.\nThen, $\frac{16000 \times 8}{y \times 4} = \frac{5}{2} \therefore y = \frac{16000 \times 8 \times 2}{5 \times 4} = 12800.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two friends P and Q started a business investing in the ratio of 5 : 6. R joined them after six months investing an amount equal to that of Q’s. At the end of the year, 20% profit was earned which was equal to ₹ 98,000. What was the amount invested by R?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 105000",
+      "option_b": "₹ 175000",
+      "option_c": "₹ 210000",
+      "option_d": "Data inadequate",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let the total investment be ₹ $z$.\nThen, 20% of $z$ = 98000 $\therefore$ $z = \frac{98000 \times 100}{20} = 490000$.\nLet the capitals of P, Q and R be ₹ 5$x$, ₹ 6$x$ and ₹ 6$x$ respectively.\nThen, (5$x$ $\times$ 12) + (6$x$ $\times$ 12) + (6$x$ $\times$ 6) = 490000 $\times$ 12\n$\therefore$ 168$x$ = 490000 $\times$ 12 $\therefore$ $x = \frac{490000 \times 12}{168} = 35000$.\n$\therefore$ R's investment = 6$x$ = ₹ (6 $\times$ 35000) = ₹ 210000.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 : 7 : 8",
+      "option_b": "28 : 49 : 64",
+      "option_c": "38 : 28 : 21",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let their investments be ₹ $x$ for 14 months; ₹ $y$ for 8 months and ₹ $z$ for 7 months respectively.\nThen, 14$x$ : 8$y$ : 7$z$ = 5 : 7 : 8.\nNow, $\frac{14x}{8y} = \frac{5}{7} \therefore$ 70$x$ = 40$y \therefore y = \frac{7}{4}x$.\nAnd, $\frac{14x}{7z} = \frac{5}{8} \therefore$ 112$x$ = 35$z \therefore z = \frac{112}{35}x = \frac{16}{5}x$.\n$\therefore$ $x : y : z = x : \frac{7}{4}x : \frac{16}{5}x = 20 : 35 : 64.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C invested their capitals in the ratio 3 : 4 : 6. However their shares of profit are equal. The durations of their investments must be in the ratio",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 : 3 : 2",
+      "option_b": "6 : 4 : 3",
+      "option_c": "3 : 4 : 6",
+      "option_d": "1 : 1 : 1",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let their investments be ₹ 3$x$ for $p$ months; ₹ 4$x$ for $q$ months and ₹ 6$x$ for $r$ months respectively.\nThen, 3$xp$ : 4$xq$ : 6$xr$ = 1 : 1 : 1\n$\therefore$ 3$p$ : 4$q$ : 6$r$ = 1 : 1 : 1\nSo, 3$p$ = 4$q \therefore q = \frac{3}{4}p$. And, 4$q$ = 6$r \therefore r = \frac{4q}{6} = \frac{4}{6} \times \frac{3}{4}p = \frac{1}{2}p$.\n$\therefore$ $p : q : r = p : \frac{3}{4}p : \frac{1}{2}p = 4 : 3 : 2.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A’s share is ₹ 855, the total profit is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1425",
+      "option_b": "₹ 1500",
+      "option_c": "₹ 1537.50",
+      "option_d": "₹ 1576",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the total profit be ₹ 100.\nAfter paying to charity, A's share = ₹ $\frac{95 \times 3}{5}$ = ₹ 57.\nIf A's share is ₹ 57, total profit = ₹ 100.\nIf A's share is ₹ 855, total profit = $\frac{100 \times 855}{57}$ = 1500.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "I.I.F.T., 2005, R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "Swati and Rajni enter into a partnership with their capitals in the ratio 5 : 6. At the end of 7 months Swati withdraws her capital. If they receive the profit in the ratio of 5 : 9, find how long was Rajni’s capital used.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 months",
+      "option_b": "12 months",
+      "option_c": "14 months",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Suppose Swati invested ₹ 5$x$ for 7 months and Rajni invested ₹ 6$x$ for $y$ months. Then,\n$\frac{5x \times 7}{6x \times y} = \frac{5}{9}$\n$\therefore$ 30$y$ = 315 $\therefore$ $y = 10 \frac{1}{2}$.\nHence, Rajni's capital was used for 10 $\frac{1}{2}$ months.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "X and Y are partners in a business. X contributed $\\frac{1}{3}$ of the capital for 9 months and Y received $\\frac{2}{5}$ of the profits. For how long was Y’s money used in the business?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 months",
+      "option_b": "3 months",
+      "option_c": "4 months",
+      "option_d": "5 months",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the total profit be ₹ $z$. Then, Y's share = ₹ $\frac{2}{5}z$, X's share = ₹ $(z - \frac{2}{5}z) = \frac{3}{5}z$.\n$\therefore$ X : Y = $\frac{3}{5}z : \frac{2}{5}z = 3 : 2$.\nLet the total capital be ₹ $x$ and suppose Y's money was used for $y$ months. Then,\n$\frac{1}{3}x \times 9 = \frac{3}{2}x \times y \therefore 18x = 6xy \therefore y = 3$.\nHence, Y's money was used for 3 months.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "IBPS—RRB Officers Gr.’B’ Exam, 2015",
+      "passage_text": "",
+      "question_text": "A and B started a business with initial investments in the respective ratio of 18 : 7. After four months from the start of the business, A invest ₹ 2000 more and B invested ₹ 7000 more. At the end of one year, if the profit was distributed among them in the ratio of 2 : 1 respective, what was the total initial investment with which A and B started the business?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 50000",
+      "option_b": "₹ 25000",
+      "option_c": "₹ 150000",
+      "option_d": "₹ 75000",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the initial investment of A and B is 18$x$ and 7$x$. After four months from the start of business, A invest ₹ 2000 more for each eight months. Then total investment of A\n= 18$x$ $\times$ 4 + (18$x$ + 2000) $\times$ 8\n= 72$x$ + 144$x$ + 16000\n= 216$x$ + 16000\nAfter four months, from the start of business, B invest ₹ 7000 more for each eight months.\nTotal investment by B\n= 7$x$ $\times$ 4 + (7$x$ + 7000) $\times$ 8\n= 28$x$ + 56$x$ + 56000\n= 84$x$ + 56000\nAccording to the questions.\n$\frac{216x + 16000}{84x + 56000} = \frac{2}{1}$\n$\therefore$ 216$x$ + 16000 = 168$x$ + 112000\n$\therefore$ 216$x$ - 168$x$ = 112000 - 16000\n48$x$ = 96000 $\therefore$ $x = \frac{96000}{48} = 2000$.\nTotal initial investment of A and B\n= (18 + 7) $\times$ 2000 = ₹ 50000.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "RBI Gr. ‘B’ (Phase I) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Anil, Kamal and Vini Invested ₹ 8000, ₹ 4000 and ₹ 8000 respectively in a business. Anil left after six months. If after eight months, there was a gain of ₹ 4005, then what will be the share of Kamal?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 800",
+      "option_b": "₹ 890",
+      "option_c": "₹ 500",
+      "option_d": "₹ 900",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Ratio of profit of Anil : Kamal : Vini\n= (8000 $\times$ 6) : (4000 $\times$ 8) : (8000 $\times$ 8) = 48000 : 32000 : 64000\n= 48 : 32 : 64\n= 3 : 2 : 4\n$\therefore$ Kamal's share = ₹ $\frac{4005 \times 2}{9}$ = ₹ 890.",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "IBPS—Bank Spl. Officer (IT) Exam, 2015",
+      "passage_text": "",
+      "question_text": "A starts a business by investing ₹ 28,000. After 2 months, B joins with ₹ 20,000 and after another two months C joins with ₹ 18,000. At the end of 10 months from the start of the business, if B withdraws ₹ 2,000 and C withdrawn ₹ 2,000, in what ratio should the profit be distributed among A, B and C at the end of the year?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 : 7 : 5",
+      "option_b": "12 : 9 : 5",
+      "option_c": "12 : 6 : 3",
+      "option_d": "14 : 7 : 5",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "A invests money for 12 months\nB invests money for 10 months\nC invests money for 8 months\nRatio of profit of A to B to C\n$=28000\times12:20000\times8+18000\times2:18000\times6+16000\times2$\n$=28\times12\times1000:(160+36)\times1000:(108+32)\times1000$\n$=28\times12:160+36:108+32$\n$=336:196:140=12:7:5$",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "489"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "United India Insurance Co. Ltd. (UIICL)—Assistant (Online) Exam 2015",
+      "passage_text": "",
+      "question_text": "In a business, B invests half the amount invested by A. After 6 months from the start of the business, C joins the business with an amount equal to twice of B’s investment. After 8 months from the start of the business B withdraws completely from the business. If at the end of the years, C’s share in the profit was ₹ 2460, what was the total profit received that year?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 11200",
+      "option_b": "₹ 9600",
+      "option_c": "₹ 9020",
+      "option_d": "₹ 12000",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let B's investment be ₹ $x$\n∴ A's investment = ₹ $2x$\n∴ C's investment = ₹ $2x$\nA invests money for 12 months\nB invests money for 8 months\nC invests money for 6 months.\nRatio of the equivalent capitals of A, B and C for 1 month\n$=2x\times12:x\times8:2x\times6=6:2:3$\nSum of the terms of ratio\n$=6+2+3=11$\nIf the total profit at the end of the year be ₹ $a$, then\nShare of $c = \frac{3}{11}a=2460$\n⇒ $3a=2460\times11$\n⇒ $a=\frac{2460\times11}{3}$ = ₹ $9020$",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "489"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "NICL—AAO Exam, 2015",
+      "passage_text": "",
+      "question_text": "A, B and C entered in to a partnership by investing ₹ 15, 400, ₹ 18,200 and ₹ 12,600 respectively. B left after 6 months. If after 8 months, there was a profit of ₹ 28,790, then what is the share of C in the profit?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8712",
+      "option_b": "₹ 9432",
+      "option_c": "₹ 8352",
+      "option_d": "₹ 8568",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Investment of A for 8 months = ₹ $15400$\nInvestment of B for 6 months = ₹ $18200$\nInvestment of C for 8 months = ₹ $12600$\nRatio of the share of A, B and C\n$=15400\times8:18200\times6:12600\times8$\n$=154\times8:182\times6:126\times8$\n$=44:39:36$\nSum of the terms of ratio $=44+39+36=119$\nShare of $C =$ ₹ $\frac{36}{119}\times28790$ = ₹ $8710 \text{ ≈ } 8712$",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "489"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "CET—Maharashtra (MBA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "A and B started a business by investing ₹ 2400 and ₹ 3600 respectively. At the end of 4th month from the start of the business, C joined with ₹ ‘X’. After 8 months from the start of the business. B withdrew ₹ 600. If C’s share is ₹ 8000 in the annual profit of ₹ 22500, what was the amount the C invested in the business?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 7200",
+      "option_b": "₹ 5800",
+      "option_c": "₹ 4000",
+      "option_d": "₹ 4800",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "A invests ₹ $2400$ for 12 months\nB invests ₹ $3600$ for 8 months\nAnd ₹ $3000$ for 4 months\nC invests ₹ $X$ for 8 months\nRatio of profit of A, B and C\n$=$ Profit of A : Profit of B : Profit of C\n$=2400\times12:(3600\times8)+(3000\times4):X\times8$\n$=28800:40800:8X=3600:5100:X$\nGiven profit of $C =$ ₹ $8000$\nand total profit of A, B and $C =$ ₹ $22,500$\n∴ $\frac{22500}{8700+X} = \frac{22500}{3600+5100+X}$\n⇒ $22500X=69600000+8000X$\n⇒ $14500X=69600000$ ⇒ $X =$ ₹ $4800$",
+      "page_numbers": [
+        "484"
+      ],
+      "answer_page_numbers": [
+        "489"
+      ]
+    }
+  ]
+}

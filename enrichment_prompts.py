@@ -302,6 +302,61 @@ Apply this to:
 • shortcut_solution
 
 ──────────────────────────────
+DISPLAY EQUATION RULE (CRITICAL)
+──────────────────────────────
+
+Simple symbols or fractions embedded naturally in a sentence may use
+inline math:
+
+"$\frac{5}{18}$"
+
+"$50\%$"
+
+"$1:2:3$"
+
+However, ANY equation, calculation, or expression containing "=",
+"\times", "\div", "+", "-", or multiple steps MUST use display math.
+
+WRONG:
+
+"A's share $= \frac{5}{18} \times 81900 =$ ₹22500."
+
+"B's share $= \frac{6}{18}\times81900 =$ ₹27000."
+
+CORRECT:
+
+"A's share is"
+
+$$
+\frac{5}{18}\times81900
+=
+22500
+$$
+
+Therefore, A's share = ₹22500.
+
+CORRECT:
+
+"The ratio becomes"
+
+$$
+150000:180000:210000
+=
+5:6:7
+$$
+
+Never place an equation inside normal text when display math is more
+appropriate.
+
+Every equation should occupy its own line.
+
+Never place two equations on the same line.
+
+Prefer display math whenever an equation spans more than one operator.
+
+This rule has higher priority than brevity.
+
+──────────────────────────────
 ABSOLUTE FRACTION RULE
 ──────────────────────────────
 
@@ -416,17 +471,194 @@ CORRECT:
 "C gets $\frac{3}{5}$. Remainder is $\frac{2}{5}$. Ratio of capitals
 = $1:1:3$."
 
-Never output escaped LaTeX such as:
+──────────────────────────────
+JSON ESCAPING FOR LATEX (CRITICAL)
+──────────────────────────────
 
-\\frac
+The output is JSON.
 
-\\sqrt
+traditional_solution and shortcut_solution are JSON strings.
 
-Output proper LaTeX:
+Inside JSON strings, LaTeX commands MUST use escaped backslashes.
 
-\frac
+For example:
+
+JSON representation:
+
+"$\\frac{5}{18}$"
+
+After JSON parsing:
+
+"$\frac{5}{18}$"
+
+which is what KaTeX should receive.
+
+Similarly:
+
+JSON:
+
+"$$\n\\frac{5}{18}\\times81900\n=\n22500\n$$"
+
+After parsing:
+
+$$
+\frac{5}{18}\times81900
+=
+22500
+$$
+
+WRONG:
+
+"$\frac{5}{18}$"
+
+inside a raw JSON string.
+
+CORRECT:
+
+"$\\frac{5}{18}$"
+
+WRONG:
+
+"\times"
+
+CORRECT:
+
+"\\times"
+
+WRONG:
+
+"\sqrt"
+
+CORRECT:
+
+"\\sqrt"
+
+Every LaTeX command beginning with "\" must appear as "\\" inside JSON strings.
+
+The renderer should receive a single backslash after JSON parsing.
+
+This rule applies to:
+
+traditional_solution
+
+shortcut_solution
+
+paraphrased_question
+
+options
+
+paraphrased_final_answer
+
+formulas_used
+
+──────────────────────────────
+FINAL LATEX SELF-CHECK (MANDATORY)
+──────────────────────────────
+
+Before returning each item:
+
+1. Search for every occurrence of "=".
+
+If "=" appears inside a sentence containing "$...$",
+
+rewrite the equation using display math.
+
+2. Search for any line containing:
+
+$=
+
+
+=$
+
+These patterns are always incorrect.
+
+Rewrite using:
+
+$$
+...
+$$
+
+3. Search for:
+
+rac{
+
+imes
+
+sqrt
+
+frac{
+
+These indicate a lost backslash.
+
+Replace:
+
+rac{
+
+with
+
+\frac{
+
+Replace:
+
+imes
+
+with
+
+\times
+
+Replace:
+
+sqrt
+
+with
 
 \sqrt
+
+4. Search for plain fractions:
+
+1/2
+
+3/5
+
+7/18
+
+outside LaTeX.
+
+Convert them to:
+
+$\frac{1}{2}$
+
+$\frac{3}{5}$
+
+$\frac{7}{18}$
+
+5. Search for ₹ inside $$...$$.
+
+Currency symbols must be outside math blocks.
+
+6. Search for words inside math blocks.
+
+Words such as:
+
+profit
+
+share
+
+days
+
+years
+
+rupees
+
+answer
+
+should not appear inside math mode.
+
+7. Verify every opening "$" has a matching closing "$".
+
+8. Verify every opening "$$" has a matching closing "$$".
+
+9. Verify that every LaTeX command begins with "\" after JSON parsing.
 
 ──────────────────────────────
 SELF-CHECK BEFORE RETURNING
@@ -460,7 +692,43 @@ Solutions should look pleasant on a phone.
 
 Use multiple short paragraphs.
 
-Place each important equation on a separate line.
+Place each important equation on its own separate paragraph.
+
+Surround standalone equations with $$ ... $$.
+
+Example:
+
+"The ratio of investments is"
+
+$$
+150000:180000:210000
+=
+5:6:7
+$$
+
+The sum of the ratio parts is
+
+$$
+5+6+7=18
+$$
+
+Since profit is divided in the same ratio, A receives
+
+$$
+\frac{5}{18}
+$$
+
+of the total profit.
+
+Therefore,
+
+$$
+\frac{5}{18}\times81900
+=
+22500
+$$
+
+Hence, A's share = ₹22500.
 
 Place intermediate calculations on separate lines.
 
@@ -502,29 +770,340 @@ Aim for 5–15 short lines.
 The answer should be visually clean and pleasant to read.
 
 ──────────────────────────────
+MARKDOWN + KATEX COMPATIBILITY
+──────────────────────────────
+
+The output will be rendered by Markdown and KaTeX.
+
+Therefore equations must be written in Markdown-safe form.
+
+Simple inline expressions may use:
+
+$...$
+
+Examples:
+
+$\frac{5}{18}$
+
+$x^2$
+
+$25\%$
+
+Standalone calculations must use display math:
+
+$$
+...
+$$
+
+WRONG:
+
+"A's share $=\frac{5}{18}\times81900=$ ₹22500."
+
+CORRECT:
+
+"A's share is
+
+$$
+\frac{5}{18}\times81900
+=
+22500
+$$
+
+Hence, A's share = ₹22500."
+
+Never place calculations inside sentences.
+
+Never mix normal text and equations inside one math block.
+
+Never allow ₹ or words such as:
+
+profit
+
+share
+
+answer
+
+rupees
+
+years
+
+days
+
+inside a math block.
+
+WRONG:
+
+$$
+\frac{5}{18}\times81900=₹22500
+$$
+
+CORRECT:
+
+$$
+\frac{5}{18}\times81900
+=
+22500
+$$
+
+Hence, A's share = ₹22500.
+
+Every equation containing:
+
+=
+
++
+
+-
+
+\times
+
+\div
+
+multiple fractions
+
+or several operations
+
+must use display math.
+
+Display equations should occupy their own paragraph.
+
+──────────────────────────────
+DISPLAY MATH RULE (VERY IMPORTANT)
+──────────────────────────────
+
+Inline math ($...$) should only be used for:
+
+- single fractions
+
+- ratios
+
+- variables
+
+- percentages
+
+Examples:
+
+$\frac{5}{18}$
+
+$2:3$
+
+$x^2$
+
+$25\%$
+
+Any expression involving calculations must use display math.
+
+WRONG:
+
+"A's share $=\frac{5}{18}\times81900=$ ₹22500."
+
+WRONG:
+
+"Profit percentage $=\frac{20}{80}\times100=25\%$."
+
+CORRECT:
+
+"A's share is"
+
+$$
+\frac{5}{18}\times81900
+=
+22500
+$$
+
+Hence, A's share = ₹22500.
+
+CORRECT:
+
+"The profit percentage is"
+
+$$
+\frac{20}{80}\times100
+=
+25\%
+$$
+
+Therefore, the profit percentage is $25\%$.
+
+Never place equations inside sentences.
+
+Never mix normal text and calculations inside the same $...$ block.
+
+Display equations are preferred over inline equations whenever possible.
+
+──────────────────────────────
 JSON STRING FORMAT FOR SOLUTIONS (CRITICAL)
 ──────────────────────────────
 
 traditional_solution and shortcut_solution are JSON string fields.
 
-Use \n inside the string to separate each line.
+Use \n and \n\n inside the string to separate paragraphs and equations.
 
-WRONG (entire solution collapsed into one line):
-"traditional_solution": "Let the capitals be A = ₹4000, B = ₹6000. Ratio = 4000:6000 = 2:3. A's share = $\frac{2}{5} \times 5000$ = ₹2000."
+Simple fractions inside ordinary sentences may use inline math.
 
-CORRECT (each sentence and equation on its own line, separated by \n\n):
-"traditional_solution": "Let the capitals be A = ₹4000 and B = ₹6000.\n\nThe ratio of their capitals is $4000:6000 = 2:3$.\n\nSince profit is shared in the ratio of capitals,\n\nA's share $= \frac{2}{5} \times 5000 =$ ₹2000."
+However, calculations and equations must be written using display math.
 
-Rules for \n placement:
+WRONG:
 
-- \n\n between every major step (new idea or new equation).
+"traditional_solution": "A's share = $\frac{2}{5}\times5000$ = ₹2000."
 
-- \n between an explanatory sentence and the equation that follows it.
+WRONG:
 
-- Never let more than one equation appear on the same line in the string.
+"traditional_solution": "The ratio is $2:3$. A's share $=\frac{2}{5}\times5000=$ ₹2000."
 
-- A solution string with zero \n characters is always wrong.
+CORRECT:
 
+"traditional_solution":
+"A's share is\n\n$$\n\\frac{2}{5}\\times5000\n=\n2000\n$$\n\nHence, A's share = ₹2000."
+
+CORRECT:
+
+"traditional_solution":
+"The capitals are in the ratio $2:3$.\n\nSince profit is shared in the same ratio,\n\nA receives $\frac{2}{5}$ of the total profit.\n\nTherefore,\n\n$$\n\frac{2}{5}\times5000\n=\n2000\n$$\n\nHence, A's share = ₹2000."
+
+Rules:
+
+- Use \n\n between major ideas.
+
+- Every display equation must be surrounded by $$ and placed on its own paragraph.
+
+- Inside display equations, place each stage on a separate line.
+
+Example:
+
+$$
+\frac{2}{5}\times5000
+=
+2000
+$$
+
+Never write:
+
+"$a=b=c$"
+
+Prefer:
+
+$$
+a
+=
+b
+=
+c
+$$
+
+Never embed calculations inside sentences.
+
+WRONG:
+
+"A's share $=\frac{2}{5}\times5000=$ ₹2000."
+
+WRONG:
+
+"The percentage $=\frac{20}{80}\times100=25\%$."
+
+CORRECT:
+
+"The percentage is"
+
+$$
+\frac{20}{80}\times100
+=
+25\%
+$$
+
+Therefore, the percentage is $25\%$.
+
+Every equation containing:
+
+=
+
+\times
+
+\div
+
++
+
+-
+
+multiple fractions
+
+or more than one operation
+
+should use display math.
+
+The preferred structure is:
+
+Explanation sentence.
+
+Blank line.
+
+$$
+equation
+$$
+
+Blank line.
+
+Conclusion sentence.
+
+A solution string containing no \n characters is always incorrect.
+
+A solution string with calculations embedded inside a sentence is also incorrect.
+
+──────────────────────────────
+PREFERRED SOLUTION LAYOUT
+──────────────────────────────
+
+Explanation sentence.
+
+Blank line.
+
+Single equation.
+
+Blank line.
+
+Explanation sentence.
+
+Blank line.
+
+Single equation.
+
+Blank line.
+
+Conclusion sentence.
+
+Example:
+
+"The ratio of investments is"
+
+$$
+150000:180000:210000
+=
+5:6:7
+$$
+
+The sum of the ratio parts is
+
+$$
+5+6+7
+=
+18
+$$
+
+Since profit is shared in the same ratio, A receives
+
+$\frac{5}{18}$
+
+of the total profit.
+
+Therefore,
+
+$$
+\frac{5}{18}\times81900
+=
+22500
+$$
+
+Hence, A's share = ₹22500.
 
 ══════════════════════════════
 CHAPTER
@@ -667,7 +1246,41 @@ then items must contain exactly 2 objects.
 Returning fewer objects is incorrect.
 
 Before returning the response, count the number of objects inside items and verify that it equals the number of input questions.
+──────────────────────────────
+EQUATION SELF-CHECK (MANDATORY)
+──────────────────────────────
 
+Search for any line containing both "$" and "=".
+
+If such a line exists, rewrite that expression using display math:
+
+$$
+...
+$$
+
+A line such as
+
+"A's share $= \frac{5}{18}\times81900 =$ ₹22500."
+
+is always wrong.
+
+Calculations must never be embedded inside sentences.
+
+The preferred structure is:
+
+Explanation sentence.
+
+Blank line.
+
+$$
+equation
+$$
+
+Blank line.
+
+Conclusion sentence.
+
+This check is mandatory before returning every item.
 ══════════════════════════════
 QUALITY CHECK
 ══════════════════════════════
