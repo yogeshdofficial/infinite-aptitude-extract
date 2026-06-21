@@ -52,7 +52,6 @@ CATEGORIZATION_SCHEMA = {
     "required": ["patterns"],
 }
 
-
 CATEGORIZATION_PROMPT = """
 You are an expert mathematics educator, curriculum designer, and competitive exam trainer.
 
@@ -265,11 +264,16 @@ Imagine that one teacher could explain all questions in that family in one lectu
 
 STEP 3
 
-Split overly broad families.
+Split overly broad families if — and only if — they genuinely
+contain multiple recognition processes or multiple solving
+frameworks. Do not split based on cover story, extra given facts, or
+different numbers alone.
 
-If a family contains multiple recognition processes or multiple solving frameworks, split it.
-
-Prefer too many patterns rather than too few.
+When genuinely unsure whether two sub-families are really the same
+lesson, lean toward keeping them together for now. STEP 4 and the
+SCALE CHECK in STEP 7B exist specifically to catch real
+under-splitting later, so an early bias toward splitting is not
+protective — it only creates more fragmentation to undo afterward.
 
 STEP 4
 
@@ -284,15 +288,33 @@ Merge only if:
 
 STEP 5
 
-Simulate a student.
+Apply the SETUP TEST to every candidate pair of questions in a family.
+This is the single most important test for learning ease, because the
+real difficulty in these chapters is rarely the formula — it is
+knowing which setup move to reach for the moment you read the
+question.
 
-Ask:
+Ask, for every pair of questions you are considering grouping together:
 
-"If I were revising this chapter, would I naturally want to practice these questions together?"
+"If a student has just solved question A, can they solve question B
+using the identical first move — the same thing they would write
+down first on paper — changing only the numbers and names?"
 
-If yes, group them together.
+If YES for every pair in the family: keep them as one pattern.
 
-If no, separate them.
+If NO — i.e. question B requires the student to first notice
+something new (a withdrawal happened, a time period is unknown, a
+working partner takes a salary, a capital value is missing, an
+extra phase was added) before they can even begin setting up the
+problem — then B requires a different first move. It must be a
+separate pattern, even if the formula used afterward, or the final
+arithmetic, is identical to question A's.
+
+A pattern should let a student build ONE repeatable first-move
+reflex through repetition. If practicing the "same" pattern secretly
+requires switching setup frameworks partway through, the grouping
+has failed at its actual job, regardless of how similar the formulas
+look on paper.
 
 STEP 6
 
@@ -303,6 +325,11 @@ Ask:
 "Would I teach these questions in one lecture or separate lectures?"
 
 Questions taught in separate lectures should belong to different patterns.
+
+Use this as a sanity check alongside the SETUP TEST in STEP 5 — the
+two should agree. If they disagree, trust the SETUP TEST: it is the
+more concrete, repeatable signal of whether a single lesson is
+genuinely possible.
 
 STEP 7
 
@@ -343,7 +370,54 @@ one name and combine their question_numbers. Do this even if it
 means fewer patterns than you discovered in STEP 2-4 — a single
 clean pattern beats two fragments of the same idea.
 
+STEP 7B
+
+Count your current candidate patterns.
+
+If the count exceeds roughly 12-15 for a chapter of this size, treat
+that as a strong signal of fragmentation, not a signal that the
+chapter is unusually rich. Most chapters — even formula-heavy ones
+like Profit & Loss — genuinely resolve into 6-12 distinct setup
+moves. A count meaningfully above that almost always means several
+"patterns" are actually the same lesson taught under different
+cover stories, slightly different given-information, or one extra
+step layered on a base method.
+
+If your count is high, re-run this check before finalizing:
+
+For every pattern, write one sentence: "A student who has mastered
+[Pattern X] would still get stuck on [Pattern Y] because ___."
+
+If you cannot fill in that blank with a genuine NEW recognition step
+or solving move (not just "the numbers/cover-story are different,"
+not just "this has one extra given fact"), merge Y into X.
+
+Do this for every pair of patterns that are even loosely similar in
+topic (e.g. all "discount" patterns, all "successive change"
+patterns, all "find CP/SP" patterns) — not just patterns with
+similar names. Topic-adjacent patterns are exactly where silent
+duplication hides, because the names can look different while the
+solving move is identical.
+
+A high pattern count is not inherently wrong — but every single one
+of them must survive this test. If you finish this check and still
+have 20+ patterns, that is only acceptable if you can point to 20+
+genuinely distinct first moves a student would need. This is rare.
+
 STEP 8
+
+Assign prerequisite patterns (for learning sequencing).
+
+For each pattern, decide whether a student should be comfortable
+with another pattern from this same chapter BEFORE attempting this
+one. Only record a genuine dependency — e.g. "Capital Changes"
+naturally builds on "Simple Partnership," so "Simple Partnership"
+is a prerequisite. Most patterns will have zero prerequisites; leave
+the list empty rather than forcing a sequence that doesn't really
+exist. This field exists purely to help a student decide what order
+to study patterns in, not to rank pattern importance.
+
+STEP 9
 
 Perform a final quality check.
 
@@ -368,8 +442,15 @@ Verify:
 * no pattern is excessively broad,
 * each pattern has one recognition process,
 * each pattern has one solving framework,
+* every question pair within a pattern passes the SETUP TEST from
+  STEP 5 (same first move, only numbers/names differ),
+* the total pattern count has survived the SCALE CHECK in STEP 7B —
+  if the count is high, every pattern can be justified by a genuine
+  new first move, not just a different cover story or extra given fact,
 * each pattern could realistically be explained by one markdown note,
-* students would naturally revise the questions in that pattern together.
+* students would naturally revise the questions in that pattern together,
+* prerequisite_patterns only lists genuine dependencies, and is left
+  empty where no real ordering exists.
 
 Only after completing these steps should you return the final JSON.
 
@@ -396,6 +477,33 @@ Bad → Good (enforce these):
   "Finding Missing Time in Partnership"               → "Missing Time"
   "Finding Missing Capital in Partnership"            → "Missing Capital"
   "Deriving Investment/Time Ratios from Profit Ratios" → "Profit Ratio"
+
+══════════════════════════════
+DESCRIPTION FIELD SPEC
+══════════════════════════════
+
+The description must answer, in 1-2 sentences:
+
+1. How do you RECOGNIZE this pattern from the question text alone —
+   the specific clue, keyword, or combination of given information
+   that signals "this is that kind of problem"?
+2. What is the FIRST MOVE a student makes once they recognize it —
+   the first thing they write down or set up on paper?
+
+Do not describe the formula in isolation, and do not just restate
+the pattern name. Recognition is the part students actually forget
+under exam pressure — the formula itself is rarely the hard part.
+
+Example (good):
+"Recognize this when a partner joins or leaves partway through the
+year, or capital changes mid-year — the question will mention a
+specific month or 'after X months.' First move: convert each
+partner's capital into capital-months by multiplying capital by the
+number of months it was actually invested, then form the ratio."
+
+Example (bad — restates the name, no recognition or first move):
+"This pattern covers partnership problems where capital changes
+during the year."
 
 ══════════════════════════════
 COMPLETENESS CHECK (do this before returning)
@@ -431,6 +539,7 @@ Return ONLY valid JSON, matching this shape:
 {{
 "pattern_name": "",
 "description": "",
+"prerequisite_patterns": [],
 "question_numbers": []
 }}
 ]
@@ -439,6 +548,10 @@ Return ONLY valid JSON, matching this shape:
 question_numbers must contain the full Q[se:1] / Q[ex:1] style
 identifiers (without the "Q[" and "]", i.e. just "se:1" or "ex:1"),
 exactly as shown for each question below — not the bare printed number.
+
+prerequisite_patterns must contain pattern_name strings (from this
+same response) that a student should ideally study before this
+pattern. Leave empty if there is no genuine prerequisite.
 
 Do not include a separate question-to-pattern mapping. The
 question_numbers array inside each pattern is the only place

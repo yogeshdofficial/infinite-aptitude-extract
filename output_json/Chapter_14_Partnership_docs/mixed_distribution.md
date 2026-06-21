@@ -2,79 +2,71 @@
 
 ## Overview
 
-These problems involve splitting total profit into two or more distinct "pots" (e.g., charity, fixed salary, interest, or equal shares) before distributing the remainder based on capital ratios. The central idea is to calculate the value of each "pot" separately and then aggregate the shares for each partner.
+These problems involve splitting total profit into two or more distinct "pots" (e.g., charity, fixed interest, and capital-based dividends). The central idea is to calculate the value of each pot separately before summing them to find the final share or total profit.
 
 ---
 
 ## Recognition Clues
 
-* **Keywords:** "One-half... divided equally," "60%... distributed equally," "5%... goes to charity," "remaining... in proportion to capitals."
-* **Given:** Total profit, investment amounts (or ratios), and specific rules for splitting the profit pool.
-* **Asked:** Total profit or the specific share of an individual partner.
+* **Keywords:** "One-half divided equally," "60% distributed equally," "5% goes to charity," "interest on capitals."
+* **Given:** Total profit (or a specific partner's share), investment ratios, and the specific percentage/fractional split rules.
+* **Asked:** Total profit or the specific monetary share of a partner.
 
 ---
 
 ## Important Formulas
 
-### [Proportional Share]
-$$
-\text{Partner's Share} = \text{Total Pool} \times \left( \frac{\text{Partner's Capital}}{\text{Total Capital}} \right)
-$$
-*Meaning:* Distributes a specific portion of profit based on the investment ratio.
-*Use when:* Calculating the portion of profit allocated to capital-based distribution.
+### [Profit Allocation]
 
-### [Total Profit Reconstruction]
 $$
-\text{Total Profit} = \frac{\text{Known Share}}{\text{Fractional Share of Total}}
+\text{Total Profit} = \text{Charity/Fixed Deduction} + \text{Equal Share} + \text{Capital-based Share}
 $$
-*Meaning:* Back-calculates the whole from a known part after accounting for deductions like charity.
-*Use when:* A specific partner's share is given, and you need the total profit.
+
+*Meaning:* The sum of all parts equals the total profit.
+*Use when:* The problem defines multiple rules for distributing the same profit pool.
 
 ---
 
 ## Solution Framework
 
-1. Identify the "fixed" or "equal" portion of the profit and divide it by the number of partners.
-2. Calculate the "remaining" portion of the profit after subtracting fixed deductions (charity/salary).
-3. Determine the capital ratio of the partners.
-4. Distribute the "remaining" portion using the capital ratio.
-5. Add the fixed share and the proportional share for each partner to find their total.
+1. **Identify the "Pots":** Break the total profit into the specified segments (e.g., Charity, Equal, Capital-based).
+2. **Calculate Fixed/Equal Parts:** Determine the absolute value or algebraic expression for the portions not based on investment ratios.
+3. **Apply Investment Ratio:** Divide the remaining "Capital-based" portion using the ratio of investments ($C_1 : C_2$).
+4. **Sum the Shares:** Add the portions (Equal + Capital-based) for each partner.
+5. **Equate to Given Value:** Use the provided partner's share or total profit to solve for the unknown variable.
 
 ---
 
 ## Shortcut Tricks
 
-* **The 100-Unit Assumption:** Assume total profit is 100 units, subtract charity/fixed costs, then distribute the remainder by ratio to find the value of 1 unit.
-* **Why it works:** It avoids messy fractions and allows you to work with integers until the final step.
-* **Difference Shortcut:** If given the difference between two partners' shares, equate the difference in their ratio-based shares to the given value to solve for the total profit variable $x$.
+* **Assume 100:** If the total profit is unknown, assume it is 100, calculate the resulting share, and use unitary method to find the actual value.
+* **Why:** It avoids complex algebraic fractions and keeps calculations in whole numbers until the final step.
 
 ---
 
 ## Common Mistakes
 
-* **Forgetting the "Equal" Part:** Applying the capital ratio to the *entire* profit instead of just the "remaining" portion.
-    * *Reason:* Misreading the instruction that only a part of the profit is capital-dependent.
-    * *Fix:* Always underline the specific distribution rule for each segment of the profit.
-* **Charity Deduction Error:** Calculating charity on the *remaining* profit instead of the *total* profit.
-    * *Reason:* Assuming deductions happen sequentially rather than from the gross amount.
-    * *Fix:* Always calculate charity/fixed deductions from the total profit first.
+* **Ignoring Deductions:** Forgetting to subtract charity or fixed expenses before applying the investment ratio.
+    * *Reason:* Misreading the order of operations in the problem statement.
+    * *Fix:* Always calculate the "Net Profit" available for distribution first.
+* **Applying Ratio to Total:** Applying the investment ratio to the *entire* profit instead of just the portion designated for capital-based distribution.
+    * *Reason:* Habitual application of simple partnership rules.
+    * *Fix:* Explicitly label the "Equal" pot and the "Ratio" pot before calculating.
 
 ---
 
 ## Similar Patterns
 
-* **Simple Partnership:** Only involves one distribution rule (capital ratio).
-* **Compound Partnership:** Involves time-weighted capital.
-* **Distinction:** If the problem mentions "equally," "charity," or "interest," it is a **Mixed Distribution** problem; if it only mentions "invested for X months," it is a **Compound Partnership** problem.
+This is distinct from "Simple Partnership" because the profit is not distributed solely by investment ratio; it is a hybrid of fixed and variable distribution.
 
 ---
 
 ## Revision Summary
 
-**Key formula:** $\text{Total} = \text{Fixed Share} + (\text{Remaining} \times \text{Ratio Share})$.
+**Key formula:** $\text{Total Profit} = \sum (\text{Individual Pots})$.
 
-**Spot it by:** Phrases like "partly equal" or "partly proportional" or "charity deduction."
+**Spot it by:** Multiple distribution rules (e.g., "partly equal, partly ratio").
 
-**Fastest method:** Assume total profit is 100 and solve for the value of 1 unit.
+**Fastest method:** Assume total profit = 100 and use the unitary method.
 
-**Biggest trap:** Applying the capital ratio to the entire profit instead of the remainder.
+**Biggest trap:** Applying the investment ratio to the entire profit instead of the remainder.

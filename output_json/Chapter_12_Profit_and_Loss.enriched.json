@@ -62,9 +62,7 @@
         "confusing_patterns": [
           "loss percentage calculation"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "solved_example",
@@ -124,9 +122,7 @@
         "confusing_patterns": [
           "profit percentage calculation"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "solved_example",
@@ -186,9 +182,7 @@
         "confusing_patterns": [
           "calculating cost price from selling price"
         ]
-      },
-      "sub_pattern": "Find SP from CP",
-      "pattern_doc": "find_sp_from_cp.md"
+      }
     },
     {
       "section": "solved_example",
@@ -247,9 +241,7 @@
         "confusing_patterns": [
           "finding selling price from cost price"
         ]
-      },
-      "sub_pattern": "Find CP from SP",
-      "pattern_doc": "find_cp_from_sp.md"
+      }
     },
     {
       "section": "solved_example",
@@ -308,9 +300,7 @@
         "confusing_patterns": [
           "finding selling price from cost price"
         ]
-      },
-      "sub_pattern": "Find CP from SP",
-      "pattern_doc": "find_cp_from_sp.md"
+      }
     },
     {
       "section": "solved_example",
@@ -370,9 +360,7 @@
         "confusing_patterns": [
           "calculating profit on cost price"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "solved_example",
@@ -433,9 +421,7 @@
         "confusing_patterns": [
           "simple profit calculation"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "solved_example",
@@ -494,9 +480,7 @@
         "confusing_patterns": [
           "calculating profit on selling price"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "solved_example",
@@ -554,9 +538,7 @@
         "confusing_patterns": [
           "cost price as a percentage of profit"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "solved_example",
@@ -616,9 +598,7 @@
         "confusing_patterns": [
           "profit per unit"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "solved_example",
@@ -677,9 +657,7 @@
         "confusing_patterns": [
           "confusing cost price and selling price quantities"
         ]
-      },
-      "sub_pattern": "Equivalent CP/SP",
-      "pattern_doc": "equivalent_cp_sp.md"
+      }
     },
     {
       "section": "solved_example",
@@ -737,9 +715,7 @@
         "confusing_patterns": [
           "gain on cost price vs gain on selling price"
         ]
-      },
-      "sub_pattern": "Profit/Loss in Units",
-      "pattern_doc": "profit_loss_in_units.md"
+      }
     },
     {
       "section": "solved_example",
@@ -798,9 +774,7 @@
         "confusing_patterns": [
           "mixing up cost price and selling price rates"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "solved_example",
@@ -859,9 +833,7 @@
         "confusing_patterns": [
           "confusing price per item with items per price"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "solved_example",
@@ -920,9 +892,7 @@
         "confusing_patterns": [
           "confusing price per item with items per price"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "solved_example",
@@ -982,9 +952,7 @@
         "confusing_patterns": [
           "simple average vs weighted average"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1043,9 +1011,7 @@
         "confusing_patterns": [
           "using selling price instead of cost price in alligation"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1103,9 +1069,7 @@
         "confusing_patterns": [
           "using true weight as the base"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1164,9 +1128,7 @@
         "confusing_patterns": [
           "mixing up advertised and actual profit/loss"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1225,9 +1187,7 @@
         "confusing_patterns": [
           "using the wrong base for profit calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1288,9 +1248,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1351,9 +1309,7 @@
         "confusing_patterns": [
           "simple profit calculation"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1414,9 +1370,7 @@
         "confusing_patterns": [
           "simple percentage change"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1476,9 +1430,7 @@
         "confusing_patterns": [
           "successive percentage changes"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1538,9 +1490,7 @@
         "confusing_patterns": [
           "simple profit calculation"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1601,9 +1551,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1660,9 +1608,7 @@
         "confusing_patterns": [
           "simple average of percentages"
         ]
-      },
-      "sub_pattern": "Same SP, Equal % Gain/Loss",
-      "pattern_doc": "same_sp_equal_gain_loss.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1720,9 +1666,7 @@
         "confusing_patterns": [
           "simple average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1780,9 +1724,7 @@
         "confusing_patterns": [
           "simple average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1840,9 +1782,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1901,9 +1841,7 @@
           "simple interest",
           "flat percentage reduction"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "solved_example",
@@ -1962,9 +1900,7 @@
         "confusing_patterns": [
           "simple profit calculation"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "solved_example",
@@ -2023,9 +1959,7 @@
         "confusing_patterns": [
           "simple discount problems"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "solved_example",
@@ -2083,9 +2017,7 @@
         "confusing_patterns": [
           "simple profit calculation"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "solved_example",
@@ -2144,9 +2076,7 @@
         "confusing_patterns": [
           "simple discount problems"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -2206,9 +2136,7 @@
         "confusing_patterns": [
           "loss percentage"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -2267,9 +2195,7 @@
         "confusing_patterns": [
           "absolute profit comparison"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -2326,9 +2252,7 @@
         "confusing_patterns": [
           "average profit"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -2385,9 +2309,7 @@
         "confusing_patterns": [
           "loss percentage"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -2445,9 +2367,7 @@
         "confusing_patterns": [
           "discount calculation"
         ]
-      },
-      "sub_pattern": "Find SP from CP",
-      "pattern_doc": "find_sp_from_cp.md"
+      }
     },
     {
       "section": "exercise",
@@ -2510,9 +2430,7 @@
         "confusing_patterns": [
           "percentage_profit_vs_fraction_of_cost"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -2574,9 +2492,7 @@
         "confusing_patterns": [
           "percentage_on_total_vs_individual"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -2637,9 +2553,7 @@
         "confusing_patterns": [
           "profit_on_purchase_vs_total_cost"
         ]
-      },
-      "sub_pattern": "Find SP from CP",
-      "pattern_doc": "find_sp_from_cp.md"
+      }
     },
     {
       "section": "exercise",
@@ -2698,9 +2612,7 @@
         "confusing_patterns": [
           "profit_on_cost_vs_profit_on_selling_price"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -2759,9 +2671,7 @@
         "confusing_patterns": [
           "gain_on_purchase_price_vs_total_cost"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -2820,9 +2730,7 @@
         "confusing_patterns": [
           "gain_on_total_vs_unit"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -2881,9 +2789,7 @@
         "confusing_patterns": [
           "dozen_price_vs_unit_price"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -2942,9 +2848,7 @@
         "confusing_patterns": [
           "different_quantities_in_price"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -3003,9 +2907,7 @@
         "confusing_patterns": [
           "additive_vs_multiplicative_percentage"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -3065,9 +2967,7 @@
         "confusing_patterns": [
           "gain_on_cost_vs_gain_on_selling_price"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -3128,9 +3028,7 @@
         "confusing_patterns": [
           "calculating profit on selling price"
         ]
-      },
-      "sub_pattern": "Find SP from CP",
-      "pattern_doc": "find_sp_from_cp.md"
+      }
     },
     {
       "section": "exercise",
@@ -3189,9 +3087,7 @@
         "confusing_patterns": [
           "confusing cost price and selling price"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -3250,9 +3146,7 @@
         "confusing_patterns": [
           "profit as a percentage of selling price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -3310,9 +3204,7 @@
         "confusing_patterns": [
           "using selling price as the denominator"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -3371,9 +3263,7 @@
         "confusing_patterns": [
           "confusing cost price and selling price positions"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -3431,9 +3321,7 @@
         "confusing_patterns": [
           "confusing profit and loss formulas"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -3491,9 +3379,7 @@
         "confusing_patterns": [
           "calculating profit on selling price"
         ]
-      },
-      "sub_pattern": "Find CP from SP",
-      "pattern_doc": "find_cp_from_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -3551,9 +3437,7 @@
         "confusing_patterns": [
           "confusing loss with profit"
         ]
-      },
-      "sub_pattern": "Find CP from SP",
-      "pattern_doc": "find_cp_from_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -3612,9 +3496,7 @@
         "confusing_patterns": [
           "calculating profit on sales"
         ]
-      },
-      "sub_pattern": "Find CP from SP",
-      "pattern_doc": "find_cp_from_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -3674,9 +3556,7 @@
         "confusing_patterns": [
           "confusing tax and profit"
         ]
-      },
-      "sub_pattern": "Find CP from SP",
-      "pattern_doc": "find_cp_from_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -3735,9 +3615,7 @@
         "confusing_patterns": [
           "calculating_profit_on_cost_vs_selling_price"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -3796,9 +3674,7 @@
         "confusing_patterns": [
           "simple_average_vs_weighted_average"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -3857,9 +3733,7 @@
         "confusing_patterns": [
           "dozen_vs_unit_pricing"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -3918,9 +3792,7 @@
         "confusing_patterns": [
           "profit_on_purchase_price_vs_total_cost"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -3979,9 +3851,7 @@
         "confusing_patterns": [
           "cost_allocation_in_mixtures"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -4040,9 +3910,7 @@
         "confusing_patterns": [
           "profit_on_original_vs_total_cost"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -4101,9 +3969,7 @@
         "confusing_patterns": [
           "cost_vs_selling_price_in_rejection_scenarios"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -4162,9 +4028,7 @@
         "confusing_patterns": [
           "investment_ratio_vs_profit_ratio"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -4223,9 +4087,7 @@
         "confusing_patterns": [
           "nominal_vs_effective_profit"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -4284,9 +4146,7 @@
         "confusing_patterns": [
           "profit_on_cost_vs_profit_on_selling_price"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -4347,9 +4207,7 @@
         "confusing_patterns": [
           "calculating profit on selling price"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -4408,9 +4266,7 @@
         "confusing_patterns": [
           "confusing loss percentage with profit percentage"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -4469,9 +4325,7 @@
         "confusing_patterns": [
           "thinking 20% gain and 20% loss cancel out"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -4530,9 +4384,7 @@
         "confusing_patterns": [
           "using selling price as the base for loss percentage"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -4591,9 +4443,7 @@
         "confusing_patterns": [
           "averaging percentages"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -4653,9 +4503,7 @@
         "confusing_patterns": [
           "interpreting fraction as percentage directly"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -4714,9 +4562,7 @@
         "confusing_patterns": [
           "confusing profit ratio with profit percentage"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -4776,9 +4622,7 @@
         "confusing_patterns": [
           "confusing the sum and difference of selling prices"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -4837,9 +4681,7 @@
         "confusing_patterns": [
           "doubling the profit percentage"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -4898,9 +4740,7 @@
         "confusing_patterns": [
           "confusing profit with selling price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -4961,9 +4801,7 @@
         "confusing_patterns": [
           "profit on selling price vs profit on cost price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -5021,9 +4859,7 @@
         "confusing_patterns": [
           "inverting the ratio"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -5081,9 +4917,7 @@
         "confusing_patterns": [
           "loss on cost vs loss on selling price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -5141,9 +4975,7 @@
         "confusing_patterns": [
           "profit on cost vs profit on selling price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -5202,9 +5034,7 @@
         "confusing_patterns": [
           "loss on selling price vs loss on cost price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -5262,9 +5092,7 @@
         "confusing_patterns": [
           "loss on selling price vs loss on cost price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -5322,9 +5150,7 @@
         "confusing_patterns": [
           "profit on cost vs profit on selling price"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -5382,9 +5208,7 @@
         "confusing_patterns": [
           "gain on marked price vs gain on cost price"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -5442,9 +5266,7 @@
         "confusing_patterns": [
           "confusing profit and loss definitions"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -5502,9 +5324,7 @@
         "confusing_patterns": [
           "confusing profit and loss definitions"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -5567,9 +5387,7 @@
         "confusing_patterns": [
           "percentage profit vs absolute profit"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -5630,9 +5448,7 @@
         "confusing_patterns": [
           "profit on cost vs profit on sales"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -5693,9 +5509,7 @@
         "confusing_patterns": [
           "percentage increase vs percentage of"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -5754,9 +5568,7 @@
         "confusing_patterns": [
           "profit vs profit percentage"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -5816,9 +5628,7 @@
         "confusing_patterns": [
           "cost price of X = selling price of Y"
         ]
-      },
-      "sub_pattern": "Equivalent CP/SP",
-      "pattern_doc": "equivalent_cp_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -5878,9 +5688,7 @@
         "confusing_patterns": [
           "cost price of X = selling price of Y"
         ]
-      },
-      "sub_pattern": "Equivalent CP/SP",
-      "pattern_doc": "equivalent_cp_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -5939,9 +5747,7 @@
         "confusing_patterns": [
           "marked price vs cost price"
         ]
-      },
-      "sub_pattern": "Equivalent CP/SP",
-      "pattern_doc": "equivalent_cp_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -6000,9 +5806,7 @@
         "confusing_patterns": [
           "selling price per unit vs total cost"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -6062,9 +5866,7 @@
         "confusing_patterns": [
           "cost price of X = selling price of Y"
         ]
-      },
-      "sub_pattern": "Equivalent CP/SP",
-      "pattern_doc": "equivalent_cp_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -6124,9 +5926,7 @@
         "confusing_patterns": [
           "cost price of X = selling price of Y"
         ]
-      },
-      "sub_pattern": "Equivalent CP/SP",
-      "pattern_doc": "equivalent_cp_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -6186,9 +5986,7 @@
         "confusing_patterns": [
           "simple_percentage_change"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -6247,9 +6045,7 @@
         "confusing_patterns": [
           "gain_in_terms_of_selling_price"
         ]
-      },
-      "sub_pattern": "Profit/Loss in Units",
-      "pattern_doc": "profit_loss_in_units.md"
+      }
     },
     {
       "section": "exercise",
@@ -6307,9 +6103,7 @@
         "confusing_patterns": [
           "gain_in_terms_of_cost_price"
         ]
-      },
-      "sub_pattern": "Profit/Loss in Units",
-      "pattern_doc": "profit_loss_in_units.md"
+      }
     },
     {
       "section": "exercise",
@@ -6368,9 +6162,7 @@
         "confusing_patterns": [
           "gain_in_terms_of_cost_price"
         ]
-      },
-      "sub_pattern": "Profit/Loss in Units",
-      "pattern_doc": "profit_loss_in_units.md"
+      }
     },
     {
       "section": "exercise",
@@ -6428,9 +6220,7 @@
         "confusing_patterns": [
           "loss_in_terms_of_selling_price"
         ]
-      },
-      "sub_pattern": "Profit/Loss in Units",
-      "pattern_doc": "profit_loss_in_units.md"
+      }
     },
     {
       "section": "exercise",
@@ -6489,9 +6279,7 @@
         "confusing_patterns": [
           "loss_in_terms_of_cost_price"
         ]
-      },
-      "sub_pattern": "Profit/Loss in Units",
-      "pattern_doc": "profit_loss_in_units.md"
+      }
     },
     {
       "section": "exercise",
@@ -6549,9 +6337,7 @@
         "confusing_patterns": [
           "simple_percentage_change"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -6609,9 +6395,7 @@
         "confusing_patterns": [
           "total_profit_calculation"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -6670,9 +6454,7 @@
         "confusing_patterns": [
           "simple_percentage_change"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -6730,9 +6512,7 @@
         "confusing_patterns": [
           "simple_percentage_change"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -6793,9 +6573,7 @@
         "confusing_patterns": [
           "simple interest problems"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -6855,9 +6633,7 @@
         "confusing_patterns": [
           "discount problems"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -6917,9 +6693,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -6979,9 +6753,7 @@
         "confusing_patterns": [
           "discount problems"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7041,9 +6813,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7103,9 +6873,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7165,9 +6933,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7227,9 +6993,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7289,9 +7053,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7351,9 +7113,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7414,9 +7174,7 @@
         "confusing_patterns": [
           "simple average vs weighted average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7476,9 +7234,7 @@
         "confusing_patterns": [
           "selling price vs cost price per unit"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7536,9 +7292,7 @@
         "confusing_patterns": [
           "selling price per unit vs total selling price"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7598,9 +7352,7 @@
         "confusing_patterns": [
           "loss percentage vs gain percentage"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7660,9 +7412,7 @@
         "confusing_patterns": [
           "price per unit vs total price"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7720,9 +7470,7 @@
         "confusing_patterns": [
           "selling price vs total price"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -7780,9 +7528,7 @@
         "confusing_patterns": [
           "variable vs fixed costs"
         ]
-      },
-      "sub_pattern": "Data Interpretation: P&L",
-      "pattern_doc": "data_interpretation_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -7840,9 +7586,7 @@
         "confusing_patterns": [
           "revenue vs profit"
         ]
-      },
-      "sub_pattern": "Data Interpretation: P&L",
-      "pattern_doc": "data_interpretation_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -7899,9 +7643,7 @@
         "confusing_patterns": [
           "revenue vs profit"
         ]
-      },
-      "sub_pattern": "Data Interpretation: P&L",
-      "pattern_doc": "data_interpretation_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -7959,9 +7701,7 @@
         "confusing_patterns": [
           "margin on cost vs margin on revenue"
         ]
-      },
-      "sub_pattern": "Data Interpretation: P&L",
-      "pattern_doc": "data_interpretation_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -8021,9 +7761,7 @@
         "confusing_patterns": [
           "percentage increase vs percentage contribution"
         ]
-      },
-      "sub_pattern": "Data Interpretation: P&L",
-      "pattern_doc": "data_interpretation_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -8083,9 +7821,7 @@
         "confusing_patterns": [
           "choosing the transaction with the highest quantity instead of the highest profit"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -8146,9 +7882,7 @@
         "confusing_patterns": [
           "averaging the prices without weighting them by quantity"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -8208,9 +7942,7 @@
         "confusing_patterns": [
           "simple average of percentages"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -8270,9 +8002,7 @@
         "confusing_patterns": [
           "adding profit/loss percentages directly"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8332,9 +8062,7 @@
         "confusing_patterns": [
           "simple average of prices"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8395,9 +8123,7 @@
         "confusing_patterns": [
           "applying profit percentage on CP directly instead of SP conversion"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8457,9 +8183,7 @@
         "confusing_patterns": [
           "simple average of costs"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8519,9 +8243,7 @@
         "confusing_patterns": [
           "ignoring weights in the ratio"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8581,9 +8303,7 @@
         "confusing_patterns": [
           "calculating profit on the remaining quantity only"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8646,9 +8366,7 @@
         "confusing_patterns": [
           "simple average of prices"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8710,9 +8428,7 @@
         "confusing_patterns": [
           "simple profit calculation"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8772,9 +8488,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8834,9 +8548,7 @@
         "confusing_patterns": [
           "simple average"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -8895,9 +8607,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Fixed & Variable Costs",
-      "pattern_doc": "fixed_variable_costs.md"
+      }
     },
     {
       "section": "exercise",
@@ -8956,9 +8666,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -9016,9 +8724,7 @@
         "confusing_patterns": [
           "simple percentage"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9076,9 +8782,7 @@
         "confusing_patterns": [
           "simple percentage"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9136,9 +8840,7 @@
         "confusing_patterns": [
           "simple percentage"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9196,9 +8898,7 @@
         "confusing_patterns": [
           "simple percentage"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9259,9 +8959,7 @@
         "confusing_patterns": [
           "simple_interest_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9321,9 +9019,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9383,9 +9079,7 @@
         "confusing_patterns": [
           "simple_markup"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9444,9 +9138,7 @@
         "confusing_patterns": [
           "simple_loss_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9505,9 +9197,7 @@
         "confusing_patterns": [
           "simple_loss_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9567,9 +9257,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9629,9 +9317,7 @@
         "confusing_patterns": [
           "simple_discount_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9690,9 +9376,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9752,9 +9436,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9813,9 +9495,7 @@
         "confusing_patterns": [
           "simple_profit_comparison"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9878,9 +9558,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -9941,9 +9619,7 @@
         "confusing_patterns": [
           "simple_interest_compounding"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -10002,9 +9678,7 @@
         "confusing_patterns": [
           "simple_average_of_percentages"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -10064,9 +9738,7 @@
         "confusing_patterns": [
           "simple_profit_sharing"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -10125,9 +9797,7 @@
         "confusing_patterns": [
           "simple_profit_percentage"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -10187,9 +9857,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -10249,9 +9917,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -10310,9 +9976,7 @@
         "confusing_patterns": [
           "simple_addition_of_percentages"
         ]
-      },
-      "sub_pattern": "Chain Transactions",
-      "pattern_doc": "chain_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -10372,9 +10036,7 @@
         "confusing_patterns": [
           "standard_profit_on_cost"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -10435,9 +10097,7 @@
         "confusing_patterns": [
           "standard_profit_calculation"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -10497,9 +10157,7 @@
         "confusing_patterns": [
           "profit_on_cost_price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -10560,9 +10218,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -10622,9 +10278,7 @@
         "confusing_patterns": [
           "standard_profit_problems"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -10685,9 +10339,7 @@
         "confusing_patterns": [
           "simple_discount_problems"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -10747,9 +10399,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -10808,9 +10458,7 @@
         "confusing_patterns": [
           "successive_percentage_change"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -10869,9 +10517,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -10931,9 +10577,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -10993,9 +10637,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11055,9 +10697,7 @@
         "confusing_patterns": [
           "simple_profit_calculation"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11116,9 +10756,7 @@
         "confusing_patterns": [
           "two losses or two profits where you subtract the percentages"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11176,9 +10814,7 @@
         "confusing_patterns": [
           "confusing cost price with selling price"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11237,9 +10873,7 @@
         "confusing_patterns": [
           "mixing up the two different cost prices"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11297,9 +10931,7 @@
         "confusing_patterns": [
           "confusing the two different cost prices"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11358,9 +10990,7 @@
         "confusing_patterns": [
           "confusing profit percentage with profit amount"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11419,9 +11049,7 @@
         "confusing_patterns": [
           "confusing the new profit percentage with the original"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11479,9 +11107,7 @@
         "confusing_patterns": [
           "confusing profit with profit percentage"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11540,9 +11166,7 @@
         "confusing_patterns": [
           "thinking the difference in price affects the ratio"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -11601,9 +11225,7 @@
         "confusing_patterns": [
           "simple average vs weighted average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -11662,9 +11284,7 @@
         "confusing_patterns": [
           "confusing cost price and selling price ratios"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -11724,9 +11344,7 @@
         "confusing_patterns": [
           "calculating gain/loss on total cost price when selling prices are different"
         ]
-      },
-      "sub_pattern": "Same SP, Equal % Gain/Loss",
-      "pattern_doc": "same_sp_equal_gain_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -11784,9 +11402,7 @@
         "confusing_patterns": [
           "problems where cost prices are equal instead of selling prices"
         ]
-      },
-      "sub_pattern": "Same SP, Equal % Gain/Loss",
-      "pattern_doc": "same_sp_equal_gain_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -11844,9 +11460,7 @@
         "confusing_patterns": [
           "problems where cost prices are equal"
         ]
-      },
-      "sub_pattern": "Same SP, Equal % Gain/Loss",
-      "pattern_doc": "same_sp_equal_gain_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -11905,9 +11519,7 @@
         "confusing_patterns": [
           "assuming the loss percentage equals the gain percentage"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -11965,9 +11577,7 @@
         "confusing_patterns": [
           "confusing total loss with loss percentage"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12025,9 +11635,7 @@
         "confusing_patterns": [
           "confusing loss amount with loss percentage"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12085,9 +11693,7 @@
         "confusing_patterns": [
           "assuming equal gain and loss formula applies"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12146,9 +11752,7 @@
         "confusing_patterns": [
           "confusing profit per pen with total profit"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12206,9 +11810,7 @@
         "confusing_patterns": [
           "confusing total profit with profit per item"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12266,9 +11868,7 @@
         "confusing_patterns": [
           "confusing profit amount with profit percentage"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12327,9 +11927,7 @@
         "confusing_patterns": [
           "simple_arithmetic_mean"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12388,9 +11986,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12449,9 +12045,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12510,9 +12104,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12571,9 +12163,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12632,9 +12222,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12693,9 +12281,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12754,9 +12340,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12815,9 +12399,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -12876,9 +12458,7 @@
         "confusing_patterns": [
           "simple_average"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -12941,9 +12521,7 @@
         "confusing_patterns": [
           "simple_interest_mixtures"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -13005,9 +12583,7 @@
         "confusing_patterns": [
           "successive_percentage_change"
         ]
-      },
-      "sub_pattern": "CP = SP of Other Item",
-      "pattern_doc": "cp_sp_of_other_item.md"
+      }
     },
     {
       "section": "exercise",
@@ -13068,9 +12644,7 @@
         "confusing_patterns": [
           "simple_interest_on_parts"
         ]
-      },
-      "sub_pattern": "Combined Transactions",
-      "pattern_doc": "combined_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -13131,9 +12705,7 @@
         "confusing_patterns": [
           "simple_interest_problems"
         ]
-      },
-      "sub_pattern": "System of Equations: P&L",
-      "pattern_doc": "system_of_equations_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -13194,9 +12766,7 @@
         "confusing_patterns": [
           "mixture_problems"
         ]
-      },
-      "sub_pattern": "System of Equations: P&L",
-      "pattern_doc": "system_of_equations_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -13257,9 +12827,7 @@
         "confusing_patterns": [
           "weighted_average_problems"
         ]
-      },
-      "sub_pattern": "System of Equations: P&L",
-      "pattern_doc": "system_of_equations_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -13319,9 +12887,7 @@
         "confusing_patterns": [
           "mixture_problems"
         ]
-      },
-      "sub_pattern": "System of Equations: P&L",
-      "pattern_doc": "system_of_equations_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -13382,9 +12948,7 @@
         "confusing_patterns": [
           "weighted_average_problems"
         ]
-      },
-      "sub_pattern": "System of Equations: P&L",
-      "pattern_doc": "system_of_equations_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -13444,9 +13008,7 @@
         "confusing_patterns": [
           "mixture_problems"
         ]
-      },
-      "sub_pattern": "System of Equations: P&L",
-      "pattern_doc": "system_of_equations_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -13506,9 +13068,7 @@
         "confusing_patterns": [
           "mixture_problems"
         ]
-      },
-      "sub_pattern": "System of Equations: P&L",
-      "pattern_doc": "system_of_equations_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -13569,9 +13129,7 @@
         "confusing_patterns": [
           "confusing percentage increase with absolute value increase"
         ]
-      },
-      "sub_pattern": "Cost Structure Changes",
-      "pattern_doc": "cost_structure_changes.md"
+      }
     },
     {
       "section": "exercise",
@@ -13631,9 +13189,7 @@
         "confusing_patterns": [
           "assuming overall profit is simple average of two parts"
         ]
-      },
-      "sub_pattern": "Cost Structure Changes",
-      "pattern_doc": "cost_structure_changes.md"
+      }
     },
     {
       "section": "exercise",
@@ -13693,9 +13249,7 @@
         "confusing_patterns": [
           "assuming selling price increase is the same as cost price increase"
         ]
-      },
-      "sub_pattern": "Cost Structure Changes",
-      "pattern_doc": "cost_structure_changes.md"
+      }
     },
     {
       "section": "exercise",
@@ -13755,9 +13309,7 @@
         "confusing_patterns": [
           "calculating profit on selling price vs cost price"
         ]
-      },
-      "sub_pattern": "Cost Structure Changes",
-      "pattern_doc": "cost_structure_changes.md"
+      }
     },
     {
       "section": "exercise",
@@ -13817,9 +13369,7 @@
         "confusing_patterns": [
           "applying profit percentage on original cost"
         ]
-      },
-      "sub_pattern": "Cost Structure Changes",
-      "pattern_doc": "cost_structure_changes.md"
+      }
     },
     {
       "section": "exercise",
@@ -13879,9 +13429,7 @@
         "confusing_patterns": [
           "assuming mixture volume equals oil volume"
         ]
-      },
-      "sub_pattern": "Dishonest Dealer",
-      "pattern_doc": "dishonest_dealer.md"
+      }
     },
     {
       "section": "exercise",
@@ -13940,9 +13488,7 @@
         "confusing_patterns": [
           "applying discount on cost price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14001,9 +13547,7 @@
         "confusing_patterns": [
           "assuming a single discount rate"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14061,9 +13605,7 @@
         "confusing_patterns": [
           "additive_discount_fallacy"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14122,9 +13664,7 @@
         "confusing_patterns": [
           "applying discount before markup"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14184,9 +13724,7 @@
         "confusing_patterns": [
           "profit_percentage"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14245,9 +13783,7 @@
         "confusing_patterns": [
           "profit_margin_comparison"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14307,9 +13843,7 @@
         "confusing_patterns": [
           "profit_calculation"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14368,9 +13902,7 @@
         "confusing_patterns": [
           "profit_calculation"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14429,9 +13961,7 @@
         "confusing_patterns": [
           "profit_calculation"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14490,9 +14020,7 @@
         "confusing_patterns": [
           "simple_discount"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14551,9 +14079,7 @@
         "confusing_patterns": [
           "simple_discount"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14612,9 +14138,7 @@
         "confusing_patterns": [
           "direct_proportion"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -14673,9 +14197,7 @@
         "confusing_patterns": [
           "additive_change"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14734,9 +14256,7 @@
         "confusing_patterns": [
           "profit_formula"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14795,9 +14315,7 @@
         "confusing_patterns": [
           "profit_on_cost_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14854,9 +14372,7 @@
         "confusing_patterns": [
           "calculating_savings_on_cost_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14914,9 +14430,7 @@
         "confusing_patterns": [
           "simple_percentage_calculation"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -14974,9 +14488,7 @@
         "confusing_patterns": [
           "calculating_profit_on_selling_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -15033,9 +14545,7 @@
         "confusing_patterns": [
           "simple_addition_of_percentages"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15092,9 +14602,7 @@
         "confusing_patterns": [
           "simple_addition_of_percentages"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15153,9 +14661,7 @@
         "confusing_patterns": [
           "compound_interest_formula"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15212,9 +14718,7 @@
         "confusing_patterns": [
           "simple_addition_of_percentages"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15271,9 +14775,7 @@
         "confusing_patterns": [
           "simple_addition_of_percentages"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15330,9 +14832,7 @@
         "confusing_patterns": [
           "simple_addition_of_percentages"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15395,9 +14895,7 @@
         "confusing_patterns": [
           "simple discount vs successive discount"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -15454,9 +14952,7 @@
         "confusing_patterns": [
           "simple discount"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15514,9 +15010,7 @@
         "confusing_patterns": [
           "additive vs multiplicative discounts"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15574,9 +15068,7 @@
         "confusing_patterns": [
           "simple discount"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15634,9 +15126,7 @@
         "confusing_patterns": [
           "additive vs successive"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15694,9 +15184,7 @@
         "confusing_patterns": [
           "number of discounts vs magnitude of discounts"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15754,9 +15242,7 @@
         "confusing_patterns": [
           "successive vs single discount"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15814,9 +15300,7 @@
         "confusing_patterns": [
           "successive vs single discount"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15874,9 +15358,7 @@
         "confusing_patterns": [
           "successive discount calculation"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15934,9 +15416,7 @@
         "confusing_patterns": [
           "additive vs successive"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -15996,9 +15476,7 @@
         "confusing_patterns": [
           "simple interest vs compound interest"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -16059,9 +15537,7 @@
         "confusing_patterns": [
           "markup vs profit"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16119,9 +15595,7 @@
         "confusing_patterns": [
           "simple discount vs successive discount"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16179,9 +15653,7 @@
         "confusing_patterns": [
           "simple discount vs successive discount"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16242,9 +15714,7 @@
         "confusing_patterns": [
           "profit on cost vs profit on sales"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16302,9 +15772,7 @@
         "confusing_patterns": [
           "simple addition of percentages"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16363,9 +15831,7 @@
         "confusing_patterns": [
           "profit on cost vs profit on marked price"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -16425,9 +15891,7 @@
         "confusing_patterns": [
           "markup vs profit"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16487,9 +15951,7 @@
         "confusing_patterns": [
           "markup vs profit"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16549,9 +16011,7 @@
         "confusing_patterns": [
           "markup vs profit"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16613,9 +16073,7 @@
         "confusing_patterns": [
           "successive_discounts"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16678,9 +16136,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16740,9 +16196,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     },
     {
       "section": "exercise",
@@ -16802,9 +16256,7 @@
         "confusing_patterns": [
           "profit_on_selling_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16864,9 +16316,7 @@
         "confusing_patterns": [
           "successive_discounts"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16925,9 +16375,7 @@
         "confusing_patterns": [
           "successive_discounts"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -16986,9 +16434,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17047,9 +16493,7 @@
         "confusing_patterns": [
           "successive_discounts"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17108,9 +16552,7 @@
         "confusing_patterns": [
           "simple_interest"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17168,9 +16610,7 @@
         "confusing_patterns": [
           "successive_discounts"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17234,9 +16674,7 @@
         "confusing_patterns": [
           "discount_on_cost_price_vs_marked_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17295,9 +16733,7 @@
         "confusing_patterns": [
           "treating_free_items_as_sold_items"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17358,9 +16794,7 @@
         "confusing_patterns": [
           "applying_profit_percentage_to_marked_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17419,9 +16853,7 @@
         "confusing_patterns": [
           "adding_markup_and_loss_percentages"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17480,9 +16912,7 @@
         "confusing_patterns": [
           "subtracting_profit_from_markup"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17541,9 +16971,7 @@
         "confusing_patterns": [
           "averaging_the_discounts"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17601,9 +17029,7 @@
         "confusing_patterns": [
           "assuming_listed_price_equals_cost_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17663,9 +17089,7 @@
         "confusing_patterns": [
           "applying_profit_to_marked_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17725,9 +17149,7 @@
         "confusing_patterns": [
           "applying_profit_to_marked_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17787,9 +17209,7 @@
         "confusing_patterns": [
           "applying_profit_to_cost_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17853,9 +17273,7 @@
         "confusing_patterns": [
           "calculating_profit_on_marked_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17916,9 +17334,7 @@
         "confusing_patterns": [
           "confusing_commission_with_profit"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -17980,9 +17396,7 @@
         "confusing_patterns": [
           "discount_percentage_vs_profit_percentage"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18044,9 +17458,7 @@
         "confusing_patterns": [
           "discount_rate_vs_profit_rate"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18108,9 +17520,7 @@
         "confusing_patterns": [
           "discount_percentage_vs_profit_percentage"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18172,9 +17582,7 @@
         "confusing_patterns": [
           "discount_vs_profit_calculation"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18237,9 +17645,7 @@
         "confusing_patterns": [
           "simple_average_vs_weighted_average"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18302,9 +17708,7 @@
         "confusing_patterns": [
           "discount_on_marked_price_vs_cost_price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18365,9 +17769,7 @@
         "confusing_patterns": [
           "discount_vs_reduction_amount"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18430,9 +17832,7 @@
         "confusing_patterns": [
           "discount_percentage_vs_profit_percentage"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18495,9 +17895,7 @@
         "confusing_patterns": [
           "profit on cost vs profit on sales"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -18558,9 +17956,7 @@
         "confusing_patterns": [
           "base value confusion"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -18621,9 +18017,7 @@
         "confusing_patterns": [
           "discount vs profit"
         ]
-      },
-      "sub_pattern": "Relative Price & Profit",
-      "pattern_doc": "relative_price_profit.md"
+      }
     },
     {
       "section": "exercise",
@@ -18685,9 +18079,7 @@
         "confusing_patterns": [
           "cost price change vs discount"
         ]
-      },
-      "sub_pattern": "Uncategorized",
-      "pattern_doc": "uncategorized.md"
+      }
     },
     {
       "section": "exercise",
@@ -18750,9 +18142,7 @@
         "confusing_patterns": [
           "multiple percentage applications"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18812,9 +18202,7 @@
         "confusing_patterns": [
           "gain vs loss"
         ]
-      },
-      "sub_pattern": "Basic Profit/Loss",
-      "pattern_doc": "basic_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -18874,9 +18262,7 @@
         "confusing_patterns": [
           "price per item vs item per price"
         ]
-      },
-      "sub_pattern": "Rate-Based Transactions",
-      "pattern_doc": "rate_based_transactions.md"
+      }
     },
     {
       "section": "exercise",
@@ -18938,9 +18324,7 @@
         "confusing_patterns": [
           "profit vs loss signs"
         ]
-      },
-      "sub_pattern": "System of Equations: P&L",
-      "pattern_doc": "system_of_equations_p_l.md"
+      }
     },
     {
       "section": "exercise",
@@ -19000,9 +18384,7 @@
         "confusing_patterns": [
           "discount vs markup"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -19063,9 +18445,7 @@
         "confusing_patterns": [
           "markup vs discount"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -19128,9 +18508,7 @@
         "confusing_patterns": [
           "calculating profit on selling price"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -19191,9 +18569,7 @@
         "confusing_patterns": [
           "discount vs profit margin"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -19253,9 +18629,7 @@
         "confusing_patterns": [
           "percentage of percentage"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -19317,9 +18691,7 @@
         "confusing_patterns": [
           "simple average vs weighted average"
         ]
-      },
-      "sub_pattern": "Mixture Problems",
-      "pattern_doc": "mixture_problems.md"
+      }
     },
     {
       "section": "exercise",
@@ -19378,9 +18750,7 @@
         "confusing_patterns": [
           "profit vs markup"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -19439,9 +18809,7 @@
         "confusing_patterns": [
           "tax vs discount"
         ]
-      },
-      "sub_pattern": "Depreciation/VAT",
-      "pattern_doc": "depreciation_vat.md"
+      }
     },
     {
       "section": "exercise",
@@ -19501,9 +18869,7 @@
         "confusing_patterns": [
           "gain vs loss"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -19562,9 +18928,7 @@
         "confusing_patterns": [
           "discount vs profit"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -19625,9 +18989,7 @@
         "confusing_patterns": [
           "profit on cost vs profit on marked price"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -19687,9 +19049,7 @@
         "confusing_patterns": [
           "tax on cost vs tax on selling price"
         ]
-      },
-      "sub_pattern": "Depreciation/VAT",
-      "pattern_doc": "depreciation_vat.md"
+      }
     },
     {
       "section": "exercise",
@@ -19750,9 +19110,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "Depreciation/VAT",
-      "pattern_doc": "depreciation_vat.md"
+      }
     },
     {
       "section": "exercise",
@@ -19813,9 +19171,7 @@
         "confusing_patterns": [
           "profit percentage on selling price"
         ]
-      },
-      "sub_pattern": "Depreciation/VAT",
-      "pattern_doc": "depreciation_vat.md"
+      }
     },
     {
       "section": "exercise",
@@ -19876,9 +19232,7 @@
         "confusing_patterns": [
           "percentage profit"
         ]
-      },
-      "sub_pattern": "Price & Profit Scenarios",
-      "pattern_doc": "price_profit_scenarios.md"
+      }
     },
     {
       "section": "exercise",
@@ -19939,9 +19293,7 @@
         "confusing_patterns": [
           "simple percentage increase"
         ]
-      },
-      "sub_pattern": "Bulk Purchase Free Items",
-      "pattern_doc": "bulk_purchase_free_items.md"
+      }
     },
     {
       "section": "exercise",
@@ -20002,9 +19354,7 @@
         "confusing_patterns": [
           "profit percentage"
         ]
-      },
-      "sub_pattern": "Find CP from SP",
-      "pattern_doc": "find_cp_from_sp.md"
+      }
     },
     {
       "section": "exercise",
@@ -20065,9 +19415,7 @@
         "confusing_patterns": [
           "simple interest"
         ]
-      },
-      "sub_pattern": "MP, Discount, Profit/Loss",
-      "pattern_doc": "mp_discount_profit_loss.md"
+      }
     },
     {
       "section": "exercise",
@@ -20127,9 +19475,7 @@
         "confusing_patterns": [
           "simple addition of percentages"
         ]
-      },
-      "sub_pattern": "Successive Discounts",
-      "pattern_doc": "successive_discounts.md"
+      }
     }
   ]
 }

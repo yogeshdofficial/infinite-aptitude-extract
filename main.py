@@ -164,42 +164,58 @@ def process_file(
 
     if args.enrich_only:
 
+        enrich_only_stem = args.enrich_only.stem
+        if enrich_only_stem.endswith(".enriched"):
+            enrich_only_stem = enrich_only_stem[: -len(".enriched")]
+
+        enriched_out = args.enrich_only.parent / f"{enrich_only_stem}.enriched.json"
+
+        source_path = enriched_out if enriched_out.exists() else args.enrich_only
+
         with open(
-            args.enrich_only,
+            source_path,
             encoding="utf-8",
         ) as f:
 
-            all_questions = json.load(f)
+            data = json.load(f)
 
-        for q in all_questions:
-
-            q["ai_enrichment"] = {}
+        # Support both a bare list and a wrapped {"questions": [...]} dict
+        if isinstance(data, list):
+            all_questions = data
+        else:
+            all_questions = data.get("questions", [])
 
         print("\nPASS 3: AI enrichment")
+        print(f"  reading from: {source_path}")
+        print(f"  writing to:   {enriched_out}")
+
+        if source_path == enriched_out:
+            print("  using cached enrichment output")
 
         all_questions = enrich_questions(
             client=client,
             model=args.model,
-            chapter_name=args.enrich_only.stem,
+            chapter_name=enrich_only_stem,
             questions=all_questions,
             rate_limiter=rate_limiter,
+            output_path=enriched_out,
         )
 
         normalize_questions_ai_enrichment(
             all_questions,
-            args.enrich_only.stem,
+            enrich_only_stem,
         )
 
         cache_batch(
-            chapter_title=args.enrich_only.stem,
+            chapter_title=enrich_only_stem,
             questions=all_questions,
-            output_path=args.enrich_only,
+            output_path=enriched_out,
         )
-        export_flattened_ai_enrichment(args.enrich_only)
+        export_flattened_ai_enrichment(enriched_out)
 
         print(
             "\nSaved to",
-            args.enrich_only,
+            enriched_out,
         )
 
         return
@@ -351,12 +367,20 @@ def process_file(
     print()
     print("PASS 3: AI enrichment")
 
+    enriched_path = output_dir / f"{input_path.stem}.enriched.json"
+
+    cached_questions = load_existing_questions(enriched_path)
+    if cached_questions:
+        all_questions = cached_questions
+        print(f"  reusing cached enrichment output: {enriched_path}")
+
     all_questions = enrich_questions(
         client=client,
         model=args.model,
         chapter_name=input_path.stem,
         questions=all_questions,
         rate_limiter=rate_limiter,
+        output_path=enriched_path,
     )
 
     normalize_questions_ai_enrichment(
@@ -380,18 +404,21 @@ def process_file(
 
             print(value[:10])
 
-        # FINAL SAVE
+    # FINAL SAVE (enrichment in its own file; base .json stays untouched)
     cache_final(
         chapter_title=input_path.stem,
         source_file=input_path.name,
         total_pages=total_pages,
         questions=all_questions,
-        output_path=output_path,
+        output_path=enriched_path,
     )
-    export_flattened_ai_enrichment(output_path)
+    export_flattened_ai_enrichment(enriched_path)
 
     print()
-    print(f"Saved to {output_path}")
+    print(f"Saved to {enriched_path}")
+
+    # Downstream passes (4, 5) work from the enriched file
+    output_path = enriched_path
 
     # PASS 4: CATEGORIZATION
     if args.categorize:

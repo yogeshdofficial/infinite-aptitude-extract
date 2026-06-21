@@ -2,67 +2,97 @@
 
 ## Formula Bank
 
-**Break-Even Analysis**
-$$\text{Profit} = \text{Revenue} - \text{Total Cost}$$
-*→ Net financial gain*
-$$\text{Total Cost} = \text{Variable} + \text{Fixed}$$
-*→ Total expenditure sum*
+**Basic Profit/Loss**
+$$\text{Profit} = \text{S.P.} - \text{C.P.}$$
+*→ absolute profit currency value*
+$$\text{Profit Percentage} = \left(\frac{\text{Profit}}{\text{C.P.}}\times100\right)\%$$
+*→ relative profit percentage gain*
 
-**CP SP Ratio**
-$$\text{Profit}\% = \frac{\text{S.P.} - \text{C.P.}}{\text{C.P.}} \times 100$$
-*→ Percentage profit calculation*
-$$\text{S.P.} = \text{C.P.} \times (1 + \frac{P}{100})$$
-*→ Selling price derivation*
+**Bulk Purchase Free Items**
+$$\text{Profit Percentage} = \frac{\text{S.P.} - \text{C.P.}}{\text{C.P.}} \times 100$$
+*→ effective percentage profit rate*
+
+**CP = SP of Other Item**
+$$\text{C.P.} = \frac{\text{S.P.}}{1 \pm \text{Rate}}$$
+*→ individual item cost price*
+
+**Chain Transactions**
+$$\text{Final Price} = \text{Initial Price} \times (1+r_1) \times (1+r_2)$$
+*→ final transaction price value*
+$$\text{Net Change} = a + b + \frac{ab}{100}$$
+*→ total percentage change result*
+
+**Combined Transactions**
+$$\text{Total Profit} = \sum (\text{Share} \times \text{Profit/Loss\%})$$
+*→ aggregate profit percentage value*
 
 **Cost Structure Changes**
-$$\text{Weighted Avg} = \frac{\sum (w_i \times x_i)}{\sum w_i}$$
-*→ Combined cost average*
+$$\text{Total Profit} = \sum (\text{Weight}_i \times \text{Profit}_i)$$
+*→ weighted average profit result*
 
-**Data Interpretation Profit**
-$$\text{Profit} = \text{Revenue} - \text{Cost}$$
-*→ Absolute profit value*
-$$\text{Margin}\% = \frac{\text{Profit}}{\text{Cost}} \times 100$$
-*→ Profitability ratio*
+**Data Interpretation: P&L**
+$$\text{Profit} = \text{Total Revenue} - \text{Total Cost}$$
+*→ net profit currency amount*
 
-**Depreciation Calculation**
-$$\text{Final} = \text{Initial} \times (1 - \frac{r}{100})^n$$
-*→ Value after depreciation*
+**Depreciation/VAT**
+$$\text{Final Value} = \text{Initial Value} \times (1 - \frac{r}{100})^n$$
+*→ depreciated asset final value*
 
-**Equivalent CP SP**
-$$\text{Gain}\% = \frac{n}{m-n} \times 100$$
-*→ Gain on $n$ items*
+**Dishonest Dealer**
+$$\text{Profit}\% = \frac{\text{True Weight} - \text{False Weight}}{\text{False Weight}} \times 100$$
+*→ actual percentage profit gain*
 
-**False Weights**
-$$\text{Profit}\% = \frac{\text{True} - \text{False}}{\text{False}} \times 100$$
-*→ Profit from cheating*
+**Equivalent CP/SP**
+$$\text{Loss\%} = \frac{\text{C.P.} - \text{S.P.}}{\text{C.P.}} \times 100$$
+*→ percentage loss on cost*
 
-**Find CP**
-$$\text{C.P.} = \frac{\text{S.P.}}{1 \pm \frac{\%}{100}}$$
-*→ Base cost calculation*
+**Find CP from SP**
+$$\text{C.P.} = \frac{\text{S.P.}}{1 \pm \frac{\text{Rate}}{100}}$$
+*→ original cost price value*
 
-**Marked Price Discount**
-$$\text{S.P.} = \text{M.P.} \times (1 - \frac{d}{100})$$
-*→ Price after discount*
+**Find SP from CP**
+$$\text{S.P.} = \text{C.P.} \times (1 \pm \frac{\text{Rate}}{100})$$
+*→ final selling price value*
+
+**Fixed & Variable Costs**
+$$\text{Profit} = \text{Revenue} - \text{Total Cost}$$
+*→ net profit currency amount*
+
+**MP, Discount, Profit/Loss**
+$$\text{Final Price} = \text{M.P.} \times (1 - d_1) \times (1 - d_2)$$
+*→ discounted selling price value*
 
 **Mixture Problems**
-$$\text{Mean} = \frac{\sum (Q \times P)}{\sum Q}$$
-*→ Weighted average price*
+$$\text{Weighted Average} = \frac{\sum (w_i \times x_i)}{\sum w_i}$$
+*→ mean cost of mixture*
 
-**Price Change Impact**
-$$\text{Diff} = (\text{Profit}_2 - \text{Loss}_1) \times \text{C.P.}$$
-*→ Impact of price shift*
+**Price & Profit Scenarios**
+$$\text{New S.P.} = \text{Old S.P.} \times \frac{100 + \text{Gain}\%}{100 - \text{Loss}\%}$$
+*→ adjusted selling price value*
 
-**Same SP Different %**
-$$\text{Loss}\% = (\frac{x}{10})^2$$
-*→ Net loss percentage*
+**Profit/Loss in Units**
+$$\text{Gain\%} = \left(\frac{\text{Gain}}{\text{C.P.}}\right) \times 100$$
+*→ percentage gain on units*
+
+**Rate-Based Transactions**
+$$\text{Gain\%} = \left(\frac{\text{Gain}}{\text{C.P.}} \times 100\right)\%$$
+*→ percentage gain on rate*
+
+**Relative Price & Profit**
+$$\text{Profit\%} = \left(\frac{\text{S.P.} - \text{C.P.}}{\text{C.P.}}\right) \times 100$$
+*→ relative profit percentage gain*
+
+**Same SP, Equal % Gain/Loss**
+$$\text{Loss\%} = \left(\frac{\text{Rate}}{10}\right)^2$$
+*→ net percentage loss result*
 
 **Successive Discounts**
-$$\text{Net} = \text{M.P.} \times (1-d_1)(1-d_2)$$
-*→ Final discounted price*
+$$\text{Equivalent Discount} = a + b - \frac{ab}{100}$$
+*→ single equivalent discount percentage*
 
-**Successive Sales**
-$$\text{Net} = a + b + \frac{ab}{100}$$
-*→ Cumulative percentage change*
+**System of Equations: P&L**
+$$\text{Total Profit} = \text{Profit}_1 + \text{Profit}_2$$
+*→ combined profit currency value*
 
 ---
 
@@ -70,35 +100,32 @@ $$\text{Net} = a + b + \frac{ab}{100}$$
 
 | Pattern | Trigger Keywords | What's Asked |
 | :--- | :--- | :--- |
-| Break-Even | Fixed/Variable costs | Zero profit point |
-| CP SP Ratio | Ratio, percentage gain | Cost or Selling price |
-| Cost Structure | Weighted components | New profit margin |
-| Data Interp | Tables, bogies, seats | Total revenue/profit |
-| Depreciation | Value decreases annually | Future value |
-| Equivalent CP SP | SP of X = CP of Y | Profit/Loss percentage |
-| False Weights | Dishonest, wrong weight | Actual profit percentage |
-| Marked Price | Discount, Markup | Selling price |
-| Mixture | Two rates, mean | Ratio of quantities |
-| Same SP | Equal gain/loss % | Net loss % |
-| Successive | Successive, series | Final price |
+| Basic P&L | Profit, Loss, Cost, Sell | Percentage or absolute value |
+| Bulk Purchase | Free items, Buy X get Y | Effective profit percentage |
+| Dishonest Dealer | False weight, Cheating, Grams | Actual profit percentage |
+| Chain Trans. | Successive, Series, Multiplier | Final price or net change |
+| Same SP | Equal gain/loss, Same price | Net loss percentage |
+| Successive Disc. | Successive discounts, Off | Final price or equivalent |
+| Mixture | Mixture, Alligation, Weighted | Mean price or ratio |
+| Price Scenarios | If sold at, New price | New selling price |
 
 ---
 
 ## Fastest Tricks
 
-* **Same SP Different %:** Always a loss of $(\frac{x}{10})^2\%$.
-* **False Weights:** Profit $\% = \frac{\text{Error}}{\text{True} - \text{Error}} \times 100$.
-* **Equivalent CP SP:** If SP of $x$ = CP of $y$, Profit $\% = \frac{x-y}{y} \times 100$.
-* **Successive Sales:** Use $a + b + \frac{ab}{100}$ for two changes.
-* **Rate-Based:** If $n$ items for ₹1, to gain $P\%$, sell $\frac{n}{1+P/100}$ for ₹1.
-* **Mixture:** Use Alligation rule for weighted averages.
+* **Same SP, Equal %:** Always a loss; use $(\frac{\text{rate}}{10})^2$.
+* **Successive Discounts:** Use $a + b - \frac{ab}{100}$ for two discounts.
+* **Dishonest Dealer:** Profit% = $\frac{\text{Error}}{\text{False Weight}} \times 100$.
+* **Chain Transactions:** Multiply growth factors (e.g., $1.20 \times 1.10$).
+* **Mixture:** Use alligation for weighted average cost prices.
+* **System of Equations:** Use inverse ratio of profit factors.
 
 ---
 
 ## Trap Watch
 
-* **CP SP Ratio:** Never calculate profit % on Selling Price.
-* **False Weights:** Always divide by False Weight, not True.
-* **Successive Discounts:** Never add percentages; apply them sequentially.
-* **Same SP:** Do not assume 0% net change.
-* **Price Change:** Difference in % is the sum of Profit and Loss.
+* **Basic P&L:** Calculating profit % on Selling Price.
+* **Dishonest Dealer:** Dividing error by True Weight.
+* **Successive Discounts:** Adding percentages instead of multiplying.
+* **Depreciation:** Applying tax to final price.
+* **Mixture:** Using Selling Price in alligation.

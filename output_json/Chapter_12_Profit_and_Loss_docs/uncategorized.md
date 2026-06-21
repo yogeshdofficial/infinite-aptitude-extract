@@ -1,65 +1,68 @@
-# Weighted Average Selling Price
+# Aggregate Cost and Selling Price Problems
 
 ## Overview
-* This pattern involves calculating the required selling price for a mixed batch of items to achieve a specific overall profit percentage.
-* The central idea is to calculate the total Cost Price (CP) of all items combined, apply the profit percentage to that total, and divide by the total quantity of items.
+These problems involve calculating profit or loss when dealing with multiple items, mixed quantities, or partial sales of a total stock. The central idea is to calculate the **Total Cost Price (Total C.P.)** and **Total Selling Price (Total S.P.)** separately before finding the percentage gain or loss.
 
 ---
 
 ## Recognition Clues
-* Multiple quantities of different items (e.g., shirts and trousers) are given with their individual unit costs.
-* The question asks for the "overall average selling price" to achieve a target profit percentage.
-* Keywords: "purchased [x] of A and [y] of B", "overall average selling price", "profit is earned".
+* **Keywords:** "Total outlay," "mixed," "remaining," "unsold," "average selling price," "two varieties."
+* **Given:** Quantities and rates for different items, or a total quantity with a portion sold/broken.
+* **Asked:** Overall profit/loss percentage, or the required selling price to achieve a target profit.
+* **Visual Scan:** Look for multiple sets of (Quantity × Rate) or mentions of "unsold/broken" items.
 
 ---
 
 ## Important Formulas
 
-### Total Cost Price
+### Total Profit/Loss Percentage
 $$
-\text{Total CP} = (Q_1 \times P_1) + (Q_2 \times P_2)
+\text{Profit/Loss \%} = \left( \frac{\text{Total S.P.} - \text{Total C.P.}}{\text{Total C.P.}} \right) \times 100
 $$
-*Meaning:* $Q$ = Quantity, $P$ = Price per unit.
-*Use when:* You need the base value to calculate the total required revenue.
+*Meaning:* The ratio of net gain/loss to the total investment.
+*Use when:* You have calculated the aggregate values for all items involved.
 
-### Target Selling Price
+### Required Selling Price
 $$
-\text{Total SP} = \text{Total CP} \times \left(1 + \frac{\text{Profit \%}}{100}\right)
+\text{Total S.P.} = \text{Total C.P.} \times \left( \frac{100 + \text{Profit \%}}{100} \right)
 $$
-*Meaning:* Total SP is the revenue needed to cover costs plus the desired profit.
-*Use when:* You have the total investment and the target profit margin.
+*Meaning:* The target revenue needed to achieve a specific percentage gain.
+*Use when:* You need to find the price per unit to reach a target profit.
 
 ---
 
 ## Solution Framework
-1. Calculate the total CP by summing the products of quantities and their respective unit prices.
-2. Calculate the total SP by multiplying the total CP by $(1 + \text{Profit \%})$.
-3. Sum the total number of items (total quantity).
-4. Divide the total SP by the total quantity to find the average selling price.
-5. Round off the result to the nearest integer as specified.
+1. Calculate **Total C.P.** by summing the cost of all individual batches or items.
+2. Identify the **actual quantity sold** (subtract broken or useless items from the total).
+3. Calculate **Total S.P.** based on the actual quantity sold at the given rate.
+4. Find the difference between Total S.P. and Total C.P. to get the net Profit or Loss.
+5. Apply the percentage formula using the Total C.P. as the base.
 
 ---
 
 ## Shortcut Tricks
-* **Weighted Average Shortcut:** Instead of calculating total SP, calculate the weighted average CP first: $\text{Avg CP} = \frac{\sum (Q_i \times P_i)}{\sum Q_i}$.
-* **Why it works:** Multiplying the average CP by $(1 + \text{Profit \%})$ yields the same result as dividing the total SP by total quantity, saving you from handling large numbers in the final division.
+* **Unitary Method for Profit:** If selling $N_1$ items at a profit $P$ covers the cost of $N_2$ items, the profit percentage is $\frac{N_2 - N_1}{N_1} \times 100$.
+* **Why it works:** It bypasses calculating the actual currency value by using the quantity ratio directly.
 
 ---
 
 ## Common Mistakes
-* **Calculating average of prices first:** Averaging the unit prices (e.g., $\frac{450+550}{2}$) and then applying profit; this is wrong because it ignores the different quantities of each item.
-* **Forgetting to sum quantities:** Dividing the total SP by only one of the item quantities instead of the total count.
-* **Rounding too early:** Rounding intermediate steps instead of the final result, which leads to precision errors.
+* **Base Error:** Calculating profit percentage on the number of items sold instead of the total cost of all items purchased.
+    * *Reason:* Forgetting that "unsold" items still contribute to the total investment (C.P.).
+    * *Fix:* Always use the total initial investment as the denominator.
+* **Quantity Mismatch:** Using the initial quantity to calculate S.P. when some items are broken or unsold.
+    * *Reason:* Assuming all items purchased are sold.
+    * *Fix:* Explicitly subtract broken/unsold units before multiplying by the selling rate.
 
 ---
 
 ## Similar Patterns
-* This is distinct from simple profit/loss on a single item; it is a **Weighted Average** problem disguised as a Profit and Loss question. Always treat it as a "Total Value / Total Quantity" problem.
+These are often confused with "False Weight" problems. Distinguish them by checking if the problem involves a physical change in quantity (broken/unsold) versus a deceptive measurement (false weights).
 
 ---
 
 ## Revision Summary
-**Key formula:** $\text{Avg SP} = \frac{\text{Total CP} \times (1 + \text{Profit \%})}{\text{Total Quantity}}$.
-**Spot it by:** Multiple items with different quantities and unit costs.
-**Fastest method:** Find weighted average CP first, then apply the profit percentage.
-**Biggest trap:** Calculating the simple average of unit prices instead of the weighted average.
+**Key formula:** $\text{Profit \%} = \frac{\text{Total S.P.} - \text{Total C.P.}}{\text{Total C.P.}} \times 100$.
+**Spot it by:** Multiple quantities/rates or mentions of broken/unsold stock.
+**Fastest method:** Calculate Total C.P. and Total S.P. first, then find the percentage.
+**Biggest trap:** Using the wrong quantity (e.g., total bought vs. total sold) to calculate S.P.

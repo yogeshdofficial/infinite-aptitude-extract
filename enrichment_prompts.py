@@ -1,5 +1,7 @@
 # enrichment_prompts.py
 
+# enrichment_prompts.py
+
 
 ENRICHMENT_PROMPT = r"""
 You are creating a high-quality aptitude question bank for students.
@@ -9,57 +11,57 @@ The goal is NOT to create a completely different problem.
 The goal is to create independently written material that preserves the same mathematical structure and solving pattern.
 
 ══════════════════════════════
-PARAPHRASED QUESTION
+CHOOSING NEW NUMBERS
 ══════════════════════════════
 
-Rewrite the question slightly.
+For most questions, invent a new set of numerical values that
+preserves the structure and difficulty of the original.
 
-Preserve:
+Procedure for most questions:
 
-• mathematical structure
-• difficulty
-• solving pattern
-• answer type
+1. Identify every free numeric input in the question.
 
-You may change:
+2. Pick new values for those inputs.
 
-• names
-• objects
-• wording
-• numerical values
+3. Solve the question fully with the new values.
 
-Choose new numbers carefully so that:
+4. Check: is the final answer clean (integer, or a simple fraction
+   with denominator ≤ 12), positive, and roughly the same order of
+   magnitude/complexity as the original answer?
 
-• answers remain clean
-• answers remain positive
-• ugly fractions are avoided
-• the resulting answer is similar in complexity to the original answer
+   - If YES: use these new numbers. Done.
+   - If NO: adjust the values and re-solve. Try at least two
+     distinct attempts before moving to the fallback below.
 
-If the question involves two or more unknowns whose values are tied
-together by several simultaneous ratio or equation constraints at
-once (for example: investments changing at different points in time,
-a profit split governed by more than one ratio at once, or working
-backward from a final ratio to several initial unknowns), finding
-brand-new numbers that satisfy every constraint AND produce a clean
-final answer is a hard search, not a simple substitution. In that
-situation, do not spend extra effort hunting for new numbers:
+5. If the question has 3 or more unknowns tied together by
+   simultaneous ratio or equation constraints — staggered
+   investments with multiple ratio splits, or back-solving from a
+   final combined ratio to several initial unknowns — and a clean
+   new number set isn't found quickly, you do not need to keep
+   searching. For these specific cases only, make a SMALL, targeted
+   adjustment to the original numbers instead of inventing an
+   entirely new set:
 
-• keep the original question's numbers exactly as given,
-• only change names, objects, and wording,
-• the worked solution may then reuse the original numeric values.
+   - Change one or two of the original values slightly (e.g. shift
+     a capital amount, a time period, or the total profit by a
+     small amount) while keeping the overall structure and ratio
+     pattern the same.
+   - Re-solve fully with the adjusted values to confirm the answer
+     is still clean and consistent.
+   - This is a lighter-touch change than full invention, but it
+     must still be an actual change — do not return the original
+     numbers completely unchanged.
 
-This is the correct, intended choice for such questions — it is not
-a fallback or a lesser-quality output. Preserving structure and
-wording variety is what matters for these; clean new numbers matter
-far less than not getting stuck searching for them.
+   This relaxed path is only for genuinely multi-constraint
+   simultaneous systems. For simple ratio/percentage/profit-sharing
+   problems with 1-2 unknowns, time-speed-distance, ages, simple
+   interest, and simple partnership, continue inventing a fully new
+   set of numbers as in steps 1-4 — the relaxed path does not apply
+   to these.
 
-Do not make unnecessary changes.
+If you used the relaxed path, adjust the options to match the new
+final answer rather than leaving the original options unchanged.
 
-Students familiar with the original problem should immediately recognize the pattern.
-
-Do not mechanically substitute synonyms.
-
-Write naturally.
 ══════════════════════════════
 PARAPHRASED OPTIONS
 ══════════════════════════════
@@ -76,10 +78,10 @@ Do not merely reorder options.
 
 Generate natural distractors.
 
-If you kept the original numbers under the escape hatch above
-(because of multiple simultaneous unknowns), keep the original
-options in the same positions as well, rather than inventing new
-distractors around numbers that did not change.
+If you used the relaxed path for a multi-constraint question (small
+adjustment to original numbers rather than a fully new set), update
+the options to match the new final answer rather than reusing the
+original options unchanged.
 
 Return:
 
@@ -445,6 +447,9 @@ last real LaTeX command or symbol, and write the ₹ amount as plain
 text right after it instead. This check is mandatory for every item,
 every time.
 
+Also re-scan every numeric value in paraphrased_question for plain
+"/" fractions as described above.
+
 ══════════════════════════════
 DISPLAY
 ══════════════════════════════
@@ -495,6 +500,31 @@ The solution should be easy to scan vertically.
 Aim for 5–15 short lines.
 
 The answer should be visually clean and pleasant to read.
+
+──────────────────────────────
+JSON STRING FORMAT FOR SOLUTIONS (CRITICAL)
+──────────────────────────────
+
+traditional_solution and shortcut_solution are JSON string fields.
+
+Use \n inside the string to separate each line.
+
+WRONG (entire solution collapsed into one line):
+"traditional_solution": "Let the capitals be A = ₹4000, B = ₹6000. Ratio = 4000:6000 = 2:3. A's share = $\frac{2}{5} \times 5000$ = ₹2000."
+
+CORRECT (each sentence and equation on its own line, separated by \n\n):
+"traditional_solution": "Let the capitals be A = ₹4000 and B = ₹6000.\n\nThe ratio of their capitals is $4000:6000 = 2:3$.\n\nSince profit is shared in the ratio of capitals,\n\nA's share $= \frac{2}{5} \times 5000 =$ ₹2000."
+
+Rules for \n placement:
+
+- \n\n between every major step (new idea or new equation).
+
+- \n between an explanatory sentence and the equation that follows it.
+
+- Never let more than one equation appear on the same line in the string.
+
+- A solution string with zero \n characters is always wrong.
+
 
 ══════════════════════════════
 CHAPTER
@@ -672,6 +702,8 @@ A student should be able to understand the method without looking at the origina
 
 Keep explanations concise and natural.
 
-
+Use new numerical values for most questions. For genuinely
+multi-constraint questions, a small targeted adjustment to the
+original numbers is acceptable rather than a fully new set.
 
 """

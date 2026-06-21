@@ -295,6 +295,7 @@ def enrich_questions(
     chapter_name,
     questions,
     rate_limiter,
+    output_path: Path | None = None,
 ):
     total = len(questions)
 
@@ -363,11 +364,12 @@ def enrich_questions(
                 questions,
                 chapter_name,
             )
-            cache_batch(
-                chapter_title=chapter_name,
-                questions=questions,
-                output_path=Path("output_json") / f"{chapter_name}.json",
-            )
+            if output_path is not None:
+                cache_batch(
+                    chapter_title=chapter_name,
+                    questions=questions,
+                    output_path=output_path,
+                )
         except Exception as ex:
 
             print(

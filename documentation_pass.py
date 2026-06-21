@@ -9,9 +9,6 @@ from typing import Optional
 from gemini_utils import call_gemini
 import PyPDF2
 
-# ─────────────────────────────────────────────────────────────────
-# PATTERN DOC PROMPT  (unchanged — per-pattern revision note)
-# ─────────────────────────────────────────────────────────────────
 PATTERN_DOC_PROMPT = r"""
 You are an expert mathematics educator and aptitude trainer, writing a
 revision note for a student preparing for Indian competitive exams
@@ -38,6 +35,12 @@ content that could apply to any partnership/profit-loss/work problem.
 If a formula or trick doesn't actually appear in these specific
 questions, leave it out — do not pad the note with material that
 isn't grounded in what's given.
+
+If the supplied questions don't clearly support a section — for
+example, no genuine shortcut exists, or fewer than 2 real common
+mistakes are visible from the worked solutions — say so briefly in
+that section instead of inventing generic content to fill space. A
+short, honest section beats a padded, generic one.
 
 Use the Source Material only for terminology, notation, and to
 double-check a formula. Never copy long passages from it.
@@ -116,6 +119,11 @@ $$
 Only include formulas that genuinely appear in the questions above.
 2-4 formulas is normal. More is fine only if they are all genuinely
 distinct and used.
+
+If this pattern's core formula was already introduced in the chapter
+overview document, reuse the same formula name and notation rather
+than renaming it — students will be cross-referencing both documents,
+and a renamed formula reads as a different concept.
 
 ---
 
@@ -273,15 +281,25 @@ $$
 Only include formulas genuinely needed across multiple question types.
 If a formula is used by only one pattern, leave it for that pattern's note.
 
+Use formula names and notation that the individual pattern notes for
+this chapter are also likely to use (e.g. if the underlying chapter
+concept is "capital-months", call it "capital-months" here too,
+rather than a synonym like "investment-time product"). Students will
+cross-reference this document against the pattern notes, so naming
+consistency matters more than stylistic variety.
+
 ---
 
 ## How Patterns Connect
 
 For each pattern listed under "Patterns Discovered In This Chapter",
-write exactly ONE line:
+write exactly ONE line whose job is disambiguation, not description:
+what makes THIS pattern distinct from the others listed here, not
+what the pattern is in isolation. A student reading all the lines
+together should be able to tell every pattern apart by contrast, not
+just read N separate summaries that happen to sit next to each other.
 
-**[Pattern Name]** — what kind of question this pattern covers,
-written so a student can immediately tell it apart from the others.
+**[Pattern Name]** — distinct from the others because ...
 
 List every pattern given to you, in the order given. Do not skip,
 merge, or invent patterns. This is a navigation aid, not a description.
@@ -345,11 +363,16 @@ Group by pattern with a bold label. Format:
 
 **[Pattern Name]**
 $$\text{{formula}}$$
-*→ [4-word label for what this computes]*
+*→ [4-word label describing the OUTPUT the formula produces, e.g.
+"final profit share amount" — not a restatement of the formula name]*
 
 List every pattern. Do not skip, merge, or invent patterns.
 If a pattern has more than one essential formula, list all of them —
 one formula per block.
+
+Use the exact same formula names that appear in the chapter overview
+and pattern notes for this chapter — do not rename or re-derive a
+formula under a new label here.
 
 ---
 
@@ -543,7 +566,12 @@ def create_pattern_markdown_files(
         item["pattern_doc"] = pattern_filenames.get(pattern, "")
 
     with open(categorized_file, "w", encoding="utf-8") as f:
-        json.dump(data if isinstance(data, dict) else questions, f, indent=2, ensure_ascii=False)
+        json.dump(
+            data if isinstance(data, dict) else questions,
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
 
     print(f"  ✓ pattern_doc field written to {Path(categorized_file).name}")
 
@@ -672,7 +700,12 @@ def build_cheatsheet_context(questions: list[dict]) -> dict[str, dict]:
 
         entry = patterns.setdefault(
             pattern,
-            {"question_count": 0, "formulas": [], "common_mistakes": [], "shortcuts": []},
+            {
+                "question_count": 0,
+                "formulas": [],
+                "common_mistakes": [],
+                "shortcuts": [],
+            },
         )
 
         entry["question_count"] += 1

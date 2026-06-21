@@ -1,68 +1,78 @@
-# Capital Changes (Compound Partnership)
+# Capital Changes
 
 ## Overview
-These questions involve partners who change their investment amounts (withdrawals or additions) at different points in time. The central idea is to calculate the **Equivalent Capital** for each partner by summing the products of each capital amount and the duration it was invested.
+
+These questions involve partners who change their investment amounts (withdrawals or additional deposits) at specific intervals during the business term. The central idea is to calculate the "equivalent capital" for each partner by summing the products of each distinct capital amount and the time duration it was invested.
 
 ---
 
 ## Recognition Clues
-* **Keywords:** "Withdrew," "invests more," "additional amount," "increases share," "joins after X months."
-* **Given:** Initial investments, specific time intervals for changes, and total profit.
+
+* **Keywords:** "withdrew", "invests more", "additional amount", "increases his share", "after X months/years".
+* **Given:** Initial investment ratios or amounts, specific time-based changes in capital, and total profit.
 * **Asked:** Individual share of profit or the ratio of profit distribution.
-* **Timeframe:** Always look for the total duration (e.g., "at the end of the year" or "at the end of 3 years").
+* **Timeframe:** The total duration of the business is always specified (e.g., "at the end of the year" or "at the end of 3 years").
 
 ---
 
 ## Important Formulas
 
-### [Equivalent Capital]
-$$
-\text{Equivalent Capital} = \sum (\text{Capital}_i \times \text{Time}_i)
-$$
-*Meaning:* The sum of products of each distinct capital amount and the time period it remained in the business.
-*Use when:* A partner changes their investment amount during the business tenure.
+### [Equivalent Capital Ratio]
 
-### [Profit Distribution]
 $$
-\text{Share of A} = \text{Total Profit} \times \left( \frac{\text{A's Equivalent Capital}}{\text{Total Equivalent Capital}} \right)
+\text{Profit Ratio} = (C_1 \times t_1 + C_2 \times t_2 + \dots) : (D_1 \times t_1 + D_2 \times t_2 + \dots)
 $$
-*Meaning:* Profit is divided in the exact ratio of the partners' total equivalent capitals.
-*Use when:* You need to find the monetary value of a partner's profit share.
+
+*Meaning:* $C, D$ are capital amounts; $t$ is the time duration (in months or years) each amount was held.
+
+*Use when:* A partner changes their investment amount one or more times during the total business period.
 
 ---
 
 ## Solution Framework
-1. **Standardize Time:** Convert all time periods into the same unit (e.g., months).
-2. **Calculate Equivalent Capital:** For each partner, multiply each capital amount by the number of months it was active and sum them.
-3. **Simplify Ratio:** Write the equivalent capitals as a ratio and simplify by dividing by the HCF.
-4. **Calculate Share:** Multiply the total profit by the partner's ratio fraction.
+
+1. **Standardize Time:** Convert all time periods to the same unit (e.g., all in months).
+2. **Calculate Segments:** For each partner, multiply each capital amount by the number of months it remained in the business.
+3. **Sum Products:** Add these products together to get the total "equivalent capital" for each partner.
+4. **Simplify Ratio:** Reduce the resulting large numbers to their simplest integer ratio.
+5. **Distribute Profit:** Divide the total profit using the simplified ratio parts.
 
 ---
 
 ## Shortcut Tricks
-* **Cancel Common Factors Early:** If all initial investments share common zeros or factors, divide them out before multiplying by time to keep numbers small.
-* **The "Time-Block" Method:** If a partner adds/withdraws, treat the investment as a series of blocks: $(\text{Initial} \times \text{Time}_1) + (\text{New Amount} \times \text{Time}_2)$.
-* **Why it works:** The distributive property of multiplication ensures that the total value remains proportional regardless of when you simplify the ratio.
+
+* **Cancel Common Factors Early:** Divide all initial capital amounts by a common factor (e.g., 1000 or 10000) before multiplying by time to keep numbers manageable.
+* **Ratio Scaling:** If investments are given as fractions (e.g., $\frac{1}{3} : \frac{1}{4}$), multiply by the LCM of denominators immediately to work with integers.
+* **Validity:** These are valid because the profit ratio is proportional to the total equivalent capital; scaling the inputs does not change the final ratio.
 
 ---
 
 ## Common Mistakes
-* **Incorrect Time Calculation:** Using the time *after* the change instead of the time *for which the money was held*. (Fix: Always verify that the sum of time periods equals the total business duration).
-* **Forgetting New Partners:** Assuming all partners were present from the start. (Fix: Check the start date for every partner mentioned).
-* **Miscalculating "Additional":** Confusing "invests ₹X more" with "invests ₹X total." (Fix: Read carefully—"more" means add to the previous balance).
+
+* **Time Mismatch:** Using the "time elapsed" instead of "time remaining" for the second investment period.
+    * *Reason:* Forgetting that the total time is fixed (e.g., if a change happens at 4 months in a 12-month year, the second period is 8 months, not 4).
+    * *Fix:* Always verify: $\sum (\text{time segments}) = \text{Total duration}$.
+* **Ignoring Initial Capital:** Treating an "additional investment" as the *new* total capital instead of adding it to the existing amount.
+    * *Reason:* Misreading "invests ₹ 5000 more" as "invests ₹ 5000".
+    * *Fix:* Explicitly write: $\text{New Capital} = \text{Old Capital} \pm \text{Change}$.
+* **Ratio Inversion:** Calculating the ratio of time instead of the ratio of (Capital $\times$ Time).
+    * *Reason:* Habit from simple partnership problems.
+    * *Fix:* Always write out the product $C \times t$ before forming the ratio.
 
 ---
 
 ## Similar Patterns
-This is distinct from "Simple Partnership" where capital remains constant. If the capital never changes, do not use the summation method; simply use the ratio of investments.
+
+This pattern is distinct from "Simple Partnership" because capital is dynamic. It is most often confused with "Time-based Partnership" (where capital is constant but partners join at different times); the difference is that here, the *amount* changes, not just the *start date*.
 
 ---
 
 ## Revision Summary
-**Key formula:** $\text{Ratio} = \sum (\text{Capital} \times \text{Time})$.
 
-**Spot it by:** Keywords like "withdrew," "added," or "joins after."
+**Key formula:** $\text{Profit Ratio} = \sum (\text{Capital} \times \text{Time})$.
 
-**Fastest method:** Simplify investment ratios before multiplying by time.
+**Spot it by:** Look for "withdrew" or "additional investment" mid-term.
 
-**Biggest trap:** Miscounting the number of months a specific capital amount was active.
+**Fastest method:** Simplify capital values by common factors before multiplying by time.
+
+**Biggest trap:** Using the wrong time duration for the second investment segment.

@@ -4,59 +4,71 @@
 
 **Capital Changes**
 $$\text{Profit Ratio} = \sum (\text{Capital} \times \text{Time})$$
-*→ Individual profit share ratio*
-
-**Equivalent Units**
-$$\text{Rent Ratio} = \text{Equivalent Units} \times \text{Time}$$
-*→ Rent distribution ratio*
+*→ relative profit distribution ratio*
 
 **Missing Capital**
-$$\frac{\text{Profit}_1}{\text{Profit}_2} = \frac{\text{Capital}_1 \times \text{Time}_1}{\text{Capital}_2 \times \text{Time}_2}$$
-*→ Solve for unknown capital*
+$$\text{Capital} = \frac{\text{Profit}}{\text{Time}}$$
+*→ individual partner capital amount*
+
+**Missing Capital: Profit Rate Change**
+$$\text{Profit} = \text{Capital} \times \text{Rate}$$
+*→ individual partner profit share*
+
+**Missing Initial Capital**
+$$\text{Total Investment} = \sum (\text{Capital} \times \text{Time})$$
+*→ weighted total investment value*
+
+**Missing Initial Capital: Investment Ratio Change**
+$$\text{New Investment} = \text{Initial} \pm \text{Change}$$
+*→ updated capital investment amount*
 
 **Missing Time**
-$$\text{Time} \propto \frac{\text{Profit}}{\text{Capital}}$$
-*→ Solve for unknown duration*
+$$\text{Time} = \frac{\text{Profit Ratio}}{\text{Capital}}$$
+*→ duration of capital investment*
 
 **Missing Total Profit**
-$$\text{Total Profit} = \frac{\text{Individual Share}}{\text{Individual Ratio}} \times \text{Sum of Ratios}$$
-*→ Calculate total business profit*
+$$\text{Total Profit} = \frac{\text{C's Share} \times \text{Sum of Ratios}}{\text{C's Ratio}}$$
+*→ total business profit amount*
 
 **Mixed Distribution**
-$$\text{Share} = \text{Equal Portion} + \left( \frac{\text{Ratio} \times \text{Remaining Profit}}{\text{Sum of Ratios}} \right)$$
-*→ Split profit with salary*
+$$\text{Share} = \frac{\text{Individual Ratio}}{\text{Sum of Ratios}} \times \text{Amount}$$
+*→ specific partner profit share*
 
-**Phased Usage**
-$$\text{Rent} = \text{Monthly Rent} \times \text{Time}$$
-*→ Periodic rent allocation*
+**Ratio of Investment**
+$$\text{Capital} = \frac{\text{Profit}}{\text{Time}}$$
+*→ ratio of capital invested*
 
-**Profit Rate Capital**
-$$\text{Profit} = \text{Capital} \times \text{Rate}$$
-*→ Profit from investment rate*
+**Ratio of Time**
+$$\text{Time} = \frac{\text{Profit}}{\text{Capital}}$$
+*→ ratio of investment duration*
 
 **Relative Investment**
-$$\text{Share} = \frac{\text{Total Profit} \times \text{Individual Ratio}}{\text{Sum of Ratios}}$$
-*→ Proportional profit distribution*
+$$\text{Share} = \frac{\text{Individual Ratio}}{\text{Sum of Ratios}} \times \text{Total Profit}$$
+*→ partner profit share amount*
 
 **Rent Sharing**
-$$\text{Rent Ratio} = \text{Units} \times \text{Time}$$
-*→ Cost sharing ratio*
+$$\text{Rent Ratio} = \text{Quantity} \times \text{Time}$$
+*→ ratio for rent division*
+
+**Rent Sharing: Equivalent Units**
+$$\text{Rent Ratio} = \text{Equivalent Units} \times \text{Time}$$
+*→ normalized rent sharing ratio*
+
+**Rent Sharing: Phased Usage**
+$$\text{Rent} = \text{Monthly Rent} \times \text{Time}$$
+*→ total rent per occupant*
 
 **Simple Partnership**
-$$\text{Profit Ratio} = \text{Capital Ratio}$$
-*→ Equal time profit split*
-
-**Time Investment Ratio**
-$$\text{Time} = \frac{\text{Profit}}{\text{Capital}}$$
-*→ Calculate time duration ratio*
+$$\text{Share} = \frac{\text{Individual Ratio}}{\text{Total Ratio}} \times \text{Total Profit}$$
+*→ partner profit share amount*
 
 **Varying Time**
-$$\text{Profit Ratio} = \text{Capital} \times \text{Time}$$
-*→ Weighted profit distribution*
+$$\text{Profit Ratio} = \sum (\text{Capital} \times \text{Time})$$
+*→ weighted profit distribution ratio*
 
 **Working Partner**
-$$\text{Total Share} = \text{Salary} + \text{Proportional Share}$$
-*→ Partner total earnings*
+$$\text{Total Profit} = \text{Management Share} + \text{Capital Share}$$
+*→ total partner earnings amount*
 
 ---
 
@@ -64,40 +76,32 @@ $$\text{Total Share} = \text{Salary} + \text{Proportional Share}$$
 
 | Pattern | Trigger Keywords | What's Asked |
 | :--- | :--- | :--- |
-| Capital Changes | Added/withdrew capital | Final profit share |
-| Equivalent Units | Grazing/cows/units | Rent share |
-| Missing Capital | Find investment amount | Capital value |
-| Missing Time | Find months/years | Time duration |
-| Missing Total | Find total profit | Total profit |
-| Mixed Distribution | Equal share + ratio | Individual share |
-| Phased Usage | Rent/periods | Rent per person |
-| Profit Rate | Rate/percentage | Profit amount |
-| Relative Investment | Twice/half/ratio | Individual share |
-| Rent Sharing | Rent/cost/space | Rent share |
-| Simple Partnership | Same time | Profit ratio |
-| Time Investment | Find time ratio | Time duration |
-| Varying Time | Different months | Profit share |
-| Working Partner | Salary/management fee | Total earnings |
+| Capital Changes | Capital added/withdrawn | Final profit share |
+| Missing Capital | Profit given, capital unknown | Initial capital amount |
+| Missing Time | Time unknown | Duration of investment |
+| Mixed Distribution | Fixed salary + profit | Total partner share |
+| Rent Sharing | Grazing, land, rent | Rent per person |
+| Working Partner | Salary, management fee | Total partner income |
+| Varying Time | Different months | Profit distribution |
 
 ---
 
 ## Fastest Tricks
 
-* **Capital Changes:** Simplify ratios by canceling common zeros/factors immediately.
-* **Equivalent Units:** Convert all inputs to "cow-months" before calculating ratios.
-* **Missing Time:** Use $\text{Time} = \frac{\text{Profit}}{\text{Capital}}$ to find ratios directly.
-* **Simple Partnership:** Convert fractional ratios to integers using the LCM.
-* **Time Investment:** Divide profit by capital to get the time ratio.
-* **Mixed Distribution:** Ignore the equal share when calculating the difference between partners.
-* **Varying Time:** Calculate effective capital as $\sum (\text{Capital} \times \text{Time})$.
+* **Capital Changes:** Use effective capital ratio $\sum(C \times T)$.
+* **Missing Time:** Use $\frac{P_1}{P_2} = \frac{C_1 \times T_1}{C_2 \times T_2}$ to solve for $T$.
+* **Ratio of Time:** Time ratio is inverse of capital ratio if profits equal.
+* **Rent Sharing:** Convert all units to common base (e.g., cow-months).
+* **Simple Partnership:** Simplify investment ratios before calculating shares.
+* **Working Partner:** Calculate management fee first, then split remainder.
 
 ---
 
 ## Trap Watch
 
-* **Capital Changes:** Forgetting to add new capital to the previous balance.
-* **Missing Time:** Using $x$ as total time instead of time elapsed.
-* **Mixed Distribution:** Including the equal portion in the difference calculation.
-* **Working Partner:** Forgetting to add salary to the proportional share.
-* **Simple Partnership:** Assuming ratio is just the inverse of fractions.
-* **Varying Time:** Using 12 months for partners who joined late.
+* **Capital Changes:** Forgetting to multiply by time.
+* **Missing Capital:** Confusing profit ratio with investment ratio.
+* **Missing Time:** Using full 12 months for partial investments.
+* **Mixed Distribution:** Distributing total profit before subtracting salary.
+* **Rent Sharing:** Ignoring time factor in grazing problems.
+* **Working Partner:** Adding management fee to capital share incorrectly.

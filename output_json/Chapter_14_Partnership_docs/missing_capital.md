@@ -1,66 +1,75 @@
 # Missing Capital
 
 ## Overview
-These questions involve finding an unknown investment amount when profit ratios, time periods, and other partners' investments are provided. The central idea is that the ratio of profit shares is always equal to the ratio of the product of capital and time for each partner.
+
+These questions involve finding an unknown investment amount when profit shares and time periods are provided. The central idea is that the ratio of profit shares is always equal to the ratio of the product of capital and time for each partner.
 
 ---
 
 ## Recognition Clues
-* **Keywords:** "How much money did [Name] contribute?", "What was the amount invested by [Name]?", "Find the initial investment".
-* **Given:** Profit ratios (or total profit and individual shares), time periods, and at least one known investment amount.
-* **Variations:** Partners joining at different times, withdrawing capital, or adding capital mid-year.
-* **Scan for:** "Invested for X months", "After Y months, [Name] joined", "Profit shared in ratio A:B:C".
+
+* **Keywords:** "How much money did [Name] contribute?", "What was the amount invested by [Name]?", "C's capital was...".
+* **Given:** Profit shares (as fractions, percentages, or absolute values), time periods, and at least one known investment amount.
+* **Asked:** The missing principal amount ($P$) for one or more partners.
+* **Complexity:** Look for "withdrawals" or "joining mid-year" (requires calculating equivalent capital).
 
 ---
 
 ## Important Formulas
 
-### [Profit-Investment-Time Relationship]
+### Profit-Investment Ratio
 $$
-\frac{P_1}{P_2} = \frac{C_1 \times T_1}{C_2 \times T_2}
+\frac{P_1 \times T_1}{P_2 \times T_2} = \frac{\text{Share}_1}{\text{Share}_2}
 $$
-*Meaning:* $P$ = Profit share, $C$ = Capital invested, $T$ = Time period.
-*Use when:* Comparing two partners to find an unknown capital ($C$) or time ($T$).
+*Meaning:* $P$ = Capital, $T$ = Time, Share = Profit portion.
+*Use when:* Comparing two partners to find one missing capital value.
 
-### [Total Investment Summation]
+### Total Investment Equivalence
 $$
-\text{Total Profit} = \sum (\text{Individual Capital} \times \text{Time}) \times \text{Constant}
+\sum (P_i \times T_i) = \text{Total Profit} \times \text{Constant}
 $$
-*Meaning:* Used when total profit is given as a fixed amount rather than a ratio.
-*Use when:* You need to find a specific capital amount using the total business profit.
+*Meaning:* Sum of all (Capital $\times$ Time) products equals the total business value.
+*Use when:* You have the total profit and need to solve for a single unknown capital $X$.
 
 ---
 
 ## Solution Framework
-1. Define the unknown capital as $x$ (or $kx$ if a ratio is given).
-2. Calculate the "effective capital" for each partner: $(\text{Capital} \times \text{Time})$.
-3. If capital changes mid-year, sum the products: $(C_1 \times T_1) + (C_2 \times T_2)$.
-4. Equate the ratio of these products to the given profit ratio.
-5. Solve the resulting linear equation for $x$.
+
+1. Calculate the time period ($T$) each partner's money was invested.
+2. Express the profit share of each partner as a ratio or fraction.
+3. Set up the equation: $\frac{\text{Capital}_A \times \text{Time}_A}{\text{Capital}_B \times \text{Time}_B} = \frac{\text{Profit}_A}{\text{Profit}_B}$.
+4. If total profit is given, use the ratio of shares to distribute the total amount.
+5. Solve the resulting linear equation for the missing variable ($X$).
 
 ---
 
 ## Shortcut Tricks
-* **Ratio Scaling:** If profit shares are given as fractions (e.g., $\frac{1}{8}, \frac{1}{3}$), convert them to a simple integer ratio immediately by multiplying by the LCM of denominators.
-* **Time Normalization:** If all partners invest for the same time, ignore time and equate profit ratio directly to capital ratio.
-* **Proportionality:** If $A:B = 3:2$ and $A$'s profit is known, use the multiplier method (e.g., if $3 \text{ units} = 3000$, then $1 \text{ unit} = 1000$) to find $B$ without formal equations.
+
+* **Ratio Scaling:** If profit shares are given as fractions (e.g., $\frac{1}{8}, \frac{1}{3}$), convert them to a common denominator immediately to get the ratio (e.g., $3:8:13$).
+* **Zero Cancellation:** Always cancel common zeros in capital amounts and common factors in time periods before multiplying to keep numbers manageable.
 
 ---
 
 ## Common Mistakes
-* **Ignoring Time:** Treating profit ratio as equal to capital ratio when time periods differ. *Fix:* Always multiply capital by time before forming the ratio.
-* **Partial Year Confusion:** Forgetting to account for the time a partner was *absent* or *inactive*. *Fix:* Clearly write down the months of activity for each partner before calculating.
-* **Adding Capital Errors:** Failing to multiply the *new* capital by the *remaining* time in the year. *Fix:* Use the bracketed sum method: $(C_{initial} \times T_{total}) + (C_{added} \times T_{remaining})$.
+
+* **Ignoring Time:** Multiplying only capital by profit share; always multiply capital by time ($P \times T$).
+* **Partial Year Withdrawals:** Forgetting to split the time for partners who withdraw money (e.g., $3600 \times 8 + 3000 \times 4$).
+* **Total vs. Individual:** Confusing the total profit with the share of a single partner; always verify if the given value is a share or the total pool.
 
 ---
 
 ## Similar Patterns
-This is distinct from "Missing Time" problems, though the formula is identical. The difference is purely algebraic: here you solve for $C$, there you solve for $T$.
+
+This is distinct from "Missing Time" problems, where capital is known and time is the variable. Always identify if the unknown is $P$ or $T$ before setting up the ratio.
 
 ---
 
 ## Revision Summary
-**Key formula:** $\text{Profit Ratio} = (C_1 \times T_1) : (C_2 \times T_2)$.
-**Spot it by:** Looking for "How much did X invest?" alongside profit and time data.
-**Fastest method:** Convert profit fractions to integer ratios and use the multiplier method.
-**Biggest trap:** Forgetting to multiply the *added* capital by the *remaining* months only.
+
+**Key formula:** $\frac{P_1 T_1}{P_2 T_2} = \frac{\text{Share}_1}{\text{Share}_2}$.
+
+**Spot it by:** Looking for "How much did X invest?" and given profit shares.
+
+**Fastest method:** Convert profit fractions to a simple ratio and equate to $(P \times T)$ ratios.
+
+**Biggest trap:** Forgetting to multiply capital by the specific duration it was invested.

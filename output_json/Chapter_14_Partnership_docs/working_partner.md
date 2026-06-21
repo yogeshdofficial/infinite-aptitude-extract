@@ -1,69 +1,80 @@
 # Working Partner
 
 ## Overview
-These questions involve a business where one partner receives a fixed percentage of the total profit as a "salary" for management before the remainder is split. The core idea is to separate the **Management Share** from the **Investment Share** before calculating individual totals.
+
+These questions involve a business where one partner receives a fixed percentage of the total profit as a "salary" for management before the remaining profit is distributed. The core idea is to split the total profit into two distinct pools: the management fee and the residual profit shared by ratio of investment.
 
 ---
 
 ## Recognition Clues
+
 * **Keywords:** "Working partner," "managing the business," "gets X% of the profit for managing."
-* **Given:** Total profit, individual capital investments, time periods (sometimes), and the management percentage.
-* **Asked:** Total profit, or the final share of a specific partner.
+* **Given:** Total profit amount, individual capital investments, time periods (if applicable), and the management percentage.
+* **Asked:** Total profit, or the specific share of a partner (including their management fee).
 
 ---
 
 ## Important Formulas
 
-### [Management Share]
+### [Management Fee Calculation]
 $$
-\text{Management Share} = \text{Total Profit} \times \left( \frac{\text{Percentage}}{100} \right)
+\text{Fee} = \text{Total Profit} \times \left( \frac{\text{Percentage}}{100} \right)
 $$
-*Meaning:* The fixed portion allocated to the working partner before capital-based distribution.
-*Use when:* You need to isolate the "salary" component from the "investment" component.
+*Meaning:* The fixed portion of profit allocated to the working partner before any ratio-based distribution.
+*Use when:* You need to isolate the "residual profit" to be shared among all partners.
 
-### [Balance Profit]
+### [Residual Profit Distribution]
 $$
-\text{Balance Profit} = \text{Total Profit} - \text{Management Share}
+\text{Partner's Share} = \text{Residual Profit} \times \left( \frac{\text{Partner's Investment Ratio}}{\text{Sum of all Ratios}} \right)
 $$
-*Meaning:* The remaining profit to be divided among all partners based on their investment ratios.
-*Use when:* You have already calculated the management fee and need to distribute the rest.
+*Meaning:* The remaining profit after the management fee is deducted, distributed based on capital contribution.
+*Use when:* Calculating the final payout for each partner after the working partner's fee is removed.
 
 ---
 
 ## Solution Framework
-1. Calculate the **Management Share** using the total profit and the given percentage.
-2. Subtract the Management Share from the total profit to find the **Balance Profit**.
-3. Determine the **Investment Ratio** (Capital $\times$ Time) for all partners.
-4. Divide the **Balance Profit** among partners according to their investment ratio.
-5. Add the **Management Share** back to the working partner's portion to get their total.
+
+1. Calculate the management fee as a percentage of the total profit.
+2. Subtract the management fee from the total profit to find the "Residual Profit."
+3. Determine the investment ratio for all partners (Capital $\times$ Time).
+4. Divide the Residual Profit among partners according to their investment ratio.
+5. Add the management fee back to the working partner's share from Step 4.
 
 ---
 
 ## Shortcut Tricks
-* **Ratio Scaling:** If the management percentage is $P\%$, the balance profit is $(100-P)\%$ of the total. Calculate the balance profit first, then multiply by the partner's ratio fraction.
-* **Why:** This avoids working with large absolute numbers until the final step, reducing calculation errors.
+
+* **Proportional Scaling:** If the total profit is unknown, assume it is $100$ or $x$, solve for the ratio, and equate to the given difference in shares.
+* **Validity:** This avoids complex algebraic fractions by working with a variable that cancels out during the final comparison.
 
 ---
 
 ## Common Mistakes
-* **Forgetting to add the salary:** Calculating only the investment share for the working partner and forgetting to add the management fee back.
-    * *Fix:* Always write "Total = Salary + Investment Share" at the start of your scratchpad.
-* **Applying percentage to the wrong amount:** Calculating the management percentage on the *balance* profit instead of the *total* profit.
-    * *Fix:* Read carefully; the management fee is almost always a percentage of the *total* profit.
-* **Ignoring time:** Assuming capital is invested for the same duration when the question specifies different months.
-    * *Fix:* Always check if the investment period is mentioned; if so, use (Capital $\times$ Time) for the ratio.
+
+* **Forgetting the Fee:** Adding the management fee to the total profit instead of subtracting it.
+    * *Reason:* Misreading "balance profit" as "total profit."
+    * *Fix:* Always calculate the "Residual Profit" first.
+* **Double Counting:** Giving the working partner their share of the residual profit *without* adding the management fee back.
+    * *Reason:* Treating the working partner like a sleeping partner.
+    * *Fix:* Ensure the final share = (Management Fee) + (Share of Residual Profit).
+* **Ratio Error:** Applying the investment ratio to the *total* profit instead of the *residual* profit.
+    * *Reason:* Habitual application of standard partnership rules.
+    * *Fix:* Explicitly write "Residual Profit = Total - Fee" at the top of your scratchpad.
 
 ---
 
 ## Similar Patterns
-* **Simple Partnership:** No management fee involved.
-* **Compound Partnership:** Involves different time periods but no management fee.
-* **Distinction:** If the question mentions "managing," "working," or "salary," it is a Working Partner problem; otherwise, it is a standard ratio problem.
+
+This is distinct from standard partnership problems because the profit is not distributed in a single ratio. Always check if a "working partner" clause exists before calculating ratios.
 
 ---
 
 ## Revision Summary
-**Key formula:** $\text{Total Share} = \text{Management Fee} + (\text{Balance Profit} \times \text{Ratio})$.
-**Spot it by:** Look for "working partner" or "managing the business" in the text.
-**Fastest method:** Calculate the management fee first, then distribute the remainder by ratio.
-**Biggest trap:** Forgetting to add the management fee back to the working partner's final total.
+
+**Key formula:** $\text{Residual Profit} = \text{Total Profit} - \text{Management Fee}$.
+
+**Spot it by:** Looking for "working partner" or "managing the business" in the problem statement.
+
+**Fastest method:** Calculate the fee first, then distribute the remainder using the investment ratio.
+
+**Biggest trap:** Forgetting to add the management fee back to the working partner's final share.

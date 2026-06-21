@@ -1,66 +1,77 @@
 # Varying Time Partnership
 
 ## Overview
-This pattern involves partners joining or leaving a business at different intervals, meaning capital is invested for unequal durations. The central idea is that profit is distributed based on the **Equivalent Capital Ratio**, calculated as the product of investment amount and time period for each partner.
+
+This pattern involves partners joining or leaving a business at different times throughout a fixed period. The central idea is to calculate the "effective capital" for each partner by multiplying their investment amount by the duration it remained in the business.
 
 ---
 
 ## Recognition Clues
-* **Keywords:** "After X months", "joined him", "left the business", "at the end of the year/2 years/3 years".
-* **Given:** Individual investment amounts and the specific time duration each person stayed in the business.
-* **Asked:** The share of profit for one or more partners, or the ratio of profit distribution.
-* **Scan:** Look for "started" (usually 12/24/36 months) vs. "joined after X months" (Total time - X).
+
+* **Keywords:** "After X months," "joined him," "left after," "at the end of the year/2 years/3 years."
+* **Given:** Individual investment amounts and specific time durations for each partner.
+* **Asked:** The ratio of profit distribution or the specific share of profit for one partner.
+* **Visual Scan:** Look for multiple time durations (e.g., "after 3 months," "after 6 months") associated with different capital amounts.
 
 ---
 
 ## Important Formulas
 
-### Profit Ratio Formula
-$$
-\text{Profit}_A : \text{Profit}_B : \text{Profit}_C = (C_1 \times T_1) : (C_2 \times T_2) : (C_3 \times T_3)
-$$
-*Meaning:* $C$ is the capital invested, $T$ is the time period in months.
-*Use when:* You need to find the ratio in which the total profit is divided.
+### [Effective Capital Ratio]
 
-### Individual Share Formula
 $$
-\text{Partner's Share} = \text{Total Profit} \times \left( \frac{\text{Partner's Ratio}}{\text{Sum of all Ratios}} \right)
+\text{Ratio} = (C_1 \times T_1) : (C_2 \times T_2) : (C_3 \times T_3)
 $$
-*Meaning:* The partner's specific ratio divided by the total parts of the ratio.
-*Use when:* Calculating the actual monetary value of a partner's profit.
+
+*Meaning:* $C$ is the capital invested, $T$ is the time period (in months) the capital was active.
+*Use when:* Partners invest different amounts for different durations.
 
 ---
 
 ## Solution Framework
-1. **Standardize Time:** Convert all time periods into the same unit (usually months).
-2. **Calculate Duration:** For each partner, determine the exact number of months their money was invested.
-3. **Compute Product:** Multiply each partner's investment by their respective time duration.
-4. **Simplify Ratio:** Divide the products by their HCF to get the simplest integer ratio.
-5. **Distribute Profit:** Multiply the total profit by the partner's fractional share from the ratio.
+
+1. Identify the total duration of the business (e.g., 12, 24, or 36 months).
+2. Calculate the active time ($T$) for each partner by subtracting their "join time" from the total duration.
+3. Multiply each partner's capital ($C$) by their respective active time ($T$).
+4. Simplify the resulting ratio to its lowest terms.
+5. Divide the total profit based on the simplified ratio using the part-to-whole method.
 
 ---
 
 ## Shortcut Tricks
-* **Cancel Zeros Early:** Remove common zeros from all investment amounts before multiplying by time to keep numbers small.
-* **Ratio Scaling:** If investments are given as multiples (e.g., $x, 2x, 3x$), ignore the $x$ entirely and use the coefficients to find the ratio.
-* **Time Symmetry:** If all partners stay for the same time, ignore time and use only the capital ratio (Simple Partnership).
+
+* **Cancel Common Zeros:** Remove the same number of zeros from all investment amounts before multiplying by time to simplify calculations.
+* **Ratio Scaling:** If investments are given as multiples (e.g., $x, 2x, 3x$), ignore the $x$ entirely and use the coefficients directly in the ratio calculation.
+* **Time Simplification:** If all time periods are in months, divide all time values by their greatest common divisor (e.g., if times are 12, 9, and 3, use 4, 3, and 1) before multiplying by capital.
 
 ---
 
 ## Common Mistakes
-* **Wrong Time Calculation:** Using the "joined after" time instead of the "time invested" (e.g., if joined after 3 months in a 12-month year, use 9 months, not 3).
-* **Ignoring Total Duration:** Forgetting to adjust the time for the first partner if the business duration is not exactly 12 months.
-* **Ratio Inversion:** Accidentally flipping the ratio when calculating the share (e.g., using $3:2$ instead of $2:3$).
+
+* **Incorrect Time Calculation:** Using the "join time" as the active time instead of (Total Time - Join Time).
+    * *Reason:* Misreading "after X months" as the duration of investment.
+    * *Fix:* Always write down "Total Time = X" and "Active Time = Total - Join" before calculating.
+* **Ignoring Units:** Mixing years and months in the same ratio.
+    * *Reason:* Forgetting to convert all time periods into the same unit (usually months).
+    * *Fix:* Convert all durations to months before starting the ratio.
+* **Partial Investment Omission:** Forgetting to account for partners who leave early.
+    * *Reason:* Assuming all partners stay until the end of the business term.
+    * *Fix:* Explicitly list the active months for every partner mentioned in the problem.
 
 ---
 
 ## Similar Patterns
-* **Simple Partnership:** All partners invest for the same time. **Distinction:** If no "joined after" or "left" dates are mentioned, time is constant; ignore time and use capital ratio only.
+
+This is distinct from "Simple Partnership" where time is constant for everyone. If all time periods are identical, skip the multiplication and use the ratio of capitals directly.
 
 ---
 
 ## Revision Summary
+
 **Key formula:** $\text{Profit Ratio} = \text{Capital} \times \text{Time}$.
+
 **Spot it by:** Different partners joining or leaving at different months.
-**Fastest method:** Simplify capital amounts first, then multiply by months and reduce the ratio.
-**Biggest trap:** Using the "joined after" time instead of the "active" time.
+
+**Fastest method:** Simplify capital zeros and time ratios before multiplying.
+
+**Biggest trap:** Using the "join month" as the "active month" instead of subtracting it from the total.

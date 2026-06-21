@@ -1,63 +1,65 @@
 # Missing Time
 
 ## Overview
-These questions involve partners joining or leaving a business at different points in time. The central idea is that **Profit Ratio = (Investment $\times$ Time) Ratio** for each partner.
+These questions involve partners investing different amounts for different durations, where the time period for at least one partner is unknown. The central idea is that the ratio of profit shares is always equal to the ratio of the product of capital and time for each partner.
 
 ---
 
 ## Recognition Clues
-* **Keywords:** "After few months," "joined afterwards," "leaves $x$ months before," "for how much time."
-* **Given:** Investment amounts and the final profit distribution ratio.
-* **Asked:** The specific time duration ($x$) a partner stayed in the business.
-* **Timeframe:** Always look for the "total duration" (usually 12 months) to calculate the active investment period.
+* **Keywords:** "After how many months did [Name] join?", "For how much time/period", "At the end of the year".
+* **Given:** Investment amounts (or their ratio) and profit ratios.
+* **Asked:** The duration of investment ($t$) or the time elapsed before joining ($12 - t$).
+* **Structure:** Usually involves two or three partners where one or more time variables are missing.
 
 ---
 
 ## Important Formulas
 
-### Profit-Time-Investment Relationship
+### [Profit Ratio Formula]
 $$
-\frac{P_1}{P_2} = \frac{I_1 \times T_1}{I_2 \times T_2}
+\frac{P_1}{P_2} = \frac{C_1 \times T_1}{C_2 \times T_2}
 $$
-*Meaning:* $P$ = Profit share, $I$ = Investment amount, $T$ = Time period of investment.
-*Use when:* You need to find an unknown time period given the profit and investment ratios.
+*Meaning:* $P$ = Profit, $C$ = Capital, $T$ = Time invested.
+*Use when:* Comparing the profit shares of two partners to find an unknown time variable.
 
 ---
 
 ## Solution Framework
-1. Identify the total duration of the business (e.g., 12 months).
-2. Assign the variable $x$ to the unknown time (either "time joined after" or "time invested").
-3. Express each partner's time as either $x$ or $(12 - x)$.
-4. Set up the ratio: $(I_1 \times T_1) : (I_2 \times T_2) = P_1 : P_2$.
-5. Solve the resulting linear equation for $x$.
+1. Assign variables: Let $x$ be the time the partner was in the business.
+2. Express time: If a partner joins after $x$ months, their time is $(12 - x)$.
+3. Set up the ratio: Write the ratio of (Capital $\times$ Time) for all partners.
+4. Equate: Set this ratio equal to the given profit ratio.
+5. Solve: Cross-multiply or simplify the ratio to find $x$.
 
 ---
 
 ## Shortcut Tricks
-* **Ratio Simplification:** Divide investment amounts by their common factors (e.g., thousands) before multiplying by time to keep numbers small.
-* **Symmetry Check:** If profits are equal ($1:1$), then $I_1 \times T_1 = I_2 \times T_2$. This eliminates the need for fraction handling.
-* **Mental Scaling:** If the profit ratio is a multiple of the investment ratio, the time ratio is simply the quotient of the two.
+* **Ratio Simplification:** Divide capital amounts by their HCF before multiplying by time to keep numbers small.
+* **Direct Proportion:** If capitals are equal, the ratio of profits is simply the ratio of time periods.
+* **Validity:** These are valid because the profit ratio is a linear function of both capital and time; scaling factors cancel out in ratios.
 
 ---
 
 ## Common Mistakes
-* **Time Confusion:** Using $x$ as the "time joined" when the formula requires "time invested" $(12 - x)$.
-    * *Fix:* Always write "Time Invested = ..." explicitly before plugging into the formula.
-* **Ignoring "Before" vs "After":** Miscalculating the duration for partners who leave early.
-    * *Fix:* If someone leaves $x$ months before the end, their time is $(12 - x)$.
-* **Unit Mismatch:** Mixing up months and years.
-    * *Fix:* Convert all time units to months immediately.
+* **Time Confusion:** Using $x$ as the "joining time" when the formula requires "investment time" ($12-x$).
+    * *Reason:* Misinterpreting the question's request.
+    * *Fix:* Always define $x$ as "time money was in the business" first, then adjust for "joining time" at the end.
+* **Unit Mismatch:** Mixing months and years.
+    * *Reason:* Forgetting that "at the end of the year" implies 12 months.
+    * *Fix:* Convert all time periods to months immediately.
+* **Partial Capital:** Forgetting to calculate the remaining share of profit when only one partner's share is given.
+    * *Reason:* Assuming the ratio is given directly when it must be derived.
+    * *Fix:* Ensure the sum of profit ratios equals the total profit proportion.
 
 ---
 
 ## Similar Patterns
-* **Missing Investment:** Similar structure, but $T$ is known and $I$ is the variable.
-* **Distinction:** If the question asks for "how much" or "what amount," it is a Missing Investment problem; if it asks for "when" or "how long," it is a Missing Time problem.
+This is distinct from "Missing Capital" problems, where time is known and capital is the variable. Always identify if the unknown is a duration or an amount before setting up the equation.
 
 ---
 
 ## Revision Summary
-**Key formula:** $\frac{P_1}{P_2} = \frac{I_1 \times T_1}{I_2 \times T_2}$.
-**Spot it by:** Keywords like "joined after" or "leaves before."
-**Fastest method:** Simplify investment ratios first, then equate to profit ratios.
-**Biggest trap:** Confusing "time joined" with "time invested" in the $(12 - x)$ calculation.
+**Key formula:** $\frac{P_1}{P_2} = \frac{C_1 T_1}{C_2 T_2}$.
+**Spot it by:** Missing time duration in a partnership profit-sharing scenario.
+**Fastest method:** Simplify capital ratios first, then equate to profit ratios.
+**Biggest trap:** Confusing "time invested" with "months after which they joined."
