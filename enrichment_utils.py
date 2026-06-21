@@ -9,7 +9,9 @@ from enrichment_schema import AI_ENRICHMENT_PROPS
 
 from gemini_utils import call_gemini
 
-BATCH_SIZE = 10
+# Batch size for enrichment. Kept small so a single hard question
+# cannot burn the token budget for the entire batch.
+BATCH_SIZE = 5
 
 
 def chapter_slug(chapter_name: str) -> str:
@@ -41,25 +43,13 @@ def _latex_formula(formula: str) -> str:
 
 def _fix_currency_inside_math_boundary(text: str) -> tuple[str, int]:
     """
-    Safety net for a specific real bug: a closing \\right) or \\right]
-    immediately followed by '= ₹ <number>' BEFORE the closing $, which
-    pulls the currency symbol and amount inside KaTeX math mode where
-    ₹ is not a valid symbol and breaks rendering.
-
-    Example of the bug this fixes:
-        "$\\left(\\frac{12}{5}\\times15\\right) = ₹ 36$"
-    becomes:
-        "$\\left(\\frac{12}{5}\\times15\\right)$ = ₹ 36"
-
-    Deliberately narrow: only triggers on the confirmed \\right)/\\right]
-    immediately-before-currency shape, so it does not touch other ₹
-    placements (e.g. "$75,600 \\times \\frac{8}{27} = ₹ 22,400$") that
-    are a different, less clearly broken shape.
+    Safety net: \\right) immediately followed by '= ₹ <number>' BEFORE
+    the closing $, pulling currency inside KaTeX math mode.
     """
     if not text or "₹" not in text or "\\right" not in text:
         return text, 0
 
-    pattern = re.compile(r"(\\right[\)\]])(\s*=\s*)(₹\s*[\d,]+(?:\.\d+)?)(\$)")
+    pattern = re.compile(r"(\\right[\)\]])(\\s*=\\s*)(₹\\s*[\\d,]+(?:\\.\\d+)?)(\\$)")
     fix_count = 0
 
     def _fix(m):
@@ -74,24 +64,18 @@ def _fix_currency_inside_math_boundary(text: str) -> tuple[str, int]:
 
 def _fix_bare_fractions(text: str) -> tuple[str, int]:
     """
-    Safety net: find digit/digit fractions sitting outside $...$ and
-    wrap them as \\frac{a}{b}. Returns (fixed_text, number_of_fixes).
-
-    This exists because the LLM is asked to never emit bare fractions,
-    but prompts are not 100% reliable — this catches what slips through
-    before it reaches the final JSON.
+    Safety net: digit/digit fractions sitting outside $...$ blocks.
     """
     if not text or "/" not in text:
         return text, 0
 
-    # Split on $...$ blocks so we never touch text already inside LaTeX.
     parts = re.split(r"(\$[^$]*\$)", text)
     fix_count = 0
     bare_fraction = re.compile(r"\b(\d+)\s*/\s*(\d+)\b")
 
     for i, part in enumerate(parts):
         if part.startswith("$") and part.endswith("$"):
-            continue  # already LaTeX, leave untouched
+            continue
 
         def _wrap(m):
             nonlocal fix_count
@@ -105,10 +89,8 @@ def _fix_bare_fractions(text: str) -> tuple[str, int]:
 
 def fix_latex_in_ai_enrichment(ai_enrichment: dict) -> dict:
     """
-    Run LaTeX safety-net fixes over the human-readable text fields:
-    1. Bare fractions (1/4) sitting outside $...$.
-    2. Currency symbols pulled inside math mode right after \\right).
-    Mutates and returns ai_enrichment. Logs how many fixes were applied.
+    Run LaTeX safety-net fixes over human-readable text fields.
+    Mutates and returns ai_enrichment.
     """
     text_fields = [
         "paraphrased_question",
@@ -171,72 +153,46 @@ def normalize_questions_ai_enrichment(questions: list[dict], chapter_name: str) 
             )
 
 
-def enrich_question_batch(
-    *,
-    client,
-    model,
-    chapter_name,
-    questions,
-    rate_limiter,
-):
+def _is_enriched(q: dict) -> bool:
     """
-    Enrich a batch of questions.
+    A question is considered already enriched only when its ai_enrichment
+    dict is non-empty AND contains at least a paraphrased_question value.
+    An empty dict {} (written on previous failure) is treated as not enriched
+    so it gets retried on the next run.
     """
+    ae = q.get("ai_enrichment")
+    return (
+        isinstance(ae, dict)
+        and bool(ae)
+        and bool(ae.get("paraphrased_question", "").strip())
+    )
 
-    payload = []
 
-    for q in questions:
-
-        payload.append(
-            {
-                "question_number": q["question_number"],
-                "question_text": q.get(
-                    "question_text",
-                    "",
-                ),
-                "option_a": q.get(
-                    "option_a",
-                    "",
-                ),
-                "option_b": q.get(
-                    "option_b",
-                    "",
-                ),
-                "option_c": q.get(
-                    "option_c",
-                    "",
-                ),
-                "option_d": q.get(
-                    "option_d",
-                    "",
-                ),
-                "option_e": q.get(
-                    "option_e",
-                    "",
-                ),
-                "correct_option": q.get(
-                    "correct_option",
-                    "",
-                ),
-                "solution": q.get(
-                    "solution",
-                    "",
-                ),
-            }
-        )
-
-    prompt = (
+def _build_prompt(chapter_name: str, questions: list[dict]) -> str:
+    payload = [
+        {
+            "question_number": q["question_number"],
+            "question_text": q.get("question_text", ""),
+            "option_a": q.get("option_a", ""),
+            "option_b": q.get("option_b", ""),
+            "option_c": q.get("option_c", ""),
+            "option_d": q.get("option_d", ""),
+            "option_e": q.get("option_e", ""),
+            "correct_option": q.get("correct_option", ""),
+            "solution": q.get("solution", ""),
+        }
+        for q in questions
+    ]
+    return (
         ENRICHMENT_PROMPT
         + "\n\n"
         + f"Chapter: {chapter_name}\n\n"
-        + json.dumps(
-            payload,
-            ensure_ascii=False,
-            indent=2,
-        )
+        + json.dumps(payload, ensure_ascii=False, indent=2)
     )
 
-    schema = {
+
+def _schema_for_batch(expected_count: int) -> dict:
+    return {
         "type": "OBJECT",
         "properties": {
             "items": {
@@ -251,41 +207,148 @@ def enrich_question_batch(
                             "required": list(AI_ENRICHMENT_PROPS.keys()),
                         },
                     },
-                    "required": [
-                        "question_number",
-                        "ai_enrichment",
-                    ],
+                    "required": ["question_number", "ai_enrichment"],
                 },
             }
         },
         "required": ["items"],
     }
 
-    expected_count = len(payload)
 
-    def _validate_item_count(result):
-        items = result.get("items") if isinstance(result, dict) else None
-        if not isinstance(items, list) or len(items) != expected_count:
-            got = len(items) if isinstance(items, list) else "no"
-            raise ValueError(
-                f"Expected {expected_count} enrichments, got {got} "
-                "(likely a degenerate generation, e.g. the model looped "
-                "on a tricky question and burned the token budget)"
-            )
+def _call_batch(
+    *,
+    client,
+    model,
+    rate_limiter,
+    chapter_name: str,
+    questions: list[dict],
+    label: str,
+) -> list[dict] | None:
+    """
+    Call Gemini for a batch. Returns a list of enrichment dicts on success,
+    or None on total failure. Partial results (fewer items than requested)
+    are returned as-is so the caller can salvage them.
+    """
+    expected_count = len(questions)
+    prompt = _build_prompt(chapter_name, questions)
+    schema = _schema_for_batch(expected_count)
 
+    # We do NOT use the strict validate= count check here — instead we accept
+    # partial results and let the caller decide what to do with them.
+    # This avoids burning all 5 retries just because 1 of 5 questions is hard.
     result = call_gemini_text(
         client=client,
         model=model,
         prompt=prompt,
         response_schema=schema,
         rate_limiter=rate_limiter,
-        validate=_validate_item_count,
+        # validate=None  intentionally — we salvage partials below
     )
 
     if result is None:
         return None
 
-    return result["items"]
+    items = result.get("items") if isinstance(result, dict) else None
+    if not isinstance(items, list):
+        return None
+
+    got = len(items)
+    if got == 0:
+        print(f"  [{label}] model returned 0 items — skipping batch")
+        return None
+
+    if got < expected_count:
+        print(
+            f"  [{label}] partial result: got {got}/{expected_count} — "
+            "salvaging returned items, missing ones will be retried individually"
+        )
+
+    return items
+
+
+def enrich_question_batch(
+    *,
+    client,
+    model,
+    chapter_name,
+    questions,
+    rate_limiter,
+) -> list[dict] | None:
+    """
+    Enrich a batch of questions with automatic fallback to per-question
+    enrichment when the batch call returns fewer items than expected.
+
+    Strategy:
+    1. Try the whole batch once.
+    2. Collect whichever items came back successfully.
+    3. For any question not covered by step 2, retry it individually
+       (batch-of-1), which virtually eliminates token-budget blowout.
+    4. Return the combined list (same length as input, or None if everything
+       failed).
+    """
+    n = len(questions)
+    label = (
+        f"batch[{questions[0]['question_number']}–{questions[-1]['question_number']}]"
+    )
+
+    # ── Step 1: attempt the full batch ──────────────────────────────────────
+    items = _call_batch(
+        client=client,
+        model=model,
+        rate_limiter=rate_limiter,
+        chapter_name=chapter_name,
+        questions=questions,
+        label=label,
+    )
+
+    enrichment_map: dict[str, dict] = {}
+
+    if items:
+        for item in items:
+            qnum = item.get("question_number")
+            ae = item.get("ai_enrichment")
+            if qnum and isinstance(ae, dict):
+                enrichment_map[qnum] = ae
+
+    # ── Step 2: individually retry any questions not covered ─────────────────
+    missing = [q for q in questions if q["question_number"] not in enrichment_map]
+
+    if missing:
+        print(f"  [{label}] retrying {len(missing)} question(s) individually…")
+
+    for q in missing:
+        qnum = q["question_number"]
+        solo_label = f"solo[{qnum}]"
+
+        solo_items = _call_batch(
+            client=client,
+            model=model,
+            rate_limiter=rate_limiter,
+            chapter_name=chapter_name,
+            questions=[q],
+            label=solo_label,
+        )
+
+        if solo_items:
+            for item in solo_items:
+                ae = item.get("ai_enrichment")
+                if isinstance(ae, dict):
+                    enrichment_map[qnum] = ae
+                    break
+        else:
+            print(f"  [{solo_label}] failed even as solo — leaving blank for retry")
+
+    if not enrichment_map:
+        return None
+
+    # ── Step 3: assemble results in original order ───────────────────────────
+    return [
+        {
+            "question_number": q["question_number"],
+            "ai_enrichment": enrichment_map.get(q["question_number"], {}),
+        }
+        for q in questions
+    ]
 
 
 def enrich_questions(
@@ -298,88 +361,66 @@ def enrich_questions(
     output_path: Path | None = None,
 ):
     total = len(questions)
-
     enriched_count = 0
 
-    for start in range(
-        0,
-        total,
-        BATCH_SIZE,
-    ):
-
-        end = min(
-            start + BATCH_SIZE,
-            total,
-        )
-
+    for start in range(0, total, BATCH_SIZE):
+        end = min(start + BATCH_SIZE, total)
         batch = questions[start:end]
-        batch = [q for q in batch if not q.get("ai_enrichment")]
-        print(f"[pass3] " f"questions " f"{start+1}-{end}")
-        if not batch:
 
-            print("[pass3] already enriched")
+        # Only send questions that have not been successfully enriched yet.
+        # An empty dict {} from a prior failed run is NOT considered enriched.
+        unenriched = [q for q in batch if not _is_enriched(q)]
 
+        print(f"[pass3] questions {start+1}-{end}", end="")
+        if not unenriched:
+            print(" (already enriched)")
             continue
-        try:
+        print(f" ({len(unenriched)} to enrich)")
 
+        try:
             enrichments = enrich_question_batch(
                 client=client,
                 model=model,
                 chapter_name=chapter_name,
-                questions=batch,
+                questions=unenriched,
                 rate_limiter=rate_limiter,
             )
+
             if enrichments is None:
-
-                raise ValueError("Gemini returned None")
-
-            print(
-                "returned", len(enrichments), "enrichments for", len(batch), "questions"
-            )
-
-            if len(enrichments) != len(batch):
-
-                raise ValueError(
-                    f"Expected {len(batch)} enrichments, got {len(enrichments)}"
+                print(
+                    f"[pass3] batch {start+1}-{end}: all attempts failed, will retry on next run"
                 )
+                # Do NOT write empty dicts — leave ai_enrichment absent so
+                # the next run will retry these questions.
+                continue
+
             enrichment_map = {
-                x["question_number"]: x["ai_enrichment"] for x in enrichments
+                x["question_number"]: x["ai_enrichment"]
+                for x in enrichments
+                if x.get("ai_enrichment")  # only store non-empty results
             }
 
-            for q in batch:
-
+            for q in unenriched:
                 qnum = q["question_number"]
-
-                if qnum in enrichment_map:
-
-                    q["ai_enrichment"] = enrichment_map[qnum]
-
+                ae = enrichment_map.get(qnum)
+                if ae:
+                    q["ai_enrichment"] = ae
                     enriched_count += 1
+                # If ae is None/empty, leave q["ai_enrichment"] absent so
+                # it will be retried on the next run.
 
-                else:
+            normalize_questions_ai_enrichment(questions, chapter_name)
 
-                    q["ai_enrichment"] = {}
-
-            normalize_questions_ai_enrichment(
-                questions,
-                chapter_name,
-            )
             if output_path is not None:
                 cache_batch(
                     chapter_title=chapter_name,
                     questions=questions,
                     output_path=output_path,
                 )
+
         except Exception as ex:
+            print(f"[pass3] batch {start+1}-{end} exception: {ex}")
+            # Do NOT write empty dicts — leave absent for retry
 
-            print(
-                "[pass3] failed:",
-                ex,
-            )
-
-            for q in batch:
-                q["ai_enrichment"] = {}
-
-    print("[pass3]", enriched_count, "questions enriched.")
-
+    print(f"[pass3] {enriched_count} questions enriched.")
     return questions

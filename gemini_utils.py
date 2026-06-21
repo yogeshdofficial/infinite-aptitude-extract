@@ -137,7 +137,6 @@ def call_gemini(
                     max_output_tokens=65536,
                 ),
             )
-            # print(response.text)
             print("Output chars:", len(response.text))
 
             return json.loads(response.text)
@@ -164,12 +163,14 @@ def call_gemini_text(
     validate=None,
 ):
     """
-    validate: optional callable(result) -> None. Raise inside it (or let
-    a KeyError/etc propagate) to signal "parsed fine but content is wrong"
-    (e.g. wrong item count). Treated the same as a parse failure: retried
-    with escalating temperature, since a fixed low temperature tends to
-    reproduce the same degenerate repetition loop on retry rather than
-    recovering from it.
+    Structured-output Gemini call with retries and temperature escalation.
+
+    validate: optional callable(result) -> None. Raise to signal a content
+    problem (e.g. wrong item count). Retried with escalating temperature.
+
+    For enrichment batches, validate is intentionally left None and partial
+    results are handled by the caller (enrich_question_batch), so a single
+    hard question cannot force all 5 retries at the batch level.
     """
     for attempt in range(1, max_retries + 1):
 
@@ -200,19 +201,14 @@ def call_gemini_text(
             )
 
             try:
-
                 result = json.loads(response.text)
-
             except Exception:
-
                 with open(
                     f"bad_response_attempt{attempt}.json",
                     "w",
                     encoding="utf-8",
                 ) as f:
-
                     f.write(response.text)
-
                 raise
 
             if validate is not None:
@@ -225,7 +221,6 @@ def call_gemini_text(
             print(f"    [warn] attempt {attempt}/{max_retries} failed: {e}")
 
             if attempt < max_retries:
-
                 time.sleep(5 * attempt)
 
     return None
