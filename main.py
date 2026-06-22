@@ -96,7 +96,7 @@ def parse_args():
 
     parser.add_argument(
         "--model",
-        default="gemini-3.5-flash",
+        default="gemini-3.1-flash-lite",
     )
     parser.add_argument(
         "--enrich-only",
@@ -185,7 +185,9 @@ def process_file(
         else:
             all_questions = data.get("questions", [])
 
-        print("\nPASS 3: AI enrichment")
+        print(
+            "\nPASS 3: detailed explanation + shortcut generation (original Q&A preserved)"
+        )
         print(f"  reading from: {source_path}")
         print(f"  writing to:   {enriched_out}")
 
@@ -365,7 +367,7 @@ def process_file(
             round_num += 1
     # PASS 3
     print()
-    print("PASS 3: AI enrichment")
+    print("PASS 3: detailed explanation + shortcut generation (original Q&A preserved)")
 
     enriched_path = output_dir / f"{input_path.stem}.enriched.json"
 

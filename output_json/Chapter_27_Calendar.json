@@ -1,0 +1,503 @@
+{
+  "chapter_title": "Chapter_27_Calendar",
+  "question_count": 23,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What was the day of the week on 16th July, 1776?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "16th July, 1776 = (1775 years + Period from 1.1.1776 to 16.7.1776)\nCounting of odd days:\nNumber of odd days in 1600 years = 0\nNumber of odd days in 100 years = 5\n75 years = 18 leap years + 57 ordinary years\n= (18 $\\times$ 2 + 57 $\\times$ 1) odd days = 93 odd days\n= (13 weeks + 2 days) $\\equiv$ 2 odd days\n$\\therefore$ 1775 years have\n= (0 + 5 + 2) odd days = 7 odd days $\\equiv$ 0 odd day.\nJan. Feb. March April May June July = 198 days\n(31 + 29 + 31 + 30 + 31 + 30 + 16)\n198 days = (28 weeks + 2 days) $\\equiv$ 2 odd days.\n$\\therefore$ Total number of odd days = (0 + 2) = 2.\nHence, the required day is Tuesday.",
+      "page_numbers": [
+        "819",
+        "820"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What was the day of the week on 15th August, 1947?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "15th August, 1947 = (1946 years + Period from 1.1.1947 to 15.8.1947)\nOdd days in 1600 years = 0\nOdd days in 300 years = (5 $\\times$ 3) = 15 $\\equiv$ 1\n46 years = (11 leap years + 35 ordinary years)\n= (11 $\\times$ 2 + 35 $\\times$ 1) odd days = 57 odd days\n= (8 weeks + 1 day) $\\equiv$ 1 odd day.\n$\\therefore$ Odd days in 1946 years = (0 + 1 + 1) = 2.\nJan. Feb. March April May June July Aug = 227 days\n(31 + 28 + 31 + 30 + 31 + 30 + 31 + 15)\n227 days = (32 weeks + 3 days) $\\equiv$ 3 odd days.\nTotal number of odd days = (2 + 3) = 5.\nHence, the required day is Friday.",
+      "page_numbers": [
+        "820"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What was the day of the week on 4th June, 2002?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "4th June, 2002 = (2001 years + Period from 1.1.2002 to 4.6.2002)\nOdd days in 1600 years = 0\nOdd days in 400 years = 0\nOdd days in 1 ordinary year = 1\nOdd days in 2001 years = (0 + 0 + 1) = 1\nJan. Feb. March April May June = 155 days\n(31 + 28 + 31 + 30 + 31 + 4)\n= 22 weeks + 1 day $\\equiv$ 1 odd day\nTotal number of odd days = (1 + 1) = 2\n$\\therefore$ Required day is Tuesday.",
+      "page_numbers": [
+        "820"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "On what dates of March 2005 did Friday fall?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "First we find the day on 1.3.2005\n1.3.2005 = (2004 years + Period from 1.1.2005 to 1.3.2005)\nOdd days in 1600 years = 0 Odd days in 400 years = 0\n4 years = (1 leap year + 3 ordinary years)\n= (1 $\\times$ 2 + 3 $\\times$ 1) odd days = 5 odd days\nJan. Feb. March\n(31 + 28 + 11)\n= 60 days = (8 weeks + 4 days) $\\equiv$ 4 odd days.\nTotal number of odd days = (0 + 0 + 5 + 4) = 9 $\\equiv$ 2 odd days\n$\\therefore$ 1.3.2005 was Tuesday. So, Friday lies on 4.3.2005\nHence, Friday lies on 4th, 11th, 18th and 25th of March, 2005.",
+      "page_numbers": [
+        "820"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Prove that the calendar for the year 2003 will serve for the year 2014.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "We must have same day on 1.1.2003 and 1.1.2014.\nSo, number of odd days between 31.12.2002 and 31.12.2013 must be 0.\nThis period has 3 leap years and 8 ordinary years.\nNumber of odd days = (3 $\\times$ 2 + 8 $\\times$ 1) = 14 $\\equiv$ 0 odd day\n$\\therefore$ Calendar for the year 2003 will serve for the year 2014.",
+      "page_numbers": [
+        "820"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "January 1, 2007 was Monday. What day of the week lies on Jan. 1, 2008?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Monday",
+      "option_b": "Tuesday",
+      "option_c": "Wednesday",
+      "option_d": "Sunday",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The year 2007 is an ordinary year. So, it has 1 odd day.\n1st day of the year 2007 was Monday.\n1st day of the year 2008 will be 1 day beyond Monday.\nHence, it will be Tuesday.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "January 1, 2008 is Tuesday. What day of the week lies on Jan. 1, 2009?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Monday",
+      "option_b": "Wednesday",
+      "option_c": "Thursday",
+      "option_d": "Sunday",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The year 2008 is a leap year. So, it has 2 odd days.\n1st day of the year 2008 is Tuesday (Given)\nSo, 1st day of the year 2009 is 2 days beyond Tuesday.\nHence, it will be Thursday.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "On 8th Dec, 2007 Saturday falls. What day of the week was it on 8th Dec. 2006?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Sunday",
+      "option_b": "Thursday",
+      "option_c": "Tuesday",
+      "option_d": "Friday",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "The year 2006 is an ordinary year. So, it has 1 odd day.\nSo, the day on 8th Dec, 2007 will be 1 day beyond the\nday on 8th Dec, 2006.\nBut, 8th Dec, 2007 is Saturday.\n$\therefore$ 8th Dec, 2006 is Friday.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "On 6th March, 2005 Monday falls. What was the day of the week on 6th March, 2004?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Sunday",
+      "option_b": "Saturday",
+      "option_c": "Tuesday",
+      "option_d": "Wednesday",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The year 2004 is a leap year. So, it has 2 odd days.\n$\therefore$ The day on 6th March, 2005 will be 2 days beyond the\nday on 6th March, 2004.\nBut, 6th March, 2005 is Monday.\n$\therefore$ 6th March, 2004 is Saturday.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The calendar for the year 2007 will be the same for the year:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2014",
+      "option_b": "2016",
+      "option_c": "2017",
+      "option_d": "2018",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Count the number of odd days from the year 2007 onwards to\nget the sum equal to 0 odd day.\nYear 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017\nOdd day 1 2 1 1 1 2 1 1 1 2 1\nSum = 14 odd days $\\equiv$ 0 odd day.\n$\therefore$ Calendar for the year 2018 will be the same as for\nthe year 2007.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "On what dates of April, 2001 did Wednesday fall?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1st, 8th, 15th, 22nd, 29th",
+      "option_b": "2nd, 9th, 16th, 23rd, 30th",
+      "option_c": "3rd, 10th, 17th, 24th",
+      "option_d": "4th, 11th, 18th, 25th",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "We shall find the day on 1st April, 2001.\n1st April, 2001 = (2000 years + Period from 1.1.2001 to\n1.4.2001)\nOdd days in 1600 years = 0\nOdd days in 400 years = 0\nJan. Feb. March April = 91 days $\\equiv$ 0 odd days.\n(31 + 28 + 31 + 1)",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What was the day of the week on 17th June, 1998?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Monday",
+      "option_b": "Tuesday",
+      "option_c": "Wednesday",
+      "option_d": "Thursday",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What was the day of the week on 28th May, 2006?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Thursday",
+      "option_b": "Friday",
+      "option_c": "Saturday",
+      "option_d": "Sunday",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What will be the day of the week on 15th August, 2010?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Sunday",
+      "option_b": "Monday",
+      "option_c": "Tuesday",
+      "option_d": "Friday",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Today is Monday. After 61 days, it will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Wednesday",
+      "option_b": "Saturday",
+      "option_c": "Tuesday",
+      "option_d": "Thursday",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The last day of a century cannot be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Monday",
+      "option_b": "Wednesday",
+      "option_c": "Tuesday",
+      "option_d": "Friday",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following is not a leap year?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "700",
+      "option_b": "800",
+      "option_c": "1200",
+      "option_d": "2000",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "How many days are there in $x$ weeks $x$ days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$7x^2$",
+      "option_b": "$8x$",
+      "option_c": "$14x$",
+      "option_d": "7",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "It was Sunday on Jan 1, 2006. What was the day of the week on Jan 1, 2010?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Sunday",
+      "option_b": "Saturday",
+      "option_c": "Friday",
+      "option_d": "Wednesday",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "On 8th Feb, 2005 it was Tuesday. What was the day of the week on 8th Feb, 2004?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Tuesday",
+      "option_b": "Monday",
+      "option_c": "Sunday",
+      "option_d": "Wednesday",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The calculation follows the standard method of counting odd days for the given date.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "SSC—CGL (Tier I) Exam, 2012",
+      "passage_text": "",
+      "question_text": "For a certain month, the dates of three of the Sundays are even numbers. Then, the 15th of the that month falls on a",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Thursday",
+      "option_b": "Friday",
+      "option_c": "Saturday",
+      "option_d": "Sunday",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The dates of three of the Sundays are even number is\n2, 9, 16, 23, 30.\nSo, on 16th of that month = Sunday, 15th of that month\nfalls on a Saturday",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "DMRC— Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "What was the day of the week on 15 August, 1947?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Saturday",
+      "option_b": "Friday",
+      "option_c": "Thursday",
+      "option_d": "Wednesday",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "15 August, 1947 means 1946 complete years + first 7\nmonths upto July 1947 + 15 days of August 1947\n1600 years have 0 odd day.\n300 years have 1 odd day\n46 years have 11 leap years and 35 ordinary years\n= (11 $\\times$ 2) + (35 $\\times$ 1)\n= 22 + 35 = 57 odd days\n= 8 $\\times$ 7 + 1 odd days\n= 8 weeks + 1 odd day\nUp to 1946 there are 1 + 1 = 2 odd days\nJanuary 1947 $\\Rightarrow$ 3 odd days\nFebruary 1947 $\\Rightarrow$ 0 odd days\n(1947 is a normal year)\nMarch 1947 $\\Rightarrow$ 3 odd days\nApril 1947 $\\Rightarrow$ 2 odd days\nMay 1947 $\\Rightarrow$ 3 odd days\nJune 1947 $\\Rightarrow$ 2 odd days\nJuly 1947 $\\Rightarrow$ 3 odd days\nUp to 15 August $\\Rightarrow$ 15 odd days\nTotal number of odd days up to 15 August 1947\n= 2 + 3 + 0 + 3 + 2 + 3 + 2 + 3 + 15 = 33 odd days.\nHence, 15th August, 1947 was Friday.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "DMRC— Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "The calendar for the year 2009 will be the same as that of the year",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2013",
+      "option_b": "2014",
+      "option_c": "2015",
+      "option_d": "2014",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "2008 was a leap year.\nA leap year has two odd days.\nSuppose year 2008 starts with a Monday.\nThen the first day of 2009 was Wednesday.\nNow,\nFirst day of 2010 $\\Rightarrow$ Thursday\nFirst day of 2011 $\\Rightarrow$ Friday\nFirst day of 2012 $\\Rightarrow$ Saturday\nBecause 2012 was a leap year\nFirst day of 2013 $\\Rightarrow$ Monday\nFirst day of 2014 $\\Rightarrow$ Tuesday\nFirst day of 2015 $\\Rightarrow$ Wednesday\nThus, the calendar for the year 2009 was the same as\nthat of the year 2015.",
+      "page_numbers": [
+        "821"
+      ],
+      "answer_page_numbers": [
+        "822"
+      ]
+    }
+  ]
+}

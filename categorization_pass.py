@@ -898,7 +898,7 @@ def categorize_with_gemini(questions_solutions: list[dict]) -> Optional[dict]:
 
     client = create_client()
     rate_limiter = RateLimiter(max_per_minute=10)
-    model = "gemini-3.5-flash"
+    model = "gemini-3.1-flash-lite"
 
     result = call_gemini_text(
         client=client,

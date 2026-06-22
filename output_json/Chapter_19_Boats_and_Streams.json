@@ -1,0 +1,982 @@
+{
+  "chapter_title": "Chapter_19_Boats_and_Streams",
+  "question_count": 45,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "S.B.I.P.O., 2010",
+      "passage_text": "",
+      "question_text": "The speed of a boat when travelling downstream is 32 km/hr, whereas when travelling upstream it is 28 km/hr, what is the speed of the boat in still water and the speed of the stream?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Speed of boat in still water = $\\frac{1}{2}(32 + 28)$ km/hr = 30 km/hr.\nSpeed of stream = $\\frac{1}{2}(32 - 28)$ km/hr = 2 km/hr.",
+      "page_numbers": [
+        "600"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man takes 3 hours 45 minutes to row a boat 15 km downstream of a river and 2 hours 30 minutes to cover a distance of 5 km upstream. Find the speed of the river current in km/hr.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Rate downstream = $\\left(\\frac{15}{3\\frac{3}{4}}\\right)$ km/hr = $\\left(15 \\times \\frac{4}{15}\\right)$ km/hr = 4 km/hr.\nRate upstream = $\\left(\\frac{5}{2\\frac{1}{2}}\\right)$ km/hr = $\\left(5 \\times \\frac{2}{5}\\right)$ km/hr = 2 km/hr.\n$\\therefore$ Speed of current = $\\frac{1}{2}(4 - 2)$ km/hr = 1 km/hr.",
+      "page_numbers": [
+        "600"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "The speed of a motor boat is that of the current of water as 36 : 5. The boat goes along with the current in 5 hours 10 minutes. How much time will it take to come back?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the speed of the motor boat and that of the current be 36x km/hr and 5x km/hr respectively.\nThen, speed downstream = (36x + 5x) km/hr = 41x km/hr.\nSpeed upstream = (36x - 5x) km/hr = 31x km/hr.\nLet the distance be d km.\nThen, $\\frac{d}{41x} = 5\\frac{10}{60} = 5\\frac{1}{6} = \\frac{31}{6} \\Rightarrow d = \\left(\\frac{31 \\times 41x}{6}\\right) = \\frac{1271x}{6}$.\n$\\therefore$ Time taken while coming back = $\\frac{d}{31x} = \\left(\\frac{1271x}{6} \\times \\frac{1}{31x}\\right)$ hrs = $\\frac{41}{6}$ hrs = $6\\frac{5}{6}$ hrs\n= 6 hrs 50 min.",
+      "page_numbers": [
+        "600",
+        "601"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "A.T.M.A., 2007",
+      "passage_text": "",
+      "question_text": "A man can row 6 km/hr in still water. It takes him twice as long to row up as to row down the river. Find the rate of stream.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let man's rate upstream be x km/hr.\nThen, his rate downstream = 2x km/hr.\n$\\therefore$ Rate in still water = $\\frac{1}{2}(2x + x)$ km/hr = $\\frac{3x}{2}$ km/hr.\nSo, $\\frac{3x}{2} = 6$ or x = 4.\n$\\therefore$ Rate upstream = 4 km/hr, Rate downstream = 8 km/hr.\nHence, rate of stream = $\\frac{1}{2}(8 - 4)$ km/hr = 2 km/hr.",
+      "page_numbers": [
+        "601"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "There is a road beside a river. Two friends started from a place A, moved to a temple situated at another place B and then returned to A again. One of them moves on a cycle at a speed of 12 km/hr, while the other sails on a boat at a speed of 10 km/hr. If the river flows at the speed of 4 km/hr, which of the two friends will return to place A first?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, the cyclist moves both ways at a speed of 12 km/hr.\nSo, average speed of the cyclist = 12 km/hr.\nThe boat sailor moves downstream @ (10 + 4) i.e., 14 km/hr and upstream @ (10 - 4) i.e., 6 km/hr.\nSo, average speed of the boat sailor = $\\left(\\frac{2 \\times 14 \\times 6}{14 + 6}\\right)$ km/hr = $\\frac{42}{5}$ km/hr\n= 8.4 km/hr.\nSince the average speed of the cyclist is greater, he will return to A first.",
+      "page_numbers": [
+        "601"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "A man can row $7\\frac{1}{2}$ kmph in still water. If in a river running at 1.5 km an hour, it takes him 50 minutes to row to a place and back, how far off is the place?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Speed downstream = (7.5 + 1.5) kmph = 9 kmph;\nSpeed upstream = (7.5 - 1.5) kmph = 6 kmph.\nLet the required distance be x km. Then,\n$\\frac{x}{9} + \\frac{x}{6} = \\frac{50}{60} \\Leftrightarrow \\frac{2x + 3x}{18} = \\frac{5}{6} \\Leftrightarrow 5x = 15 \\Leftrightarrow x = 3$.\nHence, the required distance is 3 km.",
+      "page_numbers": [
+        "601"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "Hotel Management, 2007",
+      "passage_text": "",
+      "question_text": "A boat goes 8 km upstream and then returns. Total time taken is 4 hrs 16 minutes. If the velocity of current is 1 km/hr, find the actual velocity of the boat.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the actual velocity of the boat be x km/hr. Then,\nSpeed downstream = (x + 1) km/hr; Speed upstream = (x - 1) km/hr.\n$\\therefore \\frac{8}{x + 1} + \\frac{8}{x - 1} = 4\\frac{16}{60} = 4\\frac{4}{15} = \\frac{64}{15}$\n$\\Leftrightarrow \\frac{8(x - 1) + 8(x + 1)}{(x + 1)(x - 1)} = \\frac{64}{15}$\n$\\Leftrightarrow \\frac{16x}{x^2 - 1} = \\frac{64}{15} \\Leftrightarrow 30x = 8(x^2 - 1)$\n$\\Leftrightarrow 4x^2 - 15x - 4 = 0 \\Leftrightarrow 4x^2 - 16x + x - 4 = 0 \\Leftrightarrow 4x(x - 4) + (x - 4) = 0$\n$\\Leftrightarrow (x - 4)(4x + 1) = 0 \\Leftrightarrow x = 4$.\nHence, actual velocity of the boat = 4 km/hr.",
+      "page_numbers": [
+        "601"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "A boatman rows to a place 45 km distant and back in 20 hours. He finds that he can row 12 km with the stream in the same time as 4 km against the stream. Find the speed of the stream.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Suppose he moves 12 km downstream in x hours. Then,\nSpeed downstream = $\\frac{12}{x}$ km/hr, Speed upstream = $\\frac{4}{x}$ km/hr\n$\\therefore \\frac{45}{(12/x)} + \\frac{45}{(4/x)} = 20 \\Rightarrow \\frac{45x}{12} + \\frac{45x}{4} = 20 \\Rightarrow \\frac{45x + 135x}{12} = 20 \\Rightarrow \\frac{180x}{12} = 20 \\Rightarrow 15x = 20 \\Rightarrow x = \\frac{4}{3}$.\nSo, Speed downstream = $\\left(12 \\times \\frac{3}{4}\\right)$ km/hr = 9 km/hr,\nSpeed upstream = $\\left(4 \\times \\frac{3}{4}\\right)$ km/hr = 3 km/hr.\n$\\therefore$ Speed of the stream = $\\frac{1}{2}(9 - 3)$ km/hr = 3 km/hr.",
+      "page_numbers": [
+        "602"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man can row 40 km upstream and 55 km downstream in 13 hours. Also, he can row 30 km upstream and 44 km downstream in 10 hours. Find the speed of the man in still water and the speed of the current.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let rate upstream = x km/hr and rate downstream = y km/hr.\nThen, $\\frac{40}{x} + \\frac{55}{y} = 13$ ...(i) and $\\frac{30}{x} + \\frac{44}{y} = 10$ ...(ii)\nMultiplying (ii) by 4 and (i) by 3 and subtracting, we get : $\\frac{11}{y} = 1$ or y = 11.\nSubstituting y = 11 in (i), we get : x = 5.\n$\\therefore$ Rate in still water = $\\frac{1}{2}(11 + 5)$ kmph = 8 kmph.\nRate of current = $\\frac{1}{2}(11 - 5)$ kmph = 3 kmph.",
+      "page_numbers": [
+        "602"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "A boat goes 8 km in one hour along the stream and 2 km in one hour against the stream. The speed in km/hr of the stream is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "3",
+      "option_c": "4",
+      "option_d": "5",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Speed of the stream = $\frac{1}{2}(8-2)$ km/hr = $3$ km/hr.",
+      "page_numbers": [
+        "602"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "B.Ed Entrance, 2009",
+      "passage_text": "",
+      "question_text": "In one hour, a boat goes 11 km along the stream and 5 km against the stream. The speed of the boat in still water (in km/hr) is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "5",
+      "option_c": "8",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Speed of the boat in still water = $\frac{1}{2}(11+5)$ km/hr = $8$ km/hr.",
+      "page_numbers": [
+        "602"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "A man rows downstream 32 km and 14 km upstream. If he takes 6 hours to cover each distance, then the velocity (in kmph) of the current is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "1",
+      "option_c": "$1\\frac{1}{2}$",
+      "option_d": "2",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Rate downstream = $\frac{32}{6}$ kmph;\nRate upstream = $\frac{14}{6}$ kmph.\nVelocity of current = $\frac{1}{2}\times\frac{32-14}{6}$ kmph\n= $\frac{1}{2}\times\frac{18}{6}$ kmph = $\frac{3}{2}$ kmph = $1\frac{1}{2}$ kmph.",
+      "page_numbers": [
+        "602"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "A boatman rows 1 km in 5 minutes, along the stream and 6 km in 1 hour against the stream. The speed of the stream is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 kmph",
+      "option_b": "6 kmph",
+      "option_c": "10 kmph",
+      "option_d": "12 kmph",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Rate downstream = $\frac{1}{5}\times60$ kmph = $12$ kmph;\nRate upstream = $6$ kmph.\nSpeed of the stream = $\frac{1}{2}(12-6)$ kmph = $3$ kmph.",
+      "page_numbers": [
+        "602"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "A boat takes half time in moving a certain distance downstream than upstream. What is the ratio between the rate in still water and the rate of current?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 : 2",
+      "option_b": "2 : 1",
+      "option_c": "1 : 3",
+      "option_d": "3 : 1",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Ratio of times taken (Downstream : Upstream) = $1:2$.\n$\\therefore$ Speed downstream : Speed upstream = $2:1$.\nLet speed downstream = $2x$ kmph and speed upstream = $x$ kmph.\nRequired ratio = $\frac{\text{Rate in still water}}{\text{Rate of current}} = \frac{\frac{1}{2}(2x+x)}{\frac{1}{2}(2x-x)} = \frac{3x}{x} = 3:1$.",
+      "page_numbers": [
+        "602"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "S.S.C., 2008",
+      "passage_text": "",
+      "question_text": "If a man goes 18 km downstream in 4 hours and returns against the stream in 12 hours, then the speed of the stream in km/hr is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "1.5",
+      "option_c": "1.75",
+      "option_d": "3",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Speed downstream = $\frac{18}{4}$ km/hr = $4.5$ km/hr;\nSpeed upstream = $\frac{18}{12}$ km/hr = $1.5$ km/hr.\n$\\therefore$ Speed of the stream = $\frac{1}{2}(4.5-1.5)$ km/hr = $1.5$ km/hr.",
+      "page_numbers": [
+        "602"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40 minutes",
+      "option_b": "1 hour",
+      "option_c": "1 hr 15 min",
+      "option_d": "1 hr 30 min",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Rate downstream = $\frac{1}{10}\times60$ km/hr = $6$ km/hr; Rate upstream = $2$ km/hr.\nSpeed in still water = $\frac{1}{2}(6+2)$ km/hr = $4$ km/hr.\n$\\therefore$ Required time = $\frac{5}{4}$ hrs = $1\frac{1}{4}$ hrs = $1$ hr $15$ min.",
+      "page_numbers": [
+        "602",
+        "603"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "A man can row $\\frac{3}{4}$ of a km against the stream in $11\\frac{1}{4}$ minutes and returns in $7\\frac{1}{2}$ minutes. Find the speed of the man in still water.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 km/hr",
+      "option_b": "4 km/hr",
+      "option_c": "5 km/hr",
+      "option_d": "6 km/hr",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Rate upstream = $\frac{750}{675}$ m/sec = $\frac{10}{9}$ m/sec;\nRate downstream = $\frac{750}{450}$ m/sec = $\frac{5}{3}$ m/sec.\n$\\therefore$ Rate in still water\n= $\frac{1}{2}\times\frac{10}{9}+\frac{5}{3}$ m/sec = $\frac{1}{2}\times\frac{10+15}{9}$ m/sec = $\frac{25}{18}$ m/sec = $\frac{25}{18}\times\frac{18}{5}$ km/hr = $5$ km/hr.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "M.A.T., 2004",
+      "passage_text": "",
+      "question_text": "A boat, while going downstream in a river covered a distance of 50 miles at an average speed of 60 miles per hour. While returning, because of the water resistance, it took 1 hour 15 minutes to cover the same distance. What was the average speed during the whole journey?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40 mph",
+      "option_b": "48 mph",
+      "option_c": "50 mph",
+      "option_d": "55 mph",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Time taken to cover $50$ miles downstream = $\frac{50}{60}$ hr = $\frac{5}{6}$ hr.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "605",
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "A man swimming in a stream which flows $1\\frac{1}{2}$ km/hr finds that in a given time he can swim twice as far with the stream as he can against it. At what rate does he swim?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$4\\frac{1}{2}$ km/hr",
+      "option_b": "$5\\frac{1}{2}$ km/hr",
+      "option_c": "$7\\frac{1}{2}$ km/hr",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let speed upstream = $x$ km/hr.\nThen, speed downstream = $2x$ km/hr.\nSpeed of stream = $\frac{1}{2}(2x-x)$ km/hr = $\frac{x}{2}$ km/hr.\n$\\therefore \frac{x}{2} = 1\frac{1}{2} \\Leftrightarrow \frac{x}{2} = \frac{3}{2} \\Leftrightarrow x = 3$.\nSo, speed upstream = $3$ km/hr;\nSpeed downstream = $6$ km/hr.\nHence, rate of swimming = $\frac{1}{2}(3+6)$ km/hr = $4\frac{1}{2}$ km/hr.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A boat running upstream takes 8 hours 48 minutes to cover a certain distance, while it takes 4 hours to cover the same distance running downstream. What is the ratio between the speed of the boat and speed of the water current respectively?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 : 1",
+      "option_b": "3 : 2",
+      "option_c": "8 : 3",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let the man's rate upstream be $x$ kmph and that downstream be $y$ kmph. Then, Distance covered upstream in $8$ hrs $48$ min. = Distance covered downstream in $4$ hrs.\n$\\Rightarrow x\\times8\frac{4}{5} = y\\times4 \\Rightarrow x\\times\frac{44}{5} = 4y \\Rightarrow y = \frac{11}{5}x$.\n$\\therefore$ Required ratio\n= $\frac{y+x}{2} : \frac{y-x}{2} = \frac{\frac{11}{5}x+x}{2} : \frac{\frac{11}{5}x-x}{2} = \frac{16}{5} : \frac{6}{5} = 16:6 = 8:3$.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "Bank Rec., 2010",
+      "passage_text": "",
+      "question_text": "If a boat goes 7 km upstream in 42 minutes and the speed of the stream is 3 kmph, then the speed of the boat in still water is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4.2 km/hr",
+      "option_b": "9 km/hr",
+      "option_c": "13 km/hr",
+      "option_d": "21 km/hr",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Rate upstream = $\frac{7}{42}\\times60$ kmph = $10$ kmph.\nSpeed of stream = $3$ kmph.\nLet speed in still water be $x$ km/hr.\nThen, speed upstream = $(x-3)$ km/hr.\n$\\therefore x-3 = 10$ or $x = 13$ km/hr.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man's speed with the current is 15 km/hr and the speed of the current is 2.5 km/hr. The man's speed against the current is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8.5 km/hr",
+      "option_b": "9 km/hr",
+      "option_c": "10 km/hr",
+      "option_d": "12.5 km/hr",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Man's rate in still water = $(15-2.5)$ km/hr = $12.5$ km/hr.\nMan's rate against the current = $(12.5-2.5)$ km/hr = $10$ km/hr.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If a man rows at the rate of 5 kmph in still water and his rate against the current is 3.5 kmph, then the man's rate along the current is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4.25 kmph",
+      "option_b": "6 kmph",
+      "option_c": "6.5 kmph",
+      "option_d": "8.5 kmph",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the rate along the current be $x$ kmph.\nThen, $\frac{1}{2}(x+3.5) = 5$ or $x = 6.5$ kmph.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "A motorboat in still water travels at a speed of 36 km/hr. It goes 56 km upstream in 1 hour 45 minutes. The time taken by it to cover the same distance down the stream will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 hour 24 minutes",
+      "option_b": "2 hour 21 minutes",
+      "option_c": "2 hour 25 minutes",
+      "option_d": "3 hour",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Speed upstream\n= $56\\frac{4}{7}\\times\frac{1}{4}$ km/hr = $\frac{396}{7}\\times\frac{1}{4}$ km/hr = $32$ km/hr.\nLet speed downstream be $x$ km/hr.\nThen, speed of boat in still water = $\frac{1}{2}(x+32)$ km/hr.\n$\\therefore \frac{1}{2}(x+32) = 36 \\Rightarrow x = 40$.\nHence, required time = $\frac{56}{40}$ hrs = $1\frac{2}{5}$ hrs = $1$ hr $24$ min.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Speed of a boat in standing water is 9 kmph and the speed of the stream is 1.5 kmph. A man rows to a place at a distance of 105 km and comes back to the starting point. The total time taken by him is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16 hours",
+      "option_b": "18 hours",
+      "option_c": "20 hours",
+      "option_d": "24 hours",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Speed upstream = $7.5$ kmph; Speed downstream = $10.5$ kmph.\n$\\therefore$ Total time taken = $\frac{105}{7.5} + \frac{105}{10.5}$ hours = $24$ hours.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The speed of a boat in still water is 15 km/hr and the rate of current is 3 km/hr. The distance travelled downstream in 12 minutes is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.2 km",
+      "option_b": "1.8 km",
+      "option_c": "2.4 km",
+      "option_d": "3.6 km",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Speed downstream = $(15+3)$ kmph = $18$ kmph.\nDistance travelled = $18\\times\frac{12}{60}$ km = $3.6$ km.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "A man can row at 5 kmph in still water. If the velocity of current is 1 kmph and it takes him 1 hour to row to a place and come back, how far is the place?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.4 km",
+      "option_b": "2.5 km",
+      "option_c": "3 km",
+      "option_d": "3.6 km",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Speed downstream = $(5+1)$ kmph = $6$ kmph;\nSpeed upstream = $(5-1)$ kmph = $4$ kmph.\nLet the required distance be $x$ km.\nThen, $\frac{x}{6} + \frac{x}{4} = 1 \\Leftrightarrow \frac{2x+3x}{12} = 1$\n$\\Leftrightarrow 5x = 12 \\Leftrightarrow x = 2.4$ km.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A boat takes 19 hours for travelling downstream from point A to point B and coming back to a point C midway between A and B. If the velocity of the stream is 4 kmph and the speed of the boat in still water is 14 kmph, what is the distance between A and B?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "160 km",
+      "option_b": "180 km",
+      "option_c": "200 km",
+      "option_d": "220 km",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Speed downstream = $(14+4)$ km/hr = $18$ km/hr;\nSpeed upstream = $(14-4)$ km/hr = $10$ km/hr.\nLet the distance between A and B be $x$ km.\nThen, $\frac{x}{18} + \frac{x/2}{10} = 19 \\Leftrightarrow \frac{x}{18} + \frac{x}{20} = 19$\n$\\Leftrightarrow \frac{19x}{180} = 19 \\Leftrightarrow x = 180$ km.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "P, Q and R are three towns on a river which flows uniformly. Q is equidistant from P and R. I row from P to Q and back in 10 hours and I can row from P to R in 4 hours. Compare the speed of my boat in still water with that of the river.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 : 3",
+      "option_b": "5 : 3",
+      "option_c": "6 : 5",
+      "option_d": "7 : 3",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let $PQ = QR = x$ km.\nLet speed downstream = $a$ km/hr,\nand speed upstream = $b$ km/hr.\nThen, $\frac{x}{a} + \frac{x}{b} = 10 \\Rightarrow x = \frac{10ab}{a+b}$ ...(i)\nAnd, $\frac{x}{a} = 2 \\Rightarrow x = 2a$ ...(ii)\nFrom (i) and (ii), we have :\n$\frac{10ab}{a+b} = 2a \\Rightarrow 5b = a+b \\Rightarrow a = 4b$.\n$\\therefore$ Required ratio = $\frac{\text{Speed in still water}}{\text{Speed of river}}$\n= $\frac{\frac{1}{2}(a+b)}{\frac{1}{2}(a-b)} = \frac{4b+b}{4b-b} = \frac{5b}{3b} = \frac{5}{3}$.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "606"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man can row $9\\frac{1}{3}$ kmph in still water and finds that it takes him thrice as much time to row up than as to row down the same distance in the river. The speed of the current is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3\\frac{1}{3}$ km/hr",
+      "option_b": "$3\\frac{1}{9}$ km/hr",
+      "option_c": "$4\\frac{2}{3}$ km/hr",
+      "option_d": "$4\\frac{1}{2}$ km/hr",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let speed upstream be $x$ kmph.\nThen, speed downstream = $3x$ kmph.\nSpeed in still water = $\frac{1}{2}(3x+x)$ kmph = $2x$ kmph.\n$\\therefore 2x = \frac{28}{3} \\Rightarrow x = \frac{14}{3}$.\nSo, Speed upstream = $\frac{14}{3}$ km/hr;\nSpeed downstream = $14$ km/hr.\nHence, speed of the current\n$= \frac{1}{2}\\left(14 - \\frac{14}{3}\\right)$ km/hr = $\frac{1}{2}\\left(\\frac{42-14}{3}\\right)$ km/hr = $\frac{1}{2}\\left(\\frac{28}{3}\\right)$ km/hr = $\frac{14}{3}$ km/hr = $4\frac{2}{3}$ km/hr.",
+      "page_numbers": [
+        "603"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "Bank P.O., 2006",
+      "passage_text": "",
+      "question_text": "A boat takes $8$ hours to cover a distance while travelling upstream, whereas while travelling downstream it takes $6$ hours. If the speed of the current is $4$ kmph, what is the speed of the boat in still water?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$12$ kmph",
+      "option_b": "$16$ kmph",
+      "option_c": "$28$ kmph",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let distance be $d$. Speed upstream = $\\frac{d}{8}$, speed downstream = $\\frac{d}{6}$.\nSpeed of current = $\\frac{1}{2}(\\text{downstream} - \\text{upstream}) = 4$.\n$\\frac{1}{2}(\\frac{d}{6}-\\frac{d}{8}) = 4 \\Rightarrow \\frac{d}{6}-\\frac{d}{8} = 8 \\Rightarrow \\frac{4d-3d}{24} = 8 \\Rightarrow d = 192$.\nSpeed downstream = $\\frac{192}{6} = 32$ kmph. Speed upstream = $\\frac{192}{8} = 24$ kmph.\nSpeed in still water = $\\frac{1}{2}(32+24) = 28$ kmph.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "A motor boat can travel at $10$ km/hr in still water. It travelled $91$ km downstream in a river a then returned taking altogether $20$ hours. Find the rate of flow of the river.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3$ km/hr",
+      "option_b": "$5$ km/hr",
+      "option_c": "$6$ km/hr",
+      "option_d": "$8$ km/hr",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let rate of flow be $x$ km/hr.\n$\\frac{91}{10+x}+\\frac{91}{10-x} = 20 \\Rightarrow 91\\left(\\frac{10-x+10+x}{100-x^2}\\right) = 20 \\Rightarrow \\frac{91\\times20}{100-x^2} = 20 \\Rightarrow 91 = 100-x^2 \\Rightarrow x^2 = 9 \\Rightarrow x = 3$ km/hr.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The speed of a boat in still water is $10$ km/hr. If it can travel $26$ km downstream and $14$ km upstream in the same time, the speed of the stream is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$ km/hr",
+      "option_b": "$2.5$ km/hr",
+      "option_c": "$3$ km/hr",
+      "option_d": "$4$ km/hr",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let speed of stream be $x$ km/hr.\n$\\frac{26}{10+x} = \\frac{14}{10-x} \\Rightarrow 260-26x = 140+14x \\Rightarrow 40x = 120 \\Rightarrow x = 3$ km/hr.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A boat takes $90$ minutes less to travel $36$ miles downstream than to travel the same distance upstream. If the speed of the boat in still water is $10$ mph, the speed of the stream is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$ mph",
+      "option_b": "$2.5$ mph",
+      "option_c": "$3$ mph",
+      "option_d": "$4$ mph",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let speed of stream be $x$ mph. $90$ min = $1.5$ hr.\n$\\frac{36}{10-x}-\\frac{36}{10+x} = 1.5 \\Rightarrow 36\\left(\\frac{10+x-10+x}{100-x^2}\\right) = 1.5 \\Rightarrow \\frac{36\\times2x}{100-x^2} = 1.5 \\Rightarrow 72x = 150-1.5x^2 \\Rightarrow 1.5x^2+72x-150 = 0 \\Rightarrow x^2+48x-100 = 0 \\Rightarrow (x+50)(x-2) = 0 \\Rightarrow x = 2$ mph.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A man rows to a place $48$ km distant and back in $14$ hours. He finds that he can row $4$ km with the stream in the same time as $3$ km against the stream. The rate of the stream is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$ km/hr",
+      "option_b": "$1.5$ km/hr",
+      "option_c": "$1.8$ km/hr",
+      "option_d": "$3.5$ km/hr",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let speed downstream = $u$, upstream = $v$. $4/u = 3/v \\Rightarrow u = 4v/3$.\nTotal time = $48/u + 48/v = 14 \\Rightarrow 48/(4v/3) + 48/v = 14 \\Rightarrow 36/v + 48/v = 14 \\Rightarrow 84/v = 14 \\Rightarrow v = 6$ km/hr.\n$u = 4(6)/3 = 8$ km/hr.\nRate of stream = $\\frac{1}{2}(u-v) = \\frac{1}{2}(8-6) = 1$ km/hr.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A boat covers $24$ km upstream and $36$ km downstream in $6$ hours while it covers $36$ km upstream and $24$ km downstream in $6\\frac{1}{2}$ hours. The velocity of the current is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$ km/hr",
+      "option_b": "$1.5$ km/hr",
+      "option_c": "$2$ km/hr",
+      "option_d": "$2.5$ km/hr",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let upstream speed = $u$, downstream = $v$.\n$24/u + 36/v = 6 \\Rightarrow 4/u + 6/v = 1$ (i)\n$36/u + 24/v = 13/2 \\Rightarrow 72/u + 48/v = 13$ (ii)\nMultiply (i) by $8$: $32/u + 48/v = 8$ (iii)\nSubtract (iii) from (ii): $40/u = 5 \\Rightarrow u = 8$ km/hr.\nSubstitute $u=8$ in (i): $4/8 + 6/v = 1 \\Rightarrow 6/v = 0.5 \\Rightarrow v = 12$ km/hr.\nVelocity of current = $\\frac{1}{2}(v-u) = \\frac{1}{2}(12-8) = 2$ km/hr.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "I.I.F.T., 2008",
+      "passage_text": "",
+      "question_text": "A boat goes $30$ km upstream and $44$ km downstream in $10$ hours. In $13$ hours, it can go $40$ km upstream and $55$ km downstream. The speed of the boat in still water is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3$ km/hr",
+      "option_b": "$4$ km/hr",
+      "option_c": "$8$ km/hr",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let upstream speed = $u$, downstream = $v$.\n$30/u + 44/v = 10 \\Rightarrow 15/u + 22/v = 5$ (i)\n$40/u + 55/v = 13 \\Rightarrow 8/u + 11/v = 2.6$ (ii)\nMultiply (ii) by $2$: $16/u + 22/v = 5.2$ (iii)\nSubtract (i) from (iii): $1/u = 0.2 \\Rightarrow u = 5$ km/hr.\nSubstitute $u=5$ in (i): $15/5 + 22/v = 5 \\Rightarrow 3 + 22/v = 5 \\Rightarrow 22/v = 2 \\Rightarrow v = 11$ km/hr.\nSpeed in still water = $\\frac{1}{2}(u+v) = \\frac{1}{2}(5+11) = 8$ km/hr.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "M.A.T., 2001",
+      "passage_text": "",
+      "question_text": "At his usual rowing rate, Rahul can travel $12$ miles downstream in a certain river in $6$ hours less than it takes him to travel the same distance upstream. But if he could double his usual rowing rate for his $24$-mile round trip, the downstream $12$ miles would then take only one hour less than the upstream $12$ miles. What is the speed of the current in miles per hour?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{1}{3}$",
+      "option_b": "$2\\frac{1}{3}$",
+      "option_c": "$1\\frac{2}{3}$",
+      "option_d": "$2\\frac{2}{3}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let speed of boat = $u$, current = $v$.\n$12/(u-v) - 12/(u+v) = 6 \\Rightarrow 2/(u-v) - 2/(u+v) = 1 \\Rightarrow 4v/(u^2-v^2) = 1 \\Rightarrow u^2-v^2 = 4v$ (i)\nWith $2u$: $12/(2u-v) - 12/(2u+v) = 1 \\Rightarrow 24v/(4u^2-v^2) = 1 \\Rightarrow 4u^2-v^2 = 24v$ (ii)\nFrom (i), $u^2 = 4v+v^2$. Substitute in (ii): $4(4v+v^2)-v^2 = 24v \\Rightarrow 16v+4v^2-v^2 = 24v \\Rightarrow 3v^2 = 8v \\Rightarrow v = 8/3 = 2\\frac{2}{3}$ mph.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "R.R.B., 2009",
+      "passage_text": "",
+      "question_text": "A man can swim in still water at a rate of $4$ km/hr. The width of the river is $1$ km. How long will he take to cross the river straight, if the speed of the current is $3$ km/hr?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$10$ min",
+      "option_b": "$15$ min",
+      "option_c": "$18$ min",
+      "option_d": "$20$ min",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Speed in still water $u=4$, current $v=3$. To cross straight, effective speed = $\\sqrt{u^2-v^2} = \\sqrt{4^2-3^2} = \\sqrt{16-9} = \\sqrt{7}$ km/hr.\nTime = $\\frac{\\text{Distance}}{\\text{Speed}} = \\frac{1}{\\sqrt{7}}$ hr. (Wait, the standard formula for crossing straight is $t = \\frac{w}{\\sqrt{u^2-v^2}}$. If the question implies he swims at $4$ km/hr relative to the water, the time is $1/\\sqrt{7}$ hr. However, if he aims upstream to compensate, the effective speed is $\\sqrt{4^2-3^2} = \\sqrt{7}$. The answer key says $15$ min, which is $0.25$ hr. $1/0.25 = 4$. This implies the effective speed is $4$ km/hr. This happens if he swims at $5$ km/hr relative to water. Re-reading: ",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "M.A.T., 2004",
+      "passage_text": "",
+      "question_text": "A man wishes to cross a river perpendicularly. In still water he takes $4$ minutes to cross the river, but in flowing river he takes $5$ minutes. If the river is $100$ metres wide, the velocity of the flowing water of the river is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$10$ m/min",
+      "option_b": "$15$ m/min",
+      "option_c": "$20$ m/min",
+      "option_d": "$30$ m/min",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Speed in still water $u = 100/4 = 25$ m/min.\nEffective speed in flowing river $v_{eff} = 100/5 = 20$ m/min.\n$v_{eff} = \\sqrt{u^2-v^2} \\Rightarrow 20 = \\sqrt{25^2-v^2} \\Rightarrow 400 = 625-v^2 \\Rightarrow v^2 = 225 \\Rightarrow v = 15$ m/min.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "Indian Railways Gr. ‘D’ Exam, 2014",
+      "passage_text": "",
+      "question_text": "A man can row upstream at $10$ kmph and downstream at $18$ kmph. Find the man's rate in still water?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$14$ kmph",
+      "option_b": "$4$ kmph",
+      "option_c": "$12$ kmph",
+      "option_d": "$10$ kmph",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Rate in still water = $\\frac{1}{2}(18+10) = 14$ kmph.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "IBPS—RRB Officers Gr. ‘B’ Exam, 2015",
+      "passage_text": "",
+      "question_text": "A man takes $2.2$ times as long to row a distance upstream as to row the same distance downstream. If he can row $55$ km downstream in $2$ hours $30$ minutes, what is the speed of the boat in still water?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$40$ km/h",
+      "option_b": "$8$ km/h",
+      "option_c": "$16$ km/h",
+      "option_d": "$24$ km/h",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Speed downstream = $55/2.5 = 22$ km/h.\nTime ratio = $2.2 : 1 \\Rightarrow$ Speed ratio = $1 : 2.2$.\nSpeed upstream = $22/2.2 = 10$ km/h.\nSpeed in still water = $\\frac{1}{2}(22+10) = 16$ km/h.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "RBI Gr. ‘B’ (Phase I) Exam, 2015",
+      "passage_text": "Boat A travels downstream from Point X to Point Y in $3$ hours less than the time taken by Boat B to travel upstream from Point Y to Point Z. The distance between X and Y is $20$ km, which is half of the distance between Y and Z. The speed of Boat B in still water is $10$ km/h and the speed of Boat A in still water is equal to the speed of Boat B upstream. What is the speed of Boat A in still water? (Consider the speed of the current to be the same.)",
+      "question_text": "What is the speed of Boat A in still water?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$10$ km/h",
+      "option_b": "$16$ km/h",
+      "option_c": "$12$ km/h",
+      "option_d": "$8$ km/h",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Distance XY = $20$ km, YZ = $40$ km. Let current speed = $v$.\nBoat B upstream speed = $10-v$. Time taken = $40/(10-v)$.\nBoat A downstream speed = $u_A+v$. Time taken = $20/(u_A+v)$.\n$u_A = 10-v$.\n$40/(10-v) - 20/(10-v+v) = 3 \\Rightarrow 40/(10-v) - 20/10 = 3 \\Rightarrow 40/(10-v) = 5 \\Rightarrow 10-v = 8 \\Rightarrow v = 2$.\n$u_A = 10-2 = 8$ km/h.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "IBPS—Bank Spl. Officer (IT) Exam, 2015",
+      "passage_text": "The speed of the boat in still water is $5$ times that of the current, it takes $1.1$ hours to row to point B form point A downstream. The distance between point A and point B is $13.2$ km. How much distance (in km) will it cover in $312$ minutes upstream?",
+      "question_text": "How much distance (in km) will it cover in $312$ minutes upstream?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$43.2$",
+      "option_b": "$48$",
+      "option_c": "$41.6$",
+      "option_d": "$44.8$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Speed downstream = $13.2/1.1 = 12$ km/h.\n$u = 5v \\Rightarrow u+v = 6v = 12 \\Rightarrow v = 2, u = 10$.\nSpeed upstream = $u-v = 10-2 = 8$ km/h.\nTime = $312/60 = 5.2$ hours.\nDistance = $8\\times5.2 = 41.6$ km.",
+      "page_numbers": [
+        "604"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "United India Insurance Co. Ltd. (UIICL) Assistant (Online) Exam, 2015",
+      "passage_text": "A boat can travel $36$ km upstream in $5$ hours. If the speed of the stream is $2.4$ kmph, how much time will the boat take to cover a distance of $78$ km downstream? (in hours)",
+      "question_text": "How much time will the boat take to cover a distance of $78$ km downstream?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5$",
+      "option_b": "$6.5$",
+      "option_c": "$5.5$",
+      "option_d": "$8$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Speed upstream = $36/5 = 7.2$ kmph.\n$u-2.4 = 7.2 \\Rightarrow u = 9.6$ kmph.\nSpeed downstream = $9.6+2.4 = 12$ kmph.\nTime = $78/12 = 6.5$ hours.",
+      "page_numbers": [
+        "604",
+        "605"
+      ],
+      "answer_page_numbers": [
+        "605"
+      ]
+    }
+  ]
+}

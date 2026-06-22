@@ -1,0 +1,1415 @@
+{
+  "chapter_title": "Chapter_21_Alligation_or_Mixture",
+  "question_count": 31,
+  "items": [
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "1",
+      "sub_pattern": "Alligation Basics",
+      "pattern_doc": "alligation_basics.md",
+      "paraphrased_question": "In what ratio must rice at ₹ 9.30 per kg be mixed with rice at ₹ 10.80 per kg so that the mixture be worth ₹ 10 per kg ?",
+      "paraphrased_option_a": "",
+      "paraphrased_option_b": "",
+      "paraphrased_option_c": "",
+      "paraphrased_option_d": "",
+      "paraphrased_correct_option": "",
+      "paraphrased_final_answer": "8:7",
+      "traditional_solution": "To solve this using the rule of alligation, we first convert all prices to paise to avoid decimals.\n\nPrice of 1st kind = $9.30 \\times 100 = 930$ paise.\n\nPrice of 2nd kind = $10.80 \\times 100 = 1080$ paise.\n\nMean price = $10 \\times 100 = 1000$ paise.\n\nThe rule of alligation states that the ratio of the quantities of two ingredients is the inverse ratio of the differences between their individual prices and the mean price.\n\nDifference for 1st kind = $|1080 - 1000| = 80$.\n\nDifference for 2nd kind = $|930 - 1000| = 70$.\n\nTherefore, the required ratio is\n\n$$\n80:70\n=\n8:7\n$$",
+      "shortcut_solution": "Using the alligation formula directly with the given prices:\n\n$$\n\\text{Ratio} = (10.80 - 10) : (10 - 9.30)\n$$\n\n$$\n\\text{Ratio} = 0.80 : 0.70\n$$\n\n$$\n\\text{Ratio} = 8:7\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "alligation",
+        "ratio",
+        "weighted average"
+      ],
+      "prerequisites": [
+        "ratio",
+        "arithmetic"
+      ],
+      "formulas_used": [
+        "\\text{Ratio} = (\\text{Price}_2 - \\text{Mean}): $(\\text{Mean} - \\text{Price}_1)$"
+      ],
+      "hints": [
+        "Convert all values to the same unit (paise) to simplify calculations.",
+        "The mean price must always lie between the prices of the two individual components.",
+        "Subtract the mean price from the higher price and the lower price from the mean price to find the ratio parts."
+      ],
+      "common_mistakes": [
+        "Subtracting in the wrong order, leading to negative values.",
+        "Forgetting to convert units, leading to decimal errors.",
+        "Mixing up the order of the ratio (1st kind vs 2nd kind)."
+      ],
+      "related_patterns": [
+        "mixture problems",
+        "weighted average problems"
+      ],
+      "confusing_patterns": [
+        "percentage profit problems",
+        "simple interest problems"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "2",
+      "sub_pattern": "Mixture Replacement",
+      "pattern_doc": "mixture_replacement.md",
+      "paraphrased_question": "How much water must be added to 60 litres of milk at $1\\frac{1}{2}$ litres for ₹ 20 so as to have a mixture worth ₹ $10\\frac{2}{3}$ a litre ?",
+      "paraphrased_option_a": "",
+      "paraphrased_option_b": "",
+      "paraphrased_option_c": "",
+      "paraphrased_option_d": "",
+      "paraphrased_correct_option": "",
+      "paraphrased_final_answer": "15 \\text{ litres}",
+      "traditional_solution": "First, we find the cost price (C.P.) of 1 litre of milk. Since $1\\frac{1}{2}$ litres (or $\\frac{3}{2}$ litres) cost ₹ 20, the cost of 1 litre is\n\n$$\n20 \\div \\frac{3}{2} = 20 \\times \\frac{2}{3} = \\frac{40}{3}\n$$\n\nSo, the C.P. of milk is ₹ $\\frac{40}{3}$ per litre. The C.P. of water is ₹ 0 per litre.\n\nThe mean price of the mixture is given as ₹ $10\\frac{2}{3}$, which is ₹ $\\frac{32}{3}$ per litre.\n\nUsing the rule of alligation, we find the ratio of water to milk:\n\n$$\n\\text{Ratio} = \\left( \\frac{40}{3} - \\frac{32}{3} \\right) : \\left( \\frac{32}{3} - 0 \\right)\n$$\n\n$$\n\\text{Ratio} = \\frac{8}{3} : \\frac{32}{3}\n$$\n\n$$\n\\text{Ratio} = 8 : 32 = 1 : 4\n$$\n\nThis means for every 4 parts of milk, we need 1 part of water. Since we have 60 litres of milk, the amount of water needed is\n\n$$\n\\frac{1}{4} \\times 60 = 15\n$$\n\nThus, 15 litres of water must be added.",
+      "shortcut_solution": "The ratio of water to milk is the ratio of the difference between the milk price and mean price to the mean price itself:\n\n$$\n\\frac{\\text{Water}}{\\text{Milk}} = \\frac{\\text{C.P. of Milk} - \\text{Mean Price}}{\\text{Mean Price}}\n$$\n\n$$\n\\frac{\\text{Water}}{60} = \\frac{\\frac{40}{3} - \\frac{32}{3}}{\\frac{32}{3}} = \\frac{8}{32} = \\frac{1}{4}\n$$\n\n$$\n\\text{Water} = \\frac{1}{4} \\times 60 = 15\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "ratio",
+        "mixtures"
+      ],
+      "prerequisites": [
+        "fractions",
+        "ratio"
+      ],
+      "formulas_used": [
+        "\\text{Ratio of Water to Milk} = (\\text{C.P. of Milk} - \\text{Mean Price}): $\\text{Mean Price}$"
+      ],
+      "hints": [
+        "Calculate the unit price of milk first.",
+        "Remember that the cost price of water is always 0.",
+        "Use the alligation rule to find the ratio of water to milk."
+      ],
+      "common_mistakes": [
+        "Forgetting to calculate the unit price of milk correctly.",
+        "Assuming the cost price of water is not zero.",
+        "Inverting the ratio of water and milk."
+      ],
+      "related_patterns": [
+        "dilution problems",
+        "mixture concentration"
+      ],
+      "confusing_patterns": [
+        "profit percentage problems",
+        "simple interest"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "3",
+      "sub_pattern": "Profit-Based Alligation",
+      "pattern_doc": "profit_based_alligation.md",
+      "paraphrased_question": "In what ratio must water be mixed with milk to gain 20% by selling the mixture at cost price ?",
+      "paraphrased_option_a": "",
+      "paraphrased_option_b": "",
+      "paraphrased_option_c": "",
+      "paraphrased_option_d": "",
+      "paraphrased_correct_option": "",
+      "paraphrased_final_answer": "1:5",
+      "traditional_solution": "Let the cost price (C.P.) of 1 litre of milk be ₹ 1. Since we sell the mixture at the cost price of milk, the selling price (S.P.) of 1 litre of the mixture is ₹ 1.\n\nWe are told there is a 20% gain. The formula for C.P. given S.P. and gain percentage is\n\n$$\n\\text{C.P.} = \\frac{100}{100 + \\text{Gain}\\%} \\times \\text{S.P.}\n$$\n\nSubstituting the values,\n\n$$\n\\text{C.P. of mixture} = \\frac{100}{120} \\times 1 = \\frac{5}{6}\n$$\n\nNow, we use the rule of alligation with water (C.P. = 0) and milk (C.P. = 1):\n\n$$\n\\text{Ratio} = \\left( 1 - \\frac{5}{6} \\right) : \\left( \\frac{5}{6} - 0 \\right)\n$$\n\n$$\n\\text{Ratio} = \\frac{1}{6} : \\frac{5}{6} = 1 : 5\n$$",
+      "shortcut_solution": "When selling a mixture of water and milk at cost price, the ratio of water to milk is simply the gain percentage expressed as a fraction:\n\n$$\n\\text{Ratio} = \\text{Gain}\\% : 100\n$$\n\n$$\n\\text{Ratio} = 20 : 100 = 1 : 5\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "profit and loss",
+        "mixtures"
+      ],
+      "prerequisites": [
+        "profit and loss",
+        "fractions"
+      ],
+      "formulas_used": [
+        "$\\text{C.P. of mixture} = \\frac{100}{100 + \\text{Gain}\\%} \\times \\text{S.P.}$"
+      ],
+      "hints": [
+        "Assume the cost price of milk is ₹ 1 per litre to simplify.",
+        "The cost price of water is 0.",
+        "The gain percentage allows you to calculate the effective cost price of the mixture."
+      ],
+      "common_mistakes": [
+        "Confusing the selling price with the cost price.",
+        "Incorrectly calculating the cost price of the mixture from the gain percentage.",
+        "Inverting the ratio of water to milk."
+      ],
+      "related_patterns": [
+        "profit and loss mixtures",
+        "dilution"
+      ],
+      "confusing_patterns": [
+        "simple mixture problems without profit",
+        "percentage increase problems"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "4",
+      "sub_pattern": "Profit-Based Alligation",
+      "pattern_doc": "profit_based_alligation.md",
+      "paraphrased_question": "How many kgs. of wheat costing ₹ 8 per kg must be mixed with 36 kg of rice costing ₹ 5.40 per kg so that 20% gain may be obtained by selling the mixture at ₹ 7.20 per kg ?",
+      "paraphrased_option_a": "",
+      "paraphrased_option_b": "",
+      "paraphrased_option_c": "",
+      "paraphrased_option_d": "",
+      "paraphrased_correct_option": "",
+      "paraphrased_final_answer": "10.8 \\text{ kg}",
+      "traditional_solution": "First, we find the cost price (C.P.) of the mixture. Given the selling price (S.P.) is ₹ 7.20 and the gain is 20%,\n\n$$\n\\text{C.P.} = \\frac{100}{120} \\times 7.20 = 6\n$$\n\nSo, the C.P. of the mixture is ₹ 6 per kg. Now, we use the rule of alligation with wheat (₹ 8) and rice (₹ 5.40):\n\n$$\n\\text{Ratio} = (8 - 6) : (6 - 5.40)\n$$\n\n$$\n\\text{Ratio} = 2 : 0.60 = 200 : 60 = 10 : 3\n$$\n\nThis means for every 10 kg of wheat, we need 3 kg of rice. We are given 36 kg of rice. Let $x$ be the amount of wheat:\n\n$$\n\\frac{x}{36} = \\frac{10}{3}\n$$\n\n$$\n3x = 360\n$$\n\n$$\nx = 120 \\div 3 = 10.8\n$$\n\nWait, let's re-calculate: $3x = 360$ implies $x = 120$. Let's re-check the ratio: $2 : 0.6 = 20 : 6 = 10 : 3$. If rice is 3 parts and wheat is 10 parts, then for 36 kg of rice, wheat is $\\frac{10}{3} \\times 36 = 120$. Let me re-read the original solution provided. The original solution says $3:10$ ratio and $x=10.8$. Let's re-calculate the difference: $8-6=2$ and $6-5.4=0.6$. The ratio of wheat to rice is $0.6:2 = 6:20 = 3:10$. Yes, wheat is 3 parts and rice is 10 parts. So $\\frac{x}{36} = \\frac{3}{10}$, which gives $10x = 108$, so $x = 10.8$.",
+      "shortcut_solution": "Calculate the C.P. of the mixture as ₹ 6. Use alligation to find the ratio of wheat to rice:\n\n$$\n\\text{Ratio} = (6 - 5.40) : (8 - 6) = 0.60 : 2 = 3 : 10\n$$\n\n$$\n\\text{Wheat} = \\frac{3}{10} \\times 36 = 10.8 \\text{ kg}\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "hard",
+      "concepts": [
+        "alligation",
+        "profit and loss",
+        "mixtures"
+      ],
+      "prerequisites": [
+        "profit and loss",
+        "ratio"
+      ],
+      "formulas_used": [
+        "$\\text{C.P. of mixture} = \\frac{100}{100 + \\text{Gain}\\%} \\times \\text{S.P.}$"
+      ],
+      "hints": [
+        "Calculate the cost price of the mixture first using the gain percentage.",
+        "Use the alligation rule to find the ratio of the two ingredients.",
+        "Set up a proportion to find the unknown quantity based on the given weight of one ingredient."
+      ],
+      "common_mistakes": [
+        "Using the selling price instead of the cost price in the alligation rule.",
+        "Inverting the ratio of the two ingredients.",
+        "Calculation errors when converting percentages to cost prices."
+      ],
+      "related_patterns": [
+        "mixture problems with profit",
+        "weighted average"
+      ],
+      "confusing_patterns": [
+        "simple mixture problems",
+        "percentage gain problems without mixtures"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "5",
+      "sub_pattern": "Vessel Mixing",
+      "pattern_doc": "vessel_mixing.md",
+      "paraphrased_question": "The milk and water in two vessels A and B are in the ratio 4 : 3 and 2 : 3 respectively. In what ratio, the liquids in both the vessels be mixed to obtain a new mixture in vessel C containing half milk and half water ?",
+      "paraphrased_option_a": "",
+      "paraphrased_option_b": "",
+      "paraphrased_option_c": "",
+      "paraphrased_option_d": "",
+      "paraphrased_correct_option": "",
+      "paraphrased_final_answer": "7:5",
+      "traditional_solution": "We focus on the concentration of milk in each vessel. In vessel A, the ratio of milk to water is 4:3, so the fraction of milk is $\\frac{4}{7}$.\n\nIn vessel B, the ratio of milk to water is 2:3, so the fraction of milk is $\\frac{2}{5}$.\n\nIn the final mixture C, the ratio is 1:1, so the fraction of milk is $\\frac{1}{2}$.\n\nUsing the rule of alligation on the milk fractions:\n\n$$\n\\text{Ratio} = \\left( \\frac{1}{2} - \\frac{2}{5} \\right) : \\left( \\frac{4}{7} - \\frac{1}{2} \\right)\n$$\n\nTo subtract these fractions, we find common denominators:\n\n$$\n\\frac{1}{2} - \\frac{2}{5} = \\frac{5-4}{10} = \\frac{1}{10}\n$$\n\n$$\n\\frac{4}{7} - \\frac{1}{2} = \\frac{8-7}{14} = \\frac{1}{14}\n$$\n\nSo the ratio is\n\n$$\n\\frac{1}{10} : \\frac{1}{14}\n$$\n\nTo simplify, multiply both sides by 70:\n\n$$\n7 : 5\n$$",
+      "shortcut_solution": "Calculate the milk fraction for each vessel and the target mixture:\n\n$$\n\\text{Milk}_A = \\frac{4}{7}, \\text{Milk}_B = \\frac{2}{5}, \\text{Target} = \\frac{1}{2}\n$$\n\n$$\n\\text{Ratio} = \\left| \\frac{2}{5} - \\frac{1}{2} \\right| : \\left| \\frac{4}{7} - \\frac{1}{2} \\right| = \\frac{1}{10} : \\frac{1}{14} = 7:5\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "hard",
+      "concepts": [
+        "alligation",
+        "fractions",
+        "mixtures"
+      ],
+      "prerequisites": [
+        "fractions",
+        "ratio"
+      ],
+      "formulas_used": [
+        "\\text{Alligation on concentrations} = |C_2 - C_{mean}|: $|C_{mean} - C_1|$"
+      ],
+      "hints": [
+        "Convert the ratios into fractions of one component (e.g., milk).",
+        "The target mixture concentration is the mean value for alligation.",
+        "Use a common denominator to subtract the fractions easily."
+      ],
+      "common_mistakes": [
+        "Using the water fraction instead of the milk fraction (though this would yield the same result if done consistently).",
+        "Errors in fraction subtraction.",
+        "Inverting the final ratio."
+      ],
+      "related_patterns": [
+        "mixture of mixtures",
+        "weighted average"
+      ],
+      "confusing_patterns": [
+        "simple ratio problems",
+        "percentage concentration problems"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "1",
+      "sub_pattern": "Alligation Basics",
+      "pattern_doc": "alligation_basics.md",
+      "paraphrased_question": "In what ratio must a grocer mix two varieties of pulses costing ₹ 15 and ₹ 20 per kg respectively so as to get a mixture worth ₹ 16.50 per kg ?",
+      "paraphrased_option_a": "3 : 7",
+      "paraphrased_option_b": "5 : 7",
+      "paraphrased_option_c": "7 : 3",
+      "paraphrased_option_d": "7 : 5",
+      "paraphrased_correct_option": "c",
+      "paraphrased_final_answer": "7 : 3",
+      "traditional_solution": "To find the ratio in which two ingredients with different costs are mixed to achieve a specific mean price, we use the rule of alligation.\n\nFirst, we identify the cost of the two varieties:\n\nCost of 1st variety = ₹ 15 per kg\n\nCost of 2nd variety = ₹ 20 per kg\n\nMean price of the mixture = ₹ 16.50 per kg\n\nNext, we calculate the difference between the mean price and each individual cost to determine the relative proportions required.\n\nDifference for the 1st variety (relative to the 2nd variety's cost) is\n\n$$\n20 - 16.50\n=\n3.50\n$$\n\nDifference for the 2nd variety (relative to the 1st variety's cost) is\n\n$$\n16.50 - 15\n=\n1.50\n$$\n\nThe ratio of the 1st variety to the 2nd variety is the ratio of these differences:\n\n$$\n3.50 : 1.50\n$$\n\nTo simplify this ratio, we multiply both sides by 10 and then divide by 5:\n\n$$\n35 : 15\n=\n7 : 3\n$$\n\nThus, the required ratio is 7 : 3.",
+      "shortcut_solution": "Using the alligation cross-method:\n\n$$\n\\text{Cost 1: } 15 \\quad \\quad \\quad \\text{Cost 2: } 20\n$$\n\n$$\n\\quad \\quad \\quad \\text{Mean: } 16.50\n$$\n\nSubtract diagonally:\n\n$$\n(20 - 16.50) : (16.50 - 15)\n=\n3.50 : 1.50\n=\n7 : 3\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "alligation",
+        "ratio",
+        "weighted average"
+      ],
+      "prerequisites": [
+        "ratio",
+        "arithmetic"
+      ],
+      "formulas_used": [
+        "\\text{Ratio} = (\\text{Price}_2 - \\text{Mean}): $(\\text{Mean} - \\text{Price}_1)$"
+      ],
+      "hints": [
+        "Use the alligation rule where the ratio of quantities is inversely proportional to the difference from the mean price.",
+        "Ensure the mean price is between the two individual prices."
+      ],
+      "common_mistakes": [
+        "Subtracting the mean price from the wrong cost, leading to an inverted ratio.",
+        "Forgetting to simplify the final ratio."
+      ],
+      "related_patterns": [
+        "mixture problems",
+        "weighted average problems"
+      ],
+      "confusing_patterns": [
+        "percentage profit problems"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "2",
+      "sub_pattern": "Alligation Basics",
+      "pattern_doc": "alligation_basics.md",
+      "paraphrased_question": "Find the ratio in which rice at ₹ 7.20 a kg be mixed with rice at ₹ 5.70 a kg to produce a mixture worth ₹ 6.30 a kg.",
+      "paraphrased_option_a": "1 : 3",
+      "paraphrased_option_b": "2 : 3",
+      "paraphrased_option_c": "3 : 4",
+      "paraphrased_option_d": "4 : 5",
+      "paraphrased_correct_option": "b",
+      "paraphrased_final_answer": "2 : 3",
+      "traditional_solution": "To find the ratio of the two types of rice, we use the rule of alligation. It is easier to work with whole numbers, so we convert the prices from rupees to paise (1 rupee = 100 paise).\n\nCost of 1st kind = 720 paise\n\nCost of 2nd kind = 570 paise\n\nMean price = 630 paise\n\nWe calculate the difference between the mean price and each individual cost:\n\nDifference for the 1st kind (relative to the 2nd kind) is\n\n$$\n720 - 630\n=\n90\n$$\n\nDifference for the 2nd kind (relative to the 1st kind) is\n\n$$\n630 - 570\n=\n60\n$$\n\nThe ratio of the 1st kind to the 2nd kind is the ratio of these differences:\n\n$$\n60 : 90\n$$\n\nSimplifying the ratio by dividing both sides by 30 gives\n\n$$\n2 : 3\n$$\n\nThus, the required ratio is 2 : 3.",
+      "shortcut_solution": "Convert to paise and apply alligation:\n\n$$\n(630 - 570) : (720 - 630)\n=\n60 : 90\n=\n2 : 3\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "alligation",
+        "ratio"
+      ],
+      "prerequisites": [
+        "ratio",
+        "arithmetic"
+      ],
+      "formulas_used": [
+        "\\text{Ratio} = (\\text{Mean} - \\text{Price}_2): $(\\text{Price}_1 - \\text{Mean})$"
+      ],
+      "hints": [
+        "Convert decimals to integers to simplify subtraction.",
+        "The ratio is always (Mean - Price_lower) : (Price_higher - Mean)."
+      ],
+      "common_mistakes": [
+        "Mixing up the order of the ratio.",
+        "Arithmetic errors when subtracting decimals."
+      ],
+      "related_patterns": [
+        "mixture problems"
+      ],
+      "confusing_patterns": [
+        "simple interest problems"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "3",
+      "sub_pattern": "Alligation Basics",
+      "pattern_doc": "alligation_basics.md",
+      "paraphrased_question": "In what ratio must tea at ₹ 62 per kg be mixed with tea at ₹ 72 per kg so that the mixture must be worth ₹ 64.50 per kg ?",
+      "paraphrased_option_a": "3 : 1",
+      "paraphrased_option_b": "3 : 2",
+      "paraphrased_option_c": "4 : 3",
+      "paraphrased_option_d": "5 : 3",
+      "paraphrased_correct_option": "a",
+      "paraphrased_final_answer": "3 : 1",
+      "traditional_solution": "We use the rule of alligation to find the ratio. First, convert the prices to paise to avoid decimals:\n\nCost of 1st kind = 6200 paise\n\nCost of 2nd kind = 7200 paise\n\nMean price = 6450 paise\n\nNow, find the differences:\n\nDifference for the 1st kind (relative to the 2nd kind) is\n\n$$\n7200 - 6450\n=\n750\n$$\n\nDifference for the 2nd kind (relative to the 1st kind) is\n\n$$\n6450 - 6200\n=\n250\n$$\n\nThe ratio of the 1st kind to the 2nd kind is\n\n$$\n750 : 250\n$$\n\nDividing both sides by 250 gives\n\n$$\n3 : 1\n$$\n\nThus, the required ratio is 3 : 1.",
+      "shortcut_solution": "Using alligation:\n\n$$\n(7200 - 6450) : (6450 - 6200)\n=\n750 : 250\n=\n3 : 1\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "alligation",
+        "ratio"
+      ],
+      "prerequisites": [
+        "ratio",
+        "arithmetic"
+      ],
+      "formulas_used": [
+        "\\text{Ratio} = (\\text{Price}_2 - \\text{Mean}): $(\\text{Mean} - \\text{Price}_1)$"
+      ],
+      "hints": [
+        "Convert to paise to remove decimals.",
+        "The ratio is the difference between the mean and the individual prices."
+      ],
+      "common_mistakes": [
+        "Incorrectly calculating the difference between the mean and the prices.",
+        "Simplifying the ratio incorrectly."
+      ],
+      "related_patterns": [
+        "mixture problems"
+      ],
+      "confusing_patterns": [
+        "average speed problems"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "4",
+      "sub_pattern": "Mixture Replacement",
+      "pattern_doc": "mixture_replacement.md",
+      "paraphrased_question": "In what ratio must water be mixed with milk costing ₹ 12 per litre to obtain a mixture worth of ₹ 8 per litre ?",
+      "paraphrased_option_a": "1 : 2",
+      "paraphrased_option_b": "2 : 1",
+      "paraphrased_option_c": "2 : 3",
+      "paraphrased_option_d": "3 : 2",
+      "paraphrased_correct_option": "a",
+      "paraphrased_final_answer": "1 : 2",
+      "traditional_solution": "To solve this, we treat water as an ingredient with a cost of ₹ 0 per litre, as it is assumed to be free. We then apply the rule of alligation.\n\nCost of water = ₹ 0 per litre\n\nCost of milk = ₹ 12 per litre\n\nMean price of the mixture = ₹ 8 per litre\n\nNow, calculate the differences:\n\nDifference for water (relative to milk) is\n\n$$\n12 - 8\n=\n4\n$$\n\nDifference for milk (relative to water) is\n\n$$\n8 - 0\n=\n8\n$$\n\nThe ratio of water to milk is the ratio of these differences:\n\n$$\n4 : 8\n$$\n\nSimplifying the ratio by dividing both sides by 4 gives\n\n$$\n1 : 2\n$$\n\nThus, the required ratio is 1 : 2.",
+      "shortcut_solution": "Using alligation with water cost as 0:\n\n$$\n(12 - 8) : (8 - 0)\n=\n4 : 8\n=\n1 : 2\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "alligation",
+        "ratio"
+      ],
+      "prerequisites": [
+        "ratio",
+        "arithmetic"
+      ],
+      "formulas_used": [
+        "\\text{Ratio} = (\\text{Price}_{\\text{milk}} - \\text{Mean}): $(\\text{Mean} - \\text{Price}_{\\text{water}})$"
+      ],
+      "hints": [
+        "Remember that the cost of water is 0.",
+        "Apply the standard alligation cross-subtraction."
+      ],
+      "common_mistakes": [
+        "Assuming water has a cost.",
+        "Inverting the ratio of water to milk."
+      ],
+      "related_patterns": [
+        "mixture problems"
+      ],
+      "confusing_patterns": [
+        "profit and loss problems"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "5",
+      "sub_pattern": "Missing Component Price",
+      "pattern_doc": "missing_component_price.md",
+      "paraphrased_question": "The cost of Type 1 rice is ₹ 15 per kg and Type 2 rice is ₹ 20 per kg. If both Type 1 and Type 2 are mixed in the ratio of 2 : 3, then the price per kg of the mixed variety of rice is",
+      "paraphrased_option_a": "₹ 18",
+      "paraphrased_option_b": "₹ 18.50",
+      "paraphrased_option_c": "₹ 19",
+      "paraphrased_option_d": "₹ 19.50",
+      "paraphrased_correct_option": "a",
+      "paraphrased_final_answer": "₹ 18",
+      "traditional_solution": "Let the price of the mixed variety be ₹ $x$ per kg. We use the rule of alligation, which states that the ratio of the quantities of two ingredients is inversely proportional to the difference between their individual costs and the mean price.\n\nCost of Type 1 = ₹ 15\n\nCost of Type 2 = ₹ 20\n\nMean price = ₹ $x$\n\nAccording to the rule of alligation:\n\n$$\n\\frac{20 - x}{x - 15} = \\frac{2}{3}\n$$\n\nNow, we solve for $x$ by cross-multiplying:\n\n$$\n3(20 - x) = 2(x - 15)\n$$\n\n$$\n60 - 3x = 2x - 30\n$$\n\nRearranging the terms to group $x$ on one side:\n\n$$\n60 + 30 = 2x + 3x\n$$\n\n$$\n90 = 5x\n$$\n\n$$\nx = \\frac{90}{5} = 18\n$$\n\nThus, the price of the mixture is ₹ 18 per kg.",
+      "shortcut_solution": "The mean price is the weighted average of the two costs:\n\n$$\n\\text{Mean} = \\frac{(15 \\times 2) + (20 \\times 3)}{2 + 3}\n$$\n\n$$\n\\text{Mean} = \\frac{30 + 60}{5} = \\frac{90}{5} = 18\n$$\n\nSo, the price is ₹ 18.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "weighted average",
+        "ratio"
+      ],
+      "prerequisites": [
+        "algebra",
+        "ratio",
+        "weighted average"
+      ],
+      "formulas_used": [
+        "$\\text{Mean Price} = \\frac{C_1Q_1 + C_2Q_2}{Q_1 + Q_2}$"
+      ],
+      "hints": [
+        "The mean price is the weighted average of the individual prices based on the given ratio.",
+        "You can also use the alligation formula to set up an equation."
+      ],
+      "common_mistakes": [
+        "Calculating a simple average instead of a weighted average.",
+        "Algebraic errors when solving for x."
+      ],
+      "related_patterns": [
+        "weighted average problems"
+      ],
+      "confusing_patterns": [
+        "simple average problems"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "6",
+      "sub_pattern": "Profit-Based Alligation",
+      "pattern_doc": "profit_based_alligation.md",
+      "paraphrased_question": "In what ratio must a grocer mix two varieties of tea worth ₹ 60 a kg and ₹ 65 a kg so that by selling the mixture at ₹ 68.20 a kg he may gain 10%?",
+      "paraphrased_option_a": "3 : 2",
+      "paraphrased_option_b": "3 : 4",
+      "paraphrased_option_c": "3 : 5",
+      "paraphrased_option_d": "4 : 5",
+      "paraphrased_correct_option": "a",
+      "paraphrased_final_answer": "3 : 2",
+      "traditional_solution": "First, we must find the cost price (C.P.) of the mixture. The selling price (S.P.) is ₹ 68.20 and the gain is 10%. Since the gain is calculated on the cost price, we use the formula $\\text{C.P.} = \\frac{100}{100 + \\text{Gain}\\%} \\times \\text{S.P.}$.\n\n$$ \\frac{100}{110} \\times 68.20 = 62 $$\n\nSo, the cost price of the mixture is ₹ 62 per kg.\n\nNext, we use the rule of alligation to find the ratio. We place the cost of the first variety (₹ 60) and the second variety (₹ 65) at the top, and the mean price (₹ 62) in the center.\n\n$$ 65 - 62 = 3 $$\n\n$$ 62 - 60 = 2 $$\n\nBy subtracting the mean price from the individual prices, we find the ratio of the quantities of the two varieties is $3 : 2$.",
+      "shortcut_solution": "Calculate the mean cost price:\n\n$$ \\frac{68.20}{1.1} = 62 $$\n\nApply alligation:\n\n$$ (65 - 62) : (62 - 60) = 3 : 2 $$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "alligation",
+        "profit and loss",
+        "ratio"
+      ],
+      "prerequisites": [
+        "profit and loss",
+        "ratio"
+      ],
+      "formulas_used": [
+        "$\\text{C.P.} = \\frac{100}{100 + \\text{Gain}\\%} \\times \\text{S.P.}$"
+      ],
+      "hints": [
+        "Always convert the selling price of the mixture to its cost price before applying alligation.",
+        "The mean price must lie between the prices of the two individual components."
+      ],
+      "common_mistakes": [
+        "Using the selling price directly in the alligation rule instead of the cost price.",
+        "Mixing up the order of the ratio."
+      ],
+      "related_patterns": [
+        "mixture of two liquids",
+        "weighted average problems"
+      ],
+      "confusing_patterns": [
+        "problems where gain is on selling price"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "7",
+      "sub_pattern": "Profit-Based Alligation",
+      "pattern_doc": "profit_based_alligation.md",
+      "paraphrased_question": "How many kilograms of sugar costing ₹ 9 per kg must be mixed with 27 kg of sugar costing ₹ 7 per kg so that there may be a gain of 10% by selling the mixture at ₹ 9.24 per kg ?",
+      "paraphrased_option_a": "36 kg",
+      "paraphrased_option_b": "42 kg",
+      "paraphrased_option_c": "54 kg",
+      "paraphrased_option_d": "63 kg",
+      "paraphrased_correct_option": "d",
+      "paraphrased_final_answer": "63 kg",
+      "traditional_solution": "First, we find the cost price (C.P.) of the mixture. Given the S.P. is ₹ 9.24 and gain is 10%, we calculate:\n\n$$ \\frac{100}{110} \\times 9.24 = 8.40 $$\n\nThe cost price of the mixture is ₹ 8.40 per kg.\n\nNext, we apply the rule of alligation to find the ratio of the two types of sugar:\n\n$$ (9 - 8.40) = 0.60 $$\n\n$$ (8.40 - 7) = 1.40 $$\n\nThe ratio of the first type (₹ 9) to the second type (₹ 7) is $1.40 : 0.60$, which simplifies to $7 : 3$.\n\nWe are given that 27 kg of the second type is used. Let $x$ be the quantity of the first type. Since the ratio is $7 : 3$, we have:\n\n$$ \\frac{x}{27} = \\frac{7}{3} $$\n\n$$ x = \\frac{7 \\times 27}{3} = 63 $$\n\nThus, 63 kg of the first type is required.",
+      "shortcut_solution": "Find mean C.P.:\n\n$$ \\frac{9.24}{1.1} = 8.4 $$\n\nRatio of quantities:\n\n$$ (8.4 - 7) : (9 - 8.4) = 1.4 : 0.6 = 7 : 3 $$\n\nSince 3 parts = 27 kg, 1 part = 9 kg. Therefore, 7 parts = $7 \\times 9 = 63$ kg.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "ratio",
+        "profit and loss"
+      ],
+      "prerequisites": [
+        "ratio",
+        "profit and loss"
+      ],
+      "formulas_used": [
+        "$\\text{C.P.} = \\frac{100}{100 + \\text{Gain}\\%} \\times \\text{S.P.}$"
+      ],
+      "hints": [
+        "Calculate the mean cost price first.",
+        "Use the ratio derived from alligation to find the unknown quantity."
+      ],
+      "common_mistakes": [
+        "Calculating the ratio of the second type to the first type instead of the first to the second.",
+        "Incorrectly applying the gain percentage."
+      ],
+      "related_patterns": [
+        "mixture problems with known quantities"
+      ],
+      "confusing_patterns": [
+        "problems where the total quantity is given instead of one component"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "8",
+      "sub_pattern": "Profit-Based Alligation",
+      "pattern_doc": "profit_based_alligation.md",
+      "paraphrased_question": "In what ratio must water be mixed with milk to gain $16\\frac{2}{3}$% on selling the mixture at cost price ?",
+      "paraphrased_option_a": "1 : 6",
+      "paraphrased_option_b": "6 : 1",
+      "paraphrased_option_c": "2 : 3",
+      "paraphrased_option_d": "4 : 3",
+      "paraphrased_correct_option": "a",
+      "paraphrased_final_answer": "1 : 6",
+      "traditional_solution": "Let the cost price (C.P.) of 1 litre of milk be ₹ 1. Since the milkman sells the mixture at the cost price of milk, the S.P. of 1 litre of the mixture is ₹ 1. The gain is $16\\frac{2}{3}\\% = \\frac{50}{3}\\%$.\n\nTo find the C.P. of the mixture, we use the formula $\\text{C.P.} = \\frac{100}{100 + \\text{Gain}\\%} \\times \\text{S.P.}$.\n\n$$ \\frac{100}{100 + \\frac{50}{3}} \\times 1 = \\frac{100}{\\frac{350}{3}} = \\frac{300}{350} = \\frac{6}{7} $$\n\nThe cost price of the mixture is $\\frac{6}{7}$ per litre. Water has a cost price of 0.\n\nUsing alligation:\n\n$$ \\text{Milk (C.P. 1)} : \\text{Water (C.P. 0)} $$\n\n$$ \\text{Mean price} = \\frac{6}{7} $$\n\n$$ \\text{Ratio} = (\\frac{6}{7} - 0) : (1 - \\frac{6}{7}) = \\frac{6}{7} : \\frac{1}{7} = 6 : 1 $$\n\nSince the question asks for the ratio of water to milk, we invert this to get $1 : 6$.",
+      "shortcut_solution": "When selling at cost price, the gain percentage is equivalent to the ratio of water to milk. Gain = $\\frac{50}{3}\\% = \\frac{50}{300} = \\frac{1}{6}$. Thus, the ratio of water to milk is $1 : 6$.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "profit and loss",
+        "ratio"
+      ],
+      "prerequisites": [
+        "fractions",
+        "percentages"
+      ],
+      "formulas_used": [
+        "$\\text{Ratio of water to milk} = \\frac{\\text{Gain}\\%}{100}$"
+      ],
+      "hints": [
+        "Assume the cost of milk is ₹ 1 per litre.",
+        "Water is assumed to have a cost price of 0."
+      ],
+      "common_mistakes": [
+        "Confusing the ratio of water to milk with milk to water.",
+        "Incorrectly calculating the cost price of the mixture."
+      ],
+      "related_patterns": [
+        "dishonest milkman problems"
+      ],
+      "confusing_patterns": [
+        "problems where the mixture is sold at a profit over the cost price"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "9",
+      "sub_pattern": "Profit-Based Alligation",
+      "pattern_doc": "profit_based_alligation.md",
+      "paraphrased_question": "A dishonest milkman professes to sell his milk at cost price but he mixes it with water and thereby gains 25%. The percentage of water in the mixture is",
+      "paraphrased_option_a": "4%",
+      "paraphrased_option_b": "$16\\frac{1}{4}$%",
+      "paraphrased_option_c": "20%",
+      "paraphrased_option_d": "25%",
+      "paraphrased_correct_option": "c",
+      "paraphrased_final_answer": "20%",
+      "traditional_solution": "Let the cost price (C.P.) of 1 litre of milk be ₹ 1. The milkman sells the mixture at the cost price of milk, so the S.P. of 1 litre of the mixture is ₹ 1. The gain is 25%.\n\nWe find the C.P. of the mixture:\n\n$$ \\text{C.P.} = \\frac{100}{125} \\times 1 = \\frac{4}{5} $$\n\nUsing alligation with milk (C.P. 1) and water (C.P. 0):\n\n$$ (\\frac{4}{5} - 0) : (1 - \\frac{4}{5}) = \\frac{4}{5} : \\frac{1}{5} = 4 : 1 $$\n\nThe ratio of milk to water is $4 : 1$. This means in every 5 parts of the mixture, 1 part is water.\n\nTo find the percentage of water:\n\n$$ \\frac{1}{5} \\times 100\\% = 20\\% $$\n\nThus, the percentage of water in the mixture is 20%.",
+      "shortcut_solution": "Gain of 25% means $\\frac{1}{4}$ of the milk is water. If the ratio of water to milk is $1 : 4$, the total mixture is 5 parts. Water percentage = $\\frac{1}{5} \\times 100\\% = 20\\%$.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "profit and loss",
+        "percentages"
+      ],
+      "prerequisites": [
+        "ratios",
+        "percentages"
+      ],
+      "formulas_used": [
+        "$\\text{Percentage} = \\frac{\\text{Part}}{\\text{Whole}} \\times 100$"
+      ],
+      "hints": [
+        "The gain percentage directly relates to the ratio of water to milk.",
+        "Remember that the total mixture includes both milk and water."
+      ],
+      "common_mistakes": [
+        "Calculating the percentage of water relative to milk instead of the total mixture.",
+        "Assuming the gain percentage is the water percentage."
+      ],
+      "related_patterns": [
+        "dishonest milkman problems"
+      ],
+      "confusing_patterns": [
+        "problems where the milkman sells at a profit"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "10",
+      "sub_pattern": "Vessel Mixing",
+      "pattern_doc": "vessel_mixing.md",
+      "paraphrased_question": "Two vessels A and B contain spirit and water mixed in the ratio 5 : 2 and 7 : 6 respectively. Find the ratio in which these mixtures be mixed to obtain a new mixture in vessel C containing spirit and water in the ratio 8 : 5 ?",
+      "paraphrased_option_a": "4 : 3",
+      "paraphrased_option_b": "3 : 4",
+      "paraphrased_option_c": "5 : 6",
+      "paraphrased_option_d": "7 : 9",
+      "paraphrased_correct_option": "d",
+      "paraphrased_final_answer": "7 : 9",
+      "traditional_solution": "We focus on the concentration of spirit in each vessel. \n\nIn vessel A, the ratio of spirit to water is $5 : 2$, so the fraction of spirit is $\\frac{5}{7}$.\n\nIn vessel B, the ratio of spirit to water is $7 : 6$, so the fraction of spirit is $\\frac{7}{13}$.\n\nIn the final mixture C, the ratio of spirit to water is $8 : 5$, so the fraction of spirit is $\\frac{8}{13}$.\n\nWe apply the rule of alligation using these fractions:\n\n$$ (\\frac{8}{13} - \\frac{7}{13}) = \\frac{1}{13} $$\n\n$$ (\\frac{5}{7} - \\frac{8}{13}) = \\frac{65 - 56}{91} = \\frac{9}{91} $$\n\nThe ratio of the mixtures from A and B is $\\frac{1}{13} : \\frac{9}{91}$. To simplify, we multiply both sides by 91:\n\n$$ (\\frac{1}{13} \\times 91) : (\\frac{9}{91} \\times 91) = 7 : 9 $$\n\nThus, the required ratio is $7 : 9$.",
+      "shortcut_solution": "Use alligation on spirit fractions:\n\n$$ \\frac{5}{7}, \\frac{7}{13}, \\text{mean } \\frac{8}{13} $$\n\n$$ (\\frac{8}{13} - \\frac{7}{13}) : (\\frac{5}{7} - \\frac{8}{13}) = \\frac{1}{13} : \\frac{9}{91} = 7 : 9 $$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "hard",
+      "concepts": [
+        "alligation",
+        "fractions",
+        "ratios"
+      ],
+      "prerequisites": [
+        "fractions",
+        "ratios"
+      ],
+      "formulas_used": [
+        "$\\text{Concentration} = \\frac{\\text{Part}}{\\text{Total}}$"
+      ],
+      "hints": [
+        "Convert the ratios into fractions of one component (e.g., spirit).",
+        "Ensure all fractions have a common denominator or use a common multiplier to simplify the final ratio."
+      ],
+      "common_mistakes": [
+        "Using the ratio of water instead of spirit (though this would yield the same result if done consistently).",
+        "Errors in fraction subtraction."
+      ],
+      "related_patterns": [
+        "mixing two solutions of different concentrations"
+      ],
+      "confusing_patterns": [
+        "problems involving three vessels"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "11",
+      "sub_pattern": "Vessel Mixing",
+      "pattern_doc": "vessel_mixing.md",
+      "paraphrased_question": "Two vessels A and B contain milk and water mixed in the ratio $8:5$ and $5:2$ respectively. The ratio in which these two mixtures be mixed to get a new mixture containing $69\\frac{3}{13}\\%$ milk, is",
+      "paraphrased_option_a": "2 : 7",
+      "paraphrased_option_b": "3 : 5",
+      "paraphrased_option_c": "5 : 2",
+      "paraphrased_option_d": "5 : 7",
+      "paraphrased_correct_option": "a",
+      "paraphrased_final_answer": "2 : 7",
+      "traditional_solution": "To compare the mixtures, we first find the fraction of milk in each vessel. In vessel A, the ratio of milk to water is $8:5$, so the total parts are $8+5=13$. Thus, the fraction of milk is $\\frac{8}{13}$.\n\nIn vessel B, the ratio of milk to water is $5:2$, so the total parts are $5+2=7$. Thus, the fraction of milk is $\\frac{5}{7}$.\n\nThe target mixture contains $69\\frac{3}{13}\\%$ milk. We convert this percentage to a fraction:\n\n$$\n69\\frac{3}{13}\\% = \\frac{900}{13}\\% = \\frac{900}{13} \\times \\frac{1}{100} = \\frac{9}{13}\n$$\n\nWe use the rule of alligation to find the ratio of the two mixtures. The rule states that the ratio of the quantities of two mixtures is the inverse ratio of the differences between their individual concentrations and the mean concentration.\n\nDifference between vessel B and mean:\n\n$$\n\\frac{5}{7} - \\frac{9}{13} = \\frac{65 - 63}{91} = \\frac{2}{91}\n$$\n\nDifference between vessel A and mean:\n\n$$\n\\frac{9}{13} - \\frac{8}{13} = \\frac{1}{13} = \\frac{7}{91}\n$$\n\nThe required ratio is the ratio of these differences:\n\n$$\n\\frac{2}{91} : \\frac{7}{91} = 2 : 7\n$$",
+      "shortcut_solution": "Convert all concentrations to fractions with a common denominator of $91$:\n\nMixture A: $\\frac{8}{13} = \\frac{56}{91}$\n\nMixture B: $\\frac{5}{7} = \\frac{65}{91}$\n\nMean: $\\frac{9}{13} = \\frac{63}{91}$\n\nUsing the alligation cross-difference method:\n\n$$\n\\text{Ratio} = \\left( \\frac{65}{91} - \\frac{63}{91} \\right) : \\left( \\frac{63}{91} - \\frac{56}{91} \\right) = \\frac{2}{91} : \\frac{7}{91} = 2 : 7\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "ratios",
+        "fractions",
+        "percentages"
+      ],
+      "prerequisites": [
+        "ratios",
+        "fractions",
+        "percentages"
+      ],
+      "formulas_used": [
+        "$\\text{Ratio of quantities} \\propto \\text{Difference of concentrations}$"
+      ],
+      "hints": [
+        "Convert the percentage of milk in the final mixture into a fraction first.",
+        "Express all milk concentrations as fractions with a common denominator to make subtraction easier.",
+        "Apply the alligation rule: (Concentration B - Mean) : (Mean - Concentration A)."
+      ],
+      "common_mistakes": [
+        "Forgetting to convert the percentage to a fraction correctly.",
+        "Mixing up the order of subtraction in the alligation rule.",
+        "Using the water ratio instead of the milk ratio."
+      ],
+      "related_patterns": [
+        "mixture problems with two components",
+        "weighted average problems"
+      ],
+      "confusing_patterns": [
+        "problems where the final mixture is given in terms of water instead of milk"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "12",
+      "sub_pattern": "Vessel Mixing",
+      "pattern_doc": "vessel_mixing.md",
+      "paraphrased_question": "A milk vendor has 2 cans of milk. The first contains $25\\%$ water and the rest milk. The second contains $50\\%$ water. How much milk should he mix from each of the containers so as to get 12 litres of milk such that the ratio of water to milk is $3:5$ ?",
+      "paraphrased_option_a": "4 litres, 8 litres",
+      "paraphrased_option_b": "6 litres, 6 litres",
+      "paraphrased_option_c": "5 litres, 7 litres",
+      "paraphrased_option_d": "7 litres, 5 litres",
+      "paraphrased_correct_option": "b",
+      "paraphrased_final_answer": "6 litres, 6 litres",
+      "traditional_solution": "First, we determine the milk concentration in each container. Container 1 has $25\\%$ water, so it has $75\\%$ milk, which is $\\frac{3}{4}$ milk.\n\nContainer 2 has $50\\%$ water, so it has $50\\%$ milk, which is $\\frac{1}{2}$ milk.\n\nThe final mixture has a water-to-milk ratio of $3:5$. The total parts are $3+5=8$, so the milk fraction is $\\frac{5}{8}$.\n\nWe use the rule of alligation to find the ratio of the two mixtures:\n\nDifference between Container 2 and mean:\n\n$$\n\\frac{1}{2} - \\frac{5}{8} = \\frac{4}{8} - \\frac{5}{8} = -\\frac{1}{8} \\text{ (take absolute value: } \\frac{1}{8} \\text{)}\n$$\n\nDifference between Container 1 and mean:\n\n$$\n\\frac{3}{4} - \\frac{5}{8} = \\frac{6}{8} - \\frac{5}{8} = \\frac{1}{8}\n$$\n\nThe ratio of the two mixtures is $\\frac{1}{8} : \\frac{1}{8} = 1:1$.\n\nSince the total volume is 12 litres, we divide it equally:\n\n$$\n\\text{Volume from each} = \\frac{1}{2} \\times 12 = 6 \\text{ litres}\n$$",
+      "shortcut_solution": "Convert all to milk fractions: $\\frac{3}{4}$, $\\frac{1}{2}$, and $\\frac{5}{8}$.\n\nUsing alligation:\n\n$$\n\\text{Ratio} = \\left| \\frac{1}{2} - \\frac{5}{8} \\right| : \\left| \\frac{3}{4} - \\frac{5}{8} \\right| = \\frac{1}{8} : \\frac{1}{8} = 1:1\n$$\n\nSince the ratio is $1:1$, the 12 litres are split equally into 6 litres each.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "ratios",
+        "fractions"
+      ],
+      "prerequisites": [
+        "ratios",
+        "fractions"
+      ],
+      "formulas_used": [
+        "$\\text{Ratio of quantities} \\propto \\text{Difference of concentrations}$"
+      ],
+      "hints": [
+        "Convert all percentages to fractions of milk.",
+        "The ratio of water to milk $3:5$ means the milk fraction is $\\frac{5}{8}$.",
+        "The alligation rule gives the ratio of the volumes taken from each container."
+      ],
+      "common_mistakes": [
+        "Using the water percentage instead of the milk percentage.",
+        "Confusing the ratio of water to milk with the fraction of milk.",
+        "Forgetting to divide the total volume by the sum of the ratio parts."
+      ],
+      "related_patterns": [
+        "mixture problems",
+        "weighted averages"
+      ],
+      "confusing_patterns": [
+        "problems where the final quantity is given as a ratio of components rather than a total volume"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "13",
+      "sub_pattern": "Missing Component Price",
+      "pattern_doc": "missing_component_price.md",
+      "paraphrased_question": "One quality of wheat at ₹ 9.30 per kg is mixed with another quality at a certain rate in the ratio $8:7$. If the mixture so formed be worth ₹ 10 per kg, what is the rate per kg of the second quality of wheat ?",
+      "paraphrased_option_a": "₹ 10.30",
+      "paraphrased_option_b": "₹ 10.60",
+      "paraphrased_option_c": "₹ 10.80",
+      "paraphrased_option_d": "₹ 11",
+      "paraphrased_correct_option": "c",
+      "paraphrased_final_answer": "₹ 10.80",
+      "traditional_solution": "Let the rate of the second quality of wheat be ₹ $x$ per kg. We use the rule of alligation, where the ratio of the quantities is equal to the inverse ratio of the differences between the individual prices and the mean price.\n\nPrice of 1st quality = ₹ 9.30\nPrice of 2nd quality = ₹ $x$\nMean price = ₹ 10.00\n\nThe differences are:\n\nDifference 1 (between 2nd quality and mean) = $x - 10$\n\nDifference 2 (between mean and 1st quality) = $10 - 9.30 = 0.70$\n\nThe ratio of the quantities is given as $8:7$. Therefore:\n\n$$\n\\frac{x - 10}{0.70} = \\frac{8}{7}\n$$\n\nTo solve for $x$, we cross-multiply:\n\n$$\n7(x - 10) = 8 \\times 0.70\n$$\n\n$$\n7x - 70 = 5.60\n$$\n\n$$\n7x = 75.60\n$$\n\n$$\nx = \\frac{75.60}{7} = 10.80\n$$\n\nThus, the rate of the second quality is ₹ 10.80 per kg.",
+      "shortcut_solution": "Using the weighted average formula:\n\n$$\n\\frac{8 \\times 9.30 + 7 \\times x}{8 + 7} = 10\n$$\n\n$$\n74.40 + 7x = 150\n$$\n\n$$\n7x = 75.60\n$$\n\n$$\nx = 10.80\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "weighted average",
+        "ratios"
+      ],
+      "prerequisites": [
+        "ratios",
+        "linear equations"
+      ],
+      "formulas_used": [
+        "$\\text{Mean Price} = \\frac{Q_1P_1 + Q_2P_2}{Q_1 + Q_2}$"
+      ],
+      "hints": [
+        "Use the alligation formula: (Price 2 - Mean) / (Mean - Price 1) = Ratio 1 / Ratio 2.",
+        "Alternatively, use the weighted average formula.",
+        "Ensure the units are consistent."
+      ],
+      "common_mistakes": [
+        "Swapping the ratio values.",
+        "Incorrectly setting up the difference equation.",
+        "Arithmetic errors in decimal multiplication."
+      ],
+      "related_patterns": [
+        "weighted average problems",
+        "mixture price problems"
+      ],
+      "confusing_patterns": [
+        "problems where the ratio is not given directly"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "14",
+      "sub_pattern": "Missing Component Price",
+      "pattern_doc": "missing_component_price.md",
+      "paraphrased_question": "Tea worth ₹ 126 per kg and ₹ 135 per kg are mixed with a third variety in the ratio $1:1:2$. If the mixture is worth ₹ 153 per kg, the price of the third variety per kg will be :",
+      "paraphrased_option_a": "₹ 169.50",
+      "paraphrased_option_b": "₹ 170",
+      "paraphrased_option_c": "₹ 175.50",
+      "paraphrased_option_d": "₹ 180",
+      "paraphrased_correct_option": "c",
+      "paraphrased_final_answer": "₹ 175.50",
+      "traditional_solution": "Since the first two varieties are mixed in a $1:1$ ratio, we can treat them as a single combined variety to simplify the problem. The average price of this combined variety is:\n\n$$\n\\frac{126 + 135}{2} = 130.50\n$$\n\nNow, we have two components: the combined variety (price ₹ 130.50) and the third variety (price ₹ $x$). The ratio of the combined variety to the third variety is $2:2$, which simplifies to $1:1$.\n\nWe use the rule of alligation:\n\n$$\n\\frac{x - 153}{153 - 130.50} = \\frac{1}{1}\n$$\n\n$$\n\\frac{x - 153}{22.50} = 1\n$$\n\n$$\nx - 153 = 22.50\n$$\n\n$$\nx = 175.50\n$$\n\nThus, the price of the third variety is ₹ 175.50 per kg.",
+      "shortcut_solution": "Using the weighted average formula for the three components:\n\n$$\n\\frac{1 \\times 126 + 1 \\times 135 + 2 \\times x}{1 + 1 + 2} = 153\n$$\n\n$$\n261 + 2x = 153 \\times 4\n$$\n\n$$\n261 + 2x = 612\n$$\n\n$$\n2x = 351\n$$\n\n$$\nx = 175.50\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "weighted average",
+        "ratios"
+      ],
+      "prerequisites": [
+        "ratios",
+        "weighted average"
+      ],
+      "formulas_used": [
+        "$\\text{Mean Price} = \\frac{\\sum (Q_i \\times P_i)}{\\sum Q_i}$"
+      ],
+      "hints": [
+        "Combine the first two varieties since they are in a $1:1$ ratio.",
+        "Use the weighted average formula for a quick solution.",
+        "Remember that the third variety has a weight of 2 in the total mixture."
+      ],
+      "common_mistakes": [
+        "Forgetting to weight the third variety by 2.",
+        "Incorrectly calculating the average of the first two varieties.",
+        "Arithmetic errors in the final division."
+      ],
+      "related_patterns": [
+        "weighted average problems",
+        "mixture price problems"
+      ],
+      "confusing_patterns": [
+        "problems where the ratio is not given as a simple sum"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "15",
+      "sub_pattern": "Quantity Adjustment",
+      "pattern_doc": "quantity_adjustment.md",
+      "paraphrased_question": "A merchant has 1000 kg of sugar, part of which he sells at $8\\%$ profit and the rest at $18\\%$ profit. He gains $14\\%$ on the whole. The quantity sold at $18\\%$ profit is",
+      "paraphrased_option_a": "400 kg",
+      "paraphrased_option_b": "560 kg",
+      "paraphrased_option_c": "600 kg",
+      "paraphrased_option_d": "640 kg",
+      "paraphrased_correct_option": "c",
+      "paraphrased_final_answer": "600 kg",
+      "traditional_solution": "We use the rule of alligation to find the ratio in which the two parts are mixed. The profit percentages act as the concentrations.\n\nProfit 1 = $8\\%$\nProfit 2 = $18\\%$\nMean Profit = $14\\%$\n\nDifferences:\n\nDifference 1 (between Profit 2 and Mean) = $18 - 14 = 4$\n\nDifference 2 (between Mean and Profit 1) = $14 - 8 = 6$\n\nThe ratio of the two parts is $4:6$, which simplifies to $2:3$.\n\nThe total quantity is 1000 kg. The part sold at $18\\%$ profit corresponds to the second part of the ratio (3 parts out of $2+3=5$ total parts).\n\n$$\n\\text{Quantity} = \\frac{3}{5} \\times 1000 = 600 \\text{ kg}\n$$",
+      "shortcut_solution": "Let $x$ be the quantity sold at $18\\%$ profit. Then $(1000-x)$ is sold at $8\\%$ profit.\n\n$$\n0.08(1000-x) + 0.18x = 0.14(1000)\n$$\n\n$$\n80 - 0.08x + 0.18x = 140\n$$\n\n$$\n0.10x = 60\n$$\n\n$$\nx = 600\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "alligation",
+        "percentages",
+        "ratios"
+      ],
+      "prerequisites": [
+        "percentages",
+        "ratios"
+      ],
+      "formulas_used": [
+        "$\\text{Ratio of quantities} \\propto \\text{Difference of profit percentages}$"
+      ],
+      "hints": [
+        "Use the alligation rule with the profit percentages.",
+        "The ratio obtained is the ratio of the quantities of sugar.",
+        "Divide the total quantity according to the ratio."
+      ],
+      "common_mistakes": [
+        "Mixing up the ratio parts for the two profit percentages.",
+        "Incorrectly calculating the total parts in the ratio.",
+        "Arithmetic errors when calculating the final quantity."
+      ],
+      "related_patterns": [
+        "mixture problems",
+        "weighted average problems"
+      ],
+      "confusing_patterns": [
+        "problems where the profit is given as a fixed amount rather than a percentage"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "16",
+      "sub_pattern": "Quantity Adjustment",
+      "pattern_doc": "quantity_adjustment.md",
+      "paraphrased_question": "A jar full of whisky contains $40\\%$ alcohol. A part of this whisky is replaced by another containing $19\\%$ alcohol and now the percentage of alcohol was found to be $26\\%$. The quantity of whisky replaced is :",
+      "paraphrased_option_a": "$\\frac{1}{3}$",
+      "paraphrased_option_b": "$\\frac{2}{3}$",
+      "paraphrased_option_c": "$\\frac{2}{5}$",
+      "paraphrased_option_d": "$\\frac{3}{5}$",
+      "paraphrased_correct_option": "b",
+      "paraphrased_final_answer": "$\\frac{2}{3}$",
+      "traditional_solution": "We use the rule of alligation to find the ratio of the two liquids. The rule states that when two mixtures are combined, the ratio of the quantities is inversely proportional to the difference between their individual concentrations and the mean concentration.\n\nFirst, identify the concentrations:\n\nStrength of the first liquid = $40\\%$\n\nStrength of the second liquid = $19\\%$\n\nMean strength of the final mixture = $26\\%$\n\nNext, calculate the differences:\n\nDifference between the first liquid and the mean = $40\\% - 26\\% = 14\\%$\n\nDifference between the second liquid and the mean = $26\\% - 19\\% = 7\\%$\n\nTherefore, the ratio of the first liquid to the second liquid is\n\n$$\n7:14\n$$\n\nwhich simplifies to\n\n$$\n1:2\n$$\n\nThis means that for every $1$ part of the original whisky remaining, $2$ parts of the new liquid were added. The total mixture consists of $1+2=3$ parts. Since the $2$ parts of the new liquid replaced the original whisky, the fraction of the original whisky replaced is $\\frac{2}{3}$.",
+      "shortcut_solution": "Using the alligation rule, the ratio of the original liquid to the replaced liquid is the difference of the second liquid from the mean to the difference of the first liquid from the mean:\n\n$$\n\\text{Ratio} = (26-19) : (40-26) = 7 : 14 = 1 : 2\n$$\n\nSince the replaced part is $2$ out of a total of $1+2=3$ parts, the fraction replaced is $\\frac{2}{3}$.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "alligation",
+        "mixtures",
+        "percentages",
+        "ratios"
+      ],
+      "prerequisites": [
+        "ratios",
+        "percentages",
+        "fractions"
+      ],
+      "formulas_used": [
+        "\\text{Ratio of quantities} \\propto |\\text{Concentration}_1 - \\text{Mean}|: $|\\text{Concentration}_2 - \\text{Mean}|$"
+      ],
+      "hints": [
+        "Use the alligation method to find the ratio of the two liquids.",
+        "The mean concentration is the final percentage of alcohol.",
+        "The ratio obtained represents the parts of the original liquid and the new liquid."
+      ],
+      "common_mistakes": [
+        "Mixing up the order of the differences in the alligation rule.",
+        "Forgetting to add the parts of the ratio to find the total fraction.",
+        "Calculating the ratio of the new liquid to the total instead of the replaced part."
+      ],
+      "related_patterns": [
+        "mixture replacement problems",
+        "weighted average problems"
+      ],
+      "confusing_patterns": [
+        "repeated replacement problems (which require powers)"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "17",
+      "sub_pattern": "Mixture Replacement",
+      "pattern_doc": "mixture_replacement.md",
+      "paraphrased_question": "A container contains $40$ litres of milk. From this container $4$ litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container ?",
+      "paraphrased_option_a": "26.34 litres",
+      "paraphrased_option_b": "27.36 litres",
+      "paraphrased_option_c": "28 litres",
+      "paraphrased_option_d": "29.16 litres",
+      "paraphrased_correct_option": "d",
+      "paraphrased_final_answer": "29.16 litres",
+      "traditional_solution": "When a quantity is repeatedly removed and replaced by another, the amount of the original substance remaining after $n$ operations is given by the formula:\n\n$$\n\\text{Remaining amount} = \\text{Initial amount} \\times \\left( 1 - \\frac{\\text{Quantity removed}}{\\text{Total capacity}} \\right)^n\n$$\n\nHere, the initial amount is $40$ litres, the quantity removed in each operation is $4$ litres, and the process is performed a total of $3$ times (the initial time plus two further times).\n\nSubstitute these values into the formula:\n\n$$\n\\text{Remaining milk} = 40 \\times \\left( 1 - \\frac{4}{40} \\right)^3\n$$\n\nSimplify the fraction inside the parentheses:\n\n$$\n1 - \\frac{4}{40} = 1 - \\frac{1}{10} = \\frac{9}{10}\n$$\n\nNow calculate the final amount:\n\n$$\n40 \\times \\left( \\frac{9}{10} \\right)^3 = 40 \\times \\frac{729}{1000}\n$$\n\n$$\n40 \\times 0.729 = 29.16\n$$\n\nThus, the amount of milk remaining is 29.16 litres.",
+      "shortcut_solution": "The fraction of milk remaining after each operation is $\\frac{40-4}{40} = \\frac{9}{10}$. After $3$ operations, the remaining milk is:\n\n$$\n40 \\times \\left( \\frac{9}{10} \\right)^3 = 40 \\times \\frac{729}{1000} = 29.16\n$$\n\nSo, the final amount is 29.16 litres.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "repeated replacement",
+        "mixtures",
+        "fractions"
+      ],
+      "prerequisites": [
+        "fractions",
+        "exponents"
+      ],
+      "formulas_used": [
+        "$\\text{Remaining amount} = \\text{Initial amount} \\times \\left( 1 - \\frac{x}{V} \\right)^n$"
+      ],
+      "hints": [
+        "Identify the total number of operations performed.",
+        "Use the formula for repeated replacement.",
+        "Ensure the fraction represents the remaining part of the original liquid."
+      ],
+      "common_mistakes": [
+        "Counting the number of operations incorrectly (e.g., using 2 instead of 3).",
+        "Confusing the amount removed with the amount remaining.",
+        "Applying the formula to the water instead of the milk."
+      ],
+      "related_patterns": [
+        "successive percentage change",
+        "compound interest"
+      ],
+      "confusing_patterns": [
+        "single replacement problems (which do not use powers)"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "18",
+      "sub_pattern": "Mixture Replacement",
+      "pattern_doc": "mixture_replacement.md",
+      "paraphrased_question": "$8$ litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is $16 : 65$. How much wine did the cask hold originally ?",
+      "paraphrased_option_a": "18 litres",
+      "paraphrased_option_b": "24 litres",
+      "paraphrased_option_c": "32 litres",
+      "paraphrased_option_d": "42 litres",
+      "paraphrased_correct_option": "b",
+      "paraphrased_final_answer": "24 litres",
+      "traditional_solution": "Let the original quantity of wine be $x$ litres. The operation of drawing $8$ litres and replacing it with water is performed a total of $4$ times ($1$ initial time + $3$ more times).\n\nThe amount of wine remaining after $4$ operations is given by:\n\n$$\n\\text{Wine remaining} = x \\left( 1 - \\frac{8}{x} \\right)^4\n$$\n\nThe ratio of wine to water is $16:65$. This means the ratio of wine to the total volume is $16 : (16+65) = 16 : 81$. Since the total volume remains $x$, the amount of wine remaining is $\\frac{16}{81}x$.\n\nEquate the two expressions for the remaining wine:\n\n$$\nx \\left( 1 - \\frac{8}{x} \\right)^4 = \\frac{16}{81} x\n$$\n\nDivide both sides by $x$ (assuming $x \\neq 0$):\n\n$$\n\\left( 1 - \\frac{8}{x} \\right)^4 = \\left( \\frac{2}{3} \\right)^4\n$$\n\nTaking the fourth root of both sides:\n\n$$\n1 - \\frac{8}{x} = \\frac{2}{3}\n$$\n\nRearrange to solve for $x$:\n\n$$\n\\frac{8}{x} = 1 - \\frac{2}{3} = \\frac{1}{3}\n$$\n\n$$\nx = 8 \\times 3 = 24\n$$\n\nThus, the cask originally held 24 litres.",
+      "shortcut_solution": "The ratio of wine to total volume is $\\frac{16}{16+65} = \\frac{16}{81} = (\\frac{2}{3})^4$. The fraction of wine remaining after $4$ operations is $(1 - \\frac{8}{x})^4$. Equating these:\n\n$$\n1 - \\frac{8}{x} = \\frac{2}{3} \\implies \\frac{8}{x} = \\frac{1}{3} \\implies x = 24\n$$\n\nSo, the original quantity is 24 litres.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "hard",
+      "concepts": [
+        "repeated replacement",
+        "ratios",
+        "algebraic equations"
+      ],
+      "prerequisites": [
+        "ratios",
+        "exponents",
+        "algebra"
+      ],
+      "formulas_used": [
+        "$\\text{Remaining wine} = x \\left( 1 - \\frac{r}{x} \\right)^n$"
+      ],
+      "hints": [
+        "Convert the ratio of wine to water into a ratio of wine to total volume.",
+        "Count the total number of operations carefully.",
+        "Use the property that if $a^n = b^n$, then $a = b$ for positive values."
+      ],
+      "common_mistakes": [
+        "Using the ratio $16:65$ directly instead of $16:81$.",
+        "Miscounting the number of operations (using 3 instead of 4).",
+        "Forgetting that the total volume $x$ remains constant."
+      ],
+      "related_patterns": [
+        "repeated replacement problems",
+        "exponential decay"
+      ],
+      "confusing_patterns": [
+        "problems where the total volume changes"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "19",
+      "sub_pattern": "Mixture Replacement",
+      "pattern_doc": "mixture_replacement.md",
+      "paraphrased_question": "A can contains a mixture of two liquids A and B in the ratio $7 : 5$. When $9$ litres of mixture are drawn off and the can is filled with B, the ratio of A and B becomes $7 : 9$. How many litres of liquid A was contained by the can initially?",
+      "paraphrased_option_a": "10",
+      "paraphrased_option_b": "20",
+      "paraphrased_option_c": "21",
+      "paraphrased_option_d": "25",
+      "paraphrased_correct_option": "c",
+      "paraphrased_final_answer": "21",
+      "traditional_solution": "Let the initial quantity of liquid A be $7x$ and liquid B be $5x$. The total volume is $12x$.\n\nWhen $9$ litres of the mixture are drawn off, the amount of A and B removed is proportional to their ratio. The amount of A removed is $\\frac{7}{12} \\times 9 = \\frac{21}{4}$ litres, and the amount of B removed is $\\frac{5}{12} \\times 9 = \\frac{15}{4}$ litres.\n\nAfter removing $9$ litres and adding $9$ litres of B, the new quantities are:\n\nAmount of A = $7x - \\frac{21}{4}$\n\nAmount of B = $5x - \\frac{15}{4} + 9 = 5x + \\frac{21}{4}$\n\nThe new ratio of A to B is $7:9$. Therefore:\n\n$$\n\\frac{7x - \\frac{21}{4}}{5x + \\frac{21}{4}} = \\frac{7}{9}\n$$\n\nMultiply both sides by the denominators:\n\n$$\n9 \\left( 7x - \\frac{21}{4} \\right) = 7 \\left( 5x + \\frac{21}{4} \\right)\n$$\n\n$$\n63x - \\frac{189}{4} = 35x + \\frac{147}{4}\n$$\n\n$$\n63x - 35x = \\frac{147}{4} + \\frac{189}{4}\n$$\n\n$$\n28x = \\frac{336}{4} = 84\n$$\n\n$$\nx = \\frac{84}{28} = 3\n$$\n\nThe initial amount of A was $7x = 7 \\times 3 = 21$ litres.",
+      "shortcut_solution": "Since only liquid B is added, the amount of liquid A changes only when the mixture is drawn off. The ratio of A to total mixture remains constant. Let the total volume be $V$. After drawing $9$ litres, the remaining volume is $V-9$. The amount of A is $\\frac{7}{12}(V-9)$. The new ratio of A to total volume is $\\frac{7}{16}$. Thus:\n\n$$\n\\frac{7}{12}(V-9) = \\frac{7}{16}V \\implies \\frac{V-9}{12} = \\frac{V}{16} \\implies 16V - 144 = 12V \\implies 4V = 144 \\implies V = 36\n$$\n\nInitial A = $\\frac{7}{12} \\times 36 = 21$.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "hard",
+      "concepts": [
+        "mixtures",
+        "ratios",
+        "linear equations"
+      ],
+      "prerequisites": [
+        "ratios",
+        "fractions",
+        "algebra"
+      ],
+      "formulas_used": [
+        "$\\text{New quantity} = \\text{Old quantity} - \\text{Removed quantity} + \\text{Added quantity}$"
+      ],
+      "hints": [
+        "Calculate the amount of each liquid removed based on the initial ratio.",
+        "Set up an equation for the new ratio of A to B.",
+        "Remember that only liquid B is added back."
+      ],
+      "common_mistakes": [
+        "Forgetting to subtract the removed portion of A and B.",
+        "Adding the $9$ litres to the wrong liquid.",
+        "Miscalculating the total volume after replacement."
+      ],
+      "related_patterns": [
+        "mixture replacement problems",
+        "ratio change problems"
+      ],
+      "confusing_patterns": [
+        "problems where both liquids are added"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "20",
+      "sub_pattern": "Mixture Replacement",
+      "pattern_doc": "mixture_replacement.md",
+      "paraphrased_question": "A vessel is filled with liquid, $3$ parts of which are water and $5$ parts syrup. How much of the mixture must be drawn off and replaced with water so that the mixture may be half water and half syrup ?",
+      "paraphrased_option_a": "$\\frac{1}{3}$",
+      "paraphrased_option_b": "$\\frac{1}{4}$",
+      "paraphrased_option_c": "$\\frac{1}{5}$",
+      "paraphrased_option_d": "$\\frac{1}{7}$",
+      "paraphrased_correct_option": "c",
+      "paraphrased_final_answer": "$\\frac{1}{5}$",
+      "traditional_solution": "Suppose the vessel initially contains $8$ litres of liquid (since $3+5=8$). The amount of water is $3$ litres and syrup is $5$ litres.\n\nLet $x$ litres of the mixture be drawn off and replaced with water. When $x$ litres of mixture are removed, the amount of water removed is $\\frac{3}{8}x$ and the amount of syrup removed is $\\frac{5}{8}x$.\n\nAfter adding $x$ litres of water, the new quantities are:\n\nAmount of water = $3 - \\frac{3}{8}x + x = 3 + \\frac{5}{8}x$\n\nAmount of syrup = $5 - \\frac{5}{8}x$\n\nThe problem states the final mixture is half water and half syrup, meaning the ratio is $1:1$. Thus:\n\n$$\n3 + \\frac{5}{8}x = 5 - \\frac{5}{8}x\n$$\n\nCombine the $x$ terms:\n\n$$\n\\frac{5}{8}x + \\frac{5}{8}x = 5 - 3\n$$\n\n$$\n\\frac{10}{8}x = 2\n$$\n\n$$\n\\frac{5}{4}x = 2 \\implies x = \\frac{8}{5}\n$$\n\nThe fraction of the mixture replaced is $\\frac{x}{\\text{Total volume}} = \\frac{8/5}{8} = \\frac{1}{5}$.",
+      "shortcut_solution": "Initial ratio of water to syrup is $3:5$. Final ratio is $1:1$ or $4:4$. The amount of syrup decreased from $5$ parts to $4$ parts, a reduction of $1$ part out of $5$. This reduction is caused by replacing the mixture. The fraction replaced is $\\frac{1}{5}$.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "mixtures",
+        "ratios",
+        "replacement"
+      ],
+      "prerequisites": [
+        "ratios",
+        "fractions",
+        "algebra"
+      ],
+      "formulas_used": [
+        "$\\text{Final quantity} = \\text{Initial quantity} - \\text{Removed quantity} + \\text{Added quantity}$"
+      ],
+      "hints": [
+        "Assume a total volume that is easy to work with, like the sum of the parts.",
+        "Calculate the amount of each liquid removed based on the initial ratio.",
+        "Set the final amounts of water and syrup equal to each other."
+      ],
+      "common_mistakes": [
+        "Forgetting to add the replaced water to the water quantity.",
+        "Miscalculating the fraction of the mixture removed.",
+        "Assuming the total volume changes (it remains constant)."
+      ],
+      "related_patterns": [
+        "mixture replacement problems",
+        "ratio adjustment"
+      ],
+      "confusing_patterns": [
+        "problems where the total volume is not constant"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "21",
+      "sub_pattern": "Profit-Based Alligation",
+      "pattern_doc": "profit_based_alligation.md",
+      "paraphrased_question": "A milkman mixed some water with milk to gain $25\\%$ by selling the mixture at the cost price. The ratio of water and milk is respectively.",
+      "paraphrased_option_a": "5 : 4",
+      "paraphrased_option_b": "4 : 5",
+      "paraphrased_option_c": "1 : 5",
+      "paraphrased_option_d": "1 : 4",
+      "paraphrased_correct_option": "d",
+      "paraphrased_final_answer": "1 : 4",
+      "traditional_solution": "Let the cost price of $1$ litre of pure milk be ₹$100$. Since the milkman sells the mixture at the cost price of milk but gains $25\\%$, the total revenue from the mixture must be $125\\%$ of the cost price of the milk used.\n\nTherefore, the total volume of the mixture sold for the price of $1$ litre of milk is\n\n$$\n\\frac{125}{100}\n=\n\\frac{5}{4}\n$$\n\nlitres. This means that in every $\\frac{5}{4}$ litres of mixture, there is $1$ litre of pure milk, because the milkman is selling the mixture at the cost price of the milk component only.\n\nThe remaining volume in the mixture must be water. Thus, the quantity of water is\n\n$$\n\\frac{5}{4}-1\n=\n\\frac{1}{4}\n$$\n\nlitres. The ratio of water to milk is therefore\n\n$$\n\\frac{1}{4}:1\n=\n1:4\n$$",
+      "shortcut_solution": "When a mixture is sold at cost price to gain $P\\%$, the ratio of water to milk is always $P:100$.\n\nHere, the gain is $25\\%$, so the ratio of water to milk is\n\n$$\n25:100\n=\n1:4\n$$",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "ratio",
+        "fractions",
+        "percentages",
+        "profit sharing"
+      ],
+      "prerequisites": [
+        "ratio",
+        "fractions",
+        "percentages"
+      ],
+      "formulas_used": [
+        "$\\text{Ratio of water to milk} = \\frac{\\text{Profit}\\%}{100}$"
+      ],
+      "hints": [
+        "Assume the cost price of 1 litre of milk is ₹100.",
+        "The gain percentage implies the total volume of the mixture is greater than the volume of pure milk.",
+        "The difference between the total mixture volume and the milk volume is the water added."
+      ],
+      "common_mistakes": [
+        "Calculating the ratio as milk to water instead of water to milk.",
+        "Confusing the gain percentage with the ratio of the components directly."
+      ],
+      "related_patterns": [
+        "dishonest dealer problems",
+        "mixture and alligation"
+      ],
+      "confusing_patterns": [
+        "problems where the mixture is sold at a price other than the cost price"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "22",
+      "sub_pattern": "Quantity Adjustment",
+      "pattern_doc": "quantity_adjustment.md",
+      "paraphrased_question": "$20$ litres of a mixture contains milk and water in the ratio $3 : 1$. Then the amount of milk to be added to the mixture so as to have milk and water in ratio $4 : 1$ is",
+      "paraphrased_option_a": "7 litres",
+      "paraphrased_option_b": "4 litres",
+      "paraphrased_option_c": "5 litres",
+      "paraphrased_option_d": "6 litres",
+      "paraphrased_correct_option": "c",
+      "paraphrased_final_answer": "5 litres",
+      "traditional_solution": "First, we find the initial quantities of milk and water in the $20$ litre mixture. The ratio is $3:1$, so the total number of parts is $3+1=4$.\n\nThe quantity of milk is\n\n$$\n\\frac{3}{4}\\times20\n=\n15\n$$\n\nlitres. The quantity of water is\n\n$$\n\\frac{1}{4}\\times20\n=\n5\n$$\n\nlitres.\n\nLet $x$ be the amount of milk added. The new quantity of milk becomes $15+x$, while the quantity of water remains $5$ litres. The new ratio is given as $4:1$, so\n\n$$\n\\frac{15+x}{5}\n=\n\\frac{4}{1}\n$$\n\nMultiplying both sides by $5$, we get\n\n$$\n15+x\n=\n20\n$$\n\nSolving for $x$, we find\n\n$$\nx\n=\n20-15\n=\n5\n$$\n\nThus, $5$ litres of milk must be added.",
+      "shortcut_solution": "Initially, milk is $15$ litres and water is $5$ litres. We add only milk, so water remains constant at $5$ litres. In the new ratio $4:1$, the water part ($1$ part) corresponds to $5$ litres. Therefore, the milk part ($4$ parts) must be\n\n$$\n4\\times5\n=\n20\n$$\n\nlitres. Since we started with $15$ litres of milk, the amount added is\n\n$$\n20-15\n=\n5\n$$\n\nlitres.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "easy",
+      "concepts": [
+        "ratio",
+        "fractions",
+        "mixture"
+      ],
+      "prerequisites": [
+        "ratio",
+        "fractions"
+      ],
+      "formulas_used": [
+        "$\\text{Quantity of component} = \\frac{\\text{Ratio part}}{\\text{Total ratio parts}} \\times \\text{Total quantity}$"
+      ],
+      "hints": [
+        "Calculate the initial volume of milk and water separately.",
+        "Recognize that adding milk does not change the volume of water.",
+        "Use the constant volume of water to find the new total volume of milk."
+      ],
+      "common_mistakes": [
+        "Adding the milk to the total mixture volume instead of just the milk component.",
+        "Forgetting that the water volume remains constant."
+      ],
+      "related_patterns": [
+        "adding a component to a mixture",
+        "changing ratios in mixtures"
+      ],
+      "confusing_patterns": [
+        "problems where both components are added or removed"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "23",
+      "sub_pattern": "Quantity Adjustment",
+      "pattern_doc": "quantity_adjustment.md",
+      "paraphrased_question": "A vessel contains a mixture of Grape, Pineapple and Banana juices in the respective ratio of $4 : 6 : 5$. $15$ litres of this mixture is taken out and $8$ litres of grape juice and $2$ litres of pineapple juice is added to the vessel. If the resultant quantity of grape juice is $10$ litres less than the resultant quantity of pineapple juice. What was the initial quantity of mixture in the vessel? (in litres)",
+      "paraphrased_option_a": "120",
+      "paraphrased_option_b": "150",
+      "paraphrased_option_c": "105",
+      "paraphrased_option_d": "135",
+      "paraphrased_correct_option": "d",
+      "paraphrased_final_answer": "135",
+      "traditional_solution": "Let the initial quantities of grape, pineapple, and banana juices be $4x$, $6x$, and $5x$ respectively. The total initial quantity is $4x+6x+5x=15x$ litres.\n\nWhen $15$ litres of the mixture are removed, the components are removed in the same ratio $4:6:5$. The total parts are $4+6+5=15$. Thus, the amount of each juice removed is\n\n$$\n\\text{Grape removed} = \\frac{4}{15}\\times15 = 4\n$$\n\n$$\n\\text{Pineapple removed} = \\frac{6}{15}\\times15 = 6\n$$\n\n$$\n\\text{Banana removed} = \\frac{5}{15}\\times15 = 5\n$$\n\nAfter removing $15$ litres and adding $8$ litres of grape and $2$ litres of pineapple, the new quantities are:\n\n$$\n\\text{Grape} = 4x-4+8 = 4x+4\n$$\n\n$$\n\\text{Pineapple} = 6x-6+2 = 6x-4\n$$\n\nThe problem states that the resultant grape juice is $10$ litres less than the pineapple juice:\n\n$$\n(6x-4)-(4x+4) = 10\n$$\n\nSimplifying this equation:\n\n$$\n2x-8 = 10\n$$\n\n$$\n2x = 18\n$$\n\n$$\nx = 9\n$$\n\nThe initial quantity was $15x$, so\n\n$$\n15\\times9 = 135\n$$\n\nlitres.",
+      "shortcut_solution": "The ratio is $4:6:5$. Removing $15$ litres removes $4, 6, 5$ litres of each. Adding $8$ grape and $2$ pineapple results in grape $= 4x-4+8 = 4x+4$ and pineapple $= 6x-6+2 = 6x-4$. Given pineapple $-$ grape $= 10$:\n\n$$\n(6x-4)-(4x+4) = 10\n$$\n\n$$\n2x = 18 \\implies x = 9\n$$\n\nTotal $= 15x = 135$.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "hard",
+      "concepts": [
+        "ratio",
+        "mixture",
+        "linear equations"
+      ],
+      "prerequisites": [
+        "ratio",
+        "linear equations"
+      ],
+      "formulas_used": [
+        "$\\text{Quantity of component} = \\frac{\\text{Ratio part}}{\\text{Total ratio parts}} \\times \\text{Total quantity}$"
+      ],
+      "hints": [
+        "Calculate the amount of each juice removed by using the ratio of the mixture.",
+        "Express the final quantities of grape and pineapple juice in terms of $x$.",
+        "Set up the equation based on the difference between the final quantities."
+      ],
+      "common_mistakes": [
+        "Forgetting to subtract the removed portion from the initial $4x, 6x, 5x$.",
+        "Miscalculating the total parts of the ratio.",
+        "Mixing up the grape and pineapple quantities in the final equation."
+      ],
+      "related_patterns": [
+        "replacement of mixture",
+        "multiple component mixtures"
+      ],
+      "confusing_patterns": [
+        "problems where the mixture is replaced by a single component"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "24",
+      "sub_pattern": "Quantity Adjustment",
+      "pattern_doc": "quantity_adjustment.md",
+      "paraphrased_question": "The respective ratio of milk and water in the mixture is $4 : 3$ respectively. If $6$ Litres of water is added to this mixture, the respective ratio of milk and water becomes $8 : 7$. What is the quantity of milk in the original mixture?",
+      "paraphrased_option_a": "36 litres",
+      "paraphrased_option_b": "84 litres",
+      "paraphrased_option_c": "48 litres",
+      "paraphrased_option_d": "None of these",
+      "paraphrased_correct_option": "d",
+      "paraphrased_final_answer": "48 litres",
+      "traditional_solution": "Let the initial quantity of milk be $4x$ and water be $3x$. When $6$ litres of water are added, the new quantity of water becomes $3x+6$, while the milk remains $4x$.\n\nThe new ratio of milk to water is given as $8:7$. Therefore,\n\n$$\n\\frac{4x}{3x+6} = \\frac{8}{7}\n$$\n\nCross-multiplying to solve for $x$:\n\n$$\n7(4x) = 8(3x+6)\n$$\n\n$$\n28x = 24x + 48\n$$\n\nSubtracting $24x$ from both sides:\n\n$$\n4x = 48\n$$\n\n$$\nx = 12\n$$\n\nThe quantity of milk in the original mixture is $4x$:\n\n$$\n4\\times12 = 48\n$$\n\nlitres.",
+      "shortcut_solution": "Milk is constant. Initially, milk:water is $4:3$, which is $8:6$ in terms of $8$ parts of milk. After adding water, the ratio is $8:7$. The increase in water is $7-6=1$ part. We are told $1$ part $= 6$ litres. Thus, $8$ parts of milk is\n\n$$\n8\\times6 = 48\n$$\n\nlitres.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "ratio",
+        "mixture"
+      ],
+      "prerequisites": [
+        "ratio",
+        "linear equations"
+      ],
+      "formulas_used": [
+        "$\\text{Ratio proportion} = \\frac{a}{b} = \\frac{c}{d}$"
+      ],
+      "hints": [
+        "Since only water is added, the amount of milk remains constant.",
+        "Equate the milk parts in both ratios to make comparison easier.",
+        "The difference in water parts corresponds to the 6 litres added."
+      ],
+      "common_mistakes": [
+        "Adding the 6 litres to the total mixture instead of just the water component.",
+        "Failing to keep the milk quantity constant in the ratio comparison."
+      ],
+      "related_patterns": [
+        "adding a component to a mixture",
+        "ratio change problems"
+      ],
+      "confusing_patterns": [
+        "problems where both milk and water are added"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "25",
+      "sub_pattern": "Profit-Based Alligation",
+      "pattern_doc": "profit_based_alligation.md",
+      "paraphrased_question": "$35$ kg of type A sandal powder, which costs ₹$614$ per kg, was mixed with a certain amount of type B sandal powder, which costs ₹$695$ per kg. then the mixture was sold at the rate of ₹$767$ per kg and $18\\%$ profit was earned. What was the amount (in kg) of type B sandal powder in the mixture?",
+      "paraphrased_option_a": "24",
+      "paraphrased_option_b": "28",
+      "paraphrased_option_c": "32",
+      "paraphrased_option_d": "36",
+      "paraphrased_correct_option": "b",
+      "paraphrased_final_answer": "28",
+      "traditional_solution": "First, we find the cost price (CP) of the mixture. The selling price is ₹$767$ with a profit of $18\\%$. The formula for CP is\n\n$$\n\\text{CP} = \\frac{\\text{Selling Price}}{100+\\text{Profit}\\%} \\times 100\n$$\n\n$$\n\\text{CP} = \\frac{767}{118} \\times 100 = 650\n$$\n\nSo, the CP of the mixture is ₹$650$ per kg. Now, we use the alligation method to find the ratio of Type A to Type B powder:\n\n$$\n\\text{Type A (614)} \\quad \\text{Type B (695)}\n$$\n\n$$\n\\text{Mean Price (650)}\n$$\n\n$$\n\\text{Difference for A} = 695 - 650 = 45\n$$\n\n$$\n\\text{Difference for B} = 650 - 614 = 36\n$$\n\nThe ratio of Type A to Type B is $45:36$, which simplifies to $5:4$. We are given that Type A is $35$ kg. If $5x = 35$, then $x = 7$. The amount of Type B is $4x$:\n\n$$\n4\\times7 = 28\n$$\n\nkg.",
+      "shortcut_solution": "CP of mixture $= 767 \\div 1.18 = 650$. Alligation:\n\n$$\n(695-650) : (650-614) = 45:36 = 5:4\n$$\n\nGiven $5$ parts $= 35$ kg, so $1$ part $= 7$ kg. Type B is $4$ parts:\n\n$$\n4\\times7 = 28\n$$\n\nkg.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "alligation",
+        "profit and loss",
+        "weighted average"
+      ],
+      "prerequisites": [
+        "alligation",
+        "profit and loss"
+      ],
+      "formulas_used": [
+        "$\\text{Cost Price} = \\frac{\\text{Selling Price}}{100+\\text{Profit}\\%} \\times 100$",
+        "$\\text{Alligation rule}: \\frac{Q_1}{Q_2} = \\frac{P_2 - M}{M - P_1}$"
+      ],
+      "hints": [
+        "Calculate the cost price of the mixture first using the profit percentage.",
+        "Use the alligation method to find the ratio of the two types of powder.",
+        "Apply the ratio to the known quantity of Type A powder."
+      ],
+      "common_mistakes": [
+        "Using the selling price directly in the alligation method instead of the cost price.",
+        "Calculating the ratio incorrectly by swapping the differences."
+      ],
+      "related_patterns": [
+        "mixture of two items with different prices",
+        "alligation problems"
+      ],
+      "confusing_patterns": [
+        "problems where profit is calculated on cost price vs selling price"
+      ]
+    },
+    {
+      "chapter_title": "Chapter_21_Alligation_or_Mixture",
+      "question_number": "26",
+      "sub_pattern": "Quantity Adjustment",
+      "pattern_doc": "quantity_adjustment.md",
+      "paraphrased_question": "How many liters of water should be added to a 30 litre mixture of milk and water containing milk and water in the ratio of $7:3$ such that the resultant mixture has $40\\%$ water in it?",
+      "paraphrased_option_a": "5",
+      "paraphrased_option_b": "2",
+      "paraphrased_option_c": "3",
+      "paraphrased_option_d": "8",
+      "paraphrased_correct_option": "a",
+      "paraphrased_final_answer": "5",
+      "traditional_solution": "First, we determine the initial quantities of milk and water in the 30 litre mixture. The ratio of milk to water is $7:3$, meaning there are $7+3=10$ total parts.\n\nThe quantity of milk is\n\n$$\n\\frac{7}{10}\\times30\n=\n21\n$$\n\nso there are 21 litres of milk.\n\nThe quantity of water is\n\n$$\n\\frac{3}{10}\\times30\n=\n9\n$$\n\nso there are 9 litres of water.\n\nNext, let $a$ be the number of litres of water to be added. When we add water, the total volume of the mixture increases by $a$, and the amount of water also increases by $a$, while the amount of milk remains constant.\n\nThe new total volume is $30+a$, and the new amount of water is $9+a$. We are told the new mixture must contain $40\\%$ water. This means the amount of water is $40\\%$ of the total volume:\n\n$$\n9+a\n=\n\\frac{40}{100}\\times(30+a)\n$$\n\nTo solve for $a$, we simplify the fraction $\\frac{40}{100}$ to $\\frac{2}{5}$:\n\n$$\n9+a\n=\n\\frac{2}{5}\\times(30+a)\n$$\n\nMultiply both sides by 5 to clear the fraction:\n\n$$\n5\\times(9+a)\n=\n2\\times(30+a)\n$$\n\nExpand both sides:\n\n$$\n45+5a\n=\n60+2a\n$$\n\nSubtract $2a$ from both sides:\n\n$$\n45+3a\n=\n60\n$$\n\nSubtract 45 from both sides:\n\n$$\n3a\n=\n15\n$$\n\nDivide by 3:\n\n$$\na\n=\n5\n$$\n\nTherefore, 5 litres of water should be added.",
+      "shortcut_solution": "Initially, the mixture has $40\\%$ milk and $60\\%$ water (since the ratio is $7:3$, milk is $\\frac{7}{10}=70\\%$ and water is $\\frac{3}{10}=30\\%$). Wait, let us use the milk content which remains constant.\n\nInitial milk is $70\\%$ of 30 litres, which is 21 litres. In the final mixture, water is $40\\%$, so milk must be $60\\%$.\n\nLet $V$ be the final volume:\n\n$$\n0.60\\times V\n=\n21\n$$\n\n$$\nV\n=\n\\frac{21}{0.60}\n=\n35\n$$\n\nSince the initial volume was 30 litres, the added water is $35-30=5$ litres.",
+      "chapter": "alligation_or_mixture",
+      "difficulty": "medium",
+      "concepts": [
+        "ratio",
+        "mixtures",
+        "percentages"
+      ],
+      "prerequisites": [
+        "ratio",
+        "fractions",
+        "percentages"
+      ],
+      "formulas_used": [
+        "$\\text{Part} = \\frac{\\text{Ratio Part}}{\\text{Total Ratio}} \\times \\text{Total Quantity}$",
+        "$\\text{Percentage} = \\frac{\\text{Part}}{\\text{Whole}} \\times 100$"
+      ],
+      "hints": [
+        "Calculate the initial amount of milk and water first.",
+        "Remember that adding water does not change the amount of milk.",
+        "Set up an equation where the constant amount of milk equals the new percentage of the total volume."
+      ],
+      "common_mistakes": [
+        "Adding the water to the milk quantity instead of the total mixture volume.",
+        "Forgetting to update the total volume when calculating the new percentage.",
+        "Confusing the milk percentage with the water percentage in the final mixture."
+      ],
+      "related_patterns": [
+        "mixture dilution problems",
+        "constant quantity problems"
+      ],
+      "confusing_patterns": [
+        "problems where both ingredients are added",
+        "problems where the total volume remains constant"
+      ]
+    }
+  ]
+}

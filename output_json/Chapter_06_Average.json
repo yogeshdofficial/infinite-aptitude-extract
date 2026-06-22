@@ -1,0 +1,3400 @@
+{
+  "chapter_title": "Chapter_06_Average",
+  "question_count": 154,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "Bank Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "Find the average of the following set of numbers: 354, 281, 623, 518, 447, 702, 876.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average of given numbers = $\\left(\\frac{354+281+623+518+447+702+876}{7}\\right) = \\frac{3801}{7} = 543$.",
+      "page_numbers": [
+        "206"
+      ],
+      "answer_page_numbers": [
+        "206"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "The body weight of six boys is recorded as 54 kg, 64 kg, 75 kg, 67 kg, 45 kg and 91 kg. What is the average body weight of all six boys?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average body weight = $\\left(\\frac{54+64+75+67+45+91}{6}\\right)$ kg = $\\left(\\frac{396}{6}\\right)$ kg = 66 kg.",
+      "page_numbers": [
+        "206"
+      ],
+      "answer_page_numbers": [
+        "206"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "There are six numbers 30, 72, 53, 68, x and 87, out of which x is unknown. The average of the numbers is 60. What is the value of x?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average of given numbers = $\\left(\\frac{30+72+53+68+x+87}{6}\\right) = \\left(\\frac{310+x}{6}\\right)$.\n$\\therefore \\frac{310+x}{6} = 60 \\Rightarrow 310+x = 360 \\Rightarrow x = 50$.\nHence, x = 50.",
+      "page_numbers": [
+        "206"
+      ],
+      "answer_page_numbers": [
+        "206"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the average of all prime numbers between 30 and 50.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "There are five prime numbers between 30 and 50.\nThey are 31, 37, 41, 43 and 47.\n$\\therefore$ Required average = $\\left(\\frac{31+37+41+43+47}{5}\\right) = \\frac{199}{5} = 39.8$.",
+      "page_numbers": [
+        "206"
+      ],
+      "answer_page_numbers": [
+        "206"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the average of first 40 natural numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sum of first n natural numbers = $\\frac{n(n+1)}{2}$.\nSo, sum of first 40 natural numbers = $\\frac{40\\times41}{2} = 820$.\n$\\therefore$ Required average = $\\frac{820}{40} = 20.5$.",
+      "page_numbers": [
+        "206"
+      ],
+      "answer_page_numbers": [
+        "206"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the average of first 20 multiples of 7.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Required average = $\\frac{7(1+2+3+.....+20)}{20} = \\left(\\frac{7\\times20\\times21}{20\\times2}\\right) = \\left(\\frac{147}{2}\\right) = 73.5$.",
+      "page_numbers": [
+        "206"
+      ],
+      "answer_page_numbers": [
+        "206"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "A man bought 5 shirts at ₹ 450 each, 4 trousers at ₹ 750 each and 12 pairs of shoes at ₹ 750 each. What is the average expenditure per article?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total expenditure = ₹ $(5 \\times 450 + 4 \\times 750 + 12 \\times 750) = ₹ (2250 + 3000 + 9000) = ₹ 14250$.\nNumber of articles = $(5 + 4 + 12) = 21$.\n$\\therefore$ Average expenditure = ₹ $\\left(\\frac{14250}{21}\\right) = ₹ \\left(\\frac{4750}{7}\\right) = ₹ 678.57$.",
+      "page_numbers": [
+        "206",
+        "207"
+      ],
+      "answer_page_numbers": [
+        "206",
+        "207"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "13 chairs and 5 tables were bought for ₹ 8280. If the average cost of a table be ₹ 1227, what is the average cost of a chair?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total cost of 5 tables = ₹ $(1227 \\times 5) = ₹ 6135$.\nTotal cost of 13 chairs = ₹ $(8280 - 6135) = ₹ 2145$.\n$\\therefore$ Average cost of a chair = ₹ $\\left(\\frac{2145}{13}\\right) = ₹ 165$.",
+      "page_numbers": [
+        "207"
+      ],
+      "answer_page_numbers": [
+        "207"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "Bank Recruitment, 2008",
+      "passage_text": "",
+      "question_text": "The average of five consecutive numbers A, B, C, D and E is 48. What is the product of A and E?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers A, B, C, D and E be x, $(x + 1)$, $(x + 2)$, $(x + 3)$ and $(x + 4)$ respectively. Then,\n$\\frac{x+(x+1)+(x+2)+(x+3)+(x+4)}{5} = 48 \\Rightarrow 5x + 10 = 240 \\Rightarrow 5x = 230 \\Rightarrow x = 46$.\nSo, A = x = 46 and E = $(x + 4) = 50$.\n$\\therefore$ Required product = $46 \\times 50 = 2300$.",
+      "page_numbers": [
+        "207"
+      ],
+      "answer_page_numbers": [
+        "207"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "The average monthly expenditure of a family was ₹ 2200 during the first 3 months; ₹ 2250 during the next 4 months and ₹ 3120 during the last 5 months of a year. If the total savings during the year were ₹ 1260, find the average monthly income of the family.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total yearly expenditure = ₹ $(2200 \\times 3 + 2250 \\times 4 + 3120 \\times 5)$\n= ₹ $(6600 + 9000 + 15600) = ₹ 31200$.\nTotal yearly savings = ₹ 1260.\nTotal yearly income = ₹ $(31200 + 1260) = ₹ 32460$.\n$\\therefore$ Average monthly income = ₹ $\\left(\\frac{32460}{12}\\right) = ₹ 2705$.",
+      "page_numbers": [
+        "207"
+      ],
+      "answer_page_numbers": [
+        "207"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "Six persons went to a hotel for taking their meals. Five of them spent ₹ 32 each on their meals while the sixth person spent ₹ 80 more than the average expenditure of all the six. What was the total money spent by all the persons?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the average expenditure of all the six be ₹ x.\nThen, $32 \\times 5 + (x + 80) = 6x \\Rightarrow 240 + x = 6x \\Rightarrow 5x = 240 \\Rightarrow x = 48$.\n$\\therefore$ Total money spent = $6x = ₹ (6 \\times 48) = ₹ 288$.",
+      "page_numbers": [
+        "207"
+      ],
+      "answer_page_numbers": [
+        "207"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "Bank Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "The average age of a man and his son is 40 years. The ratio of their ages is 11 : 5 respectively. What is the son’s age?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the ages of the man and his son be 11x and 5x years respectively.\nThen, average age = $\\left(\\frac{11x+5x}{2}\\right)$ years = 8x years.\n$\\therefore 8x = 40 \\Rightarrow x = 5$.\nHence, son’s age = $5x = 25$ years.",
+      "page_numbers": [
+        "207"
+      ],
+      "answer_page_numbers": [
+        "207"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "M.B.A., 2007",
+      "passage_text": "",
+      "question_text": "Of the three numbers, second is twice the first and is also thrice the third. If the average of three numbers is 44, what is the largest number?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the third number be x. Then, second number = 3x.\nFirst number = $\\frac{3x}{2}$.\n$\\therefore x + 3x + \\frac{3x}{2} = 44 \\times 3 \\Rightarrow \\frac{11x}{2} = 132 \\Rightarrow x = \\left(\\frac{132 \\times 2}{11}\\right) = 24$.\nHence, largest number = $3x = (3 \\times 24) = 72$.",
+      "page_numbers": [
+        "207"
+      ],
+      "answer_page_numbers": [
+        "207"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "The average of five numbers is 58. The average of the first two numbers is 48.5 and the average of last two numbers is 53.5. What is the third number?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Third number = (Sum of 5 numbers) - (Sum of 4 numbers)\n= $(58 \\times 5) - [(48.5 \\times 2) + (53.5 \\times 2)]$\n= $290 - (97 + 107) = 290 - 204 = 86$.",
+      "page_numbers": [
+        "208"
+      ],
+      "answer_page_numbers": [
+        "208"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "15",
+      "exam_reference": "C.P.F., 2007",
+      "passage_text": "",
+      "question_text": "The average of marks of 13 papers is 40. The average of marks of the first 7 papers is 42 and that of the last 7 papers is 35. What are the marks of the seventh paper?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Marks in the seventh paper = $(42 \\times 7 + 35 \\times 7 - 40 \\times 13)$\n= $(294 + 245 - 520) = 539 - 520 = 19$.",
+      "page_numbers": [
+        "208"
+      ],
+      "answer_page_numbers": [
+        "208"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "16",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "The average age of A and B is 20 years. If A is replaced by C, the average age becomes 19 years and if B is replaced by C, the average age becomes 21 years. Find the ages of A, B and C.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, average age of A and B = 20 years;\naverage age of B and C = 19 years;\naverage age of A and C = 21 years.\nSum of ages of A and B = $(20 \\times 2)$ years = 40 years ...(i)\nSum of ages of B and C = $(19 \\times 2)$ years = 38 years ...(ii)\nSum of ages of A and C = $(21 \\times 2)$ years = 42 years ...(iii)\nAdding (i), (ii) and (iii), we get:\n2 (Sum of ages of A, B and C) = 120 years\n$\\Rightarrow$ (Sum of ages of A, B and C) = 60 years ...(iv)\nSubtracting (i) from (iv), we get: C’s age = $(60 - 40)$ yrs = 20 years\nSubtracting (ii) from (iv), we get: A’s age = $(60 - 38)$ yrs = 22 years\nSubtracting (iii) from (iv), we get: B’s age = $(60 - 42)$ yrs = 18 years",
+      "page_numbers": [
+        "208"
+      ],
+      "answer_page_numbers": [
+        "208"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "17",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "In a class there are 50 students. Their average weight is 45 kg. When a student leaves the class, the average is reduced by 100 g. Find the weight of the student who left the class.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total weight of 50 students = $(45 \\times 50)$ kg = 2250 kg.\nAverage weight of 49 students = $(45 \\text{ kg} - 100 \\text{ g}) = 44.9 \\text{ kg}$.\nTotal weight of 49 students = $(44.9 \\times 49)$ kg = 2200.1 kg.\n$\\therefore$ Weight of the student who left the class = $(2250 - 2200.1)$ kg = 49.9 kg.",
+      "page_numbers": [
+        "208"
+      ],
+      "answer_page_numbers": [
+        "208"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average age of a class of 39 students is 15 years. If the age of the teacher be included, then the average increases by 3 months. Find the age of the teacher.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total age of 39 persons = $(39 \\times 15)$ years = 585 years.\nAverage age of 40 persons = 15 years 3 months = $\\frac{61}{4}$ years.\nTotal age of 40 persons = $\\left(\\frac{61}{4} \\times 40\\right)$ years = 610 years.\n$\\therefore$ Age of the teacher = $(610 - 585)$ years = 25 years.",
+      "page_numbers": [
+        "208"
+      ],
+      "answer_page_numbers": [
+        "208"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "19",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "The average of 11 players of a cricket team is increased by 2 months when two of them aged 18 years and 20 years are replaced by two new players. Find the average age of the new players.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total age increased = $(2 \\times 11)$ months = 22 months = 1 years 10 months.\nSum of ages of two new players = $(18 \\text{ years} + 20 \\text{ years} + 1 \\text{ years} 10 \\text{ months})$\n= 39 yrs 10 months.\n$\\therefore$ Required average = $\\left(\\frac{39 \\text{ years} 10 \\text{ months}}{2}\\right) = 19 \\text{ years} 11 \\text{ months}$.",
+      "page_numbers": [
+        "208"
+      ],
+      "answer_page_numbers": [
+        "208"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "20",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "The average age of a class was 15 years. When 5 boys whose average age was 12 years 6 months were admitted in the class, the average was reduced by 6 months. How many students were there in the class originally?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the original number of students in the class be x. Then,\n$15x + 12 \\frac{1}{2} \\times 5 = 14 \\frac{1}{2} (x + 5) \\Rightarrow 15x + \\frac{25}{2} \\times 5 = \\frac{29}{2} \\times x + \\frac{29}{2} \\times 5 \\Rightarrow \\frac{x}{2} = 10 \\Rightarrow x = 20$.\nHence, required number of students = 20.",
+      "page_numbers": [
+        "208"
+      ],
+      "answer_page_numbers": [
+        "208"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A batsman makes a score of 87 runs in the 17th inning and thus increases his average by 3. Find his average after 17th inning.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the average after 17th inning = x.\nThen, average after 16th inning = $(x - 3)$.\n$\\therefore 16(x - 3) + 87 = 17x$ or $x = (87 - 48) = 39$.",
+      "page_numbers": [
+        "209"
+      ],
+      "answer_page_numbers": [
+        "209"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "22",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "The batting average for 40 innings of a cricket player is 50 runs. His highest score in an innings exceeds his lowest score by 172 runs. If these two innings are excluded, the average score of the remaining 38 innings is 48 runs. Find his highest score in an innings.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the highest score be x. Then, lowest score = $(x - 172)$.\n$\\therefore x + (x - 172) = 50 \\times 40 - 48 \\times 38 \\Rightarrow 2x - 172 = 2000 - 1824 = 176$\n$\\Rightarrow 2x = 348 \\Rightarrow x = 174$.\nHence, highest score in an innings = 174.",
+      "page_numbers": [
+        "209"
+      ],
+      "answer_page_numbers": [
+        "209"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "23",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "10 years ago, the average age of a family of 4 members was 24 years. Since then, two children having been born, still the average age of the family is the same today. If the two children differ in age by 2 years, find the present age of the younger child.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total age of 4 members, 10 years ago = $(24 \\times 4)$ years = 96 years.\nTotal age of 4 members now = $(96 + 10 \\times 4)$ years = 136 years.\nTotal age of 6 members now = $(24 \\times 6)$ years = 144 years.\nSum of the ages of 2 children = $(144 - 136)$ years = 8 years.\nLet the age of the younger child be x years.\nThen, age of the elder child = $(x + 2)$ years.\nSo, $x + x + 2 = 8 \\Rightarrow 2x = 6 \\Rightarrow x = 3$.\n$\\therefore$ Age of the younger child = 3 years.",
+      "page_numbers": [
+        "209"
+      ],
+      "answer_page_numbers": [
+        "209"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "24",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Distance between two stations A and B is 778 km. A train covers the journey from A to B at 84 km per hour and returns back to A with a uniform speed of 56 km per hour. Find the average speed of the train during the whole journey.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Required average speed = $\\left(\\frac{2xy}{x+y}\\right)$ km/hr = $\\left(\\frac{2 \\times 84 \\times 56}{84+56}\\right)$ km/hr\n= $\\left(\\frac{2 \\times 84 \\times 56}{140}\\right)$ km/hr = 67.2 km/hr.",
+      "page_numbers": [
+        "209"
+      ],
+      "answer_page_numbers": [
+        "209"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average salary of workers of a factory is ₹ 6000, while the average salary of 150 technicians is ₹ 12000 and that of non-technicians is ₹ 3750. Find the total number of workers in the factory.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the total number of workers be x. Then,\n$6000x = (12000 \\times 150) + 3750 (x - 150) \\Rightarrow 2250x = 1237500 \\Rightarrow x = 550$.\nHence, total number of workers in the factory = 550.",
+      "page_numbers": [
+        "209"
+      ],
+      "answer_page_numbers": [
+        "209"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "26",
+      "exam_reference": "Campus Recruitment, 2006, 2009; M.A.T., 2003, 06; S.S.C., 2008",
+      "passage_text": "",
+      "question_text": "The average score of girls in class X examination in a school is 73 and that of boys is 71. The average score in class X of that school is 71.8. Find the percentage of the number of girls and boys in class X of the school.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number of boys in the class be x and the number of girls be y.\nThen, $71x + 73y = 71.8 (x + y) \\Rightarrow 0.8 x = 1.2 y \\Rightarrow x = \\frac{3}{2}y$.\nPercentage of boys = $\\left[\\frac{x}{(x+y)}\\right] \\times 100 \\% = \\left[\\frac{\\frac{3}{2}y}{(\\frac{3}{2}y+y)}\\right] \\times 100 \\%$\n= $\\left(\\frac{3y}{2} \\times \\frac{2}{5y}\\right) \\times 100 \\% = 60\\%$.\nPercentage of girls = $(100 - 60)\\% = 40\\%$.",
+      "page_numbers": [
+        "209"
+      ],
+      "answer_page_numbers": [
+        "209"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "The body weight of seven students of a class is recorded as 54 kg, 78 kg, 43 kg, 82 kg, 67 kg, 42 kg and 75 kg. What is the average body weight of all the seven students?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "63 kg",
+      "option_b": "69 kg",
+      "option_c": "71 kg",
+      "option_d": "73 kg",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Average body weight\n$= \frac{54+78+43+82+67+42+75}{7}$ kg\n$= \frac{441}{7}$ kg $= 63$ kg.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "Bank Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "Find the average of the following sets of scores: 385, 441, 876, 221, 536, 46, 291, 428",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "221",
+      "option_b": "403",
+      "option_c": "428",
+      "option_d": "536",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Average $= \frac{385+441+876+221+536+46+291+428}{8}$\n$= \frac{3224}{8} = 403$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "The monthly incomes of five persons are ₹ 1132, ₹ 1140, ₹ 1144, ₹ 1136 and ₹ 1148 respectively. What is their arithmetic mean?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1100",
+      "option_b": "₹ 1120",
+      "option_c": "₹ 1132",
+      "option_d": "₹ 1140",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Arithmetic mean $= ₹ \frac{1132+1140+1144+1136+1148}{5}$\n$= ₹ \frac{5700}{5} = ₹ 1140$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "P.C.S., 2006",
+      "passage_text": "",
+      "question_text": "Among five people with monthly income (in ₹) 15000, 26000, 16000, 19000 and 50000, how many will have income less than the mean income of five people?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "2",
+      "option_c": "3",
+      "option_d": "4",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Mean income $= ₹ \frac{15000+26000+16000+19000+50000}{5}$\n$= ₹ \frac{126000}{5} = ₹ 25200$.\nClearly, three people have monthly incomes below the mean income.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "P.C.S., 2010",
+      "passage_text": "",
+      "question_text": "The arithmetic mean of 15 numbers is 41.4. Then the sum of these numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "414",
+      "option_b": "420",
+      "option_c": "620",
+      "option_d": "621",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Sum of numbers $= (41.4 \times 15) = 621$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "If $25a + 25b = 115$, what is the average of $a$ and $b$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.5",
+      "option_b": "3.4",
+      "option_c": "4.5",
+      "option_d": "4.6",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "$25a+25b=115 \rightarrow 25(a+b)=115$\n$\rightarrow a+b = \frac{115}{25} = \frac{23}{5}$.\n$\\therefore$ Average of $a$ and $b = \frac{a+b}{2} = \frac{23}{5} \times \frac{1}{2} = \frac{23}{10} = 2.3$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "The following table shows the number of working hours and the number of employees employed in a small scale industry.\n\n| No. of working hours | No. of employees |\n| :--- | :--- |\n| 3 – 5 | 7 |\n| 5 – 7 | 10 |\n| 7 – 9 | 18 |\n| 9 – 11 | 57 |\n| 11 – 13 | 14 |\n| 13 – 15 | 8 |",
+      "question_text": "The average number of working hours of an employee is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8.5",
+      "option_b": "9.5",
+      "option_c": "10.5",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "We have:\nSum of working hours of all the employees\n$= (4 \times 7 + 6 \times 10 + 8 \times 18 + 10 \times 57 + 12 \times 14 + 14 \times 8)$\n$= (28 + 60 + 144 + 570 + 168 + 112) = 1082$.\nTotal number of employees\n$= (7 + 10 + 18 + 57 + 14 + 8) = 114$.\n$\\therefore$ Average number of working hours\n$= \frac{1082}{114} \backsimeq 9.49 \backsimeq 9.5$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "Hotel Management, 2007",
+      "passage_text": "",
+      "question_text": "If the arithmetic mean of 0, 5, 4, 3 is $a$, that of – 1, 0, 1, 5, 4, 3 is $b$ and that of 5, 4, 3 is $c$, then the relation between $a$, $b$ and $c$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$a = b = c$",
+      "option_b": "$a : b : c = 3 : 2 : 4$",
+      "option_c": "$4a = 5b = c$",
+      "option_d": "$a + b + c = 12$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "We have: $a = \frac{0+5+4+3}{4} = 3$; $b = \frac{-1+0+1+5+4+3}{6} = 2$;\n$c = \frac{5+4+3}{3} = 4$.\n$\\therefore a : b : c = 3 : 2 : 4$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "Kunal bought 65 books for ₹ 1050 from one shop and 50 books for ₹ 1020 from another. What is the average price he paid per book?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 18",
+      "option_b": "₹ 18.20",
+      "option_c": "₹ 24",
+      "option_d": "₹ 36.40",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Total money paid for 115 books $= ₹ (1050 + 1020) = ₹ 2070$.\n$\\therefore$ Average price paid per book $= ₹ \frac{2070}{115} = ₹ 18$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "Campus Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "The average of the reciprocals of $x$ and $y$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{(x + y)}{(x - y)}$",
+      "option_b": "$\\frac{(x + y)}{2xy}$",
+      "option_c": "$\\frac{2(x + y)}{xy}$",
+      "option_d": "$\\frac{2}{(x + y)}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Required average $= \frac{\frac{1}{x}+\frac{1}{y}}{2} = \frac{x+y}{2xy}$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "The average of two numbers is $XY$. If one number is $X$, the other is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{Y}{2}$",
+      "option_b": "$Y$",
+      "option_c": "$2XY - X$",
+      "option_d": "$X(Y - 1)$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Sum of numbers $= 2XY$.\n$\\therefore$ Other number $= 2XY - X$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "There are five boxes in a cargo hold. The weight of the first box is 200 kg and the weight of the second box is 20% more than the weight of the third box, whose weight is 25% more than the first box’s weight. The fourth box at 350 kg is 30% lighter than the fifth box. The difference in the average weight of the four heaviest boxes and the four lightest boxes is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "37.5 kg",
+      "option_b": "51.5 kg",
+      "option_c": "75 kg",
+      "option_d": "112.5 kg",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Weight of first box $= 200$ kg.\nWeight of third box $= 125\\%$ of $200$ kg $= 250$ kg.\nWeight of second box $= 120\\%$ of $250$ kg $= 300$ kg.\nWeight of fourth box $= 350$ kg.\nLet the weight of fifth box be $x$ kg.\nThen, $70\\%$ of $x = 350$ kg $\\rightarrow x = \frac{350 \times 100}{70} = 500$ kg.\nAverage weight of four heaviest boxes\n$= \frac{500+350+300+250}{4}$ kg $= 350$ kg.\nAverage weight of four lightest boxes\n$= \frac{200+250+300+350}{4}$ kg $= 275$ kg.\n$\\therefore$ Required difference $= (350 - 275)$ kg $= 75$ kg.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In Arun’s opinion, his weight is greater than 65 kg but less than 72 kg. His brother does not agree with Arun and he thinks that Arun’s weight is greater than 60 kg but less than 70 kg. His mother’s view is that his weight cannot be greater than 68 kg. If all of them are correct in their estimation, what is the average of different probable weights of Arun?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "67 kg",
+      "option_b": "68 kg",
+      "option_c": "69 kg",
+      "option_d": "Data inadequate",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let Arun's weight be $X$ kg.\nAccording to Arun, $65 < X < 72$.\nAccording to Arun's brother, $60 < X < 70$.\nAccording to Arun's mother, $X \\leq 68$.\nThe values satisfying all the above conditions are $66, 67$ and $68$.\n$\\therefore$ Required average $= \frac{66+67+68}{3}$ kg $= \frac{201}{3}$ kg $= 67$ kg.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "Hotel Management, 2002",
+      "passage_text": "",
+      "question_text": "The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "1",
+      "option_c": "10",
+      "option_d": "19",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Average of $20$ numbers $= 0$.\n$\\therefore$ Sum of $20$ numbers $= (0 \\times 20) = 0$.\nIt is quite possible that $19$ of these numbers may be positive and if their sum is $a$, then $20$th number is $(-a)$.",
+      "page_numbers": [
+        "210"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "Hotel Management, 2010",
+      "passage_text": "",
+      "question_text": "The mean of the first ten even natural numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "10",
+      "option_c": "11",
+      "option_d": "12",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Required mean $= \frac{2+4+6+\\dots+20}{10} = \frac{2(1+2+\\dots+10)}{10}$\n$= \frac{2}{10} \times \frac{10 \times 11}{2} = 11$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "P.C.S. 2009",
+      "passage_text": "",
+      "question_text": "The arithmetic mean of first 11 natural numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "5.5",
+      "option_c": "6.0",
+      "option_d": "6.5",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Required mean $= \frac{1+2+\\dots+11}{11} = \frac{1}{11} \times \frac{11 \times 12}{2} = 6$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the average of all the numbers between 6 and 34 which are divisible by 5.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "20",
+      "option_c": "24",
+      "option_d": "30",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Average $= \frac{10+15+20+25+30}{5} = \frac{100}{5} = 20$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of the first five multiples of 3 is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "9",
+      "option_c": "12",
+      "option_d": "15",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Average $= \frac{3(1+2+3+4+5)}{5} = \frac{45}{5} = 9$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of the first nine prime numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "11",
+      "option_c": "$11\\frac{1}{9}$",
+      "option_d": "$11\\frac{2}{9}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Average $= \frac{2+3+5+7+11+13+17+19+23}{9}$\n$= \frac{100}{9} = 11\\frac{1}{9}$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A student was asked to find the arithmetic mean of the numbers 3, 11, 7, 9, 15, 13, 8, 19, 17, 21, 14 and $x$. He found the mean to be 12. What should be the number in place of $x$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "7",
+      "option_c": "17",
+      "option_d": "31",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Clearly, we have\n$\frac{3+11+7+9+15+13+8+19+17+21+14+x}{12} = 12$\nor $137 + x = 144$ or $x = 144 - 137 = 7$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of 2, 7, 6 and $x$ is 5 and the average of 18, 1, 6, $x$ and $y$ is 10. What is the value of $y$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "10",
+      "option_c": "20",
+      "option_d": "30",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "We have :\n$\frac{2+7+6+x}{4}=5$ or $15+x=20$ or $x=5$.\nAlso, $\frac{18+1+6+x+y}{5}=10$ or $25+5+y=50$ or $y=20$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "The total marks obtained by a student in Physics, Chemistry and Mathematics together is 120 more than the marks obtained by him in Chemistry. What is the average marks obtained by him in Physics and Mathematics together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40",
+      "option_b": "60",
+      "option_c": "120",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$P+C+M=C+120\\Rightarrow P+M=120$.\n$\\therefore$ Required average = $\frac{P+M}{2}=\frac{120}{2}=60$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "The average of the first 100 positive integers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "49.5",
+      "option_b": "50.5",
+      "option_c": "51",
+      "option_d": "100",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Required average = $\frac{1+2+3+\\dots+100}{100}$\n$=\\frac{1}{100}\\times\\frac{100\\times101}{2}=50.5$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "The average of odd numbers up to 100 is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "49",
+      "option_b": "49.5",
+      "option_c": "50",
+      "option_d": "50.5",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Sum of odd numbers upto 100 = $1+3+5+\\dots+99$\n$= \\frac{50}{2}[2+(50-1)2]=2500$.\n$\\therefore$ Required average = $\\frac{2500}{50}=50$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "In a family, the average age of a father and a mother is 35 years. The average age of the father, mother and their only son is 27 years. What is the age of the son?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 years",
+      "option_b": "10.5 years",
+      "option_c": "11 years",
+      "option_d": "12 years",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Sum of ages of father and mother = $(35\\times2)$ years\n$=70$ years.\nSum of ages of father, mother and son = $(27\\times3)$ years\n$=81$ years.\n$\\therefore$ Son's age = $(81-70)$ years = 11 years.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of $X_1$, $X_2$ and $X_3$ is 14. Twice the sum of $X_2$ and $X_3$ is 30. What is the value of $X_1$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "16",
+      "option_c": "20",
+      "option_d": "27",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$X_1+X_2+X_3=(14\\times3)=42$.\n$2(X_2+X_3)=30\\Rightarrow X_2+X_3=15$.\n$\\therefore X_1=(42-15)=27$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "The average of $x_1$, $x_2$, $x_3$ and $x_4$ is 16. Half the sum of $x_2$, $x_3$, $x_4$ is 23. What is the value of $x_1$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "17",
+      "option_b": "18",
+      "option_c": "19",
+      "option_d": "20",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$x_1+x_2+x_3+x_4=16\\times4=64$.\n$\\frac{1}{2}(x_2+x_3+x_4)=23\\Rightarrow x_2+x_3+x_4=46$.\n$\\therefore x_1=64-46=18$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the mean of 5 observations $x$, $x + 2$, $x + 4$, $x + 6$ and $x + 8$ is 11, then the mean of the last three observations is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11",
+      "option_b": "13",
+      "option_c": "15",
+      "option_d": "17",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "We have : $\\frac{(x)+(x+2)+(x+4)+(x+6)+(x+8)}{5}=11$ or\n$5x+20=55$ or $x=7$.\nSo, the numbers are 7, 9, 11, 13, 15.\n$\\therefore$ Required mean = $\\frac{7+11+15}{3}=\\frac{39}{3}=13$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the mean of $a$, $b$, $c$ is $M$ and $ab + bc + ca = 0$, then the mean of $a^2$, $b^2$, $c^2$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$M^2$",
+      "option_b": "$3M^2$",
+      "option_c": "$6M^2$",
+      "option_d": "$9M^2$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "We have : $\\frac{a+b+c}{3}=M$ or $(a+b+c)=3M$.\nNow, $(a+b+c)^2=(3M)^2=9M^2$\n$\\Leftrightarrow a^2+b^2+c^2+2(ab+bc+ca)=9M^2$\n$\\Leftrightarrow a^2+b^2+c^2=9M^2$ [$\\because (ab+bc+ca)=0$]\n$\\therefore$ Required mean = $\\frac{a^2+b^2+c^2}{3}=\\frac{9M^2}{3}=3M^2$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of the two-digit numbers, which remain the same when the digits interchange their positions, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "33",
+      "option_b": "44",
+      "option_c": "55",
+      "option_d": "66",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Average = $\\frac{11+22+33+44+55+66+77+88+99}{9}$\n$= \\frac{(11+99)+(22+88)+(33+77)+(44+66)+55}{9}$\n$= \\frac{4\\times110+55}{9}=\\frac{495}{9}=55$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "Company C sells a line of 25 products with an average retail price of ₹ 1200. If none of these products sells for less than ₹ 420 and exactly 10 of the products sell for less than ₹ 1000, then what is the greatest possible selling price of the most expensive product?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2600",
+      "option_b": "₹ 3900",
+      "option_c": "₹ 7800",
+      "option_d": "₹ 11800",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "To find the greatest possible S.P. of the most expensive product, we need to consider the minimum S.P. of the remaining 24 products which is ₹ 420 each for 10 products and ₹ 1000 each for other 14 products.\nMinimum S.P. of 24 products = ₹ $(420\\times10+1000\\times14)$\n= ₹ $(4200+14000)$ = ₹ 18200.\nTotal S.P. of 25 products = ₹ $(1200\\times25)$ = ₹ 30000.\n$\\therefore$ Greatest possible S.P. of the most expensive product\n= ₹ $(30000-18200)$ = ₹ 11800.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "The average sale of a car dealership was 15 cars per week. After a promotional scheme the average sale increased to 21 cars per week. The percentage increase in the sale of cars was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "39.33%",
+      "option_b": "40%",
+      "option_c": "$42\\frac{6}{7}\\%$",
+      "option_d": "140%",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Number of cars sold per week originally = $15\\times7=105$.\nNumber of cars sold per week under scheme = $21\\times7=147$.\nIncrease in sale = $147-105=42$.\n$\\therefore$ Percentage increase = $\\frac{42}{105}\\times100\\%=40\\%$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The mean of $1^2$, $2^2$, $3^2$, $4^2$, $5^2$, $6^2$, $7^2$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10",
+      "option_b": "20",
+      "option_c": "30",
+      "option_d": "40",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$1^2+2^2+3^2+\\dots+n^2=\\frac{n(n+1)(2n+1)}{6}$\n$\\therefore 1^2+2^2+3^2+\\dots+7^2=\\frac{7\\times8\\times15}{6}=140$.\nSo, required average = $\\frac{140}{7}=20$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $a$, $b$, $c$, $d$, $e$ are five consecutive odd numbers, their average is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5(a + 4)$",
+      "option_b": "$\\frac{abcde}{5}$",
+      "option_c": "$5(a + b + c + d + e)$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Clearly, $b=a+2, c=a+4, d=a+6$ and $e=a+8$.\n$\\therefore$ Average = $\\frac{a+(a+2)+(a+4)+(a+6)+(a+8)}{5}$\n$= \\frac{5a+20}{5}=(a+4)$.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of a non-zero number and its square is 5 times the number. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "17",
+      "option_c": "29",
+      "option_d": "295",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the number be $x$. Then,\n$\\frac{x+x^2}{2}=5x\\Leftrightarrow x^2-9x=0$\n$\\Leftrightarrow x(x-9)=0$\n$\\Leftrightarrow x=0$ or $x=9$.\nSo, the number is 9.",
+      "page_numbers": [
+        "211"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Total of Arun’s marks in Sanskrit and Mathematics together are 80 more than his marks in Science. His average marks in the three subjects are 100. What are his marks in Science?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "80",
+      "option_b": "110",
+      "option_c": "120",
+      "option_d": "Data inadequate",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$S+M+Sc=100\\times3=300$ and $S+M=Sc+80$\n$\\Rightarrow Sc+80+Sc=300\\Rightarrow 2Sc=220\\Rightarrow Sc=110$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The arithmetic mean of the series 1, 2, 4, 8, 16,..., $2^n$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2^n - 1}{n + 1}$",
+      "option_b": "$\\frac{2^{n+1}}{n}$",
+      "option_c": "$\\frac{2^n - 1}{n}$",
+      "option_d": "$\\frac{2^{n+1} - 1}{n + 1}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "The given series is a G.P. with first term, $a=1$ and common ratio, $r=2$. It has $(n+1)$ terms.\n$\\therefore$ Sum of the terms of the series = $\\frac{1(2^{n+1}-1)}{(2-1)}=2^{n+1}-1$.\nArithmetic mean = $\\frac{2^{n+1}-1}{n+1}$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "The average of two numbers is 6.5 and square root of their product is 6. What are the numbers?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11 and 2",
+      "option_b": "8 and 5",
+      "option_c": "9 and 4",
+      "option_d": "10 and 3",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the two numbers be $x$ and $y$.\nThen, $x+y=6.5\\times2=13$ and $xy=6$ or $xy=36$.\n$(x-y)^2=(x+y)^2-4xy=(13)^2-4\\times36=169-144=25$\n$\\Rightarrow (x-y)=5$.\nSolving $x+y=13$ and $x-y=5$, we get: $x=9, y=4$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "Of four numbers whose average is 60, the first is one-fourth of the sum of the last three. The first number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "42",
+      "option_c": "45",
+      "option_d": "48",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the four numbers be $a, b, c$ and $d$ respectively.\nThen, $a=\\frac{1}{4}(b+c+d)\\Rightarrow b+c+d=4a$.\nAlso, $a+b+c+d=60\\times4=240$\n$\\Rightarrow a+4a=240\\Rightarrow 5a=240\\Rightarrow a=48$.\nHence, first number = 48.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "Bank Recruitment, 2008",
+      "passage_text": "",
+      "question_text": "The average of 4 positive integers is 59. The highest integer is 83 and the lowest integer is 29. The difference between the remaining two integers is 28. Which of the following integers is higher of the remaining two integers?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "39",
+      "option_b": "48",
+      "option_c": "76",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Sum of four integers = $59\\times4=236$.\nLet the required integers be $x$ and $x-28$.\nThen, $x+(x-28)=236-(83+29)=124$\n$\\Rightarrow 2x=152\\Rightarrow x=76$.\nHence, required integer = 76.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of 7 consecutive numbers is 20. The largest of these numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "22",
+      "option_c": "23",
+      "option_d": "24",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the numbers be $x, x+1, x+2, x+3, x+4, x+5$ and $x+6$.\nThen,\n$\\frac{(x)+(x+1)+(x+2)+(x+3)+(x+4)+(x+5)+(x+6)}{7}=20$\nor $7x+21=140$ or $7x=119$ or $x=17$.\n$\\therefore$ Largest number $=x+6=23$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "Bank Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "The average of five consecutive odd numbers is 95. What is the fourth number in the descending order?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "91",
+      "option_b": "95",
+      "option_c": "97",
+      "option_d": "99",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let the numbers be $x, x+2, x+4, x+6$ and $x+8$.\nThen,\n$\\frac{x+(x+2)+(x+4)+(x+6)+(x+8)}{5}=95$ or $5x+20=475$ or $5x=455$ or $x=91$.\nSo, the numbers are $91, 93, 95, 97$ and $99$.\nClearly, the fourth number in the descending order is $93$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "Bank P.O., 2007",
+      "passage_text": "",
+      "question_text": "A, B, C and D are four consecutive even numbers respectively and their average is 65. What is the product of A and D?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3968",
+      "option_b": "4092",
+      "option_c": "4216",
+      "option_d": "4352",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $x, x+2, x+4$ and $x+6$ represent numbers $A, B, C$ and $D$ respectively.\nThen, $\\frac{x+(x+2)+(x+4)+(x+6)}{4}=65$\n$\\Rightarrow 4x+12=260$\n$\\Rightarrow 4x=248 \\Rightarrow x=62$.\nSo, $A=62, B=64, C=66, D=68$.\n$\\therefore A\\times D=62\\times68=4216$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The sum of the three consecutive even numbers is 44 more than the average of these numbers. Which of the following is the third largest of these numbers?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16",
+      "option_b": "18",
+      "option_c": "24",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the numbers be $x, x+2$ and $x+4$.\nThen, $(x+x+2+x+4)-\\frac{(x+x+2+x+4)}{3}=44$\n$\\Rightarrow (3x+6)-\\frac{(3x+6)}{3}=44$\n$\\Rightarrow 2(3x+6)=132$\n$\\Rightarrow 6x=120 \\Rightarrow x=20$.\n$\\therefore$ Largest number $=x+4=24$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "The average marks of a student in 4 subjects is 75. If the student obtained 80 marks in the fifth subject, then the new average is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "72.5",
+      "option_b": "76",
+      "option_c": "77",
+      "option_d": "77.5",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Sum of marks in $4$ subjects $=75\\times4=300$.\nSum of marks in $5$ subjects $=300+80=380$.\n$\\therefore$ New average $=\\frac{380}{5}=76$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average age of the boys in a class is 16 years and that of the girls is 15 years. The average age for the whole class is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15 years",
+      "option_b": "15.5 years",
+      "option_c": "16 years",
+      "option_d": "Cannot be computed with the given information",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Clearly, to find the average, we ought to know the number of boys, girls or students in the class, neither of which has been given.\nSo, the data provided is inadequate.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "S.S.C. 2004",
+      "passage_text": "",
+      "question_text": "The average annual income (in ₹) of certain agricultural workers is $S$ and that of other workers is $T$. The number of agricultural workers is 11 times that of other workers. Then the average monthly income (in ₹) of all the workers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{S + T}{2}$",
+      "option_b": "$\\frac{S + 11T}{2}$",
+      "option_c": "$\\frac{1}{11} + \\frac{T}{S}$",
+      "option_d": "$\\frac{11S + T}{12}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the number of other workers be $x$. Then, number of agricultural workers $=11x$.\nTotal number of workers $=12x$.\n$\\therefore$ Average monthly income $=\\frac{S\\times11x+T\\times x}{12x}=\\frac{11S+T}{12}$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A family consists of grandparents, parents and three grandchildren. The average age of the grandparents is 67 years, that of the parents is 35 years and that of the grandchildren is 6 years. What is the average age of the family?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$28\\frac{4}{7}$ years",
+      "option_b": "$31\\frac{5}{7}$ years",
+      "option_c": "$32\\frac{1}{7}$ years",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Required average $=\\frac{67\\times2+35\\times2+6\\times3}{2+2+3}$\n$=\\frac{134+70+18}{7}=\\frac{222}{7}=31\\frac{5}{7}$ years.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "250",
+      "option_b": "276",
+      "option_c": "280",
+      "option_d": "285",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Since the month begins with a Sunday, so there will be five Sundays in the month.\n$\\therefore$ Required average $=\\left(\\frac{510\\times5+240\\times25}{30}\\right)=\\frac{8550}{30}=285$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "NABARD, 2009",
+      "passage_text": "",
+      "question_text": "In a class there are 32 boys and 28 girls. The average age of the boys in the class is 14 years and the average age of the girls in the class is 13 years. What is the average age of the whole class (rounded to two digits after decimal)?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12.51",
+      "option_b": "13.42",
+      "option_c": "13.50",
+      "option_d": "13.53",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Required average $=\\left(\\frac{32\\times14+28\\times13}{32+28}\\right)=\\frac{448+364}{60}=\\frac{812}{60}=13.53$.",
+      "page_numbers": [
+        "212"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average weight of 16 boys in a class is 50.25 kgs and that of the remaining 8 boys is 45.15 kgs. Find the average weight of all the boys in the class.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "47.55 kgs",
+      "option_b": "48 kgs",
+      "option_c": "48.55 kgs",
+      "option_d": "49.25 kgs",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Required average $=\\frac{50.25\\times16+45.15\\times8}{16+8}$\n$=\\frac{804+361.20}{24}=\\frac{1165.20}{24}=48.55$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "The mean of 5 observations is 60, the mean of 10 observations is 30 and the mean of 15 observations is 20. The mean of all the 30 observations is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "25",
+      "option_c": "30",
+      "option_d": "40",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Required mean $=\\frac{60\\times5+30\\times10+20\\times15}{5+10+15}$\n$=\\frac{300+300+300}{30}=\\frac{900}{30}=30$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "The average expenditure of a man for the first five months of a year is ₹ 5000 and for the next seven months it is ₹ 5400. He saves ₹ 2300 during the year. His average monthly income is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 5425",
+      "option_b": "₹ 5446",
+      "option_c": "₹ 5500",
+      "option_d": "₹ 5600",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Total yearly income $=₹(5000\\times5+5400\\times7+2300)$\n$=₹(25000+37800+2300)=₹65100$.\n$\\therefore$ Average monthly income $=\\frac{65100}{12}=₹5425$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "A school has 4 sections of Chemistry in Class X having 40, 35, 45 and 42 students. The mean marks obtained in Chemistry test are 50, 60, 55 and 45 respectively for the 4 sections. Determine the overall average of marks per student.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "50.25",
+      "option_b": "51.25",
+      "option_c": "52.25",
+      "option_d": "53.25",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Average marks $=\\frac{50\\times40+60\\times35+55\\times45+45\\times42}{40+35+45+42}$\n$=\\frac{2000+2100+2475+1890}{162}$\n$=\\frac{8465}{162}=52.25$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "S.S.C., 2008",
+      "passage_text": "",
+      "question_text": "If the average of m numbers is $n^2$ and that of n numbers is $m^2$, then the average of $(m + n)$ numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$m - n$",
+      "option_b": "$mn$",
+      "option_c": "$m + n$",
+      "option_d": "$\\frac{m}{n}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Sum of $m$ numbers $=mn^2$. Sum of $n$ numbers $=nm^2$.\nSum of $(m+n)$ numbers $=mn^2+nm^2=mn(m+n)$.\n$\\therefore$ Average of $(m+n)$ numbers $=\\frac{mn(m+n)}{(m+n)}=mn$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "M.A.T., 2005, C.P.O., 2006, C.P.F. 2008",
+      "passage_text": "",
+      "question_text": "The average of five consecutive numbers is x. If the next two numbers are also included, how shall the average vary?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "It shall increase by 1",
+      "option_b": "It shall remain the same",
+      "option_c": "It shall increase by 1.4",
+      "option_d": "It shall increase by 2",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the five consecutive numbers be $z, z+1, z+2, z+3$ and $z+4$. Then,\n$\\frac{z+(z+1)+(z+2)+(z+3)+(z+4)}{5}=x$\n$\\Rightarrow 5z+10=5x$\n$\\Rightarrow z=\\frac{5x-10}{5}=x-2$.\nSo, the numbers are $x-2, x-1, x, x+1, x+2$.\n$\\therefore$ Required mean\n$=\\frac{(x-2)+(x-1)+x+(x+1)+(x+2)}{5}=x$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "A person purchases 1 kg of tomatoes from each of the 4 places at the rate of 1 kg, 2 kg, 3 kg, 4 kg per rupee respectively. On an average, he has purchased x kg of tomatoes per rupee. Then the value of x is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.92",
+      "option_b": "2",
+      "option_c": "2.5",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Total quantity purchased $=4$ kg.\nTotal money paid $=₹\\left(1+\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}\\right)=₹\\frac{25}{12}$.\n$\\therefore$ Required average $=4\\times\\frac{12}{25}$ kg/rupee\n$=1.92$ kg/rupee.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "In a certain factory there are five workers A, B, C, D and E. A can complete a work in 4 minutes, B in 5 minutes, C in 6 minutes, D in 10 minutes and E in 12 minutes. The average number of units of work completed per worker per minute will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.16",
+      "option_b": "0.172",
+      "option_c": "0.80",
+      "option_d": "0.87",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Number of units of work completed by the five workers in $1$ minute:\n$A\\to\\frac{1}{4}, B\\to\\frac{1}{5}, C\\to\\frac{1}{6}, D\\to\\frac{1}{10}, E\\to\\frac{1}{12}$.\n$\\therefore$ Required average $=\\frac{\\frac{1}{4}+\\frac{1}{5}+\\frac{1}{6}+\\frac{1}{10}+\\frac{1}{12}}{5}=\\frac{41}{60}\\times\\frac{1}{5}=\\frac{41}{300}=0.16$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A car owner buys petrol at ₹ 17, ₹ 19 and ₹ 20 per litre for three consecutive years. Compute the average cost per litre, if he spends ₹ 6460 per year.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 18.49",
+      "option_b": "₹ 18.58",
+      "option_c": "₹ 19.2",
+      "option_d": "₹ 21.66",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Total quantity of petrol consumed in $3$ years\n$=6460\\left(\\frac{1}{17}+\\frac{1}{19}+\\frac{1}{20}\\right)$ litres\n$=(380+340+323)$ litres $=1043$ litres.\nTotal amount spent $=₹(3\\times6460)=₹19380$.\n$\\therefore$ Average cost $=₹\\frac{19380}{1043}=₹18.58$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of six numbers is x and the average of three of these is y. If the average of the remaining three is z, then",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$x = y + z$",
+      "option_b": "$2x = y + z$",
+      "option_c": "$x = 2y + 2z$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Clearly, we have: $\\frac{y+z}{6}=x$ or $2x=y+z$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Out of 9 persons, 8 persons spent ₹ 30 each for their meals. The ninth one spent ₹ 20 more than the average expenditure of all the nine. The total money spent by all of them was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 260",
+      "option_b": "₹ 290",
+      "option_c": "₹ 292.50",
+      "option_d": "₹ 400.50",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the average expenditure be ₹ $x$. Then,\n$9x = 8 \times 30 + (x + 20)$ or $9x = x + 260$ or $8x = 260$\nor $x = 32.50$.\n∴ Total money spent = $9x$ = ₹ $(9 \times 32.50)$ = ₹ $292.50$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "There were 35 students in a hostel. If the number of the students is increased by 7, then the expenses of the mess increase by ₹ 42 per day, while the average expenditure per head diminishes by ₹ 1. The original expenditure of the mess per day was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 400",
+      "option_b": "₹ 420",
+      "option_c": "₹ 432",
+      "option_d": "₹ 442",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the original expenditure of the mess per day be ₹ $x$.\nThen, new expenditure = ₹ $(x + 42)$.\n$\\frac{x}{35} - \\frac{x+42}{42} = 1$\n$\\Rightarrow 6x - 5(x + 42) = 210$\n$\\Rightarrow x - 210 = 210$\n$\\Rightarrow x = 420$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average price of three items of furniture is ₹ 15000. If their prices are in the ratio 3 : 5 : 7, the price of the cheapest item is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 9000",
+      "option_b": "₹ 15000",
+      "option_c": "₹ 18000",
+      "option_d": "₹ 21000",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let their prices be $3x$, $5x$ and $7x$ respectively.\nThen, $3x + 5x + 7x = 15000 \times 3$\n$\\Rightarrow 15x = 45000$\n$\\Rightarrow x = 3000$.\n∴ Cost of cheapest item = ₹ $(3000 \times 3)$ = ₹ $9000$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Of the four numbers, the first is twice the second, the second is one-third of the third and the third is 5 times the fourth. The average of the numbers is 24.75. The largest of these numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "25",
+      "option_c": "30",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the fourth number be $x$.\nThen, third number = $5x$, second number = $\\frac{5x}{3}$ and first\nnumber = $\\frac{10x}{3}$.\n$x + 5x + \\frac{5x}{3} + \\frac{10x}{3} = (24.75 \\times 4)$\n$\\Rightarrow 11x = 99$ or $x = 9$.\nSo, the numbers are $9, 45, 15$ and $30$.\n∴ Largest number = $45$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "65",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "Out of three numbers, the first is twice the second and is half of the third. If the average of the three numbers is 56, then difference of first and third numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "20",
+      "option_c": "24",
+      "option_d": "48",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the second number be $x$. Then, first number = $2x$,\nthird number = $4x$.\n$2x + x + 4x = 56 \\times 3$\n$\\Rightarrow 7x = 168$\n$\\Rightarrow x = 24$.\n∴ Required difference = $4x - 2x = 2x = 48$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "66",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Of the three numbers, the first is twice the second and the second is twice the third. The average of the reciprocal of the numbers is $\\frac{7}{72}$. The numbers are :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16, 8, 4",
+      "option_b": "20, 10, 5",
+      "option_c": "24, 12, 6",
+      "option_d": "36, 18, 9",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the third number be $x$. Then, second number = $2x$.\nFirst number = $4x$.\n$\\frac{1}{x} + \\frac{1}{2x} + \\frac{1}{4x} = \\left(\\frac{7}{72} \\times 3\\right)$ or $\\frac{7}{4x} = \\frac{7}{24}$\nor $4x = 24$ or $x = 6$.\nSo, the numbers are $24, 12$ and $6$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "67",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Of the three numbers, the average of the first and the second is greater than the average of the second and the third by 15. What is the difference between the first and the third of the three numbers?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "45",
+      "option_c": "60",
+      "option_d": "Data inadequate",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Let the numbers be $x, y$ and $z$.\nThen, $\\left(\\frac{x+y}{2}\\right) - \\left(\\frac{y+z}{2}\\right) = 15$ or $(x + y) - (y + z) = 30$\nor $x - z = 30$.",
+      "page_numbers": [
+        "213"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "84",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6.25",
+      "option_b": "6.5",
+      "option_c": "6.75",
+      "option_d": "7",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Required run rate = $\\frac{282 - (3.2 \\times 10)}{40} = \\frac{250}{40} = 6.25$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "85",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a one-day cricket match the captain of one of the teams scored 30 runs more than the average runs scored by the remaining six batsmen of that team who batted in the match. If the total runs scored by all the batsmen of that team were 310, how many runs did the captain score?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "50",
+      "option_b": "60",
+      "option_c": "70",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let the average score of the remaining $6$ batsmen be\n$x$ runs.\nThen, sum of their scores = $6x$; captain’s score = $(x + 30)$.\n$6x + (x + 30) = 310$\n$\\Rightarrow 7x = 280$\n$\\Rightarrow x = 40$.\nHence, captain’s score = $x + 30 = 70$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "86",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a group of 120 people, one-fifth are men, one-fourth are women and the rest children. The average age of women is five-sixth of the average age of men. Average age of children is one-fourth of the average age of men. If average age of men is 60 years, what is the average age of the group?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "32.75",
+      "option_b": "38.45",
+      "option_c": "45.25",
+      "option_d": "50.5",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Number of men = $\\frac{1}{5} \\times 120 = 24$.\nNumber of women = $\\frac{1}{4} \\times 120 = 30$.\nNumber of children = $120 - (24 + 30) = 66$.\nAverage age of men = $60$ years.\nAverage age of children = $\\frac{1}{4} \\times 60$ years = $15$ years.\nAverage age of women = $\\frac{5}{6} \\times 60$ years = $50$ years.\n∴ Average age of the group\n= $\\left(\\frac{60 \\times 24 + 50 \\times 30 + 15 \\times 66}{120}\\right)$ years\n= $\\left(\\frac{3930}{120}\\right)$ years = $32.75$ years.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "87",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Visitors to a show were charged ₹ 15 each on the first day, ₹ 7.50 each on the second day and ₹ 2.50 each on the third day. The attendance on the three days was in the ratio 2 : 5 : 13. The average charge per person for the whole show was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 5",
+      "option_b": "₹ 6.33",
+      "option_c": "₹ 7.50",
+      "option_d": "₹ 9",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the attendance on the three days be $2x, 5x$ and $13x$\nrespectively.\nThen, total charges\n= ₹ $(15 \\times 2x + 7.50 \\times 5x + 2.50 \\times 13x)$\n= ₹ $(30x + 37.5x + 32.5x)$\n= ₹ $100x$.\n∴ Average charge per person = $\\left(\\frac{100x}{2x + 5x + 13x}\\right)$ = ₹ $5$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "88",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "In an examination, a pupil's average marks was 63 per paper. If he had obtained 20 more marks for his Geography paper and 2 more marks for his History paper, his average per paper would have been 65. How many papers were there in the examination?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "9",
+      "option_c": "10",
+      "option_d": "11",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the number of papers be $x$. Then, pupil’s total score\n= $63x$.\n$\\frac{63x + 20 + 2}{x} = 65$\n$\\Rightarrow 2x = 22$\n$\\Rightarrow x = 11$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "89",
+      "exam_reference": "M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "The average age of all the students of a class is 18 years. The average age of boys of the class is 20 years and that of the girls is 15 years. If the number of girls in the class is 20, then find the number of boys in the class.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "30",
+      "option_c": "45",
+      "option_d": "50",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the number of boys in the class be $x$.\nThen, $18(x + 20) = 20x + 15 \\times 20$\n$\\Rightarrow 18x + 360 = 20x + 300$\n$\\Rightarrow 2x = 60$\n$\\Rightarrow x = 30$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "90",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "There are 3 groups of students, each containing 25, 50 and 25 students respectively. The mean marks obtained by the first two groups are 60 and 55. The combined mean of all the three groups is 58. What is the mean of the marks scored by the third group?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "52",
+      "option_b": "57",
+      "option_c": "58",
+      "option_d": "60",
+      "option_e": "62",
+      "correct_option": "e",
+      "solution": "Let the mean marks of the third group be $x$. Then,\n$\\frac{25 \\times 60 + 50 \\times 55 + 25 \\times x}{25 + 50 + 25} = 58$\n$\\Rightarrow 1500 + 2750 + 25x = 5800$\n$\\Rightarrow 25x = 1550$\n$\\Rightarrow x = 62$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "91",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A student obtained 60, 75 and 85 marks respectively in three monthly examinations in Physics and 95 marks in the final examination. The three monthly examinations are of equal weightage whereas the final examination is weighted twice as much as a monthly examination. His average marks in Physics are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "78.75",
+      "option_b": "79",
+      "option_c": "82",
+      "option_d": "85",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Average marks in Physics = $\\frac{60 \\times 1 + 75 \\times 1 + 85 \\times 1 + 95 \\times 2}{1 + 1 + 1 + 2}$\n= $\\frac{60 + 75 + 85 + 190}{5} = \\frac{410}{5} = 82$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "92",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A student obtained the following marks in percentages in his semester examination English 50, Maths 65, Statistics 70, Economics 58 and Accountancy 63. The weights of these subjects are 2, 2, 1, 1 and 1 respectively. What is the weighted arithmetic mean?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "60",
+      "option_b": "61",
+      "option_c": "62",
+      "option_d": "63",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Weighted arithmetic mean\n= $\\frac{50 \\times 2 + 65 \\times 2 + 70 \\times 1 + 58 \\times 1 + 63 \\times 1}{2 + 2 + 1 + 1 + 1}$\n= $\\frac{100 + 130 + 70 + 58 + 63}{7} = \\frac{421}{7} \\approx 60.14 \\approx 60$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "93",
+      "exam_reference": "S.S.C. 2004",
+      "passage_text": "",
+      "question_text": "The average of 8 numbers is 20. The average of first two numbers is $15\\frac{1}{2}$ and that of the next three is $21\\frac{1}{3}$. If the sixth number be less than the seventh and eighth numbers by 4 and 7 respectively, then the eighth number is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "22",
+      "option_c": "25",
+      "option_d": "27",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the eighth number be $x$. Then, sixth number = $(x - 7)$.\nSeventh number = $(x - 7) + 4 = (x - 3)$.\nSo, $\\left(11 \\times 2 + 15 \\times 3 + 21 \\times 8 + (x - 7) + (x - 3) + x\\right) = 20 \\times 23$\n$\\Leftrightarrow 31 + 64 + (3x - 10) = 160$\n$\\Leftrightarrow 3x = 75$\n$\\Leftrightarrow x = 25$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "94",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the arithmetic mean of seventy-five numbers is calculated, it is 35. If each number is increased by 5, then mean of new numbers is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30",
+      "option_b": "40",
+      "option_c": "70",
+      "option_d": "90",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "A.M. of $75$ numbers = $35$. Sum of $75$ numbers\n= $(75 \\times 35) = 2625$.\nTotal increase = $(75 \\times 5) = 375$. Increased sum\n= $(2625 + 375) = 3000$.\nIncreased average = $\\frac{3000}{75} = 40$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "95",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of ten numbers is 7. If each number is multiplied by 12, then the average of the new set of numbers is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7",
+      "option_b": "19",
+      "option_c": "82",
+      "option_d": "84",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Average of $10$ numbers = $7$.\nSum of these $10$ numbers = $(10 \\times 7) = 70$.\n∴ $x_1 + x_2 + ..... + x_{10} = 70$\n$\\Rightarrow 12x_1 + 12x_2 + ..... + 12x_{10} = 840$\n$\\Rightarrow \\frac{12(x_1 + x_2 + ..... + x_{10})}{10} = 84$\n$\\Rightarrow$ Average of new numbers is $84$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "96",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Average of ten positive numbers is x. If each number is increased by 10%, then x",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "remains unchanged",
+      "option_b": "may decrease",
+      "option_c": "may increase",
+      "option_d": "is increased by 10%",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\frac{x_1 + x_2 + ..... + x_{10}}{10} = \\bar{x}$\n$\\Rightarrow x_1 + x_2 + ... + x_{10} = 10\\bar{x}$\n$\\Rightarrow \\frac{110}{100}x_1 + \\frac{110}{100}x_2 + ... + \\frac{110}{100}x_{10} = 10\\bar{x} \\times \\frac{110}{100}$\n$\\Rightarrow \\frac{\\frac{110}{100}(x_1 + x_2 + ... + x_{10})}{10} = 11\\bar{x}$\n$\\Rightarrow$ Average is increased by $10\\%$.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "97",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "The average height of 35 girls in a class was calculated as 160 cm. It was later found that the height of one of the girls in the class was wrongly written as 144 cm, whereas her actual height was 104 cm. What is the actual average height of the girls in the class? (rounded off to 2 digits after decimal)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "158.54 cm",
+      "option_b": "158.74 cm",
+      "option_c": "159.56 cm",
+      "option_d": "159.86 cm",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Correct sum = $(160\times35+104-144)$ cm $=5560$ cm.\n$\\therefore$ Actual average height = $\\frac{5560}{35}$ cm\n$=158.857$ cm $\\approx158.86$ cm.",
+      "page_numbers": [
+        "215"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "129",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A team of 8 persons joins in a shooting competition. The best marksman scored 85 points. If he had scored 92 points, the average score for the team would have been 84. The number of points, the team scored was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "588",
+      "option_b": "645",
+      "option_c": "665",
+      "option_d": "672",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the total score be $x$.\n$\\therefore \\frac{x+92-85}{8}=84 \\Rightarrow x+7=672 \\Rightarrow x=665$.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "130",
+      "exam_reference": "L.I.C.A.D.O., 2008",
+      "passage_text": "",
+      "question_text": "A motorist travels to a place 150 km away at an average speed of 50 km/hr and returns at 30 km/hr. His average speed for the whole journey in km/hr is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "35",
+      "option_b": "37",
+      "option_c": "37.5",
+      "option_d": "40",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Average speed = $\\frac{2xy}{x+y} = \\left(\\frac{2\\times50\\times30}{50+30}\\right)$ km/hr $=37.5$ km/hr.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "131",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average weight of 3 men A, B and C is 84 kg. Another man D joins the group and the average now becomes 80 kg. If another man E, whose weight is 3 kg more than that of D, replaces A, then the average weight of B, C, D and E becomes 79 kg. The weight of A is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "70 kg",
+      "option_b": "72 kg",
+      "option_c": "75 kg",
+      "option_d": "80 kg",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let $A, B, C, D$ and $E$ represent their respective weights.\nThen,\n$A+B+C=(84\\times3)=252$ kg, $A+B+C+D=(80\\times4)=320$ kg.\n$\\therefore D=(320-252)$ kg $=68$ kg, $E=(68+3)$ kg $=71$ kg.\n$B+C+D+E=(79\\times4)=316$ kg.\nNow, $(A+B+C+D)-(B+C+D+E)=(320-316)$ kg\n$=4$ kg.\n$\\therefore A-E=4 \\Rightarrow A=(4+E)=75$ kg.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "132",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average age of a husband and his wife was 23 years at the time of their marriage. After five years they have a one-year old child. The average age of the family now is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "19 years",
+      "option_b": "23 years",
+      "option_c": "28.5 years",
+      "option_d": "29.3 years",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Sum of the present ages of husband, wife and child\n$=(23\\times2+5\\times2)+1=57$ years.\n$\\therefore$ Required average = $\\frac{57}{3}=19$ years.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "133",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "Four years ago, the average age of A and B was 18 years. At present the average age of A, B and C is 24 years. What would be the age of C after 8 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25 years",
+      "option_b": "28 years",
+      "option_c": "32 years",
+      "option_d": "36 years",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Sum of the present ages of $A$ and $B$\n$=(18\\times2+4\\times2)$ years $=44$ years.\nSum of the present ages of $A, B$ and $C$\n$=(24\\times3)$ years $=72$ years.\n$C$'s present age $=(72-44)$ years $=28$ years.\n$\\therefore C$'s age after 8 years $=(28+8)$ years $=36$ years.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "134",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "Five years ago the average age of A, B, C, D was 45 years. By including X the present average of all the five is 49 years. Then the present age of X is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40 years",
+      "option_b": "45 years",
+      "option_c": "48 years",
+      "option_d": "64 years",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Sum of the present ages of $A, B, C$ and $D$\n$=(45\\times4+5\\times4)$ years $=200$ years.\nSum of the present ages of $A, B, C, D$ and $X$\n$=(49\\times5)$ years $=245$ years.\n$\\therefore X$'s present age $=(245-200)$ years $=45$ years.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "135",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "35 years",
+      "option_b": "40 years",
+      "option_c": "50 years",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Sum of the present ages of husband, wife and child\n$=(27\\times3+3\\times3)$ years $=90$ years.\nSum of the present ages of wife and child\n$=(20\\times2+5\\times2)$ years $=50$ years.\n$\\therefore$ Husband's present age $=(90-50)$ years $=40$ years.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "136",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average age of a husband and wife at the time of their marriage was 25 years. A son was born to them two years after their marriage. The present average age of all three of them is 24 years. How many years is it since the couple got married?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 years",
+      "option_b": "6 years",
+      "option_c": "8 years",
+      "option_d": "9 years",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Sum of the ages of husband and wife at the time of their\nmarriage $=(25\\times2)$ yrs $=50$ yrs.\nSum of the ages of husband and wife when their son was\nborn $=(50+2\\times2)$ yrs. $=54$ yrs.\nSum of the ages of husband, wife and son at present\n$=(24\\times3)$ years $=72$ years.\n$\\therefore$ Age of son = $\\frac{(72-54)}{3} = \\frac{18}{3} = 6$ years.\nHence, the couple got married $(6+2)=8$ years ago.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "137",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "When the average age of a couple and their son was 42 years, the son married and got a child after one year. When the child was 5 years old, the average age of the family became 36 years. What was the age of daughter-in-law at the time of their marriage?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "23 years",
+      "option_b": "24 years",
+      "option_c": "25 years",
+      "option_d": "26 years",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Sum of the ages of father, mother and son at the time of\nson's marriage $=(42\\times3)$ years\n$=126$ years.\nSum of the present ages of father, mother and son\n$=(126+3\\times6)$ years $=144$ years.\nSum of the present ages of father, mother, son and grandson\n$=(144+5)$ years $=149$ years.\nSum of the present ages of father, mother, son, daughter-in-law and grandson\n$=(36\\times5)$ years $=180$ years.\nDaughter-in-law's present age\n$=(180-149)$ years $=31$ years.\n$\\therefore$ Age of daughter-in-law at the time of marriage\n$=(31-6)$ years $=25$ years.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "138",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "Four years ago, the average age of a family of four persons was 18 years. During this period, a baby was born. Today if the average age of the family is still 18 years, the age of the baby is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.2 years",
+      "option_b": "2 years",
+      "option_c": "2.5 years",
+      "option_d": "3 years",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Sum of the ages of 4 members, 4 years ago\n$=(18\\times4)$ years $=72$ years.\nSum of the ages of 4 members now\n$=(72+4\\times4)$ years $=88$ years.\nSum of the ages of 5 members now\n$=(18\\times5)$ years $=90$ years.\n$\\therefore$ Age of the baby $=(90-88)$ years $=2$ years.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "139",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "After replacing an old member by a new member, it was found that the average age of five members of a club is the same as it was 3 years ago. What is the difference between the ages of the replaced and the new member?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 years",
+      "option_b": "4 years",
+      "option_c": "8 years",
+      "option_d": "15 years",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Age decreased $=(5\\times3)$ years $=15$ years.\nSo, the required difference $=15$ years.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "140",
+      "exam_reference": "M.A.T., 2009",
+      "passage_text": "",
+      "question_text": "The average age of 3 children in a family is 20% of the average age of the father and the eldest child. The total age of the mother and the youngest child is 39 years. If the father’s age is 26 years, what is the age of the second child?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15 years",
+      "option_b": "18 years",
+      "option_c": "20 years",
+      "option_d": "Cannot be determined",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Since the total or average age of all the family members\nis not given, the given data is inadequate. So, the age of\nsecond child cannot be determined.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "141",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average age of a group of persons going for picnic is 16 years. Twenty new persons with an average age of 15 years join the group on the spot due to which their average age becomes 15.5 years. The number of persons initially going for picnic is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "10",
+      "option_c": "20",
+      "option_d": "30",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the initial number of persons be $x$. Then,\n$16x+20\\times15=15.5(x+20) \\Leftrightarrow 0.5x=10 \\Leftrightarrow x=20$.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "142",
+      "exam_reference": "C.A.T., 2007",
+      "passage_text": "",
+      "question_text": "Ten years ago, the ages of the members of a joint family of eight people added up to 231 years. Three years later, one member died at the age of 60 years and a child was born during the same year. After another three years, one more member died, again at 60, and a child was born during the same year. The current average of this eight-member joint family is nearest to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "21 years",
+      "option_b": "22 years",
+      "option_c": "23 years",
+      "option_d": "24 years",
+      "option_e": "25 years",
+      "correct_option": "d",
+      "solution": "Sum of the ages of all 8 members, 10 years ago\n$=231$ years.\nSum of the ages of all members, 7 years ago\n$=(231+8\\times3-60)$ years $=195$ years.\nSum of the ages of all members, 4 years ago\n$=(195+8\\times3-60)$ years $=159$ years.\nSum of the present ages of all 8 members\n$=(159+8\\times4)$ years $=191$ years.\n$\\therefore$ Current average age = $\\frac{191}{8}$ years\n$=23.8$ years $\\approx24$ years.",
+      "page_numbers": [
+        "218"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "143",
+      "exam_reference": "",
+      "passage_text": "Mr. Joe’s family consists of six people–himself, his wife and their four children. It is known that the average age of the family immediately after the birth of the first, second, third and fourth child was 16, 15, 16 and 15 years respectively. Find the age of Mr. Joe’s eldest son if the present average age of the entire family is 16 years.",
+      "question_text": "Find the age of Mr. Joe’s eldest son if the present average age of the entire family is 16 years.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 years",
+      "option_b": "12 years",
+      "option_c": "15 years",
+      "option_d": "16 years",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "When the first child was born, the total age of all the\nfamily members $=(16\\times3)$ years\n$=48$ years.\nWhen the second child was born, the total age of all the\nfamily members $=(15\\times4)$ years\n$=60$ years.\nBy the time the second child was born, each one of the\n3 family members had grown by\n$\\frac{60-48}{3} = \\frac{12}{3} = 4$ years.\nHence, the age of eldest son when the second child was\nborn $=4$ years.\nWhen the third child was born, the total age of all the\nfamily members $=(16\\times5)$ years\n$=80$ years.\nBy the time, the third child was born, each one of the\nfour family members had grown by\n$\\frac{80-60}{4} = 5$ years.",
+      "page_numbers": [
+        "218",
+        "219"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "144",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Total expenses of a boarding house are partly fixed and partly varying linearly with the number of boarders. The average expense per boarder is ₹ 700 when there are 25 boarders and ₹ 600 when there are 50 boarders. What is the average expense per boarder when there are 100 boarders?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 540",
+      "option_b": "₹ 550",
+      "option_c": "₹ 570",
+      "option_d": "₹ 580",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the fixed cost be ₹ $x$ and the variable cost be ₹ $y$ per\nboarder.\nThen, $x+25y=700\\times25 \\Rightarrow x+25y=17500$ ...(i)\n$x+50y=600\\times50 \\Rightarrow x+50y=30000$ ...(ii)\nSubtracting (i) from (ii), we get: $25y=12500$ or $y=500$.\nPutting $y=500$ in (i), we get: $x=5000$.\n$\\therefore$ Total expenses of 100 boarders = ₹ $(5000+500\\times100)$\n$=₹55000$.\nHence, average expense = $\\frac{55000}{100}$ = ₹ $550$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "145",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A certain factory employed 600 men and 400 women and the average wage was ₹ 25.50 per day. If a woman got ₹ 5 less than a man, then what are their daily wages?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Man : ₹ 25; Woman : ₹ 20",
+      "option_b": "Man : ₹ 27.50, Woman : ₹ 22.50",
+      "option_c": "Man : ₹ 30, Woman : ₹ 25",
+      "option_d": "Man : ₹ 32.50, Woman : ₹ 27.50",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the daily wage of a man be ₹ $x$. Then, daily wage of\na woman = ₹ $(x-5)$.\nNow, $600x+400(x-5)=25.50\\times(600+400)$\n$\\Leftrightarrow 1000x=27500$\n$\\Leftrightarrow x=27.50$.\n$\\therefore$ Man's daily wages = ₹ $27.50$; Woman's daily wages\n$=(x-5)=$ ₹ $22.50$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "146",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The arithmetic mean of the scores of a group of students in a test was 52. The brightest 20% of them secured a mean score of 80 and the dullest 25% a mean score of 31. The mean score of remaining 55% is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "45",
+      "option_b": "50",
+      "option_c": "51.4 approx.",
+      "option_d": "54.6 approx.",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required mean score be $x$. Then,\n$20\\times80+25\\times31+55\\times x=52\\times100$\n$\\Leftrightarrow 1600+775+55x=5200$\n$\\Leftrightarrow 55x=2825 \\Leftrightarrow x=\\frac{565}{11} \\approx 51.4$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "147",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A coaching institute has students in 3 batches - X, Y and Z. In a certain examination, the average marks obtained by these batches are 72, 60 and 50 respectively. The average marks of batches X and Y taken together is 69. If the ratio of the number of students in batches Y and Z is 6 : 7, what is the average score of all the three batches put together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "59",
+      "option_b": "61.6",
+      "option_c": "63.5",
+      "option_d": "64.7",
+      "option_e": "65",
+      "correct_option": "c",
+      "solution": "Let the number of students in batches $Y$ and $Z$ be $6x$ and\n$7x$ respectively, and the number of students in batch $X$\nbe $y$.\nThen, $72y+60\\times6x=69(6x+y)$\n$\\Rightarrow 72y+360x=414x+69y$\n$\\Rightarrow 3y=54x \\Rightarrow y=18x$.\n$\\therefore$ Required average = $\\frac{72\\times18x+60\\times6x+50\\times7x}{18x+6x+7x}$\n$= \\frac{1296x+360x+350x}{31x} = \\frac{2006}{31} = 64.7$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "148",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "The average salary of all the workers in a workshop is ₹ 8000. The average salary of 7 technicians is ₹ 12000 and the average salary of the rest is ₹ 6000. The total number of workers in the workshop is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "21",
+      "option_c": "22",
+      "option_d": "23",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the total number of workers be x. Then,\n$8000x = (12000 \\times 7) + 6000 (x - 7)$\n$\\Leftrightarrow 2000x = 42000$\n$\\Leftrightarrow x = 21$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "149",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a school with 600 students, the average age of the boys is 12 years and that of the girls is 11 years. If the average age of the school is 11 years 9 months, then the number of girls in the school is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "150",
+      "option_b": "250",
+      "option_c": "350",
+      "option_d": "450",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number of girls be x. Then, number of boys = $(600 - x)$.\nThen, $\\frac{3}{4} \\times 600 = 11x + 12 (600 - x)$\n$\\Leftrightarrow x = 7200 - 7050$\n$\\Leftrightarrow x = 150$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "150",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "The average score of a class of boys and girls in an examination is A. The ratio of boys and girls in the class is 3 : 1. If the average score of the boys is A + 1, the average score of the girls is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "A – 1",
+      "option_b": "A – 3",
+      "option_c": "A + 1",
+      "option_d": "A + 3",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number of boys and girls in the class be $3x$ and $x$ respectively. Let the average score of the girls be $y$.\nThen, $3x (A + 1) + xy = (3x + x) A$\n$\\Rightarrow 3 (A + 1) + y = 4A$\n$\\Rightarrow y = A - 3$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "151",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "In an engineering college the average salary of all engineering graduates from Mechanical trade is ₹ 2.45 lacs per annum and that of the engineering graduates from Electronics trade is ₹ 3.56 lacs per annum. The average salary of all Mechanical and Electronics graduates is ₹ 3.12 lacs per annum. Find the least number of Electronics graduates passing out from this institute.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "43",
+      "option_b": "59",
+      "option_c": "67",
+      "option_d": "Cannot be determined",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number of Mechanical Engineering graduates be $M$ and the number of Electronics Engineering graduates be $E$.\nThen, $2.45 M + 3.56 E = 3.12 (M + E)$\n$\\Rightarrow 2.45 M + 3.56 E = 3.12 M + 3.12 E$\n$\\Rightarrow 0.44 E = 0.67 M$\n$\\Rightarrow \\frac{M}{E} = \\frac{0.44}{0.67} = \\frac{44}{67}$.\nSince the ratio $44 : 67$ is in its simplest form, so least number of Electronics graduates = $67$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "152",
+      "exam_reference": "M.A.T., 2007; M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "The average age of students of a class is 15.8 years. The average age of boys in the class is 16.4 years and that of the girls is 15.4 years. The ratio of the number of boys to the number of girls in the class is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 : 2",
+      "option_b": "2 : 3",
+      "option_c": "3 : 4",
+      "option_d": "3 : 5",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the ratio be $k : 1$. Then,\n$k \\times 16.4 + 1 \\times 15.4 = (k + 1) \\times 15.8$\n$\\Leftrightarrow (16.4 - 15.8) k = (15.8 - 15.4)$\n$\\Leftrightarrow k = \\frac{0.4}{0.6} = \\frac{2}{3}$.\n$\\therefore$ Required ratio = $\\frac{2}{3} : 1 = 2 : 3$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "153",
+      "exam_reference": "JMET, 2008",
+      "passage_text": "",
+      "question_text": "The mean monthly salary paid to graduating MBA class of a management institute is ₹ 16000. The mean monthly salary paid to students with work experience is ₹ 18000. The corresponding figure for the students without any work experience is ₹ 12000. Determine the percentage of students with work experience and those without any work experience in the class.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "66.67%, 33.33%",
+      "option_b": "33.33%, 66.67%",
+      "option_c": "75%, 25%",
+      "option_d": "25%, 75%",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number of students with work experience be $x$ and those without work experience be $y$.\nThen, $18000 x + 12000 y = 16000 (x + y)$\n$\\Rightarrow 2000 x = 4000 y$\n$\\Rightarrow \\frac{x}{y} = \\frac{2}{1}$.\n$\\therefore$ Percentage of students with work experience\n$= \\left(\\frac{2}{3} \\times 100\\right) \\% = 66.67\\%$.\nPercentage of students without work experience\n$= (100 - 66.67)\\% = 33.33\\%$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "154",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "My Scooty gives an average of 40 kmpl of petrol. But after recent filling at the new petrol pump, its average dropped to 38 kmpl. I investigated and found out that it was due to adulterated petrol. Petrol pumps add kerosene, which is $\\frac{2}{3}$ cheaper than petrol, to increase their profits. Kerosene generates excessive smoke and knocking and gives an average of 18 km per 900 ml. If I paid ₹ 30 for a litre of petrol, what was the additional amount the pump-owner was making?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1.75",
+      "option_b": "₹ 1.80",
+      "option_c": "₹ 2",
+      "option_d": "₹ 2.30",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let $x$ ml of kerosene be there in 1 litre mixture.\nThen, quantity of petrol in 1 litre mixture = $(1000 - x)$ ml.\n$\\therefore \\frac{40}{1000} + \\frac{18}{900} (1000 - x) = 38$\n$\\Rightarrow \\frac{x}{25} - \\frac{x}{50} = 2$\n$\\Rightarrow x = 100$.\nSo, 1 litre mixture has 900 ml petrol and 100 ml kerosene.\nCost of 1 litre petrol = ₹ 30.\nCost of 1 litre kerosene = $\\left[\\left(1 - \\frac{2}{3}\\right) \\times 30\\right] = ₹ 10$.\nCost of 1 litre mixture = $\\left(\\frac{30}{1000} \\times 900 + \\frac{10}{1000} \\times 100\\right) = ₹ 28$.\n$\\therefore$ Additional amount earned by pump-owner\n$= ₹ (30 - 28) = ₹ 2$.",
+      "page_numbers": [
+        "219"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "155",
+      "exam_reference": "IBPS—RRB Officer’s Gr. ‘B’ Exam, 2015",
+      "passage_text": "",
+      "question_text": "Average score of a class of 60 students, in an exam, was 43. Average score of the students who had passed is 52 and the average score of students who had failed is 16. How many failed the exam?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25",
+      "option_b": "20",
+      "option_c": "15",
+      "option_d": "18",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total number of students in class = 60\nAverage score of passed students = 52\nAverage score of failed students = 16\nBy applying the rule of alligation,\nAverage score of passed students 52, Average score of failed students 16, Mean 43.\n$43 - 16 = 27$, $52 - 43 = 9$.\n$\\Rightarrow 3 : 1$\n$\\therefore$ Number of students who failed in exam = $\\frac{1}{4} \\times 60 = 15$.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "156",
+      "exam_reference": "Indian Railway Gr. ‘D’ Exam, 2014",
+      "passage_text": "",
+      "question_text": "The average of 11 results is 60. If the average of first six results is 58 and that of last six is 63, find the 6th result.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "66",
+      "option_b": "55",
+      "option_c": "64",
+      "option_d": "68",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "The average of 11 results = 60\nThe total of 11 results = $60 \\times 11 = 660$\nAverage of first six results = 58\nAverage of last six results = 63\nTotal of first six results = $58 \\times 6 = 348$\nTotal of last six results = $63 \\times 6 = 378$\n$\\therefore$ sixth results = total of first and last six results - total of 11 results\n$= (348 + 378) - 660$\n$= 726 - 660 = 66$.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "157",
+      "exam_reference": "Indian Railway Gr. ‘D’ Exam, 2014",
+      "passage_text": "",
+      "question_text": "The average weight of 21 boys was recorded as 64 kg. If the weight of the teacher was added, the average increased by 1 kg. What was the teacher’s weight?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "86 kg",
+      "option_b": "64 kg",
+      "option_c": "72 kg",
+      "option_d": "84 kg",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average weights of 21 boys = 64 kg\nTotal weights of 21 boys = $64 \\times 21 = 1344$ kg\nThe weight of the teacher was added then average increase by 1kg\n$\\Rightarrow$ total weight of teachers and 21 boys = $65 \\times 21 = 1430$ kg\nWeight of teacher = $1430 - 1344 = 86$ kg.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "158",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The average of 12 numbers is 15 and the average of the first two is 14. What is the average of the rest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "$15\\frac{1}{5}$",
+      "option_c": "14",
+      "option_d": "$14\\frac{1}{5}$",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average of 12 number = 15\nTotal of 12 number = $15 \\times 12 = 180$\nAverage of first two number = 14\nTotal of first two number = $14 \\times 2 = 28$\nTotal of remaining ten numbers = $180 - 28 = 152$\nRequired average of remaining ten number = $\\frac{152}{10} = 15 \\frac{1}{5}$.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "159",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The average expenditure of a man for the first five months is ₹ 1200 and for the next seven months is ₹ 1300. If he saves ₹ 2900 in that year, his monthly average income is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1500",
+      "option_b": "₹ 1600",
+      "option_c": "₹ 1700",
+      "option_d": "₹ 1400",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average expenditure of a man for the first five month = ₹ 1200\nAverage expenditure of a man for the next seven month = ₹ 1300\nTotal annual expenditure of man = ₹ $(5 \\times 1200 + 7 \\times 1300)$\n= ₹ $(6000 + 9100) = ₹ 15100$\nMan saves = ₹ 2900\nHis total annual income = ₹ $(15100 + 2900) = ₹ 18000$\n$\\therefore$ Average monthly income = $\\frac{18000}{12} = ₹ 1500$.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "160",
+      "exam_reference": "IBPS—Bank Spl. Officers (IT) Exam, 2015",
+      "passage_text": "",
+      "question_text": "In a primary school the average weight of male students is 65.9 kg and the average weight of female students is 57 kg. If the average weight of all the students (both male and female) is 60.3 kg and the number of male students in the school is 66, what is the number of female students in the school?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "162",
+      "option_b": "168",
+      "option_c": "180",
+      "option_d": "112",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number of female students be $x$\nLet weight of female students = $57x$\nNumber of male students = 66\nTotal weight of male students = $65.9 \\times 66$\nAverage weight of all the students 60.3 kg\nTotal weigh of all the students = $60.3 (66 + x)$\nAccording to given information\nThen, $60.3 (66 + x) = 66 \\times 65.9 + 57x$\n$60.3 \\times 66 + 60.3x = 66 \\times 65.9 + 57x$\n$60.3x - 57x = 66(65.9 - 60.3)$\nor, $3.3x = 66(65.9 - 60.3)$\nor, $3.3x = 66 \\times 5.6$\n$\\therefore x = \\frac{66 \\times 5.6}{3.3} = 2 \\times 56 = 112$.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "161",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Out of 10 teachers of a school, one teacher retires and in place of him a new teacher 25 years old joins. As a result of it average age of the teachers reduces by 3 years. Age of the retired teacher (in years) is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "55",
+      "option_b": "60",
+      "option_c": "58",
+      "option_d": "56",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total number of teachers = 10\nAge of new teacher = 25 years\nAge of the retired teacher = $(25 + 3 \\times 10)$ years = 55 years.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "162",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Six numbers are arranged in decreasing order. The average of the first five numbers is 30 and the average of the last five numbers is 25. The difference of the first and the last numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "25",
+      "option_c": "5",
+      "option_d": "30",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Numbers are $x > y > z > p > q > r$\nAccording to the question,\nAverage of first five numbers = 30\nSum of first five number = $x + y + z + p + q = 5 \\times 30 = 150$ ... (i)\nAverage of last five number = 25\nSum of last five numbers = $y + z + p + q + r = 5 \\times 25 = 125$ ... (ii)\nBy equation (i) and (ii) $x - r = 150 - 125 = 25$.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "163",
+      "exam_reference": "United India Insurance (UIICL) Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The average weight of A, B and C is 40 kgs. Weight of C is 24 kgs more than A’s weight and 3 kgs less than B’s weight. What will be the average weight of A, B, C and D, if D weights 15 kgs less than C?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "42 kgs",
+      "option_b": "40 kgs",
+      "option_c": "36 kgs",
+      "option_d": "38 kgs",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average weight of A, B and C = 40 kgs\nTotal weights of A, B and C = $40 \\times 3 = 120$ kgs\nWeight of C = $(A + 24)$kg and C = $(B - 3)$ kg\n$\\therefore A + 24 = B - 3$\n$\\Rightarrow B = A + 27$\nNow $A + B + C = 120$\n$\\Rightarrow A + A + 27 + A + 24 = 120$\n$\\Rightarrow 3A + 51 = 120$\n$\\Rightarrow A = \\frac{69}{3} = 23$ kg\n$B = A + 27 = 23 + 27 = 50$ kg\n$C = 120 - 23 - 50 = 47$ kg\n$D = 47 - 15 = 32$ kg\n$\\therefore$ Required average weight of A, B, C and D = $\\frac{23 + 50 + 47 + 32}{4} = \\frac{152}{4} = 38$ kg.",
+      "page_numbers": [
+        "220"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "166",
+      "exam_reference": "IBPS—RRB Officer Exam, 2015",
+      "passage_text": "",
+      "question_text": "There are three positive numbers. One third of the average of all the three numbers is 8 less than the value of the highest number. The average of the lowest and the second lowest number is 8. What is the highest number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11",
+      "option_b": "14",
+      "option_c": "10",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the three positive numbers in increasing order be $a$, $b$ and $c$ and the average of these numbers be $A$.\nThen, $\\frac{a + b + c}{3} = A$ ... (i)\nGiven $c - \\frac{A}{3} = 8$\nor, $c - \\frac{a + b + c}{9} = 8$ ... (ii)\nAlso, given $\\frac{b + a}{2} = 8$ ... (iii)\n$\\Rightarrow a + b = 16$\nPutting the value of $(a + b)$ in equation (ii), we get\n$c - \\frac{16 + c}{9} = 8$\nor, $9c - 16 - c = 72$\nor, $8c = 72 + 16 = 88$\nor, $8c = 88$\n$\\therefore c = 11$\n$\\therefore$ Highest number = 11.",
+      "page_numbers": [
+        "220",
+        "221"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "167",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "A shop of electronic goods is closed on Monday. The average daily sales for remaining six days of a week is ₹ 15,640/- and the average sale of Tuesday to Saturday is ₹ 14,124/-. The sales on Sunday is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 20,188/-",
+      "option_b": "Data inadequate",
+      "option_c": "₹ 23,220/-",
+      "option_d": "₹ 21,704/-",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average sales per day for six days of the week = ₹ 15,640/-\nTotal sales of six days of the week = $15640 \\times 6 = ₹ 93,840/-$\nAverage sales of Tuesday to Saturday = ₹ 14,124/-\nTotal sales from Tuesday to Saturday = $14,124 \\times 5 = ₹ 70,620/-$\n$\\therefore$ Sales on Sunday = (₹ 93,840 - 70,620) = ₹ 23,220/-.",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "168",
+      "exam_reference": "SSC—CHSL (10 + 2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The mean high temperature of the first four days of a week is 25ºC whereas the mean of the last four days is 25.5ºC. If the mean of the whole week is 25.2ºC, then the temperature of the 4th day is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25.2ºC",
+      "option_b": "25.5ºC",
+      "option_c": "25.6ºC",
+      "option_d": "25ºC",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average temperature of first four days = 25ºC\nTotal temperature of first four days = $25º \\times 4 = 100ºC$\nAverage temperature last four days = 25.5º\nTotal temperature of four days = $25.5º \\times 4 = 102ºC$\nTotal temperature of whole week = $25.2 \\times 7 = 176.4ºC$\n$\\therefore$ Temperature of the 4th day = $100º + 102º - 176.4º = 25.6ºC$.",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "169",
+      "exam_reference": "ESIC—UDC Exam, 2016",
+      "passage_text": "",
+      "question_text": "Find the average of 205, 302, 108, 403 and 202",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "450",
+      "option_b": "1225",
+      "option_c": "244",
+      "option_d": "1220",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sum of numbers = $205 + 302 + 108 + 403 + 202 = 1220$\nRequired average = $\\frac{1220}{5} = 244$.",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "170",
+      "exam_reference": "ESIC—UDC Exam, 2016",
+      "passage_text": "",
+      "question_text": "The average monthly income of P and Q is ₹ 6,000; that of Q and R is ₹ 5,250; and, that P and R is ₹ 5,500. What is P’s monthly income?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 3,500",
+      "option_b": "₹ 4,500",
+      "option_c": "₹ 6,250",
+      "option_d": "₹ 4,800",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average monthly income of P and Q = ₹ 6,000/-\nAverage monthly income of Q and R = ₹ 5,250/-\nAverage monthly income of P and R = ₹ 5,500/-\nTotal income of P + Q = $2\times6,000$ = ₹ 12,000/- ...(i)\nTotal income of Q + R = $2\times5,250$ = ₹ 10,500/- ...(ii)\nTotal income of R + P = $2\times5,500$ = ₹ 11,000/- ...(iii)\nOn adding equation (i), (ii) and (iii), we get\n$2(P + Q + R) = 12,000 + 10,500 + 11,000$\n$\\Rightarrow P + Q + R = \\frac{33500}{2}$\n= ₹ 16,750/- ...(iv)\nBy equation (iv) – (ii)\nP’s monthly income\n= ₹ (16,750 – 10,500) = ₹ 6,250/-",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "171",
+      "exam_reference": "ESIC—UDC Exam, 2016",
+      "passage_text": "",
+      "question_text": "The average of 6 numbers is 7. The average of three numbers of them is 5. What will be the average of remaining numbers?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "30",
+      "option_c": "9",
+      "option_d": "42",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average of 6 numbers = 7\nSum of 6 numbers = $6\times7 = 42$\nAverage of three numbers = 5\nSum of three numbers = $5\times3 = 15$\n$\therefore$ Sum of the remaining three numbers\n$= 42 - 15 = 27$\n$\therefore$ Required average = $\frac{27}{3} = 9$",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "172",
+      "exam_reference": "SBI Jr. Associates (Pre.) Exam, 2016",
+      "passage_text": "",
+      "question_text": "The average weight of boys in a class is 30 kg and the average weight of girls in the same class is 20 kg. If the average weight of the whole class is 23.25 kg, what could be the possible strength of boys and girls respectively in the same class?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "14 and 26",
+      "option_b": "13 and 27",
+      "option_c": "17 and 27",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number of boys and girls in the class are $x$ and $y$.\nAccording to given information\n$30x + 20y = 23.25(x + y)$\n$30x + 20y = 23.25x + 23.25y$\n$30x - 23.25x = 23.25y - 20y$\n$6.75x = 3.25y$\nor, $\frac{x}{y} = \frac{3.25}{6.75} = \frac{13}{27}$\nHence, possible number of boys and girls 13 and 27 respectively.",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "173",
+      "exam_reference": "DMRC—Train Operator (Station Controller) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Average of a, b, and c is 11; average of c, d and e is 17; average of e and f is 22 and average of e and c is 17. Find out the average of a, b, c, d, e, and f.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$15\\frac{2}{3}$",
+      "option_b": "$18\\frac{1}{2}$",
+      "option_c": "$16\\frac{1}{2}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average of $a$, $b$ and $c = 11$\nTotal of $a$, $b$ and $c = 33$ ...(i)\nSimilarly, Average of $c$, $d$, and $e = 17$\nSum of $c+d+e = 3\times17 = 51$ ...(ii)\nAverage of $e$ and $f$ is 22\nSum of $e+f = 2\times22 = 44$ ...(iii)\nAverage of $e$ and $c$ is 17\nSum of $e+c = 2\times17 = 34$ ...(iv)\nBy equations (i) + (ii) + (iii) – (iv)\n$a+b+c+c+d+e+e+f - (e+c)$\n$= 33 + 51 + 44 - 34$\n$= 128 - 34 = 94$\n$\therefore$ Required average = $\frac{94}{6}$\n$= \frac{47}{3} = 15\frac{2}{3}$",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "174",
+      "exam_reference": "CET—Maharashtra (MBA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "There are 4 consecutive odd numbers ($x_1, x_2, x_3$ and $x_4$) and three consecutive even numbers ($y_1, y_2$ and $y_3$). The average of the odd numbers is 6 less than the average of the even numbers. If the sum of the three even numbers is 16 less than the sum of the four odd numbers, what is the average of $x_1, x_2, x_3$ and $x_4$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30",
+      "option_b": "38",
+      "option_c": "32",
+      "option_d": "34",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "According to given information average of odd numbers\n= Average of even numbers – 6\n$\\Rightarrow \\frac{x_1+x_2+x_3+x_4}{4} = \\frac{y_1+y_2+y_3}{3} - 6$\n$\\Rightarrow \\frac{x_1+x_2+x_3+x_4}{4} = \\frac{y_1+y_2+y_3-18}{3}$\n$\\Rightarrow 3(x_1+x_2+x_3+x_4) = 4(y_1+y_2+y_3) - 72$\nAlso, $y_1+y_2+y_3 = x_1+x_2+x_3+x_4 - 16$\n$\\Rightarrow x_1+x_2+x_3+x_4 = y_1+y_2+y_3 + 16$ ...(i)\nSo, we have\n$3(y_1+y_2+y_3+16) = 4(y_1+y_2+y_3) - 72$\n$\\Rightarrow 3y_1+3y_2+3y_3+48 = 4y_1+4y_2+4y_3 - 72$\n$\\Rightarrow y_1+y_2+y_3 = 120$\n$\\Rightarrow x_1+x_2+x_3+x_4 = 120 + 16 = 136$ [From (i)]\n$\therefore$ Average of four odd numbers\n$= \\frac{x_1+x_2+x_3+x_4}{4} = \\frac{136}{4} = 34$",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "175",
+      "exam_reference": "CLAT, 2016",
+      "passage_text": "",
+      "question_text": "A library has an average of 510 visitors on Sundays and 240 on other days. What is the average number of visitors per day in the month of June beginning with a Sunday?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "276",
+      "option_b": "280",
+      "option_c": "285",
+      "option_d": "250",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "If a month beings with Sunday then there are 5 Sundays in that month.\nTotal number of visitors come on Sunday\n$= 510 \\times 5 = 2550$\nTotal number of visitors come on other days\n$= 240 \\times 25 = 6000$\n$\therefore$ Average number of visitors per day\n$= \\frac{2550 + 6000}{30} = \\frac{8550}{30} = 285$",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "176",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2014",
+      "passage_text": "",
+      "question_text": "The marks of six boys in a group are 48, 59, 87, 37, 78 and 57. What are the average marks of all six boys?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "61",
+      "option_b": "65",
+      "option_c": "69",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total marks of six boys $= 48 + 59 + 87 + 37 + 78 + 57 = 366$\nRequired average $= \\frac{366}{6} = 61$",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "177",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2014",
+      "passage_text": "",
+      "question_text": "The average weight of a group of 75 girls was calculated as 47 kgs. It was later discovered that the weight of one of the girls was read as 45 kgs. Whereas her actual weight was 25 kgs. What is the actual average weight of the group of 75 girls? (Rounded off to two digits after decimal)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "34",
+      "option_b": "36",
+      "option_c": "30",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Average weight of 75 girls $= 47$ kgs\nTotal weight of 75 girls $= 47 \\times 75 = 3525$ kg\nActual weight of 75 girls $= x$\nCorrect weight of 75 girls\n$3525 - 45 + 25 = 3525 - 20 = 3505$ kg\n$\therefore$ Required average weight $= x = \\frac{3505}{75} = 46.73$ kg",
+      "page_numbers": [
+        "221"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    }
+  ]
+}

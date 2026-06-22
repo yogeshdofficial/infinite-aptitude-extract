@@ -1,0 +1,1250 @@
+{
+  "chapter_title": "Chapter_31_Probability",
+  "question_count": 57,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a throw of a coin, find the probability of getting a head.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Here $S = \\{H, T\\}$ and $E = \\{H\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{1}{2}$.",
+      "page_numbers": [
+        "850"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two unbiased coins are tossed. What is the probability of getting at most one head ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Here $S = \\{HH, HT, TH, TT\\}$.\nLet $E =$ event of getting at most one head.\n$\\therefore E = \\{TT, HT, TH\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{3}{4}$.",
+      "page_numbers": [
+        "851"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "An unbiased die is tossed. Find the probability of getting a multiple of 3.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Here $S = \\{1, 2, 3, 4, 5, 6\\}$.\nLet $E$ be the event of getting a multiple of 3.\nThen, $E = \\{3, 6\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{2}{6} = \\frac{1}{3}$.",
+      "page_numbers": [
+        "851"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a simultaneous throw of a pair of dice, find the probability of getting a total more than 7.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Here, $n(S) = (6 \\times 6) = 36$.\nLet $E =$ Event of getting a total more than 7\n$= \\{(2, 6), (3, 5), (3, 6), (4, 4), (4, 5), (4, 6), (5, 3), (5, 4), (5, 5), (5, 6), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6)\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{15}{36} = \\frac{5}{12}$.",
+      "page_numbers": [
+        "851"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A bag contains 6 white and 4 black balls. Two balls are drawn at random. Find the probability that they are of the same colour.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let $S$ be the sample space. Then,\n$n(S) =$ Number of ways of drawing 2 balls out of $(6 + 4) = ^{10}C_2 = \\frac{10 \\times 9}{2 \\times 1} = 45$.\nLet $E =$ Event of getting both balls of the same colour. Then,\n$n(E) =$ Number of ways of drawing (2 balls out of 6) or (2 balls out of 4)\n$= (^{6}C_2 + ^{4}C_2) = \\left(\\frac{6 \\times 5}{2 \\times 1} + \\frac{4 \\times 3}{2 \\times 1}\\right) = (15 + 6) = 21$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{21}{45} = \\frac{7}{15}$.",
+      "page_numbers": [
+        "851"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two dice are thrown together. What is the probability that the sum of the numbers on the two faces is divisible by 4 or 6 ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, $n(S) = 6 \\times 6 = 36$.\nLet $E$ be the event that the sum of the numbers on the two faces is divisible by 4 or 6. Then\n$E = \\{(1, 3), (1, 5), (2, 2), (2, 4), (2, 6), (3, 1), (3, 3), (3, 5), (4, 2), (4, 4), (5, 1), (5, 3), (6, 2), (6, 6)\\}$\n$\\therefore n(E) = 14$.\nHence, $P(E) = \\frac{n(E)}{n(S)} = \\frac{14}{36} = \\frac{7}{18}$.",
+      "page_numbers": [
+        "851"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two cards are drawn at random from a pack of 52 cards. What is the probability that either both are black or both are queens ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "We have $n(S) = ^{52}C_2 = \\frac{52 \\times 51}{2 \\times 1} = 1326$.\nLet $A =$ event of getting both black cards;\n$B =$ event of getting both queens.\n$\\therefore A \\cap B =$ event of getting queens of black cards.\n$\\therefore n(A) = ^{26}C_2 = \\frac{26 \\times 25}{2 \\times 1} = 325$, $n(B) = ^{4}C_2 = \\frac{4 \\times 3}{2 \\times 1} = 6$ and $n(A \\cap B) = ^{2}C_2 = 1$.\n$\\therefore P(A) = \\frac{n(A)}{n(S)} = \\frac{325}{1326}; P(B) = \\frac{n(B)}{n(S)} = \\frac{6}{1326}$ and $P(A \\cap B) = \\frac{n(A \\cap B)}{n(S)} = \\frac{1}{1326}$.\n$\\therefore P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = \\left(\\frac{325}{1326} + \\frac{6}{1326} - \\frac{1}{1326}\\right) = \\frac{330}{1326} = \\frac{55}{221}$.",
+      "page_numbers": [
+        "851"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a simultaneous throw of two coins, the probability of getting at least one head is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$\\frac{1}{3}$",
+      "option_c": "$\\frac{2}{3}$",
+      "option_d": "$\\frac{3}{4}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Here $S = \\{HH, HT, TH, TT\\}$.\nLet $E = \\text{event of getting at least one head} = \\{HT, TH, HH\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{3}{4}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Three unbiased coins are tossed. What is the probability of getting at least 2 heads ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{4}$",
+      "option_b": "$\\frac{1}{2}$",
+      "option_c": "$\\frac{1}{3}$",
+      "option_d": "$\\frac{1}{8}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Here $S = \\{TTT, TTH, THT, HTT, THH, HTH, HHT, HHH\\}$.\nLet $E = \\text{event of getting at least two heads} = \\{THH, HTH, HHT, HHH\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{4}{8} = \\frac{1}{2}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Three unbiased coins are tossed. What is the probability of getting at most two heads ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{4}$",
+      "option_b": "$\\frac{1}{4}$",
+      "option_c": "$\\frac{3}{8}$",
+      "option_d": "$\\frac{7}{8}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Here $S = \\{TTT, TTH, THT, HTT, THH, HTH, HHT, HHH\\}$.\nLet $E = \\text{event of getting at most two heads}$.\nThen, $E = \\{TTT, TTH, THT, HTT, THH, HTH, HHT\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{7}{8}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a single throw of a die, what is the probability of getting a number greater than 4 ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$\\frac{1}{3}$",
+      "option_c": "$\\frac{2}{3}$",
+      "option_d": "$\\frac{1}{4}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "When a die is thrown, we have $S = \\{1, 2, 3, 4, 5, 6\\}$.\nLet $E = \\text{event of getting a number greater than } 4 = \\{5, 6\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{2}{6} = \\frac{1}{3}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a simultaneous throw of two dice, what is the probability of getting a total of 7 ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{6}$",
+      "option_b": "$\\frac{1}{4}$",
+      "option_c": "$\\frac{2}{3}$",
+      "option_d": "$\\frac{3}{4}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "We know that in a simultaneous throw of two dice, $n(S) = 6 \\times 6 = 36$.\nLet $E = \\text{event of getting a total of } 7 = \\{(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{6}{36} = \\frac{1}{6}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What is the probability of getting a sum 9 from two throws of a dice ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{6}$",
+      "option_b": "$\\frac{1}{8}$",
+      "option_c": "$\\frac{1}{9}$",
+      "option_d": "$\\frac{1}{12}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "In two throws of a die, $n(S) = (6 \\times 6) = 36$.\nLet $E = \\text{event of getting a sum } 9 = \\{(3, 6), (4, 5), (5, 4), (6, 3)\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{4}{36} = \\frac{1}{9}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a simultaneous throw of two dice, what is the probability of getting a doublet ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{6}$",
+      "option_b": "$\\frac{1}{4}$",
+      "option_c": "$\\frac{2}{3}$",
+      "option_d": "$\\frac{3}{7}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "In a simultaneous throw of two dice, $n(S) = (6 \\times 6) = 36$.\nLet $E = \\text{event of getting a doublet} = \\{(1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{6}{36} = \\frac{1}{6}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a simultaneous throw of two dice, what is the probability of getting a total of 10 or 11 ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{4}$",
+      "option_b": "$\\frac{1}{6}$",
+      "option_c": "$\\frac{7}{12}$",
+      "option_d": "$\\frac{5}{36}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "In a simultaneous throw of two dice, we have $n(S) = (6 \\times 6) = 36$.\nLet $E = \\text{event of getting a total of } 10 \\text{ or } 11 = \\{(4, 6), (5, 5), (6, 4), (5, 6), (6, 5)\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{5}{36}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two dice are thrown simultaneously. What is the probability of getting two numbers whose product is even ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{4}$",
+      "option_b": "$\\frac{1}{6}$",
+      "option_c": "$\\frac{7}{12}$",
+      "option_d": "$\\frac{5}{36}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "In a simultaneous throw of two dice, we have $n(S) = (6 \\times 6) = 36$.\nLet $E = \\text{event of getting two numbers whose product is even}$.\nThen, $E = \\{(1, 2), (1, 4), (1, 6), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (3, 2), (3, 4), (3, 6), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (5, 2), (5, 4), (5, 6), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6)\\}$.\n$\\therefore n(E) = 27$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{27}{36} = \\frac{3}{4}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn bears a number which is a multiple of 3 ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{10}$",
+      "option_b": "$\\frac{3}{20}$",
+      "option_c": "$\\frac{2}{5}$",
+      "option_d": "$\\frac{1}{2}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Here, $S = \\{1, 2, 3, 4, \\dots, 19, 20\\}$.\nLet $E = \\text{event of getting a multiple of } 3 = \\{3, 6, 9, 12, 15, 18\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{6}{20} = \\frac{3}{10}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn has a number which is a multiple of 3 or 5 ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$\\frac{2}{5}$",
+      "option_c": "$\\frac{8}{15}$",
+      "option_d": "$\\frac{9}{20}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Here, $S = \\{1, 2, 3, 4, \\dots, 19, 20\\}$.\nLet $E = \\text{event of getting a multiple of } 3 \\text{ or } 5 = \\{3, 6, 9, 12, 15, 18, 5, 10, 20\\}$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{9}{20}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a lottery, there are 10 prizes and 25 blanks. A lottery is drawn at random. What is the probability of getting a prize ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{10}$",
+      "option_b": "$\\frac{2}{5}$",
+      "option_c": "$\\frac{2}{7}$",
+      "option_d": "$\\frac{5}{7}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$P(\\text{getting a prize}) = \\frac{10}{(10+25)} = \\frac{10}{35} = \\frac{2}{7}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "One card is drawn at random from a pack of 52 cards. What is the probability that the card drawn is a face card ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{13}$",
+      "option_b": "$\\frac{4}{13}$",
+      "option_c": "$\\frac{1}{4}$",
+      "option_d": "$\\frac{9}{52}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Clearly, there are 52 cards, out of which there are 16 face cards.\n$\\therefore P(\\text{getting a face card}) = \\frac{16}{52} = \\frac{4}{13}$.",
+      "page_numbers": [
+        "852"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A card is drawn from a pack of 52 cards. The probability of getting a queen of club or a king of heart is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{13}$",
+      "option_b": "$\\frac{2}{13}$",
+      "option_c": "$\\frac{1}{26}$",
+      "option_d": "$\\frac{1}{52}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Here, $n(S) = 52$.\nLet $E = \\text{event of getting a queen of club or a king of heart}$.\nThen, $n(E) = 2$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{2}{52} = \\frac{1}{26}$.",
+      "page_numbers": [
+        "852",
+        "853"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "One card is drawn from a pack of 52 cards. What is the probability that the card drawn is either a red card or a king ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$\\frac{6}{13}$",
+      "option_c": "$\\frac{7}{13}$",
+      "option_d": "$\\frac{27}{52}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Here, $n(S) = 52$.\nThere are 26 red cards (including 2 kings) and there are 2 more kings.\nLet $E = \\text{event of getting a red card or a king}$.\nThen, $n(E) = 28$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{28}{52} = \\frac{7}{13}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "856"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "From a pack of 52 cards, one card is drawn at random. What is the probability that the card drawn is a ten or a spade ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{4}{13}$",
+      "option_b": "$\\frac{1}{4}$",
+      "option_c": "$\\frac{1}{13}$",
+      "option_d": "$\\frac{1}{26}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Here, $n(S) = 52$.\nThere are 13 spades (including one ten) and there are 3 more tens.\nLet $E = \\text{event of getting a ten or a spade}$.\nThen, $n(E) = (13 + 3) = 16$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{16}{52} = \\frac{4}{13}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "857"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The probability that a card drawn from a pack of 52 cards will be a diamond or a king, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{13}$",
+      "option_b": "$\\frac{4}{13}$",
+      "option_c": "$\\frac{1}{13}$",
+      "option_d": "$\\frac{1}{52}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Here, $n(S) = 52$.\nThere are 13 cards of diamond (including one king) and there are 3 more kings.\nLet $E = \\text{event of getting a diamond or a king}$.\nThen, $n(E) = (13 + 3) = 16$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{16}{52} = \\frac{4}{13}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "857"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "From a pack of 52 cards, two cards are drawn together at random. What is the probability of both the cards being kings ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{15}$",
+      "option_b": "$\\frac{25}{57}$",
+      "option_c": "$\\frac{35}{256}$",
+      "option_d": "$\\frac{1}{221}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let $S$ be the sample space.\nThen, $n(S) = ^{52}C_2 = \\frac{52 \\times 51}{(2 \\times 1)} = 1326$.\nLet $E = \\text{event of getting 2 kings out of 4}$.\n$\\therefore n(E) = ^4C_2 = \\frac{4 \\times 3}{(2 \\times 1)} = 6$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{6}{1326} = \\frac{1}{221}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "857"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two cards are drawn together from a pack of 52 cards. The probability that one is a spade and one is a heart, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{20}$",
+      "option_b": "$\\frac{29}{34}$",
+      "option_c": "$\\frac{47}{100}$",
+      "option_d": "$\\frac{13}{102}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let $S$ be the sample space.\nThen, $n(S) = ^{52}C_2 = \\frac{52 \\times 51}{(2 \\times 1)} = 1326$.\nLet $E = \\text{event of getting 1 spade and 1 heart}$.\n$\\therefore n(E) = \\text{number of ways of choosing 1 spade out of 13 and 1 heart out of 13}$\n$= (^{13}C_1 \\times ^{13}C_1) = (13 \\times 13) = 169$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{169}{1326} = \\frac{13}{102}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "857"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two cards are drawn from a pack of 52 cards. The probability that either both are red or both are kings, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{7}{13}$",
+      "option_b": "$\\frac{3}{26}$",
+      "option_c": "$\\frac{63}{221}$",
+      "option_d": "$\\frac{55}{221}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Clearly, $n(S) = ^{52}C_2 = \\frac{52 \\times 51}{2} = 1326$.\nLet $E_1 = \\text{event of getting both red cards}$,\n$E_2 = \\text{event of getting both kings}$.\nThen, $E_1 \\cap E_2 = \\text{event of getting 2 kings of red cards}$.\n$\\therefore n(E_1) = ^{26}C_2 = \\frac{26 \\times 25}{(2 \\times 1)} = 325$; $n(E_2) = ^4C_2 = \\frac{4 \\times 3}{(2 \\times 1)} = 6$;\n$n(E_1 \\cap E_2) = ^2C_2 = 1$.\n$\\therefore P(E_1) = \\frac{325}{1326}; P(E_2) = \\frac{6}{1326}; P(E_1 \\cap E_2) = \\frac{1}{1326}$.\n$P(E_1 \\cup E_2) = P(E_1) + P(E_2) - P(E_1 \\cap E_2)$\n$= \\left(\\frac{325}{1326} + \\frac{6}{1326} - \\frac{1}{1326}\\right) = \\frac{330}{1326} = \\frac{55}{221}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "857"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A bag contains 6 black and 8 white balls. One ball is drawn at random. What is the probability that the ball drawn is white ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{4}$",
+      "option_b": "$\\frac{4}{7}$",
+      "option_c": "$\\frac{1}{8}$",
+      "option_d": "$\\frac{3}{7}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Total number of balls = $(6+8)=14$.\nNumber of white balls = $8$.\nP(drawing a white ball) = $\frac{8}{14}=\frac{4}{7}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a box, there are 8 red, 7 blue and 6 green balls. One ball is picked up randomly. What is the probability that it is neither red nor green ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{3}$",
+      "option_b": "$\\frac{3}{4}$",
+      "option_c": "$\\frac{7}{19}$",
+      "option_d": "$\\frac{8}{21}$",
+      "option_e": "$\\frac{9}{21}$",
+      "correct_option": "d",
+      "solution": "Total number of balls = $(8+7+6)=21$.\nLet $E$ = Event that the ball drawn is neither red nor green\n= Event that the ball drawn is red.\n$\therefore n(E)=8$.\n$\therefore P(E)=\frac{8}{21}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A box contains 4 red, 5 green and 6 white balls. A ball is drawn at random from the box. What is the probability that the ball drawn is either red or green?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{5}$",
+      "option_b": "$\\frac{3}{5}$",
+      "option_c": "$\\frac{1}{5}$",
+      "option_d": "$\\frac{7}{15}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Total number of balls = $(4+5+6)=15$.\nP(drawing a red ball or a green ball) = $P(\text{red}) + P(\text{green})$\n= $\frac{4}{15} + \frac{5}{15} = \frac{9}{15} = \frac{3}{5}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "S.B.I. P.O., 2010",
+      "passage_text": "",
+      "question_text": "A basket contains 4 red, 5 blue and 3 green marbles. If 2 marbles are drawn at random from the basket, what is the probability that both are red?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{7}$",
+      "option_b": "$\\frac{1}{2}$",
+      "option_c": "$\\frac{1}{11}$",
+      "option_d": "$\\frac{1}{6}$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Total number of balls = $(4+5+3)=12$.\nLet $E$ be the event of drawing $2$ red balls.\nThen, $n(E) = {}^4C_2 = \frac{4\times3}{2\times1} = 6$.\nAlso, $n(S) = {}^{12}C_2 = \frac{12\times11}{2\times1} = 66$.\n$\therefore P(E) = \frac{6}{66} = \frac{1}{11}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "S.B.I. P.O., 2010",
+      "passage_text": "",
+      "question_text": "An urn contains 6 red, 4 blue, 2 green and 3 yellow marbles. If two marbles are drawn at random from the urn, what is the probability that both are red?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{6}$",
+      "option_b": "$\\frac{1}{7}$",
+      "option_c": "$\\frac{2}{15}$",
+      "option_d": "$\\frac{2}{5}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Total number of balls = $(6+4+2+3)=15$.\nLet $E$ be the event of drawing $2$ red balls.\nThen, $n(E) = {}^6C_2 = \frac{6\times5}{2\times1} = 15$.\nAlso, $n(S) = {}^{15}C_2 = \frac{15\times14}{2\times1} = 105$.\n$\therefore P(E) = \frac{15}{105} = \frac{1}{7}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "A basket contains 6 blue, 2 red, 4 green and 3 yellow balls. If three balls are picked up at random, what is the probability that none is yellow?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{455}$",
+      "option_b": "$\\frac{1}{5}$",
+      "option_c": "$\\frac{4}{5}$",
+      "option_d": "$\\frac{44}{91}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Total number of balls = $(6+2+4+3)=15$.\nLet $E$ be the event of drawing $3$ non-yellow balls.\nThen, $n(E) = {}^{12}C_3 = \frac{12\times11\times10}{3\times2\times1} = 220$.\nAlso, $n(S) = {}^{15}C_3 = \frac{15\times14\times13}{3\times2\times1} = 455$.\n$\therefore P(E) = \frac{220}{455} = \frac{44}{91}$.",
+      "page_numbers": [
+        "853"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "S.B.I. P.O., 2010",
+      "passage_text": "",
+      "question_text": "An urn contains 6 red, 4 blue, 2 green and 3 yellow marbles. If three marbles are picked up at random, what is the probability that 2 are blue and 1 is yellow?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{3}{91}$",
+      "option_b": "$\frac{1}{5}$",
+      "option_c": "$\frac{18}{455}$",
+      "option_d": "$\frac{7}{15}$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Total number of marbles = $(6+4+2+3)=15$.\nLet $E$ be the event of drawing $2$ blue and $1$ yellow marble.\nThen, $n(E) = {}^4C_2 \times {}^3C_1 = 6 \times 3 = 18$.\nAlso, $n(S) = {}^{15}C_3 = \frac{15\times14\times13}{3\times2\times1} = 455$.\n$\therefore P(E) = \frac{18}{455}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "S.B.I. P.O., 2011",
+      "passage_text": "",
+      "question_text": "An urn contains 6 red, 4 blue, 2 green and 3 yellow marbles. If four marbles are picked up at random, what is the probability that 1 is green, 2 are blue and 1 is red ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{13}{35}$",
+      "option_b": "$\frac{24}{455}$",
+      "option_c": "$\frac{11}{15}$",
+      "option_d": "$\frac{1}{13}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Total number of marbles = $(6+4+2+3)=15$.\nLet $E$ be the event of drawing $1$ green, $2$ blue and $1$ red marble.\nThen, $n(E) = {}^2C_1 \times {}^4C_2 \times {}^6C_1 = 2 \times 6 \times 6 = 72$.\nAnd, $n(S) = {}^{15}C_4 = \frac{15\times14\times13\times12}{4\times3\times2\times1} = 1365$.\n$\therefore P(E) = \frac{72}{1365} = \frac{24}{455}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "An urn contains 6 red, 4 blue, 2 green and 3 yellow marbles. If two marbles are picked up at random, what is the probability that either both are green or both are yellow?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{5}{91}$",
+      "option_b": "$\frac{1}{35}$",
+      "option_c": "$\frac{1}{3}$",
+      "option_d": "$\frac{4}{105}$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Total number of marbles = $(6+4+2+3)=15$.\nLet $E$ be the event of drawing $2$ marbles such that either both are green or both are yellow.\nThen, $n(E) = ({}^2C_2 + {}^3C_2) = (1 + 3) = 4$. And, $n(S) = {}^{15}C_2 = \frac{15\times14}{2\times1} = 105$.\n$\therefore P(E) = \frac{4}{105}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "A basket contains 6 blue, 2 red, 4 green and 3 yellow balls. If four balls are picked up at random, what is the probability that 2 are red and 2 are green ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{4}{15}$",
+      "option_b": "$\frac{5}{27}$",
+      "option_c": "$\frac{1}{3}$",
+      "option_d": "$\frac{2}{455}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Total number of balls = $(6+2+4+3)=15$.\nLet $E$ be the event of drawing $4$ balls such that $2$ are red and $2$ are green.\nThen, $n(E) = {}^2C_2 \times {}^4C_2 = 1 \times 6 = 6$.\nAnd, $n(S) = {}^{15}C_4 = \frac{15\times14\times13\times12}{4\times3\times2\times1} = 1365$.\n$\therefore P(E) = \frac{6}{1365} = \frac{2}{455}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "S.B.I. P.O., 2010",
+      "passage_text": "",
+      "question_text": "A basket contains 4 red, 5 blue and 3 green marbles. If three marbles are picked up at random what is the probability that at least one is blue?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{7}{12}$",
+      "option_b": "$\frac{37}{44}$",
+      "option_c": "$\frac{5}{12}$",
+      "option_d": "$\frac{7}{44}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Total number of marbles = $(4+5+3)=12$.\nLet $E$ be the event of drawing $3$ marbles such that none is blue.\nThen, $n(E) = \text{number of ways of drawing } 3 \text{ marbles out of } 7 = {}^7C_3 = \frac{7\times6\times5}{3\times2\times1} = 35$.\nAnd, $n(S) = {}^{12}C_3 = \frac{12\times11\times10}{3\times2\times1} = 220$.\n$\therefore P(E) = \frac{35}{220} = \frac{7}{44}$.\nRequired probability = $1 - P(E) = \frac{1 - 7}{44} = \frac{37}{44}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "S.B.I. P.O., 2010",
+      "passage_text": "",
+      "question_text": "An urn contains 6 red, 4 blue, 2 green and 3 yellow marbles. If 4 marbles are picked up at random, what is the probability that at least one of them is blue?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{4}{15}$",
+      "option_b": "$\frac{69}{91}$",
+      "option_c": "$\frac{11}{15}$",
+      "option_d": "$\frac{22}{91}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Total number of marbles = $(6+4+2+3)=15$.\nLet $E$ be the event of drawing $4$ marbles such that none is blue.\nThen, $n(E) = \text{number of ways of drawing } 4 \text{ marbles out of } 11 \text{ non-blue} = {}^{11}C_4 = \frac{11\times10\times9\times8}{4\times3\times2\times1} = 330$.\nAnd, $n(S) = {}^{15}C_4 = \frac{15\times14\times13\times12}{4\times3\times2\times1} = 1365$.\n$\therefore P(E) = \frac{330}{1365} = \frac{22}{91}$.\n$\therefore$ Required probability = $1 - \frac{22}{91} = \frac{69}{91}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "A basket contains 6 blue, 2 red, 4 green and 3 yellow balls. If 5 balls are picked up at random, what is the probability that at least one is blue?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{137}{143}$",
+      "option_b": "$\frac{18}{455}$",
+      "option_c": "$\frac{9}{91}$",
+      "option_d": "$\frac{2}{5}$",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Total number of balls = $(6+2+4+3)=15$.\nLet $E$ be the event of drawing $5$ balls out of $9$ non-blue balls\n$= {}^9C_5 = {}^9C_{(9-5)} = {}^9C_4 = \frac{9\times8\times7\times6}{4\times3\times2\times1} = 126$.\nAnd, $n(S) = {}^{15}C_5 = \frac{15\times14\times13\times12\times11}{5\times4\times3\times2\times1} = 3003$.\n$\therefore P(E) = \frac{126}{3003} = \frac{6}{143}$.\n$\therefore$ Required probability = $1 - \frac{6}{143} = \frac{137}{143}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "Railways, 2006",
+      "passage_text": "",
+      "question_text": "An urn contains 2 red, 3 green and 2 blue balls. If 2 balls are drawn at random, find the probability that no ball is blue.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{5}{7}$",
+      "option_b": "$\frac{10}{21}$",
+      "option_c": "$\frac{2}{7}$",
+      "option_d": "$\frac{11}{21}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Total number of balls = $(2+3+2)=7$.\nLet $E$ be the event of drawing $2$ non-blue balls.\nThen, $n(E) = {}^5C_2 = \frac{5\times4}{2\times1} = 10$.\nAnd, $n(S) = {}^7C_2 = \frac{7\times6}{2\times1} = 21$.\n$\therefore P(E) = \frac{10}{21}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A box contains 10 black and 10 white balls. What is the probability of drawing 2 balls of the same colour?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{9}{19}$",
+      "option_b": "$\frac{9}{38}$",
+      "option_c": "$\frac{10}{19}$",
+      "option_d": "$\frac{5}{19}$",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Total number of balls = $(10+10)=20$.\nLet $E$ be the event of drawing $2$ balls of the same colour.\n$n(E) = \text{number of ways of drawing } 2 \text{ black balls or } 2 \text{ white balls}$\n$n(E) = ({}^{10}C_2 + {}^{10}C_2) = 2 \times {}^{10}C_2 = 2 \times \frac{10\times9}{2\times1} = 90$.\n$n(S) = \text{number of ways of drawing } 2 \text{ balls out of } 20 = {}^{20}C_2 = \frac{20\times19}{2\times1} = 190$.\n$\therefore P(E) = \frac{90}{190} = \frac{9}{19}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A box contains 20 electric bulbs, out of which 4 are defective. Two balls are chosen at random from this box. The probability that at least one of them is defective, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{4}{19}$",
+      "option_b": "$\frac{7}{19}$",
+      "option_c": "$\frac{12}{19}$",
+      "option_d": "$\frac{21}{95}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$P(\text{none is defective}) = \frac{{}^{16}C_2}{{}^{20}C_2} = \frac{16\times15}{20\times19} = \frac{12}{19}$.\n$P(\text{at least } 1 \text{ is defective}) = 1 - \frac{12}{19} = \frac{7}{19}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a class, there are 15 boys and 10 girls. Three students are selected at random. The probability that the selected students are 2 boys and 1 girl, is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{21}{46}$",
+      "option_b": "$\frac{25}{117}$",
+      "option_c": "$\frac{1}{50}$",
+      "option_d": "$\frac{3}{25}$",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let $S$ be the sample space and let $E$ be the event of selecting $2$ boys and $1$ girl.\nThen, $n(S) = \text{number of ways of selecting } 3 \text{ students out of } 25 = {}^{25}C_3 = \frac{25\times24\times23}{3\times2\times1} = 2300$.\nAnd, $n(E) = {}^{15}C_2 \times {}^{10}C_1 = \frac{15\times14}{2\times1} \times 10 = 1050$.\n$\therefore P(E) = \frac{1050}{2300} = \frac{21}{46}$.",
+      "page_numbers": [
+        "854"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Four persons are chosen at random from a group of 3 men, 2 women and 4 children. The chance that exactly 2 of them are children, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{1}{9}$",
+      "option_b": "$\frac{1}{5}$",
+      "option_c": "$\frac{1}{12}$",
+      "option_d": "$\frac{10}{21}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$n(S) = \text{number of ways of choosing } 4 \text{ persons out of } 9 = {}^9C_4 = \frac{9\times8\times7\times6}{4\times3\times2\times1} = 126$.\n$n(E) = \text{Number of ways of choosing } 2 \text{ children out of } 4 \text{ and } 2 \text{ persons out of } (3+2) \text{ persons}$\n$n(E) = {}^4C_2 \times {}^5C_2 = \frac{4\times3}{2\times1} \times \frac{5\times4}{2\times1} = 6 \times 10 = 60$.\n$\therefore P(E) = \frac{60}{126} = \frac{10}{21}$.",
+      "page_numbers": [
+        "854",
+        "855"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two dice are tossed. The probability that the total score is a prime number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{1}{6}$",
+      "option_b": "$\frac{1}{2}$",
+      "option_c": "$\frac{5}{12}$",
+      "option_d": "$\frac{7}{9}$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Clearly, $n(S) = (6 \times 6) = 36$.\nLet $E$ be the event that the sum is a prime number. Then,\n$n(E) = \text{\\{(1, 1), (1, 2), (1, 4), (1, 6), (2, 1), (2, 3), (2, 5), (3, 2), (3, 4), (4, 1), (4, 3), (5, 2), (5, 6), (6, 1), (6, 5)\\}}$\n$\therefore n(E) = 15$.\n$\therefore P(E) = \frac{15}{36} = \frac{5}{12}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a class, 30% of the students offered English, 20% offered Hindi and 10% offered both. If a student is selected at random, what is the probability that he has offered English or Hindi ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{2}{5}$",
+      "option_b": "$\frac{3}{5}$",
+      "option_c": "$\frac{3}{4}$",
+      "option_d": "$\frac{3}{10}$",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "$P(E) = \frac{30}{100} = \frac{3}{10}, P(H) = \frac{20}{100} = \frac{1}{5} \text{ and } P(E \text{ and } H) = \frac{10}{100} = \frac{1}{10}$.\n$P(E \text{ or } H) = P(E \text{ } \text{ } \text{ } H) = P(E) + P(H) - P(E \text{ } \text{ } \text{ } H) = \frac{3}{10} + \frac{1}{5} - \frac{1}{10} = \frac{4}{10} = \frac{2}{5}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man and his wife appear in an interview for two vacancies in the same post. The probability of husband’s selection is $\frac{1}{7}$ and the probability of wife’s selection is $\frac{1}{5}$. What is the probability that only one of them is selected ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{4}{5}$",
+      "option_b": "$\frac{2}{7}$",
+      "option_c": "$\frac{4}{7}$",
+      "option_d": "$\frac{8}{15}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let $E_1$ = Event that the husband is selected\nand $E_2$ = Event that the wife is selected. Then,\n$P(E_1) = \frac{1}{7}$ and $P(E_2) = \frac{1}{5}$.\n$\\therefore P(\\overline{E_1}) = \\left(1 - \\frac{1}{7}\\right) = \\frac{6}{7}$ and $P(\\overline{E_2}) = \\left(1 - \\frac{1}{5}\\right) = \\frac{4}{5}$.\n$\\therefore$ Required probability = $P[(A \\text{ and not } B) \\text{ or } (B \\text{ and not } A)]$\n$= P[(E_1 \\cap \\overline{E_2}) \\text{ or } (E_2 \\cap \\overline{E_1})]$\n$= P(E_1 \\cap \\overline{E_2}) + P(E_2 \\cap \\overline{E_1})$\n$= P(E_1) \\cdot P(\\overline{E_2}) + P(E_2) \\cdot P(\\overline{E_1})$\n$= \\left(\\frac{1}{7} \\times \\frac{4}{5}\\right) + \\left(\\frac{1}{5} \\times \\frac{6}{7}\\right) = \\frac{4}{35} + \\frac{6}{35} = \\frac{10}{35} = \\frac{2}{7}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A speaks truth in 75% cases and B in 80% of the cases. In what percentage of cases are they likely to contradict each other, in narrating the same incident?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5%",
+      "option_b": "15%",
+      "option_c": "35%",
+      "option_d": "45%",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $E_1$ = Event that A speaks the truth\nand $E_2$ = Event that B speaks the truth. Then,\n$P(E_1) = \\frac{75}{100} = \\frac{3}{4}, P(E_2) = \\frac{80}{100} = \\frac{4}{5}, P(\\overline{E_1}) = \\left(1 - \\frac{3}{4}\\right) = \\frac{1}{4}, P(\\overline{E_2}) = \\left(1 - \\frac{4}{5}\\right) = \\frac{1}{5}$.\n$P(A \\text{ and } B \\text{ contradict each other})$\n$= P[(A \\text{ speaks the truth and } B \\text{ tells a lie}) \\text{ or } (A \\text{ tells a lie and } B \\text{ speaks the truth})]$\n$= P[(E_1 \\cap \\overline{E_2}) \\text{ or } (\\overline{E_1} \\cap E_2)] = P(E_1 \\cap \\overline{E_2}) + P(\\overline{E_1} \\cap E_2)$\n$= P(E_1) \\cdot P(\\overline{E_2}) + P(\\overline{E_1}) \\cdot P(E_2)$\n$= \\left(\\frac{3}{4} \\times \\frac{1}{5}\\right) + \\left(\\frac{1}{4} \\times \\frac{4}{5}\\right) = \\frac{3}{20} + \\frac{4}{20} = \\frac{7}{20}$\n$= \\left(\\frac{7}{20} \\times 100\\right)\\% = 35\\%$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "Railways, 2006",
+      "passage_text": "",
+      "question_text": "A speaks truth in 60% cases and B speaks truth in 70% cases. The probability that they will say the same thing while describing a single event, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.54",
+      "option_b": "0.56",
+      "option_c": "0.68",
+      "option_d": "0.94",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let $E_1$ = Event that A speaks the truth\nand $E_2$ = Event that B speaks the truth.\nThen, $P(E_1) = \\frac{60}{100} = \\frac{3}{5}, P(E_2) = \\frac{70}{100} = \\frac{7}{10}, P(\\overline{E_1}) = \\left(1 - \\frac{3}{5}\\right) = \\frac{2}{5}, P(\\overline{E_2}) = \\left(1 - \\frac{7}{10}\\right) = \\frac{3}{10}$.\n$P(A \\text{ and } B \\text{ say the same thing})$\n$= P[(A \\text{ speaks the truth and } B \\text{ speaks the truth}) \\text{ or } (A \\text{ tells a lie and } B \\text{ tells a lie})]$\n$= P[(E_1 \\cap E_2) \\text{ or } (\\overline{E_1} \\cap \\overline{E_2})] = P(E_1 \\cap E_2) + P(\\overline{E_1} \\cap \\overline{E_2})$\n$= P(E_1) \\cdot P(E_2) + P(\\overline{E_1}) \\cdot P(\\overline{E_2})$\n$= \\left(\\frac{3}{5} \\times \\frac{7}{10}\\right) + \\left(\\frac{2}{5} \\times \\frac{3}{10}\\right) = \\frac{21}{50} + \\frac{6}{50} = \\frac{27}{50} = 0.54$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "A committee of 3 members is to be selected out of 3 men and 2 women. What is the probability that the committee has at least 1 woman?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{1}{10}$",
+      "option_b": "$\frac{9}{20}$",
+      "option_c": "$\frac{1}{20}$",
+      "option_d": "$\frac{9}{10}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Total number of persons = $(3 + 2) = 5$.\n$\\therefore n(S) = {}^5C_3 = {}^5C_2 = \\frac{5 \\times 4}{2 \\times 1} = 10$.\nLet $E$ be the event of selecting 3 members having at least 1 woman\nThen, $n(E) = n[(1 \\text{ woman and } 2 \\text{ men}) \\text{ or } (2 \\text{ women and } 1 \\text{ man})]$\n$= n(1 \\text{ woman and } 2 \\text{ men}) + n(2 \\text{ women and } 1 \\text{ man})$\n$= ({}^2C_1 \\times {}^3C_2) + ({}^2C_2 \\times {}^3C_1) = ({}^2C_1 \\times {}^3C_1) + (1 \\times {}^3C_1)$\n$= (2 \\times 3) + (1 \\times 3) = (6 + 3) = 9$.\n$\\therefore P(E) = \\frac{n(E)}{n(S)} = \\frac{9}{10}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "A bag contains 3 blue, 2 green and 5 red balls. If four balls are picked at random, what is the probability that two are green and two are blue?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{1}{18}$",
+      "option_b": "$\frac{1}{70}$",
+      "option_c": "$\frac{3}{5}$",
+      "option_d": "$\frac{1}{2}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Number of blue balls = 3 balls\nNumber of green balls = 2 balls\nNumber of red balls = 5 balls\nTotal balls in the bag = $3 + 2 + 5 = 10$\nTotal possible outcomes = Selection of 4 balls out of 10 balls = ${}^{10}C_4 = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 210$\nFavorable outcomes = (selection of 2 green balls out of 2 balls) $\\times$ (selection of 2 balls out of 3 blue balls)\n$= {}^2C_2 \\times {}^3C_2$\n$= 1 \\times 3 = 3$\n$\\therefore$ Required probability = $\\frac{\\text{Favorable out comes}}{\\text{Total possible outcomes}}$\n$= \\frac{3}{210} = \\frac{1}{70}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Dev can hit a target 3 times in 6 shorts Pawan can hit the target 2 times in 6 shorts and Lakhan can hit the target 4 times in 4 shorts. What is the probability that at least 2 shorts hit the target",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{2}{3}$",
+      "option_b": "$\frac{1}{3}$",
+      "option_c": "$\frac{1}{2}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Probability of hitting the target:\nDev can hit target $\\Rightarrow \\frac{3}{6} = \\frac{1}{2}$, Lakhan can hit target $\\frac{4}{4} = 1$\nPawan can hit target = $\\frac{2}{6} = \\frac{1}{3}$\nRequired probability that at least 2 shorts hit target\n$= \\frac{1}{2} \\times \\frac{1}{1} \\times \\frac{1}{3} + \\frac{1}{2} \\times \\frac{1}{1} \\times \\frac{2}{3} + \\frac{1}{2} \\times \\frac{1}{1} \\times \\frac{1}{3}$\n$= \\frac{1}{6} + \\frac{2}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "DMRC—Train Operator (Station Controller) Exam, 2016",
+      "passage_text": "",
+      "question_text": "A bag contains 10 mangoes out of which 4 are taken out together. If one of them is found to be good, the probability that other is also good is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{1}{3}$",
+      "option_b": "$\frac{8}{15}$",
+      "option_c": "$\frac{5}{18}$",
+      "option_d": "$\frac{2}{3}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Out of 10 mangoes, 4 mangoes are rotten\n$\\therefore$ Required probability = $\\frac{{}^6C_2}{{}^{10}C_2} = \\frac{\\frac{6!}{2!(6-2)!}}{\\frac{10!}{2!(10-2)!}} = \\frac{\\frac{6!}{2!4!}}{\\frac{10!}{2!8!}}$\n$= \\frac{6 \\times 5}{1 \\times 2} \\times \\frac{1 \\times 2}{10 \\times 9} = \\frac{6 \\times 5}{10 \\times 9} = \\frac{30}{90} = \\frac{1}{3}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "IBPS—Bank PO/MT (Pre.) Exam, 2015",
+      "passage_text": "",
+      "question_text": "A bag contains 4 red, 5 yellow and 6 pink balls. Two balls are drawn at random. What is the probability that none of the balls drawn are yellow in colour?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{1}{7}$",
+      "option_b": "$\frac{3}{7}$",
+      "option_c": "$\frac{2}{7}$",
+      "option_d": "$\frac{5}{14}$",
+      "option_e": "$\frac{9}{14}$",
+      "correct_option": "b",
+      "solution": "Number of red balls = 4\nNumber of yellow ball = 5\nNumber of pink ball = 6\nTotal number of balls = $4 + 5 + 6 = 15$\nTotal possible outcomes = selection of 2 balls out of 15 balls = ${}^{15}C_2 = \\frac{15 \\times 14}{2 \\times 1} = 105$\nTotal favourable outcomes = selection of 2 balls out of 4 orange and 6 pink balls.\n${}^{10}C_2 = \\frac{10 \\times 9}{1 \\times 2} = 45$\n$\\therefore$ Required probability = $\\frac{45}{105} = \\frac{3}{7}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "IBPS—Bank PO (Pre.) Exam, 2015",
+      "passage_text": "",
+      "question_text": "A bag contains 6 red balls 11 yellow balls and 5 pink balls. If two balls are drawn at random from the bag. One after another what is the probability that the first ball is red and second ball is yellow.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{1}{14}$",
+      "option_b": "$\frac{2}{7}$",
+      "option_c": "$\frac{5}{7}$",
+      "option_d": "$\frac{3}{14}$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Number of red balls = 6\nNumber of yellow ball = 11\nNumber of pink balls = 5\nTotal number of balls = $6 + 11 + 5 = 22$\nTotal possible outcomes = ${}^{22}C_2 = \\frac{22 \\times 21}{2 \\times 1} = 231$\nNumber of favourable outcomes\n$= {}^6C_1 \\times {}^{11}C_1 = 6 \\times 11 = 66$\nRequired probability = $\\frac{n(E)}{n(S)} = \\frac{66}{231} = \\frac{2}{7}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "CET—(Maharashtra (MBA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "A bag contains 4 red balls, 6 blue balls and 8 pink balls. One ball is drawn at random and replace with 3 pink balls. A probability that the first ball drawn was either red or blue in colour and the second ball drawn was pink in colour?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12/21",
+      "option_b": "13/17",
+      "option_c": "11/30",
+      "option_d": "13/18",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Number of Red balls = 4\nNumber of Blue balls = 6\nNumber of Pink balls = 8\nTotal number of balls = $4 + 6 + 8 = 18$\nRequired probability\n$= \\frac{4}{18} \\times \\frac{11}{20} + \\frac{6}{18} \\times \\frac{11}{20}$\n$= \\frac{11}{20} \\left[\\frac{4}{18} + \\frac{6}{18}\\right]$\n$= \\frac{11}{20} \\times \\frac{10}{18} = \\frac{11}{36}$.",
+      "page_numbers": [
+        "855"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    }
+  ]
+}

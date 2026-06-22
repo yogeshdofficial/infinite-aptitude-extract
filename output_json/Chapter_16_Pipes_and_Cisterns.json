@@ -1,0 +1,360 @@
+{
+  "chapter_title": "Chapter_16_Pipes_and_Cisterns",
+  "question_count": 16,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A tank 9 ft by 5 ft by 2ft is fitted with an inlet pipe and an exhaust pipe. The inlet pipe pours in 576 cu. inch of water per minute and the exhaust pipe can empty the full tank in 3 hours. If the tank is full and both pipes are open, how many hours will it take to empty it?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Volume of the tank = $(9 \\times 5 \\times 2)$ cu. ft = 90 cu. ft.\n= $(90 \\times 12 \\times 12 \\times 12)$ cu. inch.\nVolume of water drained by the exhaust pipe in one minute\n= $\\left(\\frac{90 \\times 12 \\times 12 \\times 12}{3 \\times 60}\\right)$ cu. inch = 864 cu. inch.\nNet volume drained in one minute, when both the pipes are opened = $(864 - 576)$ cu. inch = 288 cu. inch.\n$\\therefore$ Required time = $\\left(\\frac{90 \\times 12 \\times 12 \\times 12}{288 \\times 60}\\right)$ hrs = 9 hrs.",
+      "page_numbers": [
+        "510"
+      ],
+      "answer_page_numbers": [
+        "510"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Pipe A can fill a tank in 30 hours and pipe B in 45 hours. If both the pipes are opened in an empty tank, how much time will they take to fill it?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Part filled by A in 1 hour = $\\frac{1}{30}$; Part filled by B in 1 hour = $\\frac{1}{45}$.\nPart filled by (A + B) in 1 hour = $\\left(\\frac{1}{30} + \\frac{1}{45}\\right) = \\frac{10}{180} = \\frac{1}{18}$.\nHence, pipes A and B together will fill the tank in 18 hours.",
+      "page_numbers": [
+        "510"
+      ],
+      "answer_page_numbers": [
+        "510"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A cistern can be filled by pipes A and B in 4 hours and 6 hours respectively. When full, the cistern can be emptied by pipe C in 8 hours. If all the pipes were turned on at the same time, in how much time will the cistern be filled?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Net part filled in 1 hour = $\\left(\\frac{1}{4} + \\frac{1}{6} - \\frac{1}{8}\\right) = \\frac{7}{24}$.\n$\\therefore$ The cistern will be full in $\\frac{24}{7}$ hrs, i.e. $3\\frac{3}{7}$ hrs.",
+      "page_numbers": [
+        "510"
+      ],
+      "answer_page_numbers": [
+        "510"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "C.P.O., 2005",
+      "passage_text": "",
+      "question_text": "A pipe can empty a tank in 40 minutes. A second pipe with diameter twice as much as that of the first is also attached with the tank to empty it. How much time will the two pipes together take to empty the tank?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the diameters of the pipes be $d$ and $2d$ and the times taken by them to empty the tank be $t$ and $T$ minutes respectively.\nSince the time taken to fill or empty a tank is inversely proportional to the square of the diameter of the pipe, we have:\n$t \\propto \\frac{1}{d^2} \\Rightarrow t = \\frac{k}{d^2} \\Rightarrow \\frac{k}{d^2} = 40$.\nAgain, $T \\propto \\frac{1}{(2d)^2} \\Rightarrow T = \\frac{k}{4d^2} \\Rightarrow T = \\frac{1}{4} \\times \\frac{k}{d^2} = \\frac{1}{4} \\times 40 = 10$.\nThus, net part emptied in 1 min = $\\left(\\frac{1}{40} + \\frac{1}{10}\\right) = \\frac{5}{40} = \\frac{1}{8}$.\nHence, the two pipes together will empty the tank in 8 minutes.",
+      "page_numbers": [
+        "511"
+      ],
+      "answer_page_numbers": [
+        "511"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "M.A.T., 2004, 05; S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "A tap can fill a tank in 10 minutes and another can empty it in 6 minutes. If the tank is already two-fifths full and both the taps are opened together, will the tank be filled or emptied? How long will it take before the tank is either filled completely or emptied completely, as the case may be?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, the outlet pipe is faster than the inlet pipe and so, the tank will be emptied.\nPart to be emptied = $\\frac{2}{5}$.\nNet part emptied in 1 minute = $\\left(\\frac{1}{6} - \\frac{1}{10}\\right) = \\frac{2}{30} = \\frac{1}{15}$.\n$\\therefore \\frac{1}{15} : \\frac{2}{5} :: 1 : x$ or $x = \\left(\\frac{2}{5} \\times 15\\right) = 6$ min.\nSo, the tank will be emptied in 6 minutes.",
+      "page_numbers": [
+        "511"
+      ],
+      "answer_page_numbers": [
+        "511"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A cistern has two taps which fill it in 12 minutes and 15 minutes respectively. There is also a waste pipe in the cistern. When all the three are opened, the empty cistern is full in 20 minutes. How long will the waste pipe take to empty the full cistern?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Work done by the waste pipe in 1 minute\n$= \\frac{1}{20} - \\left(\\frac{1}{12} + \\frac{1}{15}\\right) = -\\frac{1}{10}$ [-ve sign means emptying]\n$\\therefore$ Waste pipe will empty the full cistern in 10 minutes.",
+      "page_numbers": [
+        "511"
+      ],
+      "answer_page_numbers": [
+        "511"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "An electric pump can fill a tank in 3 hours. Because of a leak in the tank it took $3\\frac{1}{2}$ hours to fill the tank. If the tank is full, how much time will the leak take to empty it?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Work done by the leak in 1 hour = $\\left[\\frac{1}{3} - \\frac{1}{(7/2)}\\right] = \\left(\\frac{1}{3} - \\frac{2}{7}\\right) = \\frac{1}{21}$.\n$\\therefore$ The leak will empty the tank in 21 hours.",
+      "page_numbers": [
+        "511"
+      ],
+      "answer_page_numbers": [
+        "511"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "I.I.F.T., 2005",
+      "passage_text": "",
+      "question_text": "Two pipes can fill a cistern in 14 hours and 16 hours respectively. The pipes are opened simultaneously and it is found that due to leakage in the bottom it took 32 minutes more to fill the cistern. When the cistern is full, in what time will the leak empty it?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Work done by the two pipes in 1 hour = $\\left(\\frac{1}{14} + \\frac{1}{16}\\right) = \\frac{15}{112}$.\n$\\therefore$ Time taken by these pipes to fill the tank = $\\frac{112}{15}$ hrs = 7 hrs 28 min.\nDue to leakage, time taken = 7 hrs 28 min + 32 min = 8 hrs.\n$\\therefore$ Work done by (two pipes + leak) in 1 hour = $\\frac{1}{8}$.\nWork done by the leak in 1 hour = $\\left(\\frac{15}{112} - \\frac{1}{8}\\right) = \\frac{1}{112}$.\nHence, the leak will empty the full cistern in 112 hours.",
+      "page_numbers": [
+        "511",
+        "512"
+      ],
+      "answer_page_numbers": [
+        "512"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If two pipes function simultaneously, the reservoir will be filled in 12 hours. The second pipe fills the reservoir 10 hours faster than the first. How many hours does it take the second pipe to fill the reservoir?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the reservoir be filled by first pipe in $x$ hours.\nThen, second pipe will fill it in $(x + 10)$ hours.\n$\\therefore \\frac{1}{x} + \\frac{1}{(x + 10)} = \\frac{1}{12} \\Leftrightarrow \\frac{x + 10 + x}{x(x + 10)} = \\frac{1}{12} \\Leftrightarrow x^2 - 14x - 120 = 0$\n$\\Leftrightarrow (x - 20)(x + 6) = 0 \\Leftrightarrow x = 20$ [Neglecting -ve value of $x$]\nSo, the second pipe will take $(20 + 10)$ i.e. 30 hrs to fill the reservoir.",
+      "page_numbers": [
+        "512"
+      ],
+      "answer_page_numbers": [
+        "512"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A tank is fitted with two inlet pipes A and B, and an outlet pipe C. A is twice as efficient as B which in turn is twice as efficient as C. The empty tank gets filled in 16 hours when all the three pipes are opened. How many hours will be taken to fill the empty tank if B is plugged and the other two pipes are opened?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Suppose A alone takes $x$ hours to fill the tank. Then, B alone takes $2x$ hours to fill the tank and C alone takes $4x$ hours to empty the tank.\n[$\\because$ time taken to fill or empty a tank is inversely proportional to the efficiency of the pipe]\n$\\therefore \\frac{1}{x} + \\frac{1}{2x} - \\frac{1}{4x} = \\frac{1}{16} \\Leftrightarrow \\frac{4 + 2 - 1}{4x} = \\frac{1}{16} \\Leftrightarrow x = \\left(\\frac{5 \\times 16}{4}\\right) = 20$.\nNet part filled by A and C in 1 hour = $\\left(\\frac{1}{x} - \\frac{1}{4x}\\right) = \\frac{3}{4x} = \\frac{3}{80}$.\nHence, A and C will fill the tank in $\\frac{80}{3}$ hrs. i.e. $26\\frac{2}{3}$ hrs. or 26 hrs 40 mins.",
+      "page_numbers": [
+        "512"
+      ],
+      "answer_page_numbers": [
+        "512"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two pipes A and B can fill a tank in 12 minutes and 15 minutes respectively while a third pipe C can empty the full tank in 20 minutes. All the three pipes are opened in the beginning. However, pipe C is closed 6 minutes before the tank is filled. In what time will the tank be full?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the tank be full in $x$ minutes.\nThen, pipes A and B worked for $x$ minutes, while pipe C worked for $(x - 6)$ minutes.\n$\\therefore \\frac{x}{12} + \\frac{x}{15} - \\frac{(x - 6)}{20} = 1 \\Leftrightarrow \\frac{5x + 4x - 3(x - 6)}{60} = 1 \\Leftrightarrow 6x + 18 = 60 \\Leftrightarrow 6x = 42 \\Leftrightarrow x = 7$.\nHence, the tank will be full in 7 minutes.",
+      "page_numbers": [
+        "512"
+      ],
+      "answer_page_numbers": [
+        "512"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Pipes A and B can completely fill a water tank in 4 hours and 5 hours respectively. A pipe C can empty a tank filled completely with water in 3 hours. Initially, the tank is empty and all pipes are closed. Pipe A is opened first at time $t = 0$ and pipe C is opened at the instant when the tank is exactly half filled with water. Pipe B is opened after pipe C and at the instant when the tank is exactly one-fourth filled with water. Find the total time taken to fill the tank completely counting from $t = 0$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "The whole process involves 3 steps:\nStep 1: Pipe A alone fills half the tank.\nLet time taken be $t_1$. Then, $t_1 = 2$ hrs.\nStep 2: Pipe A and C together empty $\\left(1 - \\frac{1}{2} - \\frac{1}{4}\\right) = \\frac{1}{4}$ of the tank.\nLet time taken be $t_2$.\nWork alone by A and C in 1 hour = $\\left(\\frac{1}{4} - \\frac{1}{3}\\right) = -\\frac{1}{12}$ [-ve sign means emptying]\n$\\therefore \\frac{1}{12} : \\frac{1}{4} :: 1 : t_2$ or $t_2 = \\left(\\frac{1}{4} \\times 12\\right) = 3$ hrs.\nStep 3: Pipes A, B and C together fill $\\left(1 - \\frac{1}{4}\\right) = \\frac{3}{4}$ of the tank.\nLet time taken be $t_3$.\nWork done by A, B and C in 1 hour = $\\left(\\frac{1}{4} + \\frac{1}{5} - \\frac{1}{3}\\right) = \\frac{7}{60}$.\n$\\therefore \\frac{7}{60} : \\frac{3}{4} :: 1 : t_3$ or $t_3 = \\left(\\frac{3}{4} \\times \\frac{60}{7}\\right) = \\frac{45}{7} = 6\\frac{3}{7}$ hrs.\nHence, total time taken = $(t_1 + t_2 + t_3) = \\left(2 + 3 + 6\\frac{3}{7}\\right)$ hrs. = $11\\frac{3}{7}$ hrs.",
+      "page_numbers": [
+        "512",
+        "513"
+      ],
+      "answer_page_numbers": [
+        "513"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "A cistern has three pipes A, B and C. A and B can fill it in 3 hours and 4 hours respectively while C can empty the completely filled cistern in 1 hour. If the pipes are opened in order at 3, 4 and 5 p.m. respectively, at what time will the cistern be empty?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the cistern be emptied $t$ hours after 3 p.m.\nThen, work done by pipe A in $t$ hours + work done by pipe B in $(t - 1)$ hours + work done by pipe C in $(t - 2)$ hours = 0\n$\\Rightarrow \\frac{t}{3} + \\frac{(t - 1)}{4} - \\frac{(t - 2)}{1} = 0 \\Rightarrow 4t + 3(t - 1) - 12(t - 2) = 0$\n$\\Rightarrow - 5t + 21 = 0 \\Rightarrow 5t = 21 \\Rightarrow t = 4\\frac{1}{5}$ hrs = 4 hrs 12 min.\nSo, the cistern will be emptied 4 hrs 12 min after 3 p.m. i.e. 7 : 12 p.m.",
+      "page_numbers": [
+        "513"
+      ],
+      "answer_page_numbers": [
+        "513"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "Campus Recruitment, 2006",
+      "passage_text": "",
+      "question_text": "Three pipes A, B and C are attached to a tank. A and B can fill it in 20 and 30 minutes respectively while C can empty it in 15 minutes. If A, B and C are kept open successively for 1 minute each, how soon will the tank be filled?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B + C)’s 3 minutes’ work when opened alternately = $\\left(\\frac{1}{20} + \\frac{1}{30} - \\frac{1}{15}\\right) = \\frac{1}{60}$.\nPart filled in $(3 \\times 55)$ i.e. 165 min = $\\frac{55}{60} = \\frac{11}{12}$. Remaining part = $\\left(1 - \\frac{11}{12}\\right) = \\frac{1}{12}$.\nNow it is A's turn.\nPart filled by A in 1 min = $\\frac{1}{20}$. Remaining part = $\\left(\\frac{1}{12} - \\frac{1}{20}\\right) = \\frac{1}{30}$, which is filled by B in the next minute.\nSo, total time taken = $(165 + 2)$ min = 167 min = 2 hrs 47 min.",
+      "page_numbers": [
+        "513"
+      ],
+      "answer_page_numbers": [
+        "513"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "15",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "Two pipes A and B can fill a tank in 24 minutes and 32 minutes respectively. If both the pipes are opened simultaneously, after how much time B should be closed so that the tank is full in 18 minutes?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let B be closed after $x$ minutes. Then,\nPart filled by (A + B) in $x$ min + part filled by A in $(18 - x)$ min = 1\n$\\therefore x\\left(\\frac{1}{24} + \\frac{1}{32}\\right) + (18 - x)\\frac{1}{24} = 1 \\Leftrightarrow \\frac{7x}{96} + \\frac{18 - x}{24} = 1 \\Leftrightarrow 7x + 4(18 - x) = 96 \\Leftrightarrow x = 8$.\nHence, B must be closed after 8 minutes.",
+      "page_numbers": [
+        "513"
+      ],
+      "answer_page_numbers": [
+        "513"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A keg is fitted with 3 taps – A, B and C. All the three taps, if opened together, can drain the full keg in $1\\frac{1}{2}$ minutes. Taps B and C together take 2 minutes to drain the keg while taps A and C together take $4\\frac{2}{13}$ minutes to drain it. How long will taps A and B together take to drain the keg?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let taps A, B and C individually take, $x, y$ and $z$ minutes respectively to drain the keg.\nThen, $\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} = \\frac{2}{3}$; $\\frac{1}{y} + \\frac{1}{z} = \\frac{1}{2}$; $\\frac{1}{x} + \\frac{1}{z} = \\frac{13}{30}$.\n(A + B)’s 1 minute’s work = $\\frac{1}{x} + \\frac{1}{y} = \\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z}\\right) + \\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z}\\right) - \\left(\\frac{1}{y} + \\frac{1}{z}\\right) - \\left(\\frac{1}{x} + \\frac{1}{z}\\right)$\n$= \\left(\\frac{2}{3} + \\frac{2}{3} - \\frac{1}{2} - \\frac{13}{30}\\right) = \\left(\\frac{4}{3} - \\frac{1}{2} - \\frac{13}{30}\\right) = \\frac{12}{30} = \\frac{2}{5}$.\nHence, A and B together can drain the keg in $\\frac{5}{2}$ i.e., $2\\frac{1}{2}$ minutes.",
+      "page_numbers": [
+        "513"
+      ],
+      "answer_page_numbers": [
+        "513"
+      ]
+    }
+  ]
+}

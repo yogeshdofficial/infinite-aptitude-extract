@@ -1,0 +1,908 @@
+{
+  "chapter_title": "Chapter_29_Stocks_and_Shares",
+  "question_count": 42,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the cost of \n(i) ₹ 7200, 8% stock at 90 \n(ii) ₹ 4500, 8.5% stock at 4 premium\n(iii) ₹ 6400, 10% stock at 15 discount",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) Cost of ₹ 100 stock = ₹ 90.\nCost of ₹ 7200 stock = ₹ $\\left(\\frac{90}{100}\\times7200\\right)$ = ₹ 6480.\n(ii) Cost of ₹ 100 stock = ₹ $(100 + 4)$ = ₹ 104.\nCost of ₹ 4500 stock = ₹ $\\left(\\frac{104}{100}\\times4500\\right)$ = ₹ 4680.\n(iii) Cost of ₹ 100 stock = ₹ $(100 - 15)$ = ₹ 85.\nCost of ₹ 6400 stock = ₹ $\\left(\\frac{85}{100}\\times6400\\right)$ = ₹ 5440.",
+      "page_numbers": [
+        "835"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the cash required to purchase ₹ 3200, $7\\frac{1}{2}\\%$ stock at 107 (brokerage $\\frac{1}{2}\\%$).",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Cash required to purchase ₹ 100 stock = ₹ $\\left(107 + \\frac{1}{2}\\right)$ = ₹ $\\frac{215}{2}$.\nCash required to purchase ₹ 3200 stock = ₹ $\\left(\\frac{215}{2} \\times \\frac{1}{100} \\times 3200\\right)$ = ₹ 3440.",
+      "page_numbers": [
+        "835"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the cash realised by selling ₹ 2440, 9.5% stock at 4 discount (brokerage $\\frac{1}{4}\\%$).",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "By selling ₹ 100 stock, cash realised = ₹ $\\left[ (100 - 4) - \\frac{1}{4} \\right]$ = ₹ $\\frac{383}{4}$.\nBy selling ₹ 2400 stock, cash realised = ₹ $\\left( \\frac{383}{4} \\times \\frac{1}{100} \\times 2400 \\right)$ = ₹ 2298.",
+      "page_numbers": [
+        "835"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the annual income derived from ₹ 2500, 8% stock at 106.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Income from ₹ 100 stock = ₹ 8.\nIncome from ₹ 2500 stock = ₹ $\\left( \\frac{8}{100} \\times 2500 \\right)$ = ₹ 200.",
+      "page_numbers": [
+        "835"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the annual income derived by investing ₹ 6800 in 10% stock at 136.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "By investing ₹ 136, income obtained = ₹ 10.\nBy investing ₹ 6800, income obtained = ₹ $\\left( \\frac{10}{136} \\times 6800 \\right)$ = ₹ 500.",
+      "page_numbers": [
+        "835"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which is better investment? $7\\frac{1}{2}\\%$ stock at 105 or $6\\frac{1}{2}\\%$ stock at 94.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the investment in each case be ₹ $(105 \\times 94)$.\nCase I : $7\\frac{1}{2}\\%$ stock at 105 :\nOn investing ₹ 105, income = ₹ $\\frac{15}{2}$.\nOn investing ₹ $(105 \\times 94)$, income = ₹ $\\left( \\frac{15}{2} \\times \\frac{1}{105} \\times 105 \\times 94 \\right)$ = ₹ 705.\nCase II : $6\\frac{1}{2}\\%$ stock at 94 :\nOn investing ₹ 94, income = ₹ $\\frac{13}{2}$.\nOn investing ₹ $(105 \\times 94)$, income = ₹ $\\left( \\frac{13}{2} \\times \\frac{1}{94} \\times 105 \\times 94 \\right)$ = ₹ 682.50.\nClearly, the income from $7\\frac{1}{2}\\%$ stock at 105 is more.",
+      "page_numbers": [
+        "835"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the cost of 96 shares of ₹ 10 each at $\\frac{3}{4}$ discount, brokerage being $\\frac{1}{4}$ per share.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Cost of 1 share = ₹ $\\left[ \\left( 10 - \\frac{3}{4} \\right) + \\frac{1}{4} \\right]$ = ₹ $\\frac{19}{2}$.\nCost of 96 shares = ₹ $\\left( \\frac{19}{2} \\times 96 \\right)$ = ₹ 912.",
+      "page_numbers": [
+        "836"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Chinmay invested 25%, 30% and 20% of his savings in buying shares of three different companies P, Q and R which declared dividends 10%, 12% and 15% respectively. If his total income on account of dividends be ₹ 5460, find the amount he invested in buying shares of the company Q.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let Chinmay’s savings be ₹ x.\nThen, amount invested in shares of company P = 25% of ₹ x;\namount invested in shares of company Q = 30% of ₹ x;\namount invested in shares of company R = 20% of ₹ x.\nTotal income = ₹ (10% of 25% of x + 12% of 30% of x + 15% of 20% of x)\n= ₹ $\\left( \\frac{250}{10000}x + \\frac{360}{10000}x + \\frac{300}{10000}x \\right)$ = ₹ $\\frac{910}{10000}x$.\n$\\therefore \\frac{910}{10000}x = 5460 \\Rightarrow x = \\frac{5460 \\times 10000}{910} = 60000$.\nHence, amount invested in shares of company Q = 30% of ₹ 60000 = ₹ 18000.",
+      "page_numbers": [
+        "836"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the income derived from 88 shares of ₹ 25 each at 5 premium, brokerage being $\\frac{1}{4}$ per share and the rate of dividend being $7\\frac{1}{2}\\%$ per annum. Also, find the rate of interest on the investment.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Cost of 1 share = ₹ $\\left( 25 + 5 + \\frac{1}{4} \\right)$ = ₹ $\\frac{121}{4}$.\nCost of 88 shares = ₹ $\\left( \\frac{121}{4} \\times 88 \\right)$ = ₹ 2662.\n$\\therefore$ Investment made = ₹ 2662.\nFace value of 88 shares = ₹ $(88 \\times 25)$ = ₹ 2200.\nDividend on ₹ 100 = ₹ $\\frac{15}{2}$. Dividend on ₹ 2200 = ₹ $\\left( \\frac{15}{2} \\times \\frac{1}{100} \\times 2200 \\right)$ = ₹ 165.\n$\\therefore$ Income derived = ₹ 165.\nRate of interest on investment = $\\left( \\frac{165}{2662} \\times 100 \\right)$ = 6.2%.",
+      "page_numbers": [
+        "836"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "Ravi invested ₹ 913 partly in 4% stock at ₹ 97 and partly in 5% stock at ₹ 107. If his income form both is equal, find the amount invested in each stock.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the investment in 4% stock be ₹ x.\nThen, investment in 5% stock = ₹ $(913 - x)$.\n$\\frac{4}{97}x = \\frac{5}{107}(913 - x) \\Leftrightarrow \\frac{4}{97}x + \\frac{5}{107}x = \\frac{4565}{107}$\n$\\Leftrightarrow \\frac{428x + 485x}{97 \\times 107} = \\frac{4565}{107} \\Leftrightarrow 913x = \\frac{4565 \\times 97 \\times 107}{107}$\n$\\Leftrightarrow x = \\frac{4565 \\times 97}{913} = 485$.\nHence, amount invested in 4% stock = ₹ 485.\nAnd, amount invested in 5% stock = ₹ $(913 - 485) = 428$.",
+      "page_numbers": [
+        "836"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "G.B.O., 2007",
+      "passage_text": "",
+      "question_text": "A man buys ₹ 25 shares in a company which pays 9% dividend. The money invested is such that it gives 10% on investment. At what price did he buy the shares?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Suppose he buys each share for ₹ x.\nThen, $\\left( 25 \\times \\frac{9}{100} \\right) = \\left( x \\times \\frac{10}{100} \\right)$ or x = 22.50.\n$\\therefore$ Cost of each share = ₹ 22.50.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A man sells ₹ 5000, 12% stock at 156 and invests the proceeds partly in 8% stock at 90 and 9% stock at 108. He thereby increases his income by ₹ 70. How much of the proceeds were invested in each stock?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "S.P. of ₹ 5000 stock = ₹ $\\left( \\frac{156}{100} \\times 5000 \\right)$ = ₹ 7800.\nIncome from this stock = ₹ $\\left( \\frac{12}{100} \\times 5000 \\right)$ = ₹ 600.\nLet investment in 8% stock be ₹ x and that in 9% stock = ₹ $(7800 - x)$.\n$\\therefore \\left( x \\times \\frac{8}{90} \\right) + \\left( (7800 - x) \\times \\frac{9}{108} \\right) = (600 + 70)$\n$\\Leftrightarrow \\frac{4x}{45} + \\frac{7800 - x}{12} = 670 \\Leftrightarrow 16x + 117000 - 15x = (670 \\times 180) \\Leftrightarrow x = 3600$.\n$\\therefore$ Money invested in 8% stock at 90 = ₹ 3600.\nMoney invested in 9% at 108 = ₹ $(7800 - 3600) = 4200$.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The cost price of a ₹ 100 stock at 4 discount, when brokerage is $\\frac{1}{4}\\%$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 95.75",
+      "option_b": "₹ 96",
+      "option_c": "₹ 96.25",
+      "option_d": "₹ 104.25",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "C.P. = ₹ $\\left(100 - 4 + \\frac{1}{4}\\right)$ = ₹ 96.25.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The cash realised on selling a 14% stock at ₹ 106.25, brokerage being $\\frac{1}{4}\\%$, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 105.50",
+      "option_b": "₹ 106",
+      "option_c": "₹ 106.50",
+      "option_d": "₹ 113.75",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Cash realised = ₹ (106.25 – 0.25) = ₹ 106.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "How many shares of market value ₹ 25 each can be purchased for ₹ 12750, brokerage being 2%?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "450",
+      "option_b": "500",
+      "option_c": "550",
+      "option_d": "600",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "C.P. of each share = ₹ (25 + 2% of 25) = ₹ 25.50.\n\\ Number of shares = $\\left(\\frac{12750}{25.50}\\right)$ = 500.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man invests in a 16% stock at 128. The interest obtained by him is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8%",
+      "option_b": "12%",
+      "option_c": "12.5%",
+      "option_d": "16%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "By investing ₹ 128, income derived = ₹ 16.\nBy investing ₹ 100, income derived = ₹ $\\left(\\frac{16}{128}\\times100\\right)$ = 12.5.\n\\ Interest obtained = 12.5%.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The income derived from a ₹ 100, 13% stock at ₹ 105, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 5",
+      "option_b": "₹ 8",
+      "option_c": "₹ 13",
+      "option_d": "₹ 18",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Income on ₹ 100 stock = ₹ 13.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "M.A.T., 2002",
+      "passage_text": "",
+      "question_text": "A wants to secure an annual income of ₹ 1500 by investing in 15% debentures of face value ₹ 100 each and available for ₹ 104 each. If the brokerage is 1%, then the sum of money he should invest is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 10504",
+      "option_b": "₹ 10784",
+      "option_c": "₹ 15000",
+      "option_d": "₹ 19642",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Income on each debenture = 15% of ₹ 100 = ₹ 15.\nNumber of debentures required = ₹ $\\left(\\frac{1500}{15}\\right)$ = 100.\nCost of each debenture\n= ₹ (104 + 1% of 104) = (104 + 1.04) = ₹ 105.04.\n\\ Total investment = ₹ (105.04 $\\times$ 100) = ₹ 10504.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "G.B.O., 2007",
+      "passage_text": "",
+      "question_text": "A man invested ₹ 4455 in ₹ 10 shares quoted at ₹ 8.25. If the rate of dividend be 12%, his annual income is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 207.40",
+      "option_b": "₹ 534.60",
+      "option_c": "₹ 648",
+      "option_d": "₹ 655.60",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Number of shares = $\\left(\\frac{4455}{8.25}\\right)$ = 540.\nFace value = ₹ (540 $\\times$ 10) = ₹ 5400.\nAnnual income = ₹ $\\left(\\frac{12}{100}\\times5400\\right)$ = ₹ 648.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "R.R.B., 2008; Hotel Management, 2003",
+      "passage_text": "",
+      "question_text": "A man invested ₹ 14,400 in ₹ 100 shares of a company at 20% premium. If the company declares 5% dividend at the end of the year, then how much does he get?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 500",
+      "option_b": "₹ 600",
+      "option_c": "₹ 650",
+      "option_d": "₹ 720",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Number of shares = $\\left(\\frac{14400}{120}\\right)$ = 120.\nFace value = ₹ (100 $\\times$ 120) = ₹ 12000.\nAnnual income = ₹ $\\left(\\frac{5}{100}\\times12000\\right)$ = ₹ 600.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "M.A.T., 2004",
+      "passage_text": "",
+      "question_text": "A person has deposited ₹ 13200 in a bank which pays 14% interest. He withdraws the money and invests in ₹ 100 stock at ₹ 110 which pays a dividend of 15%. How much does he gain or lose?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Loses ₹ 48",
+      "option_b": "Gains ₹ 48",
+      "option_c": "Loses ₹ 132",
+      "option_d": "Gains ₹ 132",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Income from bank = 14% of ₹ 13200 = ₹ 1848.\nNumber of shares purchased = ₹ $\\left(\\frac{13200}{110}\\right)$ = 120.\nIncome from stock\n= (15% of ₹ 100) $\\times$ 120 = ₹ (15 $\\times$ 120) = ₹ 1800.\n\\ Loss = ₹ (1848 – 1800) = ₹ 48.",
+      "page_numbers": [
+        "837"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A 6% stock yields 8%. The market value of the stock is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 48",
+      "option_b": "₹ 75",
+      "option_c": "₹ 96",
+      "option_d": "₹ 133.33",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "For an income of ₹ 8, investment = ₹ 100.\nFor an income of ₹ 6, investment = ₹ $\\left(\\frac{100}{8}\\times6\\right)$ = ₹ 75.\n\\ Market value of ₹ 100 stock = ₹ 75.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A 9% stock yields 8%. The market value of the stock is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 72",
+      "option_b": "₹ 92",
+      "option_c": "₹ 112.50",
+      "option_d": "₹ 116.50",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "To obtain ₹ 8, investment = ₹ 100.\nTo obtain ₹ 9, investment = ₹ $\\left(\\frac{100}{8}\\times9\\right)$ = ₹ 112.50.\n\\ Market value of ₹ 100 stock = ₹ 112.50.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A 12% stock yielding 10% is quoted at",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 83.33",
+      "option_b": "₹ 110",
+      "option_c": "₹ 112",
+      "option_d": "₹ 120",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "To earn ₹ 10, money invested = ₹ 100.\nTo earn ₹ 12, money invested = ₹ $\\left(\\frac{100}{10}\\times12\\right)$ = ₹ 120.\n\\ Market value of ₹ 100 stock = ₹ 120.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "SCMHRD, 2002",
+      "passage_text": "",
+      "question_text": "By investing ₹ 3450 in a $4\\frac{1}{2}\\%$ stock, a man obtains an income of ₹ 150. Find the market price of the stock.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 103.50",
+      "option_b": "₹ 105",
+      "option_c": "₹ 107.50",
+      "option_d": "₹ 110",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "To earn ₹ 150, investment = ₹ 3450.\nTo earn ₹ 4.50, investment = ₹ $\\left(\\frac{3450}{150}\\times4.50\\right)$ = ₹ 103.50.\n\\ Market value of ₹ 100 stock = ₹ 103.50.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "To produce an annual income of ₹ 1200 from a 12% stock at 90, the amount of stock needed is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 10,000",
+      "option_b": "₹ 10,800",
+      "option_c": "₹ 14,400",
+      "option_d": "₹ 16,000",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "For an income of ₹ 12, stock needed = ₹ 100.\nFor an income of ₹ 1200, stock needed\n= ₹ $\\left(\\frac{100}{12}\\times1200\\right)$ = ₹ 10,000.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In order to obtain an income of ₹ 650 from 10% stock at ₹ 96, one must make an investment of",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 3100",
+      "option_b": "₹ 6240",
+      "option_c": "₹ 6500",
+      "option_d": "₹ 9600",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "To obtain ₹ 10, investment = ₹ 96.\nTo obtain ₹ 650, investment = ₹ $\\left(\\frac{96}{10}\\times650\\right)$ = ₹ 6240.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "By investing in $16\\frac{2}{3}\\%$ stock at 64, one earns ₹ 1500. The investment made is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 5640",
+      "option_b": "₹ 5760",
+      "option_c": "₹ 7500",
+      "option_d": "₹ 9600",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "To earn ₹ $\\frac{50}{3}$, investment = ₹ 64.\nTo earn ₹ 1500, investment = ₹ $\\left(\\frac{64}{50/3}\\times1500\\right)$ = ₹ 5760.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man invested ₹ 1552 in a stock at 97 to obtain an income of ₹ 128. The dividend from the stock is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7.5%",
+      "option_b": "8%",
+      "option_c": "9.7%",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "By investing ₹ 1552, income = ₹ 128.\nBy investing ₹ 97, income = ₹ $\\left(\\frac{128}{1552}\\times97\\right)$ = ₹ 8.\n\\ Dividend = 8%.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man bought 20 shares of ₹ 50 at 5 discount, the rate of dividend being $13\\frac{1}{2}\\%$. The rate of interest obtained is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$12\\frac{1}{2}\\%$",
+      "option_b": "$13\\frac{1}{2}\\%$",
+      "option_c": "15%",
+      "option_d": "$16\\frac{2}{3}\\%$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Investment = ₹ [20 $\\times$ (50 – 5)] = ₹ 900.\nFace value = ₹ (50 $\\times$ 20) = ₹ 1000.\nDividend = ₹ $\\left(\\frac{27}{2}\\times\\frac{1000}{100}\\right)$ = ₹ 135.\nInterest obtained = $\\left(\\frac{135}{900}\\times100\\right)$% = 15%.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "At what price should I buy a share the value of which is ₹ 100, paying a dividend of 8% so that my yield is 11%?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 70",
+      "option_b": "₹ 72.72",
+      "option_c": "₹ 75",
+      "option_d": "₹ 84",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Dividend on ₹ 100 = 8% of ₹ 100 = ₹ 8.\n₹ 11 is an income on ₹ 100.\n\\ ₹ 8 is an income on ₹ $\\left(\\frac{100}{11}\\times8\\right)$ = ₹ 72.72.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "L.I.C.A.A.O., 2003",
+      "passage_text": "",
+      "question_text": "A man buys ₹ 50 shares in a company which pays 10% dividend. If the man gets 12.5% on his investment, at what price did he buy the shares?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 37.50",
+      "option_b": "₹ 40",
+      "option_c": "₹ 48",
+      "option_d": "₹ 52",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Dividend on 1 share = $\\left(\\frac{10}{100}\\times50\\right)$ = ₹ 5.\n₹ 12.50 is an income on an investment of ₹ 100.\n₹ 5 is an income on an investment of ₹ $\\left(\\frac{100}{12.5}\\times5\\right)$ = ₹ 40.\n\\ Cost of 1 share = ₹ 40.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The market value of a 10.5% stock, in which an income of ₹ 756 is derived by investing ₹ 9000, brokerage being $\\frac{1}{4}\\%$, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 108.25",
+      "option_b": "₹ 112.20",
+      "option_c": "₹ 124.75",
+      "option_d": "₹ 125.25",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "For an income of ₹ 756, investment = ₹ 9000.\nFor an income of ₹ $\frac{21}{2}$, investment = ₹ $\frac{9000\times21}{756\times2}$ = ₹ 125.\n\\ For a ₹ 100 stock, investment = ₹ 125.\nMarket value of ₹ 100 stock = ₹ $\frac{1}{4}$ (125 - $\frac{1}{4}$) = ₹ 124.75.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "839",
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Sakshi invests a part of ₹ 12,000 in 12% stock at ₹ 120 and the remainder in 15% stock at ₹ 125. If his total dividend per annum is ₹ 1360, how much does he invest in 12% stock at ₹ 120?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4000",
+      "option_b": "₹ 4500",
+      "option_c": "₹ 5500",
+      "option_d": "₹ 6000",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let investment in 12% stock be ₹ $x$. Then, investment in 15% stock = ₹ (12000 - $x$).\n$\frac{12}{120}x + \frac{15}{125}(12000 - x) = 1360$\n$\frac{x}{10} + \frac{3}{25}(12000 - x) = 1360$\n$5x + 72000 - 6x = 1360 \times 50$\n$x = 4000$.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "₹ 9800 are invested partly in 9% stock at 75 and 10% stock at 80 to have equal amount of incomes. The investment in 9% stock is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4800",
+      "option_b": "₹ 5000",
+      "option_c": "₹ 5400",
+      "option_d": "₹ 5600",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the investment in 9% stock be ₹ $x$.\nThen, investment in 10% stock = ₹ (9800 - $x$).\n$\frac{9}{75}x = \frac{10}{80}(9800 - x)$\n$\frac{3}{25}x = \frac{1}{8}(9800 - x)$\n$24x = 9800 \times 25 - 25x$\n$49x = 9800 \times 25$\n$x = 5000$.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "S.S.C., 2002",
+      "passage_text": "",
+      "question_text": "A person wants to invest ₹ 140000 in two types of bonds. The annual return is 12% on bond A and 16% on bond B. One of the conditions requires that the investment in bond B cannot be more than 40% of the investment in bond A. What is the maximum return he can get per year?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 15600",
+      "option_b": "₹ 16800",
+      "option_c": "₹ 19200",
+      "option_d": "₹ 20800",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the investment in Bond A be ₹ $x$. Then, investment in Bond B = ₹ (140000 - $x$).\nFor maximum return, we have :\n140000 - $x$ = 40% of $x$ $\\Rightarrow$ 140000 - $x$ = $\frac{2}{5}x$\n$\\Rightarrow$ $\frac{7}{5}x$ = 140000 $\\Rightarrow$ $x$ = $\frac{140000 \times 5}{7}$ = 100000.\nSo, investment in Bond A = ₹ 100000;\nInvestment in Bond B = ₹ (140000 - 100000) = ₹ 40000.\n\\ Maximum return = 12% of ₹ 100000 + 16% of ₹ 40000\n= ₹ (12000 + 4800) = ₹ 16800.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man invests some money partly in 9% stock at 96 and partly in 12% stock at 120. To obtain equal dividends from both, he must invest the money in the ratio",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 : 4",
+      "option_b": "3 : 5",
+      "option_c": "4 : 5",
+      "option_d": "16 : 15",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "For an income of ₹ 1 in 9% stock at 96,\nInvestment = ₹ $\frac{96}{9}$ = ₹ $\frac{32}{3}$.\nFor an income of ₹ 1 in 12% stock at 120, investment\n= ₹ $\frac{120}{12}$ = ₹ 10.\n\\ Ratio of investments = $\frac{32}{3}$ : 10 = 32 : 30 = 16 : 15.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which is better investment — 11% stock at 143 or $9\\frac{3}{4}\\%$ stock at 117?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11% stock at 143",
+      "option_b": "$9\\frac{3}{4}\\%$ stock at 117",
+      "option_c": "Both are equally good",
+      "option_d": "Cannot be compared, as the total mount of investment is not given",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let investment in each case be ₹ (143 $\times$ 117).\nIncome in 1st case = ₹ $\frac{11}{143} \times 143 \times 117$ = ₹ 1287.\nIncome in 2nd case = ₹ $\frac{39}{4 \times 117} \times 143 \times 117$ = ₹ 1394.25.\nClearly, $14\frac{3}{4}$% stock at 117 is better.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "I.I.F.T., 2005",
+      "passage_text": "",
+      "question_text": "A person invests ₹ 5508 in 4% stock at 102. He afterwards sells out at 105 and reinvests in 5% stock at 126. What is the change in his income?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 7",
+      "option_b": "₹ 9",
+      "option_c": "₹ 10",
+      "option_d": "₹ 20",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Number of shares purchased = $\frac{5508}{102}$ = 54.\nIncome from each share = 4% of ₹ 100 = ₹ 4.\n\\ Original income = ₹ (54 $\times$ 4) = ₹ 216.\nMoney incurred from sale of share\n= ₹ (105 $\times$ 54) = ₹ 5670.\nNumber of new shares purchased = $\frac{5670}{126}$ = 45.\nNew income = ₹ (45 $\times$ 5) = ₹ 225.\n\\ Change in income = ₹ (225 - 216) = ₹ 9.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A retired man sells out ₹ 7500 of a 10% stock at ₹ 105.50 and invests the proceeds in 14% stock at ₹ 124.50. What is the change in income if he pays a service charge of 0.5% of the face value on each transaction?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 95",
+      "option_b": "₹ 114",
+      "option_c": "₹ 132",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Number of shares sold = $\frac{7500}{100}$ = 75.\nProceeds from sale of ₹ 7500 stock\n= ₹ [(105.50 - 0.5) $\times$ 75] = ₹ 7875.\nNumber of new shares purchased\n= $\frac{7875}{124.50 + 0.50}$ = $\frac{7875}{125}$ = 63.\nOriginal income = 10% of ₹ 7500 = ₹ 750.\nNew income = 14% of ₹ 6300 = ₹ $\frac{14 \times 6300}{100}$ = ₹ 882.\n\\ Change in income = ₹ (882 - 750) = ₹ 132.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which is better investment, 12% stock at par with an income tax at the rate of 5 paise per rupee or",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let investment in each case = ₹ (100 $\times$ 120).\nIncome from 12% stock = ₹ $\frac{12}{100} \times 100 \times 120$ = ₹ 1440.\nNet income = ₹ (1440 - $\frac{5}{100} \times 1440$) = ₹ 1368.\nIncome from $14\frac{2}{7}$% stock = ₹ $\frac{100}{7 \times 100} \times 100 \times 120$ = ₹ 1428.57.\nClearly, $14\frac{2}{7}$% stock is better.",
+      "page_numbers": [
+        "838"
+      ],
+      "answer_page_numbers": [
+        "840"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A invested some money in 10% stock at 96. If B wants to invest in an equally good 12% stock, he must purchase a stock worth of :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 80",
+      "option_b": "₹ 115.20",
+      "option_c": "₹ 120",
+      "option_d": "₹ 125.40",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "For an income of ₹ 10, investment = ₹ 96.\nFor an income of ₹ 12, investment\n= ₹ $\frac{96}{10} \times 12$ = ₹ 115.20.",
+      "page_numbers": [
+        "839"
+      ],
+      "answer_page_numbers": [
+        "839",
+        "840"
+      ]
+    }
+  ]
+}

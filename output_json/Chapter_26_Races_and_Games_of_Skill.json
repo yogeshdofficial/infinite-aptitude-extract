@@ -1,0 +1,741 @@
+{
+  "chapter_title": "Chapter_26_Races_and_Games_of_Skill",
+  "question_count": 33,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a km race, A beats B by 28 metres or 7 seconds. Then, find A’s time over the course.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, B covers 28 m in 7 seconds.\n∴ B’s time over the course = $\\left(\\frac{1000}{28}\\times7\\right)$ sec = 250 sec.\n∴ A’s time over the course\n= (250 – 7) sec = 243 sec = 4 min 3 sec.",
+      "page_numbers": [
+        "814"
+      ],
+      "answer_page_numbers": [
+        "814"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A runs $1\\frac{3}{4}$ times as fast as B. If A gives B a start of 84 m, how far the winning post be so that A and B might reach it at the same time?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "A : B = $\\frac{7}{4}$ : 1 = 7 : 4.\nThus, in a race of 7 m, A gains 3 m over B.\n3 m are gained by A in a race of 7 m.\n84 m are gained by A in a race of $\\left(\\frac{7}{3}\\times84\\right)$ m = 196 m.\n∴ Winning post must be 196 m away from the starting point.",
+      "page_numbers": [
+        "814"
+      ],
+      "answer_page_numbers": [
+        "814"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "Railways, 2005",
+      "passage_text": "",
+      "question_text": "A can run 1 km in 3 min 10 sec and B can cover the same distance in 3 min 20 sec. By what distance can A beat B?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "A beats B by (200 – 190) sec = 10 sec.\nDistance covered by B in 10 sec\n= $\\left(\\frac{1000}{200}\\times10\\right)$ m = 50 m.\n∴ A beats B by 50 m.",
+      "page_numbers": [
+        "814"
+      ],
+      "answer_page_numbers": [
+        "814"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a 100 m race, A beats B by 25 m and B beats C by 4 m. In the same race, find the distance by which A beats C.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "A : B = 100 : 75 and B : C = 100 : 96.\n∴ A : C = $\\left(\\frac{A}{B}\\times\\frac{B}{C}\\right) = \\left(\\frac{100}{75}\\times\\frac{100}{96}\\right) = \\frac{100}{72} = 100 : 72$.\nA beats C by (100 – 72) m = 28 m.",
+      "page_numbers": [
+        "815"
+      ],
+      "answer_page_numbers": [
+        "815"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a 100 m race, A runs at 8 km per hour. If A gives B a start of 5 m and still beats him by 15 seconds, what is B’s speed?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Time taken by A to cover 100 m\n= $\\left(\\frac{60\\times60}{8000}\\times100\\right)$ sec = 45 sec.\n∴ B covers (100 – 5) m\n= 95 m in (45 + 15) sec = 60 sec.\n∴ B’s speed = $\\left(\\frac{95}{60}\\right)$ m/sec = $\\left(\\frac{95}{60}\\times\\frac{18}{5}\\right)$ km/hr = $\\frac{57}{10}$ km/hr = 5.7 km/hr.",
+      "page_numbers": [
+        "815"
+      ],
+      "answer_page_numbers": [
+        "815"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C are three contestants in a km race. If A can give B a start of 40 m and A can give C a start of 64 m, how many metres start can B give C?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "A : B = 1000 : 960 and A : C = 1000 : 936.\n∴ $\\frac{B}{C} = \\left(\\frac{B}{A}\\times\\frac{A}{C}\\right) = \\left(\\frac{960}{1000}\\times\\frac{1000}{936}\\right) = \\frac{1000}{975} \\Rightarrow B : C = 1000 : 975$.\n∴ B can give C a start of 25 m.",
+      "page_numbers": [
+        "815"
+      ],
+      "answer_page_numbers": [
+        "815"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "In a 100 m race for children, A runs at 1.66 m/s. If A gives B a start of 4m and still beats him by 12 seconds, what is B’s speed?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Time taken by A to run 100 m\n= $\\frac{100}{1.66}$ sec = $\\frac{100\\times100}{166}$ sec = $\\frac{5000}{83}$ sec.\nTime taken by B to run 96 m\n= $\\left(\\frac{5000}{83} + 12\\right)$ sec = $\\frac{(5000 + 996)}{83}$ sec = $\\frac{5996}{83}$ sec.\nB’s speed\n= $\\left(\\frac{96\\times83}{5996}\\right)$ m/sec = $\\left(\\frac{24\\times83}{1499}\\right)$ m/s = $\\frac{1992}{1499}$ m/s\n= 1.328 m/s = 1.33 m/s.",
+      "page_numbers": [
+        "815"
+      ],
+      "answer_page_numbers": [
+        "815"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a game of 80 points, A can give B 5 points and C 15 points. How many points B can give C in a game of 60?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 points",
+      "option_b": "10 points",
+      "option_c": "20 points",
+      "option_d": "12 points",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "A : B = 80 : 75 and A : C = 80 : 65\n$\\frac{B}{C} = \\left(\\frac{B}{A}\\times\\frac{A}{C}\\right) = \\left(\\frac{75}{80}\\times\\frac{80}{65}\\right) = \\frac{15}{13} = \\left(\\frac{15\\times4}{13\\times4}\\right) = \\frac{60}{52}$\n⇒ B : C = 60 : 52.\nHence, in a game of 60, B can give C 8 points.",
+      "page_numbers": [
+        "815"
+      ],
+      "answer_page_numbers": [
+        "815"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a 100 m race, A covers the whole distance in 36 seconds and B in 45 seconds. In this race, A beats B by",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20 m",
+      "option_b": "25 m",
+      "option_c": "22.5 m",
+      "option_d": "9 m",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Clearly, A beats B by 9 seconds.\nDistance covered by B in 9 sec. = $\\left(\\frac{100}{45}\\times9\\right)$ m = 20 m.\n∴ A beats B by 20 m.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "M.B.A., 2004",
+      "passage_text": "",
+      "question_text": "In a kilometre race, A beats B by 100 m and B beats C by 150 m. In the same race, by how many metres does A beat C?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "225 m",
+      "option_b": "235 m",
+      "option_c": "240 m",
+      "option_d": "250 m",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "A : B = 1000 : 900 and B : C = 1000 : 850.\n$\\frac{A}{C} = \\left(\\frac{A}{B}\\times\\frac{B}{C}\\right) = \\left(\\frac{1000}{900}\\times\\frac{1000}{850}\\right) = \\frac{1000}{765} \\Rightarrow A : C = 1000 : 765$.\n∴ A beats C by (1000 – 765) m = 235 m.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "M.B.A., 2006",
+      "passage_text": "",
+      "question_text": "A can run 22.5 m while B runs 25 m. In a kilometre race, B beats A by",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "100 m",
+      "option_b": "$1\\frac{1}{9}$ m",
+      "option_c": "25 m",
+      "option_d": "50 m",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "B : A = 25 : 22.5 = 50 : 45 = (50 $\\times$ 20) : (45 $\\times$ 20)\n= 1000 : 900.\n∴ In a km race, B beats A by (1000 – 900) m = 100 m.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "In a kilometre race, A, B and C are three participants. A can give B a start of 50 m and C a start of 69 m. The start which B can allow C, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "17 m",
+      "option_b": "18 m",
+      "option_c": "19 m",
+      "option_d": "20 m",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "A : B : C = 1000 : (1000 – 50) : (1000 – 69)\n= 1000 : 950 : 931.\nIn a 950 m race, B can give C a start of (950 – 931) m = 19 m.\nIn a 1000 m race, B can give C a start of $\\left(\\frac{19}{950}\\times1000\\right)$ m = 20 m.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "Railways, 2006",
+      "passage_text": "",
+      "question_text": "In a 1000 m race, A can beat B by 100 m. In a race of 400 m, B can beat C by 40 m. By how many metres will A beat C in a race of 500 m?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "85 m",
+      "option_b": "95 m",
+      "option_c": "105 m",
+      "option_d": "115 m",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "A : B = 1000 : 900, B : C = 400 : 360 = 100 : 90 = 900 : 810\n⇒ A : B : C = 1000 : 900 : 810 ⇒ A : C = 1000 : 810\n= 500 : 405\n⇒ In a 500 m race, A beats C by (500 – 405) m = 95 m.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a 100 m race, A beats B by 10 m and C by 13 m. In a race of 180 m, B will beat C by",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5.4 m",
+      "option_b": "4.5 m",
+      "option_c": "5 m",
+      "option_d": "6 m",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "A : B = 100 : 90 and A : C = 100 : 87 ⇒ $\\frac{A}{B} = \\frac{100}{90}$ and $\\frac{A}{C} = \\frac{100}{87}$\n⇒ $\\frac{B}{C} = \\left(\\frac{B}{A}\\times\\frac{A}{C}\\right) = \\left(\\frac{90}{100}\\times\\frac{100}{87}\\right) = \\frac{90}{87} = \\frac{180}{174}$\n⇒ B : C = 180 : 174\n⇒ In a 180 m race, B beats C by (180 – 174) m = 6 m.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a 200 m race, A can beat B by 31 m and C by 18 m. In a race of 350 m, C will beat B by:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "22.75 m",
+      "option_b": "25 m",
+      "option_c": "19.5 m",
+      "option_d": "13 m",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "A : B = 200 : 169 and A : C = 200 : 182\n⇒ $\\frac{C}{B} = \\left(\\frac{C}{A}\\times\\frac{A}{B}\\right) = \\left(\\frac{182}{200}\\times\\frac{200}{169}\\right) = \\frac{182}{169}$.\nWhen C covers 182 m, B covers = 169 m.\nWhen C covers 350 m, B covers = $\\left(\\frac{169}{182}\\times350\\right)$ m = 325 m.\n∴ C beats B by 25 m.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "In a race of 200 m, B can give a start of 10 m to A and C can give a start of 20 m to B. The start that C can give to A in the same race is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "27 m",
+      "option_b": "29 m",
+      "option_c": "30 m",
+      "option_d": "25 m",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "B : A = 200 : 190, C : B = 200 : 180\n$\\frac{C}{A} = \\left(\\frac{C}{B}\\times\\frac{B}{A}\\right) = \\left(\\frac{200}{180}\\times\\frac{200}{190}\\right) = \\frac{200}{171}$\n∴ C can give to A, a start of (200 – 171) m = 29 m.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a 200 m race, A beats B by 35 m or 7 seconds. A’s time over the course is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40 sec",
+      "option_b": "47 sec",
+      "option_c": "33 sec",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "B covers 35 m in 7 seconds.\nB covers 200 m in $\\left(\\frac{7}{35}\\times200\\right)$ sec = 40 sec.\nTime taken by A = (40 – 7) sec = 33 sec.",
+      "page_numbers": [
+        "816",
+        "817"
+      ],
+      "answer_page_numbers": [
+        "817"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a 500 m race, the ratio of the speeds of two contestants A and B is 3 : 4. If A has a start of 140 m, then A wins by",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "60 m",
+      "option_b": "40 m",
+      "option_c": "20 m",
+      "option_d": "10 m",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "To reach the winning post A has to cover\n$= (500 - 140) m = 360 m.$\nWhile A covers $3 m,$ B covers $4 m.$\nWhile A covers $360 m,$ B covers $\\left(\\frac{4}{3}\\times360\\right) m = 480 m.$\nThus, when A reaches the winning post, B covers $480 m.$\n$\\therefore$ A wins by $(500 - 480) m = 20 m.$",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A runs $2\\frac{1}{3}$ times as fast as B. If A gives B a start of 80 m, how far must the winning post be so that A and B might reach it at the same time?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "200 m",
+      "option_b": "300 m",
+      "option_c": "270 m",
+      "option_d": "160 m",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Ratio of speeds of A and B = $\\frac{5}{3} : 1 = 5 : 3.$\nThus, in a race of $5 m,$ A gains $2 m$ over B.\n$2 m$ are gained by B in a race of $5 m.$\n$80 m$ will be gained by B in a race of $\\left(\\frac{5}{2}\\times80\\right) m = 200 m.$\n$\\therefore$ Winning post is $200 m$ away from the starting point.",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a 100 m race, A can beat B by 25 m and B can beat C by 4 m. In the same race A can beat C by",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "21 m",
+      "option_b": "26 m",
+      "option_c": "28 m",
+      "option_d": "29 m",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "A : B = $100 : 75$ and B : C = $100 : 96.$\nA : C = $\\left(\\frac{100}{75}\\times\\frac{100}{96}\\right) = \\frac{100}{72}.$\n$\\therefore$ A beats C by $(100 - 72) m = 28 m.$",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "Railways, 2007",
+      "passage_text": "",
+      "question_text": "A and B take part in a 100 m race. A runs at 5 km an hour. A gives B a start of 8 m and still beats him by 8 seconds. The speed of B is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4.45 km/hr",
+      "option_b": "4.14 km/hr",
+      "option_c": "4.15 km/hr",
+      "option_d": "4.25 km/hr",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "A's speed = $5 km/hr = \\left(5\\times\\frac{5}{18}\\right) m/sec = \\frac{25}{18} m/sec.$\nTime taken by A to cover $100 m = \\left(100\\times\\frac{18}{25}\\right) sec = 72 sec.$\nTime taken by B to cover $92 m = (72 + 8) sec = 80 sec.$\nB's speed = $\\left(\\frac{92}{80}\\times\\frac{18}{5}\\right) km/hr = \\frac{414}{100} km/hr = 4.14 km/hr.$",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "M.A.T. 2009",
+      "passage_text": "",
+      "question_text": "In a 400 m race, A gives B a start of 5 seconds and beats him by 15 m. In another race of 400 m, A beats B by $1\\frac{7}{7}$ seconds. Their respective speeds are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6 m/sec, 7 m/sec",
+      "option_b": "5 m/sec, 7 m/sec",
+      "option_c": "8 m/sec, 7 m/sec",
+      "option_d": "9 m/sec, 7 m/sec",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Suppose A covers $400 m$ in $t$ sec. Then, B covers $385 m$ in $(t + 5)$ sec.\n$\\therefore$ B covers $400 m$ in $\\left\\{\\frac{400(t+5)}{385}\\right\\} sec = \\frac{80(t+5)}{77} sec.$\nAlso, B covers $400 m$ in $\\left(t+\\frac{50}{7}\\right) sec = \\frac{7t+50}{7} sec.$\n$\\therefore \\frac{80(t+5)}{77} = \\frac{7t+50}{7} \\Rightarrow 80(t+5) = 11(7t+50)$\n$\\Rightarrow (80t - 77t) = (550 - 400) \\Rightarrow 3t = 150 \\Rightarrow t = 50.$\n$\\therefore$ A's speed = $\\frac{400}{50} m/sec = 8 m/sec,$ B's speed = $\\frac{385}{55} m/sec = 7 m/sec.$",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "In a kilometre race, A beats B by 30 seconds and B beats C by 15 seconds. If A beats C by 180 m, the time taken by A to run 1 kilometre, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "200 sec",
+      "option_b": "205 sec",
+      "option_c": "210 sec",
+      "option_d": "250 sec",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "In a km race, suppose A takes $t$ sec. Then, B takes $(t + 30)$ sec. and C takes $(t + 45)$ sec.\n$180 m$ is covered by C in $45$ sec.\n$\\therefore 1000 m$ is covered by C in $\\left(\\frac{45}{180}\\times1000\\right) sec = 250 sec.$\n$\\therefore$ A covers $1000 m$ in $(250 - 45) sec = 205 sec.$",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "In a 800 metre race, A defeated B by 15 seconds. If A’s speed was 8 km/hr, the speed of B was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16 $\\frac{27}{16}$ km/hr",
+      "option_b": "27 $\\frac{16}{27}$ km/hr",
+      "option_c": "17 $\\frac{7}{25}$ km/hr",
+      "option_d": "17 $\\frac{8}{25}$ km/hr",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "A's speed = $8 km/hr = \\left(8\\times\\frac{5}{18}\\right) m/sec = \\frac{20}{9} m/sec.$\nTime taken by A to cover $800 m = \\left(800\\times\\frac{9}{20}\\right) sec = 360 sec.$\nTime taken by B to cover $800 m = (360 + 15) sec = 375 sec.$\nSpeed of B = $\\left(\\frac{800}{375}\\times\\frac{18}{5}\\right) km/hr = \\frac{192}{25} km/hr = 7\\frac{17}{25} km/hr.$",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "Railways, 2004",
+      "passage_text": "",
+      "question_text": "A and B can cover a 200 m race in 22 seconds and 25 seconds respectively. When A finished the race, then B is at what distance from the finishing line?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "24 m",
+      "option_b": "30 m",
+      "option_c": "48 m",
+      "option_d": "54 m",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Distance covered by B in $25$ sec = $200 m.$\nDistance covered by B in $22$ sec. = $\\left(\\frac{200}{25}\\times22\\right) m = 176 m.$\n$\\therefore$ B was at a distance of $(200 - 176) m = 24 m$ from the finishing line.",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a game of 100 points, A can give B 20 points and C 28 points. Then, B can give C:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 points",
+      "option_b": "10 points",
+      "option_c": "14 points",
+      "option_d": "40 points",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "A : B = $100 : 80$ and A : C = $100 : 72.$\n$\\therefore \\frac{B}{C} = \\left(\\frac{B}{A}\\times\\frac{A}{C}\\right) = \\left(\\frac{80}{100}\\times\\frac{100}{72}\\right) = \\frac{80}{72} = \\frac{10}{9} = 100 : 90.$\n$\\therefore$ B can give C $10$ points.",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "At a game of billiards, A can give B 15 points in 60 and A can give C 20 points in 60. How many points can B give C in a game of 90?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30 points",
+      "option_b": "20 points",
+      "option_c": "10 points",
+      "option_d": "12 points",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "A : B = $60 : 45$ and A : C = $60 : 40$\n$\\therefore \\frac{B}{C} = \\left(\\frac{B}{A}\\times\\frac{A}{C}\\right) = \\left(\\frac{45}{60}\\times\\frac{60}{40}\\right) = \\frac{45}{40} = \\frac{90}{80} = 90 : 80.$\n$\\therefore$ B can give C $10$ points in a game of $90.$",
+      "page_numbers": [
+        "816"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "SSC—CGL (Tier I) Exam, 2012",
+      "passage_text": "",
+      "question_text": "Four sisters Suvarna, Tara, Uma and Vibha are playing a game such that the loser doubles the money of each of the other players from her share. They played four games and each sister lost one game in alphabetical order. At the end of fourth game, each sister had ₹ 32. How much money did Suvarna start with?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 60",
+      "option_b": "₹ 34",
+      "option_c": "₹ 66",
+      "option_d": "₹ 28",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "End of | Suvarna | Tara | Uma | Vibha\n4th Game | 32 | 32 | 32 | 32\n3rd Game | 16 | 16 | 16 | 80\n2nd Game | 8 | 8 | 72 | 40\n1st Game | 4 | 68 | 36 | 20\nOriginal Money | 62 | 34 | 18 | 10\nSuvarna starts with ₹ 66",
+      "page_numbers": [
+        "817"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "SSC—CGL (Tier I) Exam, 2012",
+      "passage_text": "",
+      "question_text": "A team played 40 games in a season and won in 24 of them. What percent of games played did the team win?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "70%",
+      "option_b": "40%",
+      "option_c": "60%",
+      "option_d": "35%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Number of games played = $40$\nNumber of won games = $24$\nPercentage of games played = $\\left(\\frac{24}{40}\\times100\\right) = 60\\%$",
+      "page_numbers": [
+        "817"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "SNAP, 2012",
+      "passage_text": "Directions (22 and 25): At the start of a game of cards, J and B together had four times as much money as T, while T and B together had three times as much as J. At the end of the evening, J and B together had three times as much money as T, while T and B together had twice as much as J, B lost ₹ 200.",
+      "question_text": "What fraction of the total money did T have at the beginning of the game?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1/3",
+      "option_b": "1/8",
+      "option_c": "2/9",
+      "option_d": "1/5",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "J and B have $4$ times as much as T. $\\frac{1}{5}$ th.\nSo, T so total.\nSimilarly, J is $\\frac{1}{4}$ th and so on.\nTaking total as $60x:$\nT has $12x,$ J has $15x$ so B has $33x$\nFinally T has $15x,$ J has $20x$ so B has $25x.$\nSo T has $\\frac{1}{5}$ th initially.",
+      "page_numbers": [
+        "817"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "SNAP, 2012",
+      "passage_text": "Directions (22 and 25): At the start of a game of cards, J and B together had four times as much money as T, while T and B together had three times as much as J. At the end of the evening, J and B together had three times as much money as T, while T and B together had twice as much as J, B lost ₹ 200.",
+      "question_text": "What fraction of the total money did J win/lose?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Won 1/12",
+      "option_b": "Lost 1/6",
+      "option_c": "Lost 1/3",
+      "option_d": "Won 1/5",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "J won $\\frac{5}{60} = \\frac{1}{12}$",
+      "page_numbers": [
+        "817"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "GBO Exam, 2012",
+      "passage_text": "",
+      "question_text": "In racing over a distance d at uniform speed, A can beat B by 20 metres, B can beat C by 10 metres, and A can beat C by 28 metres. Then d, in metres, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "50",
+      "option_b": "75",
+      "option_c": "100",
+      "option_d": "120",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let distance be = $x$ metre\nA runs = $x$ metre\nB runs = $(x - 20)$ metres.\nB can beat C by $10$ metres\nC runs = $(x - 10)$ metres\nA can beat by C $28$ metres\nC runs = $(x - 28)$ metres\nB runs = $x - 20$\nC runs = $\\left(\\frac{x-10}{x}\\right)(x-20)$\n'A' can beat C by $28$ metre $\\left[\\frac{(x-10)(x-20)}{x}\\right] = x - 28$\n$x^2 - 30x + 200 = x^2 - 28x$\n$30x - 200 = 28x$\n$\\Rightarrow 30x - 28x = 200 \\Rightarrow 2x = 200 \\Rightarrow x = 100$ metres.",
+      "page_numbers": [
+        "817"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "CDS Exam, 2016",
+      "passage_text": "Directions (22 and 25): At the start of a game of cards, J and B together had four times as much money as T, while T and B together had three times as much as J. At the end of the evening, J and B together had three times as much money as T, while T and B together had twice as much as J, B lost ₹ 200.",
+      "question_text": "A runs $1\\frac{2}{3}$ times as fast as B. If A gives B a start of 80m, how far must the winning post from the starting point be so that A and B might reach it at the same time?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "200m",
+      "option_b": "300m",
+      "option_c": "270m",
+      "option_d": "160m",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let speed of B = $a$ m/s\nSpeed of A = $\\frac{5}{3} a$ m/s\nLet $x$ be the distance = $\\frac{x}{a} - \\frac{x-80}{5/3 a} = 0$\n$\\Rightarrow 3x = 5x - 400 \\Rightarrow 2x = 400$\n$\\Rightarrow x = 200m$",
+      "page_numbers": [
+        "817"
+      ],
+      "answer_page_numbers": [
+        "818"
+      ]
+    }
+  ]
+}

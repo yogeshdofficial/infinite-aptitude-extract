@@ -1,0 +1,691 @@
+{
+  "chapter_title": "Chapter_21_Alligation_or_Mixture",
+  "question_count": 31,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In what ratio must rice at ₹ 9.30 per kg be mixed with rice at ₹ 10.80 per kg so that the mixture be worth ₹ 10 per kg ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "By the rule of alligation, we have :\nC.P. of 1 kg rice of 1st kind (in paise) \n930\nC.P. of 1 kg rice of 2nd kind (in paise)\n1080\nMean price (in paise)\n1000\n80\n70\n∴ Required ratio = 80 : 70 = 8 : 7.",
+      "page_numbers": [
+        "633"
+      ],
+      "answer_page_numbers": [
+        "633"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "How much water must be added to 60 litres of milk at $1\\frac{1}{2}$ litres for ₹ 20 so as to have a mixture worth ₹ $10\\frac{2}{3}$ a litre ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "C.P. of 1 litre of milk = ₹ $\\left(20\\times\\frac{2}{3}\\right)$ = ₹ $\\frac{40}{3}$.\nC.P. of 1 litre of water = 0\nMean price = ₹ $\\frac{32}{3}$\nC.P. of 1 litre of milk = ₹ $\\frac{40}{3}$\n$\\left(\\frac{40}{3}-\\frac{32}{3}\\right) = \\frac{8}{3}$\n$\\left(\\frac{32}{3}-0\\right) = \\frac{32}{3}$\nRatio of water and milk = $\\frac{8}{3} : \\frac{32}{3} = 8 : 32 = 1 : 4$.\n∴ Quantity of water to be added to 60 litres of milk = $\\left(\\frac{1}{4}\\times60\\right)$ litres = 15 litres.",
+      "page_numbers": [
+        "633",
+        "634"
+      ],
+      "answer_page_numbers": [
+        "634"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In what ratio must water be mixed with milk to gain 20% by selling the mixture at cost price ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let C.P. of milk be ₹ 1 per litre. Then, S.P. of 1 litre of mixture = ₹ 1. Gain obtained = 20%.\n∴ C.P. of 1 litre of mixture = ₹ $\\left(\\frac{100}{120}\\times1\\right) = ₹ \\frac{5}{6}$.\nBy the rule of alligation, we have :\nC.P. of 1 litre of water = 0\nC.P. of 1 litre of milk = ₹ 1\nMean price = ₹ $\\frac{5}{6}$\n$\\left(1-\\frac{5}{6}\\right) = \\frac{1}{6}$\n$\\left(\\frac{5}{6}-0\\right) = \\frac{5}{6}$\n∴ Ratio of water and milk = $\\frac{1}{6} : \\frac{5}{6} = 1 : 5$.",
+      "page_numbers": [
+        "634"
+      ],
+      "answer_page_numbers": [
+        "634"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "How many kgs. of wheat costing ₹ 8 per kg must be mixed with 36 kg of rice costing ₹ 5.40 per kg so that 20% gain may be obtained by selling the mixture at ₹ 7.20 per kg ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "S.P. of 1 kg mixture = ₹ 7.20, Gain = 20%.\n∴ C.P. of 1 kg mixture = ₹ $\\left(\\frac{100}{120}\\times7.20\\right) = ₹ 6$.\nBy the rule of alligation, we have :\nC.P. of 1kg wheat of 1st kind (800 p)\nC.P. of 1kg wheat of 2nd kind (540 p)\nMean price (600 p)\n60\n200\nWheat of 1st kind : Wheat of 2nd kind = 60 : 200 = 3 : 10.\nLet x kg of wheat of 1st kind be mixed with 36 kg of wheat of 2nd kind.\nThen, 3 : 10 = x : 36 or 10x = 3 $\\times$ 36 or x = 10.8 kg.",
+      "page_numbers": [
+        "634"
+      ],
+      "answer_page_numbers": [
+        "634"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The milk and water in two vessels A and B are in the ratio 4 : 3 and 2 : 3 respectively. In what ratio, the liquids in both the vessels be mixed to obtain a new mixture in vessel C containing half milk and half water ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the C.P. of milk be ₹ 1 per litre.\nMilk in 1 litre mixture of A = $\\frac{4}{7}$ litre; Milk in 1 litre mixture of B = $\\frac{2}{5}$ litre;\nMilk in 1 litre mixture of C = $\\frac{1}{2}$ litre.\n∴ C.P. of 1 litre mixture in A = ₹ $\\frac{4}{7}$; C.P. of 1 litre mixture in B = ₹ $\\frac{2}{5}$.\nMean price = ₹ $\\frac{1}{2}$.\nBy the rule of alligation, we have :\nC.P. of 1 litre mix. in A = $\\frac{4}{7}$\nC.P. of 1 litre mix. in B = $\\frac{2}{5}$\nMean price = $\\frac{1}{2}$\n$\\frac{1}{10}$\n$\\frac{1}{14}$\n∴ Required ratio = $\\frac{1}{10} : \\frac{1}{14} = 7 : 5$.",
+      "page_numbers": [
+        "634",
+        "635"
+      ],
+      "answer_page_numbers": [
+        "635"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "In what ratio must a grocer mix two varieties of pulses costing ₹ 15 and ₹ 20 per kg respectively so as to get a mixture worth ₹ 16.50 per kg ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 : 7",
+      "option_b": "5 : 7",
+      "option_c": "7 : 3",
+      "option_d": "7 : 5",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "By the rule of alligation :\nCost of 1 kg pulses of 1st kind ₹ 15\nCost of 1 kg pulses of 2nd kind ₹ 20\nMean price ₹ 16.50\n3.50\n1.50\n$\therefore$ Required rate = $3.50 : 1.50 = 35 : 15 = 7 : 3$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "637"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the ratio in which rice at ₹ 7.20 a kg be mixed with rice at ₹ 5.70 a kg to produce a mixture worth ₹ 6.30 a kg.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 : 3",
+      "option_b": "2 : 3",
+      "option_c": "3 : 4",
+      "option_d": "4 : 5",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "By the rule of alligation :\nCost of 1 kg rice of 1st kind 720 p\nCost of 1 kg rice of 2nd kind 570 p\nMean price 630 p\n60\n90\n$\therefore$ Required ratio = $60 : 90 = 2 : 3$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "637"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In what ratio must tea at ₹ 62 per kg be mixed with tea at ₹ 72 per kg so that the mixture must be worth ₹ 64.50 per kg ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 : 1",
+      "option_b": "3 : 2",
+      "option_c": "4 : 3",
+      "option_d": "5 : 3",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "By the rule of alligation :\nCost of 1 kg tea of 1st kind 6200 p\nCost of 1 kg tea of 2nd kind 7200 p\nMean price 6450 p\n750\n250\n$\therefore$ Required ratio = $750 : 250 = 3 : 1$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "637"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In what ratio must water be mixed with milk costing ₹ 12 per litre to obtain a mixture worth of ₹ 8 per litre ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 : 2",
+      "option_b": "2 : 1",
+      "option_c": "2 : 3",
+      "option_d": "3 : 2",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "By the rule of alligation :\nC.P. of 1 litre of water 0\nC.P. of 1 litre of milk ₹ 12\nMean price ₹ 8\n4\n8\nRatio of water to milk = $4 : 8 = 1 : 2$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "637"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The cost of Type 1 rice is ₹ 15 per kg and Type 2 rice is ₹ 20 per kg. If both Type 1 and Type 2 are mixed in the ratio of 2 : 3, then the price per kg of the mixed variety of rice is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 18",
+      "option_b": "₹ 18.50",
+      "option_c": "₹ 19",
+      "option_d": "₹ 19.50",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the price of the mixed variety be ₹ $x$ per kg.\nBy the rule of alligation, we have :\nCost of 1 kg of Type 1 rice ₹ 15\nCost of 1 kg of Type 2 rice ₹ 20\nMean price ₹ $x$\n$(20 - x)$\n$(x - 15)$\n$\therefore \frac{20 - x}{x - 15} = \frac{2}{3} \rightarrow 60 - 3x = 2x - 30$\n$\rightarrow 5x = 90 \rightarrow x = 18$.\nSo, price of the mixture is ₹ 18 per kg.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "637"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In what ratio must a grocer mix two varieties of tea worth ₹ 60 a kg and ₹ 65 a kg so that by selling the mixture at ₹ 68.20 a kg he may gain 10%?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 : 2",
+      "option_b": "3 : 4",
+      "option_c": "3 : 5",
+      "option_d": "4 : 5",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "S.P. of 1 kg of the mixture = ₹ 68.20, Gain = 10 %.\nC.P. of 1 kg of the mixture = $\frac{100}{110} \times 68.20 = 62$.\nBy the rule of alligation, we have :\nCost of 1 kg tea of 1st kind ₹ 60\nCost of 1 kg tea of 2nd kind ₹ 65\nMean price ₹ 62\n3\n2\n$\therefore$ Required ratio = $3 : 2$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "637"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "How many kilograms of sugar costing ₹ 9 per kg must be mixed with 27 kg of sugar costing ₹ 7 per kg so that there may be a gain of 10% by selling the mixture at ₹ 9.24 per kg ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "36 kg",
+      "option_b": "42 kg",
+      "option_c": "54 kg",
+      "option_d": "63 kg",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "S.P. of 1 kg of mixture = ₹ 9.24, Gain = 10%.\n$\therefore$ C.P. of 1 kg of mixture = $\frac{100}{110} \times 9.24 = 8.40$.\nBy the rule of alligation, we have :\nC.P. of 1 kg sugar of 1st kind ₹ 9\nCost of 1 kg sugar of 2nd kind ₹ 7\nMean price ₹ 8.40\n1.40\n0.60\n$\therefore$ Ratio of quantities of 1st and 2nd kind = $14 : 6 = 7 : 3$.\nLet $x$ kg of sugar of 1st kind be mixed with 27 kg of 2nd kind.\nThen, $7 : 3 = x : 27$ or $x = \frac{7 \times 27}{3} = 63$ kg.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "637"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In what ratio must water be mixed with milk to gain $16\\frac{2}{3}$% on selling the mixture at cost price ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 : 6",
+      "option_b": "6 : 1",
+      "option_c": "2 : 3",
+      "option_d": "4 : 3",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let C.P. of 1 litre milk be ₹ 1.\nS.P. of 1 litre of mixture = ₹ 1, Gain = $\frac{50}{3} \\%$.\n$\therefore$ C.P. of 1 litre of mixture = $\frac{100}{350} \times 1 = \frac{6}{7}$.\nBy the rule of alligation, we have :\nC.P. of 1 litre of water 0\nC.P. of 1 litre of milk ₹ 1\nMean price $\frac{6}{7}$\n$\frac{1}{7}$\n$\frac{6}{7}$\n$\therefore$ Ratio of water and milk = $\frac{1}{7} : \frac{6}{7} = 1 : 6$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "637"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A dishonest milkman professes to sell his milk at cost price but he mixes it with water and thereby gains 25%. The percentage of water in the mixture is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4%",
+      "option_b": "$16\\frac{1}{4}$%",
+      "option_c": "20%",
+      "option_d": "25%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let C.P. of 1 litre milk be ₹ 1.\nThen, S.P. of 1 litre of mixture = ₹ 1, Gain = 25%.\nC.P. of 1 litre mixture = $\frac{100}{125} \times 1 = \frac{4}{5}$.\nC.P. of 1 litre of milk ₹ 1\nC.P. of 1 litre of water 0\nMean price $\frac{4}{5}$\n$\frac{4}{5}$\n$\frac{1}{5}$\n$\therefore$ Ratio of milk to water = $\frac{4}{5} : \frac{1}{5} = 4 : 1$.\nHence, percentage of water in the mixture = $\frac{1}{5} \times 100 \\% = 20 \\%$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "638"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two vessels A and B contain spirit and water mixed in the ratio 5 : 2 and 7 : 6 respectively. Find the ratio in which these mixtures be mixed to obtain a new mixture in vessel C containing spirit and water in the ratio 8 : 5 ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 : 3",
+      "option_b": "3 : 4",
+      "option_c": "5 : 6",
+      "option_d": "7 : 9",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the C.P. of spirit be ₹ 1 per litre.\nSpirit in 1 litre mix. of A = $\frac{5}{7}$ litre; C.P. of 1 litre mix. in A = ₹ $\frac{5}{7}$.\nSpirit in 1 litre mix. of B = $\frac{7}{13}$ litre; C.P. of 1 litre mix. in B = ₹ $\frac{7}{13}$.\nSpirit in 1 litre mix. of C = $\frac{8}{13}$ litre; Mean price = ₹ $\frac{8}{13}$.\nBy the rule of alligation, we have:\nC.P. of 1 litre mixture in A $\frac{5}{7}$\nC.P. of 1 litre mixture in B $\frac{7}{13}$\nMean price $\frac{8}{13}$\n$\frac{1}{13}$\n$\frac{9}{91}$\n$\therefore$ Required ratio = $\frac{1}{13} : \frac{9}{91} = 7 : 9$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "638"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two vessels A and B contain milk and water mixed in the ratio 8 : 5 and 5 : 2 respectively. The ratio in which these two mixtures be mixed to get a new mixture containing $69\\frac{3}{13}$% milk, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 : 7",
+      "option_b": "3 : 5",
+      "option_c": "5 : 2",
+      "option_d": "5 : 7",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let cost of 1 litre milk be ₹ 1.\nMilk in 1 litre mix. in A = $\frac{8}{13}$ litre, C.P. of 1 litre mix. in A = ₹ $\frac{8}{13}$.\nMilk in 1 litre mix. in B = $\frac{5}{7}$ litre, C.P. of 1 litre mix. in B = ₹ $\frac{5}{7}$.\nMilk in 1 litre of final mix. = $\frac{900}{13} \times \frac{1}{100} \times 1 = \frac{9}{13}$ litre; Mean price = ₹ $\frac{9}{13}$.\nBy the rule of alligation, we have :\nC.P. of 1 litre mixture in A $\frac{8}{13}$\nC.P. of 1 litre mixture in B $\frac{5}{7}$\nMean price $\frac{9}{13}$\n$\frac{2}{91}$\n$\frac{1}{13}$\n$\therefore$ Required ratio = $\frac{2}{91} : \frac{1}{13} = 2 : 7$.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "638"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A milk vendor has 2 cans of milk. The first contains 25% water and the rest milk. The second contains 50% water. How much milk should he mix from each of the containers so as to get 12 litres of milk such that the ratio of water to milk is 3 : 5 ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 litres, 8 litres",
+      "option_b": "6 litres, 6 litres",
+      "option_c": "5 litres, 7 litres",
+      "option_d": "7 litres, 5 litres",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let cost of 1 litre milk be ₹ 1.\nMilk in 1 litre mix. in 1st can = $\frac{3}{4}$ litre, C.P. of 1 litre mix. in 1st can = ₹ $\frac{3}{4}$.\nMilk in 1 litre mix. in 2nd can = $\frac{1}{2}$ litre, C.P. of 1 litre mix. in 2nd can = ₹ $\frac{1}{2}$.\nMilk in 1 litre of final mix. = $\frac{5}{8}$ litre, Mean price = ₹ $\frac{5}{8}$.\nBy the rule of alligation, we have :\nC.P. of 1 litre mixture in 1st can $\frac{3}{4}$\nC.P. of 1 litre mixture in 2nd can $\frac{1}{2}$\nMean price $\frac{5}{8}$\n$\frac{1}{8}$\n$\frac{1}{8}$\n$\therefore$ Ratio of two mixtures = $\frac{1}{8} : \frac{1}{8} = 1 : 1$.\nSo, quantity of mixture taken from each can = $\frac{1}{2} \times 12 = 6$ litres.",
+      "page_numbers": [
+        "635"
+      ],
+      "answer_page_numbers": [
+        "638"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "One quality of wheat at ₹ 9.30 per kg is mixed with another quality at a certain rate in the ratio 8 : 7. If the mixture so formed be worth ₹ 10 per kg, what is the rate per kg of the second quality of wheat ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 10.30",
+      "option_b": "₹ 10.60",
+      "option_c": "₹ 10.80",
+      "option_d": "₹ 11",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the rate of the second quality be ₹ $x$ per kg.\nBy the rule of alligation, we have :\nC.P. of 1 kg wheat of 1st kind 930 p\nC.P. of 1 kg wheat of 2nd kind $(100x)$ p\nMean price 1000 p\n$(100x - 1000)$\n70 p\n$\therefore \frac{100x - 1000}{70} = \frac{8}{7} \rightarrow 700x - 7000 = 560 \rightarrow 700x = 7560 \rightarrow x = 10.80$.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "638"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Tea worth ₹ 126 per kg and ₹ 135 per kg are mixed with a third variety in the ratio 1 : 1 : 2. If the mixture is worth ₹ 153 per kg, the price of the third variety per kg will be :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 169.50",
+      "option_b": "₹ 170",
+      "option_c": "₹ 175.50",
+      "option_d": "₹ 180",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Since first and second varieties are mixed in equal proportions, so their average price = ₹ $\frac{126 + 135}{2} = 130.50$.\nSo, the mixture is formed by mixing two varieties, one at ₹ 130.50 per kg and the other at say, ₹ $x$ per kg in the ratio 2 : 2, i.e., 1 : 1. We have to find $x$.\nBy the rule of alligation, we have :\nCost of 1 kg tea of 1st kind ₹ 130.50\nCost of 1 kg tea of 2nd kind ₹ $x$\nMean price ₹ 153\n$(x - 153)$\n22.50\n$\therefore \frac{x - 153}{22.50} = 1 \rightarrow x - 153 = 22.50 \rightarrow x = 175.50$.\nHence, price of the third variety = ₹ 175.50 per kg.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A merchant has 1000 kg of sugar, part of which he sells at 8% profit and the rest at 18% profit. He gains 14% on the whole. The quantity sold at 18% profit is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "400 kg",
+      "option_b": "560 kg",
+      "option_c": "600 kg",
+      "option_d": "640 kg",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "By the rule of alligation, we have :\nProfit on 1st part 8%\nProfit on 2nd part 18%\nMean profit 14%\n4\n6\nRatio of 1st and 2nd parts = $4 : 6 = 2 : 3$.\n$\therefore$ Quantity of 2nd kind = $\frac{3}{5} \times 1000$ kg = 600 kg.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A jar full of whisky contains 40% alcohol. A part of this whisky is replaced by another containing 19% alcohol and now the percentage of alcohol was found to be 26%. The quantity of whisky replaced is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$\\frac{2}{3}$",
+      "option_c": "$\\frac{2}{5}$",
+      "option_d": "$\\frac{3}{5}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "By the rule of alligation, we have :\nStrength of first jar 40%\nStrength of 2nd jar 19%\nMean strength 26%\n7\n14\nSo, ratio of 1st and 2nd quantities = $7 : 14 = 1 : 2$.\n$\therefore$ Required quantity replaced = $\frac{2}{3}$.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "26.34 litres",
+      "option_b": "27.36 litres",
+      "option_c": "28 litres",
+      "option_d": "29.16 litres",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Amount of milk left after 3 operations\n$= 40 \times \begin{bmatrix} 1 - \frac{4}{40} \right]^3$ litres\n$= 40 \times \frac{9}{10} \times \frac{9}{10} \times \frac{9}{10} = 29.16$ litres.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine did the cask hold originally ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18 litres",
+      "option_b": "24 litres",
+      "option_c": "32 litres",
+      "option_d": "42 litres",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the quantity of the wine in the cask originally be $x$ litres.\nThen, the quantity of the wine left in cask after 4 operations\n$= x \begin{bmatrix} 1 - \frac{8}{x} \right]^4$ litres\n$\therefore x \begin{bmatrix} 1 - \frac{8}{x} \right]^4 = \frac{16}{81} x \rightarrow \begin{bmatrix} 1 - \frac{8}{x} \right]^4 = \begin{bmatrix} \frac{2}{3} \right]^4 \rightarrow 1 - \frac{8}{x} = \frac{2}{3}$\n$\rightarrow 3x - 24 = 2x \rightarrow x = 24$.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can contains a mixture of two liquids A and B in the ratio 7 : 5. When 9 litres of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10",
+      "option_b": "20",
+      "option_c": "21",
+      "option_d": "25",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Suppose the can initially contains $7x$ and $5x$ litres of mixtures A and B respectively.\nQuantity of A in mixture left = $7x - \frac{7}{12} \times 9 = 7x - \frac{21}{4}$ litres.\nQuantity of B in mixture left = $5x - \frac{5}{12} \times 9 = 5x - \frac{15}{4}$ litres.\n$\therefore \frac{7x - \frac{21}{4}}{5x - \frac{15}{4} + 9} = \frac{7}{9} \rightarrow \frac{28x - 21}{20x + 21} = \frac{7}{9}$\n$\rightarrow 252x - 189 = 140x + 147$\n$\rightarrow 112x = 336 \rightarrow x = 3$.\nSo, the can contained 21 litres of A.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A vessel is filled with liquid, 3 parts of which are water and 5 parts syrup. How much of the mixture must be drawn off and replaced with water so that the mixture may be half water and half syrup ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$\\frac{1}{4}$",
+      "option_c": "$\\frac{1}{5}$",
+      "option_d": "$\\frac{1}{7}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Suppose the vessel initially contains 8 litres of liquid.\nLet $x$ litres of this liquid be replaced with water.\nQuantity of water in new mixture = $3 - \frac{3x}{8} + x$ litres.\nQuantity of syrup in new mixture = $5 - \frac{5x}{8}$ litres.\n$\therefore 3 - \frac{3x}{8} + x = 5 - \frac{5x}{8}$\n$\rightarrow 5x + 24 = 40 - 5x$\n$\rightarrow 10x = 16 \rightarrow x = \frac{8}{5}$.\nSo, part of the mixture replaced = $\frac{8}{5} \times \frac{1}{8} = \frac{1}{5}$.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "A milkman mixed some water with milk to gain 25% by selling the mixture at the cost price. The ratio of water and milk is respectively.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 : 4",
+      "option_b": "4 : 5",
+      "option_c": "1 : 5",
+      "option_d": "1 : 4",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "C.P. of 1 litres of milk = ₹ 100\n∴ Mixture sold for ₹ 125\n= $\frac{125}{100}$ = $\frac{5}{4}$ liters\n∴ Quantity of mixture = $\frac{5}{4}$ liters\n∴ Quantity of milk = 1 liters\n∴ Quantity of water = $\frac{5}{4} - 1 = \frac{1}{4}$ liters\n∴ Required ratio = $\frac{1}{4} : 1$\n= 1 : 4",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "20 litres of a mixture contains milk and water in the ratio 3 : 1. Then the amount of milk to be added to the mixture so as to have milk and water in ratio 4 : 1 is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7 litres",
+      "option_b": "4 litres",
+      "option_c": "5 litres",
+      "option_d": "6 litres",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "In 20 litres of mixture.\nQuantity of Milk $\\Rightarrow \\frac{3}{4} \\times 20 = 15$ liters\nQuantity of Water $\\Rightarrow \\frac{1}{4} \\times 20 = 5$ liters\nLet the quantity of milk added be x liters.\nAccording to the question,\n$\frac{15+x}{5} = \frac{4}{1}$\n$\\Rightarrow 15 + x = 4 \\times 5$\n$\\Rightarrow x = 20 - 15 = 5$ liters",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "IBPS—Bank PO/MT (Pre.) Exam, 2015",
+      "passage_text": "",
+      "question_text": "A vessel contains a mixture of Grape, Pineapple and Banana juices in the respective ratio of 4 : 6 : 5. 15 litres of this mixture is taken out and 8 litres of grape juice and 2 litres of pineapple juice is added to the vessel. If the resultant quantity of grape juice is 10 litres less than the resultant quantity of pineapple juice. What was the initial quantity of mixture in the vessel? (in litres)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "120",
+      "option_b": "150",
+      "option_c": "105",
+      "option_d": "135",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let quantity of grape, pineapple and banana juice in the mixture be 4x, 6x and 5x respectively\nTotal initial quantity of juice in the vessel\n= $4x + 6x + 5x = 15x$ liters\nIn 15 liters of juice,\nGrape’s juice = 4 liters\nPineapple’s juice = 6 liters\nBanana’s juice = 5 liters\nResultant quantity of grape juice is 10 liters less than the resultant quantity of pineapple juice.\n$\\Rightarrow (6x - 6 + 2) - (4x - 4 + 8) = 10$\n$\\Rightarrow 6x - 4 - 4x - 4 = 10$\n$\\Rightarrow 2x - 8 = 10$\n$\\Rightarrow 2x = 10 + 8 = 18$\n$\\Rightarrow x = 9$\n∴ Initial quantity of mixture = $15x$\n= $15 \\times 9 = 135$ liters",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "639",
+        "640"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "IBPS—RRB Office Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The respective ratio of milk and water in the mixture is 4 : 3 respectively. If 6 Litres of water is added to this mixture, the respective ratio of milk and water becomes 8 : 7. What is the quantity of milk in the original mixture?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "36 litres",
+      "option_b": "84 litres",
+      "option_c": "48 litres",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the quantity of milk and water in initial mixture be 4x and 3x liters.\nQuantity of water = 3x liters\nOn adding 6 liters of water, we get\n$\frac{4x}{3x+6} = \frac{8}{7}$\n$\\Rightarrow 28x = 24x + 48$\n$\\Rightarrow 28x - 24x = 48$\n$\\Rightarrow 4x = 48$\n$\\Rightarrow x = \frac{48}{4} = 12$\n∴ Required quantity of milk\n= $4x = 4 \\times 12 = 48$ liters.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "640"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "IBPS—Bank Spl. Officer (IT) Exam, 2015",
+      "passage_text": "",
+      "question_text": "35 kg of type A sandal powder, which costs ₹ 614 per kg, was mixed with a certain amount of type B sandal powder, which costs ₹ 695 per kg. then the mixture was sold at the rate of ₹ 767 per kg and 18% profit was earned. What was the amount (in kg) of type B sandal powder in the mixture?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "24",
+      "option_b": "28",
+      "option_c": "32",
+      "option_d": "36",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Cost price of mixture\n= $\frac{\\text{Sale price}}{(100+\\text{gain}\\%)} \\times 100 = \\frac{767}{118} \\times 100 = ₹ 650$\nBy using allegation method:\nSandal Powder Type A: 614\nSandal Powder Type B: 695\nMean: 650\n$695 - 650 = 45$\n$650 - 614 = 36$\nRatio = 5 : 4\n∴ Quantity of A type of sandal is 35 kg\n∴ $5x = 35$ kg\n∴ $x = 7$ kg\nThus B type sandal = $7 \\times 4 = 28$ kg",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "640"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "SSC—Junior Associates (Pre.) Exam, 2016",
+      "passage_text": "",
+      "question_text": "How many liters of water should be added to a 30 litre mixture of milk and water containing milk and water in the ratio of 7 : 3 such that the resultant mixture has 40% water in it?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "2",
+      "option_c": "3",
+      "option_d": "8",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Total quantity of mixture = 30 litres\nQuantity Milk in the mixture = $\\frac{7}{7+3} \\times 30$ litre = 21 litres\nand quantity water in the mixture = $\\frac{3}{7+3} \\times 30$ litre = 9 litres\nLet water to be mixed ‘a’ litre\nThen $(30+a) \\times \\frac{40}{100} = 9+a$\nor $120 + 4a = 90 + 10a$\nor $120 - 90 = 10a - 4a$\n$30 = 6a$\n$\\Rightarrow a = 5$\nHence, 5 litres water mixed in the mixture.",
+      "page_numbers": [
+        "636"
+      ],
+      "answer_page_numbers": [
+        "640"
+      ]
+    }
+  ]
+}

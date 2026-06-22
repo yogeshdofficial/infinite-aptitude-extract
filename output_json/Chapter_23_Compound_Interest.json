@@ -1,0 +1,1933 @@
+{
+  "chapter_title": "Chapter_23_Compound_Interest",
+  "question_count": 88,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "R.R.B., 2009",
+      "passage_text": "",
+      "question_text": "After 3 years, how much compound interest will be obtained on ₹ 7800 at the interest rate of 5% per annum?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Amount = ₹ $\\left[7800\\times\\left(1+\\frac{5}{100}\\right)^3\\right] = ₹ \\left(7800\\times\\frac{21}{20}\\times\\frac{21}{20}\\times\\frac{21}{20}\\right)$\n= ₹ $\\left(\\frac{361179}{40}\\right) = ₹ 9029.475.$\n$\\therefore$ C.I. = ₹ $(9029.475 - 7800) = ₹ 1229.475.$",
+      "page_numbers": [
+        "663"
+      ],
+      "answer_page_numbers": [
+        "663"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "Find the compound interest on ₹ 8000 at 15% per annum for 2 years 4 months, compounded annually.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Time = 2 years 4 months = $2\\frac{4}{12}$ years = $2\\frac{1}{3}$ years.\n$\\therefore$ Amount = ₹ $\\left[8000\\times\\left(1+\\frac{15}{100}\\right)^2\\times\\left(1+\\frac{\\frac{1}{3}\\times15}{100}\\right)\\right] = ₹ \\left(8000\\times\\frac{23}{20}\\times\\frac{23}{20}\\times\\frac{21}{20}\\right) = ₹ 11109.$\n$\\therefore$ C.I. = ₹ $(11109 - 8000) = ₹ 3109.$",
+      "page_numbers": [
+        "664"
+      ],
+      "answer_page_numbers": [
+        "664"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "S.S.C., 2000",
+      "passage_text": "",
+      "question_text": "Find the compound interest on ₹ 10,000 in 2 years at 4% per annum, the interest being compounded half-yearly.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Principal = ₹ 10000; Rate = 2% per half-year; Time = 2 years = 4 half-years.\n$\\therefore$ Amount = ₹ $\\left[10000\\times\\left(1+\\frac{2}{100}\\right)^4\\right] = ₹ \\left(10000\\times\\frac{51}{50}\\times\\frac{51}{50}\\times\\frac{51}{50}\\times\\frac{51}{50}\\right) = ₹ 10824.32.$\n$\\therefore$ C.I. = ₹ $(10824.32 - 10000) = ₹ 824.32.$",
+      "page_numbers": [
+        "664"
+      ],
+      "answer_page_numbers": [
+        "664"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "Find the compound interest on ₹ 16000 at 20% per annum for 9 months, compounded quarterly.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Principal = ₹ 16000; Time = 9 months = 3 quarters;\nRate = 20% per annum = 5% per quarter.\n$\\therefore$ Amount = ₹ $\\left[16000\\times\\left(1+\\frac{5}{100}\\right)^3\\right] = ₹ \\left(16000\\times\\frac{21}{20}\\times\\frac{21}{20}\\times\\frac{21}{20}\\right) = ₹ 18522.$\n$\\therefore$ C.I. = ₹ $(18522 - 16000) = ₹ 2522.$",
+      "page_numbers": [
+        "664"
+      ],
+      "answer_page_numbers": [
+        "664"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The simple interest accrued on an amount of ₹ 40000 at the end of four years is ₹ 24000. What would be the compound interest accrued on the same amount at the same rate in the same period?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, Principal = ₹ 40000, Time = 4 years, S.I. = ₹ 24000.\nSo, Rate = $\\left(\\frac{100\\times24000}{40000\\times4}\\right)$% = 15%.\nAmount = ₹ $\\left[40000\\times\\left(1+\\frac{15}{100}\\right)^4\\right] = ₹ \\left(40000\\times\\frac{23}{20}\\times\\frac{23}{20}\\times\\frac{23}{20}\\times\\frac{23}{20}\\right) = ₹ \\left(\\frac{279841}{4}\\right) = ₹ 69960.25.$\n$\\therefore$ C.I. = ₹ $(69960.25 - 40000) = ₹ 29960.25.$",
+      "page_numbers": [
+        "664"
+      ],
+      "answer_page_numbers": [
+        "664"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "Rohit invested a certain amount at the rate of 6 p.c.p.a and obtained a simple interest of ₹ 8730 at the end of 3 years. What amount of compound interest would he obtain on the same amount at the same rate of interest at the end of 2 years?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, Rate = 6% p.a; Time = 3 years, S.I. = ₹ 8730.\nSo, Principal = ₹ $\\left(\\frac{100\\times8730}{3\\times6}\\right) = ₹ 48500.$\nAmount = ₹ $\\left[48500\\times\\left(1+\\frac{6}{100}\\right)^2\\right] = ₹ \\left(48500\\times\\frac{53}{50}\\times\\frac{53}{50}\\right) = ₹ 54494.60.$\n$\\therefore$ C.I. = ₹ $(54494.60 - 48500) = ₹ 5994.60.$",
+      "page_numbers": [
+        "664"
+      ],
+      "answer_page_numbers": [
+        "664"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "In how many years ₹ 100000 will become ₹ 1,33,100 at compound interest rate of 10% per annum?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Principal = ₹ 100000, Amount = ₹ 133100, Rate = 10% p.a.\nLet the time be n years. Then,\n$100000\\left(1+\\frac{10}{100}\\right)^n = 133100$\n$\\Rightarrow \\left(\\frac{11}{10}\\right)^n = \\frac{1331}{1000} = \\left(\\frac{11}{10}\\right)^3 \\Rightarrow n = 3.$\nHence, required time = 3 years.",
+      "page_numbers": [
+        "664"
+      ],
+      "answer_page_numbers": [
+        "664"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "At what rate percent per annum of compound interest will ₹ 1600 amount to ₹ 1852.20 in 3 years?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the rate be R% per annum. Then,\n$1600\\left(1+\\frac{R}{100}\\right)^3 = 1852.20$\n$\\Rightarrow \\left(1+\\frac{R}{100}\\right)^3 = \\frac{1852.20}{1600} = \\frac{18522}{16000}$\n$\\Rightarrow \\left(1+\\frac{R}{100}\\right)^3 = \\frac{9261}{8000} = \\left(\\frac{21}{20}\\right)^3$\n$\\Rightarrow 1+\\frac{R}{100} = \\frac{21}{20} \\Rightarrow \\frac{R}{100} = \\frac{1}{20} \\Rightarrow R = 5.$\nHence, rate = 5% p.a.",
+      "page_numbers": [
+        "665"
+      ],
+      "answer_page_numbers": [
+        "665"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "Section Officers’, 2006",
+      "passage_text": "",
+      "question_text": "Find the sum of money which will amount to ₹ 26010 in 6 months at the rate of 8% per annum when the interest is compounded quarterly.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Amount = ₹ 26010; Time = 6 months = 2 quarters;\nRate = 8% p.a. = 2% per quarter.\nLet the sum be ₹ x. Then,\n$x\\times\\left(1+\\frac{2}{100}\\right)^2 = 26010 \\Rightarrow x\\times\\frac{51}{50}\\times\\frac{51}{50} = 26010$\n$\\Rightarrow x = \\left(26010\\times\\frac{50}{51}\\times\\frac{50}{51}\\right) = 25000.$\nHence, required sum = ₹ 25000.",
+      "page_numbers": [
+        "665"
+      ],
+      "answer_page_numbers": [
+        "665"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the compound interest on a certain sum at $16\\frac{2}{3}$% for 3 years is ₹ 1270, find the simple interest on the same sum at the same rate and for the same period.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the sum be ₹ x. Then,\nC.I. = $\\left[x\\times\\left(1+\\frac{50}{3\\times100}\\right)^3 - x\\right] = \\left(\\frac{343x}{216} - x\\right) = \\frac{127x}{216}.$\n$\\therefore \\frac{127x}{216} = 1270$ or $x = \\left(\\frac{1270\\times216}{127}\\right) = 2160.$\nThus, the sum is ₹ 2160.\n$\\therefore$ S.I. = ₹ $\\left(2160\\times\\frac{50}{3}\\times3\\times\\frac{1}{100}\\right) = ₹ 1080.$",
+      "page_numbers": [
+        "665"
+      ],
+      "answer_page_numbers": [
+        "665"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The compound interest accrued on an amount of ₹ 22000 at the end of two years is ₹ 5596.80. What would be the simple interest accrued on the same amount at the same rate in the same period?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the rate be R% p.a. Then,\n$22000\\left(1+\\frac{R}{100}\\right)^2 = (22000 + 5596.80) = 27596.80$\n$\\Rightarrow \\left(1+\\frac{R}{100}\\right)^2 = \\frac{275968}{220000} = \\left(\\frac{28}{25}\\right)^2$\n$\\Rightarrow 1+\\frac{R}{100} = \\frac{28}{25} \\Rightarrow \\frac{R}{100} = \\frac{3}{25} \\Rightarrow R = 12.$\n$\\therefore$ S.I. = ₹ $\\left(\\frac{22000\\times12\\times2}{100}\\right) = ₹ 5280.$",
+      "page_numbers": [
+        "665"
+      ],
+      "answer_page_numbers": [
+        "665"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "If the difference between the compound and simple interests on a certain sum of money for 3 years at 5% per annum is ₹ 15.25, find the sum.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the sum be ₹ x. Then,\nC.I. = $x\\left(1+\\frac{5}{100}\\right)^3 - x = \\frac{9261}{8000}x - x = \\frac{1261}{8000}x.$\nS.I. = $\\left(\\frac{x\\times5\\times3}{100}\\right) = \\frac{3x}{20}.$\n$\\therefore$ (C.I.) - (S.I.) = $\\left(\\frac{1261}{8000}x - \\frac{3x}{20}\\right) = \\frac{61x}{8000}.$\nSo, $\\frac{61x}{8000} = 15.25$\n$\\Leftrightarrow x = \\left(\\frac{15.25\\times8000}{61}\\right) = 2000.$\nHence, required sum = ₹ 2000.",
+      "page_numbers": [
+        "666"
+      ],
+      "answer_page_numbers": [
+        "666"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between the compound interest and the simple interest accrued on an amount of ₹ 18,000 in 2 years was ₹ 405. What was the rate of interest p.c.p.a.?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the rate be R% p.a. Then,\n$\\left[18000\\left(1+\\frac{R}{100}\\right)^2 - 18000\\right] - \\left(\\frac{18000\\times R\\times2}{100}\\right) = 405$\n$\\Leftrightarrow 18000\\left[\\frac{(100+R)^2}{10000} - 1 - \\frac{2R}{100}\\right] = 405$\n$\\Leftrightarrow 18000\\left[\\frac{(100+R)^2 - 10000 - 200R}{10000}\\right] = 405$\n$\\Leftrightarrow \\frac{9}{5}R^2 = 405 \\Leftrightarrow R^2 = \\left(\\frac{405\\times5}{9}\\right) = 225 \\Leftrightarrow R = 15.$\n$\\therefore$ Rate = 15%.",
+      "page_numbers": [
+        "666"
+      ],
+      "answer_page_numbers": [
+        "666"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "The difference between compound and simple interests on a certain sum of money at the interest rate of 10% per annum for $1\\frac{1}{2}$ years is ₹ 183, when the interest is compounded semi-annually. Find the sum of money.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the sum be ₹ x. Then,\nC.I. = ₹ $\\left[x\\left(1+\\frac{5}{100}\\right)^3 - x\\right] = ₹ \\left[x\\left(\\frac{21}{20}\\times\\frac{21}{20}\\times\\frac{21}{20}\\right) - x\\right]$\n= ₹ $\\left(\\frac{9261x - 8000x}{8000}\\right) = ₹ \\frac{1261x}{8000}.$\nS.I. = ₹ $\\left(\\frac{x\\times10\\times3}{100\\times2}\\right) = ₹ \\frac{3x}{20}.$\n$\\therefore \\frac{1261x}{8000} - \\frac{3x}{20} = 183 \\Rightarrow \\frac{61x}{8000} = 183$\n$\\Rightarrow x = \\left(\\frac{183\\times8000}{61}\\right) = 24000.$\nHence, required sum = ₹ 24000.",
+      "page_numbers": [
+        "666"
+      ],
+      "answer_page_numbers": [
+        "666"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Divide ₹ 1301 between A and B, so that the amount of A after 7 years is equal to the amount of B after 9 years, the interest being compounded at 4% per annum.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "",
+      "page_numbers": [
+        "666"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "16",
+      "exam_reference": "Campus Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "A certain sum amounts to ₹ 7350 in 2 years and to ₹ 8575 in 3 years. Find the sum and rate percent.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "S.I. on ₹ 7350 for 1 year = ₹ (8575 - 7350) = ₹ 1225.\n$\\therefore$ Rate = $\\left( \\frac{100 \\times 1225}{7350 \\times 1} \\right) % = 16\\frac{2}{3} %$.\nLet the sum be ₹ x. Then,\n$x \\left( 1 + \\frac{50}{3 \\times 100} \\right)^2 = 7350 \\Leftrightarrow x \\times \\frac{7}{6} \\times \\frac{7}{6} = 7350 \\Leftrightarrow x = \\left( 7350 \\times \\frac{36}{49} \\right) = 5400$.\n$\\therefore$ Sum = ₹ 5400.",
+      "page_numbers": [
+        "667"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "17",
+      "exam_reference": "L.I.C.A.A.O., 2007",
+      "passage_text": "",
+      "question_text": "A sum of money becomes ₹ 13380 after 3 years and ₹ 20070 after 6 years on compound interest. Find the sum.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the sum be ₹ P. Then,\n$P \\left( 1 + \\frac{R}{100} \\right)^3 = 13380$ ...(i)\nand $P \\left( 1 + \\frac{R}{100} \\right)^6 = 20070$ ...(ii)\nOn dividing, we get: $\\left( 1 + \\frac{R}{100} \\right)^3 = \\frac{20070}{13380} = \\frac{3}{2}$.\nSubstituting this value in (i), we get;\n$P \\times \\frac{3}{2} = 13380$ or $P = \\left( 13380 \\times \\frac{2}{3} \\right) = 8920$.\nHence, required sum = ₹ 8920.",
+      "page_numbers": [
+        "667"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A sum of money doubles itself at compound interest in 15 years. In how many years will it become eight times?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$P \\left( 1 + \\frac{R}{100} \\right)^{15} = 2P \\Rightarrow \\left( 1 + \\frac{R}{100} \\right)^{15} = 2$ ...(i)\nLet $P \\left( 1 + \\frac{R}{100} \\right)^n = 8P \\Rightarrow \\left( 1 + \\frac{R}{100} \\right)^n = 8 = 2^3 = \\left[ \\left( 1 + \\frac{R}{100} \\right)^{15} \\right]^3$ [using (i)]\n$\\Rightarrow \\left( 1 + \\frac{R}{100} \\right)^n = \\left( 1 + \\frac{R}{100} \\right)^{45} \\Rightarrow n = 45$.\nThus, the required time = 45 years.",
+      "page_numbers": [
+        "667"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "19",
+      "exam_reference": "G.B.O., 2007",
+      "passage_text": "",
+      "question_text": "What annual payment will discharge a debt of ₹ 7620 due in 3 years at $16\\frac{2}{3}$% per annum compound interest?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let each instalment be ₹ x. Then,\n(P.W. of ₹ x due 1 year hence) + (P.W. of ₹ x due 2 years hence) + (P.W. of ₹ x due 3 years hence) = 7620.\n$\\therefore \\frac{x}{\\left( 1 + \\frac{50}{3 \\times 100} \\right)} + \\frac{x}{\\left( 1 + \\frac{50}{3 \\times 100} \\right)^2} + \\frac{x}{\\left( 1 + \\frac{50}{3 \\times 100} \\right)^3} = 7620$\n$\\Leftrightarrow \\frac{6x}{7} + \\frac{36x}{49} + \\frac{216x}{343} = 7620 \\Leftrightarrow \\frac{294x + 252x + 216x}{343} = 7620$\n$\\Leftrightarrow x = \\left( \\frac{7620 \\times 343}{762} \\right) = 3430$.\n$\\therefore$ Amount of each instalment = ₹ 3430.",
+      "page_numbers": [
+        "667",
+        "668"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "20",
+      "exam_reference": "S.S.C., 2008",
+      "passage_text": "",
+      "question_text": "A T.V. set is available for ₹ 19650 cash payment or for ₹ 3100 cash down payment and three equal annual instalments. If the shopkeeper charges interest at the rate of 10% per annum compounded annually, calculate the amount of each instalment.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Total cost of the T.V. set = ₹ 19650. Down payment = ₹ 3100.\nBalance = ₹ (19650 - 3100) = ₹ 16550.\nLet the value of each instalment be ₹ x. Then,\n(P. W. of ₹ x due 1 year hence) + (P. W. of ₹ x due 2 years hence) + (P. W. of ₹ x due 3 years hence) = ₹ 16550.\n$\\frac{x}{\\left( 1 + \\frac{10}{100} \\right)} + \\frac{x}{\\left( 1 + \\frac{10}{100} \\right)^2} + \\frac{x}{\\left( 1 + \\frac{10}{100} \\right)^3} = 16550$\n$\\Rightarrow \\frac{10x}{11} + \\frac{100x}{121} + \\frac{1000x}{1331} = 16550$\n$\\Rightarrow 1210x + 1100x + 1000x = 16550 \\times 1331 \\Rightarrow 3310x = 16550 \\times 1331$\n$\\Rightarrow x = \\left( \\frac{16550 \\times 1331}{3310} \\right) = 6655$.\nHence, value of each instalment = ₹ 6655.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "What would be the compound interest accrued on an amount of ₹ 8000 at the rate of 15 p.c.p.a. in 3 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4051",
+      "option_b": "₹ 4167",
+      "option_c": "₹ 4283",
+      "option_d": "₹ 4325",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Amount = ₹ $8000\\times\\left(1+\\frac{15}{100}\\right)^3$\n= ₹ $8000\\times\\frac{23}{20}\\times\\frac{23}{20}\\times\\frac{23}{20}$ = ₹ 12167.\n$\\therefore$ C.I. = ₹ $(12167 - 8000)$ = ₹ 4167.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "What would be the compound interest accrued on an amount of ₹ 8400 @ 12.5 p.c.p.a. at the end of 3 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2584.16",
+      "option_b": "₹ 3560.16",
+      "option_c": "₹ 3820.14",
+      "option_d": "₹ 4205.62",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Amount = ₹ $8400\\times\\left(1+\\frac{25}{2\\times100}\\right)^3$\n= ₹ $8400\\times\\frac{9}{8}\\times\\frac{9}{8}\\times\\frac{9}{8}$\n= ₹ $\\frac{382725}{32}$ = ₹ 11960.156 $\\approx$ ₹ 11960.16.\n$\\therefore$ C.I. = ₹ $(11960.16 - 8400)$ = ₹ 3560.16.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "L.I.C.A.D.O., 2008",
+      "passage_text": "",
+      "question_text": "The compound interest on ₹ 2800 for 18 months at 10% p.a. is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 420",
+      "option_b": "₹ 434",
+      "option_c": "₹ 436.75",
+      "option_d": "₹ 441.35",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Amount = ₹ $2800\\times\\left(1+\\frac{10}{100}\\right)\\times\\left(1+\\frac{5}{100}\\right)$\n= ₹ $2800\\times\\frac{11}{10}\\times\\frac{21}{20}$ = ₹ 3234.\n$\\therefore$ C.I. = ₹ $(3234 - 2800)$ = ₹ 434.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The compound interest on ₹ 20,480 at $6\\frac{1}{4}$% per annum for 2 years 73 days, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2929",
+      "option_b": "₹ 3000",
+      "option_c": "₹ 3131",
+      "option_d": "₹ 3636",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Time = $2\\frac{73}{365}$ years = $2\\frac{1}{5}$ years.\n$\\therefore$ Amount = ₹ $20480\\times\\left(1+\\frac{25}{4\\times100}\\right)^2\\times\\left(1+\\frac{1}{5}\\times\\frac{25}{100}\\right)$\n= ₹ $20480\\times\\frac{17}{16}\\times\\frac{17}{16}\\times\\frac{81}{80}$ = ₹ 23409.\n$\\therefore$ C.I. = ₹ $(23409 - 20480)$ = ₹ 2929.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man saves ₹ 200 at the end of each year and lends the money at 5% compound interest. How much will it become at the end of 3 years ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 565.25",
+      "option_b": "₹ 635",
+      "option_c": "₹ 662.02",
+      "option_d": "₹ 666.50",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Amount = ₹ $\\left[200\\left(1+\\frac{5}{100}\\right)^3+200\\left(1+\\frac{5}{100}\\right)^2+200\\left(1+\\frac{5}{100}\\right)\\right]$\n= ₹ $\\left[200\\times\\frac{21}{20}\\times\\frac{21}{20}\\times\\frac{21}{20}+200\\times\\frac{21}{20}\\times\\frac{21}{20}+200\\times\\frac{21}{20}\\right]$\n= ₹ $\\left[200\\times\\frac{21}{20}\\times\\frac{21}{20}\\times\\left(\\frac{21}{20}+1\\right)\\right]$ = ₹ 662.02.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "If the rate of interest be 4% per annum for first year, 5% per annum for second year and 6% per annum for third year, then the compound interest of ₹ 10000 for 3 years will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1575.20",
+      "option_b": "₹ 1600",
+      "option_c": "₹ 1625.80",
+      "option_d": "₹ 2000",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Amount = ₹ $10000\\times\\left(1+\\frac{4}{100}\\right)\\times\\left(1+\\frac{5}{100}\\right)\\times\\left(1+\\frac{6}{100}\\right)$\n= ₹ $10000\\times\\frac{26}{25}\\times\\frac{21}{20}\\times\\frac{53}{50}$ = ₹ $\\frac{57876}{5}$ = ₹ 11575.20\n$\\therefore$ C.I. = ₹ $(11575.20 - 10000)$ = ₹ 1575.20.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "What will be the compound interest accrued on an amount of ₹ 10000 @ 20 p.c.p.a. in 2 years if the interest is compounded half-yearly?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4400",
+      "option_b": "₹ 4600",
+      "option_c": "₹ 4641",
+      "option_d": "₹ 4680",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "P = ₹ 10000, R = 20% p.a. = 10% per half-year;\nT = 2 years = 4 half-years.\nAmount = ₹ $10000\\times\\left(1+\\frac{10}{100}\\right)^4$\n= ₹ $10000\\times\\frac{11}{10}\\times\\frac{11}{10}\\times\\frac{11}{10}\\times\\frac{11}{10}$ = ₹ 14641.\n$\\therefore$ C.I. = ₹ $(14641 - 10000)$ = ₹ 4641.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits ₹ 1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 120",
+      "option_b": "₹ 121",
+      "option_c": "₹ 122",
+      "option_d": "₹ 123",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Amount = ₹ $\\left[1600\\times\\left(1+\\frac{5}{2\\times100}\\right)^2+1600\\times\\left(1+\\frac{5}{2\\times100}\\right)\\right]$\n= ₹ $\\left[1600\\times\\frac{41}{40}\\times\\frac{41}{40}+1600\\times\\frac{41}{40}\\right]$\n= ₹ $\\left[1600\\times\\frac{41}{40}\\times\\left(\\frac{41}{40}+1\\right)\\right]$ = ₹ 3321.\n$\\therefore$ C.I. = ₹ $(3321 - 3200)$ = ₹ 121.",
+      "page_numbers": [
+        "668"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What is the difference between the compound interests on ₹ 5000 for $1\\frac{1}{2}$ years at 4% per annum compounded yearly and half-yearly?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2.04",
+      "option_b": "₹ 3.06",
+      "option_c": "₹ 4.80",
+      "option_d": "₹ 8.30",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "C.I. when interest is compounded yearly\n= ₹ $\\left[5000\\times\\left(1+\\frac{4}{100}\\right)\\times\\left(1+\\frac{4}{100}\\times\\frac{1}{2}\\right)\\right]$\n= ₹ $\\left[5000\\times\\frac{26}{25}\\times\\frac{51}{50}\\right]$ = ₹ 5304.\nC.I. when interest is compounded half-yearly\n= ₹ $\\left[5000\\times\\left(1+\\frac{2}{100}\\right)^3\\right]$ = ₹ 5306.04.\n$\\therefore$ Difference = ₹ $(5306.04 - 5304)$ = ₹ 2.04.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "673"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "Mr Duggal invested ₹ 20000 with rate of interest @ 20 p.c.p.a. The interest was compounded half-yearly for first one year and in the next year it was compounded yearly. What will be the total interest earned at the end of 2 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8040",
+      "option_b": "₹ 8800",
+      "option_c": "₹ 9040",
+      "option_d": "₹ 9800",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Amount = ₹ $\\left[20000\\times\\left(1+\\frac{10}{100}\\right)\\times\\left(1+\\frac{20}{100}\\right)\\right]$\n= ₹ $\\left[20000\\times\\frac{11}{10}\\times\\frac{11}{10}\\times\\frac{6}{5}\\right]$ = ₹ 29040.\n$\\therefore$ C.I. = ₹ $(29040 - 20000)$ = ₹ 9040.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the compound interest on ₹ 15625 for 9 months at 16% per annum compounded quarterly.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1851",
+      "option_b": "₹ 1941",
+      "option_c": "₹ 1951",
+      "option_d": "₹ 1961",
+      "option_e": "",
+      "correct_option": "e",
+      "solution": "P = ₹ 15625, n = 9 months = 3 quarters, R = 16% p.a. = 4% per quarter.\nAmount = ₹ $15625\\times\\left(1+\\frac{4}{100}\\right)^3$\n= ₹ $15625\\times\\frac{26}{25}\\times\\frac{26}{25}\\times\\frac{26}{25}$ = ₹ 17576.\n$\\therefore$ C.I. = ₹ $(17576 - 15625)$ = ₹ 1951.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "A man gets a simple interest of ₹ 1000 on a certain principal at the rate of 5 p.c.p.a. in 4 years. What compound interest will the man get on twice the principal in 2 years at the same rate?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1000",
+      "option_b": "₹ 1005",
+      "option_c": "₹ 10125",
+      "option_d": "₹ 11025",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Principal = ₹ $\\left(\\frac{100\\times1000}{5\\times4}\\right)$ = ₹ 5000.\nNow, P = ₹ 10000, T = 2 years, R = 5%.\nAmount = ₹ $10000\\times\\left(1+\\frac{5}{100}\\right)^2$\n= ₹ $10000\\times\\frac{21}{20}\\times\\frac{21}{20}$ = ₹ 11025.\n$\\therefore$ C.I. = ₹ $(11025 - 10000)$ = ₹ 1025.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The simple interest accrued on an amount of ₹ 20000 at the end of 3 years is ₹ 7200. What would be the compound interest accrued on the same amount at the same rate in the same period?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8098.56",
+      "option_b": "₹ 8112.86",
+      "option_c": "₹ 8246.16",
+      "option_d": "₹ 8342.36",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Rate = $\\left(\\frac{100\\times7200}{20000\\times3}\\right)$% = 12%.\nNow, P = ₹ 20000, R = 12%, T = 3 years.\nAmount = ₹ $20000\\times\\left(1+\\frac{12}{100}\\right)^3$\n= ₹ $20000\\times\\frac{28}{25}\\times\\frac{28}{25}\\times\\frac{28}{25}$ = ₹ 28098.56.\n$\\therefore$ C.I. = ₹ $(28098.56 - 20000)$ = ₹ 8098.56.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "Compus Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "The difference between simple interest and compound interest on ₹ P at R% p.a. in 2 years is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ $\\frac{PR}{100}$",
+      "option_b": "₹ $\\frac{2PR}{100}$",
+      "option_c": "₹ $\\frac{PR^2}{100}$",
+      "option_d": "₹ $\\frac{PR^2}{(100)^2}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "S.I. = ₹ $\\left(\\frac{P\\times R\\times 2}{100}\\right)$ = ₹ $\\frac{2PR}{100}$.\nC.I. = ₹ $\\left[P\\left(1+\\frac{R}{100}\\right)^2-P\\right]$ = ₹ $\\left[\\frac{PR^2}{(100)^2}+\\frac{2PR}{100}\\right]$.\n$\\therefore$ Difference = ₹ $\\left[\\frac{PR^2}{(100)^2}+\\frac{2PR}{100}-\\frac{2PR}{100}\\right]$ = ₹ $\\frac{PR^2}{(100)^2}$.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "What will be the difference between the simple interest and compound interest accrued on an amount of ₹ 19200 at the end of 3 years @ 12 p.c.p.a.?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 722.6826",
+      "option_b": "₹ 798.1824",
+      "option_c": "₹ 802.5144",
+      "option_d": "₹ 862.6176",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "S.I. = ₹ $\\left(\\frac{19200\\times12\\times3}{100}\\right)$ = ₹ 6912.\nC.I. = ₹ $\\left[19200\\times\\left(1+\\frac{12}{100}\\right)^3-19200\\right]$\n= ₹ $\\left[19200\\times\\frac{28}{25}\\times\\frac{28}{25}\\times\\frac{28}{25}-19200\\right]$\n= ₹ $(26974.6176 - 19200)$ = ₹ 7774.6176.\n$\\therefore$ Difference = ₹ $(7774.6176 - 6912)$ = ₹ 862.6176.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "What will be the difference between S.I. and C.I. on a sum of ₹ 15000 for 2 years at the same rate of interest of $12\\frac{1}{2}$% per annum?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 230.550",
+      "option_b": "₹ 234.375",
+      "option_c": "₹ 250.129",
+      "option_d": "₹ 324.357",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "S.I. = ₹ $\\left(\\frac{15000\\times25\\times1}{2\\times100}\\right)$ = ₹ 3750.\nC.I. = ₹ $\\left[15000\\times\\left(1+\\frac{25}{2\\times100}\\right)^2-15000\\right]$\n= ₹ $\\left[15000\\times\\frac{9}{8}\\times\\frac{9}{8}-15000\\right]$\n= ₹ $(18984.375 - 15000)$ = ₹ 3984.375.\n$\\therefore$ Difference = ₹ $(3984.375 - 3750)$ = ₹ 234.375.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between simple interest and compound interest on ₹ 1200 for one year at 10% per annum reckoned half-yearly is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2.50",
+      "option_b": "₹ 3",
+      "option_c": "₹ 3.75",
+      "option_d": "₹ 4",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "S.I. = ₹ $\\left(\\frac{1200\\times10\\times1}{100}\\right)$ = ₹ 120.\nC.I. = ₹ $\\left[1200\\times\\left(1+\\frac{5}{100}\\right)^2-1200\\right]$ = ₹ 123.\nDifference = ₹ $(123 - 120)$ = ₹ 3.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "N.M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A man borrows ₹ 4000 at 15% compound rate of interest. At the end of each year he pays back ₹ 1500. How much amount should be pay at the end of the third year to clear all his dues?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 874.75",
+      "option_b": "₹ 824.50",
+      "option_c": "₹ 924.25",
+      "option_d": "₹ 974.25",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Amount after 1st year = ₹ $\\left[4000\\times\\left(1+\\frac{15}{100}\\right)-1500\\right]$\n= ₹ $(4600 - 1500)$ = ₹ 3100.\nAmount after 2nd year = ₹ $\\left[3100\\times\\left(1+\\frac{15}{100}\\right)-1500\\right]$\n= ₹ $(3565 - 1500)$ = ₹ 2065.\nAmount after 3rd year = ₹ $\\left[2065\\times\\left(1+\\frac{15}{100}\\right)-1500\\right]$\n= ₹ $(2374.75 - 1500)$ = ₹ 874.75.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "M.A.T., 2004",
+      "passage_text": "",
+      "question_text": "A man invests ₹ 5000 for 3 years at 5% p.a. compound interest reckoned yearly. Income tax at the rate of 20% on the interest earned is deducted at the end of each year. Find the amount at the end of the third year.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 5624.32",
+      "option_b": "₹ 5627.20",
+      "option_c": "₹ 5630.50",
+      "option_d": "₹ 5788.125",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "C.I. earned during 1st year = ₹ $\\left[5000\\times\\left(1+\\frac{5}{100}\\right)-5000\\right]$\n= ₹ $(5250 - 5000)$ = ₹ 250.\nAmount after 1st year = ₹ $(5250 - 20\\% \\text{ of } 250) = ₹ (5250 - 50) = ₹ 5200$.\nC.I. earned during 2nd year = ₹ $\\left[5200\\times\\left(1+\\frac{5}{100}\\right)-5200\\right]$\n= ₹ $(5460 - 5200)$ = ₹ 260.\nAmount after 2nd year = ₹ $(5460 - 20\\% \\text{ of } 260) = ₹ (5460 - 52) = ₹ 5408$.\nC.I. earned during 3rd year = ₹ $\\left[5408\\times\\left(1+\\frac{5}{100}\\right)-5408\\right]$\n= ₹ $(5678.40 - 5408)$ = ₹ 270.40.\nAmount after 3rd year = ₹ $(5678.40 - 20\\% \\text{ of } 270.40) = ₹ (5678.40 - 54.08) = ₹ 5624.32$.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "L.I.C.A.A.O., 2003",
+      "passage_text": "",
+      "question_text": "The compound interest on ₹ 30,000 at 7% per annum is ₹ 4347. The period (in years) is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 years",
+      "option_b": "$2\\frac{1}{2}$ years",
+      "option_c": "3 years",
+      "option_d": "4 years",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Amount = ₹ $(30000 + 4347)$ = ₹ 34347.\nLet the time be $n$ years.\nThen, $30000\\times\\left(1+\\frac{7}{100}\\right)^n = 34347$\n$\\Leftrightarrow \\left(\\frac{107}{100}\\right)^n = \\frac{34347}{30000} = \\frac{11449}{10000} = \\left(\\frac{107}{100}\\right)^2$.\n$\\therefore n = 2$ years.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "674",
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "Compound interest accrued on an amount of ₹ 26500 in two years is ₹ 9775.85. What is the rate of interest p.c.p.a?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12%",
+      "option_b": "15%",
+      "option_c": "17%",
+      "option_d": "22%",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Let the rate be $R$\\% p.a.\nThen, $26500\times\text{\\left(1+\\frac{R}{100}\\right)}^2 = 26500 + 9775.85 = 36275.85$\n$\\Rightarrow \text{\\left(1+\\frac{R}{100}\\right)}^2 = \frac{3627585}{2650000} = \frac{13689}{10000} = \text{\\left(\frac{117}{100}\\right)}^2$\n$\\Rightarrow 1 + \frac{R}{100} = \frac{117}{100} = 1 + \frac{17}{100}$\n$\\Rightarrow R = 17\\%$.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "E.S.I.C., 2006",
+      "passage_text": "",
+      "question_text": "₹ 2000 amounts to ₹ 2226.05 in 2 years at compound interest. What will be the rate of interest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5%",
+      "option_b": "5.25%",
+      "option_c": "5.5%",
+      "option_d": "6%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the rate be $R$\\% p.a.\nThen, $2000\times\text{\\left(1+\\frac{R}{100}\\right)}^2 = 2226.05$\n$\\Rightarrow \text{\\left(1+\\frac{R}{100}\\right)}^2 = \frac{222605}{200000} = \frac{44521}{40000} = \text{\\left(\frac{211}{200}\\right)}^2$\n$\\Rightarrow 1 + \frac{R}{100} = \frac{211}{200} = 1 + \frac{11}{200} = 1 + \frac{5.5}{100}$\n$\\Rightarrow R = 5.5\\%$.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "A man invests ₹ 4000 for 3 years at compound interest. After one year the money amounts to ₹ 4320. What will be the amount (to the nearest rupee) due at the end of 3 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4939",
+      "option_b": "₹ 5039",
+      "option_c": "₹ 5789",
+      "option_d": "₹ 6129",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the rate be $R$\\% p.a.\nThen, $4000\times\text{\\left(1+\\frac{R}{100}\\right)} = 4320$\n$\\Rightarrow 1 + \frac{R}{100} = \frac{4320}{4000} = \frac{108}{100} = 1 + \frac{8}{100}$\n$\\Rightarrow R = 8\\%$.\n$\\therefore$ Amount after 3 years = ₹ $\text{\\left[4000\times\text{\\left(1+\\frac{8}{100}\\right)}^3\\right]}$\n= ₹ $\text{\\left(4000\times\frac{27}{25}\times\frac{27}{25}\times\frac{27}{25}\\right)}$ = ₹ $\frac{629856}{125}$\n= ₹ $5038.848 \\approx 5039$.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "Bank P.O. 2009",
+      "passage_text": "",
+      "question_text": "An amount of ₹ 10000 becomes ₹ 14641 in 2 years if the interest is compounded half-yearly. What is the rate of compound interest p.c.p.a.?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10%",
+      "option_b": "12%",
+      "option_c": "16%",
+      "option_d": "20%",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let the rate be $R$\\% p.a. Then, $10000\times\text{\\left(1+\\frac{R}{2\\times100}\\right)}^4 = 14641$\n$\\Rightarrow \text{\\left(1+\\frac{R}{200}\\right)}^4 = \frac{14641}{10000} = \text{\\left(\frac{11}{10}\\right)}^4$\n$\\Rightarrow 1 + \frac{R}{200} = \frac{11}{10} = 1 + \frac{1}{10} = 1 + \frac{20}{200}$\n$\\Rightarrow R = 20\\%$.",
+      "page_numbers": [
+        "669"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The principal that amounts to ₹ 4913 in 3 years at $6\\frac{1}{4}$% per annum compound interest compounded annually, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 3096",
+      "option_b": "₹ 4076",
+      "option_c": "₹ 4085",
+      "option_d": "₹ 4096",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Principal = ₹ $\frac{4913}{\text{\\left(1+\\frac{25}{4\\times100}\\right)}^3}$\n= ₹ $\text{\\left(4913\times\frac{16}{17}\times\frac{16}{17}\times\frac{16}{17}\\right)}$ = ₹ $4096$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of ₹ 169 due in 2 years at 4% per annum compound interest is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 150.50",
+      "option_b": "₹ 154.75",
+      "option_c": "₹ 156.25",
+      "option_d": "₹ 158",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Present worth = ₹ $\frac{169}{\text{\\left(1+\\frac{4}{100}\\right)}^2}$\n= ₹ $\text{\\left(169\times\frac{25}{26}\times\frac{25}{26}\\right)}$ = ₹ $156.25$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "The compound interest accrued on an amount at the end of 3 years @ 15 p.c.p.a. is ₹ 6500.52. What is the amount?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 10500",
+      "option_b": "₹ 12480",
+      "option_c": "₹ 13620",
+      "option_d": "₹ 14800",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the sum be ₹ $x$. Then,\n$x\text{\\left(1+\\frac{15}{100}\\right)}^3 - x = 6500.52$\n$\\Rightarrow x\text{\\left(\frac{23}{20}\times\frac{23}{20}\times\frac{23}{20}\\right)} - x = 6500.52$\n$\\Rightarrow \text{\\left(\frac{12167}{8000}\\right)}x - x = 6500.52$\n$\\Rightarrow \text{\\left(\frac{4167}{8000}\\right)}x = 6500.52$\n$\\Rightarrow x = \text{\\left(\frac{6500.52\\times8000}{4167}\\right)} = 12480$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "In how many years will a sum of ₹ 800 at 10% per annum compounded semi-annually become ₹ 926.10?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{1}{3}$ years",
+      "option_b": "$1\\frac{1}{2}$ years",
+      "option_c": "$2\\frac{1}{3}$ years",
+      "option_d": "$2\\frac{1}{2}$ years",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the time be $n$ years. Then,\n$800\times\text{\\left(1+\\frac{5}{100}\\right)}^{2n} = 926.10$ or $1+\frac{5}{100}^{2n} = \frac{9261}{8000}$\n$\\Rightarrow \text{\\left(\frac{21}{20}\\right)}^{2n} = \text{\\left(\frac{21}{20}\\right)}^3$ or $2n = 3$ or $n = \frac{3}{2}$.\n$\\therefore n = 1\\frac{1}{2}$ years.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "If the compound interest on a sum for 2 years at $12\\frac{1}{2}$% per annum is ₹ 510, the simple interest on the same sum at the same rate for the same period of time is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 400",
+      "option_b": "₹ 450",
+      "option_c": "₹ 460",
+      "option_d": "₹ 480",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the sum be ₹ $P$. Then,\n$P\text{\\left[\text{\\left(1+\\frac{25}{2\\times100}\\right)}^2 - 1\\right]} = 510$\n$\\Rightarrow P\text{\\left[\text{\\left(\frac{9}{8}\\right)}^2 - 1\\right]} = 510 \\Rightarrow P = \text{\\left(\frac{510\\times64}{17}\\right)} = 1920$.\nSum = ₹ $1920$.\nSo, S.I. = ₹ $\text{\\left(\frac{1920\\times25\\times2}{2\\times100}\\right)}$ = ₹ $480$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The compound interest on a certain sum for 2 years at 10% per annum is ₹ 525. The simple interest on the same sum for double the time at half the rate percent per annum is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 400",
+      "option_b": "₹ 500",
+      "option_c": "₹ 600",
+      "option_d": "₹ 800",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the sum be ₹ $P$.\nThen, $P\text{\\left[\text{\\left(1+\\frac{10}{100}\\right)}^2 - 1\\right]} = 525$\n$\\Rightarrow P\text{\\left[\text{\\left(\frac{11}{10}\\right)}^2 - 1\\right]} = 525$\n$\\Rightarrow P = \text{\\left(\frac{525\\times100}{21}\\right)} = 2500$. $\\therefore$ Sum = ₹ $2500$.\nSo, S.I. = ₹ $\text{\\left(\frac{2500\\times5\\times4}{100}\\right)}$ = ₹ $500$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The simple interest on a certain sum of money for 3 years at 8% per annum is half the compound interest on ₹ 4000 for 2 years at 10% per annum. The sum placed on simple interest is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1550",
+      "option_b": "₹ 1650",
+      "option_c": "₹ 1750",
+      "option_d": "₹ 2000",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "C.I. = ₹ $\text{\\left[4000\times\text{\\left(1+\\frac{10}{100}\\right)}^2 - 4000\\right]}$\n= ₹ $\text{\\left(4000\times\frac{11}{10}\times\frac{11}{10} - 4000\\right)}$ = ₹ $840$.\n$\\therefore$ Sum = ₹ $\text{\\left(\frac{420\\times100}{3\\times8}\\right)}$ = ₹ $1750$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of ₹ 12,000 after 3 years at the same rate?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 2160",
+      "option_b": "₹ 3120",
+      "option_c": "₹ 3972",
+      "option_d": "₹ 6240",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let $P$ = ₹ $100$. Then, S.I. = ₹ $60$ and $T = 6$ years.\n$\\therefore R = \text{\\left(\frac{100\\times60}{100\\times6}\\right)} = 10\\%$ p.a.\nNow, $P$ = ₹ $12000$, $T = 3$ years and $R = 10\\%$ p.a.\n$\\therefore$ C.I. = ₹ $\text{\\left[12000\times\text{\\left(\text{\\left(1+\\frac{10}{100}\\right)}^3 - 1\\right)}\\right]}$ = ₹ $\text{\\left(12000\times\frac{331}{1000}\\right)}$\n= ₹ $3972$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "675"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "S.B.I.P.O., 2010",
+      "passage_text": "",
+      "question_text": "The compound interest earned by Sachin on a certain amount at the end of two years at the rate of 8 p.c.p.a. was ₹ 1414.40. What was the total amount that Sachin got back at the end of 2 years in the form of principal plus interest earned",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8914.40",
+      "option_b": "₹ 9014.40",
+      "option_c": "₹ 9414.40",
+      "option_d": "₹ 9914.40",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the sum be ₹ $P$. Then,\n$P\text{\\left(1+\\frac{8}{100}\\right)}^2 - P = 1414.40$\n$\\Rightarrow P\text{\\left(\frac{27}{25}\times\frac{27}{25}\\right)} - P = 1414.40$\n$\\Rightarrow \text{\\left(\frac{729}{625} - 1\\right)}P = 1414.40$\n$\\Rightarrow \text{\\left(\frac{104}{625}\\right)}P = 1414.40$\n$\\Rightarrow P = \text{\\left(\frac{1414.40\\times625}{104}\\right)} = 8500$.\nHence, total amount = ₹ $(8500 + 1414.40) = 9914.40$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "676"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "The compound interest accrued on an amount of ₹ 25500 at the end of 3 years is ₹ 8440.50. What would be the simple interest accrued on the same amount at the same rate in the same period?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4650",
+      "option_b": "₹ 5650",
+      "option_c": "₹ 6650",
+      "option_d": "₹ 7650",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let the rate be $R$\\% p.a. Then,\n$25500\text{\\left(1+\\frac{R}{100}\\right)}^3 = 25500 + 8440.50 = 33940.50$\n$\\Rightarrow \text{\\left(1+\\frac{R}{100}\\right)}^3 = \frac{33940.50}{25500} = \frac{1331}{1000} = \text{\\left(\frac{11}{10}\\right)}^3$\n$\\Rightarrow 1 + \frac{R}{100} = \frac{11}{10} = 1 + \frac{1}{10} = 1 + \frac{10}{100}$\n$\\Rightarrow R = 10\\%$.\n$\\therefore$ S.I. = ₹ $\text{\\left(\frac{25500\\times10\\times3}{100}\\right)}$ = ₹ $7650$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "676"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "Bank P.O., 2006",
+      "passage_text": "",
+      "question_text": "Sriram invested equal sums of money in two schemes. Under scheme X, the compound interest rate was 10 p.c.p.a. and under scheme Y, the compound interest rate was 12 p.c.p.a. The interest after 2 years on the sum invested in scheme X was ₹ 63. How much is the interest earned under scheme Y after 2 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 70.56",
+      "option_b": "₹ 76.32",
+      "option_c": "₹ 79.0272",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let each sum be ₹ $P$. Then,\n$P\text{\\left[\text{\\left(1+\\frac{10}{100}\\right)}^2 - 1\\right]} = 63$\n$\\Rightarrow P\text{\\left(\frac{121}{100} - 1\\right)} = 63$\n$\\Rightarrow \text{\\left(\frac{21}{100}\\right)}P = 63$\n$\\Rightarrow P = \text{\\left(\frac{63\\times100}{21}\\right)} = 300$.\nHence, C.I. = ₹ $\text{\\left[300\times\text{\\left(1+\\frac{12}{100}\\right)}^2 - 300\\right]}$\n= ₹ $\text{\\left(300\times\frac{28}{25}\times\frac{28}{25} - 300\\right)}$ = ₹ $76.32$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "676"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "Bank P.O., 2005",
+      "passage_text": "",
+      "question_text": "The difference between the amount the amount of compound interest and simple interest accrued on an amount of ₹ 26000 at the end of 3 years is ₹ 2994.134. What is the rate of interest p.c.p.a.?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "17%",
+      "option_b": "19%",
+      "option_c": "22%",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the rate be $R$\\% p.a. Then\n$26000\text{\\left[\text{\\left(1+\\frac{R}{100}\\right)}^3 - 1\\right]} - \text{\\left(\frac{26000\\times R\\times3}{100}\\right)} = 2994.134$\n$\\Rightarrow 26000\text{\\left[\text{\\left(1+\\frac{R}{100}\\right)}^3 - 1 - \frac{3R}{100}\\right]} = 2994.134$\n$\\Rightarrow 26\text{\\left[\frac{(100+R)^3 - 1000000 - 30000R}{1000000}\\right]} = 2994.134$\n$\\Rightarrow R^3 + 300R^2 = \text{\\left(\frac{2994134}{26}\\right)} = 115159$\n$\\Rightarrow R^2(R + 300) = 115159 \\Rightarrow R = 19\\%$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "676"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between compound interest and simple interest on a sum for 2 years at 8 per cent is ₹ 768. The sum is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 100000",
+      "option_b": "₹ 110000",
+      "option_c": "₹ 120000",
+      "option_d": "₹ 170000",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the sum be ₹ $x$. Then,\nC.I. = ₹ $x\text{\\left[\text{\\left(1+\\frac{8}{100}\\right)}^2 - 1\\right]}$\n= ₹ $\text{\\left(\frac{729}{625} - 1\\right)}x$ = ₹ $\text{\\left(\frac{104}{625}\\right)}x$.\nS.I. = ₹ $\text{\\left(\frac{x\\times8\\times2}{100}\\right)}$ = ₹ $\text{\\left(\frac{4}{25}\\right)}x$.\n$\\therefore \text{\\left(\frac{104}{625} - \frac{4}{25}\\right)}x = 768$\n$\\Rightarrow \text{\\left(\frac{4}{625}\\right)}x = 768$\n$\\Rightarrow x = \text{\\left(\frac{768\\times625}{4}\\right)} = 120000$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "676"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The compound interest on a sum of money for 2 years is ₹ 832 and the simple interest on the same sum for the same period is ₹ 800. The difference between the compound interest and the simple interest for 3 years will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 48",
+      "option_b": "₹ 66.56",
+      "option_c": "₹ 98.56",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Difference in C.I. and S.I. for 2 years = ₹ $32$.\nS.I. for 1 year = ₹ $400$.\n$\\therefore$ S.I. on ₹ $400$ for one year = ₹ $32$.\nSo, Rate = $\text{\\left(\frac{100\\times32}{400\\times1}\\right)}\\% = 8\\%$.\nHence, difference in C.I. and S.I. for 3rd year = S.I. on ₹ $832$ = ₹ $\text{\\left(\frac{832\\times8\\times1}{100}\\right)}$ = ₹ $66.56$.\nTotal difference = ₹ $(32 + 66.56) = 98.56$.",
+      "page_numbers": [
+        "670"
+      ],
+      "answer_page_numbers": [
+        "676"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between the simple interest on a certain sum at the rate of 10% per annum for 2 years and compound interest which is compounded every 6 months is ₹ 124.05. What is the principal sum?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 6000",
+      "option_b": "₹ 8000",
+      "option_c": "₹ 10,000",
+      "option_d": "₹ 12,000",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the sum be ₹ $P$. Then\n$P\text{\\left[\text{\\left(1+\\frac{5}{100}\\right)}^4 - 1 - \frac{P\\times10\\times2}{100}\\right]} = 124.05$\n$\\Rightarrow P\text{\\left[\text{\\left(\frac{21}{20}\\right)}^4 - 1 - \frac{1}{5}\\right]} = 124.05$\n$\\Rightarrow P\text{\\left[\frac{194481}{160000} - \frac{6}{5}\\right]} = 124.05$\n$\\Rightarrow P\text{\\left[\frac{194481 - 192000}{160000}\\right]} = 124.05$\n$\\Rightarrow P = \text{\\left(\frac{12405\\times160000}{100\\times2481}\\right)} = 8000$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "676"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between compound interest and simple interest on a sum for 2 years at 10% per annum, when the interest is compounded annually is ₹ 16. If the interest were compounded half-yearly, the difference in two interests would be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 24.81",
+      "option_b": "₹ 26.90",
+      "option_c": "₹ 31.61",
+      "option_d": "₹ 32.40",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "For first year, S.I. = C.I.\nNow, ₹ $16$ is the S.I. on S.I. for 1 year.\n₹ $10$ is S.I. on ₹ $100$.\n$\\therefore$ ₹ $16$ is S.I. on ₹ $\text{\\left(\frac{100}{10}\\times16\\right)}$ = ₹ $160$.\nSo, S.I. on principal for 1 year at $10\\%$ is ₹ $160$.\n$\\therefore$ Principal = ₹ $\text{\\left(\frac{100\\times160}{10\\times1}\\right)}$ = ₹ $1600$.\nAmount for 2 years compounded half yearly\n= ₹ $\text{\\left[1600\times\text{\\left(1+\\frac{5}{100}\\right)}^4\\right]}$ = ₹ $1944.81$.\n$\\therefore$ C.I. = ₹ $(1944.81 - 1600) = 344.81$.\nS.I. = ₹ $\text{\\left(\frac{1600\\times10\\times2}{100}\\right)}$ = ₹ $320$.\n$\\therefore$ (C.I.) - (S.I.) = ₹ $(344.81 - 320) = 24.81$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "676"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "A money-lender borrows money at 4% per annum and pays the interest at the end of the year. He lends it at 6% per annum compound interest compounded half-yearly and receives the interest at the end of the year. In this way, he gains ₹ 104.50 a year. The amount of money be borrows, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4500",
+      "option_b": "₹ 5000",
+      "option_c": "₹ 5500",
+      "option_d": "₹ 6000",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the sum be ₹ $x$. Then\nC.I. when compounded half-yearly = ₹ $\\left[x\\left(1+\\frac{3}{100}\\right)^2-x\\right]$\n= ₹ $\\left(\\frac{10609}{10000}x-x\\right) = \\frac{609}{10000}x$\nC.I. when compounded yearly = ₹ $\\left[x\\left(1+\\frac{4}{100}\\right)-x\\right]$\n= ₹ $\\left(\\frac{26}{25}x-x\\right) = \\frac{x}{25}$\n$\\therefore \\frac{609}{10000}x-\\frac{x}{25} = 104.50$\n$\\Rightarrow \\frac{209}{10000}x = 104.50$\n$\\Rightarrow x = \\left(\\frac{104.50\\times10000}{209}\\right) = 5000$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A sum of money lent at compound interest for 2 years at 20% per annum would fetch ₹ 482 more, if the interest was payable half-yearly than if it was payable annually. The sum is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 10,000",
+      "option_b": "₹ 20,000",
+      "option_c": "₹ 40,000",
+      "option_d": "₹ 50,000",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the sum be ₹ $x$. Then,\nC.I. when compounded half-yearly\n$= \\left[x\\left(1+\\frac{10}{100}\\right)^4-x\\right] = \\frac{4641}{10000}x$\nC.I. when compounded annually\n$= \\left[x\\left(1+\\frac{20}{100}\\right)^2-x\\right] = \\frac{11}{25}x$\n$\\therefore \\frac{4641}{10000}x-\\frac{11}{25}x = 482$\n$\\Rightarrow \\frac{482}{10000}x = 482$\nor $x = 20000$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "On a sum of money, the simple interest for 2 years is ₹ 660, while the compound interest is ₹ 696.30, the rate of interest being the same in both the cases. The rate of interest is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10%",
+      "option_b": "10.5%",
+      "option_c": "12%",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Difference in C.I. and S.I. for 2 years\n= ₹ $(696.30 - 660) = ₹ 36.30$.\nS.I. for one year = ₹ $330$.\n$\\therefore$ S.I. on ₹ $330$ for 1 year = ₹ $36.30$.\n$\\therefore$ Rate = $\\left(\\frac{100\\times36.30}{330\\times1}\\right)\\% = 11\\%$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The effective annual rate of interest corresponding to a nominal rate of 6% per annum payable half-yearly is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6.06%",
+      "option_b": "6.07%",
+      "option_c": "6.08%",
+      "option_d": "6.09%",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Amount of ₹ $100$ for 1 year when compounded half yearly = ₹ $\\left[100\\left(1+\\frac{3}{100}\\right)^2\\right] = ₹ 106.09$.\n$\\therefore$ Effective rate = $(106.09 - 100)\\% = 6.09\\%$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A person lent out a certain sum on simple interest and the same sum on compound interest at a certain rate of interest per annum. He noticed that the ratio between the difference of compound interest and simple interest of 3 years and that of 2 years is 25 : 8. The rate of interest per annum is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10%",
+      "option_b": "11%",
+      "option_c": "12%",
+      "option_d": "$12\\frac{1}{2}$%",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the principal be ₹ $P$ and the rate of interest be $R\\%$ per annum.\nDifference of C.I. and S.I. for 2 years\n$= \\left[P\\left(1+\\frac{R}{100}\\right)^2-P-\\frac{P\\times R\\times 2}{100}\\right] = \\frac{PR^2}{10^4}$\nDifference of C.I. and S.I. for 3 years\n$= \\left[P\\left(1+\\frac{R}{100}\\right)^3-P-\\frac{P\\times R\\times 3}{100}\\right] = \\frac{PR^2(300+R)}{10^6}$\n$\\therefore \\frac{PR^2(300+R)}{10^6} \\div \\frac{PR^2}{10^4} = \\frac{25}{8}$\n$\\Rightarrow \\frac{300+R}{100} = \\frac{25}{8}$\n$\\Rightarrow R = \\frac{100}{8} = 12\\frac{1}{2}\\%$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "A father left a will of ₹ 16400 for his two sons aged 17 and 18 years. They must get equal amounts when they are 20 years, at 5% compound interest. Find the present share of the younger son.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8000",
+      "option_b": "₹ 8200",
+      "option_c": "₹ 8400",
+      "option_d": "₹ 8800",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the shares of the younger and elder sons be ₹ $x$ and ₹ $(16400 - x)$.\nThen, Amount of ₹ $x$ after 3 years = Amount of ₹ $(16400 - x)$ after 2 years\n$\\Rightarrow x\\left(1+\\frac{5}{100}\\right)^3 = (16400 - x)\\left(1+\\frac{5}{100}\\right)^2$\n$\\Rightarrow x\\left(1+\\frac{5}{100}\\right) = (16400 - x)$\n$\\Rightarrow \\frac{21}{20}x + x = 16400$\n$\\Rightarrow \\frac{41}{20}x = 16400$\n$\\Rightarrow x = \\left(16400\\times\\frac{20}{41}\\right) = 8000$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "Divide ₹ 8840 between A and B so that the amount received by A at the end of 8 years may be equal to the amount received by B at the end of 10 years, compound interest being at 10% per annum.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4640, ₹ 4200",
+      "option_b": "₹ 4840, ₹ 4000",
+      "option_c": "₹ 5000, ₹ 3840",
+      "option_d": "₹ 5240, ₹ 3600",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let $A$'s share = ₹ $x$ and $B$'s share = ₹ $(8840 - x)$.\n$\\therefore x\\left(1+\\frac{10}{100}\\right)^8 = (8840 - x)\\left(1+\\frac{10}{100}\\right)^{10}$\n$\\Rightarrow x = (8840 - x)\\left(1+\\frac{10}{100}\\right)^2$\n$\\Rightarrow x = \\frac{121}{100}(8840 - x)$\n$\\Rightarrow 221x = 121 \\times 8840$\n$\\Rightarrow x = \\left(\\frac{121\\times8840}{221}\\right) = 4840$.\nHence, the two parts are ₹ $4840$ and ₹ $4000$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Mr. Dua invested money in two schemes A and B offering compound interest @ 8 p.c.p.a. and 9 p.c.p.a. respectively. If the total amount of interest accrued through two schemes together in two years was ₹ 4818.30 and the total amount invested was ₹ 27,000, what was the amount invested in Scheme A?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 12,000",
+      "option_b": "₹ 13,500",
+      "option_c": "₹ 15,000",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let the investment in scheme $A$ be ₹ $x$.\nThen, investment in scheme $B$ = ₹ $(27000 - x)$.\n$\\therefore \\left[x\\left\\{\\left(1+\\frac{8}{100}\\right)^2-1\\right\\} + (27000 - x)\\left\\{\\left(1+\\frac{9}{100}\\right)^2-1\\right\\}\\right] = 4818.30$\n$\\Leftrightarrow x\\left(\\frac{104}{625}\\right) + \\frac{1881(27000 - x)}{10000} = \\frac{481830}{100}$\n$\\Leftrightarrow 1664x + 1881(27000 - x) = 48183000$\n$\\Leftrightarrow (1881x - 1664x) = (50787000 - 48183000)$\n$\\Leftrightarrow 217x = 2604000$\n$\\Leftrightarrow x = \\frac{2604000}{217} = 12000$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "A sum of money put at compound interest amounts in 2 years to ₹ 672 and in 3 years to ₹ 714. The rate of interest per annum is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5.5%",
+      "option_b": "6.0%",
+      "option_c": "6.25%",
+      "option_d": "6.75%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "S.I. on ₹ $672$ for 1 year\n= ₹ $(714 - 672) = ₹ 42$.\n$\\therefore$ Rate = $\\left(\\frac{100\\times42}{672\\times1}\\right)\\% = 6.25\\%$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "677"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A sum of money invested at compound interest amounts to ₹ 4624 in 2 years and to ₹ 4913 in 3 years. The sum of money is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4096",
+      "option_b": "₹ 4260",
+      "option_c": "₹ 4335",
+      "option_d": "₹ 4360",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "S.I. on ₹ $4624$ for 1 year = ₹ $(4913 - 4624) = ₹ 289$.\n$\\therefore$ Rate = $\\left(\\frac{100\\times289}{4624\\times1}\\right)\\% = 6\\frac{1}{4}\\%$.\nNow, $x\\left(1+\\frac{25}{4\\times100}\\right)^2 = 4624$ or $x\\times\\frac{17}{16}\\times\\frac{17}{16} = 4624$\nor $x = \\left(4624\\times\\frac{16}{17}\\times\\frac{16}{17}\\right) = ₹ 4096$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "A sum of ₹ 12,000 deposited at compound interest becomes double after 5 years. After 20 years, it will become :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 96,000",
+      "option_b": "₹ 1,20,000",
+      "option_c": "₹ 1,24,000",
+      "option_d": "₹ 1,92,000",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$12000\\left(1+\\frac{R}{100}\\right)^5 = 24000 \\Rightarrow \\left(1+\\frac{R}{100}\\right)^5 = 2$\n$\\therefore \\left[\\left(1+\\frac{R}{100}\\right)^5\\right]^4 = 2^4 = 16$\n$\\Rightarrow \\left(1+\\frac{R}{100}\\right)^{20} = 16$\n$\\Rightarrow P\\left(1+\\frac{R}{100}\\right)^{20} = 16P$\n$\\Rightarrow 12000\\left(1+\\frac{R}{100}\\right)^{20} = 16\\times12000 = 192000$.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "A sum of money at compound interest doubles itself in 15 years. It will become eight times of itself in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "45 years",
+      "option_b": "48 years",
+      "option_c": "54 years",
+      "option_d": "60 years",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$P\\left(1+\\frac{R}{100}\\right)^{15} = 2P \\Rightarrow \\left(1+\\frac{R}{100}\\right)^{15} = 2$ ...(i)\nLet $P\\left(1+\\frac{R}{100}\\right)^n = 8P$\n$\\Rightarrow \\left(1+\\frac{R}{100}\\right)^n = 8 = 2^3 = \\left\\{\\left(1+\\frac{R}{100}\\right)^{15}\\right\\}^3$\n$\\Rightarrow \\left(1+\\frac{R}{100}\\right)^n = \\left(1+\\frac{R}{100}\\right)^{45} \\Rightarrow n = 45$.\n$\\therefore$ Required time = 45 years.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "A finance company declares that, at a certain compound interest rate, a sum of money deposited by anyone will become 8 times in 3 years. If the same amount is deposited at the same compound rate of interest, then in how many years will it become 16 times?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 years",
+      "option_b": "5 years",
+      "option_c": "6 years",
+      "option_d": "7 years",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$P\\left(1+\\frac{R}{100}\\right)^3 = 8P \\Rightarrow \\left(1+\\frac{R}{100}\\right)^3 = 8$.\nLet $P\\left(1+\\frac{R}{100}\\right)^n = 16P \\Rightarrow \\left(1+\\frac{R}{100}\\right)^n = 16 = 2^4 = (8^{1/3})^4 = 8^{4/3}$\n$\\Rightarrow \\left(1+\\frac{R}{100}\\right)^n = \\left\\{\\left(1+\\frac{R}{100}\\right)^3\\right\\}^{4/3} = \\left(1+\\frac{R}{100}\\right)^4$\n$\\Rightarrow n = 4$.\n$\\therefore$ Required time = 4 years.",
+      "page_numbers": [
+        "671"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "A.O. Exam, 2010",
+      "passage_text": "",
+      "question_text": "A sum of money lent out at compound interest increases in value by 50% in 5 years. A person wants to lend three different sums x, y and z for 10, 15 and 20 years respectively at the above rate in such a way that he gets back equal sums at the end of their respective periods. The ratio x : y : z is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6 : 9 : 4",
+      "option_b": "9 : 4 : 6",
+      "option_c": "9 : 6 : 4",
+      "option_d": "6 : 4 : 9",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$P\\left(1+\\frac{R}{100}\\right)^5 = 150\\% \\text{ of } P = \\frac{3}{2}P \\Rightarrow \\left(1+\\frac{R}{100}\\right)^5 = \\frac{3}{2}$.\n$x\\left(1+\\frac{R}{100}\\right)^{10} = y\\left(1+\\frac{R}{100}\\right)^{15} = z\\left(1+\\frac{R}{100}\\right)^{20}$\n$\\Rightarrow x\\left\\{\\left(1+\\frac{R}{100}\\right)^5\\right\\}^2 = y\\left\\{\\left(1+\\frac{R}{100}\\right)^5\\right\\}^3 = z\\left\\{\\left(1+\\frac{R}{100}\\right)^5\\right\\}^4$\n$\\Rightarrow x\\left(\\frac{3}{2}\\right)^2 = y\\left(\\frac{3}{2}\\right)^3 = z\\left(\\frac{3}{2}\\right)^4$\n$\\Rightarrow \\frac{9}{4}x = \\frac{27}{8}y = \\frac{81}{16}z = k \\text{ (say)}$\n$\\Rightarrow x = \\frac{4k}{9}, y = \\frac{8k}{27}, z = \\frac{16k}{81}$\n$\\Rightarrow x : y : z = \\frac{4}{9} : \\frac{8}{27} : \\frac{16}{81}$\n$= 36 : 24 : 16 = 9 : 6 : 4$.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "N.I.F.T., 2003",
+      "passage_text": "",
+      "question_text": "The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "4",
+      "option_c": "5",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$P\\left(1+\\frac{20}{100}\\right)^n > 2P \\text{ or } \\left(\\frac{6}{5}\\right)^n > 2$.\nNow, $\\left(\\frac{6}{5}\\times\\frac{6}{5}\\times\\frac{6}{5}\\times\\frac{6}{5}\\right) > 2$. So, $n = 4$ years.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man borrows ₹ 2550 to be paid back with compound interest at the rate of 4% per annum by the end of 2 years in two equal yearly instalments. How much will each instalment be?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1275",
+      "option_b": "₹ 1283",
+      "option_c": "₹ 1352",
+      "option_d": "₹ 1377",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the value of each instalment be ₹ $x$. Then,\n(P.W. of ₹ $x$ due 1 year hence)\n+ (P.W. of ₹ $x$ due 2 years hence) = ₹ $2550$\n$\\Leftrightarrow \\frac{x}{\\left(1+\\frac{4}{100}\\right)} + \\frac{x}{\\left(1+\\frac{4}{100}\\right)^2} = 2550$\n$\\Leftrightarrow \\frac{25x}{26} + \\frac{625x}{676} = 2550$\n$\\Leftrightarrow 1275x = 2550 \\times 676$\n$\\Leftrightarrow x = \\left(\\frac{2550\\times676}{1275}\\right) = 1352$.\n$\\therefore$ Value of each instalment = ₹ $1352$.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "Under the Rural Housing Scheme, the Delhi Development Authority (DDA) allotted a house to Kamal Raj for ₹ 1,26,100. This payment is to be made in three equal annual instalments. If the money is reckoned at 5% per annum compound interest, then how much is to be paid by Kamal Raj in each instalment?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 45205",
+      "option_b": "₹ 46305",
+      "option_c": "₹ 47405",
+      "option_d": "₹ 48505",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the value of each instalment be ₹ $x$. Then,\n(P.W. of ₹ $x$ due 1 year hence) + (P.W. of ₹ $x$ due 2 years\nhence) + (P.W. of ₹ $x$ due 3 years hence) = ₹ $126100$\n$\\Rightarrow \\frac{x}{\\left(1+\\frac{5}{100}\\right)} + \\frac{x}{\\left(1+\\frac{5}{100}\\right)^2} + \\frac{x}{\\left(1+\\frac{5}{100}\\right)^3} = 126100$\n$\\Rightarrow \\frac{20x}{21} + \\frac{400x}{441} + \\frac{8000x}{9261} = 126100$\n$\\Rightarrow \\frac{8820x + 8400x + 8000x}{9261} = 126100$\n$\\Rightarrow \\frac{25220x}{9261} = 126100 \\Rightarrow x = \\left(\\frac{126100\\times9261}{25220}\\right) = 46305$.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "A taperecorder is sold for ₹ 3500 cash, or ₹ 1000 cash down payment and the balance in three equal easy instalments. If $12\\frac{1}{2}$% is the rate of interest compounded annually, find the amount of instalment.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1000.35",
+      "option_b": "₹ 1049.85",
+      "option_c": "₹ 1050.65",
+      "option_d": "₹ 1100.45",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Total cost of taperecorder = ₹ $3500$.\nDown payment = ₹ $1000$.\nBalance = ₹ $(3500 - 1000) = ₹ 2500$.\nLet the value of each instalment be ₹ $x$.\nP.W. of ₹ $x$ due 1 year hence + P.W. of ₹ $x$ due 2 years\nhence + P.W. of ₹ $x$ due 3 years hence = $2500$\n$\\Rightarrow \\frac{x}{\\left(1+\\frac{25}{2\\times100}\\right)} + \\frac{x}{\\left(1+\\frac{25}{2\\times100}\\right)^2} + \\frac{x}{\\left(1+\\frac{25}{2\\times100}\\right)^3} = 2500$\n$\\Rightarrow \\frac{8x}{9} + \\frac{64x}{81} + \\frac{512x}{729} = 2500 \\Rightarrow \\frac{1736x}{729} = 2500$\n$\\Rightarrow x = \\frac{2500\\times729}{1736} = 1049.83 \\approx 1049.85$.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "678"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "N.M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "One can purchase a flat from a house building society for ₹ 55000 cash or on the terms that he should pay ₹ 4275 as cash down payment and the rest in three equal instalments. The society charges interest at the rate of 16% per annum compounded half-yearly. If the flat is purchased under instalment plan, find the value of each instalment.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 18756",
+      "option_b": "₹ 19292",
+      "option_c": "₹ 19683",
+      "option_d": "₹ 20285",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Balance = ₹ $(55000 - 4275) = ₹ 50725$.\nRate of interest = $8\\%$ per half-year.\nLet the value of each instalment be ₹ $x$.\nP.W. of ₹ $x$ due 6 months hence + P.W. of ₹ $x$ due 1 year\nhence + P.W. of ₹ $x$ due $1\\frac{1}{2}$ years hence = $50725$\n$\\Rightarrow \\frac{x}{\\left(1+\\frac{8}{100}\\right)} + \\frac{x}{\\left(1+\\frac{8}{100}\\right)^2} + \\frac{x}{\\left(1+\\frac{8}{100}\\right)^3} = 50725$\n$\\Rightarrow \\frac{25x}{27} + \\frac{625x}{729} + \\frac{15625x}{19683} = 50725$\n$\\Rightarrow \\frac{50725x}{19683} = 50725$\n$\\Rightarrow x = \\left(\\frac{50725\\times19683}{50725}\\right) = 19683$.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "679"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What annual payment will discharge a debt of ₹ 1025 due in 2 years at the rate of 5% compound interest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 550",
+      "option_b": "₹ 551.25",
+      "option_c": "₹ 560",
+      "option_d": "₹ 560.75",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let each instalment be ₹ $x$. Then,\n$\\frac{x}{\\left(1+\\frac{5}{100}\\right)} + \\frac{x}{\\left(1+\\frac{5}{100}\\right)^2} = 1025$\n$\\Leftrightarrow \\frac{20x}{21} + \\frac{400x}{441} = 1025$\n$\\Leftrightarrow 820x = 1025 \\times 441$\n$\\Leftrightarrow x = \\left(\\frac{1025\\times441}{820}\\right) = 551.25$.\nSo, value of each instalment = ₹ $551.25$.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "679"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man borrows ₹ 12,500 at 20% compound interest. At the end of every year he pays ₹ 2000 as part repayment. How much does he still owe after three such instalments?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 12,000",
+      "option_b": "₹ 12,864",
+      "option_c": "₹ 15,600",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Balance\n= ₹\n$\n\\left[\\left\\{12500\\times\\left(1+\\frac{20}{100}\\right)^3\\right\\}-\\left\\{\\left(2000\\times\\left(1+\\frac{20}{100}\\right)^2\\right)+\\left(2000\\times\\left(1+\\frac{20}{100}\\right)\\right)+2000\\right\\}\\right]$\n= ₹\n$\n\\left[\\left(12500\\times\\frac{6}{5}\\times\\frac{6}{5}\\times\\frac{6}{5}\\right)-\\left(\\left(2000\\times\\frac{6}{5}\\times\\frac{6}{5}\\right)+\\left(2000\\times\\frac{6}{5}\\right)+2000\\right)\\right]$\n= ₹ $[21600 - (2880 + 2400 + 2000)] = ₹ 14320.$",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A sum of money is borrowed and paid back in two annual instalments of ₹ 882 each allowing 5% compound interest. The sum borrowed was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1620",
+      "option_b": "₹ 1640",
+      "option_c": "₹ 1680",
+      "option_d": "₹ 1700",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Principal\n= (P.W. of ₹ 882 due 1 year hence)\n+ (P.W. of ₹ 882 due 2 years hence)\n= $\\left[\\frac{882}{\\left(1+\\frac{5}{100}\\right)}+\\frac{882}{\\left(1+\\frac{5}{100}\\right)^2}\\right]$\n= $\\left(\\frac{882\\times20}{21}+\\frac{882\\times400}{441}\\right) = ₹ 1640.$",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The sum of money which when given on compound interest at 18% per annum would fetch ₹ 960 more when the interest is payable half yearly than when it was payable annually for 2 years is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 60,000",
+      "option_b": "₹ 30,000",
+      "option_c": "₹ 40,000",
+      "option_d": "₹ 50,000",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Rate of interest = 18%\nTime = 2 years\nWhen the interest is payable half yearly.\nThen, rate of interest = 9% per half annum.\nTime = 4 half years.\nLet the principal be ₹ $x$\n∴ C.I. = $x \\left[ \\left(1+\\frac{9}{100}\\right)^4-1 \\right]$\n= $x \\left[ \\left(\\frac{109}{100}\\right)^4-1 \\right]$\n= $x [1.4116 - 1] = ₹ 0.4116x$\nAccording to the question.\n= $x \\left[ \\left(1+\\frac{18}{100}\\right)^2-1 \\right]$\n= $x \\left[ \\left(\\frac{118}{100}\\right)^2-1 \\right]$\n= $x [1.3924 - 1] = ₹ 0.3924 x$\nAccording to the question.\n$0.4116x - 0.3924x = 960$\n⇒ $0.0192x = 960$\n⇒ $x = \\frac{960}{0.0192}$\n$x = \\frac{960\\times10000}{192} = ₹ 50,000$\nHence, sum of money = ₹ 50,000",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "SSC—CHSL (10 + 2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "On what sum of money will the difference between simple interest and compound interest for 2 years at 5% per annum be equal to ₹ 63?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 24600",
+      "option_b": "₹ 24800",
+      "option_c": "₹ 25200",
+      "option_d": "₹ 25500",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Time = 2 years\nRate of interest = 5% per annum\nAccording to question,\n$P \\left[ \\left(1+\\frac{r}{100}\\right)^n-1 \\right] - \\frac{Prt}{100} = 63$\n$P \\left[ \\left(1+\\frac{5}{100}\\right)^2-1 \\right] - \\frac{P\\times5\\times2}{100} = 63$\n⇒ $P \\left[ \\left(\\frac{105}{100}\\right)^2-1 \\right] - \\frac{10P}{100} = 63$\n⇒ $P \\left[ \\left(\\frac{105}{100}\\right)^2-1 \\right] - \\frac{10P}{100} = 63$\n⇒ $P \\left( \\frac{11025-10000}{10000} \\right) - \\frac{10P}{100} = 63$\n⇒ $\\frac{1025P}{10000} - \\frac{10P}{100} = 63$\n⇒ $\\frac{1025P - 1000P}{10000} = 63$\n⇒ $25P = ₹ 630000$\n⇒ $P = \\frac{630000}{25} = ₹ 25200$\nHence, sum = ₹ 25200",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "65",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "At what rate of compound interest per annum will a sum of ₹ 1200 become ₹ 1348.32 in 2 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7.5%",
+      "option_b": "6.5%",
+      "option_c": "7%",
+      "option_d": "6%",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given amount = ₹ 1348.32\nPrincipal = ₹ 1200\nAnd time = 2 years\n$A = P \\left(1+\\frac{R}{100}\\right)^T$\n⇒ $1348.32 = 1200 \\left(1+\\frac{R}{100}\\right)^2$\n⇒ $\\frac{1348.32}{1200} = \\left(1+\\frac{R}{100}\\right)^2$\n⇒ $\\frac{134832}{120000} = \\left(1+\\frac{R}{100}\\right)^2$\n⇒ $\\frac{11236}{10000} = \\left(1+\\frac{R}{100}\\right)^2$\n⇒ $\\left(\\frac{106}{100}\\right)^2 = \\left(1+\\frac{R}{100}\\right)^2$\n⇒ $1+\\frac{6}{100} = 1+\\frac{R}{100}$\n⇒ $R = 6\\%$ per annum.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "66",
+      "exam_reference": "RBI Gr. ‘B’ (Phase I) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The compound interest on a certain sum of money for 2 years at 10% per annum is ₹ 525. The simple interest on the same sum of money for double the time at half the rate percent per annum is?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 1000",
+      "option_b": "₹ 500",
+      "option_c": "₹ 200",
+      "option_d": "₹ 800",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the sum of money be ₹ $P$\nThen $P \\left[ \\left(1+\\frac{R}{100}\\right)^t - 1 \\right] = CI$\n$P \\left[ \\left(1+\\frac{10}{100}\\right)^2 - 1 \\right] = 525$\n⇒ $P \\left[ \\left(\\frac{11}{10}\\right)^2 - 1 \\right] = 525$\n⇒ $P \\left( \\frac{121}{100} - 1 \\right) = 525$\n⇒ $P \\left( \\frac{21}{100} \\right) = 525$\n⇒ $P = \\left( \\frac{525\\times100}{21} \\right) = ₹ 2500$\n∴ Sum of money = ₹ 2500.",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "67",
+      "exam_reference": "IBPS—Bank Spl. Officers (IT) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Shashi had a certain amount of money. He invested $\\frac{2}{3}$ of the total money in scheme A for 6 years and rest of the money he invested in scheme B for 2 years. scheme A offers simple interest at a rate of 12% p.a. and scheme B offers compound interest (compounded annually) at a rate of 10% p.a. if the total interest obtained from both the schemes is ₹ 2,750, what was the total amount invested by him in scheme A and scheme B together? (Approximate value)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4500",
+      "option_b": "₹ 4200",
+      "option_c": "₹ 4050",
+      "option_d": "₹ 5000",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the total sum of money invested by Shashi be ₹ $x$.\nIn scheme A money invested at simple interest for 6 years at a rate of 12% p.a.\n∴ $\\frac{2}{3}$ of $x \\times \\frac{12\\times6}{100} = \\frac{48x}{100}$ ...(i)\nIn scheme B money invested at compound interest for 2 years at a rate of 10% p.a.\n$x \\left[ \\left(1+\\frac{10}{100}\\right)^2 - 1 \\right] = \\frac{3}{100}x$\nAccording to given information we get\n$\\frac{48x}{100} + \\frac{7x}{100} = 2750$\n$55x = 2750 \\times 100$\n$x = \\frac{2750\\times100}{55}$\n$x = ₹ 5000$",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "68",
+      "exam_reference": "IBPS—RRB Office Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The difference between CI and SI on a certain sum of money for 3 years at 5% p.c.p.a. is ₹ 122. Find the sum invested.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Rate of interest = 5% p.c.p.a.\nIf time 3 years then CI - SI = $P \\left[ \\left(1+\\frac{R}{100}\\right)^3 - 1 - \\frac{3R}{100} \\right]$\n⇒ $122 = P \\left[ \\left(1+\\frac{5}{100}\\right)^3 - 1 - \\frac{3\\times5}{100} \\right]$\n⇒ $122 = P \\left[ \\left(\\frac{105}{100}\\right)^3 - 1 - \\frac{15}{100} \\right]$\n⇒ $122 = P \\left[ \\frac{1157625}{1000000} - 1 - 0.15 \\right]$\n⇒ $122 = P \\left[ 1.157625 - 1.15 \\right]$\n⇒ $122 = P [0.007625]$\n⇒ $P = \\frac{122}{0.007625} = ₹ 16000$",
+      "page_numbers": [
+        "672"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    }
+  ]
+}

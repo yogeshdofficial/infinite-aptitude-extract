@@ -1,0 +1,1 @@
+ uv run .\main.py --input-file C:\Users\Yogesh\Music\Extracted_Book_PDFs\Chapter_31_Probability.pdf --question-pages 1-7 --answer-pages 7-11  --batch-size 4 --categorize --generate-docs --pdf-pages 1-2

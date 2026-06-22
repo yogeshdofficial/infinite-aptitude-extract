@@ -1,0 +1,3426 @@
+{
+  "chapter_title": "Chapter_17_Time_and_Work",
+  "question_count": 155,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "L.I.C., 2008",
+      "passage_text": "",
+      "question_text": "If Roger can do a piece of work in 8 days and Antony can complete the same work in 5 days, in how many days will both of them together complete it?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Roger's 1 day's work = $\\frac{1}{8}$; Antony's 1 day's work = $\\frac{1}{5}$.\n(Roger + Antony)'s 1 day's work = $\\left(\\frac{1}{8} + \\frac{1}{5}\\right) = \\frac{13}{40}$.\n$\\therefore$ Both Roger and Antony will complete the work in $\\frac{40}{13} = 3\\frac{1}{13}$ days.",
+      "page_numbers": [
+        "526"
+      ],
+      "answer_page_numbers": [
+        "526"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "A and B together can complete a piece of work in 15 days and B alone in 20 days. In how many days can A alone complete the work?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B)'s 1 day's work = $\\frac{1}{15}$; B's 1 day's work = $\\frac{1}{20}$.\n$\\therefore$ A's 1 day's work = $\\left(\\frac{1}{15} - \\frac{1}{20}\\right) = \\frac{1}{60}$.\nHence, A alone can complete the work in 60 days.",
+      "page_numbers": [
+        "526"
+      ],
+      "answer_page_numbers": [
+        "526"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "Section Officer's, 2008",
+      "passage_text": "",
+      "question_text": "A alone can complete a piece of work of ₹ 300 in 6 days; but by engaging an assistant, the work is completed in 4 days. Find the share to be received by the assistant.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Assistant's 1 day's work = $\\left(\\frac{1}{4} - \\frac{1}{6}\\right) = \\frac{1}{12}$.\n$\\therefore$ A's share : Assistant's share = Ratio of their 1 day's work = $\\frac{1}{6} : \\frac{1}{12} = 2 : 1$.\nHence, assistant's share = ₹ $\\left(300 \\times \\frac{1}{3}\\right) = ₹ 100$.",
+      "page_numbers": [
+        "526"
+      ],
+      "answer_page_numbers": [
+        "526"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "P.C.S., 2006",
+      "passage_text": "",
+      "question_text": "A can do a work in 4 days, B in 5 days and C in 10 days. Find the time taken by A, B and C to do the work together.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "A's 1 day's work = $\\frac{1}{4}$; B's 1 day's work = $\\frac{1}{5}$; C's 1 day's work = $\\frac{1}{10}$.\n(A + B + C)'s 1 day's work = $\\left(\\frac{1}{4} + \\frac{1}{5} + \\frac{1}{10}\\right) = \\frac{11}{20}$.\nHence, A, B and C together can do the work in $\\frac{20}{11} = 1\\frac{9}{11}$ days.",
+      "page_numbers": [
+        "526",
+        "527"
+      ],
+      "answer_page_numbers": [
+        "527"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B undertake to do a piece of work for ₹ 600. A alone can do it in 6 days while B alone can do it in 8 days. With the help of C, they finish it in 3 days. Find the share of each.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "C's 1 day's work = $\\left(\\frac{1}{3} - \\left(\\frac{1}{6} + \\frac{1}{8}\\right)\\right) = \\frac{1}{24}$.\n$\\therefore$ A : B : C = Ratio of their 1 day's work = $\\frac{1}{6} : \\frac{1}{8} : \\frac{1}{24} = 4 : 3 : 1$.\n$\\therefore$ A's share = ₹ $\\left(600 \\times \\frac{4}{8}\\right) = ₹ 300$, B's share = ₹ $\\left(600 \\times \\frac{3}{8}\\right) = ₹ 225$.\nC's share = ₹ $[600 - (300 + 225)] = ₹ 75$.",
+      "page_numbers": [
+        "527"
+      ],
+      "answer_page_numbers": [
+        "527"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 7 days of 9 hours each and B can do it in 6 days of 7 hours each. How long will they take to do it, working together $8\\frac{2}{5}$ hours a day?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "A can complete the work in $(7 \\times 9) = 63$ hours.\nB can complete the work in $(6 \\times 7) = 42$ hours.\n$\\therefore$ A's 1 hour's work = $\\frac{1}{63}$ and B's 1 hour's work = $\\frac{1}{42}$.\n(A + B)'s 1 hour's work = $\\left(\\frac{1}{63} + \\frac{1}{42}\\right) = \\frac{5}{126}$.\n$\\therefore$ Both will finish the work in $\\frac{126}{5}$ hrs.\nNumber of days of $8\\frac{2}{5}$ hrs each = $\\left(\\frac{126}{5} \\times \\frac{5}{42}\\right) = 3$ days.",
+      "page_numbers": [
+        "527"
+      ],
+      "answer_page_numbers": [
+        "527"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "I.I.F.T., 2005",
+      "passage_text": "",
+      "question_text": "Rahul takes twice as much time as Manick and thrice as much time as Sachin to complete a job. If working together, they can complete the job in 4 days, find the time taken by each of them separately to complete the work.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Suppose Rahul takes $x$ hours to complete the job.\nThen, Manick takes $\\frac{x}{2}$ hours and Sachin takes $\\frac{x}{3}$ hours to do the job.\nRahul's 1 hour's work = $\\frac{1}{x}$; Manick's 1 hour's work = $\\frac{2}{x}$; Sachin's 1 hour's work = $\\frac{3}{x}$.\n$\\frac{1}{x} + \\frac{2}{x} + \\frac{3}{x} = \\frac{1}{4} \\Rightarrow \\frac{6}{x} = \\frac{1}{4} \\Rightarrow x = 24$.\nHence, Rahul takes 24 hours, Manick takes 12 hours and Sachin takes 8 hours to complete the job.",
+      "page_numbers": [
+        "527"
+      ],
+      "answer_page_numbers": [
+        "527"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "A and B can do a piece of work in 9 days; B and C can do it in 12 days; A and C can do it in 18 days. In how many days will A, B and C finish it, working together and separately?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B)'s 1 day's work = $\\frac{1}{9}$; (B + C)'s 1 day's work = $\\frac{1}{12}$; (A + C)'s 1 day's work = $\\frac{1}{18}$.\nAdding, we get: $2(A + B + C)$'s 1 day's work = $\\left(\\frac{1}{9} + \\frac{1}{12} + \\frac{1}{18}\\right) = \\frac{9}{36} = \\frac{1}{4}$.\n$\\therefore (A + B + C)$'s 1 day's work = $\\frac{1}{8}$.\nThus, A, B and C together can finish the work in 8 days.\nNow, A's 1 day's work = $[(A + B + C)$'s 1 day's work - (B + C)'s 1 day's work]\n$= \\left(\\frac{1}{8} - \\frac{1}{12}\\right) = \\frac{1}{24}$.\n$\\therefore$ A alone can finish the work in 24 days.\nSimilarly, B's 1 day's work\n$= [(A + B + C)$'s 1 day's work - (A + C)'s 1 day's work] = $\\left(\\frac{1}{8} - \\frac{1}{18}\\right) = \\frac{5}{72}$.\n$\\therefore$ B alone can finish the work in $\\frac{72}{5} = 14\\frac{2}{5}$ days.\nAnd, C's 1 day's work\n$= [(A + B + C)$'s 1 day's work - (A + B)'s 1 day's work] = $\\left(\\frac{1}{8} - \\frac{1}{9}\\right) = \\frac{1}{72}$.\n$\\therefore$ C alone can finish the work in 72 days.",
+      "page_numbers": [
+        "527",
+        "528"
+      ],
+      "answer_page_numbers": [
+        "528"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A is twice as good a workman as B and together they finish a piece of work in 18 days. In how many days will A alone finish the work?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A's 1 day's work) : (B's 1 day's work) = 2 : 1.\n(A + B)'s 1 day's work = $\\frac{1}{18}$. Divide $\\frac{1}{18}$ in the ratio 2 : 1.\n$\\therefore$ A's 1 day's work = $\\left(\\frac{1}{18} \\times \\frac{2}{3}\\right) = \\frac{1}{27}$.\nHence, A alone can finish the work in 27 days.",
+      "page_numbers": [
+        "528"
+      ],
+      "answer_page_numbers": [
+        "528"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can do a certain job in 12 days. B is 60% more efficient than A. How many days does B alone take to do the same job?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Ratio of times taken by A and B = 160 : 100 = 8 : 5.\nSuppose B alone takes $x$ days to do the job.\nThen, 8 : 5 :: 12 : $x \\Rightarrow 8x = 5 \\times 12 \\Rightarrow x = 7\\frac{1}{2}$ days.",
+      "page_numbers": [
+        "528"
+      ],
+      "answer_page_numbers": [
+        "528"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 80 days. He works at it for 10 days and then B alone finishes the remaining work in 42 days. In how much time will A and B, working together, finish the work?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Work done by A in 10 days = $\\left(\\frac{1}{80} \\times 10\\right) = \\frac{1}{8}$. Remaining work = $\\left(1 - \\frac{1}{8}\\right) = \\frac{7}{8}$.\nNow, $\\frac{7}{8}$ work is done by B in 42 days.\nWhole work will be done by B in $\\left(42 \\times \\frac{8}{7}\\right) = 48$ days.\n$\\therefore$ A's 1 day's work = $\\frac{1}{80}$ and B's 1 day's work = $\\frac{1}{48}$.\n$\\therefore$ (A + B)'s 1 day's work = $\\left(\\frac{1}{80} + \\frac{1}{48}\\right) = \\frac{8}{240} = \\frac{1}{30}$.\nHence, both will finish the work in 30 days.",
+      "page_numbers": [
+        "528"
+      ],
+      "answer_page_numbers": [
+        "528"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "S.S.C., 2008",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 10 days and B in 20 days. They work together but 2 days before the completion of the work, A leaves. In how many days was the work completed?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "B's 2 days' work = $\\left(\\frac{1}{20} \\times 2\\right) = \\frac{1}{10}$. Remaining work = $\\left(1 - \\frac{1}{10}\\right) = \\frac{9}{10}$.\n(A + B)'s 1 day's work = $\\left(\\frac{1}{10} + \\frac{1}{20}\\right) = \\frac{3}{20}$.\nNow, $\\frac{3}{20}$ work is done by A and B in 1 day.\n$\\therefore \\frac{9}{10}$ work is done by A and B in $\\left(\\frac{20}{3} \\times \\frac{9}{10}\\right) = 6$ days.\nHence, total time taken = (2 + 6) days = 8 days.",
+      "page_numbers": [
+        "528",
+        "529"
+      ],
+      "answer_page_numbers": [
+        "529"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "A can complete a work in 10 days, B in 12 days and C in 15 days. All of them began the work together, but A had to leave the work after 2 days of the start and B, 3 days before the completion of the work. How long did the work last?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "A, B and C work together for 2 days. C alone works for 3 days and the remaining work is done by B and C together.\nNow, (A + B + C)'s 2 days' work = $2 \\times \\left(\\frac{1}{10} + \\frac{1}{12} + \\frac{1}{15}\\right) = \\left(2 \\times \\frac{15}{60}\\right) = \\frac{1}{2}$.\nC's 3 days' work = $\\left(3 \\times \\frac{1}{15}\\right) = \\frac{1}{5}$. Remaining work = $1 - \\left(\\frac{1}{2} + \\frac{1}{5}\\right) = \\frac{3}{10}$.\nBut, (B + C)'s 1 day's work = $\\left(\\frac{1}{12} + \\frac{1}{15}\\right) = \\frac{27}{180} = \\frac{3}{20}$.\nNow, $\\frac{3}{20}$ work is done by (B + C) in 1 day.\n$\\therefore \\frac{3}{10}$ work is done by (B + C) in $\\left(\\frac{20}{3} \\times \\frac{3}{10}\\right) = 2$ days.\nHence, total time taken = (2 + 3 + 2) days = 7 days.",
+      "page_numbers": [
+        "529"
+      ],
+      "answer_page_numbers": [
+        "529"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "M.B.A., 2009",
+      "passage_text": "",
+      "question_text": "A and B can do a piece of work in 45 and 40 days respectively. They began the work together but A leaves after some days and B finished the remaining work in 23 days. After how many days did A leave?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "B's 23 days' work = $\\left(23 \\times \\frac{1}{40}\\right) = \\frac{23}{40}$. Remaining work = $\\left(1 - \\frac{23}{40}\\right) = \\frac{17}{40}$.\nNow, (A + B)'s 1 day's work = $\\left(\\frac{1}{45} + \\frac{1}{40}\\right) = \\frac{17}{360}$.\nThus, $\\frac{17}{360}$ work is done by (A + B) in 1 day.\n$\\therefore \\frac{17}{40}$ work is done by (A + B) in $\\left(\\frac{360}{17} \\times \\frac{17}{40}\\right) = 9$ days.\nHence, A left after 9 days.",
+      "page_numbers": [
+        "529"
+      ],
+      "answer_page_numbers": [
+        "529"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B working separately can do a piece of work in 9 and 12 days respectively. If they work for a day alternately, A beginning, in how many days, the work will be completed?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B)'s 2 days' work = $\\left(\\frac{1}{9} + \\frac{1}{12}\\right) = \\frac{7}{36}$.\nWork done in 5 pairs of days = $\\left(5 \\times \\frac{7}{36}\\right) = \\frac{35}{36}$.\nRemaining work = $\\left(1 - \\frac{35}{36}\\right) = \\frac{1}{36}$.\nOn 11th day, it is A's turn. $\\frac{1}{9}$ work is done by him in 1 day.\n$\\frac{1}{36}$ work is done by him in $\\left(9 \\times \\frac{1}{36}\\right) = \\frac{1}{4}$ day.\n$\\therefore$ Total time taken = $\\left(10 + \\frac{1}{4}\\right)$ days = $10\\frac{1}{4}$ days.",
+      "page_numbers": [
+        "529"
+      ],
+      "answer_page_numbers": [
+        "529"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 120 days and B can do it in 150 days. They work together for 20 days. Then, B leaves and A alone continues the work. 12 days after that C joins A and the work is completed in 48 days more. In how many days can C do it, if he works alone?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "",
+      "page_numbers": [
+        "529"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B can do a piece of work in 12 days. B and C together can do it in 15 days. If A is twice as good a workman as C, find in what time B alone can do it.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sol. A’s 1 day’s work = C’s 2 days’ work.\n$\\therefore$ (A + B)’s 1 day’s work = (B’s 1 day’s work) + (C’s 2 days’ work)\n$\\Rightarrow$ (B’s 1 day’s work) + (C’s 2 days’ work) = $\\frac{1}{12}$ ...(i)\nBut (B’s 1 day’s work) + (C’s 1 day’s work) = $\\frac{1}{15}$ ...(ii)\nSubtracting (ii) from (i), we get: C’s 1 day’s work = $\\left(\\frac{1}{12} - \\frac{1}{15}\\right) = \\frac{1}{60}$.\n$\\therefore$ B’s 1 day’s work = $\\left(\\frac{1}{15} - \\frac{1}{60}\\right) = \\frac{3}{60} = \\frac{1}{20}$.\nHence, B alone can finish the work in 20 days.",
+      "page_numbers": [
+        "530"
+      ],
+      "answer_page_numbers": [
+        "530"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "45 men can complete a work in 16 days. Six days after they started working, 30 more men joined them. How many days will they now take to complete the remaining work ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sol. (45 $\\times$ 16) men can complete the work in 1 day.\n$\\therefore$ 1 man’s 1 day’s work = $\\frac{1}{720}$. 45 men's 1 days' work = $\\frac{45}{720} = \\frac{1}{16}$.\n45 men’s 6 days’ work = $\\left(\\frac{1}{16} \\times 6\\right) = \\frac{3}{8}$. Remaining work = $\\left(1 - \\frac{3}{8}\\right) = \\frac{5}{8}$.\n75 men’s 1 day’s work = $\\frac{75}{720} = \\frac{5}{48}$.\nNow, $\\frac{5}{48}$ work is done by them in 1 day.\n$\\therefore$ $\\frac{5}{8}$ work is done by them in $\\left(\\frac{48}{5} \\times \\frac{5}{8}\\right) = 6$ days.",
+      "page_numbers": [
+        "530"
+      ],
+      "answer_page_numbers": [
+        "530"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "19",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "10 persons begin to work together on a job but after some days 4 persons leave. As a result, the job which could have been completed in 40 days is completed in 50 days. How many days after the commencement of the work did the 4 persons leave?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sol. 10 persons can complete the work in 40 days.\n$\\therefore$ 1 person’s 1 day’s work = $\\frac{1}{40 \\times 10} = \\frac{1}{400}$.\nSuppose 4 persons left after $x$ days.\nThen, $\\left(\\frac{1}{400} \\times 10 \\times x\\right) + \\left(\\frac{1}{400} \\times 6 \\times (50 - x)\\right) = 1$\n$\\Rightarrow \\frac{x}{40} + \\frac{3(50 - x)}{200} = 1$\n$\\Rightarrow \\frac{1}{40}x + \\frac{3}{4} - \\frac{3}{200}x = \\frac{1}{100}x = \\frac{1}{4} \\Rightarrow x = 25$.\nHence, 4 persons left 25 days after the commencement of the work.",
+      "page_numbers": [
+        "530"
+      ],
+      "answer_page_numbers": [
+        "530"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "20",
+      "exam_reference": "Bank. P.O., 2006",
+      "passage_text": "",
+      "question_text": "9 children can complete a piece of work in 360 days. 18 men can complete the same piece of work in 72 days and 12 women can complete it in 162 days. In how many days can 4 men, 12 women and 10 children together complete the piece of work?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sol. 1 man’s 1 day’s work = $\\frac{1}{72 \\times 18} = \\frac{1}{1296}$.\n1 woman’s 1 day’s work = $\\frac{1}{162 \\times 12} = \\frac{1}{1944}$.\n1 child’s 1 day’s work = $\\frac{1}{360 \\times 9} = \\frac{1}{3240}$.\n(4 men + 12 women + 10 children)’s 1 day’s work\n= $\\left(4 \\times \\frac{1}{1296} + 12 \\times \\frac{1}{1944} + 10 \\times \\frac{1}{3240}\\right) = \\left(\\frac{1}{324} + \\frac{1}{162} + \\frac{1}{324}\\right) = \\frac{4}{324} = \\frac{1}{81}$.\nHence, 4 men, 12 women and 10 children can complete the work in 81 days.",
+      "page_numbers": [
+        "530",
+        "531"
+      ],
+      "answer_page_numbers": [
+        "531"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "2 men and 3 boys can do a piece of work in 10 days while 3 men and 2 boys can do the same work in 8 days. In how many days can 2 men and 1 boy do the work?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sol. Let 1 man’s 1 day’s work = $x$ and 1 boy’s 1 day’s work = $y$.\nThen, $2x + 3y = \\frac{1}{10}$ and $3x + 2y = \\frac{1}{8}$.\nSolving, we get : $x = \\frac{7}{200}$ and $y = \\frac{1}{100}$.\n$\\therefore$ (2 men + 1 boy)’s 1 day’s work = $\\left(2 \\times \\frac{7}{200} + 1 \\times \\frac{1}{100}\\right) = \\frac{16}{200} = \\frac{2}{25}$.\nSo, 2 men and 1 boy together can finish the work in $\\frac{25}{2} = 12\\frac{1}{2}$ days.",
+      "page_numbers": [
+        "531"
+      ],
+      "answer_page_numbers": [
+        "531"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "3 men and 4 women can earn ₹ 3780 in 7 days. 11 men and 13 women can earn ₹ 15040 in 8 days. In what time will 7 men and 9 women earn ₹ 12400?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sol. Let 1 man’s 1 day’s earning be ₹ $x$ and 1 woman’s 1 day’s earning be ₹ $y$.\nThen, $3x + 4y = \\frac{3780}{7} = 540$ ...(i)\nAnd, $11x + 13y = \\frac{15040}{8} = 1880$ ...(ii)\nSolving (i) and (ii), we get: $x = 100, y = 60$.\n(7 men + 9 women)’s 1 day’s earning = ₹ $(7 \\times 100 + 9 \\times 60) = ₹ 1240$.\nHence, required time = $\\left(\\frac{12400}{1240}\\right)$ days = 10 days.",
+      "page_numbers": [
+        "531"
+      ],
+      "answer_page_numbers": [
+        "531"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "Ayesha can complete a piece of work in 16 days. Amita can complete the same piece of work in 8 days. If both of them work together in how many days can they complete the same piece of work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$4\\frac{2}{5}$ days",
+      "option_b": "$5\\frac{1}{3}$ days",
+      "option_c": "6 days",
+      "option_d": "12 days",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Ayesha’s 1 day’s work = $\frac{1}{16}$. Amita’s 1 day’s work = $\frac{1}{8}$.\n(Ayesha + Amita)’s 1 day’s work = $\frac{1}{16} + \frac{1}{8} = \frac{3}{16}$.\n$\\therefore$ Both together can complete the work in $\frac{16}{3} = 5\frac{1}{3}$ days.",
+      "page_numbers": [
+        "531"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "A can complete a certain work in 4 minutes, B in 5 minutes, C in 6 minutes, D in 10 minutes and E in 12 minutes. The average number of units of work completed by them per minute will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.16",
+      "option_b": "0.40",
+      "option_c": "0.80",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Required average\n$= \frac{\frac{1}{4} + \frac{1}{5} + \frac{1}{6} + \frac{1}{10} + \frac{1}{12}}{5} = \frac{\frac{15+12+10+6+5}{60}}{5} = \frac{48}{60 \times 5} = \frac{4}{25} = 0.16$.",
+      "page_numbers": [
+        "531"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "S.S.C., 2002",
+      "passage_text": "",
+      "question_text": "A can finish a work in 18 days and B can do the same work in half the time taken by A. Then, working together, what part of the same work they can finish in a day ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{6}$",
+      "option_b": "$\\frac{1}{9}$",
+      "option_c": "$\\frac{2}{5}$",
+      "option_d": "$\\frac{2}{7}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "A’s 1 day’s work = $\frac{1}{18}$ and B’s 1 day’s work = $\frac{1}{9}$.\n(A + B)’s 1 day’s work = $\frac{1}{18} + \frac{1}{9} = \frac{3}{18} = \frac{1}{6}$.",
+      "page_numbers": [
+        "531"
+      ],
+      "answer_page_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A tyre has two punctures. The first puncture alone would have made the tyre flat in 9 minutes and the second alone would have done it in 6 minutes. If air leaks out at a constant rate, how long does it take both the punctures together to make it flat ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{1}{2}$ minutes",
+      "option_b": "$3\\frac{1}{2}$ minutes",
+      "option_c": "$3\\frac{3}{5}$ minutes",
+      "option_d": "$4\\frac{1}{4}$ minutes",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "1 minute’s work of both the punctures = $\frac{1}{9} + \frac{1}{6} = \frac{5}{18}$.\nSo, both the punctures will make the tyre flat in $\frac{18}{5} = 3\frac{3}{5}$ min.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "R.R.B., 2004",
+      "passage_text": "",
+      "question_text": "A can knit a pair of socks in 3 days. B can knit the same pair in 9 days. If they are knitting together, then in how many days will they knit two pairs of socks?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 days",
+      "option_b": "4 days",
+      "option_c": "$4\\frac{1}{2}$ days",
+      "option_d": "5 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Number of pairs knit by A and B together in 1 day\n$= \frac{1}{3} + \frac{1}{9} = \frac{4}{9}$.\n$\\therefore$ Required number of days = $1 \times \frac{9}{4} = \frac{9}{4} = 2\frac{1}{4}$.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can complete a work in 6 days while B can complete the same work in 12 days. If they work together and complete it, the portion of the work done by A is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$\\frac{1}{4}$",
+      "option_c": "$\\frac{1}{2}$",
+      "option_d": "$\\frac{2}{3}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "(A + B)’s 1 day’s work = $\frac{1}{6} + \frac{1}{12} = \frac{3}{12} = \frac{1}{4}$.\n$\\therefore$ Both A and B together can complete the work in 4 days.\nPart of the work done by A = $\frac{1}{6} \times 4 = \frac{2}{3}$.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 8 days and B can do the same piece of work in 12 days. A and B together complete the same piece of work and get ₹ 200 as the combined wages. B’s share of the wages will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 75",
+      "option_b": "₹ 80",
+      "option_c": "₹ 85",
+      "option_d": "₹ 90",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "A’s share : B’s share = Ratio of their 1 day’s work\n$= \frac{1}{8} : \frac{1}{12} = 3 : 2$.\n$\\therefore$ B’s share = ₹ $\frac{2}{5} \times 200 = ₹ 80$.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "George takes 8 hours to copy a 50-page manuscript while Sonia can copy the same manuscript in 6 hours. How many hours would it take them to copy a 100-page manuscript, if they work together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$6\\frac{6}{7}$",
+      "option_b": "9",
+      "option_c": "$9\\frac{5}{7}$",
+      "option_d": "14",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Number of pages typed by George in 1 hour = $\frac{50}{8} = \frac{25}{4}$.\nNumber of pages typed by Sonia in 1 hour = $\frac{50}{6} = \frac{25}{3}$.\nNumber of pages typed by George and Sonia together in 1 hour = $\frac{25}{4} + \frac{25}{3} = \frac{75+100}{12} = \frac{175}{12}$.\n$\\therefore$ Required time = $100 \times \frac{12}{175} = \frac{48}{7} = 6\frac{6}{7}$ hrs.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "A and B together complete a piece of work in T days. If A alone completes the work in T + 3 days and B alone completes the piece of work in T + 12 days, what is T?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 days",
+      "option_b": "9 days",
+      "option_c": "12 days",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "A’s 1 day’s work = $\frac{1}{T+3}$;\nB’s 1 day’s work = $\frac{1}{T+12}$.\n(A + B)’s 1 day’s work = $\frac{1}{T}$.\n$\\therefore \frac{1}{T+3} + \frac{1}{T+12} = \frac{1}{T} \\Rightarrow \frac{2T+15}{(T+3)(T+12)} = \frac{1}{T}$.\n$\\Rightarrow 2T^2 + 15T = T^2 + 15T + 36$.\n$\\Rightarrow T^2 = 36 \\Rightarrow T = 6$.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "Bank P.O., 2004",
+      "passage_text": "",
+      "question_text": "Reena, Aastha and Shloka can independently complete a piece of work in 6 hours, 4 hours and 12 hours respectively. If they work together, how much time will they take to complete that piece of work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 hours",
+      "option_b": "5 hours",
+      "option_c": "6 hours",
+      "option_d": "8 hours",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Reena’s 1 hour’s work = $\frac{1}{6}$;\nAastha’s 1 hour’s work = $\frac{1}{4}$;\nShloka’s 1 hour’s work = $\frac{1}{12}$.\n(Reena + Aastha + Shloka)’s 1 hour’s work\n$= \frac{1}{6} + \frac{1}{4} + \frac{1}{12} = \frac{2+3+1}{12} = \frac{6}{12} = \frac{1}{2}$.\nHence, Reena, Aastha and Shloka together take 2 hours to complete the work.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man can do a job in 15 days. His father takes 20 days and his son finishes it in 25 days. How long will they take to complete the job if they all work together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Less than 6 days",
+      "option_b": "Exactly 6 days",
+      "option_c": "Approximately 6.4 days",
+      "option_d": "More than 10 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "1 day’s work of the three persons = $\frac{1}{15} + \frac{1}{20} + \frac{1}{25} = \frac{47}{300}$.\nSo, all the three together will complete the work in $\frac{300}{47} \\approx 6.4$ days.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "Amit and Sumit can plough a field in 4 days. Sumit alone can plough the field in 6 days. In how many days will Amit alone plough the field?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 days",
+      "option_b": "12 days",
+      "option_c": "14 days",
+      "option_d": "15 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Amit’s 1 day’s work = $\frac{1}{4} - \frac{1}{6} = \frac{1}{12}$.\n$\\therefore$ Amit alone can plough the field in 12 days.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "Two spinning machines A and B can together produce 3,00,000 metres of cloth in 10 hours. If machine B alone can produce the same amount of cloth in 15 hours, then how much cloth can machine A produce alone in 10 hours?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "50,000 metres",
+      "option_b": "1,00,000 metres",
+      "option_c": "1,50,000 metres",
+      "option_d": "2,00,000 metres",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Length of cloth produced by A and B in 10 hrs = 3,00,000 m.\nLength of cloth produced by B in 10 hrs = $\frac{300000}{15} \times 10 = 200000$ m.\n$\\therefore$ Length of cloth produced by A in 10 hrs = (300000 – 200000) m = 100000 m.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "X, Y and Z complete a work in 6 days. X or Y alone can do the same work in 16 days. In how many days Z alone can finish the same work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "16",
+      "option_c": "24",
+      "option_d": "36",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "(X + Y)’s 1 day’s work = $\frac{1}{16} + \frac{1}{16} = \frac{2}{16} = \frac{1}{8}$.\nZ’s 1 day’s work = (X + Y + Z)’s 1 day’s work – (X + Y)’s 1 day’s work = $\frac{1}{6} - \frac{1}{8} = \frac{1}{24}$.\n$\\therefore$ Z alone can finish the work in 24 days.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "A can lay railway track between two given stations in 16 days and B can do the same job in 12 days. With the help of C, they did the job in 4 days only. Then, C alone can do the job in :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$9\\frac{1}{5}$ days",
+      "option_b": "$9\\frac{2}{5}$ days",
+      "option_c": "$9\\frac{3}{5}$ days",
+      "option_d": "10 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "(A + B + C)’s 1 day’s work = $\frac{1}{4}$,\nA’s 1 day’s work = $\frac{1}{16}$,\nB’s 1 day’s work = $\frac{1}{12}$.\n$\\therefore$ C’s 1 day’s work = $\frac{1}{4} - (\frac{1}{16} + \frac{1}{12}) = \frac{1}{4} - \frac{7}{48} = \frac{5}{48}$.\nSo, C alone can do the work in $\frac{48}{5} = 9\frac{3}{5}$ days.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "S.S.C., 2010; P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "A can complete $\\frac{1}{3}$ of a work in 5 days and B, $\\frac{2}{5}$ of the work in 10 days. In how many days both A and B together can complete the work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$7\\frac{1}{2}$",
+      "option_b": "$8\\frac{4}{5}$",
+      "option_c": "$9\\frac{3}{8}$",
+      "option_d": "10",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Whole work will be done by A in (5 $\\times$ 3) = 15 days.\nWhole work will be done by B in (5 $\\times$ 5) = 25 days.\nA’s 1 day’s work = $\frac{1}{15}$; B’s 1 day’s work = $\frac{1}{25}$.\n(A + B)’s 1 day’s work = $\frac{1}{15} + \frac{1}{25} = \frac{8}{75}$.\n$\\therefore$ A and B together can complete the work in $\frac{75}{8} = 9\frac{3}{8}$ days.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "X can do $\\frac{1}{4}$ of a work in 10 days, Y can do 40% of the work in 40 days and Z can do $\\frac{1}{3}$ of the work in 13 days. Who will complete the work first ?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Whole work will be done by X in (10 $\\times$ 4) = 40 days.\nWhole work will be done by Y in (40 $\\times$ $\frac{100}{40}$) = 100 days.\nWhole work will be done by Z in (13 $\\times$ 3) = 39 days.\n$\\therefore$ Z will complete the work first.",
+      "page_numbers": [
+        "532"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "A man and a boy together can do a certain amount of digging in 40 days. Their speeds in digging are in the ratio of 8 : 5. How many days will the boy take to complete the work if engaged alone?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "52 days",
+      "option_b": "68 days",
+      "option_c": "80 days",
+      "option_d": "104 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Ratio of digging speeds of man and boy = 8 : 5.\nRatio of times taken by man and boy = 5 : 8.\nSuppose the man takes 5x days while the boy takes 8x days to complete the work alone.\nThen, $\frac{1}{5x} + \frac{1}{8x} = \frac{1}{40} \\Rightarrow \frac{13}{40x} = \frac{1}{40} \\Rightarrow x = 13$.\nHence, time taken by the boy to complete the work alone = (8 $\\times$ 13) days = 104 days.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "S.S.C., 2002",
+      "passage_text": "",
+      "question_text": "A takes twice as much time as B or thrice as much time as C to finish a piece of work. Working together, they can finish the work in 2 days. B can do the work alone in :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 days",
+      "option_b": "6 days",
+      "option_c": "8 days",
+      "option_d": "12 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Suppose A, B and C take x, $\\frac{x}{2}$ and $\\frac{x}{3}$ days respectively to finish the work.\nThen, $\frac{1}{x} + \frac{2}{x} + \frac{3}{x} = \frac{1}{2} \\Rightarrow \frac{6}{x} = \frac{1}{2} \\Rightarrow x = 12$.\nSo, B takes 6 days to finish the work.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "Work done by A in one day is half of the work done by B in one day. Work done by B is half of the work done by C in one day. If C alone can complete the work in 7 days, in how many days can A, B and C together complete the work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "14",
+      "option_c": "21",
+      "option_d": "28",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "C’s 1 day’s work = $\frac{1}{7}$; B’s 1 day’s work = $\frac{1}{2} \\times \frac{1}{7} = \frac{1}{14}$;\nA’s 1 day’s work = $\frac{1}{2} \\times \frac{1}{14} = \frac{1}{28}$.\n$\\therefore$ (A + B + C)’s 1 day’s work = $\frac{1}{28} + \frac{1}{14} + \frac{1}{7} = \frac{1+2+4}{28} = \frac{7}{28} = \frac{1}{4}$.\nHence, A, B and C together can complete the work in 4 days.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "Rosa can eat 32 rosogollas in one hour. Her sister Lila needs three hours to eat the same number. How much time will they take to eat 32 rosogollas together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "45 minutes",
+      "option_b": "75 minutes",
+      "option_c": "90 minutes",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Number of rosogollas eaten by Rosa in 1 minute = $\\frac{32}{60}$\nNumber of rosogollas eaten by Lila in 1 minute = $\\frac{32}{180}$\nNumber of rosogollas eaten by Rosa and Lila together in 1 minute = $\\left(\\frac{32}{60}+\\frac{32}{180}\\right) = \\frac{128}{180}$\nRequired time = $\\left(1\\div\\frac{128}{180}\\right) = \\left(\\frac{32\\times180}{128}\\right)$ min = 45 min.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "P.C.S., 2006",
+      "passage_text": "",
+      "question_text": "A conveyor belt delivers baggage at the rate of 3 tons in 5 minutes and a second conveyor belt delivers baggage at the rate of 1 ton in 2 minutes. How much time will it take to get 33 tons of baggage delivered using both the conveyor belts together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25 min 30 sec",
+      "option_b": "30 min",
+      "option_c": "35 min",
+      "option_d": "45 min",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Baggage delivered by first belt in 1 min = $\\frac{3}{5}$ tons.\nBaggage delivered by second belt in 1 min = $\\frac{1}{2}$ ton.\nBaggage delivered by both belts in 1 min = $\\left(\\frac{3}{5}+\\frac{1}{2}\\right)$ ton = $\\frac{11}{10}$ tons.\nRequired time = $\\left(33\\div\\frac{11}{10}\\right)$ min = $\\left(\\frac{33\\times10}{11}\\right)$ min = 30 min.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "M.B.A., 2011",
+      "passage_text": "",
+      "question_text": "A manufacturer builds a machine which will address 500 envelopes in 8 minutes. He wishes to build another machine so that when both are operating together they will address 500 envelopes in 2 minutes. The equation used to find how many minutes x it would require the second machine to address 500 envelopes alone, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$8 - x = 2$",
+      "option_b": "$\\frac{1}{8} + \\frac{1}{x} = \\frac{1}{2}$",
+      "option_c": "$\\frac{500}{8} + \\frac{500}{x} = 500$",
+      "option_d": "$\\frac{1}{2} + \\frac{x}{8} = 1$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Number of envelopes addressed by first machine in 1 min = $\\frac{500}{8}$\nNumber of envelopes addressed by second machine in 1 min = $\\frac{500}{x}$\nNumber of envelopes addressed by both machines in 1 min = $\\frac{500}{2}$\n$\\frac{500}{8} + \\frac{500}{x} = \\frac{500}{2} \\Rightarrow \\frac{1}{8} + \\frac{1}{x} = \\frac{1}{2}$",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "M.C.A., 2009",
+      "passage_text": "",
+      "question_text": "Computer A takes 3 minutes to process an input while computer B takes 5 minutes. If computers A, B and C can process an average of 14 inputs in one hour, how many minutes does computer C alone take to process one input?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "6",
+      "option_c": "10",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Number of units processed by computer A in 1 min = $\\frac{1}{3}$\nNumber of units processed by computer B in 1 min = $\\frac{1}{5}$\nNumber of units processed by A, B and C in 1 min = $\\frac{14\\times3}{60} = \\frac{7}{10}$\nNumber of units processed by computer C in 1 min = $\\left(\\frac{7}{10} - \\left(\\frac{1}{3} + \\frac{1}{5}\\right)\\right) = \\left(\\frac{7}{10} - \\frac{8}{15}\\right) = \\frac{21-16}{30} = \\frac{5}{30} = \\frac{1}{6}$\nHence, computer C takes 6 minutes to process one input alone.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Bob and David are two typists. One afternoon, they were each given 40 pages for typing. They divided the work equally but David finished 20 minutes before Bob who took 2 hours for the same. The next afternoon, they were again given 77 pages to type. However, this time they decided to divide the work such that they finished typing simultaneously. How many pages did Bob have to type?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "35",
+      "option_b": "36",
+      "option_c": "40",
+      "option_d": "42",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Time taken by Bob to type 20 pages = 2 hrs = 120 min.\nTime taken by David to type 20 pages = 1 hr 40 min = 100 min.\nTime taken by Bob to type 1 page = $\\frac{120}{20}$ min = 6 min.\nTime taken by David to type 1 page = $\\frac{100}{20}$ min = 5 min.\nBob's 1 minute's work = $\\frac{1}{6}$;\nDavid's 1 minute's work = $\\frac{1}{5}$.\nRatio of division of work = $\\frac{1}{6} : \\frac{1}{5} = 5 : 6$.\nHence, number of pages to be typed by Bob = $\\left(\\frac{5}{11} \\times 77\\right) = 35$.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "P, Q and R are three typists who working simultaneously can type 216 pages in 4 hours. In one hour, R can type as many pages more than Q as Q can type more than P. During a period of five hours, R can type as many pages as P can during seven hours. How many pages does each of them type per hour ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "14, 17, 20",
+      "option_b": "15, 17, 22",
+      "option_c": "15, 18, 21",
+      "option_d": "16, 18, 22",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number of pages typed in one hour by P, Q and R be $x, y$ and $z$ respectively.\nThen, $x + y + z = \\frac{216}{4}$\n$\\Rightarrow x + y + z = 54z$ ...(i)\n$z - y = y - x$\n$\\Rightarrow 2y = x + z$ ...(ii)\n$5z = 7x$\n$\\Rightarrow x = \\frac{5}{7}z$ ...(iii)\nSolving (i), (ii) and (iii), we get $x = 15, y = 18, z = 21$.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "SCMHRD, 2002",
+      "passage_text": "",
+      "question_text": "Ronald and Elan are working on an assignment. Ronald takes 6 hours to type 32 pages on a computer, while Elan takes 5 hours to type 40 pages. How much time will they take, working together on two different computers to type an assignment of 110 pages ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7 hours 30 minutes",
+      "option_b": "8 hours",
+      "option_c": "8 hours 15 minutes",
+      "option_d": "8 hours 25 minutes",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Number of pages typed by Ronald in 1 hour = $\\frac{32}{6} = \\frac{16}{3}$\nNumber of pages typed by Elan in 1 hour = $\\frac{40}{5} = 8$\nNumber of pages typed by both in 1 hour = $\\left(\\frac{16}{3} + 8\\right) = \\frac{40}{3}$\nTime taken by both to type 110 pages = $\\left(110 \\times \\frac{3}{40}\\right)$ hrs = $8\\frac{1}{4}$ hrs = 8 hrs 15 min.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "M.A.T., 2004",
+      "passage_text": "",
+      "question_text": "Cloth Makers Inc. has p spindles, each of which can produce q metres of cloth on an average in r minutes. If the spindles are made to run with no interruption, then how many hours will it take for 20,000 metres of cloth to be produced?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{20000 pq}{r}$",
+      "option_b": "$\\frac{20000 rq}{p}$",
+      "option_c": "$\\frac{20000 r}{pq}$",
+      "option_d": "$\\frac{20000}{60} \\frac{r}{pq}$",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Length of cloth produced in 1 hour = $\\left(\\frac{pq}{r} \\times 60\\right) = \\left(\\frac{60pq}{r}\\right)$ m.\nRequired time = $\\left(20000 \\div \\frac{60pq}{r}\\right)$ hrs = $\\left(\\frac{20000r}{60pq}\\right)$ hrs.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "Two workers A and B are engaged to do a work. A working alone takes 8 hours more to complete the job than if both worked together. If B worked alone, he would need $1\\frac{4}{2}$ hours more to complete the job than they both working together. What time would they take to do the work together ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 hours",
+      "option_b": "5 hours",
+      "option_c": "6 hours",
+      "option_d": "7 hours",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let A and B together take $x$ hours to complete the work.\nThen, A alone takes $(x + 8)$ hrs and B alone takes $\\left(x + \\frac{9}{2}\\right)$ hrs to complete the work.\nThen, $\\frac{1}{x+8} + \\frac{1}{x+\\frac{9}{2}} = \\frac{1}{x}$\n$\\Rightarrow \\frac{1}{x+8} + \\frac{2}{2x+9} = \\frac{1}{x}$\n$x(4x + 25) = (x + 8)(2x + 9)$\n$2x^2 = 72 \\Rightarrow x^2 = 36 \\Rightarrow x = 6$.",
+      "page_numbers": [
+        "533"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "Three friends Anne, Bob and Chris work together to do a certain job. The time it takes them to do the work together is 6 hours less than Anne would have take alone, 1 hour less than Bob would have taken alone and half the time Chris would have taken working alone. How long did it take them to complete the job, working together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20 min",
+      "option_b": "30 min",
+      "option_c": "40 min",
+      "option_d": "50 min",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the time taken by the three friends together to do the work be $x$ hours.\nThen, time taken by Anne alone = $(x + 6)$ hrs;\ntime taken by Bob alone = $(x + 1)$ hrs;\ntime taken by Chris alone = $2x$ hrs.\n$\\frac{1}{x+6} + \\frac{1}{x+1} + \\frac{1}{2x} = \\frac{1}{x}$\n$\\frac{2(x+1) + 2(x+6)}{2(x+6)(x+1)} = \\frac{1}{2x}$\n$5x^2 + 21x + 6 = 2(x^2 + 7x + 6)$\n$3x^2 + 7x - 6 = 0 \\Rightarrow (x + 3)(3x - 2) = 0 \\Rightarrow x = \\frac{2}{3}$\nRequired time = $\\left(\\frac{2}{3} \\times 60\\right)$ min = 40 min.",
+      "page_numbers": [
+        "533",
+        "534"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "To do a piece of work, B takes 3 times as long as A and C together and C twice as long as A and B together. If A, B and C together can complete the work in 10 days, how long would A take alone to complete it?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "24 days",
+      "option_b": "30 days",
+      "option_c": "36 days",
+      "option_d": "40 days",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$3$ (B's 1 day's work) = (A + C)'s 1 day's work\n$\\Rightarrow 4$ (B's 1 day's work) = (A + B + C)'s 1 day's work\n$\\Rightarrow$ B's 1 day's work = $\\left(\\frac{1}{4} \\times \\frac{1}{10}\\right) = \\frac{1}{40}$.\n$2$ (C's 1 day's work) = (A + B)'s 1 day's work\n$\\Rightarrow 3$ (C's 1 day's work) = (A + B + C)'s 1 day's work\n$\\Rightarrow$ C's 1 day's work = $\\left(\\frac{1}{3} \\times \\frac{1}{10}\\right) = \\frac{1}{30}$.\nA's 1 day's work = (A + B + C)'s 1 day's work - (B + C)'s 1 day's work\n$= \\left(\\frac{1}{10} - \\left(\\frac{1}{40} + \\frac{1}{30}\\right)\\right) = \\left(\\frac{1}{10} - \\frac{7}{120}\\right) = \\frac{12-7}{120} = \\frac{5}{120} = \\frac{1}{24}$.\nHence, A alone would take 24 days to complete the work.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "P can complete a work in 12 days working 8 hours a day. Q can complete the same work in 8 days working 10 hours a day. If both P and Q work together, working 8 hours a day, in how many days can they complete the work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5\\frac{5}{11}$",
+      "option_b": "$6\\frac{5}{11}$",
+      "option_c": "$5\\frac{6}{11}$",
+      "option_d": "$6\\frac{6}{11}$",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "P can complete the work in $(12 \\times 8)$ hrs = 96 hrs.\nQ can complete the work in $(8 \\times 10)$ hrs = 80 hrs.\nP's 1 hour's work = $\\frac{1}{96}$\nQ's 1 hour's work = $\\frac{1}{80}$\n(P + Q)'s 1 hour's work = $\\left(\\frac{1}{96} + \\frac{1}{80}\\right) = \\frac{11}{480}$\nSo, both P and Q will finish the work in $\\frac{480}{11}$ hrs.\nNumber of days of 8 hours each = $\\left(\\frac{480}{11} \\times \\frac{1}{8}\\right) = \\frac{60}{11}$ days = $5\\frac{5}{11}$ days.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "A and B together can complete a work in 12 days, B and C together can complete the same work in 8 days and A and C together can complete it in 16 days. In total, how many days do A, B and C together take to complete the same work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5\\frac{3}{12}$",
+      "option_b": "$9\\frac{3}{13}$",
+      "option_c": "$5\\frac{7}{12}$",
+      "option_d": "$5\\frac{7}{13}$",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "(A + B)'s 1 day's work = $\\frac{1}{12}$;\n(B + C)'s 1 day's work = $\\frac{1}{8}$;\n(A + C)'s 1 day's work = $\\frac{1}{16}$.\nAdding, we get: $2$ (A + B + C)'s 1 day's work\n$= \\left(\\frac{1}{12} + \\frac{1}{8} + \\frac{1}{16}\\right) = \\frac{13}{48}$.\n(A + B + C)'s 1 day's work = $\\frac{13}{96}$.\nSo, A, B and C together can complete the work in $\\frac{96}{13} = 7\\frac{5}{13}$ days.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 4 hours, B and C together in 3 hours, and A and C together in 2 hours. How long will B alone take to do it?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 hours",
+      "option_b": "10 hours",
+      "option_c": "12 hours",
+      "option_d": "24 hours",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "A's 1 hour's work = $\\frac{1}{4}$;\n(B + C)'s 1 hour's work = $\\frac{1}{3}$;\n(A + C)'s 1 hour's work = $\\frac{1}{2}$.\n(A + B + C)'s 1 hour's work = $\\left(\\frac{1}{4} + \\frac{1}{3}\\right) = \\frac{7}{12}$.\nB's 1 hour's work = (A + B + C)'s 1 hour's work - (A + C)'s 1 hour's work\n$= \\left(\\frac{7}{12} - \\frac{1}{2}\\right) = \\frac{1}{12}$.\nSo, B alone can complete the work in 12 hours.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "A and B can do a work in 8 days, B and C can do the same work in 12 days. A, B and C together can finish it in 6 days. A and C together will do it in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 days",
+      "option_b": "6 days",
+      "option_c": "8 days",
+      "option_d": "12 days",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B + C)'s 1 day's work = $\\frac{1}{6}$;\n(A + B)'s 1 day's work = $\\frac{1}{8}$;\n(B + C)'s 1 day's work = $\\frac{1}{12}$.\n(A + C)'s 1 day's work\n$= \\left(2 \\times \\frac{1}{6} - \\left(\\frac{1}{8} + \\frac{1}{12}\\right)\\right) = \\left(\\frac{1}{3} - \\frac{5}{24}\\right) = \\frac{3}{24} = \\frac{1}{8}$.\nSo, A and C together will do the work in 8 days.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "M.B.A., 2011",
+      "passage_text": "",
+      "question_text": "A and B together can do a job in 2 days; B and C can do it in 4 days; A and C in $2\\frac{2}{5}$ days. The number of days required for A to do the job alone is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "3",
+      "option_c": "6",
+      "option_d": "12",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B)'s 1 day's work = $\\frac{1}{2}$;\n(B + C)'s 1 day's work = $\\frac{1}{4}$;\n(A + C)'s 1 day's work = $\\frac{5}{12}$.\nAdding, we get: $2$ (A + B + C)'s 1 day's work\n$= \\left(\\frac{1}{2} + \\frac{1}{4} + \\frac{5}{12}\\right) = \\frac{14}{12} = \\frac{7}{6}$.\n(A + B + C)'s 1 day's work = $\\frac{7}{12}$.\nSo, A's 1 day's work = $\\left(\\frac{7}{12} - \\frac{1}{4}\\right) = \\frac{4}{12} = \\frac{1}{3}$.\nA alone can do the work in 3 days.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B can do a piece of work in 5 days; B and C can do it in 7 days; A and C can do it in 4 days. Who among these will take the least time if put to do it alone ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "A",
+      "option_b": "B",
+      "option_c": "C",
+      "option_d": "Data inadequate",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B)'s 1 day's work = $\\frac{1}{5}$;\n(B + C)'s 1 day's work = $\\frac{1}{7}$;\n(A + C)'s 1 day's work = $\\frac{1}{4}$.\nAdding, we get: $2$ (A + B + C)'s 1 day's work\n$= \\left(\\frac{1}{5} + \\frac{1}{7} + \\frac{1}{4}\\right) = \\frac{83}{140}$.\n(A + B + C)'s 1 day's work = $\\frac{83}{280}$.\nA's 1 day's work = $\\left(\\frac{83}{280} - \\frac{1}{7}\\right) = \\frac{43}{280}$;\nB's 1 day's work = $\\left(\\frac{83}{280} - \\frac{1}{4}\\right) = \\frac{13}{280}$;\nC's 1 day's work = $\\left(\\frac{83}{280} - \\frac{1}{5}\\right) = \\frac{27}{280}$.\nThus time taken by A, B, C is $\\frac{280}{43}$ days, $\\frac{280}{13}$ days, $\\frac{280}{27}$ days respectively.\nClearly, the time taken by A is least.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "A and B can do a piece of work in 12 days, B and C in 8 days and C and A in 6 days. How long would B take to do the same work alone?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "24 days",
+      "option_b": "32 days",
+      "option_c": "40 days",
+      "option_d": "48 days",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B)'s 1 day's work = $\\frac{1}{12}$;\n(B + C)'s 1 day's work = $\\frac{1}{8}$;\n(A + C)'s 1 day's work = $\\frac{1}{6}$.\n[(A + B)'s 1 day's work + (B + C)'s 1 day's work] - (A + C)'s 1 day's work = $\\left(\\frac{1}{12} + \\frac{1}{8} - \\frac{1}{6}\\right) = \\frac{1}{24}$.\n$2$ (B's 1 day's work) = $\\frac{1}{24}$.\nB's 1 day's work = $\\frac{1}{48}$.\nHence, B alone can do the work in 48 days.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "N.M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "A can build a wall in the same time in which B and C together can do it. If A and B together could do it in 25 days and C alone in 35 days, in what time could B alone do it?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "90 days",
+      "option_b": "100 days",
+      "option_c": "175 days",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(A + B)'s 1 day's work = $\\frac{1}{25}$; C's 1 day's work = $\\frac{1}{35}$.\n(A + B + C)'s 1 day's work = $\\left(\\frac{1}{25} + \\frac{1}{35}\\right) = \\frac{12}{175}$ ...(i)\nAlso, A's 1 day's work = (B + C)'s 1 day's work ...(ii)\nFrom (i) and (ii), we get: $2 \\times$ (A's 1 day's work) = $\\frac{12}{175}$.\nA's 1 day's work = $\\frac{6}{175}$.\nB's 1 day's work = $\\left(\\frac{1}{25} - \\frac{6}{175}\\right) = \\frac{1}{175}$.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "Madhu takes twice as much time as Uma to complete a work and Rahul does it in the same time as Madhu and Uma together. If all three working together can finish the work in 6 days, then the time taken by Madhu to finish the work is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 days",
+      "option_b": "14 days",
+      "option_c": "36 days",
+      "option_d": "40 days",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Suppose Uma takes $x$ days to complete a work.\nThen, Madhu takes $2x$ days to complete the work.\nUma's 1 day's work = $\\frac{1}{x}$;\nMadhu's 1 day's work = $\\frac{1}{2x}$.\nRahul's 1 day's work = (Madhu + Uma)'s 1 day's work\n$= \\left(\\frac{1}{2x} + \\frac{1}{x}\\right) = \\frac{3}{2x}$.\n(Rahul + Madhu + Uma)'s 1 day's work\n$= \\left(\\frac{3}{2x} + \\frac{1}{2x} + \\frac{1}{x}\\right) = \\frac{6}{2x} = \\frac{3}{x}$.\n$\\frac{3}{x} = \\frac{1}{6} \\Rightarrow x = 18$.\nHence, Madhu takes $(2 \\times 18) = 36$ days to complete the work.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A takes 5 days more than B to do a certain job and 9 days more than C; A and B together can do the job in the same time as C. How many days A would take to do it?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "10",
+      "option_c": "15",
+      "option_d": "20",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Suppose A takes $x$ days to do the job alone.\nThen, B takes $(x-5)$ days and C takes $(x-9)$ days.\n$(A+B)$'s 1 day's work = C's 1 day's work\n$\\Rightarrow \\frac{1}{x} + \\frac{1}{x-5} = \\frac{1}{x-9}$\n$\\Rightarrow \\frac{(x-5)+x}{x(x-5)} = \\frac{1}{x-9}$\n$\\Rightarrow (2x-5)(x-9) = x(x-5)$\n$\\Rightarrow 2x^2-23x+45 = x^2-5x$\n$\\Rightarrow x^2-18x+45 = 0$\n$\\Rightarrow (x-3)(x-15) = 0$\n$\\Rightarrow x = 15$ [$\\because x \\neq 3$]\nHence, A alone would take 15 days to do the job.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A works twice as fast as B. If B can complete a work in 12 days independently, the number of days in which A and B can together finish the work is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 days",
+      "option_b": "6 days",
+      "option_c": "8 days",
+      "option_d": "18 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Ratio of rates of working of A and B = $2:1$.\nSo, ratio of times taken = $1:2$.\n$\\therefore$ A's 1 day's work = $\\frac{1}{6}$; B's 1 day's work = $\\frac{1}{12}$.\n$(A+B)$'s 1 day's work = $\\left(\\frac{1}{6} + \\frac{1}{12}\\right) = \\frac{3}{12} = \\frac{1}{4}$.\nSo, A and B together can finish the work in 4 days.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "Hotel Management, 2010",
+      "passage_text": "",
+      "question_text": "A is twice as good a workman as B. If they work together, they can complete a job in 18 days. If A alone does the job, in how many days he will complete the job?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "27 days",
+      "option_b": "36 days",
+      "option_c": "40 days",
+      "option_d": "54 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "(A's 1 day's work) : (B's 1 day's work) = $2:1$.\n$(A+B)$'s 1 day's work = $\\frac{1}{18}$.\n$\\therefore$ A's 1 day's work = $\\left(\\frac{1}{18} \\times \\frac{2}{3}\\right) = \\frac{1}{27}$.\nHence, A alone can finish the work in 27 days.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "David and Michael together can finish a job in 4 days 19 hrs 12 min. If David works at two-thirds Michael’s speed, how long does it take Michael alone to finish the same job?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 days",
+      "option_b": "12 days",
+      "option_c": "15 days",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Total time taken by David and Michael together\n$= 4$ days 19 hrs 12 min $= 4$ days $\\frac{19}{5}$ hrs\n$= 4$ days $\\left(\\frac{96}{5} \\times \\frac{1}{24}\\right)$ days $= 4\\frac{4}{5}$ days $= \\frac{24}{5}$ days.\n(David + Michael)'s 1 day's work = $\\frac{5}{24}$.\n(David's 1 day's work) : (Michael's 1 day's work)\n$= \\frac{2}{3} : 1 = 2:3$.\n$\\therefore$ Michael's 1 day's work = $\\left(\\frac{5}{24} \\times \\frac{3}{5}\\right) = \\frac{1}{8}$.\nHence, Michael alone can finish the job in 8 days.",
+      "page_numbers": [
+        "534"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "A.A.O. Exam, 2010; M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "A is thrice as good a workman as B and so takes 60 days less than B for doing a job. The time in which they can do the job together is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$22\\frac{1}{2}$ days",
+      "option_b": "30 days",
+      "option_c": "45 days",
+      "option_d": "60 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Ratio of times taken by A and B = $1:3$.\nIf difference of time is 2 days, B takes 3 days.\nIf difference of time is 60 days, B takes $\\left(\\frac{3}{2} \\times 60\\right) = 90$ days.\nSo, A takes 30 days to do the work.\nA's 1 day's work = $\\frac{1}{30}$; B's 1 day's work = $\\frac{1}{90}$.\n$(A+B)$'s 1 day's work = $\\left(\\frac{1}{30} + \\frac{1}{90}\\right) = \\frac{4}{90} = \\frac{2}{45}$.\n$\\therefore$ A and B together can do the work in $\\frac{45}{2} = 22\\frac{1}{2}$ days.",
+      "page_numbers": [
+        "534",
+        "535"
+      ],
+      "answer_page_numbers": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "A and B can do a job together in 7 days. A is $1\\frac{3}{4}$ times as efficient as B. The same job can be done by A alone in :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$9\\frac{1}{3}$ days",
+      "option_b": "11 days",
+      "option_c": "$12\\frac{1}{4}$ days",
+      "option_d": "$16\\frac{1}{3}$ days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "(A's 1 day's work) : (B's 1 day's work) = $\\frac{7}{4} = 7:4$.\nLet A's and B's 1 day's work be $7x$ and $4x$ respectively.\nThen, $7x + 4x = \\frac{1}{7} \\Rightarrow 11x = \\frac{1}{7} \\Rightarrow x = \\frac{1}{77}$.\n$\\therefore$ A's 1 day's work = $\\left(\\frac{1}{77} \\times 7\\right) = \\frac{1}{11}$.\nHence, A alone can do the job in 11 days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "Kamal can do a work in 15 days. Bimal is 50% more efficient than Kamal. The number of days, Bimal will take to do the same piece of work, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$7\\frac{1}{2}$",
+      "option_b": "10",
+      "option_c": "12",
+      "option_d": "14",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Ratio of times taken by Kamal and Bimal = $150:100$\n$= 3:2$\nSuppose Bimal takes $x$ days to do the work.\n$3:2 :: 15:x \\Rightarrow x = \\left(\\frac{2 \\times 15}{3}\\right) \\Rightarrow x = 10$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "A does 20% less work than B. If A can complete a piece of work in $7\\frac{1}{2}$ hours, then B can do it in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 hours",
+      "option_b": "$5\\frac{1}{2}$ hours",
+      "option_c": "6 hours",
+      "option_d": "$6\\frac{1}{2}$ hours",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Ratio of times taken by A and B = $100:80 = 5:4$.\nSuppose B takes $x$ hours to do the work.\n$5:4 :: \\frac{15}{2} : x \\Rightarrow x = \\left(\\frac{4 \\times 15}{2 \\times 5}\\right) = 6$ hours.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A is 30% more efficient than B. How much time will they, working together, take to complete a job which A alone could have done in 23 days ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11 days",
+      "option_b": "13 days",
+      "option_c": "$20\\frac{3}{17}$ days",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Ratio of times taken by A and B = $100:130 = 10:13$.\nSuppose B takes $x$ days to do the work.\nThen, $10:13 :: 23 : x \\Rightarrow x = \\left(\\frac{23 \\times 13}{10}\\right) = \\frac{299}{10}$.\nA's 1 day's work = $\\frac{1}{23}$; B's 1 day's work = $\\frac{10}{299}$.\n$(A+B)$'s 1 day's work = $\\left(\\frac{1}{23} + \\frac{10}{299}\\right) = \\frac{23}{299} = \\frac{1}{13}$.\n$\\therefore$ A and B together can complete the job in 13 days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 10 days working 8 hours per day. If B is two-thirds as efficient as A, then in how many days can B alone do the same piece of work, working 5 hours per day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "18",
+      "option_c": "20",
+      "option_d": "24",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Time taken by A alone to do the work = $(10 \\times 8)$ hrs\n$= 80$ hrs.\nSince B is two-thirds as efficient as A, so time taken by B to do the work\n$= \\left(80 \\times \\frac{3}{2}\\right)$ hrs $= 120$ hrs.\n$\\therefore$ Required time = $\\left(\\frac{120}{5}\\right)$ days $= 24$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "A does half as much work as B in one-sixth of the time. If together they take 10 days to complete a work, how much time shall B alone take to do it?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30 days",
+      "option_b": "40 days",
+      "option_c": "50 days",
+      "option_d": "70 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Suppose B takes $x$ days to do the work.\n$\\therefore$ A takes $\\left(2 \\times \\frac{1}{6}\\right) = \\frac{1}{3}x$ days to do it.\n$(A+B)$'s 1 day's work = $\\frac{1}{10}$.\n$\\therefore \\frac{3}{x} + \\frac{1}{x} = \\frac{1}{10} \\Rightarrow \\frac{4}{x} = \\frac{1}{10} \\Rightarrow x = 40$.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A is 50% as efficient as B. C does half of the work done by A and B together. If C alone does the work in 40 days, then A, B and C together can do the work in:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$13\\frac{1}{3}$ days",
+      "option_b": "15 days",
+      "option_c": "20 days",
+      "option_d": "30 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "(A's 1 day's work) : (B's 1 day's work)\n$= 150:100 = 3:2$.\nLet A's and B's 1 day's work be $3x$ and $2x$ respectively.\nThen, C's 1 day's work = $\\left(\\frac{3x+2x}{2}\\right) = \\frac{5x}{2}$.\n$\\therefore \\frac{5x}{2} = \\frac{1}{40} \\Rightarrow x = \\left(\\frac{1}{40} \\times \\frac{2}{5}\\right) = \\frac{1}{100}$.\nA's 1 day's work = $\\frac{3}{100}$; B's 1 day's work = $\\frac{1}{50}$;\nC's 1 day's work = $\\frac{1}{40}$.\n$(A+B+C)$'s 1 day's work = $\\left(\\frac{3}{100} + \\frac{1}{50} + \\frac{1}{40}\\right) = \\frac{15}{200} = \\frac{3}{40}$.\nSo, A, B and C together can do the work in $\\frac{40}{3} = 13\\frac{1}{3}$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two workers A and B working together completed a job in 5 days. If A worked twice as efficiently as he actually did and B worked $\\frac{1}{3}$ as efficiently as he actually did, the work would have been completed in 3 days. A alone could complete the work in :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5\\frac{1}{4}$ days",
+      "option_b": "$6\\frac{1}{4}$ days",
+      "option_c": "$7\\frac{1}{2}$ days",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let A's 1 day's work = $x$ and B's 1 day's work = $y$.\nThen, $x+y = \\frac{1}{5}$ and $2x+3y = 1$.\nSolving, we get : $x = \\frac{4}{25}$ and $y = \\frac{1}{25}$.\n$\\therefore$ A's 1 day's work = $\\frac{4}{25}$.\nSo, A alone could complete the work in $\\frac{25}{4} = 6\\frac{1}{4}$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{4}$",
+      "option_b": "$\\frac{1}{10}$",
+      "option_c": "$\\frac{7}{15}$",
+      "option_d": "$\\frac{8}{15}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "A's 1 day's work = $\\frac{1}{15}$; B's 1 day's work = $\\frac{1}{20}$.\n$(A+B)$'s 1 day's work = $\\left(\\frac{1}{15} + \\frac{1}{20}\\right) = \\frac{7}{60}$.\n$(A+B)$'s 4 days' work = $\\left(\\frac{7}{60} \\times 4\\right) = \\frac{7}{15}$.\n$\\therefore$ Remaining work = $\\left(1 - \\frac{7}{15}\\right) = \\frac{8}{15}$.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "R.R.B., 2004",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 15 days, which B can do in 10 days. B worked at it for 8 days. A can finish the remaining work in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 days",
+      "option_b": "3 days",
+      "option_c": "5 days",
+      "option_d": "10 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "B's 8 days' work = $\\left(\\frac{1}{10} \\times 8\\right) = \\frac{4}{5}$;\nRemaining work = $\\left(1 - \\frac{4}{5}\\right) = \\frac{1}{5}$.\nNow, $\\frac{1}{15}$ work is done by A in 1 day.\n$\\therefore \\frac{1}{5}$ work is done by A in $\\left(15 \\times \\frac{1}{5}\\right) = 3$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B can complete a work in 18 days and 15 days respectively. They started doing the work together but after 3 days A had to leave and B alone completed the remaining work. The whole work was completed in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$9\\frac{3}{4}$ days",
+      "option_b": "$10\\frac{1}{4}$ days",
+      "option_c": "$12\\frac{1}{2}$ days",
+      "option_d": "$12\\frac{3}{4}$ days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$(A+B)$'s 1 day's work = $\\left(\\frac{1}{18} + \\frac{1}{15}\\right) = \\frac{11}{90}$.\n$(A+B)$'s 3 days' work = $\\left(\\frac{11}{90} \\times 3\\right) = \\frac{11}{30}$.\nRemaining work = $\\left(1 - \\frac{11}{30}\\right) = \\frac{19}{30}$.\nNow, $\\frac{1}{15}$ work is done by B in 1 day.\n$\\therefore \\frac{19}{30}$ work will be done by B in $\\left(15 \\times \\frac{19}{30}\\right) = \\frac{19}{2}$ days\n$= 9\\frac{1}{2}$ days.\nHence, total time taken = $\\left(3 + 9\\frac{1}{2}\\right)$ days $= 12\\frac{1}{2}$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "A, B and C can separately do a work in 12, 15 and 20 days respectively. They started to work together but C left after 2 days. The remaining work will be finished in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 days",
+      "option_b": "5 days",
+      "option_c": "6 days",
+      "option_d": "15 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$(A+B+C)$'s 1 day's work = $\\left(\\frac{1}{12} + \\frac{1}{15} + \\frac{1}{20}\\right) = \\frac{12}{60} = \\frac{1}{5}$.\n$(A+B+C)$'s 2 days' work = $\\left(\\frac{1}{5} \\times 2\\right) = \\frac{2}{5}$.\nRemaining work = $\\left(1 - \\frac{2}{5}\\right) = \\frac{3}{5}$.\n$(A+B)$'s 1 day's work = $\\left(\\frac{1}{12} + \\frac{1}{15}\\right) = \\frac{9}{60} = \\frac{3}{20}$.\nNow, $\\frac{3}{20}$ work is done by A and B in 1 day.\n$\\therefore \\frac{3}{5}$ work will be done by A and B in $\\left(\\frac{20}{3} \\times \\frac{3}{5}\\right) = 4$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "A can complete a piece of work in 18 days, B in 20 days and C in 30 days. B and C together start the work and are forced to leave after 2 days. The time taken by A alone to complete the remaining work is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 days",
+      "option_b": "12 days",
+      "option_c": "15 days",
+      "option_d": "16 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$(B+C)$'s 1 day's work = $\\left(\\frac{1}{20} + \\frac{1}{30}\\right) = \\frac{5}{60} = \\frac{1}{12}$.\n$(B+C)$'s 2 days' work = $\\left(\\frac{1}{12} \\times 2\\right) = \\frac{1}{6}$.\nRemaining work = $\\left(1 - \\frac{1}{6}\\right) = \\frac{5}{6}$.\n$\\frac{1}{18}$ work is done by A in 1 day.\n$\\frac{5}{6}$ work will be done by A in $\\left(18 \\times \\frac{5}{6}\\right) = 15$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "A can complete a piece of work in 10 days, B in 15 days and C in 20 days. A and C worked together for 2 days and then A was replaced by B. In how many days, altogether, was the work completed?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "8",
+      "option_c": "10",
+      "option_d": "12",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$(A+C)$'s 1 day's work = $\\left(\\frac{1}{10} + \\frac{1}{20}\\right) = \\frac{3}{20}$.\n$(A+C)$'s 2 days' work = $\\left(\\frac{3}{20} \\times 2\\right) = \\frac{3}{10}$.\nRemaining work = $\\left(1 - \\frac{3}{10}\\right) = \\frac{7}{10}$.\n$(B+C)$'s 1 day's work = $\\left(\\frac{1}{15} + \\frac{1}{20}\\right) = \\frac{7}{60}$.\n$\\frac{7}{60}$ work is done by B and C in 1 day.\n$\\frac{7}{10}$ work will be done by B and C in $\\left(\\frac{60}{7} \\times \\frac{7}{10}\\right) = 6$ days.\nHence, total time taken = $(2 + 6)$ days $= 8$ days.",
+      "page_numbers": [
+        "535"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A machine P can print one lakh books in 8 hours, machine Q can print the same number of books in 10 hours while machine R can print them in 12 hours. All the machines are started at 9 a.m. while machine P is closed at 11 a.m. and the remaining two machines complete the work. Approximately at what time will the work be finished ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11 : 30 a.m.",
+      "option_b": "12 noon",
+      "option_c": "12 : 30 p.m.",
+      "option_d": "1 p.m.",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$(P+Q+R)$'s 1 hour's work = $\\left(\\frac{1}{8} + \\frac{1}{10} + \\frac{1}{12}\\right) = \\frac{37}{120}$.\nWork done by P, Q and R in 2 hours = $\\left(\\frac{37}{120} \\times 2\\right) = \\frac{37}{60}$.\nRemaining work = $\\left(1 - \\frac{37}{60}\\right) = \\frac{23}{60}$.\n$(Q+R)$'s 1 hour's work = $\\left(\\frac{1}{10} + \\frac{1}{12}\\right) = \\frac{11}{60}$.\nNow, $\\frac{11}{60}$ work is done by Q and R in 1 hour.\nSo, $\\frac{23}{60}$ work will be done by Q and R in $\\left(\\frac{60}{11} \\times \\frac{23}{60}\\right) = \\frac{23}{11}$ hours\n$\\approx 2$ hours.\nSo, the work will be finished approximately 2 hours after 11 a.m., i.e., around 1 p.m.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B can do a piece of work in 30 days, while B and C can do the same work in 24 days and C and A in 20 days. They all work together for 10 days when B and C leave. How many days more will A take to finish the work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18 days",
+      "option_b": "24 days",
+      "option_c": "30 days",
+      "option_d": "36 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$2(A+B+C)$'s 1 day's work = $\\left(\\frac{1}{30}+\\frac{1}{24}+\\frac{1}{20}\\right) = \\frac{15}{120} = \\frac{1}{8}$\n$\\Rightarrow (A+B+C)$'s 1 day's work = $\\frac{1}{16}$\nWork done by A, B and C in 10 days = $\\frac{10}{16} = \\frac{5}{8}$\nRemaining work = $\\left(1-\\frac{5}{8}\\right) = \\frac{3}{8}$\nA's 1 day's work = $\\left(\\frac{1}{16}-\\frac{1}{24}\\right) = \\frac{1}{48}$\nNow, $\\frac{1}{48}$ work is done by A in 1 day.\nSo, $\\frac{3}{8}$ work will be done by A in $\\left(48\\times\\frac{3}{8}\\right) = 18$ days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "X and Y can do a piece of work in 20 days and 12 days respectively. X started the work alone and then after 4 days Y joined him till the completion of the work. How long did the work last ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6 days",
+      "option_b": "10 days",
+      "option_c": "15 days",
+      "option_d": "20 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Work done by X in 4 days = $\\left(\\frac{1}{20}\\times4\\right) = \\frac{1}{5}$\nRemaining work = $\\left(1-\\frac{1}{5}\\right) = \\frac{4}{5}$\n$(X+Y)$'s 1 day's work = $\\left(\\frac{1}{20}+\\frac{1}{12}\\right) = \\frac{8}{60} = \\frac{2}{15}$\nNow, $\\frac{2}{15}$ work is done by X and Y in 1 day.\nSo, $\\frac{4}{5}$ work will be done by X and Y in $\\left(\\frac{15}{2}\\times\\frac{4}{5}\\right) = 6$ days.\nHence, total time taken = $(6+4)$ days = 10 days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "A completes $\frac{7}{10}$ of a work in 15 days. Then he completes the remaining work with the help of B in 4 days. The time required for A and B together to complete the entire work is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$8\frac{1}{4}$ days",
+      "option_b": "$10\frac{1}{2}$ days",
+      "option_c": "$12\frac{2}{3}$ days",
+      "option_d": "$13\frac{1}{3}$ days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$(A+B)$'s 4 days' work = $\\left(1-\\frac{7}{10}\\right) = \\frac{3}{10}$\n$(A+B)$'s 1 day's work = $\\left(\\frac{3}{10}\\times\\frac{1}{4}\\right) = \\frac{3}{40}$\nHence, A and B together take = $\\frac{40}{3} = 13\\frac{1}{3}$ days to complete the entire work.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "A man and a boy can do a piece of work in 24 days. If the man works alone for the last 6 days, it is completed in 26 days. How long would the boy take to do it alone?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20 days",
+      "option_b": "24 days",
+      "option_c": "36 days",
+      "option_d": "72 days",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$(M+B)$'s 1 days' work = $\\frac{1}{24}$\n$(M+B)$'s 20 days' work + M's 6 days' work = 1\n$\\Rightarrow$ M's 6 days' work = $\\left(1-\\frac{20}{24}\\right) = \\frac{4}{24} = \\frac{1}{6}$\n$\\Rightarrow$ M's 1 day's work = $\\left(\\frac{1}{6}\\times\\frac{1}{6}\\right) = \\frac{1}{36}$\n$\\therefore$ B's 1 day's work = $\\left(\\frac{1}{24}-\\frac{1}{36}\\right) = \\frac{1}{72}$\nHence, the boy alone can do the work in 72 days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "65",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "A and B can together finish a work in 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days A alone can finish the job ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40",
+      "option_b": "50",
+      "option_c": "54",
+      "option_d": "60",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$(A+B)$'s 20 days' work = $\\left(\\frac{1}{30}\\times20\\right) = \\frac{2}{3}$\nRemaining work = $\\left(1-\\frac{2}{3}\\right) = \\frac{1}{3}$\nNow, $\\frac{1}{3}$ work is done by A in 20 days.\nWhole work will be done by A in $(20\\times3) = 60$ days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "66",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "X can do a piece of work in 40 days. He works at it for 8 days and then Y finished it in 16 days. How long will they together take to complete the work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$13\frac{1}{3}$ days",
+      "option_b": "15 days",
+      "option_c": "20 days",
+      "option_d": "56 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Work done by X in 8 days = $\\left(\\frac{1}{40}\\times8\\right) = \\frac{1}{5}$\nRemaining work = $\\left(1-\\frac{1}{5}\\right) = \\frac{4}{5}$\nNow, $\\frac{4}{5}$ work is done by Y in 16 days.\nWhole work will be done by Y in $\\left(16\\times\\frac{5}{4}\\right) = 20$ days.\n$\\therefore$ X's 1 day's work = $\\frac{1}{40}$, Y's 1 day's work = $\\frac{1}{20}$\n$(X+Y)$'s 1 day's work = $\\left(\\frac{1}{40}+\\frac{1}{20}\\right) = \\frac{3}{40}$\nHence, X and Y will together complete the work in $\\frac{40}{3} = 13\\frac{1}{3}$ days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "67",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C together can complete a piece of work in 10 days. All the three started working at it together and after 4 days A left. Then B and C together completed the work in 10 more days. A alone could complete the work in :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15 days",
+      "option_b": "16 days",
+      "option_c": "25 days",
+      "option_d": "50 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Work done by A, B and C in 4 days = $\\left(\\frac{1}{10}\\times4\\right) = \\frac{2}{5}$\nRemaining work = $\\left(1-\\frac{2}{5}\\right) = \\frac{3}{5}$\nNow, $\\frac{3}{5}$ work is done by B and C in 10 days.\nWhole work will be done by B and C in $\\left(10\\times\\frac{5}{3}\\right) = \\frac{50}{3}$ days.\n$(A+B+C)$'s 1 day's work = $\\frac{1}{10}$, $(B+C)$'s 1 day's work = $\\frac{3}{50}$\nA's 1 day's work = $\\left(\\frac{1}{10}-\\frac{3}{50}\\right) = \\frac{5-3}{50} = \\frac{2}{50} = \\frac{1}{25}$\n$\\therefore$ A alone could complete the work in 25 days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "68",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A does $\frac{4}{5}$ of a work in 20 days. He then calls in B and they together finish the remaining work in 3 days. How long B alone would take to do the whole work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "23 days",
+      "option_b": "37 days",
+      "option_c": "$37\frac{1}{2}$ days",
+      "option_d": "40 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Whole work is done by A in $\\left(20\\times\\frac{5}{4}\\right) = 25$ days.\nNow, $\\left(1-\\frac{4}{5}\\right) = \\frac{1}{5}$ work is done by A and B in 3 days.\nWhole work will be done by A and B in $(3\\times5) = 15$ days.\nA's 1 day's work = $\\frac{1}{25}$, $(A+B)$'s 1 day's work = $\\frac{1}{15}$\n$\\therefore$ B's 1 day's work = $\\left(\\frac{1}{15}-\\frac{1}{25}\\right) = \\frac{5-3}{75} = \\frac{2}{75}$\nSo, B alone would do the work in $\\frac{75}{2} = 37\\frac{1}{2}$ days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "69",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B together can do a piece of work in 30 days. A having worked for 16 days, B finishes the remaining work alone in 44 days. In how many days shall B finish the whole work alone ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30 days",
+      "option_b": "40 days",
+      "option_c": "60 days",
+      "option_d": "70 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let A's 1 day's work = $x$ and B's 1 day's work = $y$.\nThen, $x+y = \\frac{1}{30}$ and $16x+44y = 1$.\nSolving these two equations, we get: $x = \\frac{1}{60}$ and $y = \\frac{1}{60}$.\n$\\therefore$ B's 1 day's work = $\\frac{1}{60}$.\nHence, B alone shall finish the whole work in 60 days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "70",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B together can do a piece of work in 12 days, which B and C together can do in 16 days. After A has been working at it for 5 days and B for 7 days, C finishes it in 13 days. In how many days C alone will do the work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16",
+      "option_b": "24",
+      "option_c": "36",
+      "option_d": "48",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "A's 5 days' work + B's 7 days' work + C's 13 days' work = 1\n$\\Rightarrow (A+B)$'s 5 days' work + $(B+C)$'s 2 days' work + C's 11 days' work = 1\n$\\Rightarrow \\left(\\frac{5}{12}+\\frac{2}{16}\\right) + C$'s 11 days' work = 1\n$\\Rightarrow$ C's 11 days' work = $1 - \\left(\\frac{5}{12}+\\frac{2}{16}\\right) = \\frac{11}{24}$\n$\\Rightarrow$ C's 1 day's work = $\\left(\\frac{11}{24}\\times\\frac{1}{11}\\right) = \\frac{1}{24}$\n$\\therefore$ C alone can finish the work in 24 days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "71",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B can do a piece of work in 28 and 35 days respectively. They began to work together but A leaves after some time and B completed the remaining work in 17 days. After how many days did A leave?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5\frac{7}{9}$ days",
+      "option_b": "8 days",
+      "option_c": "9 days",
+      "option_d": "$14\frac{2}{5}$ days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$(A+B)$'s 1 day's work = $\\left(\\frac{1}{28}+\\frac{1}{35}\\right) = \\frac{9}{140}$\nWork done by B in 17 days = $\\left(\\frac{1}{35}\\times17\\right) = \\frac{17}{35}$\nRemaining work = $\\left(1-\\frac{17}{35}\\right) = \\frac{18}{35}$\nNow, $\\frac{9}{140}$ work was done by $(A+B)$ in 1 day.\nSo, $\\frac{18}{35}$ work was done by $(A+B)$ in $\\left(\\frac{140}{9}\\times\\frac{18}{35}\\right) = 8$ days.\n$\\therefore$ A left after 8 days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "72",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "A can build up a wall in 8 days while B can break it in 3 days. A has worked for 4 days and then B joined to work with A for another 2 days only. In how many days will A alone build up the remaining part of the wall?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$6\frac{1}{3}$ days",
+      "option_b": "7 days",
+      "option_c": "$7\frac{1}{3}$ days",
+      "option_d": "$13\frac{1}{3}$ days",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Part of wall built by A in 1 day = $\\frac{1}{8}$.\nPart of wall broken by B in 1 day = $\\frac{1}{3}$.\nPart of wall built by A in 4 days = $\\left(\\frac{1}{8}\\times4\\right) = \\frac{1}{2}$.\nPart of wall broken by $(A+B)$ in 2 days = $2\\left(\\frac{1}{3}-\\frac{1}{8}\\right) = \\frac{5}{12}$.\nPart of wall built in 6 days = $\\left(\\frac{1}{2}-\\frac{5}{12}\\right) = \\frac{1}{12}$.\nRemaining part to be built = $\\left(1-\\frac{1}{12}\\right) = \\frac{11}{12}$.\nNow, $\\frac{1}{8}$ wall is built by A in 1 day.\n$\\therefore \\frac{11}{12}$ wall will be built by A in $\\left(8\\times\\frac{11}{12}\\right) = \\frac{22}{3}$ days = $7\\frac{1}{3}$ days.",
+      "page_numbers": [
+        "536"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "73",
+      "exam_reference": "M.B.A., 2006",
+      "passage_text": "Anuj and Manoj can together paint their house in 30 days. After working for 20 days, Anuj has to go out and Manoj finishes the remaining work in the next 30 days. If Manoj had gone away after 20 days instead of Anuj, then Anuj would have completed the remaining work in",
+      "question_text": "Anuj and Manoj can together paint their house in 30 days. After working for 20 days, Anuj has to go out and Manoj finishes the remaining work in the next 30 days. If Manoj had gone away after 20 days instead of Anuj, then Anuj would have completed the remaining work in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15 days",
+      "option_b": "20 days",
+      "option_c": "25 days",
+      "option_d": "35 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$(Anuj+Manoj)$'s 20 days' work = $\\left(\\frac{1}{30}\\times20\\right) = \\frac{2}{3}$\nRemaining work = $\\left(1-\\frac{2}{3}\\right) = \\frac{1}{3}$\nManoj's 30 days' work = $\\frac{1}{3}$\n$\\therefore$ Manoj's 1 days' work = $\\frac{1}{90}$\nAnuj's 1 days' work = $\\left(\\frac{1}{30}-\\frac{1}{90}\\right) = \\frac{2}{90} = \\frac{1}{45}$\nIf Manoj had gone away after 20 days, then the remaining $\\frac{1}{3}$ work would have been done by Anuj.\n$\\frac{1}{45}$ work is done by Anuj in 1 day.\n$\\frac{1}{3}$ work would be done by Anuj in $\\left(45\\times\\frac{1}{3}\\right) = 15$ days.",
+      "page_numbers": [
+        "536",
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "74",
+      "exam_reference": "N.M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A started a work and left after working for 2 days. Then B was called and he finished the work in 9 days. Had A left the work after working for 3 days, B would have finished the remaining work in 6 days. In how many days can each of them, working alone, finish the whole work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.5 days, 7.5 days",
+      "option_b": "5 days, 8.5 days",
+      "option_c": "5 days, 15 days",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Suppose A takes $x$ days to finish the work alone and B takes $y$ days to finish the work alone.\nThen, $\\frac{2}{x}+\\frac{9}{y} = 1$ ...(i)\nAnd, $\\frac{3}{x}+\\frac{6}{y} = 1 \\Leftrightarrow \\frac{1}{x}+\\frac{2}{y} = \\frac{1}{3}$ ...(ii)\nSubtracting (ii) from (i), we get: $\\frac{5}{3y} = 1$ or $y = 15$.\nPutting $y=15$ in (i), we get: $\\frac{2}{x} = \\frac{2}{5}$ or $x=5$.\nHence, A alone takes 5 days while B alone takes 15 days to finish the work.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "75",
+      "exam_reference": "M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "Working together, Asha and Sudha can complete an assigned task in 20 days. However, if Asha worked alone and completed half the work and then Sudha takes over the task and completes the second half of the task, the task will be completed in 45 days. How long will Asha take to complete the task if she worked alone? Assume that Sudha is more efficient than Asha.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25 days",
+      "option_b": "30 days",
+      "option_c": "60 days",
+      "option_d": "65 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Suppose Asha takes $x$ days to complete the task alone while Sudha takes $y$ days to complete it alone.\nSince Sudha is more efficient than Asha, we have $x > y$.\nAsha's 1 day's work = $\\frac{1}{x}$; Sudha's 1 day's work = $\\frac{1}{y}$\n(Asha + Sudha)'s 1 day's work = $\\frac{x+y}{xy}$\nIf Asha and Sudha each does half of the work alone, time taken = $\\left(\\frac{x}{2}+\\frac{y}{2}\\right)$ days = $\\left(\\frac{x+y}{2}\\right)$ days.\n$\\therefore \\frac{x+y}{2} = 45 \\Rightarrow x+y = 90$\nFrom (i) and (ii), we have: $\\frac{xy}{20} = 90$ or $xy = 1800$.\nNow, $xy = 1800$ and $x+y = 90 \\Rightarrow x = 60, y = 30$.\n$[\\because x > y]$\nHence, Asha alone will take 60 days to complete the task.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "76",
+      "exam_reference": "G.B.O., 2007",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 14 days which B can do in 21 days. They begin together but 3 days before the completion of the work, A leaves off. The total number of days to complete the work is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$6\frac{3}{5}$",
+      "option_b": "$8\frac{1}{2}$",
+      "option_c": "$10\frac{1}{5}$",
+      "option_d": "$13\frac{1}{2}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "B's 3 days' work = $\\left(\\frac{1}{21}\\times3\\right) = \\frac{1}{7}$\nRemaining work = $\\left(1-\\frac{1}{7}\\right) = \\frac{6}{7}$\n$(A+B)$'s 1 day's work = $\\left(\\frac{1}{14}+\\frac{1}{21}\\right) = \\frac{5}{42}$\nNow, $\\frac{5}{42}$ work is done by A and B in 1 day.\n$\\therefore \\frac{6}{7}$ work is done by A and B in $\\left(\\frac{42}{5}\\times\\frac{6}{7}\\right) = \\frac{36}{5}$ days.\nHence, total time taken = $\\left(3+\\frac{36}{5}\\right)$ days = $10\\frac{1}{5}$ days.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "77",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C can complete a work separately in 24, 36 and 48 days respectively. They started together but C left after 4 days of start and A left 3 days before the completion of the work. In how many days will the work be completed ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15 days",
+      "option_b": "22 days",
+      "option_c": "25 days",
+      "option_d": "35 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$(A+B+C)$'s 1 day's work = $\\left(\\frac{1}{24}+\\frac{1}{36}+\\frac{1}{48}\\right) = \\frac{13}{144}$\nWork done by $(A+B+C)$ in 4 days = $\\left(\\frac{13}{144}\\times4\\right) = \\frac{13}{36}$\nWork done by B in 3 days = $\\left(\\frac{1}{36}\\times3\\right) = \\frac{1}{12}$\nRemaining work = $\\left[1-\\left(\\frac{13}{36}+\\frac{1}{12}\\right)\\right] = \\frac{5}{9}$\n$(A+B)$'s 1 day's work = $\\left(\\frac{1}{24}+\\frac{1}{36}\\right) = \\frac{5}{72}$\nNow, $\\frac{5}{72}$ work is done by A and B in 1 day.\nSo, $\\frac{5}{9}$ work is done by A and B in $\\left(\\frac{72}{5}\\times\\frac{5}{9}\\right) = 8$ days.\nHence, total time taken = $(4+3+8)$ days = 15 days.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "78",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "A, B and C can complete a work in 10, 12 and 15 days respectively. They started the work together. But A left the work 5 days before its completion. B also left the work 2 days after A left. In how many days was the work completed?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "5",
+      "option_c": "7",
+      "option_d": "8",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "C's 3 days' work = $\\left(\\frac{1}{15}\\times3\\right) = \\frac{1}{5}$\n$(B+C)$'s 2 days' work = $\\left[\\left(\\frac{1}{12}+\\frac{1}{15}\\right)\\times2\\right] = \\frac{3}{10}$\nRemaining work = $\\left[1-\\left(\\frac{1}{5}+\\frac{3}{10}\\right)\\right] = \\frac{1}{2}$\n$(A+B+C)$'s 1 day's work = $\\left(\\frac{1}{10}+\\frac{1}{12}+\\frac{1}{15}\\right) = \\frac{15}{60} = \\frac{1}{4}$\n$\\frac{1}{4}$ work is done by A, B and C in 1 day.\n$\\therefore \\frac{1}{2}$ work is done by A, B and C in $\\left(4\\times\\frac{1}{2}\\right) = 2$ days.\nTotal number of days = $(3+2+2) = 7$.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "79",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C together earn ₹ 300 per day, while A and C together earn ₹ 188 and B and C together earn ₹ 152. The daily earning of C is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 40",
+      "option_b": "₹ 68",
+      "option_c": "₹ 112",
+      "option_d": "₹ 150",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "B's daily earning = ₹ $(300-188) = ₹ 112$.\nA's daily earning = ₹ $(300-152) = ₹ 148$.\nC's daily earning = ₹ $[300-(112+148)] = ₹ 40$.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "80",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C are employed to do a piece of work for ₹ 529. A and B together are supposed to do $\frac{19}{23}$ of the work and B and C together $\frac{8}{23}$ of the work. What amount should A be paid ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 315",
+      "option_b": "₹ 345",
+      "option_c": "₹ 355",
+      "option_d": "₹ 375",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Work done by A = $\\left(1-\\frac{8}{23}\\right) = \\frac{15}{23}$\n$\\therefore A : (B+C) = \\frac{15}{23} : \\frac{8}{23} = 15:8$.\nSo, A's share = $\\left(\\frac{15}{23}\\times529\\right) = ₹ 345$.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "81",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Kim can do a work in 3 days while David can do the same work in 2 days. Both of them finish the work together and get ₹ 150. What is the share of Kim ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 30",
+      "option_b": "₹ 60",
+      "option_c": "₹ 70",
+      "option_d": "₹ 75",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Kim’s wages : David’s wages\n= Kim’s 1 day’s work : David’s 1 day’s work\n= $\frac{1}{3} : \frac{1}{2} = 2 : 3$.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "82",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If A can do $\frac{1}{4}$ of a work in 3 days and B can do $\frac{1}{6}$ of the same work in 4 days, how much will A get if both work together and are paid ₹ 180 in all?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 36",
+      "option_b": "₹ 60",
+      "option_c": "₹ 108",
+      "option_d": "₹ 120",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Whole work is done by A in $(3 \times 4) = 12$ days.\nWhole work is done by B in $(4 \times 6) = 24$ days.\nA’s wages : B’s wages\n= A’s 1 day’s work : B’s 1 day’s work = $\frac{1}{12} : \frac{1}{24} = 2 : 1$.\n∴ A’s share = ₹ $\frac{2}{3} \times 180$ = ₹ 120.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "83",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "A man and a boy received ₹ 800 as wages for 5 days for the work they did together. The man’s efficiency in the work was three times that of the boy. What are the daily wages of the boy?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 40",
+      "option_b": "₹ 44",
+      "option_c": "₹ 56",
+      "option_d": "₹ 76",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Ratio of 1 day’s work of man and boy = $3 : 1$.\nTotal wages of the boy = ₹ $\frac{1}{4} \times 800$ = ₹ 200.\n∴ Daily wages of the boy = ₹ $\frac{200}{5}$ = ₹ 40.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "84",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "Two men undertake to do a piece of work for ₹ 1400. The first man alone can do this work in 7 days while the second man alone can do this work in 8 days. If they working together complete this work in 3 days with the help of a boy, how should the money be divided?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 600, ₹ 550, ₹ 250",
+      "option_b": "₹ 600, ₹ 525, ₹ 275",
+      "option_c": "₹ 600, ₹ 500, ₹ 300",
+      "option_d": "₹ 500, ₹ 525, ₹ 375",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Boy’s 1 day’s work = $\frac{1}{3} - \frac{1}{7} - \frac{1}{8} = \frac{56-24-21}{168} = \frac{11}{168}$.\nRatio of wages of the first man, second man and boy\n= $\frac{1}{7} : \frac{1}{8} : \frac{11}{168} = 24 : 21 : 11$.\nFirst man’s share = ₹ $\frac{24}{56} \times 1400$ = ₹ 600;\nSecond man’s share = ₹ $\frac{21}{56} \times 1400$ = ₹ 525;\nBoy’s share = ₹ $[1400 - (600 + 525)]$ = ₹ 275.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "85",
+      "exam_reference": "ICET, 2005; G.B.O., 2007",
+      "passage_text": "",
+      "question_text": "A sum of money is sufficient to pay A’s wages for 21 days and B’s wages for 28 days. The same money is sufficient to pay the wages of both for :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 days",
+      "option_b": "$12\frac{1}{4}$ days",
+      "option_c": "14 days",
+      "option_d": "$24\frac{1}{2}$ days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let total money be ₹ $x$. A’s 1 day’s wages = ₹ $\frac{x}{21}$,\nB’s 1 day’s wages = ₹ $\frac{x}{28}$.\n∴ (A + B)’s 1 day’s wages = ₹ $\frac{x}{21} + \frac{x}{28} = \frac{7x}{84} = \frac{x}{12}$.\n∴ Money is sufficient to pay the wages of both for 12 days.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "86",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 10 days; B in 15 days. They work for 5 days. The rest of the work was finished by C in 2 days. If they get ₹ 1500 for the whole work, the daily wages of B and C are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 150",
+      "option_b": "₹ 225",
+      "option_c": "₹ 250",
+      "option_d": "₹ 300",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Part of the work done by A = $\frac{1}{10} \times 5 = \frac{1}{2}$.\nPart of the work done by B = $\frac{1}{15} \times 5 = \frac{1}{3}$.\nPart of the work done by C = $1 - (\frac{1}{2} + \frac{1}{3}) = \frac{1}{6}$.\nSo, (A’s share) : (B’s share) : (C’s share) = $\frac{1}{2} : \frac{1}{3} : \frac{1}{6} = 3 : 2 : 1$.\n∴ A’s share = ₹ $\frac{3}{6} \times 1500$ = ₹ 750,\nB’s share = ₹ $\frac{2}{6} \times 1500$ = ₹ 500,\nC’s share = ₹ $\frac{1}{6} \times 1500$ = ₹ 250.\nA’s daily wages = ₹ $\frac{750}{5}$ = ₹ 150;\nB’s daily wages = ₹ $\frac{500}{5}$ = ₹ 100;\nC’s daily wages = ₹ $\frac{250}{2}$ = ₹ 125.\n∴ Daily wages of B and C = ₹ $(100 + 125)$ = ₹ 225.",
+      "page_numbers": [
+        "537"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "87",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The daily wages of a worker are ₹ 100. Five workers can do a work in 10 days. If you pay ₹ 20 more daily, they agree to do 25% more work daily. If the proposal is accepted, then the total amount that could be saved is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 200",
+      "option_b": "₹ 250",
+      "option_c": "₹ 300",
+      "option_d": "₹ 500",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "5 workers’ 1 day’s work = $\frac{1}{10}$.\n5 workers’ 1 day’s work on increasing wages\n= 125% of $\frac{1}{10} = \frac{125}{100} \times \frac{1}{10} = \frac{1}{8}$.\nSo, now the work is done in 8 days.\nOriginal wage bill = ₹ $(100 \times 5 \times 10)$ = ₹ 5000.\nNew wage bill = ₹ $(120 \times 5 \times 8)$ = ₹ 4800.\n∴ Amount saved = ₹ $(5000 - 4800)$ = ₹ 200.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "88",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B together can complete a work in 12 days. A alone can complete it in 20 days. If B does the work only for half a day daily, then in how many days A and B together will complete the work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "110 days",
+      "option_b": "11 days",
+      "option_c": "15 days",
+      "option_d": "20 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "B’s 1 day’s work = $\frac{1}{12} - \frac{1}{20} = \frac{5-3}{60} = \frac{2}{60} = \frac{1}{30}$.\nNow, (A + B)’s 1 day’s work = $\frac{1}{20} + \frac{1}{60} = \frac{3+1}{60} = \frac{4}{60} = \frac{1}{15}$.\n[Q B works for half day only]\nSo, A and B together will complete the work in 15 days.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "89",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "A, B and C completed a work costing ₹ 1800. A worked for 6 days, B for 4 days and C for 9 days. If their daily wages are in the ratio of 5 : 6 : 4, how much amount will be received by A?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 600",
+      "option_b": "₹ 750",
+      "option_c": "₹ 800",
+      "option_d": "₹ 900",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the daily wages of A, B and C be ₹ $5x$, ₹ $6x$ and ₹ $4x$ respectively.\nThen, ratio of their amounts = $(5x \times 6) : (6x \times 4) : (4x \times 9) = 30 : 24 : 36 = 5 : 4 : 6$.\n∴ A’s amount = ₹ $\frac{5}{15} \times 1800$ = ₹ 600.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "90",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "A and B can complete a piece of work in 12 and 18 days respectively. A begins to do the work and they work alternatively one at a time for one day each. The whole work will be completed in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$14\frac{1}{3}$ days",
+      "option_b": "$15\frac{2}{3}$ days",
+      "option_c": "$16\frac{1}{3}$ days",
+      "option_d": "$18\frac{2}{3}$ days",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "(A + B)’s 2 days’ work = $\frac{1}{12} + \frac{1}{18} = \frac{3+2}{36} = \frac{5}{36}$.\nWork done in 7 pairs of days = $\frac{5}{36} \times 7 = \frac{35}{36}$.\nRemaining work = $1 - \frac{35}{36} = \frac{1}{36}$.\nOn 15th day, it is A’s turn.\n$\frac{1}{12}$ work is done by A in 1 day.\n$\frac{1}{36}$ work is done by A in $\frac{1}{12} \times \frac{1}{36} = \frac{1}{3}$ day.\n∴ Total time taken = $14\frac{1}{3}$ days.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "91",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C can do a piece of work in 11 days, 20 days and 55 days respectively, working alone. How soon can the work be done if A is assisted by B and C on alternate days ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7 days",
+      "option_b": "8 days",
+      "option_c": "9 days",
+      "option_d": "10 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "(A + B)’s 1 day’s work = $\frac{1}{11} + \frac{1}{20} = \frac{31}{220}$.\n(A + C)’s 1 day’s work = $\frac{1}{11} + \frac{1}{55} = \frac{6}{55}$.\nWork done in 2 days = $\frac{31}{220} + \frac{6}{55} = \frac{31+24}{220} = \frac{55}{220} = \frac{1}{4}$.\nNow, $\frac{1}{4}$ work is done in 2 days.\n∴ Whole work will be done in $(2 \times 4) = 8$ days.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "92",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 days",
+      "option_b": "15 days",
+      "option_c": "16 days",
+      "option_d": "18 days",
+      "option_e": "",
+      "correct_option": "e",
+      "solution": "A’s 2 days’ work = $\frac{1}{20} \times 2 = \frac{1}{10}$.\n(A + B + C)’s 1 day’s work = $\frac{1}{20} + \frac{1}{30} + \frac{1}{60} = \frac{6}{60} = \frac{1}{10}$.\nWork done in 3 days = $\frac{1}{10} + \frac{1}{10} = \frac{1}{5}$.\nNow, $\frac{1}{5}$ work is done in 3 days.\n∴ Whole work will be done in $(3 \times 5) = 15$ days.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "93",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "A can do a piece of work in 90 days, B in 40 days and C in 12 days. They work for a day each in turn i.e., first day A does it alone, B does it the second day and C the third day. After that A does it for another day, and so on. After finishing the work they get ₹ 240. If the wages are divided in proportion to the work done by them, find what each will get.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "A ₹ 24, B ₹ 54 and C ₹ 162",
+      "option_b": "A ₹ 22, B ₹ 50 and C ₹ 132",
+      "option_c": "A ₹ 26, B ₹ 52 and C ₹ 142",
+      "option_d": "A ₹ 20, B ₹ 44 and C ₹ 182",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "(A + B + C)’s 3 days’ work = $\frac{1}{90} + \frac{1}{40} + \frac{1}{12} = \frac{43}{360}$.\n(A + B + C)’s 24 days’ work = $\frac{43}{360} \times 8 = \frac{344}{360}$.\nRemaining work = $1 - \frac{344}{360} = \frac{16}{360} = \frac{4}{90}$.\nOn 25th day, it is A’s turn.\nA’s 1 day’s work = $\frac{1}{90}$.\nRemaining work = $\frac{4}{90} - \frac{1}{90} = \frac{3}{90} = \frac{1}{30}$.\nOn 26th day, it is B’s turn.\nB’s 1 day’s work = $\frac{1}{40}$.\nRemaining work = $\frac{1}{30} - \frac{1}{40} = \frac{1}{120}$.\nOn 27th day, it is C’s turn.\n$\frac{1}{12}$ work is done by C in 1 day.\n$\frac{1}{120}$ work is done by C in $\frac{1}{120} \times 12 = \frac{1}{10}$ day.\nHence, the whole work is completed in $26\frac{1}{10}$ days out of which A worked for 9 days, B worked for 9 days and C worked for $8\frac{1}{10}$ days.\nRatio of wages of A, B and C = Ratio of work done by A, B and C\n= $(\frac{1}{90} \times 9) : (\frac{1}{40} \times 9) : (\frac{1}{12} \times \frac{81}{10}) = \frac{1}{10} : \frac{9}{40} : \frac{27}{40} = 4 : 9 : 27$.\nA’s share = ₹ $\frac{4}{40} \times 240$ = ₹ 24;\nB’s share = ₹ $\frac{9}{40} \times 240$ = ₹ 54;\nC’s share = ₹ $\frac{27}{40} \times 240$ = ₹ 162.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "94",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B can finish a work, working on alternate days, in 19 days, when A works on the first day. However, they can finish the work, working on alternate days, in $5\frac{19}{6}$ days, when B works on the first day. How many days does A alone take to finish the work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$11\frac{1}{2}$ days",
+      "option_b": "15 days",
+      "option_c": "18 days",
+      "option_d": "21 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the time taken by A alone and B alone to complete the work be $x$ days and $y$ days respectively.\nWhen A works on the first day:\nIn this case, A works for 10 days while B works for 9 days.\n$\frac{10}{x} + \frac{9}{y} = 1$ ...(i)\nWhen B works on the first day:\nIn this case, A works for $\frac{59}{6}$ days while B works for 10 days.\n$\frac{59}{6x} + \frac{10}{y} = 1$ ...(ii)\nMultiplying (i) by 10 and (ii) by 9 and then subtracting, we get: $x = \frac{23}{2} = 11\frac{1}{2}$.\nHence, A alone takes $11\frac{1}{2}$ days to complete the work.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "95",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A and B can separately do a piece of work in 20 and 15 days respectively. They worked together for 6 days, after which B was replaced by C. If the work was finished in next 4 days, then the number of days in which C alone could do the work will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30",
+      "option_b": "35",
+      "option_c": "40",
+      "option_d": "60",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "(A + B)’s 6 days’ work = $\frac{6}{20} = \frac{3}{10}$;\n(A + C)’s 4 days’ work = $1 - \frac{3}{10} = \frac{7}{10}$;\n(A + C)’s 1 day’s work = $\frac{7}{40}$. A’s 1 day’s work = $\frac{1}{20}$.\n∴ C’s 1 day’s work = $\frac{7}{40} - \frac{1}{20} = \frac{1}{40}$.\nHence, C alone can finish the work in 40 days.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "96",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A, B and C can do a piece of work in 36, 54 and 72 days respectively. They started the work but A left 8 days before the completion of the work while B left 12 days before the completion. The number of days for which C worked is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "8",
+      "option_c": "12",
+      "option_d": "24",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Suppose the work was finished in $x$ days.\nThen, A’s $(x - 8)$ days’ work + B’s $(x - 12)$ days’ work + C’s $x$ days’ work = 1\n$\frac{x-8}{36} + \frac{x-12}{54} + \frac{x}{72} = 1$\n$6(x - 8) + 4(x - 12) + 3x = 216$.\n$13x = 312$ or $x = 24$.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "97",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Twenty women can do a work in sixteen days. Sixteen men can complete the same work in fifteen days. What is the ratio between the capacity of a man and a woman ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 : 4",
+      "option_b": "4 : 3",
+      "option_c": "5 : 3",
+      "option_d": "Data inadequate",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$(20 \times 16)$ women can complete the work in 1 day.\n∴ 1 woman’s 1 day’s work = $\frac{1}{320}$.\n$(16 \times 15)$ men can complete the work in 1 day.\n∴ 1 man’s 1 day’s work = $\frac{1}{240}$.\nSo, required ratio = $\frac{1}{240} : \frac{1}{320} = 4 : 3$.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "98",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "10 men can complete a piece of work in 15 days and 15 women can complete the same work in 12 days. If all the 10 men and 15 women work together, in how many days will the work get completed ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "$6\frac{1}{3}$",
+      "option_c": "$6\frac{2}{3}$",
+      "option_d": "$7\frac{2}{3}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "10 men’s 1 day’s work = $\frac{1}{15}$;\n15 women’s 1 day’s work = $\frac{1}{12}$.\n(10 men + 15 women)’s 1 day’s work = $\frac{1}{15} + \frac{1}{12} = \frac{9}{60} = \frac{3}{20}$.\n∴ 10 men and 15 women will complete the work in $\frac{20}{3} = 6\frac{2}{3}$ days.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "11"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "99",
+      "exam_reference": "M.A.T., 2009",
+      "passage_text": "",
+      "question_text": "A job can be done by 3 skilled worksmen in 20 days or by 5 boys in 30 days. How many days will they take if they work together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 days",
+      "option_b": "10 days",
+      "option_c": "11 days",
+      "option_d": "12 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "3 men’s 1 day’s work = $\frac{1}{20}$;\n5 boys’ 1 day’s work = $\frac{1}{30}$.\n(3 men + 5 boys)’s 1 day’s work = $\frac{1}{20} + \frac{1}{30} = \frac{5}{60} = \frac{1}{12}$.\n∴ 3 men and 5 boys will complete the work in 12 days.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "100",
+      "exam_reference": "Bank Recruitment, 2007",
+      "passage_text": "",
+      "question_text": "Five men are working to complete a work in 15 days. After five days 10 women are accompanied by them to complete the work in next 5 days. If the work is to be done by women only, then in how many days could the work be over if 10 women have started it ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 days",
+      "option_b": "12 days",
+      "option_c": "15 days",
+      "option_d": "18 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "5 men’s 15 days’ work = 5 men’s 10 days’ work + 10 women’s 5 days’ work\n⇒ 5 men’s 5 days’ work = 10 women’s 5 days’ work\n⇒ 10 women’s 5 days’ work = $\frac{5}{15} = \frac{1}{3}$\n⇒ 10 women’s 1 day’s work = $\frac{1}{15}$.\n∴ 10 women can complete the work in 15 days.",
+      "page_numbers": [
+        "538"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "101",
+      "exam_reference": "G.B.O., 2007",
+      "passage_text": "",
+      "question_text": "A contractor undertakes to do a piece of work in 40 days. He engages 100 men at the beginning and 100 more after 35 days and completes the work in stipulated time. If he had not engaged the additional men, how many days behind the schedule the work should have been finished?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "6",
+      "option_c": "7",
+      "option_d": "8",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$100$ men's $40$ days' work + $100$ men's $5$ days' work = $1$\n$\\Rightarrow 100$ men's $45$ days' work = $1$\nSo, if the contractor had not engaged additional men, $100$ men would have finished the work in $45$ days.\nDifference in time = $(45 - 40)$ days = $5$ days.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "102",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Seven men can complete a work in 12 days. They started the work and after 5 days, two men left. In how many days will the work be completed by the remaining men ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "6",
+      "option_c": "7",
+      "option_d": "8",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$(7 \\times 12)$ men can complete the work in $1$ day.\n$\\therefore 1$ man's $1$ day's work = $\\frac{1}{84}$\n$7$ men's $5$ days' work = $\\left(\\frac{1}{84} \\times 7 \\times 5\\right) = \\frac{5}{12}$\nRemaining work = $\\left(1 - \\frac{5}{12}\\right) = \\frac{7}{12}$\n$5$ men's $1$ day's work = $\\left(\\frac{1}{84} \\times 5\\right) = \\frac{5}{84}$\n$\\frac{5}{84}$ work is done by them in $1$ day.\n$\\frac{7}{12}$ work is done by them in $\\left(\\frac{84}{5} \\times \\frac{7}{12}\\right) = \\frac{49}{5}$ days = $9\\frac{4}{5}$ days.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "103",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "12 men complete a work in 9 days. After they have worked for 6 days, 6 more men join them. How many days will they take to complete the remaining work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 days",
+      "option_b": "3 days",
+      "option_c": "4 days",
+      "option_d": "5 days",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{108}$\n$12$ men's $6$ days' work = $\\left(\\frac{1}{108} \\times 12 \\times 6\\right) = \\frac{2}{3}$\nRemaining work = $\\left(1 - \\frac{2}{3}\\right) = \\frac{1}{3}$\n$18$ men's $1$ day's work = $\\left(\\frac{1}{108} \\times 18\\right) = \\frac{1}{6}$\n$\\frac{1}{6}$ work is done by them in $1$ day.\n$\\therefore \\frac{1}{3}$ work is done by them in $\\left(6 \\times \\frac{1}{3}\\right) = 2$ days.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "104",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Three men, four women and six children can complete a work in seven days. A woman does double the work a man does and a child does half the work a man does. How many women alone can complete this work in 7 days ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7",
+      "option_b": "8",
+      "option_c": "12",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let $1$ woman's $1$ day's work = $x$.\nThen, $1$ man's $1$ day's work = $\\frac{x}{2}$ and $1$ child's $1$ day's work = $\\frac{x}{4}$.\nSo, $\\left(\\frac{3x}{2} + \\frac{6x}{4} + \\frac{1x}{4}\\right) = \\frac{1}{7}$\n$\\Rightarrow \\frac{6x + 6x + x}{4} = \\frac{1}{7}$\n$\\Rightarrow \\frac{13x}{4} = \\frac{1}{7} \\Rightarrow x = \\frac{4}{91}$\n$\\therefore 1$ woman alone can complete the work in $49$ days.\nSo, to complete the work in $7$ days, number of women required = $\\left(\\frac{49}{7}\\right) = 7$.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "105",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man, a woman and a boy can complete a job in 3, 4 and 12 days respectively. How many boys must assist 1 man and 1 woman to complete the job in $\\frac{1}{4}$ of a day ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "4",
+      "option_c": "19",
+      "option_d": "41",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$(1$ man + $1$ woman)'s $1$ day's work = $\\left(\\frac{1}{3} + \\frac{1}{4}\\right) = \\frac{7}{12}$\nWork done by $1$ man and $1$ woman in $\\frac{1}{4}$ day = $\\left(\\frac{7}{12} \\times \\frac{1}{4}\\right) = \\frac{7}{48}$\nRemaining work = $\\left(1 - \\frac{7}{48}\\right) = \\frac{41}{48}$\nWork done by $1$ boy in $\\frac{1}{4}$ day = $\\left(\\frac{1}{12} \\times \\frac{1}{4}\\right) = \\frac{1}{48}$\n$\\therefore$ Number of boys required = $\\left(\\frac{41}{48} \\times 48\\right) = 41$.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "106",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "10 men and 15 women together can complete a work in 6 days. It takes 100 days for one man alone to complete the same work. How many days will be required for one woman alone to complete the same work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "90",
+      "option_b": "125",
+      "option_c": "145",
+      "option_d": "150",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{100}$\n$(10$ men + $15$ women)'s $1$ day's work = $\\frac{1}{6}$\n$15$ women's $1$ day's work = $\\left(\\frac{1}{6} - \\frac{10}{100}\\right) = \\left(\\frac{1}{6} - \\frac{1}{10}\\right) = \\frac{1}{15}$\n$1$ woman's $1$ day's work = $\\frac{1}{225}$\n$\\therefore 1$ woman alone can complete the work in $225$ days.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "107",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A child can do a piece of work 15 hours slower than a woman. The child works for 18 hours on the job and then the woman takes charge for 6 hours. In this manner, $\\frac{3}{5}$ of the work can be completed. To complete the job now, how much time will the woman take?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 hours",
+      "option_b": "18 hours",
+      "option_c": "24 hours",
+      "option_d": "30 hours",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Suppose the woman takes $x$ hours to do the job.\nThen, the child takes $(x + 15)$ hours to do the job.\nWoman's $1$ hours' work = $\\frac{1}{x}$\nChild's $1$ hours' work = $\\frac{1}{x + 15}$\nChild's $18$ hours' work + Woman's $6$ hours' work = $\\frac{3}{5}$\n$\\Rightarrow \\frac{18}{x + 15} + \\frac{6}{x} = \\frac{3}{5}$\n$\\Rightarrow 5(24x + 90) = 3(x^2 + 15x)$\n$\\Rightarrow 120x + 450 = 3x^2 + 45x$\n$\\Rightarrow 3x^2 - 75x - 450 = 0 \\Rightarrow x^2 - 25x - 150 = 0$\n$\\Rightarrow x^2 - 30x + 5x - 150 = 0$\n$\\Rightarrow x(x - 30) + 5(x - 30) = 0 \\Rightarrow x = 30$\nRemaining work = $\\left(1 - \\frac{3}{5}\\right) = \\frac{2}{5}$\n$\\frac{1}{30}$ work is done by the woman in $1$ hour.\n$\\therefore \\frac{2}{5}$ work will be done by the woman in $\\left(30 \\times \\frac{2}{5}\\right) = 12$ hours.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "12"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "108",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A group of workers having equal efficiency can complete a job in 4 days. But it so happened that every alternate day starting from the second day, 3 workers are withdrawn from the job and every alternate day starting from the third day, 2 workers are added to the group. If it now takes 7 days to complete the job, find the number of workers who started the job.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "5",
+      "option_c": "6",
+      "option_d": "8",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the number of workers who started the job be $n$.\nThen, $n$ workers' $1$ day's work = $\\frac{1}{4}$\n$\\Rightarrow 1$ worker's $1$ day's work = $\\frac{1}{4n}$\nNow, $n$ workers worked on first day, $(n - 3)$ on $2$nd day, $(n - 3 + 2)$ i.e., $(n - 1)$ on $3$rd day, ...... and so on.\nThus, we have:\n$[n + (n - 3) + (n - 1) + (n - 4) + (n - 2) + (n - 5) + (n - 3)] \\times \\frac{1}{4n} = 1$\n$\\Rightarrow 7n - 18 = 4n \\Rightarrow 3n = 18 \\Rightarrow n = 6$.\nHence, $6$ workers started the job.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "109",
+      "exam_reference": "N.M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "A man, a woman and a boy can do a piece of work in 6, 9 and 18 days respectively. How many boys must assist one man and one woman to do the work in 1 day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "6",
+      "option_c": "9",
+      "option_d": "13",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$(1$ man + $1$ woman)'s $1$ day's work = $\\left(\\frac{1}{6} + \\frac{1}{9}\\right) = \\frac{5}{18}$\nRemaining work = $\\left(1 - \\frac{5}{18}\\right) = \\frac{13}{18}$\nWork done by $1$ boy in $1$ day = $\\frac{1}{18}$\n$\\therefore$ Number of boys required = $\\left(\\frac{13}{18} \\times 18\\right) = 13$.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "110",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "If 3 men or 9 boys can finish a piece of work in 21 days, in how many days can 5 men and 6 boys together do the same piece of work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 days",
+      "option_b": "12 days",
+      "option_c": "14 days",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{21 \\times 3} = \\frac{1}{63}$\n$1$ boy's $1$ day's work = $\\frac{1}{21 \\times 9} = \\frac{1}{189}$\n$(5$ men + $6$ boys)'s $1$ day's work\n$= \\left(\\frac{5}{63} + \\frac{6}{189}\\right) = \\left(\\frac{15 + 6}{189}\\right) = \\frac{21}{189} = \\frac{1}{9}$\nHence, $5$ men and $6$ boys together can do the work in $9$ days.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "111",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "If 2 men or 6 women or 4 boys can finish a work in 99 days, how many days will one man, one woman and one boy together take to finish the same work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "44 days",
+      "option_b": "54 days",
+      "option_c": "64 days",
+      "option_d": "104 days",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{99 \\times 2} = \\frac{1}{198}$\n$1$ woman's $1$ day's work = $\\frac{1}{99 \\times 6} = \\frac{1}{594}$\n$1$ boy's $1$ day's work = $\\frac{1}{99 \\times 4} = \\frac{1}{396}$\n$(1$ man + $1$ woman + $1$ boy)'s $1$ day's work\n$= \\left(\\frac{1}{198} + \\frac{1}{594} + \\frac{1}{396}\\right) = \\frac{11}{1188} = \\frac{1}{108}$\nHence, $1$ man, $1$ woman and $1$ boy together take $108$ days to finish the same work.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "112",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "8 men can complete a piece of work in 20 days. 8 women can complete the same work in 32 days. In how many days will 5 men and 8 women together complete the same work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 days",
+      "option_b": "12 days",
+      "option_c": "14 days",
+      "option_d": "16 days",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{20 \\times 8} = \\frac{1}{160}$\n$1$ woman's $1$ day's work = $\\frac{1}{32 \\times 8} = \\frac{1}{256}$\n$(5$ men + $8$ women)'s $1$ day's work\n$= \\left(\\frac{5}{160} + \\frac{8}{256}\\right) = \\left(\\frac{1}{32} + \\frac{1}{32}\\right) = \\frac{1}{16}$\nHence, $5$ men and $8$ women together can complete the work in $16$ days.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "113",
+      "exam_reference": "I.R.M.A., 2007",
+      "passage_text": "",
+      "question_text": "18 men can complete a piece of work in 63 days. 9 women take 189 days to complete the same piece of work. How many days will 4 men, 9 women and 12 children together take to complete the piece of work if 7 children alone can complete the piece of work in 486 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "54",
+      "option_b": "63",
+      "option_c": "76",
+      "option_d": "81",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{63 \\times 18} = \\frac{1}{1134}$\n$1$ woman's $1$ day's work = $\\frac{1}{189 \\times 9} = \\frac{1}{1701}$\n$1$ child's $1$ day's work = $\\frac{1}{486 \\times 7} = \\frac{1}{3402}$\n$(4$ men + $9$ women + $12$ children)'s $1$ days' work\n$= \\left(\\frac{4}{1134} + \\frac{9}{1701} + \\frac{12}{3402}\\right) = \\frac{42}{3402} = \\frac{1}{81}$\nHence, $4$ men, $9$ women and $12$ children together will complete the work in $81$ days.",
+      "page_numbers": [
+        "539"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "114",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "16 men can finish a work in 24 days and 48 boys can finish the same work in 16 days. 12 men started the work and after 4 days 12 boys joined them. In how many days can they finish the remaining work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "12",
+      "option_c": "16",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{24 \\times 16} = \\frac{1}{384}$\n$1$ boy's $1$ day's work = $\\frac{1}{16 \\times 48} = \\frac{1}{768}$\n$12$ men's $4$ days' work = $\\left(\\frac{12}{384} \\times 4\\right) = \\frac{1}{8}$\nRemaining work = $\\left(1 - \\frac{1}{8}\\right) = \\frac{7}{8}$\n$(12$ men + $12$ boys)'s $1$ day's work\n$= \\left(\\frac{12}{384} + \\frac{12}{768}\\right) = \\left(\\frac{1}{32} + \\frac{1}{64}\\right) = \\frac{3}{64}$\n$\\frac{3}{64}$ work is done by $(12$ men + $12$ boys) in $1$ day.\n$\\therefore \\frac{7}{8}$ work is done by them in $\\left(\\frac{64}{3} \\times \\frac{7}{8}\\right) = \\frac{56}{3}$ days = $18\\frac{2}{3}$ days.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "115",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "12 men can complete a piece of work in 4 days, while 15 women can complete the same work in 4 days. 6 men start working on the job and after working for 2 days, all of them stopped working. How many women should be put on the job to complete the remaining work, if it is to be completed in 3 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "18",
+      "option_c": "22",
+      "option_d": "Data inadequate",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{48}$\n$1$ woman's $1$ day's work = $\\frac{1}{60}$\n$6$ men's $2$ days' work = $\\left(\\frac{6}{48} \\times 2\\right) = \\frac{1}{4}$\nRemaining work = $\\left(1 - \\frac{1}{4}\\right) = \\frac{3}{4}$\nNow, $\\frac{1}{60}$ work is done in $1$ day by $1$ woman.\nSo, $\\frac{3}{4}$ work will be done in $3$ days by $\\left(60 \\times \\frac{3}{4} \\times \\frac{1}{3}\\right) = 15$ women.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "116",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Twelve children take sixteen days to complete a work which can be completed by eight adults in twelve days. Sixteen adults started working and after three days ten adults left and four children joined them. How many days will they take to complete the remaining work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "4",
+      "option_c": "6",
+      "option_d": "8",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "$1$ child's $1$ day's work = $\\frac{1}{192}$\n$1$ adult's $1$ day's work = $\\frac{1}{96}$\nWork done in $3$ days = $\\left(\\frac{1}{96} \\times 16 \\times 3\\right) = \\frac{1}{2}$\nRemaining work = $\\left(1 - \\frac{1}{2}\\right) = \\frac{1}{2}$",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "13"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "117",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Sixteen men can complete a work in twelve days. Twenty-four children can complete the same work in eighteen days. Twelve men and eight children started working and after eight days three more children joined them. How many days will they now take to complete the remaining work ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 days",
+      "option_b": "4 days",
+      "option_c": "6 days",
+      "option_d": "8 days",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{192}$\n$1$ child's $1$ day's work = $\\frac{1}{432}$\nWork done in $8$ days = $\\left(\\frac{12}{192} + \\frac{8}{432}\\right) = 8 \\left(\\frac{1}{16} + \\frac{1}{54}\\right) = \\frac{35}{54}$\nRemaining work = $\\left(1 - \\frac{35}{54}\\right) = \\frac{19}{54}$\n$(12$ men + $11$ children)'s $1$ day's work = $\\left(\\frac{12}{192} + \\frac{11}{432}\\right) = \\frac{19}{216}$\nNow, $\\frac{19}{216}$ work is done by them in $1$ day.\n$\\therefore \\frac{19}{54}$ work will be done by them in $\\left(\\frac{216}{19} \\times \\frac{19}{54}\\right) = 4$ days.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "14"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "118",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Twenty-four men can complete a work in sixteen days. Thirty-two women can complete the same work in twenty-four days. Sixteen men and sixteen women started working and worked for twelve days. How many more men are to be added to complete the remaining work in 2 days ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16",
+      "option_b": "24",
+      "option_c": "36",
+      "option_d": "48",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$1$ man's $1$ day's work = $\\frac{1}{384}$\n$1$ woman's $1$ day's work = $\\frac{1}{768}$\nWork done in $12$ days = $\\left(\\frac{16}{384} + \\frac{16}{768}\\right) = 12 \\left(\\frac{3}{48}\\right) = \\frac{3}{4}$\nRemaining work = $\\left(1 - \\frac{3}{4}\\right) = \\frac{1}{4}$\n$(16$ men + $16$ women)'s $2$ days' work\n$= 2 \\left(\\frac{16}{384} + \\frac{16}{768}\\right) = 2 \\left(\\frac{1}{16}\\right) = \\frac{1}{8}$\nRemaining work = $\\left(\\frac{1}{4} - \\frac{1}{8}\\right) = \\frac{1}{8}$\n$\\frac{1}{384}$ work is done in $1$ day by $1$ man.\n$\\therefore \\frac{1}{8}$ work will be done in $2$ days by $\\left(\\frac{384}{8} \\times \\frac{1}{2}\\right) = 24$ men.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "14"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "119",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "5 men and 2 boys working together can do four times as much work as a man and a boy. Working capacities of a man and a boy are in the ratio :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 : 2",
+      "option_b": "2 : 1",
+      "option_c": "1 : 3",
+      "option_d": "3 : 1",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let $1$ man's $1$ day's work = $x$\nand $1$ boy's $1$ day's work = $y$.\nThen, $5x + 2y = 4(x + y) \\Rightarrow x = 2y \\Rightarrow \\frac{x}{y} = \\frac{2}{1}$.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "14"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "120",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 12 men and 16 boys can do a piece of work in 5 days; 13 men and 24 boys can do it in 4 days, then the ratio of the daily work done by a man to that of a boy is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 : 1",
+      "option_b": "3 : 1",
+      "option_c": "3 : 2",
+      "option_d": "5 : 4",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let $1$ man's $1$ day's work = $x$\nand $1$ boy's $1$ day's work = $y$.\nThen, $12x + 16y = \\frac{1}{5}$ and $13x + 24y = \\frac{1}{4}$.\nSolving these two equations, we get : $x = \\frac{1}{100}$ and $y = \\frac{1}{200}$.\n$\\therefore$ Required ratio = $x : y = \\frac{1}{100} : \\frac{1}{200} = 2 : 1$.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "14"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "121",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "35",
+      "option_b": "40",
+      "option_c": "45",
+      "option_d": "50",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let 1 man's 1 day's work = $x$\nand 1 woman's 1 day's work = $y$.\nThen, $4x+6y=\\frac{1}{8}$ and $3x+7y=\\frac{1}{10}$\nSolving these two equations, we get : $x=\\frac{11}{400}, y=\\frac{1}{400}$.\n$\\therefore$ 1 woman's 1 day's work = $\\frac{1}{400}$.\n$\\Rightarrow$ 10 women's 1 day's work = $\\left(\\frac{1}{400}\\times10\\right)=\\frac{1}{40}$.\nHence, 10 women will complete the work in 40 days.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "14"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "122",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "4 men and 10 women were put on a work. They completed $\\frac{1}{3}$ of the work in 4 days. After this 2 men and 2 women were increased. They completed $\\frac{2}{9}$ more of the work in 2 days. If the remaining work is to be completed in 3 days, then how many more women must be increased?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "32",
+      "option_c": "50",
+      "option_d": "55",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let 1 man's 1 day's work = $x$\nand 1 woman's 1 day's work = $y$.\nThen, $4x+10y=\\frac{1}{3}\\times\\frac{1}{4}=\\frac{1}{12}\\Rightarrow2x+5y=\\frac{1}{24}$ ...(i)\nAnd, $6x+12y=\\frac{1}{9}\\Rightarrow2x+4y=\\frac{1}{27}$ ...(ii)\nSubtracting (ii) from (i), we get: $y=\\frac{1}{24}-\\frac{1}{27}=\\frac{1}{216}$.\nNow, (6 men + 12 women)'s 3 days' work = $\\left(\\frac{1}{9}\\times3\\right)=\\frac{1}{3}$.\nWork completed = $\\left(\\frac{1}{3}+\\frac{2}{9}\\right)=\\frac{8}{9}$.\nRemaining work = $\\left(1-\\frac{8}{9}\\right)=\\frac{1}{9}$.\n1 woman's 3 days' work = $\\left(\\frac{1}{216}\\times3\\right)=\\frac{1}{72}$.\nIn 3 days, $\\frac{1}{72}$ work is done by 1 woman.\n$\\therefore$ In 3 days, $\\frac{1}{9}$ work is done by $\\left(72\\times\\frac{1}{9}\\right)=8$ women.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "14"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "123",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "One man, 3 women and 4 boys can do a piece of work in 96 hours, 2 men and 8 boys can do it in 80 hours, 2 men and 3 women can do it in 120 hours. 5 men and 12 boys can do it in :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{39}{11}$ hours",
+      "option_b": "$7\\frac{42}{11}$ hours",
+      "option_c": "$7\\frac{43}{11}$ hours",
+      "option_d": "44 hours",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let 1 man's 1 hour's work = $x$;\n1 woman's 1 hour's work = $y$\nand 1 boy's 1 hour's work = $z$.\nThen, $x+3y+4z=\\frac{1}{96}$ ...(i)\n$2x+8z=\\frac{1}{80}$ ...(ii)\n$2x+3y=\\frac{1}{120}$ ...(iii)\nAdding (ii) and (iii) and subtracting (i) from it,\nwe get : $3x+4z=\\frac{1}{96}$ ...(iv)\nFrom (ii) and (iv), we get $x=\\frac{1}{480}$.\nSubstituting, we get : $y=\\frac{1}{720}, z=\\frac{1}{960}$.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "14"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "124",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same in 2 days, the time taken by 15 men and 20 boys in doing the same type of work will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 days",
+      "option_b": "5 days",
+      "option_c": "6 days",
+      "option_d": "7 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let 1 man's 1 day's work = $x$\nand 1 boy's 1 day's work = $y$.\nThen, $6x+8y=\\frac{1}{10}$ and $26x+48y=\\frac{1}{2}$.\nSolving these two equations, we get : $x=\\frac{1}{100}$ and $y=\\frac{1}{200}$.\n(15 men + 20 boys)'s 1 day's work = $\\left(\\frac{15}{100}+\\frac{20}{200}\\right)=\\frac{1}{4}$.\n$\\therefore$ 15 men and 20 boys can do the work in 4 days.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "15"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "125",
+      "exam_reference": "M.C.A., 2005",
+      "passage_text": "",
+      "question_text": "If 5 men and 3 women can reap 18 acre of crop in 4 days; 3 men and 2 women can reap 22 acre of crop in 8 days, then how many men are required to join 21 women to reap 54 acre of crop in 6 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "6",
+      "option_c": "10",
+      "option_d": "12",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Acreage reaped by 5 men and 3 women in 1 day = $\\frac{18}{4}=\\frac{9}{2}$.\nAcreage reaped by 3 men and 2 women in 1 day\n= $\\frac{22}{8}=\\frac{11}{4}$.\nSuppose 1 man can reap $x$ acres in 1 day and 1 woman\ncan reap $y$ acres in 1 day.\n$\\therefore$ $5x+3y=\\frac{9}{2}\\Rightarrow10x+6y=9$ ...(i)\n$3x+2y=\\frac{11}{4}\\Rightarrow9x+6y=\\frac{33}{4}$ ...(ii)\nSubtracting (ii) from (i), we get : $x=9-\\frac{33}{4}=\\frac{3}{4}$.\nPutting $x=\\frac{3}{4}$ in (i), we get: $6y=\\frac{15}{2}-\\frac{3}{2}=\\frac{1}{4}$.\nAcreage reaped by 21 women in 6 days = $\\left(\\frac{1}{4}\\times21\\times6\\right)=\\frac{63}{2}$.\nRemaining acreage to be reaped = $\\left(54-\\frac{63}{2}\\right)=\\frac{45}{2}$.\nAcreage reaped by 1 man in 6 days = $\\left(\\frac{3}{4}\\times6\\right)=\\frac{9}{2}$.\nIn 6 days, $\\frac{9}{2}$ acre is reaped by 1 man.\n$\\therefore$ In 6 days, $\\frac{45}{2}$ acre is reaped by $\\left(\\frac{2}{9}\\times\\frac{45}{2}\\right)$ men = 5 men.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "15"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "126",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "25 men with 10 boys can do in 6 days as much work as 21 men with 30 boys can do in 5 days. How many boys must help 40 men to do the same work in 4 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "10",
+      "option_c": "20",
+      "option_d": "40",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let 1 man's 1 day's work = $x$\nand 1 boy's 1 day's work = $y$.\nThen, $6(25x+10y)=5(21x+30y)$\n$\\Rightarrow150x+60y=105x+150y\\Rightarrow45x=90y\\Rightarrow x=2y$.\nLet the required number of boys be $z$.\nThen, $4(40x+zy)=6(25x+10y)\\Rightarrow4(80y+zy)$\n$=6(50y+10y)$ [$\\because x=2y$]\n$\\Rightarrow80+z=\\frac{6\\times60}{4}=90\\Rightarrow z=10$.",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "15"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "127",
+      "exam_reference": "ESIC—UDC, Exam 2016",
+      "passage_text": "",
+      "question_text": "40 men can complete a piece of work in 15 days. 20 more men join them after 5 days they start doing work. How many days will be required by them to finish the remaining work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$7\\frac{2}{3}$ days",
+      "option_b": "$6\\frac{1}{5}$ days",
+      "option_c": "$8\\frac{1}{4}$ days",
+      "option_d": "$6\\frac{2}{3}$ days",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Work done by 40 men in 5 days = $\\frac{1}{3}$ (as if whole work\nis completed in 15 days then in 5 days 1/3rd of the work\nwill be finished)\nRemaining work = $1-\\frac{1}{3}=\\frac{2}{3}$.\n$\\because$ 40 men do 1 work in 15 days.\n60 men can do $\\frac{2}{3}$ work in $x$ day\n$\\frac{M_1D_1}{W_1}=\\frac{M_2D_2}{W_2}$\n$M_1=40, M_2=60$\n$D_1=15, D_2=x$\n$W_1=1, W_2=\\frac{2}{3}$\n$\\Rightarrow\\frac{40\\times15}{1}=\\frac{60\\times x}{\\frac{2}{3}}$\n$\\Rightarrow\\frac{2}{3}(40\\times15)=60x$\n$\\Rightarrow2\\times40\\times5=60x$\n$\\Rightarrow x=\\frac{20}{3}=6\\frac{2}{3}$ days",
+      "page_numbers": [
+        "540"
+      ],
+      "answer_page_numbers": [
+        "15"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "128",
+      "exam_reference": "Indian Railway Gr. ‘D’ Exam, 2014",
+      "passage_text": "",
+      "question_text": "12 men can do a piece of work in 24 days. How many days are needed to complete the work, if 8 men do this work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "28",
+      "option_b": "36",
+      "option_c": "48",
+      "option_d": "52",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "12 men can do a piece of work in 24 days\n$\\Rightarrow M_1=12$ and $D_1=24$\n8 men can do this work in $D_2$ days\n$\\Rightarrow M_2=8$\n$M_1D_1=M_2D_2$\n$\\Rightarrow12\\times24=8\\times D_2$\n$\\Rightarrow D_2=\\frac{12\\times24}{8}=36$ days",
+      "page_numbers": [
+        "541"
+      ],
+      "answer_page_numbers": [
+        "15"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "129",
+      "exam_reference": "SSC—CHSL (10+2) Exam , 2015",
+      "passage_text": "",
+      "question_text": "A can do in one day three times the work done by B in one day. They together finish $\\frac{2}{5}$ of the work in 9 days. The number of days by which B can do the work alone is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "90 days",
+      "option_b": "120 days",
+      "option_c": "100 days",
+      "option_d": "30 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let time taken by A alone in doing work be $x$ days.\n$\\therefore$ Time taken by B alone = $3x$ days\nA's 1 day's work = $\\frac{1}{x}$\nB's 1 day's work = $\\frac{1}{3x}$\n$\\because$ A and B together finish = $\\frac{2}{5}$ work in 9 days.\n$\\therefore$ Time taken by A and B in doing whole work\n= $\\frac{9\\times5}{2}=\\frac{45}{2}$ days\nAccording to given information we get\n$\\therefore \\frac{1}{x}+\\frac{1}{3x}=\\frac{2}{45}$\n$\\Rightarrow \\frac{3+1}{3x}=\\frac{2}{45}$\n$\\Rightarrow \\frac{4}{3x}=\\frac{2}{45}$\nBy cross-multiply we get\n$\\Rightarrow 2\\times3x=4\\times45$\n$\\Rightarrow x=\\frac{4\\times45}{2\\times3}=30$ days\nTime taken by A = $x$ days = 30 days",
+      "page_numbers": [
+        "541"
+      ],
+      "answer_page_numbers": [
+        "15"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "130",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "A, B and C can complete a piece of work in 24, 5 and 12 days respectively. Working together, they will complete the same work in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{7}{24}$ days",
+      "option_b": "$3\\frac{3}{7}$ days",
+      "option_c": "4 days",
+      "option_d": "$3\\frac{1}{13}$ days",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "A's 1 days work = $\\frac{1}{24}$\nB's 1 days work = $\\frac{1}{5}$\nC's 1 days work = $\\frac{1}{12}$\n$\\therefore$ (A + B + C)'s 1 days work\n$= \\frac{1}{24}+\\frac{1}{5}+\\frac{1}{12}$\nLCM of 24, 5 and 12\n$2\\times2\\times3\\times2\\times5=120$\n$= \\frac{5+24+10}{120}$\n$= \\frac{39}{120}=\\frac{13}{40}$\nTime taken by A, B and C to complete the work, working\ntogether\n$= \\frac{40}{13}=3\\frac{1}{13}$ days",
+      "page_numbers": [
+        "541"
+      ],
+      "answer_page_numbers": [
+        "16"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "131",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "X can do a piece of work in 24 days. When he had worked for 4 days, Y joined him. If complete work was finished in 16 days, Y can alone finish that work in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18 days",
+      "option_b": "27 days",
+      "option_c": "36 days",
+      "option_d": "42 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "X's 1 day's work = $\\frac{1}{24}$\nX's 16 day's work = $\\frac{16}{24}$\nLet Y alone complete the work in $x$ days.\nY's 12 days work = $\\frac{12}{x}$\nAccording to the question,\nComplete work done by X and Y = 1\nX's 16 days work + Y's 12 days work = 1\n$\\Rightarrow \\frac{16}{24}+\\frac{12}{x}=1$\n$\\Rightarrow \\frac{2}{3}+\\frac{12}{x}=1$\n$\\Rightarrow \\frac{12}{x}=1-\\frac{2}{3}=\\frac{1}{3}$\n$\\Rightarrow x=12\\times3=36$ days",
+      "page_numbers": [
+        "541"
+      ],
+      "answer_page_numbers": [
+        "16"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "132",
+      "exam_reference": "RBI Officer Gr. ‘B’ (Phase-1) Online Exam, 2015",
+      "passage_text": "",
+      "question_text": "6 men can complete a piece of work in 12 days, 8 women can complete the same piece of work in 18 days and 18 children can do it in 10 days. 4 men, 12 women and 20 children do the work for 2 days. If the remaining work be completed by men only in 1 day, how many men will be required?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "36",
+      "option_b": "24",
+      "option_c": "18",
+      "option_d": "Cannot be determined",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "6 men will complete the work in 12 days\n1 man will complete the work in = $6\\times12=72$ days\n8 women can complete two work in 18 day\n1 woman will complete the work in = $8\\times18=144$ days\n18 children can complete the work in 10 days.\n1 child will complete the work in = $18\\times10=180$ days\n1 men's 1 day's work = $\\frac{1}{72}$\n1 women's 1 day's work = $\\frac{1}{144}$\n1 children's 1 day's work = $\\frac{1}{180}$\n4 men + 12 women + 20 children's 2 days' work\n$= \\left(\\frac{4}{72}+\\frac{12}{144}+\\frac{20}{180}\\right)\\times2$\n$= \\left(\\frac{1}{18}+\\frac{1}{12}+\\frac{1}{9}\\right)\\times2$\nLCM of 18, 12 and 9 = 36\n$= \\frac{2+3+4}{36}\\times2=\\frac{1}{2}$\n$\\therefore$ Remaining work = $\\frac{1}{2}$\n$\\therefore$ Required number of men = $72\\times\\frac{1}{2}=36$",
+      "page_numbers": [
+        "541"
+      ],
+      "answer_page_numbers": [
+        "16"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "133",
+      "exam_reference": "IBPS—RRB Office Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "16 men can finish a piece of work in 49 days. 14 men started working and in 8 days they could finish certain amount of work. If it is required to finish the remaining work in 24 days. How many more men should be added to the existing workforce?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "21",
+      "option_b": "28",
+      "option_c": "16",
+      "option_d": "14",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given $M_1=16; D_1=49; W_1=1$\n$M_2=? ; D_2=24; W_2=?$\nAccording to the question\n$\\frac{M_1D_1}{W_1}=\\frac{M_2D_2}{W_2}$\n$\\Rightarrow \\frac{16\\times49}{1}=\\frac{14\\times8}{W_2}$\n$\\Rightarrow W_2=\\frac{14\\times8}{16\\times49}=\\frac{1}{7}$\nRemaining work = $1-\\frac{1}{7}=\\frac{6}{7}$\nAgain, $\\frac{M_1D_1}{W_1}=\\frac{M_2D_2}{W_2}$\n$\\Rightarrow \\frac{16\\times49}{1}=\\frac{M_2\\times24}{6/7}$\n$\\Rightarrow M_2\\times24\\times7=16\\times49\\times6$\n$\\Rightarrow M_2=\\frac{16\\times49\\times6}{24\\times7}$\n$\\Rightarrow M_2=\\frac{16\\times49}{4\\times7}=28$\nNumber of additional men = $28-14=14$",
+      "page_numbers": [
+        "541"
+      ],
+      "answer_page_numbers": [
+        "16"
+      ]
+    }
+  ]
+}

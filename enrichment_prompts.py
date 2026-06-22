@@ -1,252 +1,98 @@
 # enrichment_prompts.py
 
 ENRICHMENT_PROMPT = r"""
-You are creating a high-quality aptitude question bank for students.
-
-The goal is NOT to create a completely different problem.
-
-The goal is to create independently written material that preserves the same mathematical structure and solving pattern.
+You are creating high-quality study material for students, based on
+REAL questions and REAL official solutions extracted from a textbook.
 
 ══════════════════════════════
-CHOOSING NEW NUMBERS
+ABSOLUTE RULE — DO NOT CHANGE THE QUESTION OR THE ANSWER
 ══════════════════════════════
 
-For most questions, invent a new set of numerical values that
-preserves the structure and difficulty of the original.
+You are given the ORIGINAL question text and the ORIGINAL solution/
+answer exactly as they appear in the book (extracted from the PDF in
+an earlier pass). Your job is NOT to invent a new question, NOT to
+change any number, NOT to paraphrase the scenario, and NOT to alter
+the options or the final answer in any way.
 
-Procedure for most questions:
+Specifically, you must NEVER:
 
-1. Identify every free numeric input in the question.
+- change any number, quantity, price, ratio, percentage, date, name,
+  or unit that appears in the original question
+- invent a different scenario or storyline
+- generate new MCQ options or a new correct option
+- compute a different final answer than the one given/implied by the
+  book's original solution
+- "improve" or "simplify" the question's wording in a way that changes
+  its meaning
 
-2. Pick new values for those inputs.
+You MUST:
 
-3. Solve the question fully with the new values.
+- reproduce the original question text exactly, only fixing OCR/PDF
+  extraction artifacts (broken spacing, stray characters, garbled
+  symbols) and reformatting numbers/symbols into clean LaTeX
+- reproduce the original options exactly (if MCQ), same wording/values,
+  only cleaned up for formatting
+- reproduce the original correct option / final answer exactly as
+  given in the source solution
+- write the explanation (traditional_solution) using the SAME method
+  the book uses, arriving at the SAME final answer, just explained far
+  more thoroughly than the book's own (often terse) solution
+- write a shortcut method (shortcut_solution) that also uses the exact
+  same numbers and arrives at the exact same final answer
 
-4. Check: is the final answer clean (integer, or a simple fraction
-   with denominator ≤ 12), positive, and roughly the same order of
-   magnitude/complexity as the original answer?
+If the original solution provided to you is incomplete, terse, or
+skips steps (which is common in textbooks), that is expected and is
+exactly what you are here to fix: you fill in the missing reasoning
+and steps, using the original numbers, until a beginner can follow it
+end to end. You are not allowed to "fill the gap" by changing what the
+question is asking or what the answer is — only by adding explanation.
 
-   - If YES: use these new numbers. Done.
-   - If NO: make ONE more attempt with a different number set. If
-     that attempt also fails to give a clean answer, move immediately
-     to the RELAXED PATH below — do not attempt a third full
-     invention.
-
-5. RELAXED PATH — for any question where two full invention attempts
-   have not produced a clean answer, OR where the question has 3 or
-   more unknowns tied together by simultaneous ratio or equation
-   constraints (staggered investments with multiple ratio splits,
-   back-solving from a combined ratio to several initial unknowns,
-   multi-party time-weighted capitals, etc.):
-
-   Make a SMALL, targeted adjustment to the original numbers instead
-   of inventing an entirely new set:
-
-   - Change one or two of the original values slightly (e.g. shift
-     a capital amount, a time period, or the total profit by a small
-     amount — typically 10–20% of the original value) while keeping
-     the overall structure and ratio pattern the same.
-   - Re-solve fully with the adjusted values to confirm the answer
-     is still clean and consistent.
-   - This is a lighter-touch change than full invention, but it must
-     still be an actual change — do not return the original numbers
-     completely unchanged.
-   - If the first small adjustment still gives an unclean answer,
-     try one more small adjustment (shift a different value) and
-     accept that result regardless of whether the answer is a simple
-     fraction (denominator ≤ 12 is still the target but is no longer
-     a hard gate). The question must proceed — never loop further.
-
-   This relaxed path is available for ANY question where invention
-   is proving difficult, not only multi-constraint problems.
-   However, for simple ratio/percentage/profit-sharing problems with
-   1–2 unknowns, time-speed-distance, ages, simple interest, and
-   simple (non-staggered) partnership, prefer full invention and
-   only fall back to the relaxed path as a true last resort.
-
-If you used the relaxed path, update the options to match the new
-final answer rather than leaving the original options unchanged.
+If the original solution text contains an obvious arithmetic slip
+that does not match the given options/answer, trust the OPTIONS and
+the marked correct answer (if present) as the ground truth, and show
+the correct working that leads there. If there is no way to determine
+the book's intended correct answer (no options, no marked answer, and
+the working is genuinely ambiguous), solve the question correctly
+yourself from the given data and clearly use that as the final answer
+— do not fabricate uncertainty or hedge in the output.
 
 ══════════════════════════════
-NUMBER LOCKING (CRITICAL — READ BEFORE WRITING ANYTHING)
+PARAPHRASED_QUESTION FIELD (= the original question, cleaned up)
 ══════════════════════════════
 
-Everything in the section above — picking numbers, solving, checking
-they are clean, retrying if they are not — is internal scratch work.
-Do it silently, in your head, before you write a single word of the
-question, options, or solutions.
+Despite the field name "paraphrased_question" (kept for compatibility
+with the rest of the pipeline), this field must contain the ORIGINAL
+question, NOT a paraphrase of it. Reproduce it faithfully:
 
-Once a number set produces a clean, fully verified answer, it is
-LOCKED:
-
-- question, every option, traditional_solution, shortcut_solution,
-  and paraphrased_final_answer must all be built from this one
-  locked set of numbers, from start to finish.
-- Never change a number, a total, a ratio, or a sub-total partway
-  through writing a solution. If a solution stops working out
-  cleanly while you are drafting it, that means the numbers were
-  never properly verified — stop, discard that attempt, pick and
-  verify a new number set from scratch, and only then start writing
-  the solution again from the beginning.
-- The text you return must read as if you solved the problem
-  correctly on the very first attempt. None of your internal trial
-  and error, false starts, or self-corrections may appear anywhere
-  in the output.
-
-This is the most common source of a broken question: a solution that
-quietly swaps in a different total profit, ratio, or rent halfway
-through, so the question, the options, and the final answer end up
-describing different problems. Locking the numbers before writing
-prevents this completely.
-
-Banned phrases — none of these may ever appear in question,
-traditional_solution, shortcut_solution, or paraphrased_final_answer.
-If you are about to write one, a number is being changed mid-solution,
-which is not allowed. Stop, fix the number set internally, and
-rewrite the solution cleanly from scratch instead:
-
-"Wait" · "Actually" · "Let's adjust" · "let's adjust the ratio" ·
-"let's adjust total profit" · "let's adjust total rent" ·
-"Let's re-verify" · "Let's recalculate" · "Let's re-check" ·
-"Let's simplify" (when it means "let's change the numbers") ·
-"Hold on" · "Hmm" · "On second thought" · "Let me reconsider"
-
-A finished, polished solution never narrates its own corrections —
-it only ever shows the one correct path, using the locked numbers.
-
-──────────────────────────────
-INTERNAL SEARCH MUST NEVER APPEAR
-──────────────────────────────
-
-Choosing numbers, retrying values, adjusting totals, and checking
-whether an answer is clean are INTERNAL operations only.
-
-These operations are invisible to the reader.
-
-The final output must read as if the numbers were correct from the
-very beginning.
-
-Never explain that a value was changed to obtain a cleaner answer.
-
-Never explain that a number was selected because it produces an
-integer answer.
-
-Never explain that a total was modified to avoid fractions.
-
-Never explain that a ratio was adjusted.
-
-Never explain that a different set of values was tried earlier.
-
-Never explain why a particular number was chosen.
-
-The reader should not be aware that any search or verification
-occurred.
-
-WRONG:
-
-"Since the prompt requires a clean answer, we adjust the profit to
-₹23,000."
-
-WRONG:
-
-"To obtain an integer answer, let us change the total profit."
-
-WRONG:
-
-"Because the previous value gives a fraction, we modify the ratio."
-
-WRONG:
-
-"After checking, we use ₹48,000 instead."
-
-WRONG:
-
-"To make the calculations easier, we take the profit as ₹90,000."
-
-WRONG:
-
-"Since the answer is not clean, we choose different numbers."
-
-WRONG:
-
-"We slightly alter the investment amount."
-
-WRONG:
-
-"The original values lead to decimals, so we adjust them."
-
-These sentences reveal internal scratch work and are forbidden.
-
-CORRECT:
-
-"The total profit is ₹23,000."
-
-CORRECT:
-
-"Given that the total profit is ₹23,000, ..."
-
-CORRECT:
-
-"Since profit is shared in the ratio of capitals, ..."
-
-Only describe the final locked numbers as facts given by the
-generated question.
-
-The existence of alternative numbers, retries, adjustments,
-verification, or prompt requirements must remain completely hidden.
+- Same numbers, same names, same units, same scenario.
+- Clean up only formatting: proper LaTeX for every fraction, ratio,
+  percentage, exponent, and equation; proper line breaks; remove PDF
+  extraction noise (stray page numbers, broken hyphenation, doubled
+  spaces, mis-OCR'd symbols like "Rs" vs "₹" — normalize currency
+  symbols consistently, prefer ₹ for Indian Rupees if that is what the
+  source uses).
+- If the original question text you were given already looks clean,
+  copy it through with only LaTeX-ification of any bare numbers/
+  fractions — do not rewrite sentences unnecessarily.
 
 ══════════════════════════════
-PARAPHRASED OPTIONS
+PARAPHRASED OPTIONS AND FINAL ANSWER (= the original ones)
 ══════════════════════════════
 
-If the question is MCQ, generate fresh options.
+If the question is MCQ, reproduce the original four options exactly
+(same values), only cleaning up LaTeX formatting. Set
+paraphrased_correct_option to the letter (a/b/c/d) of whichever option
+equals the original correct answer — derived from the option VALUES,
+not assumed from the source's stated letter if there is any mismatch
+(the source's labeling could differ in lettering convention; the value
+must match).
 
-Preserve:
+If the question is not MCQ, all four paraphrased_option_* fields must
+be empty strings, and paraphrased_correct_option must be an empty
+string.
 
-• difficulty
-• answer type
-• relative closeness of distractors
-
-Do not merely reorder options.
-
-Generate natural distractors.
-
-If you used the relaxed path for a multi-constraint question (small
-adjustment to original numbers rather than a fully new set), update
-the options to match the new final answer rather than reusing the
-original options unchanged.
-
-Return:
-
-paraphrased_option_a
-paraphrased_option_b
-paraphrased_option_c
-paraphrased_option_d
-
-and
-
-paraphrased_correct_option
-
-using:
-
-a
-b
-c
-d
-
-If the question is not MCQ:
-
-all option fields should be empty strings.
-
-══════════════════════════════
-FINAL ANSWER
-══════════════════════════════
-
-Return the final answer separately.
-
-Use LaTeX whenever appropriate.
-
-Examples:
+paraphrased_final_answer is the original book's final numeric/algebraic
+answer, in clean LaTeX. Examples:
 
 ₹450
 
@@ -254,9 +100,8 @@ $35$
 
 $\frac{7}{8}$
 
-Do not include explanations.
-
-Return only the final answer.
+Do not include explanations in this field. Return only the final
+answer.
 
 ══════════════════════════════
 ANSWER CONSISTENCY (CRITICAL)
@@ -264,138 +109,60 @@ ANSWER CONSISTENCY (CRITICAL)
 
 Before returning the response:
 
-1. Solve the generated question using only the locked numbers.
+1. Identify the original final answer from the source solution/options
+   provided to you. This is the canonical answer — it must never
+   change.
 
-2. Compute one final answer.
+2. traditional_solution must end at this exact answer.
 
-3. Treat this answer as the canonical answer.
+3. shortcut_solution must end at this exact answer.
 
-4. traditional_solution must end at this answer.
+4. paraphrased_final_answer must equal this answer exactly.
 
-5. shortcut_solution must end at this answer.
+5. If the question is MCQ, exactly one option (using the ORIGINAL
+   option values) must equal this answer, and
+   paraphrased_correct_option must point to that letter.
 
-6. paraphrased_final_answer must equal this answer exactly.
-
-7. If the question is MCQ, exactly one option must equal this answer.
-
-8. paraphrased_correct_option must point to that option.
-
-9. Recompute the answer independently from scratch.
-
-10. Compare:
+6. Re-derive the answer yourself from the locked original numbers,
+   independently, using the book's method. Compare:
 
 - answer obtained from traditional_solution
-
 - answer obtained from shortcut_solution
-
 - paraphrased_final_answer
+- correct option value (if MCQ)
+- value corresponding to paraphrased_correct_option (if MCQ)
 
-- correct option value
-
-- value corresponding to paraphrased_correct_option
-
-All five values must be identical.
-
-If any one of them differs, the item is broken.
-
-Discard the entire draft and rewrite everything from the beginning
-using the same locked numbers.
-
-Never return partially corrected output.
-
-Never return contradictory answers.
-
-Never return multiple correct options.
-
-Never return a correct option letter whose value differs from
-paraphrased_final_answer.
-
-Never return:
-
-traditional_solution → ₹22,500
-
-shortcut_solution → ₹22,500
-
-paraphrased_final_answer → ₹27,000
-
-option c → ₹22,500
-
-paraphrased_correct_option → d
-
-Such an item is invalid and must be rewritten from scratch.
+All of these must be identical. If any one of them differs, you have
+made an error — find it and fix it before returning. Never return
+contradictory answers, multiple correct options, or a correct option
+letter whose value differs from paraphrased_final_answer.
 
 ──────────────────────────────
 MCQ INTEGRITY CHECK (MANDATORY)
 ──────────────────────────────
 
-For MCQ questions:
+For MCQ questions, after copying the original options through:
 
-First determine the final answer.
+Read option a. Read option b. Read option c. Read option d.
 
-Then generate the options.
+Find which option's VALUE exactly matches the original final answer.
 
-Exactly one option must equal the final answer.
-
-The other options must be incorrect.
-
-After generating the options:
-
-Read option a.
-
-Read option b.
-
-Read option c.
-
-Read option d.
-
-Find which option exactly matches the final answer.
-
-Set paraphrased_correct_option to that letter.
-
-Never guess the letter.
-
-Never assume the correct option is the same as in the original
-question.
-
-Never reuse the original correct option position blindly.
-
-Example:
-
-option_a = ₹18000
-
-option_b = ₹22500
-
-option_c = ₹27000
-
-option_d = ₹30000
-
-paraphrased_final_answer = ₹22500
-
-Therefore:
-
-paraphrased_correct_option = b
-
-NOT a
-
-NOT c
-
-NOT d
-
-The option letter must be derived from the option values, not from
-memory or from the original question.
+Set paraphrased_correct_option to that letter — derived from the
+option values, never guessed, never assumed from memory.
 
 ══════════════════════════════
-TRADITIONAL SOLUTION
+TRADITIONAL SOLUTION — DETAILED, NO-ASSUMPTIONS EXPLANATION
 ══════════════════════════════
 
-Generate a completely fresh solution.
+This is the most important deliverable. The original textbook solution
+you were given is often terse — it may jump straight from the question
+to a formula to an answer in two lines, with no explanation. Your job
+is to expand it into a complete teaching solution that uses the exact
+SAME numbers and the exact SAME method/approach as the book, but
+explains every step in full.
 
-Stay close to the original method.
-
-Use the same approach as the textbook whenever possible.
-
-Write for a BEGINNER who is seeing this pattern for the first time
-and has never solved this exact type of question before.
+Write for a BEGINNER who is seeing this exact question for the first
+time and has never solved this type of question before.
 
 The student knows:
 - basic arithmetic (add, subtract, multiply, divide)
@@ -409,16 +176,18 @@ The student does NOT know:
 - what to do first
 - what any intermediate result means in context
 
-Never assume the reader can fill in a gap on their own.
-If a step would make sense only to someone who already knows how to
-solve this type of question, it needs an explanation.
+Never assume the reader can fill in a gap on their own. If a step
+would make sense only to someone who already knows how to solve this
+type of question, it needs an explanation. Make NO unstated
+assumptions — if the book's solution skips a step, you must supply it
+explicitly, still using the book's original numbers.
 
 ──────────────────────────────
 THE "WHY" RULE (most important rule in this section)
 ──────────────────────────────
 
 For every non-arithmetic step, write one plain-English sentence
-explaining WHY that step is valid before or immediately after the
+explaining WHY that step is valid, before or immediately after the
 equation. The WHY sentence answers the question a beginner would ask
 at that exact moment.
 
@@ -450,7 +219,8 @@ that was already fully set up in the previous step.
 WORKED EXAMPLES OF THE WHY RULE
 ──────────────────────────────
 
-These show the exact level of explanation required.
+These show the exact level of explanation required (illustrative —
+your actual numbers come from the real original question given to you).
 
 — Example 1: profit sharing ratio —
 
@@ -540,12 +310,10 @@ This means, · Therefore, · Hence, · Thus,
 
 Never assume that the student already understands the method.
 
-Never include any of the banned phrases listed in NUMBER LOCKING
-above ("Wait", "Actually", "Let's adjust", "Let's recalculate",
-"Let's re-check", "Hold on", "Hmm", "On second thought"). These are
-internal thinking artifacts, not finished teaching material.
-
-The solution should appear final and polished.
+Never narrate your own internal process (e.g. "let me check", "wait",
+"actually", "on second thought"). The solution should read as a
+final, polished explanation — never reveal that you double-checked or
+reconsidered anything while writing it.
 
 ──────────────────────────────
 BALANCE RULE (explanation vs. brevity)
@@ -558,41 +326,55 @@ Do not explain pure arithmetic — a student who knows basic arithmetic
 does not need "we multiply 5 by 18 to get 90" spelled out.
 
 The right length is determined by the question's complexity:
-- A simple one-step ratio question may need only 4–6 lines.
-- A multi-party time-weighted partnership may need 12–18 lines.
-Do not pad a short question to hit an artificial minimum, and do not
-compress a complex question to hit an artificial maximum.
+- A simple one-step ratio question may need only 6–8 lines.
+- A multi-party time-weighted partnership may need 15–25 lines.
+This is a DETAILED, no-assumptions explanation — when in doubt, favor
+explaining more rather than less. Do not compress a complex question
+to hit an artificial maximum, but also do not pad a trivial question
+with filler sentences that say nothing new.
 
 A good test: read the solution imagining you are seeing this type of
-question for the first time. If any sentence could be removed without
-losing clarity, remove it. If any step would leave you confused about
-where the next line came from, add a WHY sentence there.
+question for the first time. If any step would leave you confused
+about where the next line came from, add a WHY sentence there. If any
+sentence is pure restatement that adds zero new information, cut it.
 
 The solution should be easy to read on a mobile phone.
 
 ══════════════════════════════
-SHORTCUT SOLUTION
+SHORTCUT SOLUTION — TRICK / FAST METHOD
 ══════════════════════════════
 
-If a genuine shortcut exists,
-provide it.
+Provide a genuine shortcut method — the kind an experienced student
+or coaching-class trainer would use to solve this exact question much
+faster than the full textbook method above. Use the exact same
+original numbers and arrive at the exact same final answer as
+traditional_solution.
 
-If no genuine shortcut exists:
+Format it the same way as the original solution style: clean LaTeX,
+short lines, blank lines between steps — but compressed to only the
+essential moves, written as a fast, trick-based path rather than a
+full derivation.
 
-provide a shorter version of the traditional solution.
+Genuine shortcuts include things like: direct ratio/proportion
+shortcuts that skip setting up full equations, percentage-to-fraction
+conversion tricks, recognizing a special-case formula that bypasses
+several algebra steps, working backward from the options (when MCQ),
+unit-cancellation tricks, alligation/mixture shortcuts, and similar
+exam-speed techniques genuinely used for this pattern of question.
 
-The shortcut_solution is allowed to skip explanations
-ONLY for steps already explained in traditional_solution.
+If a genuine shortcut exists, provide it, and include one brief clause
+explaining WHY it works (using the same WHY RULE as above, but kept
+short — this field optimizes for speed, not full teaching).
 
-If the shortcut introduces a NEW idea not present in
-traditional_solution (e.g. a direct ratio trick), it still needs
-one short clause of "why", using the same WHY RULE as above.
+If no genuine shortcut faster than the full method exists for this
+particular question, provide a tightly compressed version of the
+traditional method instead — skip explanations for steps already
+explained in traditional_solution, keep only the equations and minimal
+connective text, while still ending at the exact same final answer.
 
-Never leave shortcut_solution empty.
-
-Never invent unrealistic tricks.
-
-Keep the shortcut concise and easy to remember.
+Never leave shortcut_solution empty. Never invent an unrealistic or
+fake "trick" that doesn't actually save time — a compressed version of
+the standard method is always an acceptable fallback.
 
 ══════════════════════════════
 LATEX AND EQUATION FORMATTING
@@ -602,8 +384,8 @@ Render EVERY mathematical expression using LaTeX. No exceptions.
 
 Apply this to:
 
-• question
-• options
+• paraphrased_question (the original question text)
+• paraphrased_option_a / b / c / d
 • paraphrased_final_answer
 • traditional_solution
 • shortcut_solution
@@ -687,8 +469,9 @@ CORRECT:
 $\frac{1}{5}$ of the capital"
 
 This rule applies identically inside paraphrased_question. A fraction
-appearing in the question text is just as much a bug as one appearing
-in the solution.
+appearing in the original question text must still be wrapped in
+LaTeX — fixing formatting is allowed and required, even though
+changing the underlying numbers is not.
 
 ──────────────────────────────
 NO DECIMAL APPROXIMATIONS OF EXACT VALUES
@@ -861,9 +644,9 @@ $$
 \text{Profit ratio} \propto \text{Capital} \times \text{Time}
 $$
 
-If unsure whether a formula is dimensionally sound, plug in the
-locked numbers from the current question and check whether both
-sides genuinely match before including it anywhere in the output.
+If unsure whether a formula is dimensionally sound, plug in the actual
+numbers from the current question and check whether both sides
+genuinely match before including it anywhere in the output.
 
 ──────────────────────────────
 OTHER MATH SYMBOLS
@@ -909,10 +692,10 @@ for the exact rule.
 JSON ESCAPING FOR LATEX (CRITICAL)
 ──────────────────────────────
 
-traditional_solution and shortcut_solution are JSON string fields.
-Every example of LaTeX shown anywhere in this document (e.g.
-$\frac{5}{18}$) is written in its final, human-readable form — a
-single backslash.
+paraphrased_question, traditional_solution, and shortcut_solution are
+JSON string fields. Every example of LaTeX shown anywhere in this
+document (e.g. $\frac{5}{18}$) is written in its final, human-readable
+form — a single backslash.
 
 When you actually emit the JSON output, that single backslash must be
 written as a literal double backslash inside the JSON string, because
@@ -932,127 +715,6 @@ backslash — never leave a backslash unescaped, and never escape it
 twice (e.g. \\\\frac is as wrong as \frac).
 
 ══════════════════════════════
-SELF-CHECK BEFORE RETURNING (MANDATORY, EVERY ITEM, EVERY TIME)
-══════════════════════════════
-
-Before finalizing each item, work through this checklist in order:
-
-1. Inline equations: search for any line where "$...$" contains an
-   "=" sign together with a calculation. If found, rewrite it as a
-   $$ display block per INLINE MATH vs. DISPLAY MATH above.
-
-2. Chained shares: search for a sentence that reports two or more
-   parties' results joined by commas or "and" (e.g. "A's share is
-   ..., B's share is ..., and C's share is ..."). If any one of those
-   results is written as inline math, it is wrong — per CHAINED
-   SHARES IN ONE SENTENCE above, split it into one short paragraph
-   and one $$ display block per party, never a single chained
-   sentence.
-
-3. Malformed delimiters: search for "$=" or "=$" anywhere — these
-   patterns are always wrong. Rewrite using a proper $$ block.
-
-4. Lost backslashes: search for "rac{", "imes", or a bare "sqrt"
-   without a preceding backslash — these mean a "\" was dropped.
-   Restore it ("\frac{", "\times", "\sqrt").
-
-5. Plain-text fractions: search for "/" between two numbers (e.g.
-   1/4, 3/5, 75600/27) outside a math block, in paraphrased_question,
-   traditional_solution, or shortcut_solution. Convert every one to
-   \frac{}{}.
-
-6. Currency or words inside math mode: check the characters
-   immediately before every closing $ or $$. If you find ₹, a plain
-   number meant as currency, or a word such as "profit", "share",
-   "rupees", "days", "years", or "answer" sitting inside the
-   delimiters, move it outside as plain text.
-
-7. Decimal coefficients: search for a decimal multiplying a variable
-   (e.g. 0.466P). Convert it to the exact fraction it represents.
-
-8. Delimiter balance: verify every opening $ has a matching closing
-   $, and every opening $$ has a matching closing $$.
-
-9. Backslash escaping: verify every LaTeX backslash in the literal
-   JSON text is doubled exactly once, per JSON ESCAPING above —
-   neither a single stray backslash nor four backslashes in a row.
-
-10. Banned phrases: confirm none of the NUMBER LOCKING banned phrases
-    ("Wait", "Let's adjust", "Let's re-verify", "Hold on", etc.)
-    appear anywhere in the output.
-
-11. Answer integrity: re-run the independent recomputation from
-    ANSWER CONSISTENCY step 9 and confirm it still matches
-    paraphrased_final_answer, the boxed answer, and the correct
-    option exactly.
-
-12. Internal reasoning leak:
-
-Search the entire output for any of the following phrases that
-explicitly expose the number-selection process:
-
-    "clean answer"
-    "integer answer"
-    "to avoid fractions"
-    "to avoid decimals"
-    "previous value"
-    "original value"
-    "earlier value"
-    "retry"
-    "recalculate"
-    "recheck"
-    "verification step"
-    "we slightly"
-    "we alter"
-    "we modify the"
-    "we tried"
-
-Note: common words like "change", "adjust", and "original" may appear
-legitimately in a question or solution (e.g. "the original price",
-"find the change in profit"). Only flag them if they appear in a
-sentence where they clearly describe the number-selection process
-(i.e. the sentence is about why a number was chosen), not when they
-describe the problem scenario itself.
-
-If such language appears in the context of explaining number
-selection, the output is invalid. Remove every reference to the
-internal search process and rewrite the affected sentences so that
-the locked numbers are presented as ordinary facts from the question.
-
-The student should never know that alternative numbers were ever
-considered.
-
-13. Final answer consistency check.
-
-Compute the answer independently.
-
-Extract the answer appearing at the end of traditional_solution.
-
-Extract the answer appearing at the end of shortcut_solution.
-
-Read paraphrased_final_answer.
-
-Read option a.
-
-Read option b.
-
-Read option c.
-
-Read option d.
-
-Determine which option equals paraphrased_final_answer.
-
-Verify that this letter equals paraphrased_correct_option.
-
-If any mismatch exists, the entire item is invalid.
-
-Rewrite the question, options, and both solutions from scratch.
-
-Never attempt to patch only one field.
-
-All answer-bearing fields must agree exactly.
-
-══════════════════════════════
 DISPLAY (MOBILE READABILITY)
 ══════════════════════════════
 
@@ -1062,7 +724,7 @@ Use multiple short paragraphs, with a blank line between every major step.
 
 Avoid long paragraphs and walls of text.
 
-If traditional_solution would otherwise come out shorter than 5
+If traditional_solution would otherwise come out shorter than 6
 lines, that almost always means a step's explanation got compressed
 into the same line as its equation — split them onto separate lines
 instead of shortening the explanation.
@@ -1083,7 +745,8 @@ $$
 
 Hence, the answer is $\boxed{30}$.
 
-Aim for 5–15 short lines, easy to scan vertically on a phone screen.
+Aim for 6–20 short lines depending on question complexity, easy to
+scan vertically on a phone screen.
 
 ──────────────────────────────
 JSON STRING FORMAT FOR SOLUTIONS (CRITICAL)
@@ -1127,7 +790,9 @@ values here.
 DIFFICULTY
 ══════════════════════════════
 
-Choose one:
+Choose one, based on the genuine difficulty of the ORIGINAL question
+(number of steps, number of unknowns, conceptual subtlety) — not on
+how long your explanation turned out to be:
 
 easy
 
@@ -1139,7 +804,7 @@ hard
 CONCEPTS
 ══════════════════════════════
 
-Provide the key concepts involved.
+Provide the key concepts genuinely involved in solving THIS question.
 
 Examples:
 
@@ -1157,7 +822,8 @@ time-weighted investment
 PREREQUISITES
 ══════════════════════════════
 
-Provide prerequisite topics.
+Provide prerequisite topics a student must already know before
+attempting this question.
 
 Examples:
 
@@ -1173,8 +839,9 @@ FORMULAS USED
 
 Return this in the field name exactly as: formulas_used
 
-Provide formulas in LaTeX format. Every formula must be dimensionally
-correct — see CHECK EVERY FORMULA FOR DIMENSIONAL CORRECTNESS above.
+Provide the formula(s) actually used to solve this specific question,
+in LaTeX format. Every formula must be dimensionally correct — see
+CHECK EVERY FORMULA FOR DIMENSIONAL CORRECTNESS above.
 Use $\propto$ for proportional relationships and $=$ only when both
 sides are genuinely the same kind of quantity.
 
@@ -1197,6 +864,27 @@ cross_multiplication_rule
 formula_1
 
 method_2
+
+══════════════════════════════
+HINTS, COMMON MISTAKES, RELATED/CONFUSING PATTERNS
+══════════════════════════════
+
+hints: 2-4 short hints a student could use to get unstuck on THIS
+specific question if they were solving it independently — not generic
+advice, but specific to what this question requires (e.g. "Start by
+converting the time periods to the same unit before forming the
+ratio").
+
+common_mistakes: 2-4 mistakes students realistically make on THIS
+exact type of question (e.g. forgetting to weight capital by time,
+mixing up which partner's ratio corresponds to which letter).
+
+related_patterns: 1-3 other question types that use a similar method
+or formula to this one.
+
+confusing_patterns: 1-3 other question types that LOOK similar to this
+one on the surface but actually require a different method — the kind
+of question a student might wrongly assume uses the same approach.
 
 ══════════════════════════════
 MULTIPLE QUESTION REQUIREMENT
@@ -1225,6 +913,68 @@ Returning fewer objects is incorrect.
 Before returning the response, count the number of objects inside items and verify that it equals the number of input questions.
 
 ══════════════════════════════
+SELF-CHECK BEFORE RETURNING (MANDATORY, EVERY ITEM, EVERY TIME)
+══════════════════════════════
+
+Before finalizing each item, work through this checklist in order:
+
+1. Fidelity check: compare paraphrased_question against the original
+   question text you were given. Every number, name, and unit must
+   match exactly. If anything differs, fix it — you are not allowed to
+   change the question.
+
+2. Answer fidelity: compare paraphrased_final_answer, the end of
+   traditional_solution, and the end of shortcut_solution against the
+   original solution/answer you were given. They must all agree with
+   the book's answer and with each other. If anything differs, find
+   the error in your own working and fix it — never change the
+   target answer to match a wrong derivation.
+
+3. Inline equations: search for any line where "$...$" contains an
+   "=" sign together with a calculation. If found, rewrite it as a
+   $$ display block per INLINE MATH vs. DISPLAY MATH above.
+
+4. Chained shares: search for a sentence that reports two or more
+   parties' results joined by commas or "and" (e.g. "A's share is
+   ..., B's share is ..., and C's share is ..."). If any one of those
+   results is written as inline math, it is wrong — per CHAINED
+   SHARES IN ONE SENTENCE above, split it into one short paragraph
+   and one $$ display block per party, never a single chained
+   sentence.
+
+5. Malformed delimiters: search for "$=" or "=$" anywhere — these
+   patterns are always wrong. Rewrite using a proper $$ block.
+
+6. Lost backslashes: search for "rac{", "imes", or a bare "sqrt"
+   without a preceding backslash — these mean a "\" was dropped.
+   Restore it ("\frac{", "\times", "\sqrt").
+
+7. Plain-text fractions: search for "/" between two numbers (e.g.
+   1/4, 3/5, 75600/27) outside a math block, in paraphrased_question,
+   traditional_solution, or shortcut_solution. Convert every one to
+   \frac{}{}.
+
+8. Currency or words inside math mode: check the characters
+   immediately before every closing $ or $$. If you find ₹, a plain
+   number meant as currency, or a word such as "profit", "share",
+   "rupees", "days", "years", or "answer" sitting inside the
+   delimiters, move it outside as plain text.
+
+9. Decimal coefficients: search for a decimal multiplying a variable
+   (e.g. 0.466P). Convert it to the exact fraction it represents.
+
+10. Delimiter balance: verify every opening $ has a matching closing
+    $, and every opening $$ has a matching closing $$.
+
+11. Backslash escaping: verify every LaTeX backslash in the literal
+    JSON text is doubled exactly once, per JSON ESCAPING above —
+    neither a single stray backslash nor four backslashes in a row.
+
+12. WHY-rule coverage: scan traditional_solution for any formula,
+    ratio, or substitution that appears without a preceding or
+    following plain-English WHY sentence. If found, add it.
+
+══════════════════════════════
 QUALITY CHECK
 ══════════════════════════════
 
@@ -1236,21 +986,17 @@ Do not fabricate shortcuts.
 
 Do not leave shortcut_solution empty.
 
-Avoid unnecessary fractions.
+Never alter the original question's numbers, scenario, options, or
+final answer.
 
-Prefer clean integer answers whenever possible.
+The generated explanation must be internally consistent with, and
+faithful to, the original question and original answer — this
+includes the FIDELITY rules above and the independent recomputation in
+ANSWER CONSISTENCY above. Run the full SELF-CHECK BEFORE RETURNING
+checklist one final time before returning.
 
-Avoid negative times, ages, distances, probabilities and quantities unless required.
-
-Choose values producing realistic and easy-to-understand answers.
-
-The generated question, options, solutions and final answer must be
-internally consistent — this includes the locked-number discipline in
-NUMBER LOCKING and the independent recomputation in ANSWER
-CONSISTENCY above. Run the full SELF-CHECK BEFORE RETURNING checklist
-one final time before returning.
-
-The final output should look like professionally written study material.
+The final output should look like professionally written study
+material built directly on top of the real textbook question.
 
 Return ONLY JSON matching the schema.
 
@@ -1262,14 +1008,9 @@ appears without explanation, that is a bug.
 
 A student should be able to fully understand the method from this
 solution alone, without the original textbook and without any outside
-help.
+help, while the question and answer remain identical to the book's.
 
 Keep explanations natural and proportionate to the question's
 complexity — do not pad simple questions, do not compress complex ones.
-
-Use new numerical values for most questions. For genuinely
-multi-constraint questions, or after two unsuccessful full-invention
-attempts, a small targeted adjustment to the original numbers is
-acceptable rather than a fully new set.
 
 """

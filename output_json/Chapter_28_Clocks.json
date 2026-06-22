@@ -1,0 +1,1416 @@
+{
+  "chapter_title": "Chapter_28_Clocks",
+  "question_count": 64,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the angle between the hour hand and the minute hand of a clock when the time is 3.25.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Angle traced by the hour hand in 12 hours = $360^{\\circ}$.\nAngle traced by it in 3 hrs 25 min., i.e.\n$\\frac{41}{12}$ hrs = $\\left(\\frac{360}{12}\\times\\frac{41}{12}\\right)^{\\circ} = 102\\frac{1}{2}^{\\circ}$.\nAngle traced by minute hand in 60 min. = $360^{\\circ}$.\nAngle traced by it in 25 min. = $\\left(\\frac{360}{60}\\times25\\right)^{\\circ} = 150^{\\circ}$.\n$\\therefore$ Required angle = $\\left(150^{\\circ} - 102\\frac{1}{2}^{\\circ}\\right) = 47\\frac{1}{2}^{\\circ}$.",
+      "page_numbers": [
+        "823"
+      ],
+      "answer_page_numbers": [
+        "823"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "At what time between 2 and 3 o’clock will the hands of a clock be together?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "At 2 o’clock, the hour hand is at 2 and the minute hand is at 12, i.e. they are 10 min. spaces apart.\nTo be together, the minute hand must gain 10 minutes over the hour hand.\nNow, 55 minutes are gained by it in 60 min.\n$\\therefore$ 10 minutes will be gained in $\\left(\\frac{60}{55}\\times10\\right)$ min. = $10\\frac{10}{11}$ min.\n$\\therefore$ The hands will coincide at $10\\frac{10}{11}$ min. past 2.",
+      "page_numbers": [
+        "824"
+      ],
+      "answer_page_numbers": [
+        "824"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "At what time between 4 and 5 o’clock will the hands of a clock be at right angle?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "At 4 o’clock, the minute hand will be 20 min. spaces behind the hour hand.\nNow, when the two hands are at right angles, they are 15 min. spaces apart.\nSo, they are at right angles in following two cases.\nCase I. When minute hand is 15 min. spaces behind the hour hand :\nIn this case min. hand will have to gain (20 – 15) = 5 minute spaces.\n55 min. spaces are gained by it in 60 min.\n5 min. spaces will be gained by it in $\\left(\\frac{60}{55}\\times5\\right)$ min. = $5\\frac{5}{11}$ min.\n$\\therefore$ They are at right angles at $5\\frac{5}{11}$ min. past 4.\nCase II. When the minute hand is 15 min. spaces ahead of the hour hand :\nTo be in this position, the minute hand will have to gain (20 + 15) = 35 minute spaces.\n55 min. spaces are gained in 60 min.\n35 min. spaces are gained in $\\left(\\frac{60}{55}\\times35\\right)$ min. = $38\\frac{2}{11}$ min.\n$\\therefore$ They are at right angles at $38\\frac{2}{11}$ min. past 4.",
+      "page_numbers": [
+        "824"
+      ],
+      "answer_page_numbers": [
+        "824"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find at what time between 8 and 9 o’clock will the hands of a clock be in the same straight line but not together.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "At 8 o’clock, the hour hand is at 8 and the minute hand is at 12, i.e. the two hands are 20 min. spaces apart.\nTo be in the same straight line but not together they will be 30 minute spaces apart.\nSo, the minute hand will have to gain (30 – 20) = 10 minute spaces over the hour hand.\n55 minute spaces are gained in 60 min.\n10 minute spaces will be gained in $\\left(\\frac{60}{55}\\times10\\right)$ min. = $10\\frac{10}{11}$ min.\n$\\therefore$ The hands will be in the same straight line but not together at $10\\frac{10}{11}$ min. past 8.",
+      "page_numbers": [
+        "824"
+      ],
+      "answer_page_numbers": [
+        "824"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "At what time between 5 and 6 o’clock are the hands of a clock 3 minutes apart?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "At 5 o’clock, the minute hand is 25 min. spaces behind the hour hand.\nCase I. Minute hand is 3 min. spaces behind the hour hand.\nIn this case, the minute hand has to gain (25 – 3) = 22 minute spaces.\n55 min. are gained in 60 min.\n22 min. are gained in $\\left(\\frac{60}{55}\\times22\\right)$ min. = 24 min.\n$\\therefore$ The hands will be 3 min. apart at 24 min. past 5.\nCase II. Minute hand is 3 min. spaces ahead of the hour hand.\nIn this case, the minute hand has to gain (25 + 3) = 28 minute spaces.\n55 min. are gained in 60 min.\n28 min. are gained in $\\left(\\frac{60}{55}\\times28\\right)$ min. = $31\\frac{5}{11}$ min.\n$\\therefore$ The hands will be 3 min. apart at $31\\frac{5}{11}$ min. past 5.",
+      "page_numbers": [
+        "824",
+        "825"
+      ],
+      "answer_page_numbers": [
+        "824",
+        "825"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "M.A.T., 2003",
+      "passage_text": "",
+      "question_text": "The minute hand of a clock overtakes the hour hand at intervals of 65 minutes of the correct time. How much a day does the clock gain or lose?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "In a correct clock, the minute hand gains 55 min. spaces over the hour hand in 60 minutes.\nTo be together again, the minute hand must gain 60 minutes over the hour hand.\n55 min. are gained in 60 min.\n60 min. are gained in $\\left(\\frac{60}{55}\\times60\\right)$ min. = $65\\frac{5}{11}$ min.\nBut, they are together after 65 min.\n$\\therefore$ Gain in 65 min. = $\\left(65\\frac{5}{11} - 65\\right)$ min. = $\\frac{5}{11}$ min.\nGain in 24 hours = $\\left(\\frac{5}{11}\\times\\frac{60\\times24}{65}\\right)$ min. = $10\\frac{10}{43}$ min.\n$\\therefore$ The clock gains $10\\frac{10}{43}$ minutes in 24 hours.",
+      "page_numbers": [
+        "825"
+      ],
+      "answer_page_numbers": [
+        "825"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A watch which gains uniformly, is 5 min. slow at 8 o’clock in the morning on Sunday and it is 5 min. 48 sec. fast at 8 p.m. on following Sunday. When was it correct?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Time from 8 a.m. on Sunday to 8 p.m. on following Sunday = 7 days 12 hours = 180 hours.\n$\\therefore$ The watch gains $\\left(5 + 5\\frac{4}{5}\\right)$ min. or $\\frac{54}{5}$ min. in 180 hrs.\nNow $\\frac{54}{5}$ min. are gained in 180 hrs.\n$\\therefore$ 5 min. are gained in $\\left(180\\times\\frac{5}{54}\\times5\\right)$ hrs. = 83 hrs 20 min. = 3 days 11 hrs 20 min.\n$\\therefore$ Watch is correct 3 days 11 hrs 20 min. after 8 a.m. of Sunday.\n$\\therefore$ It will be correct at 20 min. past 7 p.m. on Wednesday.",
+      "page_numbers": [
+        "825"
+      ],
+      "answer_page_numbers": [
+        "825"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A clock is set right at 5 a.m. The clock loses 16 minutes in 24 hours. What will be the true time when the clock indicates 10 p.m. on 4th day?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Time from 5 a.m. on a day to 10 p.m. on 4th day = 89 hours.\nNow 23 hrs 44 min. of this clock = 24 hours of correct clock.\n$\\therefore$ $\\frac{356}{15}$ hrs of this clock = 24 hours of correct clock.\n89 hrs of this clock = $\\left(24\\times\\frac{15}{356}\\times89\\right)$ hrs of correct clock = 90 hrs of correct clock.\nSo, the correct time is 11 p.m.",
+      "page_numbers": [
+        "825"
+      ],
+      "answer_page_numbers": [
+        "825"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A clock is set right at 8 a.m. The clock gains 10 minutes in 24 hours. What will be the true time when the clock indicates 1 p.m. on the following day?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Time from 8 a.m. on a day to 1 p.m. on the following day = 29 hours.\n24 hours 10 min. of this clock = 24 hours of the correct clock.\n$\\frac{145}{6}$ hrs of this clock = 24 hrs of the correct clock.\n29 hrs of this clock = $\\left(24\\times\\frac{6}{145}\\times29\\right)$ hrs of the correct clock\n= 28 hrs 48 min. of correct clock.\n$\\therefore$ The correct time is 28 hrs 48 min. after 8 a.m. This is 48 min. past 12.",
+      "page_numbers": [
+        "825"
+      ],
+      "answer_page_numbers": [
+        "825"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Rohan leaves home between 7 a.m. and 8 a.m. and returns between 1 p.m. and 2 p.m. to find that the minute and hour hands have interchanged their positions. How long was Rohan out of the house?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, the hands will interchange positions after crossing each other 6 times i.e. they together will make (6 + 1) or 7 complete revolutions.\nSince the hands interchange positions after every $55\\frac{5}{13}$ minutes, we have:\nRequired time interval = $\\left(55\\frac{5}{13}\\times7\\right)$ min = $\\left(\\frac{720}{13}\\times7\\right)$ min = $\\frac{5040}{13}$ min\n= $387\\frac{9}{13}$ min = 6 hrs $27\\frac{9}{13}$ min.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "826"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "E.P.F.O.S.S.A., 2004",
+      "passage_text": "",
+      "question_text": "London time is five and a half hours behind Delhi time. What time is it in London if it is 0.2.35 in Delhi?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "07.05",
+      "option_b": "08.05",
+      "option_c": "21.05",
+      "option_d": "21.35",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Clealy, time in London is 5 hrs 30 minutes behnd 2.35 a.m. which is 9.05 p.m. or 21.05 hrs.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "A bus leaves at 12.25 noon and reaches destination at 10.45 am. The duration of the journey is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "22 hrs 20 min",
+      "option_b": "22 hrs 40 min",
+      "option_c": "24 hrs 20 min",
+      "option_d": "24 hrs 40 min",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Duration of the journey\n= (Duration form 12.25 noon to midnight)\n+ (Duration from 12.00 midnight to 10.45 a.m.)\n= 11 hrs 35 min + 10 hrs 45 min = 22 hrs 20 min.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "An accurate clock shows 8 o’ clock in the morning. Through how many degrees will the hour hand rotate when the clock shows 2 o’ clock in the afternoon?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$144^{\\circ}$",
+      "option_b": "$150^{\\circ}$",
+      "option_c": "$168^{\\circ}$",
+      "option_d": "$180^{\\circ}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Angle traced by the hour hand in 6 hours\n$= \frac{360}{12} \times 6 = 180^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "Bank Recruitment, 2006",
+      "passage_text": "",
+      "question_text": "How many rotations will the hour hand of a clock complete in 72 hours?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "6",
+      "option_c": "9",
+      "option_d": "12",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Number of rotations $= \frac{72}{12} = 6$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "E.S.I.C., 2006",
+      "passage_text": "",
+      "question_text": "Through what angle does the minute hand of a clock turn in 5 minutes?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$30^{\\circ}$",
+      "option_b": "$32^{\\circ}$",
+      "option_c": "$35^{\\circ}$",
+      "option_d": "$36^{\\circ}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Angle traced by the minute hand in 5 minutes\n$= \frac{360}{60} \times 5 = 30^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In an accurate clock, in a period of 2 hours 20 minutes the minute hand will move over",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$140^{\\circ}$",
+      "option_b": "$320^{\\circ}$",
+      "option_c": "$520^{\\circ}$",
+      "option_d": "$840^{\\circ}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Angle traced by the minute hand in 2 hrs 20 min, i.e., 140 min $= \frac{360}{60} \times 140 = 840^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A clock is started at noon. By 10 minutes past 5, the hour hand has turned through",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$145^{\\circ}$",
+      "option_b": "$150^{\\circ}$",
+      "option_c": "$155^{\\circ}$",
+      "option_d": "$160^{\\circ}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Angle traced by the hour hand in 12 hrs $= 360^{\\circ}$.\nAngle traced by the hour hand in 5 hrs 10 min, i.e., $\frac{31}{6}$ hrs $= \frac{360}{12} \times \frac{31}{6} = 155^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "SNAP, 2004",
+      "passage_text": "",
+      "question_text": "At 9:38 A.M, through how many degrees the hour hand of a clock moved since noon the previous day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "323",
+      "option_b": "612",
+      "option_c": "646",
+      "option_d": "649",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Time from 12 noon to 9 : 38 A.M. $= 12$ hrs + 9 hrs 38 min $= 21$ hrs 38 min.\n$= 21 \frac{38}{60}$ hrs $= 21 \frac{19}{30}$ hrs $= \frac{649}{30}$ hrs.\nAngle traced by the hour hand in 12 hrs $= 360^{\\circ}$.\nAngle traced by the hour hand in $\frac{649}{30}$ hrs $= \frac{360}{12} \times \frac{649}{30} = 649^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "Hotel Management, 2004; Campus Recruitment, 2008",
+      "passage_text": "",
+      "question_text": "At 3.40, the hour hand and the minute hand of a clock form an angle of",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$120^{\\circ}$",
+      "option_b": "$125^{\\circ}$",
+      "option_c": "$130^{\\circ}$",
+      "option_d": "$135^{\\circ}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Angle traced by hour hand in 12 hrs. $= 360^{\\circ}$.\nAngle traced by it in $10 \frac{1}{3}$ hrs $= \frac{360}{12} \times \frac{31}{3} = 310^{\\circ}$.\nAngle traced by minute hand in 60 min. $= 360^{\\circ}$.\nAngle traced by it in 40 min. $= \frac{360}{60} \times 40 = 240^{\\circ}$.\n$\\therefore$ Required angle $= (240 - 110)^{\\circ} = 130^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "829"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "R.R.B. 2006",
+      "passage_text": "",
+      "question_text": "The angle between the minute hand and the hour hand of a clock when the time is 8.30, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$80^{\\circ}$",
+      "option_b": "$75^{\\circ}$",
+      "option_c": "$60^{\\circ}$",
+      "option_d": "$105^{\\circ}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Angle traced by hour hand in $\frac{17}{2}$ hrs $= \frac{360}{12} \times \frac{17}{2} = 255^{\\circ}$.\nAngle traced by min. hand in 30 min. $= \frac{360}{60} \times 30 = 180^{\\circ}$.\n$\\therefore$ Required angle $= (255 - 180)^{\\circ} = 75^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "The angle between the minute hand and the hour hand of a clock when the time is 4.20, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0^{\\circ}$",
+      "option_b": "$10^{\\circ}$",
+      "option_c": "$5^{\\circ}$",
+      "option_d": "$20^{\\circ}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Angle traced by hour hand in $\frac{13}{3}$ hrs $= \frac{360}{12} \times \frac{13}{3} = 130^{\\circ}$.\nAngle traced by min. hand in 20 min. $= \frac{360}{60} \times 20 = 120^{\\circ}$.\n$\\therefore$ Required angle $= (130 - 120)^{\\circ} = 10^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "L.I.C.A.A.O., 2003",
+      "passage_text": "",
+      "question_text": "At what angle the hands of a clock are inclined at 15 minutes past 5?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$58\\frac{1}{2}^{\\circ}$",
+      "option_b": "$64^{\\circ}$",
+      "option_c": "$67\\frac{1}{2}^{\\circ}$",
+      "option_d": "$72\\frac{1}{2}^{\\circ}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Angle traced by hour hand in $\frac{21}{4}$ hrs $= \frac{360}{12} \times \frac{21}{4} = 157 \frac{1}{2}^{\\circ}$.\nAngle traced by min. hand in 15 min. $= \frac{360}{60} \times 15 = 90^{\\circ}$.\n$\\therefore$ Required angle $= 157 \frac{1}{2}^{\\circ} - 90^{\\circ} = 67 \frac{1}{2}^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The reflex angle between the hands of a clock at 10.25 is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$180^{\\circ}$",
+      "option_b": "$192\\frac{1}{2}^{\\circ}$",
+      "option_c": "$195^{\\circ}$",
+      "option_d": "$197\\frac{1}{2}^{\\circ}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Angle traced by hour hand in $\frac{125}{12}$ hrs $= \frac{360}{12} \times \frac{125}{12} = 312 \frac{1}{2}^{\\circ}$.\nAngle traced by minute hand in 25 min $= \frac{360}{60} \times 25 = 150^{\\circ}$.\n$\\therefore$ Reflex angle $= 360^{\\circ} - (312 \frac{1}{2}^{\\circ} - 150^{\\circ}) = 360^{\\circ} - 162 \frac{1}{2}^{\\circ} = 197 \frac{1}{2}^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Match List I with List II and select the correct answer using the codes given below the lists:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "(A) Angle traced by hour hand in $\frac{7}{6}$ hrs $= \frac{360}{12} \times \frac{7}{6} = 35^{\\circ}$.\nAngle traced by minute hand in 10 min $= \frac{360}{60} \times 10 = 60^{\\circ}$.\n$\\therefore$ Required angle $= (60^{\\circ} - 35^{\\circ}) = 25^{\\circ}$.\n(B) Angle traced by hour hand in $\frac{9}{4}$ hrs $= \frac{360}{12} \times \frac{9}{4} = 67 \frac{1}{2}^{\\circ}$.\nAngle traced by minute hand in 15 min $= \frac{360}{60} \times 15 = 90^{\\circ}$.\n$\\therefore$ Required angle $= 90^{\\circ} - 67 \frac{1}{2}^{\\circ} = 22 \frac{1}{2}^{\\circ}$.\n(C) Angle traced by hour hand in $\frac{26}{3}$ hrs $= \frac{360}{12} \times \frac{26}{3} = 260^{\\circ}$.\nAngle traced by minute hand in 40 min $= \frac{360}{60} \times 40 = 240^{\\circ}$.\n$\\therefore$ Required angle $= (260^{\\circ} - 240^{\\circ}) = 20^{\\circ}$.",
+      "page_numbers": [
+        "826"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "An accurate clock shows the time as 3.00. After the hour hand has moved $135^{\\circ}$, the time would be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6.30",
+      "option_b": "7.30",
+      "option_c": "8.00",
+      "option_d": "9.30",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Time taken by the hour hand to move $360^{\\circ} = 12$ hours.\nTime taken by the hour hand to move $135^{\\circ} = \frac{12}{360} \times 135 = 4 \frac{1}{2}$ hrs.\n$\\therefore$ Required time is $4 \frac{1}{2}$ hrs ahead of 3.00, i.e., 7.30.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "M.B.A., 2004",
+      "passage_text": "",
+      "question_text": "What is the area of the face of a clock described by its minute hand between 9 a.m. and 9.35 a.m; if the minute hand is 10 cm long?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$36\\frac{2}{3}$ cm$^2$",
+      "option_b": "$157\\frac{1}{7}$ cm$^2$",
+      "option_c": "$183\\frac{1}{3}$ cm$^2$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Angle swept by the minute hand in 35 min $= \frac{360}{60} \times 35 = 210^{\\circ}$.\n$\\therefore$ Required area = Area of a sector of a circle with radius 10 cm and central angle $210^{\\circ} = \\frac{\\pi r^2 \\theta}{360} = \\frac{22}{7} \\times 10 \\times 10 \\times \\frac{210}{360} = \\frac{550}{3} = 183 \frac{1}{3} \\text{ cm}^2$.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "The hands of a clock are 10 cm and 7 cm respectively. The difference between the distance traversed by their extremities in 3 days 5 hours is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4552.67 cm",
+      "option_b": "4555.67 cm",
+      "option_c": "4557.67 cm",
+      "option_d": "4559.67 cm",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Number of rounds completed by the minute hand in 3 days 5 hrs $= (3 \\times 24 + 5) = 77$.\nNumber of rounds completed by the hour hand in 3 days 5 hrs $= \\frac{77}{12} = 6 \frac{5}{12}$.\n$\\therefore$ Difference between the distance traversed $= \\left[ 77 \\times \\left( 2 \\times \\frac{22}{7} \\times 10 \\right) - 6 \frac{5}{12} \\times \\left( 2 \\times \\frac{22}{7} \\times 10 \\right) \\right] \\text{ cm} = (4840 - 282.33) \\text{ cm} = 4557.67 \\text{ cm}$.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The minute arm of a clock is 10 cm long. The number of minutes taken by the tip of the arm to travel a length of 10 cm is nearly equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "10",
+      "option_c": "15",
+      "option_d": "20",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Distance covered by the arm tip in 1 round $= 2 \\times \\frac{22}{7} \\times 10 = \\frac{440}{7} \\text{ cm}$.\nNow, $\\frac{440}{7} \\text{ cm}$ is covered in 60 min.\n$\\therefore 10 \\text{ cm}$ is covered in $\\frac{7}{440} \\times 60 \\times 10 \\text{ min} = 9.54 \\text{ min} \\approx 10 \\text{ min}$.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "At which time number of minutes elapsed since midnight is nine times the number of minutes before noon?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8.30 a.m.",
+      "option_b": "6.56 a.m.",
+      "option_c": "9.46 a.m.",
+      "option_d": "10.48 a.m.",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required time be $x$ minutes after midnight.\nDuration from 12 midnight to 12 noon $= 12 \\text{ hrs} = (12 \\times 60) \\text{ min} = 720 \\text{ min}$.\nSo, $x = 9(720 - x) \\Rightarrow 10x = 6480 \\Rightarrow x = 648$.\nHence, required time $= 648 \\text{ min}$ after midnight $= 10 \\text{ hrs } 48 \\text{ min}$ after midnight $= 10.48 \\text{ a.m.}$",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "How many times do the hands of a clock coincide in a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "21",
+      "option_c": "22",
+      "option_d": "24",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The hands of a clock coincide 11 times in every 12 hours (Since between 11 and 1, the coincide only once, i.e. at 12 o’clock).\n$\\therefore$ The hands coincide 22 times in a day.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "830"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "I.I.F.T., 2005",
+      "passage_text": "",
+      "question_text": "How many times in a day, the hands of a clock are straight?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "22",
+      "option_b": "24",
+      "option_c": "44",
+      "option_d": "48",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "In 12 hours, the hands coincide or are in opposite direction \n22 times.\n∴ In 24 hours, the hands coincide or are in opposite \ndirection 44 times a day.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "How many times are the hands of a clock at right angle in a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "22",
+      "option_b": "24",
+      "option_c": "44",
+      "option_d": "48",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "In 12 hours, they are at right angles 22 times.\n∴ In 24 hours, they are at right angles 44 times.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "R.R.B., 2003",
+      "passage_text": "",
+      "question_text": "How many times in a day, are the hands of a clock in straight line but opposite in direction?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "22",
+      "option_c": "24",
+      "option_d": "48",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The hands of a clock point in opposite directions (in the \nsame straight line) 11 times in every 12 hours (Because \nbetween 5 and 7 they point in opposite directions at 6 \no’clock only). So, in a day, the hands point in the opposite \ndirections 22 times.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "I.A.S., 2009",
+      "passage_text": "",
+      "question_text": "How many times are the hour hand and the minute hand of a clock at right angles during their motion from 1.00 p.m. to 10.00 p.m.?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "10",
+      "option_c": "18",
+      "option_d": "20",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The duration from 1.00 p.m. to 10.00 p.m. is 9 hours and \nduring each of these 9 hours the hands of the clock are \nat right angles twice.\nSo, required number = $9 \times 2 = 18$.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A clock gains 5 minutes in one hour. Therefore, the angle traversed by the minute hand in 1 hour is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$360^{\\circ}$",
+      "option_b": "$390^{\\circ}$",
+      "option_c": "$390.5^{\\circ}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Clearly, the minute hand traverses 65 minutes in 1 hour.\n\\ Required angle = $\frac{360}{60} \times 65 = 390^{\\circ}$.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "A clock strikes once at 1O' clock, twice at 2O' clock, thrice at 3O' clock and soon. What is the total number of strikings in a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "136",
+      "option_b": "146",
+      "option_c": "156",
+      "option_d": "166",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Total number of strikings = $2 (1 + 2 + 3 + ........ + 12)$\n$= 2 \times \frac{12 \times 13}{2} = 156$.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "C.P.O., 2004",
+      "passage_text": "",
+      "question_text": "A wall-clock takes 9 seconds in tringing at 9O' clock. The time, it will take in tringing at 11O' clock, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 seconds",
+      "option_b": "10.80 seconds",
+      "option_c": "11 seconds",
+      "option_d": "11.25 seconds",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "There are 8 intervals in 9 trings and 10 intervals in 11 \ntrings.\nTime duration of 8 intervals = 9 sec.\n\\ Required time = Duration of 10 intervals\n$= \frac{9}{8} \times 10$ sec $= 11.25$ sec.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If a clock strikes six times in 5 seconds, the number of strikes in 10 seconds is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "9",
+      "option_c": "10",
+      "option_d": "11",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "There are 5 intervals in 6 strikes.\nNumber of intervals in 5 seconds = 5. Number of intervals \nin 10 seconds = 10.\nSo, the clock will strike 11 times in 10 seconds.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "In every 30 minutes the time of a watch increases by 3 minutes. After showing the correct time at 5 a.m; what time will the watch show after 6 hours?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 : 54 a.m.",
+      "option_b": "11 : 30 a.m.",
+      "option_c": "11 : 36 a.m.",
+      "option_d": "11 : 42 a.m.",
+      "option_e": "11 : 38 p.m.",
+      "correct_option": "c",
+      "solution": "Time gained in 1 hour = 6 min.\nTime gained in 6 hours = $(6 \times 6)$ min = 36 min.\nAfter 6 hours, the correct time is 11:00 a.m. and the watch \nwill show 11:36 a.m.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "A watch becomes fast by 5 minutes everyday. By what percent does it become fast?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{24}$%",
+      "option_b": "$\\frac{1}{12}$%",
+      "option_c": "5%",
+      "option_d": "$\\frac{50}{144}$%",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Number of minutes in a day = $(24 \times 60) = 1440$.\n\\ Required percentage = $\frac{5}{1440} \times 100 = \frac{50}{144} \\%$.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "S.S.C., 2002",
+      "passage_text": "",
+      "question_text": "A clock goes slow from midnight by 5 minutes at the end of the first hour, by 10 minutes at the end of the second hour, by 15 minutes at the end of the third hour and so on. What will be the time by this clock after 6 hours?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5.15 a.m.",
+      "option_b": "5.30 a.m.",
+      "option_c": "6 a.m.",
+      "option_d": "6.30 a.m.",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Time lost in 1 hour = 5 min.\nTime lost in 6 hours = $(5 \times 6)$ min = 30 min.\nAfter 6 hours, the correct time will be 6 a.m. and the \nclock will show 5.30 a.m.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A watch goes fast by 15 minutes compared to the right time everyday. If it is corrected and set to the standard time at 120' clock at noon, which of the following will be the time shown by it at 4 : 00 a.m. in the morning?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 : 45 a.m.",
+      "option_b": "4 : 10 a.m.",
+      "option_c": "4 : 15 a.m.",
+      "option_d": "4 : 30 a.m.",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Duration from 12 noon to 4:00 a.m. = 16 hours.\nTime gained in 24 hours = 15 min.\nTime gained in 16 hours = $\frac{5}{24} \times 16$ min = 10 min.\nHence, time shown by the watch at 4 a.m. = 4 : 10 a.m.",
+      "page_numbers": [
+        "827"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "It is between 3 P.M. and 4 P.M. and the distance between the hour and the minute hand of clock is 18 minute spaces. What time does the clock show?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3.12 P.M.",
+      "option_b": "3.27 P.M.",
+      "option_c": "3.31 P.M.",
+      "option_d": "3.36 P.M.",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "At 3 o’ clock, the minute hand is 15 min spaces behind \nthe hour hand.\nThus, the minute hand has to gain $(15 + 18) = 33$ minute \nspaces.\n55 min are gained in 60 min.\n33 min are gained in $\frac{60}{55} \times 33 = 24$ min.\n\\ The hands will be 18 min spaces apart at 3 : 36 P.M.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "At what time between 9 and 10 o'clock are the hands of a clock 23 minute spaces apart?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9 : 18",
+      "option_b": "9 : 23",
+      "option_c": "9 : 24",
+      "option_d": "9 : 26",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "At 9 O' clock, the minute hand is 4 min. spaces behind \nthe hour hand.\nThus, the minute hand has to gain $(45 - 23)$\n$= 22$ min spaces.\n5 min are gained in 60 min.\n22 min are gained in $\frac{60}{55} \times 22 = 24$ min.\n\\ The hands will be 23 min spaces apart at 9 : 24.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "M.B.A. 2004, 05, 06; G.B.O., 2007; Campus Recruitment, 2008, 2010",
+      "passage_text": "",
+      "question_text": "How much does a watch lose per day, if its hands coincide every 64 minutes?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$32\\frac{8}{11}$ min.",
+      "option_b": "$36\\frac{5}{11}$ min.",
+      "option_c": "90 min.",
+      "option_d": "96 min.",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "55 min. spaces are covered in 60 min.\n60 min. spaces are covered in\n$\frac{60}{55} \times 60$ min. $= 65 \frac{5}{11}$ min.\nLoss in 64 min. $= (65 \frac{5}{11} - 64) = \frac{16}{11}$ min.\nLoss in 24 hrs $= \frac{16}{11} \times \frac{1}{64} \times 24 \times 60$ min. $= 32 \frac{8}{11}$ min.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "R.R.B., 2002",
+      "passage_text": "",
+      "question_text": "At what time, in minutes, between 3 o'clock and 4 o'clock, both the needles will coincide each other?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{5}{11}$' past",
+      "option_b": "$4\\frac{12}{11}$' past",
+      "option_c": "$4\\frac{13}{11}$' past",
+      "option_d": "$4\\frac{16}{11}$' past",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "At 3 o’clock, the minute hand is 15 min. spaces apart \nfrom the hour hand.\nTo be coincident, it must gain 15 min. spaces.\n55 min. are gained in 60 min.\n15 min. are gained in $\frac{60}{55} \times 15 = 16 \frac{4}{11}$ min.\n\\ The hands are coincident at $16 \frac{4}{11}$ min. past 3.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "At what time between 9 and 10 o'clock will the hands of a watch be together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "45 min. past 9",
+      "option_b": "50 min. past 9",
+      "option_c": "$49\\frac{1}{11}$ min. past 9",
+      "option_d": "$48\\frac{2}{11}$ min. past 9",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "To be together between 9 and 10 o’clock, the minute hand \nhas to gain 45 min. spaces.\n55 min. spaces are gained in 60 min.\n45 min. spaces are gained in $\frac{60}{55} \times 45 = 49 \frac{1}{11}$ min.\n\\ The hands are together at $49 \frac{1}{11}$ min. past 9.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "A.A.O. Exam., 2003",
+      "passage_text": "",
+      "question_text": "At what time between 7 and 8 o'clock will the hands of a clock be in the same straight line but, not together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 min. past 7",
+      "option_b": "$5\\frac{2}{11}$ min. past 7",
+      "option_c": "$5\\frac{3}{11}$ min. past 7",
+      "option_d": "$5\\frac{5}{11}$ min. past 7",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "When the hands of the clock are in the same straight line \nbut not together, they are 30 minute spaces apart.\nAt 7 o’clock, they are 25 min. spaces apart.\n\\ Minute hand will have to gain only 5 min. spaces.\n55 min. spaces are gained in 60 min.\n5 min. spaces are gained in $\frac{60}{55} \times 5 = 5 \frac{5}{11}$ min.\n\\ Required time = $5 \frac{5}{11}$ min. past 7.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "At what time between 4 and 5 o'clock will the hands of a watch point in opposite directions?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "45 min. past 4",
+      "option_b": "40 min. past 4",
+      "option_c": "$50\\frac{4}{11}$ min. past 4",
+      "option_d": "$54\\frac{6}{11}$ min. past 4",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "At 4 o’clock, the hands of the watch are 20 min. spaces \napart.\nTo be in opposite directions, they must be 30 min. spaces \napart.\n\\ Minute hand will have to gain 50 min. spaces.\n55 min. spaces are gained in 60 min.\n50 min. spaces are gained in $\frac{60}{55} \times 50 = 54 \frac{6}{11}$ min.\n\\ Required time = $54 \frac{6}{11}$ min. past 4.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "At what time between 5.30 and 6 will the hands of a clock be at right angles?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$43\\frac{5}{11}$ min. past 5",
+      "option_b": "$43\\frac{7}{11}$ min. past 5",
+      "option_c": "40 min. past 5",
+      "option_d": "45 min. past 5",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "At 5 o’clock, the hands are 25 min. spaces apart.\nTo be at right angles and that too between 5.30 and\n6, the minute hand has to gain $(25 + 15) = 40$ min. spaces.\n55 min. spaces are gained in 60 min.\n40 min. spaces are gained in $\frac{60}{55} \times 40 = 43 \frac{7}{11}$ min.\n\\ Required time = $43 \frac{7}{11}$ min. past 5.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "SNAP, 2004",
+      "passage_text": "",
+      "question_text": "Henry started a trip into the country between 8 A.M. and 9 A.M. when the hands of clock were together. He arrived at his destination between 2 P.M. and 3 P.M. when the hands of the clock were exactly $180^{\\circ}$ apart. How long did he travel?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6 hours",
+      "option_b": "7 hours",
+      "option_c": "9 hours",
+      "option_d": "11 hours",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "To be together between 8 A.M. and 9 A.M, the minute hand has to gain 40 min spaces.\n55 min. spaces are gained in 60 min.\n40 min. spaces are gained in $\\left(\\frac{60}{55}\\times40\\right)$ min = $43\\frac{7}{11}$ min.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "831"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "M.B.A. 2004",
+      "passage_text": "",
+      "question_text": "Imagine that your watch was correct at noon, but then it began to lose 30 minutes each hour. It now shows 4 p.m. but it stopped 5 hours ago. What is the correct time now?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9.30 p.m.",
+      "option_b": "11 p.m.",
+      "option_c": "1 a.m.",
+      "option_d": "1.30 a.m.",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The watch loses $\\frac{1}{2}$ hour each hour. So, it must have taken 8 hours to show 4 p.m. from 12 noon. Thus, it stopped at 8 p.m.\nSo, the correct time is 5 hours ahead of 8 p.m., i.e., 1 a.m.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "M.B.A. 2004",
+      "passage_text": "",
+      "question_text": "A mechanical grandfather clock is at present showing 7 hr 40 min 6 sec. Assuming that it loses 4 seconds in every hour, what time will it show after exactly $6\\frac{1}{2}$ hours?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "14 hr 9 min 34 sec",
+      "option_b": "14 hr 9 min 40 sec",
+      "option_c": "14 hr 10 min 6 sec",
+      "option_d": "14 hr 10 min 32 sec",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Time lost in $6\\frac{1}{2}$ hours = $\\left(6\\frac{1}{2}\\times4\\right)$ sec = 26 sec.\nCorrect time after $6\\frac{1}{2}$ hours = 7 hr 40 min 6 sec + 6 hr 30 min = 14 hr 10 min 6 sec.\nTime shown by the clock = 14 hr 10 min 6 sec – 26 sec = 14 hr 9 min 40 sec.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "I have two watches with a 12 hour cycle. One of them gains one minute a day and the other loses $1\\frac{1}{2}$ minutes per day. If I set them both at the correct time, how long will it be before they again tell the correct time together?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "288 days",
+      "option_b": "480 days",
+      "option_c": "720 days",
+      "option_d": "1440 days",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Clearly, the first watch will show the correct time when it has gained 12 hours i.e., $(12\\times60) = 720$ min and the second watch will show the correct time when it has lost 720 min.\nTime taken by first watch to gain 720 min = 720 days.\nTime taken by second watch to gain 720 min = $\\left(720\\div\\frac{3}{2}\\right)$ days = 480 days.\nSo the first watch shows correct time after every 720 days and the second watch after every 480 days.\nTime after which both the clocks will together tell the correct time = L.C.M. of 720 and 480 = 1440 days.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "M.A.T. 2004",
+      "passage_text": "",
+      "question_text": "A watch is 1 minute slow at 1 p.m. on Tuesday and 2 minutes fast at 1 p.m. on Thursday. When did it show the correct time?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.00 a.m. on Wednesday",
+      "option_b": "5.00 a.m. on Wednesday",
+      "option_c": "1.00 p.m. on Wednesday",
+      "option_d": "5.00 p.m. on Wednesday",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Time from 1 p.m. on Tuesday to 1 p.m. on Thursday = 48 hours.\nSo, the watch gains $(1 + 2)$ min or 3 min in 48 hrs.\nNow, 3 min are gained in 48 hrs.\nSo, 1 min is gained in $\\left(\\frac{48}{3}\\right) = 16$ hrs.\nThus, the watch showed the correct time 16 hrs. after 1 p.m. on Tuesday, i.e. 5 a.m. on Wednesday.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A watch which gains uniformly is 2 minutes low at noon on Monday and is 4 min. 48 sec fast at 2 p.m. on the following Monday. When was it correct?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 p.m. on Tuesday",
+      "option_b": "2 p.m. on Wednesday",
+      "option_c": "3 p.m. on Thursday",
+      "option_d": "1 p.m. on Friday",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Time from 12 p.m. on Monday to 2 p.m. on the following Monday = 7 days 2 hours = 170 hours.\n$\\therefore$ The watch gains $\\left(2 + \\frac{4}{5}\\right)$ min. or $\\frac{34}{5}$ min. in 170 hrs.\nNow, $\\frac{34}{5}$ min. are gained in 170 hrs.\n$\\therefore$ 2 min. are gained in $\\left(\\frac{5}{34}\\times170\\times2\\right)$ hrs = 50 hrs.\n$\\therefore$ Watch is correct 2 days 2 hrs. after 12 p.m. on Monday i.e. it will be correct at 2 p.m. on Wednesday.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A watch which gains 5 seconds in 3 minutes was set right at 7 a.m. In the afternoon of the same day, when the watch indicated quarter past 4 o'clock, the true time is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$59\\frac{7}{12}$ min. past 3",
+      "option_b": "4 p.m.",
+      "option_c": "$58\\frac{7}{11}$ min. past 3",
+      "option_d": "$2\\frac{3}{11}$ min. past 4",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Time from 7 a.m. to 4.15 p.m. = 9 hrs 15 min. = $\\frac{37}{4}$ hrs.\n3 min. 5 sec. of this clock = 3 min. of the correct clock.\n$\\Rightarrow \\frac{37}{720}$ hrs of this clock = $\\frac{1}{20}$ hrs of the correct clock\n$\\Rightarrow \\frac{37}{4}$ hrs of this clock = $\\left(\\frac{1}{20}\\times\\frac{720}{37}\\times\\frac{37}{4}\\right)$ hrs of the correct clock = 9 hrs of the correct clock\n$\\therefore$ The correct time is 9 hrs after 7 a.m., i.e. 4 p.m.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "M.B.A. 2003",
+      "passage_text": "",
+      "question_text": "Between 5 and 6, a lady looked at her watch and mistaking the hour hand for the minute hand, she thought that the time was 57 minutes earlier than the correct time. The correct time was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 minutes past 5",
+      "option_b": "24 minutes past 5",
+      "option_c": "36 minutes past 5",
+      "option_d": "48 minutes past 5",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Since the time read by the lady was 57 minutes earlier than the correct time, so the minute hand is $(60 - 57) = 3$ minute spaces behind the hour hand.\nNow, at 5 o’clock, the minute hand is 25 minute spaces behind the hour hand.\nTo be 3 minute spaces behind, it must gain $(25 - 3) = 22$ minute spaces.\n55 min spaces are gained in 60 min.\n22 min spaces are gained in $\\left(\\frac{60}{55}\\times22\\right) = 24$ min.\nHence, the correct time was 24 minutes past 5.",
+      "page_numbers": [
+        "828"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "IDBI Bank Executive Officers Exam, 2012",
+      "passage_text": "",
+      "question_text": "How much does a watch losse per day if its hands coincide every 64 minutes?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "37 minutes",
+      "option_b": "$32\\frac{8}{11}$ minutes",
+      "option_c": "31 minutes",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "55 minutes spaces are covered in 60 minutes\n60 minutes spaces are covered in $\\left[\\frac{60}{55}\\times60\\right]$ minutes = $65\\frac{5}{11}$ minutes\nLoss in 64 minute = $\\left(65\\frac{5}{11} - 64\\right) = \\frac{16}{11}$ minutes\nLoss in 24 hours = $\\left(\\frac{16}{11}\\times\\frac{1}{64}\\times24\\times60\\right)$ minutes = $32\\frac{8}{11}$ minutes",
+      "page_numbers": [
+        "829"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "SSC—FCI Gr. III Exam, 2012",
+      "passage_text": "",
+      "question_text": "Wall clock gains 2 minutes in 12 hours, while a table clock loses 2 minutes every 36 hours. Both are set right at 12 noon on Tuesday. The correct time when both show the same time next would be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12:30 at night, after 130 days",
+      "option_b": "12 noon, after 135 days",
+      "option_c": "1:30 at nights, after 130 days",
+      "option_d": "12 midnight after 135 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "After 12 days, i.e., after $12\\times24$ hours clock A will gain 48 minutes and will slow 12:48 noon.\nAfter 12 days, i.e., after $12\\times24$ hours clock B will loose 16 minutes and will show 11:44 am.\nThe two clocks will show the same time after 135 days\nThe time difference has to be 12 hours between then = 720 minutes.\nA will gain 540 minutes in 135 days.\nB will loose 180 minutes in 135 days Total 720 minutes.\nFurther if we consider only time then the problem becomes simpler\nTotal difference of minutes between the times shown by the clocks after 36 hours\n$\\Rightarrow \\frac{16}{3}$ minutes difference in 1 day\n$\\Rightarrow 12\\times60$ minutes difference in $\\left(\\frac{3}{16}\\times12\\times60\\right) = 135$ days",
+      "page_numbers": [
+        "829"
+      ],
+      "answer_page_numbers": [
+        "832"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "CLAT, 2016",
+      "passage_text": "",
+      "question_text": "The angle between the hands of a clock when the time is 4 : 25 am is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$13\\frac{1}{2}^{\\circ}$",
+      "option_b": "$17\\frac{1}{2}^{\\circ}$",
+      "option_c": "$14\\frac{1}{2}^{\\circ}$",
+      "option_d": "$12\\frac{1}{2}^{\\circ}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let angle between the hands of clock be $x^\\circ$.\nWhen the time is 4 : 25 a.m.\n{Where M = minutes and H = hours}\nRequired angle = $30\\left(\\frac{M}{5} - H\\right) - \\frac{M}{2}$\n$= 30\\left(\\frac{25}{5} - 4\\right) - \\frac{25}{2} = 30(5 - 4) - 12.5 = 30 - 12.5 = 17.5^\\circ = 17\\frac{1}{2}^\\circ$",
+      "page_numbers": [
+        "829"
+      ],
+      "answer_page_numbers": [
+        "833"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "CDS Exam, 2016",
+      "passage_text": "",
+      "question_text": "At 8:30, the hour hand and the minute hand of clock form an angle of",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$80^{\\circ}$",
+      "option_b": "$75^{\\circ}$",
+      "option_c": "$70^{\\circ}$",
+      "option_d": "$60^{\\circ}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "In 1 hour, the hour hand’s make the angle of $30^\\circ$.\nThe hour hand make the angle of $x^\\circ$ in $8\\frac{30}{60}$ hours.\n$\\Rightarrow x = \\left(30\\times8\\frac{1}{2}\\right)^\\circ = \\left(30\\times\\frac{17}{2}\\right) = 225^\\circ$\nThe minute hand make the angle in 1 minute = $6^\\circ$\nMinute hand makes the angle in 30 minutes = $(6\\times30)^\\circ = 180^\\circ$\nRequired angle = $255^\\circ - 180^\\circ = 75^\\circ$",
+      "page_numbers": [
+        "829"
+      ],
+      "answer_page_numbers": [
+        "833"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "A clock is displaying correct time at 9am on Monday. If the clock loses 12 minutes in 24 hours, then the actual time when the clock indicates 8:30pm on Wednesday of the same week is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 pm",
+      "option_b": "7 pm",
+      "option_c": "9 pm",
+      "option_d": "8 : 59 : 45 pm",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Time interval from 9 am on Monday to 8 : 30 pm on Wednesday\n= $(24\\times2.5 - 0 : 30)$ hours\n= 60 – 0 : 30 hours\n= 59 hours 30 minutes\n= $59\\frac{30}{60} = 59\\frac{1}{2} = \\frac{119}{2}$ hours\nAlso 24 hours – 12 minutes\n= 23 hours 48 minutes\n= $23\\frac{48}{60} = 23\\frac{4}{5} = \\frac{119}{5}$ hours\n$\\frac{119}{5}$ hours of this clock = 24 hours of the correct clock\n$\\therefore \\frac{119}{2}$ hours of this clock = $\\left(\\frac{24\\times5}{119}\\times\\frac{119}{2}\\right) = 60$ hours\n$\\left(60 - \\frac{119}{2}\\right)$ hours = $\\left(\\frac{120 - 119}{2}\\right)$ hours = $\\frac{1}{2}$ hours = 30 minutes\nHence, the correct time is 30 minutes after 8 : 30 pm. i.e. 9 pm.",
+      "page_numbers": [
+        "829"
+      ],
+      "answer_page_numbers": [
+        "833"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "There are two clocks, both set to show 10 pm on 21st January 2010. One clock gains 2 minutes in an hour and the other clock loses 5 minutes in an hour. Then by how many minutes do the two clocks differ at 4 pm on 22nd January 2010?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "126 minutes",
+      "option_b": "136 minutes",
+      "option_c": "96 minutes",
+      "option_d": "106 minutes",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "One clock show 10pm. On 21st January 2010\nOne clock gains = 2 minutes\nOther clock loses = 5 minutes\nTime period between 10 pm and 4 pm = 18 hours\n$\\therefore$ Required difference = $(2\\times18 + 5\\times18)$ minutes\n= 126 minutes",
+      "page_numbers": [
+        "829"
+      ],
+      "answer_page_numbers": [
+        "833"
+      ]
+    }
+  ]
+}

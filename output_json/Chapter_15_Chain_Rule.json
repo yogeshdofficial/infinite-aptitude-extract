@@ -1,0 +1,2160 @@
+{
+  "chapter_title": "Chapter_15_Chain_Rule",
+  "question_count": 97,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "L.I.C.A.D.O., 2007",
+      "passage_text": "",
+      "question_text": "A canteen requires 105 kgs of wheat for a week. How many kgs of wheat will it require for 58 days?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required quantity be x kg. Then,\nMore days, More cost (Direct Proportion)\n$7 : 58 :: 105 : x \\iff 7 \\times x = 58 \\times 105 \\iff x = \\left(\\frac{58 \\times 105}{7}\\right) = 870$.\nHence, the canteen will require 870 kg of wheat for 58 days.",
+      "page_numbers": [
+        "493"
+      ],
+      "answer_page_numbers": [
+        "493"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 36 men can do a piece of work in 25 hours, in how many hours will 15 men do it?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number of hours be x. Then,\nLess men, More hours (Indirect Proportion)\n$15 : 36 :: 25 : x \\iff (15 \\times x) = (36 \\times 25) \\iff x = \\left(\\frac{36 \\times 25}{15}\\right) = 60$.\nHence, 15 men can do it in 60 hours.",
+      "page_numbers": [
+        "493"
+      ],
+      "answer_page_numbers": [
+        "493"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "35 women can do a piece of work in 15 days. How many women would be required to do the same work in 25 days?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number of women be x. Then,\nMore days, Less women (Indirect Proportion)\n$25 : 15 :: 35 : x \\iff (25 \\times x) = (15 \\times 35) \\iff x = \\left(\\frac{15 \\times 35}{25}\\right) = 21$.\nHence, 21 women can do the work in 25 days.",
+      "page_numbers": [
+        "493"
+      ],
+      "answer_page_numbers": [
+        "493"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "M.A.T., 2004",
+      "passage_text": "",
+      "question_text": "A certain number of people were supposed to complete a work in 24 days. The work, however, took 32 days since 9 people were absent throughout. How many people were supposed to be working originally?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Originally, let there be x people.\nLess people, More days (Indirect Proportion)\n$(x - 9) : x :: 24 : 32 \\iff (x - 9) \\times 32 = x \\times 24 \\iff 8x = 288 \\iff x = 36$.\nHence, 36 people were supposed to be working originally.",
+      "page_numbers": [
+        "493",
+        "494"
+      ],
+      "answer_page_numbers": [
+        "494"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "M.A.T., 2010",
+      "passage_text": "",
+      "question_text": "If 5 students utilize 18 pencils in 9 days, how long, at the same rate, will 66 pencils last for 15 students?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number of days be x.\nMore students, Less days (Indirect Proportion)\nMore pencils, More days (Direct Proportion)\nStudents 15 : 5\nPencils 18 : 66\n$:: 9 : x$\n$(15 \\times 18 \\times x) = (5 \\times 66 \\times 9) \\iff x = \\left(\\frac{5 \\times 66 \\times 9}{15 \\times 18}\\right) = 11$.\nHence, the required number of days is 11.",
+      "page_numbers": [
+        "494"
+      ],
+      "answer_page_numbers": [
+        "494"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 20 men can build a wall 56 metres long in 6 days, what length of a similar wall can be built by 35 men in 3 days?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required length be x metres.\nMore men, More length built (Direct Proportion)\nLess days, Less length built (Direct Proportion)\nMen 20 : 35\nDays 6 : 3\n$:: 56 : x$\n$(20 \\times 6 \\times x) = (35 \\times 3 \\times 56) \\iff x = \\left(\\frac{35 \\times 3 \\times 56}{120}\\right) = 49$.\nHence, the required length is 49 m.",
+      "page_numbers": [
+        "494"
+      ],
+      "answer_page_numbers": [
+        "494"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "Bank P.O., 2006",
+      "passage_text": "",
+      "question_text": "8 men working for 9 hours a day complete a piece of work in 20 days. In how many days can 7 men working for 10 hours a day complete the same piece of work?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number of days be x.\nLess men, More days (Indirect Proportion)\nMore hours per day, Less days (Indirect Proportion)\nMen 7 : 8\nHours per day 10 : 9\n$:: 20 : x$\n$(7 \\times 10 \\times x) = (8 \\times 9 \\times 20) \\iff x = \\left(\\frac{8 \\times 9 \\times 20}{7 \\times 10}\\right) = \\frac{144}{7} = 20\\frac{4}{7}$.\nHence, required number of days = $20\\frac{4}{7}$.",
+      "page_numbers": [
+        "494"
+      ],
+      "answer_page_numbers": [
+        "494"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "R.R.B., 2007",
+      "passage_text": "",
+      "question_text": "If 12 men or 18 women can do a work in 14 days, then in how many days will 8 men and 16 women do the same work?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number of days be x.\n12 men $\\equiv$ 18 women $\\implies$ 8 men $\\equiv$ $\\left(\\frac{18}{12} \\times 8\\right)$ women = 12 women.\nMore women, Less days (Indirect Proportion)\n$28 : 18 :: 14 : x \\iff (28 \\times x) = (18 \\times 14) \\iff x = \\left(\\frac{18 \\times 14}{28}\\right) = 9$.\nHence, required number of days = 9.",
+      "page_numbers": [
+        "494"
+      ],
+      "answer_page_numbers": [
+        "494"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "5 press compositors can set 625 pages of a manuscript in 16 days of $10\\frac{1}{2}$ hours each. Each page has 60 lines and each line has 40 letters. In how many days of 8 hours each, will 10 compositors set 1000 pages of a manuscript, each page having 45 lines with 50 letters in each line?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number of days be x.\nMore compositors, Less days (Indirect Proportion)\nMore pages, More days (Direct Proportion)\nLess hours per day, More days (Indirect Proportion)\nLess lines per page, Less days (Direct Proportion)\nMore letters per line, More days (Direct Proportion)\nCompositors 10 : 5\nPages 625 : 1000\nHours per day 8 : $\\frac{21}{2}$\nLines per page 60 : 45\nLetters per line 40 : 50\n$:: 16 : x$\n$10 \\times 625 \\times 8 \\times 60 \\times 40 \\times x = 5 \\times 1000 \\times \\frac{21}{2} \\times 45 \\times 50 \\times 16$\n$\\implies x = \\left(\\frac{5 \\times 1000 \\times 21 \\times 45 \\times 50 \\times 16}{2 \\times 10 \\times 625 \\times 8 \\times 60 \\times 40}\\right) = \\frac{63}{4} = 15\\frac{3}{4}$.\nHence, required number of days = $15\\frac{3}{4}$.",
+      "page_numbers": [
+        "494",
+        "495"
+      ],
+      "answer_page_numbers": [
+        "495"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Rocky can walk a certain distance in 40 days when he rests 9 hours a day. How long will he take to walk twice the distance, twice as fast and rest twice as long each day?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the distance in the two cases be y and 2y respectively and the speed be z and 2z respectively. Let the required number of days be x.\nMore distance, More days (Direct Proportion)\nMore speed, Less days (Indirect Proportion)\nMore resting time, More days (Direct Proportion)\nDistance y : 2y\nSpeed 2z : z\nResting time 9 : 18\n$:: 40 : x$\n$y \\times 2z \\times 9 \\times x = 2y \\times z \\times 18 \\times 40 \\implies x = \\left(\\frac{2y \\times z \\times 18 \\times 40}{y \\times 2z \\times 9}\\right) = 80$.\nHence, required number of days = 80.",
+      "page_numbers": [
+        "495"
+      ],
+      "answer_page_numbers": [
+        "495"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "15 persons working 8 hours a day can complete a work in 21 days. How many days will 14 persons take to complete a work $1\\frac{1}{2}$ times as great, if they work 6 hours a day?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number of days be x.\nLess persons, More days (Indirect Proportion)\nLess hours per day, More days (Indirect Proportion)\nMore work, More days (Direct Proportion)\nPersons 14 : 15\nHours per day 6 : 8\nWork y : $\\frac{3}{2}y$\n$:: 21 : x$\n$14 \\times 6 \\times y \\times x = 15 \\times 8 \\times \\frac{3}{2}y \\times 21 \\iff x = \\left(\\frac{15 \\times 8 \\times 3 \\times 21}{2 \\times 14 \\times 6}\\right) = 45$.\nHence, required number of days = 45.",
+      "page_numbers": [
+        "495"
+      ],
+      "answer_page_numbers": [
+        "495"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "SNAP., 2010",
+      "passage_text": "",
+      "question_text": "A contract is to be completed in 50 days and 105 men were set to work, each working 8 hours a day. After 25 days, $\\frac{2}{5}$ of the work is finished. How many additional men be employed so that the work may be completed on time, each man now working 9 hours a day?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number of additional men be x.\nRemaining work = $\\left(1 - \\frac{2}{5}\\right) = \\frac{3}{5}$.\nMore days, less men (Indirect Proportion)\nMore working hours per day, Less men (Indirect Proportion)\nMore work, More men (Direct Proportion)\nDays 25 : 25\nWorking hours 9 : 8\nWork $\\frac{2}{5} : \\frac{3}{5}$\n$:: 105 : (105 + x)$\n$25 \\times 9 \\times \\frac{2}{5} \\times (105 + x) = 25 \\times 8 \\times \\frac{3}{5} \\times 105$\n$\\iff (105 + x) = \\left(\\frac{25 \\times 8 \\times 3 \\times 105 \\times 5}{5 \\times 25 \\times 9 \\times 2}\\right) = 140 \\iff x = 35$.\nHence, additional number of men required = 35.",
+      "page_numbers": [
+        "495",
+        "496"
+      ],
+      "answer_page_numbers": [
+        "496"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 9 engines consume 24 metric tonnes of coal, when each is working 8 hours a day; how much coal will be required for 8 engines, each running 13 hours a day, it being given that 3 engines of former type consume as much as 4 engines of latter type?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let 3 engines of former type consume 1 unit in 1 hour.\nThen, 4 engines of latter type consume 1 unit in 1 hour.\n1 engine of former type consumes $\\frac{1}{3}$ unit in 1 hour.\n1 engine of latter type consumes $\\frac{1}{4}$ unit in 1 hour.\nLet the required consumption of coal be x units.\nLess engines, Less coal consumed (Direct Proportion)\nMore working hours, More coal consumed (Direct Proportion)\nLess rate of consumption, Less coal consumed (Direct Proportion)\nNumber of engines 9 : 8\nWorking hours 8 : 13\nRate of consumption $\\frac{1}{3} : \\frac{1}{4}$\n$:: 24 : x$\n$\\left(\\frac{9 \\times 8 \\times 1}{3} \\times x\\right) = \\left(\\frac{8 \\times 13 \\times 1}{4} \\times 24\\right) \\iff 24x = 624 \\iff x = 26$.\nHence, the required consumption of coal = 26 metric tonnes.",
+      "page_numbers": [
+        "496"
+      ],
+      "answer_page_numbers": [
+        "496"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A garrison of 3300 men had provisions for 32 days, when given at the rate of 850 gms per head. At the end of 7 days, a reinforcement arrives and it was found that the provisions will last 17 days more, when given at the rate of 825 gms per head. What is the strength of the reinforcement?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "The problem becomes :\n3300 men taking 850 gms per head have provisions for (32 - 7) or 25 days. How many men taking 825 gms each have provisions for 17 days?\nLess ration per head, More men (Indirect Proportion)\nLess days, More men (Indirect Proportion)\nRation 825 : 850\nDays 17 : 25\n$:: 3300 : x$\n$825 \\times 17 \\times x = 850 \\times 25 \\times 3300 \\text{ or } x = \\left(\\frac{850 \\times 25 \\times 3300}{825 \\times 17}\\right) = 5000$.\nStrength of reinforcement = (5000 - 3300) = 1700.",
+      "page_numbers": [
+        "496"
+      ],
+      "answer_page_numbers": [
+        "496"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "15",
+      "exam_reference": "M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "Two coal loading machines each working 12 hours per day for 8 days handle 9000 tonnes of coal with an efficiency of 90% while 3 other coal loading machines at an efficiency of 80% are set to handle 12000 tonnes of coal in 6 days. Find how many hours per day each should work.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sol. Let the number of working hours per day be x.\nMore machines, Less working hours per day (Indirect Proportion)\nLess days, More working hours per day (Indirect Proportion)\nMore coal, More working hours per day (Direct Proportion)\nLess efficiency, More working hours per day (Indirect Proportion)\nMachines 3 : 2\nDays 6 : 8 :: 12 : x\nCoal 9000 : 12000\nEfficiency 80 : 90\n∴ $3 \\times 6 \\times 9000 \\times 80 \\times x = 2 \\times 8 \\times 12000 \\times 90 \\times 12 \\Leftrightarrow x = \\frac{2 \\times 8 \\times 12000 \\times 90 \\times 12}{3 \\times 6 \\times 9000 \\times 80} = 16$.\nHence, each machine should work for 16 hours per day.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "M.B.A., 2002",
+      "passage_text": "",
+      "question_text": "If the cost of x metres of wire is d rupees, then what is the cost of y metres of wire at the same rate?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ $\\left(\\frac{xy}{d}\\right)$",
+      "option_b": "₹ $(xd)$",
+      "option_c": "₹ $(yd)$",
+      "option_d": "₹ $\\left(\\frac{yd}{x}\\right)$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Cost of x metres = ₹ d. Cost of 1 metre = ₹ $\\left(\\frac{d}{x}\\right)$.\nCost of y metres = ₹ $\\left(\\frac{d}{x}\\times y\\right) = ₹ \\left(\\frac{yd}{x}\\right)$.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "502"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The price of 5.5 dozen pens is ₹ 1287. What is the price of 16 such pens?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 212",
+      "option_b": "₹ 296",
+      "option_c": "₹ 312",
+      "option_d": "₹ 412",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "5.5 dozen pens = $(5.5 \\times 12)$ pens = 66 pens. Let the cost of 16 pens be ₹ x.\nLess pens, Less cost (Direct Proportion)\n$\\therefore 66 : 16 :: 1287 : x \\iff 66x = 16 \\times 1287$\n$\\iff x = \\left(\\frac{16 \\times 1287}{66}\\right) = ₹ 312$.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "502",
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The price of 357 mangoes is ₹ 1517.25. What will be the approximate price of 49 dozens of such mangoes?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 3000",
+      "option_b": "₹ 3500",
+      "option_c": "₹ 4000",
+      "option_d": "₹ 2500",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required price be ₹ x.\nThen,\nMore mangoes, More price (Direct Proportion)\n$\\therefore 357 : (49 \\times 12) :: 1517.25 : x$\n$\\iff 357x = (49 \\times 12 \\times 1517.25)$\n$\\iff x = \\left(\\frac{49 \\times 12 \\times 1517.25}{357}\\right) \\iff x = 2499$.\nHence, the approximate price is ₹ 2500.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "502",
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If a quarter kg of potato costs 60 paise, how many paise will 200 gm cost?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "48 paise",
+      "option_b": "54 paise",
+      "option_c": "56 paise",
+      "option_d": "72 paise",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the required cost be x paise.\nLess weight, Less cost (Direct Proportion)\n$\\therefore 250 : 200 :: 60 : x$\n$\\iff 250 \\times x = (200 \\times 60)$\n$\\iff x = \\left(\\frac{200 \\times 60}{250}\\right)$\n$\\iff x = 48$.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 11.25 m of a uniform iron rod weighs 42.75 kg, what will be the weight of 6 m of the same rod?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "22.8 kg",
+      "option_b": "25.6 kg",
+      "option_c": "28 kg",
+      "option_d": "26.5 kg",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the required weight be x kg. Then,\nLess length, Less weight (Direct Proportion)\n$\\therefore 11.25 : 6 :: 42.75 : x$\n$\\iff 11.25 \\times x = 6 \\times 42.75$\n$\\iff x = \\left(\\frac{6 \\times 42.75}{11.25}\\right)$\n$\\iff x = 22.8$.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "On a scale of map, 0.6 cm represents 6.6 km. If the distance between the points on the map is 80.5 cm, the actual distance between these points is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9 km",
+      "option_b": "72.5 km",
+      "option_c": "190.75 km",
+      "option_d": "885.5 km",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the actual distance be x km. Then,\nMore distance on the map, More is the actual distance (Direct Proportion)\n$\\therefore 0.6 : 80.5 :: 6.6 : x$\n$\\iff 0.6 x = 80.5 \\times 6.6$\n$\\iff x = \\left(\\frac{80.5 \\times 6.6}{0.6}\\right) \\iff x = 885.5$.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "M.B.A., 2003",
+      "passage_text": "",
+      "question_text": "An industrial loom weaves 0.128 metres of cloth every second. Approximately, how many seconds will it take for the loom to weave 25 metres of cloth?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "178",
+      "option_b": "195",
+      "option_c": "204",
+      "option_d": "488",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required time be x seconds.\nThen,\nMore metres, More time (Direct Proportion)\n$\\therefore 0.128 : 25 :: 1 : x$\n$\\iff 0.128 \\times x = 25 \\times 1$\n$\\iff x = \\left(\\frac{25}{0.128}\\right) = \\left(\\frac{25 \\times 1000}{128}\\right) \\iff x = 195.31$.\n$\\therefore$ Required time = 195 sec (approximately).",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A recipe for stew that feeds 4 people calls for $1\\frac{1}{2}$ teaspoons of salt. If 3 teaspoons = 1 tablespoon, then how many tablespoons of salt will be needed to make enough stew for 18 people?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.25",
+      "option_b": "3.25",
+      "option_c": "4.5",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "3 teaspoons = 1 tablespoon\n$\\Rightarrow 1\\frac{1}{2}$ teaspoons = $\\frac{1}{2}$ tablespoon.\nLet the number of tablespoons required be x.\nMore people, More salt required (Direct Proportion)\n$\\therefore 4 : 18 :: \\frac{1}{2} : x \\iff 4x = 18 \\times \\frac{1}{2} = 9 \\iff x = \\frac{9}{4} = 2.25$.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "DMRC, 2003",
+      "passage_text": "",
+      "question_text": "A snapshot $7\\frac{1}{2}'' \\times 8\\frac{1}{2}''$ is to be enlarged so that the longer dimension is 4″. What will be the dimension of the shorter side?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3\\frac{2}{8}''$",
+      "option_b": "$1\\frac{2}{2}''$",
+      "option_c": "3″",
+      "option_d": "$3\\frac{3}{8}''$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the dimension of the shorter side be x.\nMore is the longer side, More is the shorter side (Direct Proportion)\n$\\therefore 1\\frac{1}{2} : 4 :: 7\\frac{1}{2} : x \\iff \\frac{3}{2} : 4 :: \\frac{15}{2} : x \\iff x = \\left(\\frac{4 \\times 15}{2} \\times \\frac{2}{3}\\right) = 3$.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "Bank Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "A canteen requires 651 bananas for a week. Totally, how many bananas will it require for the months of April, May and June?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8463",
+      "option_b": "8547",
+      "option_c": "9086",
+      "option_d": "9284",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Total number of days = (30 + 31 + 30) = 91.\nLet the number of bananas be x.\nMore days, More bananas (Direct Proportion)\n$\\therefore 7 : 91 :: 651 : x \\iff 7x = 91 \\times 651$\n$\\iff x = \\left(\\frac{91 \\times 651}{7}\\right) = 8463$.",
+      "page_numbers": [
+        "497"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "Hotel Management, 2010",
+      "passage_text": "",
+      "question_text": "If $\\frac{4}{9}$ th of a bucket is filled in 1 minute, the rest of it will be filled in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 min",
+      "option_b": "$\\frac{9}{4}$ min",
+      "option_c": "$\\frac{5}{4}$ min",
+      "option_d": "$\\frac{4}{5}$ min",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Remaining part = $\\left(1 - \\frac{4}{9}\\right) = \\frac{5}{9}$.\nLet the required time be x minutes.\nMore volume to be filled, More time taken (Direct Proportion)\n$\\therefore \\frac{4}{9} : \\frac{5}{9} :: 1 : x \\iff x = \\left(\\frac{5}{9} \\times \\frac{9}{4}\\right) = \\frac{5}{4}$.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "A.T.M.A., 2004",
+      "passage_text": "",
+      "question_text": "On a certain map of India the actual distance of 1450 km between two cities Delhi and Kolkata is shown as 5 cm. What scale is used to draw the map?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1 : 15 \\times 10^6$",
+      "option_b": "$1 : 20 \\times 10^6$",
+      "option_c": "$1 : 25 \\times 10^6$",
+      "option_d": "$1 : 29 \\times 10^6$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "5 cm on the map represents 1450 km.\n$\\therefore 1$ cm on the map represents $\\left(\\frac{1450}{5}\\right)$ km = 290 km.\nHence, the scale is 1 cm : 290 km i.e., 1 : $29 \\times 10^6$.\n[$\\because 290$ km = $(29 \\times 10^6)$ cm]",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "M.B.A., 2002",
+      "passage_text": "",
+      "question_text": "A flagstaff 17.5 m high casts a shadow of length 40.25 m. The height of the building, which casts a shadow of length 28.75 m under similar conditions will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 m",
+      "option_b": "12.5 m",
+      "option_c": "17.5 m",
+      "option_d": "21.25 m",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the height of the building be x metres.\nLess lengthy shadow, Less is the height (Direct Proportion)\n$\\therefore 40.25 : 28.75 :: 17.5 : x$\n$\\iff 40.25 \\times x = 28.75 \\times 17.5$\n$\\iff x = \\left(\\frac{28.75 \\times 17.5}{40.25}\\right) \\iff x = 12.5$.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A TV tower 36 metres high casts a shadow of 24 metres at a particular time of a day. What is the height of a minar with a three metre high flagstaff atop it, if both of these together cast a shadow of 50 metres at the same time of the day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "64 m",
+      "option_b": "72 m",
+      "option_c": "75 m",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the height of the minar with flagstaff be x metres.\nMore lengthy shadow, More is the height (Direct Proportion)\n$\\therefore 24 : 50 :: 36 : x \\iff 24x = 50 \\times 36$\n$\\iff x = \\left(\\frac{50 \\times 36}{24}\\right) = 75$.\nHence, height of the minar = (75 - 3) m = 72 m.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "M.B.A., 2003",
+      "passage_text": "",
+      "question_text": "A man completes $\\frac{5}{8}$ of a job in 10 days. At this rate, how many more days will it take him to finish the job?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "6",
+      "option_c": "7",
+      "option_d": "$7\\frac{1}{2}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Work done = $\\frac{5}{8}$. Balance work = $\\left(1 - \\frac{5}{8}\\right) = \\frac{3}{8}$.\nLess work, Less days (Direct Proportion)\nLet the required number of days be x.\nThen,\n$\\frac{5}{8} : \\frac{3}{8} :: 10 : x \\iff \\frac{5}{8} \\times x = \\frac{3}{8} \\times 10 \\iff x = \\left(\\frac{3}{8} \\times 10 \\times \\frac{8}{5}\\right) = 6$.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "56 men can complete a piece of work in 24 days. In how many days can 42 men complete the same piece of work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "32",
+      "option_c": "48",
+      "option_d": "98",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the required number of days be x.\nLess men, More days (Indirect Proportion)\n$\\therefore 42 : 56 :: 24 : x$\n$\\iff 42x = 56 \\times 24 \\iff x = \\left(\\frac{56 \\times 24}{42}\\right) = 32$.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "30 men can do a piece of work in 16 days. How many men would be required to do the same work in 20 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "24",
+      "option_c": "36",
+      "option_d": "48",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the required number of men be x.\nMore days, Less men (Indirect Proportion)\n$\\therefore 20 : 16 :: 30 : x \\iff 20x = 16 \\times 30$\n$\\iff x = \\left(\\frac{16 \\times 30}{20}\\right) = 24$.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A group of workers promise to complete a piece of work in 10 days, but five of them do not report for work. If it took the remaining workers 12 days to complete the work, then the number of workers originally hired was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "25",
+      "option_c": "30",
+      "option_d": "45",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the number of workers originally hired be x.\nLess workers, More days (Indirect Proportion)\n(x - 5) : x :: 10 : 12\n$\\iff 12 (x - 5) = 10 x \\iff 2x = 60 \\iff x = 30$.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A wheel that has 6 cogs is meshed with a larger wheel of 14 cogs. When the smaller wheel has made 21 revolutions, then the number of revolutions made by the larger wheel is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "9",
+      "option_c": "12",
+      "option_d": "49",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of revolutions made by larger wheel be x.\nThen, More cogs, Less revolutions (Indirect Proportion)\n$\\therefore 14 : 6 :: 21 : x$\n$\\iff 14 \\times x = 6 \\times 21 \\iff x = \\left(\\frac{6 \\times 21}{14}\\right) = 9$.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "503"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a camp, there is a meal for 120 men or 200 children. If 150 children have taken the meal, how many men will be catered to with the remaining meal?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "30",
+      "option_c": "40",
+      "option_d": "50",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "There is a meal for 200 children. 150 children have taken the meal.\nRemaining meal is to be catered to 50 children.\nNow, 200 children $\\equiv$ 120 men\n50 children $\\equiv$ $\\left(\\frac{120}{200} \\times 50\\right)$ men = 30 men.",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The cost of 16 packets of salt, each weighing 900 grams is ₹ 28. What will be the cost of 27 packets, if each packet weighs 1 kg?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 52.50",
+      "option_b": "₹ 56",
+      "option_c": "₹ 58.50",
+      "option_d": "₹ 64.75",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required cost be ₹ $x$. Then,\nMore packets, More cost (Direct Proportion)\nMore weight, More cost (Direct Proportion)\nPackets $16:27$\n$::28:x$\nWeight $900:1000$\n$\therefore (16 \times 900 \times x) = (27 \times 1000 \times 28)$\n$\therefore x = \frac{27 \times 1000 \times 28}{16 \times 900} = \frac{105}{2} = 52.50$",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "4 mat-weavers can weave 4 mats in 4 days. At the same rate, how many mats would be woven by 8 mat-weavers in 8 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "8",
+      "option_c": "12",
+      "option_d": "16",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of mats be $x$.\nMore weavers, More mats (Direct Proportion)\nMore days, More mats (Direct Proportion)\nWeavers $4:8$\n$::4:x$\nDays $4:8$\n$\therefore 4 \times 4 \times x = 8 \times 8 \times 4$\n$\therefore x = \frac{8 \times 8 \times 4}{4 \times 4} = 16$",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "If 7 maids with 7 mops cleaned 7 floors in 7 hours, how long would it take 3 maids to mop 3 floors with 3 mops?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{7}{3}$ hours",
+      "option_b": "3 hours",
+      "option_c": "$\\frac{49}{3}$ hours",
+      "option_d": "7 hours",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Since each maid would work with one mop, so we shall consider 1 maid and 1 mop as 1 unit. Let the required time be $x$ hours.\nLess maids and mops, More time (Indirect Proportion)\nLess floors, Less time (Direct Proportion)\nMaids & Mops $3:7$\n$::7:x$\nFloors $7:3$\n$\therefore 3 \times 7 \times x = 7 \times 3 \times 7$\n$\therefore x = \frac{7 \times 3 \times 7}{3 \times 7} = 7$",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "CLAT, 2010",
+      "passage_text": "",
+      "question_text": "Four gardeners with four grass mowers mow 400 sq. m of ground in 4 hours. How long would it take for eight gardeners with eight grass mowers to mow 800 sq. m of ground?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 hours",
+      "option_b": "6 hours",
+      "option_c": "8 hours",
+      "option_d": "12 hours",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Since each gardener would work with one grass mower, so we shall consider 1 gardener and 1 grass mower as one unit. Let the required time be $x$ hours.\nMore gardeners and grass mowers, Less time (Indirect Proportion)\nMore area, More time (Direct Proportion)\nGardeners & grass mowers $8:4$\n$::4:x$\nArea $400:800$\n$\therefore 8 \times 400 \times x = 4 \times 800 \times 4$\n$\therefore x = \frac{4 \times 800 \times 4}{8 \times 400} = 4$",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "SNAP, 2010",
+      "passage_text": "",
+      "question_text": "Runnning at the same constant rate, 6 identical machines can produce a total of 180 bottles per hour. How many bottles could 15 such machines produce in 30 minutes?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "225",
+      "option_b": "250",
+      "option_c": "300",
+      "option_d": "350",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of bottles be $x$.\nMore machines, More bottles produced (Direct Proportion)\nLess time, Less bottles produced (Direct Proportion)\nMachines $6:15$\n$::180:x$\nTime $60:30$\n$\therefore 6 \times 60 \times x = 15 \times 30 \times 180$\n$\therefore x = \frac{15 \times 30 \times 180}{6 \times 60} = 225$",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "If 6 persons working 8 hours a day earn ₹ 8400 per week, then 9 persons working 6 hours a day will earn per week",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 8400",
+      "option_b": "₹ 9450",
+      "option_c": "₹ 16200",
+      "option_d": "₹ 16800",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the weekly earning be ₹ $x$.\nMore persons, More earning (Direct Proportion)\nLess working hours, Less earning (Direct Proportion)\nPersons $6:9$\n$::8400:x$\nWorking hours $8:6$\n$\therefore 6 \times 8 \times x = 9 \times 6 \times 8400$\n$\therefore x = \frac{9 \times 6 \times 8400}{6 \times 8} = 9450$",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "Bank P.O., 2007",
+      "passage_text": "",
+      "question_text": "If 5 workers can collect 60 kg wheat in 3 days, how many kilograms of wheat will 8 workers collect in 5 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "80 kg",
+      "option_b": "100 kg",
+      "option_c": "120 kg",
+      "option_d": "160 kg",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required quantity be $x$ kg.\nMore workers, More quantity (Direct Proportion)\nMore days, More quantity (Direct Proportion)\nWorkers $5:8$\n$::60:x$\nDays $3:5$\n$\therefore 5 \times 3 \times x = 8 \times 5 \times 60$\n$\therefore x = \frac{8 \times 5 \times 60}{5 \times 3} = 160$",
+      "page_numbers": [
+        "498"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "NABARD, 2008",
+      "passage_text": "",
+      "question_text": "50 people consume 350 kg of rice in 30 days. In how many days will 35 people consume 50 kg of rice?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 days",
+      "option_b": "3 days",
+      "option_c": "5 days",
+      "option_d": "7 days",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Let the required number of days be $x$.\nLess people, More days (Indirect Proportion)\nLess quantity, Less days (Direct Proportion)\nPeople $35:50$\n$::30:x$\nQuantity $350:50$\n$\therefore 35 \times 350 \times x = 50 \times 50 \times 30$\n$\therefore x = \frac{50 \times 50 \times 30}{35 \times 350} = \frac{300}{49} = 6 \frac{6}{49}$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a dairy farm, 40 cows eat 40 bags of husk in 40 days. In how many days one cow will eat one bag of husk?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "$\\frac{1}{40}$",
+      "option_c": "40",
+      "option_d": "80",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the required number of days be $x$.\nLess cows, More days (Indirect Proportion)\nLess bags, Less days (Direct Proportion)\nCows $1:40$\n$::40:x$\nBags $40:1$\n$\therefore 1 \times 40 \times x = 40 \times 1 \times 40$\n$\therefore x = 40$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "P.C.S., 2006",
+      "passage_text": "",
+      "question_text": "Working 8 hours a day, 12 men can do a work in 30 days. Working 4 hours a day, 18 men can do the work in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30 days",
+      "option_b": "40 days",
+      "option_c": "45 days",
+      "option_d": "50 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of days be $x$.\nLess working hours, More days (Indirect Proportion)\nMore men, Less days (Indirect Proportion)\nWorking hours $4:8$\n$::30:x$\nMen $18:12$\n$\therefore 4 \times 18 \times x = 8 \times 12 \times 30$\n$\therefore x = \frac{8 \times 12 \times 30}{4 \times 18} = 40$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "12 men working 8 hours per day complete a piece of work in 10 days. To complete the same work in 8 days, working 15 hours a day, the number of men required, is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "5",
+      "option_c": "6",
+      "option_d": "8",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of men be $x$.\nLess days, More men (Indirect Proportion)\nMore working hrs per day, Less men (Indirect Proportion)\nDays $8:10$\n$::12:x$\nWorking Hrs $15:8$\n$\therefore 8 \times 15 \times x = 10 \times 8 \times 12$\n$\therefore x = \frac{10 \times 8 \times 12}{8 \times 15} = 8$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "504"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "5 persons can prepare an admission list in 8 days working 7 hours a day. If 2 persons join them so as to complete the work in 4 days, they need to work per day for",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 hours",
+      "option_b": "9 hours",
+      "option_c": "10 hours",
+      "option_d": "12 hours",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the number of working hours per day be $x$.\nMore persons, Less working hours (Indirect Proportion)\nLess days, More working hours (Indirect Proportion)\nPersons $7:5$\n$::7:x$\nDays $4:8$\n$\therefore 7 \times 4 \times x = 5 \times 8 \times 7$\n$\therefore x = \frac{5 \times 8 \times 7}{7 \times 4} = 10$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "3 pumps, working 8 hours a day, can empty a tank in 2 days. How many hours a day must 4 pumps work to empty the tank in 1 day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "10",
+      "option_c": "11",
+      "option_d": "12",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of working hours per day be $x$.\nMore pumps, Less working hours per day (Indirect Proportion)\nLess days, More working hours per day (Indirect Proportion)\nPumps $4:3$\n$::8:x$\nDays $1:2$\n$\therefore 4 \times 1 \times x = 3 \times 2 \times 8$\n$\therefore x = \frac{3 \times 2 \times 8}{4} = 12$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 8 men can reap 80 hectares in 24 days, then how many hectares can 36 men reap in 30 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "350",
+      "option_b": "400",
+      "option_c": "425",
+      "option_d": "450",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of hectares be $x$. Then,\nMore men, More hectares (Direct Proportion)\nMore days, More hectares (Direct Proportion)\nMen $8:36$\n$::80:x$\nDays $24:30$\n$\therefore 8 \times 24 \times x = 36 \times 30 \times 80$\n$\therefore x = \frac{36 \times 30 \times 80}{8 \times 24} = 450$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A certain number of persons can dig a trench 100 m long, 50 m broad and 10 m deep in 10 days. The same number of persons can dig another trench 20 m broad and 15 m deep in 30 days. The length of the second trench is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "400 m",
+      "option_b": "500 m",
+      "option_c": "800 m",
+      "option_d": "900 m",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required length be $x$ metres.\nLess breadth, More length (Indirect Proportion)\nMore depth, Less length (Indirect Proportion)\nMore days, More length (Direct Proportion)\nBreadth $20:50$\nDepth $15:10$\n$::100:x$\nDays $10:30$\n$\therefore 20 \times 15 \times 10 \times x = 50 \times 10 \times 30 \times 100$\n$\therefore x = \frac{50 \times 10 \times 30 \times 100}{20 \times 15 \times 10} = 500$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "If 5 men or 7 women can earn ₹ 5250 per day, how much would 7 men and 13 women earn per day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 11600",
+      "option_b": "₹ 11700",
+      "option_c": "₹ 16100",
+      "option_d": "₹ 17100",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required earning be ₹ $x$.\n$5$ men $\\equiv 7$ women $\\iff 7$ men $\\equiv \\frac{7 \\times 7}{5} = \\frac{49}{5}$ women.\n$\\therefore (7$ men and $13$ women) $\\equiv (\\frac{49}{5} + 13)$ women $= \\frac{114}{5}$ women.\nNow, More women, More earning (Direct Proportion)\n$\\therefore 7 : \\frac{114}{5} :: 5250 : x$\n$\\therefore 7x = \\frac{114}{5} \\times 5250 = 119700$\n$\\therefore x = \\frac{119700}{7} = 17100$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "3 men or 6 women can do a piece of work in 20 days. In how many days will 12 men and 8 women do the same work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{3}{2}$ days",
+      "option_b": "$3\\frac{3}{4}$ days",
+      "option_c": "4 days",
+      "option_d": "5 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of days be $x$.\n$3$ men $\\equiv 6$ women $\\iff 12$ men $\\equiv (2 \\times 12)$ women $= 24$ women.\n$\\therefore (12$ men and $8$ women) $\\equiv (24 + 8)$ women $= 32$ women.\nNow, More women, Less days (Indirect Proportion)\n$\\therefore 32 : 6 :: 20 : x$\n$\\therefore 32x = 6 \\times 20$\n$\\therefore x = \\frac{6 \\times 20}{32} = \\frac{15}{4} = 3 \\frac{3}{4}$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 5 men or 9 women can do a piece of work in 19 days, then in how many days will 3 men and 6 women do the same work?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "15",
+      "option_c": "18",
+      "option_d": "21",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of days be $x$.\n$5$ men $\\equiv 9$ women $\\iff 3$ men $\\equiv \\frac{9}{5} \\times 3 = \\frac{27}{5}$ women.\n$\\therefore (3$ men and $6$ women) $\\equiv (\\frac{27}{5} + 6)$ women $= \\frac{57}{5}$ women.\nNow, More women, Less days (Indirect Proportion)\n$\\therefore \\frac{57}{5} : 9 :: 19 : x$\n$\\therefore \\frac{57}{5} \\times x = 9 \\times 19$\n$\\therefore x = 9 \\times 19 \\times \\frac{5}{57} = 15$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "49 pumps can empty a reservoir in $6\\frac{1}{2}$ days, working 8 hours a day. If 196 pumps are used for 5 hours each day, then the same work will be completed in",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 days",
+      "option_b": "$1\\frac{2}{2}$ days",
+      "option_c": "$3\\frac{2}{5}$ days",
+      "option_d": "3 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the required number of days be $x$. Then,\nMore pumps, Less days (Indirect Proportion)\nLess working hrs/day, More days (Indirect Proportion)\nPumps $196:49$\n$::\\frac{13}{2}:x$\nWorking Hrs/Day $5:8$\n$\\therefore 196 \\times 5 \\times x = 49 \\times 8 \\times \\frac{13}{2}$\n$\\therefore x = \\frac{49 \\times 8 \\times 13}{2 \\times 196 \\times 5} = \\frac{13}{5} = 2 \\frac{3}{5}$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "30 labourers, working 7 hours a day can finish a piece of work in 18 days. If the labourers work 6 hours a day, then the number of labourers to finish the same piece of work in 30 days, will be:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "21",
+      "option_c": "22",
+      "option_d": "25",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of labourers be $x$. Then,\nLess working hrs/day, More labourers (Indirect Proportion)\nMore days, Less labourers (Indirect Proportion)\nWorking Hrs/Day $6:7$\n$::30:x$\nDays $30:18$\n$\\therefore 6 \\times 30 \\times x = 7 \\times 18 \\times 30$\n$\\therefore 6x = 126$\n$\\therefore x = 21$",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "505"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 18 pumps can raise 2170 tonnes of water in 10 days, working 7 hours a day; in how many days will 16 pumps raise 1736 tonnes of water, working 9 hours a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "7",
+      "option_c": "8",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of days be x. Then,\nLess pumps, More days (Indirect Proportion)\nLess weight, Less days (Direct Proportion)\nMore hours /day, Less days (Indirect Proportion)\n\nPumps 16 : 18\nWeight 2170 : 1736 : : 10 : x\nHours/Day 9 : 7\n\n$\therefore (16 \times 2170 \times 9 \times x) = (18 \times 1736 \times 7 \times 10)$\n$\therefore x = \frac{18 \times 1736 \times 7 \times 10}{16 \times 2170 \times 9} = 7$.",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 80 lamps can be lighted, 5 hours per day for 10 days for ₹ 21.25, then the number of lamps, which can be lighted 4 hours daily for 30 days, for ₹ 76.50, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "100",
+      "option_b": "120",
+      "option_c": "150",
+      "option_d": "160",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of lamps be x.\nLess hours per day, More lamps (Indirect Proportion)\nMore money, More lamps (Direct Proportion)\nMore days, Less lamps (Indirect Proportion)\n\nHours per day 4 : 5\nMoney 21.25 : 76.50 : : 80 : x\nNumber of days 30 : 10\n\n$\therefore 4 \times 21.25 \times 30 \times x = 5 \times 76.50 \times 10 \times 80$\n$\therefore x = \frac{5 \times 76.50 \times 10 \times 80}{4 \times 21.25 \times 30} = 120$.",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 12 carpenters, working 6 hours a day, can make 460 chairs in 24 days, how many chairs will 18 carpenters make in 36 days, each working 8 hours a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1260",
+      "option_b": "1320",
+      "option_c": "920",
+      "option_d": "1380",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of chairs be x. Then,\nMore carpenters, More chairs (Direct Proportion)\nMore hours per day, More chairs (Direct Proportion)\nMore days, More chairs (Direct Proportion)\n\nCarpenters 12 : 18\nHours per day 6 : 8 : : 460 : x\nDays 24 : 36\n\n$\therefore (12 \times 6 \times 24 \times x) = (18 \times 8 \times 36 \times 460)$\n$\therefore x = \frac{18 \times 8 \times 36 \times 460}{12 \times 6 \times 24} = 1380$.\nRequired number of chairs = 1380.",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "SNAP, 2005",
+      "passage_text": "",
+      "question_text": "If 5 spiders can catch five flies in five minutes, how many flies can hundred spiders catch in 100 minutes?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "100",
+      "option_b": "500",
+      "option_c": "1000",
+      "option_d": "2000",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of flies be x.\nMore spiders, More flies (Direct Proportion)\nMore time, More flies (Direct Proportion)\n\nSpiders 5 : 100\nMinutes 5 : 100 : : 5 : x\n\n$\therefore 5 \times 5 \times x = 100 \times 100 \times 5$\n$\therefore x = \frac{100 \times 100 \times 5}{5 \times 5} = 2000$.",
+      "page_numbers": [
+        "499"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "A.A.O., 2009",
+      "passage_text": "",
+      "question_text": "2 persons working 2 hours a day assemble 2 machines in 2 days. The number of machines assembled by 6 persons working 6 hours a day in 6 days is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "18",
+      "option_c": "27",
+      "option_d": "54",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of machines be x.\nMore persons, More machines (Direct Proportion)\nMore working hours, More machines (Direct Proportion)\nMore days, More machines (Direct Proportion)\n\nPersons 2 : 6\nWorking hours 2 : 6 : : 2 : x\nDays 2 : 6\n\n$\therefore 2 \times 2 \times 2 \times x = 6 \times 6 \times 6 \times 2$\n$\therefore x = \frac{6 \times 6 \times 6 \times 2}{2 \times 2 \times 2} = 54$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The work done by a man is double the work done by a woman in the same time. If 10 men can do a piece of work in 8 days, then in how many days that work can be done by 3 men and 4 women?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "$3\\frac{7}{11}$",
+      "option_c": "8",
+      "option_d": "16",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "2 women $\\equiv$ 1 man $\\Rightarrow$ 4 women $\\equiv$ 2 men.\n(3 men and 4 women) $\\equiv$ (3 + 2) men = 5 men.\nLet the required number of days be x.\nLess Men, More days (Indirect Proportion)\n\n$\therefore 5 : 10 : : 8 : x$\n$\therefore 5x = 10 \times 8$\n$\therefore x = 16$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A wall of 100 metres can be built by 7 men or 10 women in 10 days. How many days will 14 men and 20 women take to build a wall of 600 metres?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "20",
+      "option_c": "25",
+      "option_d": "30",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the required number of days be x.\n7 men $\\equiv$ 10 women\n$\\Rightarrow$ 14 men $\\equiv$ 20 women\n(14 men and 20 women) $\\equiv$ (20 + 20) women = 40 women.\nMore length, More days (Direct Proportion)\nMore women, Less days (Indirect Proportion)\n\nLength 100 : 600\nWomen 40 : 10 : : 10 : x\n\n$\therefore 100 \times 40 \times x = 600 \times 10 \times 10$\n$\therefore x = \frac{600 \times 10 \times 10}{100 \times 40} = 15$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "If 10 men or 20 boys can make 260 mats in 20 days, then how many mats will be made by 8 men and 4 boys in 20 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "240",
+      "option_b": "260",
+      "option_c": "280",
+      "option_d": "520",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of mats be x.\n10 men $\\equiv$ 20 boys $\\Rightarrow$ 1 man $\\equiv$ 2 boys\n$\\Rightarrow$ 8 men $\\equiv$ 16 boys\n$\\Rightarrow$ (8 men + 4 boys) $\\equiv$ (16 + 4) boys = 20 boys.\n8 men and 4 boys can make as many mats as 20 boys i.e., 260 mats.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 600 men dig a 5.5 m wide, 4 m deep and 405 m long canal in half an hour, then how long a canal will 2500 men, working for 6 hours, dig if it is 10 m wide and 8 m deep?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{2694}{3}$ m",
+      "option_b": "4082 m",
+      "option_c": "$3\\frac{5568}{4}$ m",
+      "option_d": "6452 m",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the required length be x metres.\nMore men, More length (Direct Proportion)\nMore width, Less length (Indirect Proportion)\nMore depth, Less length (Indirect Proportion)\nMore time, More length (Direct Proportion)\n\nMen 600 : 2500\nWidth 10 : 5.5\nDepth 8 : 4 : : 405 : x\nHours $\\frac{1}{2}$ : 6\n\n$\therefore 600 \times 10 \times 8 \times \frac{1}{2} \times x = 2500 \times 5.5 \times 4 \times 6 \times 405$\n$\therefore x = \frac{2500 \times 5.5 \times 4 \times 6 \times 405 \times 2}{600 \times 10 \times 8} = \frac{22275}{4} = 5568 \frac{3}{4}$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "64 persons can dig a trench 50 m long, 2 m wide and 2 m deep in 5 days, working 12 hours daily. In how many days, working 8 hours daily, will 80 persons dig another trench 75 m long, 4 m wide and 3 m deep?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "27",
+      "option_c": "36",
+      "option_d": "45",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of days be x.\nMore persons, Less days (Indirect Proportion)\nMore length, More days (Direct Proportion)\nMore width, More days (Direct Proportion)\nMore depth, More days (Direct Proportion)\nLess working hrs, More days (Indirect Proportion)\n\nPersons 80 : 64\nLength 50 : 75\nWidth 2 : 4 : : 5 : x\nDepth 2 : 3\nWorking hrs 8 : 12\n\n$\therefore 80 \times 50 \times 2 \times 2 \times 8 \times x = 64 \times 75 \times 4 \times 3 \times 12 \times 5$\n$\therefore x = \frac{64 \times 75 \times 4 \times 3 \times 12 \times 5}{80 \times 50 \times 2 \times 2 \times 8} = 27$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "21 binders can bind 1400 books in 15 days. How many binders will be required to bind 800 books in 20 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7",
+      "option_b": "9",
+      "option_c": "12",
+      "option_d": "14",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the required number of binders be x.\nLess books, Less binders (Direct Proportion)\nMore days, Less binders (Indirect Proportion)\n\nBooks 1400 : 800\nDays 20 : 15 : : 21 : x\n\n$\therefore 1400 \times 20 \times x = 800 \times 15 \times 21$\n$\therefore x = \frac{800 \times 15 \times 21}{1400 \times 20} = 9$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A certain number of artisans can complete a shoe fabrication consignment in 16 days. 8 additional artisans had to be deployed for the same consignment and together they completed it in 4 days less than the earlier estimate. The number of artisans initially employed was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "20",
+      "option_c": "24",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the original number of artisans be x.\nMore artisans, Less days (Indirect Proportion)\n\n$\therefore (x + 8) : x : : 16 : 12$\n$\therefore 12(x + 8) = 16x$\n$\therefore 4x = 96$\n$\therefore x = 24$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 9 examiners can examine a certain number of answer books in 12 days, working 5 hours a day; for how many hours a day would 4 examiners have to work in order to examine twice the number of answer books in 30 days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "8",
+      "option_c": "9",
+      "option_d": "10",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the required number of working hours per day be x.\nLess examiners, More working hours per day (Indirect Proportion)\nMore days, Less working hours per day (Indirect Proportion)\nMore answer books, More working hours per day (Direct Proportion)\n\nExaminers 4 : 9\nDays 30 : 12 : : 5 : x\nAnswer books 1 : 2\n\n$\therefore (4 \times 30 \times 1 \times x) = (9 \times 12 \times 2 \times 5)$\n$\therefore 120x = 1080$\n$\therefore x = 9$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 17 labourers can dig a ditch 20 m long in 18 days, working 8 hours a day; how many more labourers should be engaged to dig a similar ditch 39 m long in 6 days, each labourer working 9 hours a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "34",
+      "option_b": "51",
+      "option_c": "68",
+      "option_d": "85",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the total number of men to be engaged be x.\nMore length, More labourers (Direct Proportion)\nLess days, More labourers (Indirect Proportion)\nMore hours per day, Less labourers (Indirect Proportion)\n\nLength 26 : 39\nDays 6 : 18 : : 17 : x\nHours per day 9 : 8\n\n$\therefore (26 \times 6 \times 9 \times x) = (39 \times 18 \times 8 \times 17)$\n$\therefore x = \frac{39 \times 18 \times 8 \times 17}{26 \times 6 \times 9} = 68$.\nNumber of more labourers = (68 - 17) = 51.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "G.B.O., 2007",
+      "passage_text": "",
+      "question_text": "20 men complete one-third of a piece of work in 20 days. How many more men should be employed to finish the rest of the work in 25 more days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10",
+      "option_b": "12",
+      "option_c": "15",
+      "option_d": "20",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the total number of men be x.\nWork done = $\\frac{1}{3}$, Remaining work = $(1 - \\frac{1}{3}) = \\frac{2}{3}$.\nMore work, More men (Direct Proportion)\nMore days, Less men (Indirect Proportion)\n\nWork $\\frac{1}{3} : \\frac{2}{3} : : 20 : x$\nDays 25 : 20\n\n$\therefore (\\frac{1}{3} \times 25 \times x) = (\\frac{2}{3} \times 20 \times 20)$\n$\therefore x = \frac{800}{25} = 32$.\nMore men to be employed = (32 - 20) = 12.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A rope makes 70 rounds of the circumference of a cylinder whose radius of the base is 14 cm. How many times can it go round a cylinder with radius 20 cm?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40",
+      "option_b": "49",
+      "option_c": "100",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required number of rounds be x.\nMore radius, Less rounds (Indirect Proportion)\n\n$\therefore 20 : 14 : : 70 : x$\n$\therefore (20 \times x) = (14 \times 70)$\n$\therefore x = \frac{14 \times 70}{20} = 49$.\nHence, the required number of rounds = 49.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If x men, working x hours per day, can do x units of work in x days, then y men, working y hours per day would be able to complete how many units of work in y days?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{x^2}{y^3}$",
+      "option_b": "$\\frac{x^3}{y^2}$",
+      "option_c": "$\\frac{y^2}{x^3}$",
+      "option_d": "$\\frac{y^3}{x^2}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of units of work be z.\nMore men, More work (Direct Proportion)\nMore working hours, More work (Direct Proportion)\nMore days, More work (Direct Proportion)\n\nMen x : y\nHours per day x : y : : z : x\nDays x : y\n\n$\therefore (x \times x \times x \times z) = (y \times y \times y \times x)$\n$\therefore z = \frac{y^3}{x^2}$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "A contract is to be completed in 46 days and 117 men were set to work, each working 8 hours a day. After 33 days, $\\frac{4}{7}$ of the work is completed. How many additional men may be employed so that the work may be completed in time, each man now working 9 hours a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "80",
+      "option_b": "81",
+      "option_c": "82",
+      "option_d": "83",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Remaining work = $(1 - \\frac{4}{7}) = \\frac{3}{7}$. Remaining period = (46 - 33) days = 13 days.\nLet the total men working at it be x.\nLess work, Less men (Direct Proportion)\nLess days, More men (Indirect Proportion)\nMore Hrs /Day, Less men (Indirect Proportion)\n\nWork $\\frac{4}{7} : \\frac{3}{7} : : 117 : x$\nDays 13 : 33\nHrs/Day 9 : 8\n\n$\therefore \frac{4}{7} \times 13 \times 9 \times x = \frac{3}{7} \times 33 \times 8 \times 117$\n$\therefore x = \frac{3 \times 33 \times 8 \times 117}{4 \times 13 \times 9} = 198$.\nAdditional men to be employed = (198 - 117) = 81.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The normal dosage of a particular medicine is t tablets per day for each patient. A hospital’s current supply of these tablets will last p patients for d days. If the recommended dosage increases by 20% and the number of patients decreases by one-third, then for how many days will the hospital’s supply last?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{4}d$",
+      "option_b": "$\\frac{4}{5}d$",
+      "option_c": "$\\frac{4}{5}pt$",
+      "option_d": "Cannot be determined",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "New dosage = 120% of t = $\\frac{6}{5}t$. Number of patients = $\\frac{2}{3}p$.\nLet the required number of days be x.\nMore dosage, Less days (Indirect Proportion)\nLess patients, More days (Indirect Proportion)\n\nDosage $\\frac{6}{5}t : t : : d : x$\nPatients $\\frac{2}{3}p : p$\n\n$\therefore \frac{6}{5} \times \frac{2}{3} \times x = t \times p \times d$\n$\therefore x = \frac{5 \times 3 \times d}{6 \times 2} = \frac{5d}{4}$.",
+      "page_numbers": [
+        "500"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Some persons can do a piece of work in 12 days. Two times the number of such persons will do half of that work in :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6 days",
+      "option_b": "4 days",
+      "option_c": "3 days",
+      "option_d": "12 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let x men can do the work in 12 days and the required number of days be z.\nMore men, Less days (Indirect Proportion)\nLess work, Less days (Direct Proportion)\n\nMen 2x : x\nWork 1 : $\\frac{1}{2} : : 12 : z$\n\n$\therefore (2x \times 1 \times z) = (x \times \frac{1}{2} \times 12)$\n$\therefore 2xz = 6x$\n$\therefore z = 3$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "12 persons can do a piece of work in 4 days. How many persons are required to complete 8 times the work in half the time?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "144",
+      "option_b": "180",
+      "option_c": "190",
+      "option_d": "192",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the required number of persons be $x$.\nLess days, More persons (Indirect Proportion)\nMore work, More persons (Direct Proportion)\nDays $2:4$\nWork $1:8$\n$::12:x$\n$\\therefore 2\\times1\\times x = 4\\times8\\times12$\n$\\Leftrightarrow x = \\left(\\frac{4\\times8\\times12}{2}\\right) = 192$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "If 5 engines consume 6 metric tonnes of coal when each is running 9 hours a day, how many metric tonnes of coal will be needed for 8 engines, each running 10 hours a day, it being given that 3 engines of the former type consume as much as 4 engines of the latter type?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{3}{8}$",
+      "option_b": "8",
+      "option_c": "$8\\frac{8}{9}$",
+      "option_d": "$12\\frac{12}{25}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the required quantity of coal be $x$ metric tonnes.\nMore engines, More coal (Direct Proportion)\nMore hours per day, More coal (Direct Proportion)\nMore rate, More coal (Direct Proportion)\nEngines $5:8$\nHours per day $9:10$\nRate $\\frac{1}{3}:\\frac{1}{4}$\n$::6:x$\n$\\therefore \\left(5\\times9\\times\\frac{1}{3}\\times x\\right) = \\left(8\\times10\\times\\frac{1}{4}\\times6\\right)$\n$\\Leftrightarrow 15x = 120$\n$\\Leftrightarrow x = 8$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "L.I.C.A.A.O., 2007",
+      "passage_text": "",
+      "question_text": "If 9 men working $7\\frac{1}{2}$ hours a day can finish a piece of work in 20 days, then how many days will be taken by 12 men, working 6 hours a day to finish the work? It is being given that 2 men of latter type work as much as 3 men of the former type.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$9\\frac{1}{2}$",
+      "option_b": "11",
+      "option_c": "$12\\frac{1}{2}$",
+      "option_d": "13",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "2 men of latter type\n$\\equiv 3$ men of former type\n$\\Rightarrow 12$ men of latter type $\\equiv \\left(\\frac{3}{2}\\times12\\right) = 18$ men of former type\nMore men, Less days (Indirect Proportion)\nLess working hrs, More days (Indirect Proportion)\nMen $18:9$\nWorking hrs $6:\\frac{15}{2}$\n$::20:x$\n$\\therefore 18\\times6\\times x = 15\\times\\frac{15}{2}\\times20$\n$\\Leftrightarrow 108x = 1350$\n$\\Leftrightarrow x = \\frac{25}{2} = 12\\frac{1}{2}$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If a certain number of workmen can do a piece of work in 25 hours, in how many hours will another set of an equal number of men, do a piece of work, twice as great, supposing that 2 men of the first set can do as much work in an hour, as 3 men of the second set do in an hour?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "60",
+      "option_b": "75",
+      "option_c": "90",
+      "option_d": "105",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the required number of hours be $x$.\nSpeeds of working of first and second type of men are $\\frac{1}{2}$ and $\\frac{1}{3}$.\nMore work, More time (Direct Proportion)\nLess speed, More time (Indirect Proportion)\nWork $1:2$\nSpeed $\\frac{1}{3}:\\frac{1}{2}$\n$::25:x$\n$\\therefore \\left(\\frac{1}{3}\\times1\\times x\\right) = \\left(\\frac{1}{2}\\times2\\times25\\right)$\n$\\Leftrightarrow \\frac{x}{3} = 25$\n$\\Leftrightarrow x = 75$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "65",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "15 men take 21 days of 8 hours each to do a piece of work. How many days of 6 hours each would 21 women take, if 3 women do as much work as 2 men?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "20",
+      "option_c": "25",
+      "option_d": "30",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "3 women $\\equiv 2$ men.\nSo, 21 women $\\equiv 14$ men.\nLess men, More days (Indirect Proportion)\nLess hours per day, More days (Indirect Proportion)\nMen $14:15$\nHours per day $6:8$\n$::21:x$\n$\\therefore (14\\times6\\times x) = (15\\times8\\times21)$\n$\\Leftrightarrow x = \\frac{15\\times8\\times21}{14\\times6} = 30$.\n$\\therefore$ Required number of days = 30.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "66",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A contractor employed 30 men to do a piece of work in 38 days. After 25 days, he employed 5 men more and the work was finished one day earlier. How many days he would have been behind, if he had not employed additional men?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "$1\\frac{1}{4}$",
+      "option_c": "$3\\frac{1}{4}$",
+      "option_d": "$1\\frac{1}{2}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "After 25 days, 35 men complete the work in 12 days.\nThus, 35 men can finish the remaining work in 12 days.\n$\\therefore 30$ men can do it in $\\left(\\frac{12\\times35}{30}\\right) = 14$ days,\nwhich is 1 day behind.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "67",
+      "exam_reference": "P.C.S., 2006",
+      "passage_text": "",
+      "question_text": "In a barrack of soldiers there was stock of food for 190 days for 4000 soldiers. After 30 days 800 soldiers left the barrack. For how many days shall the left over food last for the remaining soldiers?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "175 days",
+      "option_b": "200 days",
+      "option_c": "225 days",
+      "option_d": "250 days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the remaining food last for $x$ days.\n4000 soldiers had provisions for 160 days. 3200 soldiers had provisions for $x$ days.\nLess men, More days (Indirect Proportion)\n$\\therefore 3200:4000::160:x$\n$\\Leftrightarrow 3200x = 4000\\times160$\n$\\Leftrightarrow x = \\left(\\frac{4000\\times160}{3200}\\right) = 200$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "68",
+      "exam_reference": "M.B.A., 2006",
+      "passage_text": "",
+      "question_text": "A garrison of 500 men had provisions for 27 days. After 3 days a reinforcement of 300 men arrived. For how many more days will the remaining food last now?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "16",
+      "option_c": "$17\\frac{1}{2}$",
+      "option_d": "18",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the remaining food last for $x$ days.\n500 men had provisions for $(27-3) = 24$ days.\n$(500+300)$ men had provisions for $x$ days.\nMore men, Less days (Indirect Proportion)\n$\\therefore 800:500::24:x$\n$\\Leftrightarrow (800\\times x) = (500\\times24)$\n$\\Leftrightarrow x = \\left(\\frac{500\\times24}{800}\\right) = 15$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "69",
+      "exam_reference": "M.B.A., 2003",
+      "passage_text": "",
+      "question_text": "A garrison had provisions for a certain number of days. After 10 days, $\\frac{1}{5}$ of the men desert and it is found that the provisions will now last just as long as before. How long was that?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15 days",
+      "option_b": "25 days",
+      "option_c": "35 days",
+      "option_d": "50 days",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Initially, let there be $x$ men having food for $y$ days.\nAfter 10 days, $x$ men had food for $(y-10)$ days. Also,\n$\\left(x-\\frac{x}{5}\\right)$ men had food for $y$ days.\n$\\therefore x(y-10) = \\frac{4}{5}x\\times y$\n$\\Leftrightarrow 5xy-50x = 4xy$\n$\\Leftrightarrow xy-50x = 0$\n$\\Leftrightarrow x(y-50) = 0$\n$\\Leftrightarrow y-50 = 0$\n$\\Leftrightarrow y = 50$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "70",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A fort has provisions for 50 days. If after 10 days they are strengthened by 500 men and the food lasts for 35 days longer, the number of men originally in the fort were",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2500",
+      "option_b": "3000",
+      "option_c": "3500",
+      "option_d": "4000",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let there be $x$ men originally.\nSo, $x$ men had provisions for 40 days whereas $(x+500)$ men consumed it in 35 days.\nMore men, Less days (Indirect Proportion)\n$\\therefore (x+500):x::40:35$\n$\\Leftrightarrow 35(x+500) = 40x$\n$\\Leftrightarrow 5x = 35\\times500$\n$\\Leftrightarrow x = \\left(\\frac{35\\times500}{5}\\right) = 3500$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "71",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A garrison of 2000 men has provision of ration for 66 days. At the end of a fortnight, reinforcement arrives and it is found that ration will last only for 20 days more. The strength of the reinforcement is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2000",
+      "option_b": "2200",
+      "option_c": "2600",
+      "option_d": "3200",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the strength of the reinforcement be $x$ men.\nThen, 2000 men had provisions for $(66-14) = 52$ days while $(2000+x)$ men consumed it in 20 days.\nMore men, Less days (Indirect Proportion)\n$\\therefore (2000+x):2000::52:20$\n$\\Leftrightarrow 20(2000+x) = 2000\\times52$\n$\\Leftrightarrow (2000+x) = \\left(\\frac{2000\\times52}{20}\\right) = 5200$\n$\\Leftrightarrow x = 3200$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "72",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "A team of workers was employed by a contractor who undertook to finish 360 pieces of an article in a certain number of days. Making four more pieces per day than was planned, they could complete the job a day ahead of schedule. How many days did they take to complete the job?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 days",
+      "option_b": "9 days",
+      "option_c": "10 days",
+      "option_d": "12 days",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the team take $x$ days to finish 360 pieces.\nThen, number of pieces made each day = $\\frac{360}{x}$.\nMore number of pieces per day, Less days (Indirect Proportion)\n$\\therefore \\left(\\frac{360}{x}+4\\right) = \\frac{360}{x-1}$\n$\\Leftrightarrow \\left(\\frac{360+4x}{x}\\right) = \\frac{360}{x-1}$\n$\\Leftrightarrow (360+4x)(x-1) = 360x$\n$\\Leftrightarrow 360x-360+4x^2-4x = 360x$\n$\\Leftrightarrow 4x^2-4x-360 = 0$\n$\\Leftrightarrow x^2-x-90 = 0$\n$\\Leftrightarrow (x-10)(x+9) = 0$\n$\\Leftrightarrow x = 10$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "73",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "The work done by a woman in 8 hours is equal to the work done by a man in 6 hours and by a boy in 12 hours. If working 6 hours per day 9 men can complete a work in 6 days, then in how many days can 12 men, 12 women and 12 boys together finish the same work, working 8 hours per day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{1}{2}$ days",
+      "option_b": "3 days",
+      "option_c": "$2\\frac{2}{3}$ days",
+      "option_d": "$1\\frac{4}{2}$ days",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Ratio of time taken by a woman, a man and a boy = $8:6:12 = 4:3:6$.\nSo, 4 women $\\equiv 3$ men $\\equiv 6$ boys.\n(12 men + 12 women + 12 boys)\n$= \\left[12 + \\left(\\frac{3}{4}\\times12\\right) + \\left(\\frac{3}{6}\\times12\\right)\\right]$ men\n$= (12+9+6)$ men = 27 men.\nLet the required number of days be $x$.\nMore men, Less days (Indirect Proportion)\nMore working hours, Less days (Indirect Proportion)\nMen $27:9$\nWorking hrs $8:6$\n$::6:x$\n$\\therefore 27\\times8\\times x = 9\\times6\\times6$\n$\\Leftrightarrow x = \\left(\\frac{9\\times6\\times6}{27\\times8}\\right) = 3\\frac{1}{2}$.",
+      "page_numbers": [
+        "501"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "74",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "12 men and 18 boys, working $7\\frac{1}{2}$ hours a day, can do a piece of work in 60 days. If a man works equal to 2 boys, then how many boys will be required to help 21 men to do twice the work in 50 days, working 9 hours a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30",
+      "option_b": "42",
+      "option_c": "48",
+      "option_d": "90",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "1 man $\\equiv 2$ boys $\\Leftrightarrow (12$ men + 18 boys) $\\equiv (12\\times2+18)$ boys = 42 boys.\nLet required number of boys = $x$.\n21 men + $x$ boys $\\equiv (21\\times2+x)$ boys = $(42+x)$ boys.\nLess days, More boys (Indirect Proportion)\nMore hrs per day, Less boys (Indirect Proportion)\nMore work, More boys (Direct Proportion)\nDays $50:60$\nHours per day $9:\\frac{15}{2}$\nWork $1:2$\n$::42:(42+x)$\n$\\therefore [50\\times9\\times1\\times(42+x)] = \\left(60\\times\\frac{15}{2}\\times2\\times42\\right)$\n$\\Leftrightarrow (42+x) = \\frac{37800}{450} = 84$\n$\\Leftrightarrow x = 42$.",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "75",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 3 men or 6 boys can do a piece of work in 10 days, working 7 hours a day; how many days will it take to complete a piece of work twice as large with 6 men and 2 boys working together for 8 hours a day?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "$7\\frac{1}{2}$",
+      "option_c": "$8\\frac{1}{2}$",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "3 men $\\equiv 6$ boys $\\Leftrightarrow (6$ men + 2 boys) $\\equiv 14$ boys.\nMore work, More days (Direct Proportion)\nMore boys, Less days (Indirect Proportion)\nMore hours per day, Less days (Indirect Proportion)\nWork $1:2$\nBoys $14:6$\nHours per day $8:7$\n$::10:x$\n$\\therefore (1\\times14\\times8\\times x) = (2\\times6\\times7\\times10)$\n$\\Leftrightarrow x = \\frac{840}{112} = 7\\frac{1}{2}$.",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "76",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "2 men and 7 boys can do a piece of work in 14 days; 3 men and 8 boys can do the same in 11 days. Then, 8 men and 6 boys can do three times the amount of this work in :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18 days",
+      "option_b": "21 days",
+      "option_c": "24 days",
+      "option_d": "30 days",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$(2\\times14)$ men + $(7\\times14)$ boys $\\equiv (3\\times11)$ men + $(8\\times11)$ boys\n$\\Leftrightarrow 5$ men $\\equiv 10$ boys $\\Leftrightarrow 1$ man $\\equiv 2$ boys.\n$\\therefore (2$ men + 7 boys) $\\equiv (2\\times2+7)$ boys = 11 boys.\n$(8$ men + 6 boys) $\\equiv (8\\times2+6)$ boys = 22 boys.\nLet the required number of days be $x$.\nNow, More boys, Less days (Indirect Proportion)\nMore work, More days (Direct Proportion)\nBoys $22:11$\nWork $1:3$\n$::14:x$\n$\\therefore (22\\times1\\times x) = (11\\times3\\times14)$\n$\\therefore x = \\frac{462}{22} = 21$.",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "77",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "Large, medium and small ships are used to bring water. 4 large ships carry as much water as 7 small ships, 3 medium ships carry the same amount of water as 2 large ships and 1 small ship. 15 large, 7 medium and 14 small ships, each made 36 journeys and brought a certain quantity of water. In how many journeys would 12 large, 14 medium and 21 small ships bring the same quantity?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25",
+      "option_b": "29",
+      "option_c": "32",
+      "option_d": "49",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "4 large ships $\\equiv 7$ small ships\n$\\Leftrightarrow 15$ large ships = $\\left(\\frac{7}{4}\\times15\\right)$ small ships = $\\frac{105}{4}$ small ships.\nAlso, 2 large ships = $\\left(\\frac{7}{2}\\right)$ small ships.\n3 medium ships $\\equiv 2$ large ships + 1 small ship\n$\\equiv \\left(\\frac{7}{2}+1\\right)$ small ships = $\\frac{9}{2}$ small ships.\n$\\Leftrightarrow 7$ medium ships = $\\left(\\frac{9}{2}\\times\\frac{7}{3}\\right)$ small ships = $\\frac{21}{2}$ small ships.\n$\\therefore (15$ large + 7 medium + 14 small) ships\n$= \\left(\\frac{105}{4}+\\frac{21}{2}+14\\right)$ small ships = $\\frac{203}{4}$ small ships.\n(12 large + 14 medium + 21 small) ships\n$= \\left[\\left(\\frac{7}{4}\\times12\\right) + \\left(\\frac{21}{2}\\times2\\right) + 21\\right]$ small ships\n$= (21+21+21)$ small ships = 63 small ships.\nLet the required number of journeys be $x$.\nMore ships, Less journeys (Indirect Proportion)\n$\\therefore \\frac{203}{4}:63::x:36$\n$\\Leftrightarrow 63\\times x = \\frac{203}{4}\\times36$\n$\\Leftrightarrow x = \\frac{1827}{63} = 29$.",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "78",
+      "exam_reference": "APTET, 2011",
+      "passage_text": "",
+      "question_text": "If 2 m. 60 cm cloth is required for one shirt, then the cloth required for 7 shirts is ........",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "14 m 80 cm",
+      "option_b": "18 m 20 cm",
+      "option_c": "15 m 20 cm",
+      "option_d": "16 m 80 cm",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Cloth is required for 1 shirt = 2m, 60cm or 260cm\nCloth is required for 7 shirts = $260\\times7 = 1,820$ cm\nOr 18m 20cm.",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "79",
+      "exam_reference": "APTET, 2011",
+      "passage_text": "",
+      "question_text": "The cost of 4 dozen papers is ₹ 24. The cost of 1 score of papers (in rupees) is .......",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40",
+      "option_b": "20",
+      "option_c": "10",
+      "option_d": "42",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "1 score of papers = 20 papers.\nCost of 4 dozen papers = ₹ 24\nCost of 20 papers = $\\frac{24}{4\\times12}\\times20 = ₹ 10$.",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "80",
+      "exam_reference": "SBI—Clerk Level, 2012",
+      "passage_text": "",
+      "question_text": "The cost of 8 fans and 14 ovens is ₹ 36.520. What is the cost of 12 fans and 21 ovens?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 56.800",
+      "option_b": "₹ 54.780",
+      "option_c": "₹ 57.950",
+      "option_d": "Cannot be determined",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Cost of 8 fans and 14 oven's is ₹ 36.520\nCost of 4 fans and 7 oven's is = $\\frac{36.520}{2} = ₹ 18.260$\nCost of 12 fans and 21 oven's = $18.260\\times3 = ₹ 54.780$.",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "81",
+      "exam_reference": "MAT—2012",
+      "passage_text": "",
+      "question_text": "The cost of 5 kgs of apples is ₹ 450. The cost of 12 dozen mangoes is ₹ 4,320 and the cost of 4 kgs of oranges is ₹ 240. What is the total cost of 8 kg of apples, 8 dozens of mangoes and 8 kg of oranges?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 4,020",
+      "option_b": "₹ 4,080",
+      "option_c": "₹ 4,050",
+      "option_d": "Other than those given as options",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Cost of 5 kg of apples = ₹ 450\nCost of 1 kg apples = $\frac{450}{5}$\nCost of 8 kg apples = $\frac{450}{5}\times8$ = ₹ 720\nCost of 12 dozen mangoes = ₹ 4,320\nCost of 1 dozen mangoes = $\frac{4320}{12}$\nCost of 8 dozen mangoes = $\frac{4320}{12}\times8$ = ₹ 2880\nCost of 4 kg oranges = ₹ 240\nCost of 1 kg orange = $\frac{240}{4}$\nCost of 8 kg orange = $\frac{240}{4}\times8$ = ₹ 480\nTotal cost = 720 + 2880 + 480 = ₹ 4080",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "82",
+      "exam_reference": "DMRC—Train Operator (Station Controller), 2012",
+      "passage_text": "",
+      "question_text": "The cost of 21 pencils and 9 clippers is ₹ 819. The cost price of 7 pencils and 3 clippers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 204",
+      "option_b": "₹ 409",
+      "option_c": "₹ 273",
+      "option_d": "₹ 208",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Cost of 21 pencils and 9 clippers = ₹ 819\nCost of 7 pencils and 3 clippers = $\frac{819}{3}$ = ₹ 273",
+      "page_numbers": [
+        "502"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    }
+  ]
+}

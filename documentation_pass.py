@@ -406,8 +406,12 @@ jump to the right pattern note.
 
 ## Core Formulas
 
-The 3-6 formulas that appear most frequently across ALL patterns in
-this chapter. These are the chapter's building blocks.
+Every formula that a student needs to solve questions across this
+chapter's patterns — this is the chapter's formula reference, so do
+not artificially cap the count. Include every distinct formula that
+genuinely appears across the patterns, even if some look similar
+(e.g. a base case and a special case deserve separate entries if
+they're applied differently).
 
 For each use this format:
 
@@ -482,17 +486,18 @@ Return only valid markdown. No preamble.
 # CHAPTER CHEATSHEET PROMPT
 # ─────────────────────────────────────────────────────────────────
 CHAPTER_CHEATSHEET_PROMPT = r"""
-You are an expert aptitude trainer writing a cheat sheet for a student
-doing last-minute revision before an exam — they have 5-10 minutes for
-this entire chapter.
+You are an expert aptitude trainer writing the single most useful
+reference document for this chapter — dense enough for a 5-10 minute
+last-minute revision pass, but complete enough that a student who has
+ALREADY studied the pattern notes could use ONLY this document to
+solve any question of any type in this chapter, with every formula
+they would need right there.
 
-This is the densest, most compressed document in the set. Every line
-must earn its place. Zero explanations, zero teaching — pure lookup
-reference for someone who already knows the material and just needs a
-quick reminder.
-
-If the student has time to read only one document before the exam,
-this is it.
+Every line must earn its place. Minimal prose, maximum usable
+density — but do not sacrifice completeness for brevity: missing a
+formula or a pattern's trigger condition makes this document useless
+for that pattern. If the student has time to read only one document
+before the exam, this is it, so it must genuinely cover everything.
 
 Chapter Title:
 {chapter_title}
@@ -509,6 +514,24 @@ samples — sourced directly from solved questions):
 Generate markdown with the following sections, in this exact order.
 
 # {chapter_title} — Exam Cheat Sheet
+
+## How To Solve Any Question In This Chapter
+
+A short decision flow (numbered steps, 4-7 steps) a student can follow
+on ANY question from this chapter, even one they haven't seen before:
+1. What to read/identify first in the question (the discriminating
+   clue that tells you which pattern applies).
+2. How to map from that clue to one of the patterns listed below.
+3. The general move once the pattern is identified (set up ratio /
+   apply formula / form equation — at a high level).
+4. A reminder to sanity-check the final answer (sign, realistic
+   magnitude, matches a given option if MCQ).
+
+This section is the master key — write it so a student who is unsure
+which pattern a brand-new question belongs to can use this to figure
+it out, then jump to the right row in the Quick-Recognition Table.
+
+---
 
 ## Quick-Recognition Table
 
@@ -527,7 +550,9 @@ Every pattern must have its own row. Do not skip any.
 
 ## Formula Bank
 
-For EVERY pattern, list its key formulas. Group by pattern.
+For EVERY pattern, list ALL of its key formulas — this is the part of
+the document students rely on most, so do not omit a formula just to
+save space. Group by pattern.
 
 Format:
 **[Pattern Name]**
@@ -537,10 +562,14 @@ $$
 $$
 
 → *produces: [what the formula gives you, in 4-6 words]*
+→ *use when: [the specific situation that calls for this formula, in 4-8 words]*
 
 One formula block per formula. If a pattern has multiple essential
-formulas, list them all — one block each.
-Do not merge multiple formulas into one block.
+formulas (e.g. a base formula and a special-case variant), list them
+all — one block each, in the order a student would reach for them.
+Do not merge multiple formulas into one block, and do not skip a
+formula because it seems minor — a student in an exam can't tell which
+formula is "minor" until they need exactly that one.
 
 ---
 
@@ -552,6 +581,8 @@ Format:
 **[Pattern Name]:** Step 1 → Step 2 → Step 3 → Answer
 
 Keep each step to 2-4 words. This is a memory aid, not an explanation.
+Cover every pattern listed in Quick-Recognition Table — do not skip
+any pattern here even if its steps feel obvious.
 
 ---
 
@@ -561,7 +592,9 @@ One bullet per trick. Tricks only — no steps, no explanations.
 Format: **[Pattern]:** trick in ≤12 words.
 
 Only include tricks that are genuinely faster than the standard method.
-5-8 bullets max. Skip a pattern entirely if it has no real shortcut.
+Cover as many patterns as genuinely have a real shortcut — do not cap
+this artificially; skip a pattern entirely only if it has no real
+shortcut beyond the standard method.
 
 ---
 
@@ -588,12 +621,15 @@ Keep each reminder to one sentence. No bullets inside bullets.
 
 FORMATTING RULES:
 
-* Maximum density. No paragraphs, no intros, no summaries-of-summaries.
+* Maximum density. No paragraphs, no intros, no summaries-of-summaries
+  outside the "How To Solve Any Question" section, which is allowed to
+  be a tight numbered list.
 * Every formula in proper LaTeX (`$$...$$` display, `$...$` inline).
 * Never write a plain-text fraction like 1/2 — always `\frac{{a}}{{b}}`.
 * The table must be a real markdown table (pipe-delimited, with header
   separator row).
-* Cut content rather than cramming. Clarity beats completeness.
+* Completeness of formulas and patterns takes priority over length —
+  cut filler words, not coverage.
 
 Return markdown only. No preamble.
 """
@@ -886,18 +922,19 @@ def build_cheatsheet_context(questions: list[dict]) -> dict[str, dict]:
             if m and m not in entry["common_mistakes"]:
                 entry["common_mistakes"].append(m)
 
-        # Grab the shortcut solution's first meaningful sentence
+        # Grab the shortcut solution's first one or two meaningful sentences
         shortcut = (enrichment.get("shortcut_solution") or "").strip()
         if shortcut:
-            first_sentence = re.split(r"(?<=[.!?])\s", shortcut)[0]
-            if first_sentence and first_sentence not in entry["shortcuts"]:
-                entry["shortcuts"].append(first_sentence)
+            sentences = re.split(r"(?<=[.!?])\s", shortcut)
+            snippet = " ".join(sentences[:2]).strip()
+            if snippet and snippet not in entry["shortcuts"]:
+                entry["shortcuts"].append(snippet)
 
-        # Add a representative question sample (question text only, brief)
+        # Add representative question samples (question text only, brief)
         qtext = (q.get("question_text") or q.get("question") or "").strip()
-        if qtext and len(entry["question_samples"]) < 2:
+        if qtext and len(entry["question_samples"]) < 4:
             entry["question_samples"].append(
-                f"Q{q.get('question_number', '?')}: {qtext[:200]}"
+                f"Q{q.get('question_number', '?')}: {qtext[:220]}"
             )
 
     return patterns
@@ -913,16 +950,16 @@ def format_cheatsheet_context(patterns: dict[str, dict]) -> str:
             for s in data["question_samples"]:
                 lines.append(f"  {s}")
         if data["formulas"]:
-            lines.append("Formulas used:")
-            for f in data["formulas"][:6]:
+            lines.append("Formulas used (cover ALL of these in the Formula Bank):")
+            for f in data["formulas"][:12]:
                 lines.append(f"  - {f}")
         if data["common_mistakes"]:
             lines.append("Common mistakes:")
-            for m in data["common_mistakes"][:4]:
+            for m in data["common_mistakes"][:8]:
                 lines.append(f"  - {m}")
         if data["shortcuts"]:
             lines.append("Shortcuts:")
-            for s in data["shortcuts"][:3]:
+            for s in data["shortcuts"][:6]:
                 lines.append(f"  - {s}")
         lines.append("")
     return "\n".join(lines)
