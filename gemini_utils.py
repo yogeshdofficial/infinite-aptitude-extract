@@ -55,7 +55,7 @@ def create_client():
 
 
 max_retries = 5
-DEFAULT_MODEL = "gemini-3.1-flash-lite"
+DEFAULT_MODEL = "gemini-3.5-flash"
 
 
 def call_gemini(

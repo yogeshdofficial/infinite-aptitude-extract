@@ -96,7 +96,7 @@ def parse_args():
 
     parser.add_argument(
         "--model",
-        default="gemini-3.1-flash-lite",
+        default="gemini-3.5-flash",
     )
     parser.add_argument(
         "--enrich-only",

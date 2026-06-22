@@ -575,6 +575,120 @@ Solution: {item['solution']}
     return "\n---\n".join(formatted)
 
 
+def _closest_pattern_by_word_overlap(
+    name: str, candidate_names: list[str]
+) -> Optional[str]:
+    """Return the candidate name with the highest word overlap with `name`."""
+    words = _name_word_set(name)
+    if not words:
+        return candidate_names[0] if candidate_names else None
+
+    best_name, best_overlap = None, -1
+    for candidate in candidate_names:
+        candidate_words = _name_word_set(candidate)
+        overlap = len(words & candidate_words)
+        if overlap > best_overlap:
+            best_name, best_overlap = candidate, overlap
+
+    return best_name
+
+
+def fold_tiny_patterns(patterns: list[dict], min_questions: int = 1) -> list[dict]:
+    """
+    Code-level safety net for the "pattern with 1-2 questions" rule in the
+    prompt: the model is instructed to avoid leaving fragments this small,
+    but LLM output isn't guaranteed to follow every instruction. This only
+    auto-folds patterns at `min_questions` or fewer (default: singletons) —
+    a single-question "pattern" is essentially never a genuine standalone
+    lesson, so folding it is safe. Two-question patterns are left alone:
+    they're a real borderline case the prompt already asks the model to
+    judge, and auto-folding them risks erasing a genuinely distinct but
+    rare pattern. Any pattern with `min_questions` or fewer questions gets
+    folded into its closest-matching sibling by pattern-name word overlap.
+    """
+    if len(patterns) <= 1:
+        return patterns
+
+    by_name = {p["pattern_name"]: p for p in patterns}
+    tiny = [p for p in patterns if len(p.get("question_numbers", [])) <= min_questions]
+
+    for tiny_pattern in tiny:
+        name = tiny_pattern["pattern_name"]
+        if name not in by_name:
+            continue  # already folded into something else this pass
+
+        other_names = [n for n in by_name if n != name]
+        if not other_names:
+            continue  # this is the only pattern left; nothing to fold into
+
+        target_name = _closest_pattern_by_word_overlap(name, other_names)
+        if target_name is None:
+            continue
+
+        target = by_name[target_name]
+        print(
+            f"  INFO: folding tiny pattern '{name}' "
+            f"({len(tiny_pattern.get('question_numbers', []))} question(s)) "
+            f"into '{target_name}'"
+        )
+
+        target["question_numbers"] = list(
+            dict.fromkeys(
+                target.get("question_numbers", [])
+                + tiny_pattern.get("question_numbers", [])
+            )
+        )
+        del by_name[name]
+
+    return list(by_name.values())
+
+
+def merge_near_duplicate_patterns(
+    patterns: list[dict], min_ratio: float = 0.85
+) -> list[dict]:
+    """
+    Code-level safety net for STEP 7 in the prompt: the model is instructed
+    to merge pattern names that describe the same idea, but this isn't
+    guaranteed, so high-confidence near-duplicates (word overlap >= min_ratio,
+    stricter than the 0.66 used for warnings) are auto-merged here. Lower-
+    confidence overlaps are left as warnings only, since merging those
+    automatically risks collapsing genuinely distinct patterns.
+    """
+    if len(patterns) <= 1:
+        return patterns
+
+    by_name = {p["pattern_name"]: p for p in patterns}
+    pattern_names = list(by_name.keys())
+    duplicates = find_near_duplicate_pattern_names(pattern_names)
+
+    for name_a, name_b, ratio in duplicates:
+        if ratio < min_ratio:
+            continue
+        if name_a not in by_name or name_b not in by_name:
+            continue  # one side already merged away this pass
+
+        # Keep the shorter name (prompt's stated preference: shorter base
+        # name over a longer compound/variant name).
+        keep, drop = (
+            (name_a, name_b) if len(name_a) <= len(name_b) else (name_b, name_a)
+        )
+
+        print(
+            f"  INFO: auto-merging near-duplicate pattern '{drop}' into "
+            f"'{keep}' (word overlap: {ratio})"
+        )
+
+        by_name[keep]["question_numbers"] = list(
+            dict.fromkeys(
+                by_name[keep].get("question_numbers", [])
+                + by_name[drop].get("question_numbers", [])
+            )
+        )
+        del by_name[drop]
+
+    return list(by_name.values())
+
+
 def _name_word_set(name: str) -> set:
     """Normalize a pattern name into a set of significant words."""
     filler = {"the", "a", "an", "of", "in", "with", "and", "case", "cases"}
@@ -642,8 +756,6 @@ def normalize_categorization_response(
         raw_patterns = []
 
     normalized_patterns = []
-    question_to_pattern = {}
-    duplicate_assignments = []
 
     # First pass: collect all pattern names for prerequisite validation
     all_pattern_names = {
@@ -696,10 +808,39 @@ def normalize_categorization_response(
             }
         )
 
-        for qnum in question_numbers:
+    # Apply code-level safety nets the model is asked for in the prompt but
+    # isn't guaranteed to follow: fold near-empty fragments into their
+    # closest sibling, then auto-merge high-confidence near-duplicate names.
+    # Both can change which patterns survive, so question_to_pattern and
+    # prerequisite_patterns are rebuilt from the result afterward.
+    normalized_patterns = fold_tiny_patterns(normalized_patterns)
+    normalized_patterns = merge_near_duplicate_patterns(normalized_patterns)
+
+    surviving_names = {p["pattern_name"] for p in normalized_patterns}
+    for p in normalized_patterns:
+        dropped_prereqs = [
+            prereq
+            for prereq in p["prerequisite_patterns"]
+            if prereq not in surviving_names
+        ]
+        if dropped_prereqs:
+            print(
+                f"  INFO: pattern '{p['pattern_name']}' had prerequisite(s) "
+                f"{dropped_prereqs} removed during merge/fold cleanup."
+            )
+        p["prerequisite_patterns"] = [
+            prereq for prereq in p["prerequisite_patterns"] if prereq in surviving_names
+        ]
+
+    question_to_pattern = {}
+    duplicate_assignments = []
+    for p in normalized_patterns:
+        for qnum in p["question_numbers"]:
             if qnum in question_to_pattern:
-                duplicate_assignments.append((qnum, question_to_pattern[qnum], name))
-            question_to_pattern[qnum] = name
+                duplicate_assignments.append(
+                    (qnum, question_to_pattern[qnum], p["pattern_name"])
+                )
+            question_to_pattern[qnum] = p["pattern_name"]
 
     if duplicate_assignments:
         print(
@@ -757,7 +898,7 @@ def categorize_with_gemini(questions_solutions: list[dict]) -> Optional[dict]:
 
     client = create_client()
     rate_limiter = RateLimiter(max_per_minute=10)
-    model = "gemini-2.5-flash"
+    model = "gemini-3.5-flash"
 
     result = call_gemini_text(
         client=client,

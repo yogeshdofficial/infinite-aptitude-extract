@@ -13,15 +13,16 @@ You are an expert mathematics educator and aptitude trainer, writing a
 pattern note for a student preparing for Indian competitive exams
 (SSC, Banking, CAT, placement tests).
 
-This note covers ONE pattern. It serves two purposes at once:
-1. A self-contained reference — a student who has never studied this
-   chapter can open this note, read the Prerequisites section, and
-   then understand everything that follows.
-2. A revision note — a student who already studied the chapter can
-   skip to Recognition Clues and Solution Framework for a fast recap.
+This note covers ONE pattern. Its single goal is: after reading it, the
+student can correctly solve EVERY question in "Questions In This Pattern"
+below, and any new question of the same type in the exam.
 
-The note must therefore begin with full prerequisite grounding (formulas,
-terms, concepts needed) and then move into exam-ready pattern content.
+This is read under exam time pressure. The student needs to recognize
+the pattern, recall the formula, and execute the steps — FAST. Lead with
+that. Background theory (prerequisites, definitions) is useful but
+secondary, so it goes at the END as a reference appendix, not the start.
+A student should never have to scroll past a wall of definitions to
+reach the formula they came here for.
 
 ──────────────────────────────
 GROUNDING RULE (most important)
@@ -30,6 +31,15 @@ GROUNDING RULE (most important)
 Base EVERY section on the ACTUAL questions listed below under
 "Questions In This Pattern". Do not write generic, chapter-level
 content that could apply to any partnership/profit-loss/work problem.
+
+Before writing, scan all the listed questions and identify every
+distinct variation in what's given and what's asked (e.g. "find share
+from investment+time" vs "find investment from share" vs "partner
+joins/leaves mid-term"). Key Formulas and Solution Framework together
+must cover EVERY variation present — if you only handle the most common
+case, a student will be stuck on the others. This is the actual test of
+whether this note succeeds: could a student who has only read it solve
+every single question listed below? If not, the note is incomplete.
 
 If a formula, trick, or mistake doesn't actually appear in these
 specific questions, leave it out. If the supplied questions don't
@@ -70,12 +80,167 @@ Get straight to the point. No fluff.
 
 ---
 
-## Prerequisites
+## Recognition Clues
 
-This is the most important section for beginners. List everything a
-student MUST already know before they can understand this pattern.
-Be specific and concrete — this is not a vague "you should know ratios"
-section. It is a precise checklist.
+How to spot this pattern in under 10 seconds while skimming an exam.
+
+List as short bullets:
+* exact keywords/phrases that appear in these specific questions,
+* what is usually GIVEN,
+* what is usually ASKED.
+
+3-6 bullets. Every bullet must be something a student can literally
+scan for in a question — not a vague description.
+
+---
+
+## Key Formulas
+
+List the formulas actually used to solve the questions in this pattern.
+This is NOT the same as the prerequisite formulas above — these are
+the formulas specific to this pattern.
+
+For each formula use this exact format:
+
+### [Formula Name]
+
+$$
+\text{{formula}}
+$$
+
+**Variables:**
+- $X$ = what X represents
+- $Y$ = what Y represents
+(list every symbol used in the formula)
+
+**When to use:** one line describing the specific scenario.
+
+**Worked example:** a short, concrete numerical walkthrough using
+actual numbers from the questions listed above — state the given
+values, substitute into the formula, and show the resulting answer.
+This should be enough on its own for a student to see exactly how the
+formula is applied, not just what it looks like.
+
+Only include formulas that genuinely appear in the questions above.
+2-4 formulas is normal. If no formula is specific to this pattern
+beyond what was listed in Prerequisites, say so.
+
+---
+
+## Solution Framework
+
+The standard step-by-step approach for this pattern, as a numbered
+list. Each step is one short line — this is a checklist to follow
+under exam time pressure.
+
+For each step, write:
+**Step N: [what to do]** — one-line explanation of WHY this step is
+done (so students understand the logic, not just the mechanics).
+
+Aim for 3-6 steps. A student should be able to memorize this list
+and apply it mechanically to any question in this pattern.
+
+---
+
+## Shortcut Tricks
+
+Practical exam-time shortcuts that genuinely apply to THESE questions.
+
+Each trick:
+* **Trick:** one line stating the trick.
+* **Why it works:** one line explaining the underlying reason.
+* **When to use it:** one line on the specific condition that makes
+  the trick applicable.
+* **Example:** a quick numerical demonstration using values from the
+  questions above, showing the trick actually saving a step compared
+  to the full Solution Framework.
+
+Only include tricks that are genuinely faster than the Solution
+Framework above. If no real shortcut exists, say: "No shortcut
+faster than the standard framework — apply the steps above directly."
+
+---
+
+## Common Mistakes
+
+3-5 mistakes students actually make on THIS pattern (not generic
+arithmetic slips). For each:
+
+* **Mistake:** state it concretely.
+* **Why it happens:** one-line root cause.
+* **Fix:** one-line correction.
+
+---
+
+## Worked Example (Step-by-Step)
+
+Pick ONE representative question from the pattern questions above and
+show the full solution using the Solution Framework steps. This must be
+a COMPLETE, beginner-friendly walkthrough — every step explained, no gaps.
+
+Format:
+**Question:** [quote the question]
+
+**Solution:**
+[walk through each step of the Solution Framework applied to this question]
+
+**Answer:** [state the final answer clearly]
+
+If the questions in this pattern vary meaningfully (e.g. some give the
+answer-back-from-share instead of share-from-investment, or involve a
+twist like a partner joining/leaving mid-term), pick a SECOND worked
+example that covers that variation, so a student who only reads this
+section can still handle every question type listed above — not just
+the simplest one. Otherwise, one example is enough.
+
+This section exists so a student who is confused by the abstract
+framework can see it applied concretely. Make it count — after reading
+this, the student should be able to solve every question listed above
+on their own.
+
+---
+
+## Similar Patterns
+
+1-2 lines on the pattern(s) most likely to be confused with this one,
+and the single clearest way to tell them apart.
+
+Format:
+**[Similar Pattern Name]:** [how to distinguish it from this pattern
+in one line — what specific clue in the question tells you which one
+it is].
+
+If this pattern is fairly distinct, say so briefly instead of forcing
+a comparison.
+
+---
+
+## Revision Summary
+
+A 5-line cheat sheet, each line a single short sentence:
+
+**Key formula:** ...
+
+**Spot it by:** ...
+
+**First move:** ...
+
+**Fastest method:** ...
+
+**Biggest trap:** ...
+
+---
+
+## Appendix: Prerequisites
+
+This section is for a student who has never studied this pattern before
+and needs background before the sections above make sense. A student
+who already knows the basics can skip this entirely — everything they
+need to solve questions is already above.
+
+List everything a student must already know before they can understand
+this pattern. Be specific and concrete — this is not a vague "you should
+know ratios" section. It is a precise checklist.
 
 Organize into three sub-sections:
 
@@ -114,142 +279,6 @@ or notation, include it.
 Only include terms that literally appear in the question text or
 solution steps shown below.
 
----
-
-## Recognition Clues
-
-How to spot this pattern in under 10 seconds while skimming an exam.
-
-List as short bullets:
-* exact keywords/phrases that appear in these specific questions,
-* what is usually GIVEN,
-* what is usually ASKED.
-
-3-6 bullets. Every bullet must be something a student can literally
-scan for in a question — not a vague description.
-
----
-
-## Key Formulas
-
-List the formulas actually used to solve the questions in this pattern.
-This is NOT the same as the prerequisite formulas above — these are
-the formulas specific to this pattern.
-
-For each formula use this exact format:
-
-### [Formula Name]
-
-$$
-\text{{formula}}
-$$
-
-**Variables:**
-- $X$ = what X represents
-- $Y$ = what Y represents
-(list every symbol used in the formula)
-
-**When to use:** one line describing the specific scenario.
-
-**Worked example:** show one concrete numerical application using
-numbers from the actual questions listed above.
-
-Only include formulas that genuinely appear in the questions above.
-2-4 formulas is normal. If no formula is specific to this pattern
-beyond what was listed in Prerequisites, say so.
-
----
-
-## Solution Framework
-
-The standard step-by-step approach for this pattern, as a numbered
-list. Each step is one short line — this is a checklist to follow
-under exam time pressure.
-
-For each step, write:
-**Step N: [what to do]** — one-line explanation of WHY this step is
-done (so students understand the logic, not just the mechanics).
-
-Aim for 3-6 steps. A student should be able to memorize this list
-and apply it mechanically to any question in this pattern.
-
----
-
-## Shortcut Tricks
-
-Practical exam-time shortcuts that genuinely apply to THESE questions.
-
-Each trick:
-* **Trick:** one line stating the trick.
-* **Why it works:** one line explaining the underlying reason.
-* **When to use it:** one line on the specific condition that makes
-  the trick applicable.
-
-Only include tricks that are genuinely faster than the Solution
-Framework above. If no real shortcut exists, say: "No shortcut
-faster than the standard framework — apply the steps above directly."
-
----
-
-## Common Mistakes
-
-3-5 mistakes students actually make on THIS pattern (not generic
-arithmetic slips). For each:
-
-* **Mistake:** state it concretely.
-* **Why it happens:** one-line root cause.
-* **Fix:** one-line correction.
-
----
-
-## Worked Example (Step-by-Step)
-
-Pick ONE question from the pattern questions above. Show the full
-solution using the Solution Framework steps. This must be a COMPLETE,
-beginner-friendly walkthrough — every step explained, no gaps.
-
-Format:
-**Question:** [quote the question]
-
-**Solution:**
-[walk through each step of the Solution Framework applied to this question]
-
-**Answer:** [state the final answer clearly]
-
-This section exists so a student who is confused by the abstract
-framework can see it applied concretely. Make it count.
-
----
-
-## Similar Patterns
-
-1-2 lines on the pattern(s) most likely to be confused with this one,
-and the single clearest way to tell them apart.
-
-Format:
-**[Similar Pattern Name]:** [how to distinguish it from this pattern
-in one line — what specific clue in the question tells you which one
-it is].
-
-If this pattern is fairly distinct, say so briefly instead of forcing
-a comparison.
-
----
-
-## Revision Summary
-
-A 5-line cheat sheet, each line a single short sentence:
-
-**Key formula:** ...
-
-**Spot it by:** ...
-
-**First move:** ...
-
-**Fastest method:** ...
-
-**Biggest trap:** ...
-
 ────────────────────────
 
 FORMATTING RULES (for mobile/KaTeX rendering):
@@ -273,16 +302,21 @@ You are an expert mathematics educator writing a chapter introduction
 for a student preparing for Indian competitive exams (SSC, Banking,
 CAT, placement tests).
 
-This document is read FIRST, before any pattern notes. Its job is to:
-1. Teach the chapter's core concepts, key terminology, and foundational
-   formulas — so the student has the right mental model before drilling
-   individual patterns.
-2. Show how all the patterns in the chapter connect and differ — so
-   the student knows which pattern to reach for when they see a question.
-3. Give a suggested study order — so the student knows where to start.
+This document is read FIRST, before any pattern notes — it's the
+student's introduction to the chapter. Its job is to actually teach:
+1. Give the student a clear mental model of what this chapter is about,
+   in plain language, with real terminology explained properly.
+2. Build up the core concepts and formulas the student needs, so when
+   they reach the pattern notes, nothing feels unfamiliar.
+3. Then orient them — show how the patterns connect and differ, and
+   suggest a sensible study order.
 
-Think of it as "the one page you'd read to understand what this entire
-chapter is about before you start solving."
+Write it the way a good teacher would explain a new chapter on day
+one: start from what the student already knows, introduce new ideas
+properly with definitions and small examples, and only then get into
+navigation. Don't write it like a dense exam cheat-sheet — that's what
+the pattern notes and cheat sheet are for. This document can take its
+time to actually explain things.
 
 Chapter Title:
 {chapter_title}
@@ -317,28 +351,56 @@ the student factually.
 
 ## Core Concepts
 
-The 4-8 fundamental ideas a student MUST understand to work any
+The 4-8 fundamental ideas a student must understand to work any
 question in this chapter. These are concepts, not formulas — the
-mental models that underpin everything.
+mental models that underpin everything that follows.
 
 For each:
-**[Concept Name]** — plain-English definition. Include a concrete,
-one-sentence example that shows the concept in a realistic setting.
+**[Concept Name]** — plain-English definition, written so a student
+seeing this chapter for the first time actually understands it. Include
+a concrete, one-sentence example that shows the concept in a realistic
+setting.
 
-Only include concepts that are genuinely needed across this chapter.
+Only include concepts that are genuinely needed across this chapter —
+but don't shortchange this section. If a student needs to understand
+something to follow the pattern notes later, it belongs here, explained
+properly.
 
 ---
 
 ## Key Terms Glossary
 
-A compact glossary of terms that appear repeatedly in this chapter's
-questions. Format:
+A glossary of terms that appear repeatedly in this chapter's questions.
+A student who has never seen this chapter's vocabulary should be able
+to read this and follow everything afterward without confusion. Format:
 
-**Term** — definition. Include the standard notation or abbreviation
-if one exists.
+**Term** — clear definition. Include the standard notation or
+abbreviation if one exists, and a short example if the term benefits
+from one.
 
-4-10 terms. Only include terms that literally appear in question text
-or solutions in this chapter. Do not add generic math terms.
+Only include terms that literally appear in question text or solutions
+in this chapter. Do not add generic math terms everyone already knows.
+
+---
+
+## Pattern Map
+
+For every pattern listed under "Patterns Discovered In This Chapter",
+write exactly ONE line answering the question:
+"What makes this pattern distinct from all the others?"
+
+Format:
+**[Pattern Name]** (N questions) — what distinguishes this pattern
+from the others: the specific clue in the question, the specific
+quantity being found, or the specific setup move that is unique to it.
+
+List EVERY pattern given to you, in a logical study order (simpler
+patterns first, more complex ones that build on them later).
+Do not skip, merge, or invent patterns.
+
+This section is a navigation aid — a student should be able to read
+it, recognize which pattern matches their current exam question, and
+jump to the right pattern note.
 
 ---
 
@@ -368,27 +430,6 @@ that students typically get wrong or forget.
 
 Only include formulas genuinely needed across multiple patterns.
 Pattern-specific formulas belong in each pattern's own note.
-
----
-
-## Pattern Map
-
-For every pattern listed under "Patterns Discovered In This Chapter",
-write exactly ONE line answering the question:
-"What makes this pattern distinct from all the others?"
-
-Format:
-**[Pattern Name]** (N questions) — what distinguishes this pattern
-from the others: the specific clue in the question, the specific
-quantity being found, or the specific setup move that is unique to it.
-
-List EVERY pattern given to you, in a logical study order (simpler
-patterns first, more complex ones that build on them later).
-Do not skip, merge, or invent patterns.
-
-This section is a navigation aid — a student should be able to read
-it, recognize which pattern matches their current exam question, and
-jump to the right pattern note.
 
 ---
 
@@ -425,10 +466,14 @@ FORMATTING RULES:
 
 * Use proper LaTeX (`$$...$$` for display, `$...$` inline).
 * Never write a fraction as plain text — always `\frac{{a}}{{b}}`.
-* Use concise markdown with bullets where listed above.
-* No long paragraphs. Every section must be scannable in under a minute.
-* Avoid textbook-style explanations or content that belongs in
-  individual pattern notes.
+* Use markdown with headers and bullets for structure, but write
+  Core Concepts and Key Terms Glossary as proper explanatory prose —
+  this document is meant to teach, not just list facts. A sentence or
+  two of real explanation is good; this is not the cheat sheet.
+* Keep Pattern Map, Study Order, and Chapter-Wide Traps tight and
+  scannable, since those are navigation aids, not teaching content.
+* Avoid content that belongs in individual pattern notes (pattern-
+  specific formulas, tricks, mistakes) — keep this chapter-level.
 
 Return only valid markdown. No preamble.
 """
