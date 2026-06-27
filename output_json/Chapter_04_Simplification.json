@@ -4505,11 +4505,13 @@
       "option_d": "$\\frac{15}{16}$",
       "option_e": "None of these",
       "correct_option": "",
-      "solution": "",
+      "solution": "Given exp. = $\\left[\\frac{3^2-1}{3^2}\\right]\\left[\\frac{4^2-1}{4^2}\\right]\\left[\\frac{5^2-1}{5^2}\\right]....\\left[\\frac{11^2-1}{11^2}\\right]\\left[\\frac{12^2-1}{12^2}\\right]$\n$= \\left[\\frac{(3+1)(3-1)}{(2+1)(4-1)}\\right]\\left[\\frac{(4+1)(4-1)}{(3+1)(5-1)}\\right]\\left[\\frac{(5+1)(5-1)}{(4+1)(6-1)}\\right]....\\left[\\frac{(11+1)(11-1)}{(10+1)(12-1)}\\right]\\left[\\frac{(12+1)(12-1)}{(11+1)(13-1)}\\right]$\n$= \\frac{(3-1)(12+1)}{(2+1)(13-1)} = \\frac{2\\times13}{3\\times12} = \\frac{13}{18}$",
       "page_numbers": [
         "119"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "12"
+      ]
     },
     {
       "section": "exercise",
@@ -4525,11 +4527,13 @@
       "option_d": "$\\frac{11}{21}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Given exp. = $\\frac{1}{(2-1)(2+1)} + \\frac{1}{(4-1)(4+1)} + \\frac{1}{(6-1)(6+1)} + .... + \\frac{1}{(20-1)(20+1)}$\n$= \\frac{1}{1\\times3} + \\frac{1}{3\\times5} + \\frac{1}{5\\times7} + .... + \\frac{1}{19\\times21}$\n$= \\frac{1}{2}\\left(1-\\frac{1}{3}\\right) + \\frac{1}{2}\\left(\\frac{1}{3}-\\frac{1}{5}\\right) + \\frac{1}{2}\\left(\\frac{1}{5}-\\frac{1}{7}\\right) + .... + \\frac{1}{2}\\left(\\frac{1}{19}-\\frac{1}{21}\\right)$\n$= \\frac{1}{2}\\left(1-\\frac{1}{21}\\right) = \\frac{1}{2}\\times\\frac{20}{21} = \\frac{10}{21}$",
       "page_numbers": [
         "119"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "12"
+      ]
     },
     {
       "section": "exercise",
@@ -4545,11 +4549,13 @@
       "option_d": "$\\frac{17}{18}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Given exp. = $\\left(1-\\frac{1}{2}\\right) + \\left(\\frac{1}{2}-\\frac{1}{3}\\right) + \\left(\\frac{1}{3}-\\frac{1}{4}\\right) + \\left(\\frac{1}{4}-\\frac{1}{5}\\right) + .... + \\left(\\frac{1}{11}-\\frac{1}{12}\\right)$\n$= 1-\\frac{1}{12} = \\frac{11}{12}$",
       "page_numbers": [
         "119"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "12"
+      ]
     },
     {
       "section": "exercise",
@@ -4565,11 +4571,13 @@
       "option_d": "None of these",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Clearly, sum of first 6 terms is zero. So, sum of first 30 terms = 0.\nRequired sum = $\\left(\\frac{1}{2}+\\frac{1}{3}-\\frac{1}{4}-\\frac{1}{2}-\\frac{1}{3}-\\frac{1}{4}\\right) = -\\frac{1}{4}$",
       "page_numbers": [
         "119"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "12"
+      ]
     },
     {
       "section": "exercise",
@@ -4585,11 +4593,13 @@
       "option_d": "$1236$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Given exp. = $\\frac{1}{2}(1+11+111+1111) \\times 2$\n$= 1234 + 2 = 1236.$",
       "page_numbers": [
         "119"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "12"
+      ]
     },
     {
       "section": "exercise",
@@ -4605,11 +4615,13 @@
       "option_d": "$7000\\frac{7}{1000}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Given exp. = $\\left(1000-\\frac{7}{1000}\\right) \\times 7 = 7000 - \\frac{49}{1000}$\n$= 6999\\frac{951}{1000}$",
       "page_numbers": [
         "119"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "12"
+      ]
     },
     {
       "section": "exercise",
@@ -4625,11 +4637,13 @@
       "option_d": "$999824$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Given exp. = $\\left(1000-\\frac{4}{999}\\right) \\times 999 = 999000 - 4 = 998996.$",
       "page_numbers": [
         "119"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "12"
+      ]
     },
     {
       "section": "exercise",
@@ -4645,11 +4659,13 @@
       "option_d": "$5997$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Given exp. = $\\left(1000-\\frac{6}{7}+1000-\\frac{5}{7}+1000-\\frac{4}{7}\\right) + \\left(1000-\\frac{3}{7}+1000-\\frac{2}{7}+1000-\\frac{1}{7}\\right)$\n$= 6000 - \\left(\\frac{6+5+4+3+2+1}{7}\\right)$\n$= 6000 - \\frac{21}{7} = 6000 - 3 = 5997.$",
       "page_numbers": [
         "119"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "12"
+      ]
     },
     {
       "section": "exercise",
@@ -4665,11 +4681,13 @@
       "option_d": "$7\frac{5}{6}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "$\\frac{6}{7/8} - \\frac{6}{7} \\times \\frac{1}{8} = \\frac{48}{7} - \\frac{6}{56}$\n$= \\frac{384-6}{56} = \\frac{378}{56} = \\frac{27}{4} = 6\\frac{3}{4}$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4685,11 +4703,13 @@
       "option_d": "₹ 90,000",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Let the value of the estate be ₹ $x$.\nThen, $\\frac{4}{5}$ of $x = 16800 \\Rightarrow x = \\left(\\frac{16800\\times5}{4}\\right) = 21000$\n$\\Rightarrow \\frac{3}{7} x = \\left(\\frac{3}{7}\\times21000\\right) = 9000.$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4705,11 +4725,13 @@
       "option_d": "196",
       "option_e": "None of these",
       "correct_option": "",
-      "solution": "",
+      "solution": "Let the number be $x$. Then,\n$\\frac{2}{5}$ of $\\frac{1}{4}$ of $\\frac{3}{7}$ of $x = 15 \\Rightarrow x = \\left(15\\times\\frac{5}{2}\\times4\\times\\frac{7}{3}\\right) = 350$\n$\\Rightarrow \\frac{1}{2} x = 175.$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4725,11 +4747,13 @@
       "option_d": "$\frac{1}{3600}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Required fraction = $\\frac{1 \\text{ sec.}}{1 \\text{ hr.}} = \\frac{1 \\text{ sec.}}{(1\\times60\\times60) \\text{ sec.}} = \\frac{1}{3600}$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4745,11 +4769,13 @@
       "option_d": "None of these",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Height at the third bounce = $\\left[32\\times\\left(\\frac{3}{4}\\right)^3\\right] \\text{ m} = \\left(32\\times\\frac{27}{64}\\right) \\text{ m}$\n$= \\frac{27}{2} \\text{ m} = 13\\frac{1}{2} \\text{ m}$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4765,11 +4791,13 @@
       "option_d": "$\frac{2}{13}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Suppose Sanket earns ₹ $x$ in each of the other eleven months.\nThen, Sanket’s earning in March = ₹ $(2x)$.\nSanket’s annual earning = ₹ $(11x + 2x) = ₹ (13x)$.\nRequired fraction = $\\frac{2x}{13x} = \\frac{2}{13}$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4785,11 +4813,13 @@
       "option_d": "240 litres",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Let the capacity of the tank be $x$ litres.\nThen, $\\frac{1}{3} x = 80 \\Rightarrow x = 240 \\Rightarrow \\frac{1}{2} x = 120.$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4805,11 +4835,13 @@
       "option_d": "$\frac{5}{6}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Distance travelled on foot = $\\left[2 - \\left(\\frac{5}{3} + \\frac{7}{6}\\right)\\right] \\text{ km}$\n$= \\left(2 - \\frac{17}{6}\\right) \\text{ km} = \\frac{2}{3} \\text{ km}$.\nRequired fraction = $\\frac{(2/3)}{(7/2)} = \\frac{2}{3} \\times \\frac{2}{7} = \\frac{4}{21}$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4825,11 +4857,13 @@
       "option_d": "$\frac{15}{14}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Let the required fraction be $x$. Then,\n$\\frac{4}{7} x + \\frac{4}{7} = \\frac{15}{14} \\Rightarrow \\frac{4}{7} x = \\left(\\frac{15}{14} - \\frac{4}{7}\\right) = \\frac{7}{14} = \\frac{1}{2}$\n$\\Rightarrow x = \\left(\\frac{1}{2} \\times \\frac{7}{4}\\right) = \\frac{7}{8}$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4845,11 +4879,13 @@
       "option_d": "$\frac{11}{90}$",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Required fraction = $\\frac{\\frac{2}{3} \\text{ of } \\frac{1}{4} \\text{ of } ₹ 25.20}{\\frac{3}{2} \\text{ of } ₹ 36} = \\frac{4.20}{54} = \\frac{42}{540} = \\frac{7}{90}$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4865,11 +4901,13 @@
       "option_d": "28",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Let the length of longer piece be $x$ cm.\nThen, length of shorter piece = $\\frac{2}{5} x$ cm.\n$x + \\frac{2}{5} x = 70 \\Rightarrow \\frac{7x}{5} = 70 \\Rightarrow x = \\left(\\frac{70\\times5}{7}\\right) = 50$.\nHence, length of shorter piece = $\\frac{2}{5} \\times 50 \\text{ cm} = 20 \\text{ cm}$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",
@@ -4885,11 +4923,13 @@
       "option_d": "₹ 40",
       "option_e": "",
       "correct_option": "",
-      "solution": "",
+      "solution": "Let the whole amount be ₹ $x$. Then,\nA’s share = ₹ $\\frac{3}{16} x$; B’s share = ₹ $\\frac{1}{4} x$;\nand C’s share = ₹ $\\left[x - \\left(\\frac{3x}{16} + \\frac{x}{4}\\right)\\right] = ₹ \\left(\\frac{9x}{16}\\right)$.\n$\\frac{9x}{16} = 81 \\Rightarrow x = \\left(\\frac{81\\times16}{9}\\right) = 144$.\nHence, B’s share = ₹ $\\frac{144}{4} = ₹ 36.$",
       "page_numbers": [
         "122"
       ],
-      "answer_page_numbers": []
+      "answer_page_numbers": [
+        "14"
+      ]
     },
     {
       "section": "exercise",

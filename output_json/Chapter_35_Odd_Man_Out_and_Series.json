@@ -1,0 +1,2119 @@
+{
+  "chapter_title": "Chapter_35_Odd_Man_Out_and_Series",
+  "question_count": 96,
+  "questions": [
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "3, 5, 7, 12, 17, 19",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "19",
+      "option_b": "17",
+      "option_c": "13",
+      "option_d": "12",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Each of the numbers except 12, is a prime number.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "10, 14, 16, 18, 21, 24, 26",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "26",
+      "option_b": "24",
+      "option_c": "21",
+      "option_d": "18",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Each of the numbers except 21, is an even number.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "3, 5, 9, 11, 14, 17, 21",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "21",
+      "option_b": "17",
+      "option_c": "14",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Each of the numbers except 14, is an odd number.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "1, 4, 9, 16, 23, 25, 36",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "23",
+      "option_c": "25",
+      "option_d": "36",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Each of the given numbers except 23, is a perfect square.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "6, 9, 15, 21, 24, 28, 30",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "28",
+      "option_b": "21",
+      "option_c": "24",
+      "option_d": "30",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Each of the numbers except 28, is a multiple of 3.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "41, 43, 47, 53, 61, 71, 73, 81",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "61",
+      "option_b": "71",
+      "option_c": "73",
+      "option_d": "81",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Each of the numbers except 81, is a prime number.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "16, 25, 36, 72, 144, 196, 225",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "36",
+      "option_b": "72",
+      "option_c": "196",
+      "option_d": "225",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Each of the numbers except 72, is a perfect square.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "10, 25, 45, 54, 60, 75, 80",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10",
+      "option_b": "45",
+      "option_c": "54",
+      "option_d": "75",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Each of the numbers except 54, is a multiple of 5.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "1, 4, 9, 16, 20, 36, 49",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "9",
+      "option_c": "20",
+      "option_d": "49",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The pattern is $1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2$. But, instead of $5^2$, it is 20, which is to be turned out.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "8, 27, 64, 100, 125, 216, 343",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "27",
+      "option_b": "100",
+      "option_c": "125",
+      "option_d": "343",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The pattern is $2^3, 3^3, 4^3, 5^3, 6^3, 7^3$. But, 100 is not a perfect cube.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "1, 5, 14, 30, 50, 55, 91",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "50",
+      "option_c": "55",
+      "option_d": "91",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The pattern is $1^2, 1^2 + 2^2, 1^2 + 2^2 + 3^2, 1^2 + 2^2 + 3^2 + 4^2, 1^2 + 2^2 + 3^2 + 4^2 + 5^2, 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2$. But, 50 is not of this pattern.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "385, 462, 572, 396, 427, 671, 264",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "385",
+      "option_b": "427",
+      "option_c": "671",
+      "option_d": "264",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "In each number except 427, the middle digit is the sum of the other two.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "835, 734, 642, 751, 853, 981, 532",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "751",
+      "option_b": "853",
+      "option_c": "981",
+      "option_d": "532",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "In each number except 751, the difference of third and first digit is the middle one.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "331, 482, 551, 263, 383, 242, 111",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "263",
+      "option_b": "383",
+      "option_c": "242",
+      "option_d": "111",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "In each number except 383, the product of first and third digits is the middle one.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "2, 5, 10, 17, 26, 37, 50, 64",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "50",
+      "option_b": "26",
+      "option_c": "37",
+      "option_d": "64",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "The pattern is $x^2 + 1$, where $x = 1, 2, 3, 4, 5, 6, 7, 8$ etc. But, 64 is out of pattern.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "19, 28, 39, 52, 67, 84, 102",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "52",
+      "option_b": "102",
+      "option_c": "84",
+      "option_d": "67",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The pattern is $x^2 + 3$, where $x = 4, 5, 6, 7, 8, 9$ etc. But, 102 is out of pattern.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "253, 136, 352, 460, 324, 631, 244",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "136",
+      "option_b": "324",
+      "option_c": "352",
+      "option_d": "631",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Sum of the digits in each number, except 324 is 10.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "2, 5, 10, 50, 500, 5000",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "5",
+      "option_c": "10",
+      "option_d": "5000",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Pattern is 1st $\\times$ 2nd = 3rd; 2nd $\\times$ 3rd = 4th; 3rd $\\times$ 4th = 5th.\nBut, 4th $\\times$ 5th = $50 \\times 500 = 25000 \\neq 5000 = 6th$.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the odd man out:",
+      "question_text": "4, 5, 7, 10, 14, 18, 25, 32",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7",
+      "option_b": "14",
+      "option_c": "18",
+      "option_d": "33",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "2nd = (1st + 1); 3rd = (2nd + 2); 4th = (3rd + 3); 5th = (4th + 4).\nBut, $18 = 6th \\neq 5th + 5 = 14 + 5 = 19$.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "Directions: Find out the wrong number in each sequence:",
+      "question_text": "22, 33, 66, 99, 121, 279, 594",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "33",
+      "option_b": "121",
+      "option_c": "279",
+      "option_d": "594",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Each number except 279 is a multiple of 11.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "Directions: Find out the wrong number in each sequence:",
+      "question_text": "36, 54, 18, 27, 9, 18.5, 4.5",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4.5",
+      "option_b": "18.5",
+      "option_c": "54",
+      "option_d": "18",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The terms are alternately multiplied by 1.5 and divided by 3. However, 18.5 does not satisfy it.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "Directions: Find out the wrong number in each sequence:",
+      "question_text": "582, 605, 588, 611, 634, 617, 600",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "634",
+      "option_b": "611",
+      "option_c": "605",
+      "option_d": "600",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Alternately 23 is added and 17 is subtracted from the terms. So, 634 is wrong.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "",
+      "passage_text": "Directions: Find out the wrong number in each sequence:",
+      "question_text": "46080, 3840, 384, 48, 24, 2, 1",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "2",
+      "option_c": "24",
+      "option_d": "384",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The terms are successively divided by 12, 10, 8, 6, ..... etc. So, 24 is wrong.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "",
+      "passage_text": "Directions: Find out the wrong number in each sequence:",
+      "question_text": "1, 8, 27, 64, 124, 216, 343",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "27",
+      "option_c": "64",
+      "option_d": "124",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "The numbers are $1^3, 2^3, 3^3, 4^3$ etc. So, 124 is wrong; it must have been $5^3$ i.e., 125.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "Directions: Find out the wrong number in each sequence:",
+      "question_text": "5, 16, 6, 16, 7, 16, 9",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "7",
+      "option_c": "6",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Terms at odd places are 5, 6, 7, 8 etc. and each term at even place is 16. So, 9 is wrong.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "",
+      "passage_text": "Directions: Find out the wrong number in each sequence:",
+      "question_text": "6, 13, 18, 25, 30, 37, 40",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25",
+      "option_b": "30",
+      "option_c": "37",
+      "option_d": "40",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "The difference between two successive terms from the beginning are 7, 5, 7, 5, 7, 5. So, 40 is wrong.",
+      "page_numbers": [
+        "877"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "56, 72, 90, 110, 132, 150",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "72",
+      "option_b": "110",
+      "option_c": "132",
+      "option_d": "150",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "The numbers are $7 \\times 8, 8 \\times 9, 9 \\times 10, 10 \\times 11, 11 \\times 12, 12 \\times 13$. So, 150 is wrong.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "8, 13, 21, 32, 47, 63, 83",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "47",
+      "option_b": "63",
+      "option_c": "32",
+      "option_d": "83",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Go on adding 5, 8, 11, 14, 17, 20. So, the number 47 is wrong and must be replaced by 46.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "25, 36, 49, 81, 121, 169, 225",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "36",
+      "option_b": "49",
+      "option_c": "121",
+      "option_d": "169",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "The numbers are squares of odd natural numbers, starting from 5 upto 15. So, 36 is wrong.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "1, 2, 6, 15, 31, 56, 91",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "31",
+      "option_b": "91",
+      "option_c": "56",
+      "option_d": "15",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Add $1^2, 2^2, 3^2, 4^2, 5^2, 6^2$. So, 91 is wrong.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "52, 51, 48, 43, 34, 27, 16",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "27",
+      "option_b": "34",
+      "option_c": "43",
+      "option_d": "48",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Subtract 1, 3, 5, 7, 9, 11 from successive numbers. So, 34 is wrong.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "105, 85, 60, 30, 0, – 45, – 90",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "85",
+      "option_c": "– 45",
+      "option_d": "60",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Subtract 20, 25, 30, 35, 40, 45 from successive numbers. So, 0 is wrong.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "4, 6, 8, 9, 10, 11, 12",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10",
+      "option_b": "11",
+      "option_c": "12",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Each number is a composite number except 11.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "125, 127, 130, 135, 142, 153, 165",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "130",
+      "option_b": "142",
+      "option_c": "153",
+      "option_d": "165",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Prime numbers 2, 3, 5, 7, 11, 13 are to be added successively. So, 165 is wrong.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "16, 36, 64, 81, 100, 144, 190",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "81",
+      "option_b": "100",
+      "option_c": "190",
+      "option_d": "36",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Each number is the square of a composite number except 190.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "125, 123, 120, 115, 108, 100, 84",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "123",
+      "option_b": "115",
+      "option_c": "100",
+      "option_d": "84",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Prime numbers 2, 3, 5, 7, 11, 13 have successively been subtracted. So, 100 is wrong. It must be $(108 - 11)$ i.e., 97.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "3, 10, 21, 36, 55, 70, 105",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "105",
+      "option_b": "70",
+      "option_c": "36",
+      "option_d": "55",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The pattern is $1 \\times 3, 2 \\times 5, 3 \\times 7, 4 \\times 9, 5 \\times 11, 6 \\times 13, 7 \\times 15$ etc.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "4, 9, 19, 39, 79, 160, 319",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "319",
+      "option_b": "160",
+      "option_c": "79",
+      "option_d": "39",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Double the number and add 1 to it, to get the next number. So, 160 is wrong.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "10, 14, 28, 32, 64, 68, 132",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "32",
+      "option_b": "68",
+      "option_c": "132",
+      "option_d": "28",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Alternately, we add 4 and double the next. So, 132 is wrong. It must be $(68 \\times 2)$ i.e., 136.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "8, 27, 125, 343, 1331",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1331",
+      "option_b": "343",
+      "option_c": "125",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "The numbers are cubes of primes i.e., $2^3, 3^3, 5^3, 7^3, 11^3$. Clearly, none is wrong.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "4, – 8, 16, – 32, 64, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "128",
+      "option_b": "– 128",
+      "option_c": "192",
+      "option_d": "– 192",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Each number is the preceding number multiplied by $-2$.\nSo, the required number is $-128$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "5, 10, 13, 26, 29, 58, 61, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "122",
+      "option_b": "64",
+      "option_c": "125",
+      "option_d": "128",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Numbers are alternately multiplied by $2$ and increased by $3$.\nSo, the missing number $= 61 \times 2 = 122$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "1, 4, 9, 16, 25, 36, 49, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "54",
+      "option_b": "56",
+      "option_c": "164",
+      "option_d": "81",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Numbers are $1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2$.\nSo, the next number is $8^2 = 64$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "1, 8, 27, 64, 125, 216, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "354",
+      "option_b": "343",
+      "option_c": "392",
+      "option_d": "245",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Numbers are $1^3, 2^3, 3^3, 4^3, 5^3, 6^3$.\nSo, the missing number is $7^3 = 343$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "11, 13, 17, 19, 23, 29, 31, 37, 41, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "43",
+      "option_b": "47",
+      "option_c": "53",
+      "option_d": "51",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Numbers are all primes. The next prime is $43$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "16, 33, 65, 131, 261, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "523",
+      "option_b": "521",
+      "option_c": "613",
+      "option_d": "721",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Each number is twice the preceding one with $1$ added or subtracted alternately.\nSo, the next number is $(2 \times 261 + 1) = 523$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "3, 7, 6, 5, 9, 3, 12, 1, 15, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "13",
+      "option_c": "– 1",
+      "option_d": "3",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "There are two series, beginning respectively with $3$ and $7$.\nIn one $3$ is added and in another $2$ is subtracted. The next number is $1 - 2 = -1$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "15, 31, 63, 127, 255, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "513",
+      "option_b": "511",
+      "option_c": "517",
+      "option_d": "523",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Each number is double the preceding one plus $1$.\nSo, the next number is $(255 \times 2) + 1 = 511$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "2, 6, 12, 20, 30, 42, 56, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "60",
+      "option_b": "64",
+      "option_c": "72",
+      "option_d": "70",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The pattern is $1 \times 2, 2 \times 3, 3 \times 4, 4 \times 5, 5 \times 6, 6 \times 7, 7 \times 8$.\nSo, the next number is $8 \times 9 = 72$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "8, 24, 12, 36, 18, 54, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "27",
+      "option_b": "108",
+      "option_c": "68",
+      "option_d": "72",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Numbers are alternately multiplied by $3$ and divided by $2$.\nSo, the next number $= 54 \times \frac{1}{2} = 27$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "165, 195, 255, 285, 345, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "375",
+      "option_b": "420",
+      "option_c": "435",
+      "option_d": "390",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Each number is $15$ multiplied by a prime number i.e., $15 \times 11, 15 \times 13, 15 \times 17, 15 \times 19, 15 \times 23$. So, the next number is $15 \times 29 = 435$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "7, 26, 63, 124, 215, 342, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "481",
+      "option_b": "511",
+      "option_c": "391",
+      "option_d": "421",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Numbers are $(2^3 - 1), (3^3 - 1), (4^3 - 1), (5^3 - 1), (6^3 - 1), (7^3 - 1)$ etc.\nSo, the next number is $(8^3 - 1) = (512 - 1) = 511$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "2, 4, 12, 48, 240, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "960",
+      "option_b": "1440",
+      "option_c": "1080",
+      "option_d": "1920",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Go on multiplying the given numbers by $2, 3, 4, 5, 6$.\nSo, the correct next number is $1440$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "8, 7, 11, 12, 14, 17, 17, 22, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "27",
+      "option_b": "20",
+      "option_c": "22",
+      "option_d": "24",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "There are two series $(8, 11, 14, 17, 20)$ and $(7, 12, 17, 22)$ increasing by $3$ and $5$ respectively.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "10, 5, 13, 10, 16, 20, 19, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "22",
+      "option_b": "40",
+      "option_c": "38",
+      "option_d": "23",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "There are two series $(10, 13, 16, 19)$ and $(5, 10, 20, 40)$, one increasing by $3$ and the other multiplied by $2$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "1, 2, 4, 8, 16, 32, 64, (.....), 256",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "148",
+      "option_b": "128",
+      "option_c": "154",
+      "option_d": "164",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Each previous number is multiplied by $2$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "",
+      "passage_text": "Directions: Insert the missing number:",
+      "question_text": "71, 76, 69, 74, 67, 72, (.....)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "77",
+      "option_b": "65",
+      "option_c": "80",
+      "option_d": "76",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Alternately, we add $5$ and subtract $7$.",
+      "page_numbers": [
+        "878"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "9, 12, 11, 14, 13, (.....), 15",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "16",
+      "option_c": "10",
+      "option_d": "17",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Alternately, we add $3$ and subtract $1$.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Complete the series : 2, 5, 9, 19, 37, .....",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "76",
+      "option_b": "74",
+      "option_c": "75",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Second number is one more than twice the first; third number is one less than twice the second; fourth number is one more than twice the third; fifth number is one less than the fourth. Therefore, the sixth number is one more than twice the fifth.\nSo, the missing number is $75$.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "3, 8, 15, 24, 34, 48, 63",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "24",
+      "option_c": "34",
+      "option_d": "48",
+      "option_e": "63",
+      "correct_option": "c",
+      "solution": "The difference between consecutive terms are respectively $5, 7, 9, 11$ and $13$.\nSo, $34$ is a wrong number.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "2, 9, 28, 65, 126, 216, 344",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "28",
+      "option_c": "65",
+      "option_d": "126",
+      "option_e": "216",
+      "correct_option": "b",
+      "solution": "$2 = (1^3 + 1); 9 = (2^3 + 1); 28 = (3^3 + 1); 65 = (4^3 + 1); 125 = (5^3 + 1); 216 \\neq (6^3 + 1) \\text{ and } 344 = (7^3 + 1).$\nSo, 216 is a wrong number.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "5, 15, 30, 135, 405, 1215, 3645",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3645",
+      "option_b": "1215",
+      "option_c": "405",
+      "option_d": "30",
+      "option_e": "15",
+      "correct_option": "a",
+      "solution": "Multiply each term by 3 to obtain the next term.\nHence, 30 is a wrong number.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "125, 106, 88, 76, 65, 58, 53",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "125",
+      "option_b": "106",
+      "option_c": "88",
+      "option_d": "76",
+      "option_e": "65",
+      "correct_option": "c",
+      "solution": "Go on subtracting prime numbers, 19, 17, 13, 11, 7, 5 from the numbers to get the next number.\nSo, 88 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "190, 166, 145, 128, 112, 100, 91",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "100",
+      "option_b": "166",
+      "option_c": "145",
+      "option_d": "128",
+      "option_e": "112",
+      "correct_option": "b",
+      "solution": "Go on subtracting 24, 21, 18, 15, 12, 9 from the numbers to get the next number.\nClearly, 128 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "65",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "1, 1, 2, 6, 24, 96, 720",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "720",
+      "option_b": "96",
+      "option_c": "24",
+      "option_d": "6",
+      "option_e": "2",
+      "correct_option": "b",
+      "solution": "Go on multiplying with 1, 2, 3, 4, 5, 6 to get the next number. So, 96 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "66",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "40960, 10240, 2560, 640, 200, 40, 10",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "640",
+      "option_b": "40",
+      "option_c": "200",
+      "option_d": "2560",
+      "option_e": "10240",
+      "correct_option": "c",
+      "solution": "Go on dividing by 4 to get the next number.\nSo, 200 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "67",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "64, 71, 80, 91, 104, 119, 135, 155",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "71",
+      "option_b": "80",
+      "option_c": "104",
+      "option_d": "119",
+      "option_e": "135",
+      "correct_option": "e",
+      "solution": "Go on adding 7, 9, 11, 13, 15, 17, 19 respectively to obtain the next number.\nSo, 135 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "68",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "7, 8, 18, 57, 228, 1165, 6996",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "18",
+      "option_c": "57",
+      "option_d": "228",
+      "option_e": "1165",
+      "correct_option": "d",
+      "solution": "Let the given numbers be A, B, C, D, E, F, G. Then,\nA, $A \\times 1$, $B \\times 2 + 2$, $C \\times 3 + 3$, $D \\times 4 + 4$, $E \\times 5 + 5$, $F \\times 6 + 6$ are the required numbers.\nClearly, 228 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "69",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "3, 7, 15, 27, 63, 127, 255",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7",
+      "option_b": "15",
+      "option_c": "27",
+      "option_d": "63",
+      "option_e": "127",
+      "correct_option": "c",
+      "solution": "Go on multiplying the number by 2 and adding 1 to it to get the next number.\nSo, 27 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "70",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "19, 26, 33, 46, 59, 74, 91",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "26",
+      "option_b": "33",
+      "option_c": "46",
+      "option_d": "59",
+      "option_e": "74",
+      "correct_option": "b",
+      "solution": "Go on adding 7, 9, 11, 13, 15, 17 respectively to obtain the next number.\nSo, 33 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "71",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "2880, 480, 92, 24, 8, 4, 4",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "480",
+      "option_b": "92",
+      "option_c": "24",
+      "option_d": "8",
+      "option_e": "4",
+      "correct_option": "b",
+      "solution": "Go on dividing by 6, 5, 4, 3, 2, 1 respectively to obtain the next number.\nClearly, 92 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "72",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "445, 221, 109, 46, 25, 11, 4",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "221",
+      "option_b": "109",
+      "option_c": "46",
+      "option_d": "25",
+      "option_e": "11",
+      "correct_option": "c",
+      "solution": "Go on subtracting 3 and dividing the result by 2 to obtain the next number.\nClearly, 46 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "73",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "3, 7, 15, 39, 63, 127, 255, 511",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7",
+      "option_b": "15",
+      "option_c": "39",
+      "option_d": "63",
+      "option_e": "127",
+      "correct_option": "c",
+      "solution": "Go on multiplying 2 and adding 1 to get the next number.\nSo, 39 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "74",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "1, 3, 10, 21, 64, 129, 356, 777",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10",
+      "option_b": "21",
+      "option_c": "64",
+      "option_d": "129",
+      "option_e": "356",
+      "correct_option": "e",
+      "solution": "$A \\times 2 + 1, B \\times 3 + 1, C \\times 2 + 1, D \\times 3 + 1$ and so on.\nSo, 356 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "75",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "196, 169, 144, 121, 100, 80, 64",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "169",
+      "option_b": "144",
+      "option_c": "121",
+      "option_d": "100",
+      "option_e": "80",
+      "correct_option": "e",
+      "solution": "Numbers must be $(14)^2, (13)^2, (11)^2, (10)^2, (9)^2, (8)^2$.\nSo, 80 is wrong.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "76",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "6, 12, 48, 100, 384, 768, 3072",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "768",
+      "option_b": "384",
+      "option_c": "100",
+      "option_d": "48",
+      "option_e": "12",
+      "correct_option": "c",
+      "solution": "Each even term of the series is obtained by multiplying the previous term by 2.\n2nd term = (1st term) $\\times 2 = 6 \\times 2 = 12$;\n4th term = (3rd term) $\\times 2 = 48 \\times 2 = 96$;\n6th term = (5th term) $\\times 2 = 384 \\times 2 = 768$.\n\\ 4th term should be 96 instead of 100.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "77",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "10, 26, 74, 218, 654, 1946, 5834",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "26",
+      "option_b": "74",
+      "option_c": "218",
+      "option_d": "654",
+      "option_e": "1946",
+      "correct_option": "d",
+      "solution": "2nd term = (1st term) $\\times 3 - 4 = 10 \\times 3 - 4 = 26$;\n3rd term = (2nd term) $\\times 3 - 4 = 26 \\times 3 - 4 = 74$;\n4th term = (3rd term) $\\times 3 - 4 = 74 \\times 3 - 4 = 218$;\n5th term = (4th term) $\\times 3 - 4 = 218 \\times 3 - 4 = 650$.\n\\ 5th term must be 650 instead of 654.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "78",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "15, 16, 34, 105, 424, 2124, 12576",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16",
+      "option_b": "34",
+      "option_c": "105",
+      "option_d": "424",
+      "option_e": "2124",
+      "correct_option": "e",
+      "solution": "2nd term = (1st term) $\\times 1 + 1 = 15 \\times 1 + 1 = 16$;\n3rd term = (2nd term) $\\times 2 + 2 = 16 \\times 2 + 2 = 34$;\n4th term = (3rd term) $\\times 3 + 3 = 34 \\times 3 + 3 = 105$;\n5th term = (4th term) $\\times 4 + 4 = 105 \\times 4 + 4 = 424$;\n6th term = (5th term) $\\times 5 + 5 = 425 \\times 5 + 5 = 2125$.\n\\ 6th term should be 2125 instead of 2124.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "79",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "2807, 1400, 697, 347, 171, 84, 41, 20",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "697",
+      "option_b": "347",
+      "option_c": "171",
+      "option_d": "84",
+      "option_e": "41",
+      "correct_option": "b",
+      "solution": "7th term = (8th term) $\\times 2 + 1 = 20 \\times 2 + 1 = 41$;\n6th term = (7th term) $\\times 2 + 2 = 41 \\times 2 + 2 = 84$;\n5th term = (6th term) $\\times 2 + 3 = 84 \\times 2 + 3 = 171$;\n4th term = (5th term) $\\times 2 + 4 = 171 \\times 2 + 4 = 346$.\n\\ 4th term should be 346 instead of 347.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "80",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "32, 36, 41, 61, 86, 122, 171, 235",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "41",
+      "option_b": "61",
+      "option_c": "86",
+      "option_d": "122",
+      "option_e": "171",
+      "correct_option": "a",
+      "solution": "2nd term = (1st term) $+ 2^2 = 32 + 4 = 36$;\n3rd term = (2nd term) $+ 3^2 = 36 + 9 = 45$;\n4th term = (3rd term) $+ 4^2 = 45 + 16 = 61$;\n5th term = (4th term) $+ 5^2 = 61 + 25 = 86$.\n\\ 3rd term should be 45 instead of 41.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "81",
+      "exam_reference": "",
+      "passage_text": "Directions: Find the wrong number in the series.",
+      "question_text": "3, 4, 9, 22.5, 67.5, 202.5, 810",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "9",
+      "option_c": "22.5",
+      "option_d": "67.5",
+      "option_e": "202.5",
+      "correct_option": "a",
+      "solution": "There are two sequences $(3, 9, 67.5, 810)$ and $(4, 22.5, 202.5)$.\nPattern is : $(1st term \times 3)$, $(2nd term \times 7.5)$, $(3rd term \times 12)$ for the first sequence and $(1st term \times 5)$, $(2nd term \times 9)$ and so on for the second sequence.",
+      "page_numbers": [
+        "879"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "82",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "1, 2, 8, 33, 148, 760, 4626",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "8",
+      "option_c": "33",
+      "option_d": "148",
+      "option_e": "760",
+      "correct_option": "e",
+      "solution": "$2nd term = (1st term \times 1 + 1^2) = 1 \times 1 + 1^2 = 2$;\n$3rd term = (2nd term \times 2 + 2^2) = 2 \times 2 + 2^2 = 8$;\n$4th term = (3rd term \times 3 + 3^2) = 8 \times 3 + 3^2 = 33$;\n$5th term = (4th term \times 4 + 4^2) = 33 \times 4 + 4^2 = 148$;\n$6th term = (5th term \times 5 + 5^2) = 148 \times 5 + 5^2 = 765$.\n$\\therefore 760$ is wrong.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "83",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "3, 8, 18, 46, 100, 210, 432",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "18",
+      "option_c": "46",
+      "option_d": "100",
+      "option_e": "210",
+      "correct_option": "b",
+      "solution": "$2nd term = (1st term \times 2 + 2) = 3 \times 2 + 2 = 8$;\n$3rd term = (2nd term \times 2 + 4) = 8 \times 2 + 4 = 20$;\n$4th term = (3rd term \times 2 + 6) = 20 \times 2 + 6 = 46$;\n$5th term = (4th term \times 2 + 8) = 46 \times 2 + 8 = 100$ and so on.\n$\\therefore 18$ is wrong.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "84",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "789, 645, 545, 481, 440, 429, 425",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "645",
+      "option_b": "545",
+      "option_c": "481",
+      "option_d": "440",
+      "option_e": "429",
+      "correct_option": "d",
+      "solution": "$2nd term = 1st term - (12)^2 = 789 - 144 = 645$;\n$3rd term = (2nd term) - (10)^2 = 645 - 100 = 545$;\n$4th term = (3rd term) - (8)^2 = 545 - 64 = 481$;\n$5th term = (4th term) - (6)^2 = 481 - 36 = 445$.\n$\\therefore 440$ is wrong.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "85",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "1050, 510, 242, 106, 46, 16, 3",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "510",
+      "option_b": "242",
+      "option_c": "106",
+      "option_d": "46",
+      "option_e": "16",
+      "correct_option": "c",
+      "solution": "$2nd term = (1st term - 30) \times \frac{1}{2} = \frac{1050 - 30}{2} = 10$;\n$3rd term = (2nd term - 26) \times \frac{1}{2} = \frac{510 - 26}{2} = 242$;\n$4th term = (3rd term - 22) \times \frac{1}{2} = \frac{242 - 22}{2} = 110$.\n$\\therefore 106$ is wrong.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "86",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "5, 8, 20, 42, 124, 246, 736",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "20",
+      "option_c": "42",
+      "option_d": "124",
+      "option_e": "246",
+      "correct_option": "b",
+      "solution": "$2nd term = (1st term \times 2 - 2) = (5 \times 2 - 2) = 8$;\n$3rd term = (2nd term \times 3 - 2) = (8 \times 3 - 2) = 22$;\n$4th term = (3rd term \times 2 - 2) = (22 \times 2 - 2) = 42$;\n$5th term = (4th term \times 3 - 2) = (42 \times 3 - 2) = 124$ and so on.\n$\\therefore 20$ is wrong.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "87",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "2, 3, 6, 15, 52.5, 157.5, 630",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "6",
+      "option_c": "15",
+      "option_d": "52.5",
+      "option_e": "157.5",
+      "correct_option": "d",
+      "solution": "$2nd term = (1st term \times 1.5) = 2 \times 1.5 = 3$;\n$3rd term = (2nd term \times 2) = 3 \times 2 = 6$;\n$4th term = (3rd term \times 2.5) = 6 \times 2.5 = 15$;\n$5th term = (4th term \times 3) = 15 \times 3 = 45$.\n$\\therefore 52.5$ is wrong.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "88",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "888, 440, 216, 104, 48, 22, 6",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "440",
+      "option_b": "216",
+      "option_c": "104",
+      "option_d": "48",
+      "option_e": "22",
+      "correct_option": "e",
+      "solution": "$2nd term = \frac{1st term - 8}{2} = \frac{888 - 8}{2} = 440$;\n$3rd term = \frac{2nd term - 8}{2} = \frac{440 - 8}{2} = 216$;\n$4th term = \frac{3rd term - 8}{2} = \frac{216 - 8}{2} = 104$;\n$5th term = \frac{4th term - 8}{2} = \frac{104 - 8}{2} = 48$;\n$6th term = \frac{5th term - 8}{2} = \frac{48 - 8}{2} = 20$.\n$\\therefore 22$ is wrong.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "89",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "4, 5, 15, 49, 201, 1011, 6073",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "15",
+      "option_c": "49",
+      "option_d": "201",
+      "option_e": "1011",
+      "correct_option": "a",
+      "solution": "$2nd term = (1st term \times 1 + 2) = (4 \times 1 + 2) = 6$;\n$3rd term = (2nd term \times 2 + 3) = (6 \times 2 + 3) = 15$;\n$4th term = (3rd term \times 3 + 4) = (15 \times 3 + 4) = 49$;\n$5th term = (4th term \times 4 + 5) = (49 \times 4 + 5) = 210$ and so on.\n$\\therefore 5$ is wrong.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "90",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Complete the following series. 9, 11, 15, 23, 39, ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "71",
+      "option_b": "64",
+      "option_c": "42",
+      "option_d": "56",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$9 + 2 = 11$\n$11 + 4 = 15$\n$15 + 8 = 23$\n$23 + 16 = 39$\n$39 + 32 = 71$\n$\\Rightarrow ? = 71$",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "91",
+      "exam_reference": "UPSSC—Lower Subordinate (Pre.) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Find out the wrong number in a given series. 644, 328, 164, 84, 44, 24, 14",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "328",
+      "option_b": "164",
+      "option_c": "84",
+      "option_d": "44",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$644 - 320 = 324 \\neq 328$\n$324 - 160 = 164$\n$164 - 80 = 84$\n$84 - 40 = 44$\n$44 - 20 = 24$\n$24 - 10 = 14$\nHence 328 is wrong number, correct number is 328.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "92",
+      "exam_reference": "DMRC—Train Operator (Station controller), Exam 2016",
+      "passage_text": "Direction: In the following number series only one number is wrong. Find out the wrong number.",
+      "question_text": "18000, 3600, 720, 144.2, 28.8, 5.76",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5.76",
+      "option_b": "720",
+      "option_c": "144.2",
+      "option_d": "28.8",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "The patter is followed by\n$18000 \\div 5 = 3600$\n$3600 \\div 5 = 720$\n$720 \\div 5 = 144 \\neq 144.2$\n$144 \\div 5 = 28.8$\n$28.8 \\div 5 = 5.76$\nHence, 144.2 wrong number and correct number is 144.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "93",
+      "exam_reference": "IBPS Bank PO/MT (Pre.) Exam, 2015",
+      "passage_text": "",
+      "question_text": "What will be come in place of number ? in the following series? 155 151 144 132 133?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "89",
+      "option_b": "71",
+      "option_c": "85",
+      "option_d": "92",
+      "option_e": "60",
+      "correct_option": "c",
+      "solution": "The pattern is followed by\n$155 - 4 = 151$\n$151 - 7 = 144 \\{ \\because 4+3=7 \\}$\n$144 - 12 = 132 \\{ \\because 7+5=12 \\}$\n$132 - 19 = 113 \\{ \\because 12+7=19 \\}$\n$113 - 28 = 85 \\{ \\because 19+9=28 \\}$\nHence $? = 85$",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "94",
+      "exam_reference": "IBPS—Bank PO (Pre) Exam, 2015",
+      "passage_text": "",
+      "question_text": "What will be come in place of question mark in the given series. 264 262 271 243 308 ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "216",
+      "option_b": "163",
+      "option_c": "194",
+      "option_d": "205",
+      "option_e": "182",
+      "correct_option": "e",
+      "solution": "The series followed by following rule:\n$-(1^3+1); +(2^3+1); -(3^3+1); +(4^3+1); -(5^3+1)....\n$264 - (1^3+1) = 264 - 2 = 262$\n$262 + (2^3+1) = 262 + 9 = 271$\n$271 - (3^3+1) = 271 - 28 = 243$\n$243 + (4^3+1) = 243 + 65 = 308$\n$308 - (5^3+1) = 308 - 126 = 182$",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "95",
+      "exam_reference": "SBI—Jr. Associates (Pre.) Exam, 2016",
+      "passage_text": "Direction: What will come in the place of the question mark (?) in the following number series?",
+      "question_text": "48, 23, ?, 4.25, 1.125",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10.5",
+      "option_b": "10",
+      "option_c": "2.5",
+      "option_d": "11",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "$48, 23, ?, 4.25, 1.125$\nIt follows by $2x + 2$ series from R.H.S.\n$\\Rightarrow (1.125 \\times 2 + 2 = 4.25)$\n$4.25 \\times 2 + 2 = 10.5$\n$10.5 \\times 2 + 2 = 23$\n$23 \\times 2 + 2 = 48$\n$\\Rightarrow ? = 10.5$",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "96",
+      "exam_reference": "CET—Maharashtra (MBA) Exam, 2016",
+      "passage_text": "Direction: In these question, a number series is given. Only one number is wrong which doesn’t fit in the series. Find out the wrong number.",
+      "question_text": "13 6 8 13.5 29 75 228",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "75",
+      "option_b": "29",
+      "option_c": "5",
+      "option_d": "6",
+      "option_e": "8",
+      "correct_option": "d",
+      "solution": "The patter is followed by\n$13 \\times 0.5 + 0.5 = 7 \\neq 6$\n$7 \\times 1 + 1 = 8$\n$8 \\times 1.5 + 1.5 = 13.5$\n$13.5 \\times 2 + 2 = 29$\n$29 \\times 2.5 + 2.5 = 75$\n$75 \\times 3 + 3 = 228$\nHence, 6 is wrong number and correct number is 7.",
+      "page_numbers": [
+        "880"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    }
+  ]
+}

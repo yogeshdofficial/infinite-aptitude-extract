@@ -1,0 +1,2293 @@
+{
+  "chapter_title": "Chapter_10_Logarithms",
+  "question_count": 105,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Evaluate : (i) $\\log_3 27$ (ii) $\\log_7 \\left(\\frac{1}{343}\\right)$ (iii) $\\log_{100} (0.01)$ (iv) $\\log_8 128$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $\\log_3 27 = \\log_3 3^3 = 3 \\log_3 3 = 3$. [$\\because \\log_3 3 = 1$]\n(ii) $\\log_7 \\left(\\frac{1}{343}\\right) = \\log_7 \\left(\\frac{1}{7^3}\\right) = \\log_7 7^{-3} = -3 \\log_7 7 = -3$.\n(iii) Let $\\log_{100} (0.01) = x$. Then $100^x = 0.01 = \\frac{1}{100} = 100^{-1}$. So $x = -1$.\n(iv) $\\log_8 128 = \\log_{2^3} (2^7) = \\frac{7}{3} \\log_2 2 = \\frac{7}{3}$.",
+      "page_numbers": [
+        "297",
+        "298"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Evaluate: (i) $\\log_7 1$ (ii) $\\log_{34} 34$ (iii) $36^{\\log_6 4}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) We know that $\\log_a 1 = 0$, so $\\log_7 1 = 0$.\n(ii) We know that $\\log_a a = 1$, so $\\log_{34} 34 = 1$.\n(iii) We know that $a^{\\log_a x} = x$.\nNow, $36^{\\log_6 4} = (6^2)^{\\log_6 4} = 6^{2 \\log_6 4} = 6^{\\log_6 (4^2)} = 6^{\\log_6 16} = 16$.",
+      "page_numbers": [
+        "298"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{\\sqrt{8}} x = 3\\frac{1}{3}$, find the value of $x$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\log_{\\sqrt{8}} x = \\frac{10}{3} \\Leftrightarrow x = (\\sqrt{8})^{10/3} = (8^{1/2})^{10/3} = 8^{5/3} = (2^3)^{5/3} = 2^5 = 32$.",
+      "page_numbers": [
+        "298"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Evaluate: (i) $\\log_5 3 \\times \\log_{27} 25$ (ii) $\\log_9 27 - \\log_{27} 9$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $\\log_5 3 \\times \\log_{27} 25 = \\frac{\\log 3}{\\log 5} \\times \\frac{\\log 25}{\\log 27} = \\frac{\\log 3}{\\log 5} \\times \\frac{\\log 5^2}{\\log 3^3} = \\frac{\\log 3}{\\log 5} \\times \\frac{2 \\log 5}{3 \\log 3} = \\frac{2}{3}$.\n(ii) Let $\\log_9 27 = n$. Then $9^n = 27 \\Leftrightarrow 3^{2n} = 3^3 \\Leftrightarrow 2n = 3 \\Leftrightarrow n = \\frac{3}{2}$.\nAgain, let $\\log_{27} 9 = m$. Then $27^m = 9 \\Leftrightarrow 3^{3m} = 3^2 \\Leftrightarrow 3m = 2 \\Leftrightarrow m = \\frac{2}{3}$.\n$\\therefore \\log_9 27 - \\log_{27} 9 = (n - m) = \\left(\\frac{3}{2} - \\frac{2}{3}\\right) = \\frac{5}{6}$.",
+      "page_numbers": [
+        "298"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Simplify: $\\log \\frac{75}{16} - 2 \\log \\frac{5}{9} + \\log \\frac{32}{243}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\log \\frac{75}{16} - 2 \\log \\frac{5}{9} + \\log \\frac{32}{243} = \\log \\frac{75}{16} - \\log \\left(\\frac{5}{9}\\right)^2 + \\log \\frac{32}{243}$\n$= \\log \\frac{75}{16} - \\log \\frac{25}{81} + \\log \\frac{32}{243} = \\log \\left(\\frac{75}{16} \\times \\frac{81}{25} \\times \\frac{32}{243}\\right) = \\log 2$.",
+      "page_numbers": [
+        "298"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "M.B.A., 2005",
+      "passage_text": "",
+      "question_text": "If $\\log_2 [\\log_3 (\\log_2 x)] = 1$, find the value of $x$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\log_2 [\\log_3 (\\log_2 x)] = 1 \\Rightarrow \\log_3 (\\log_2 x) = 2^1 = 2 \\Rightarrow \\log_2 x = 3^2 = 9 \\Rightarrow x = 2^9 = 512$.",
+      "page_numbers": [
+        "298"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "If $\\log_{10}(x^2 - 6x + 45) = 2$, find the value of $x$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\log_{10} (x^2 - 6x + 45) = 2 \\Rightarrow x^2 - 6x + 45 = 10^2 = 100$\n$\\Rightarrow x^2 - 6x - 55 = 0 \\Rightarrow x^2 - 11x + 5x - 55 = 0$\n$\\Rightarrow x (x - 11) + 5 (x - 11) = 0 \\Rightarrow (x - 11) (x + 5) = 0$\n$\\Rightarrow x = 11$ or $x = -5$.",
+      "page_numbers": [
+        "298"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "M.B.A., 2002",
+      "passage_text": "",
+      "question_text": "Find the value of $x$ which satisfies the relation $\\log_{10} 3 + \\log_{10} (4x + 1) = \\log_{10} (x + 1) + 1$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\log_{10} 3 + \\log_{10} (4x + 1) = \\log_{10} (x + 1) + 1$\n$\\Leftrightarrow \\log_{10} 3 + \\log_{10} (4x + 1) = \\log_{10} (x + 1) + \\log_{10} 10$\n$\\Leftrightarrow \\log_{10} [3 (4x + 1)] = \\log_{10} [10 (x + 1)]$\n$\\Leftrightarrow 3 (4x + 1) = 10 (x + 1) \\Leftrightarrow 12x + 3 = 10x + 10 \\Leftrightarrow 2x = 7 \\Leftrightarrow x = \\frac{7}{2}$.",
+      "page_numbers": [
+        "298"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "Simplify: $\\frac{1}{\\log_{xy} (xyz)} + \\frac{1}{\\log_{yz} (xyz)} + \\frac{1}{\\log_{zx} (xyz)}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Given expression = $\\log_{xyz} (xy) + \\log_{xyz} (yz) + \\log_{xyz} (zx)$\n$= \\log_{xyz} (xy \\times yz \\times zx) = \\log_{xyz} (xyz)^2$\n$= 2 \\log_{xyz} (xyz) = 2 \\times 1 = 2$.",
+      "page_numbers": [
+        "298",
+        "299"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "If $\\log_a b = \\frac{1}{2}, \\log_b c = \\frac{1}{3}$ and $\\log_c a = \\frac{k}{5}$, find the value of $k$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\log_a b = \\frac{1}{2}, \\log_b c = \\frac{1}{3}, \\log_c a = \\frac{k}{5} \\Rightarrow \\frac{\\log b}{\\log a} = \\frac{1}{2}, \\frac{\\log c}{\\log b} = \\frac{1}{3}, \\frac{\\log a}{\\log c} = \\frac{k}{5}$\n$\\Rightarrow \\frac{\\log b}{\\log a} \\times \\frac{\\log c}{\\log b} \\times \\frac{\\log a}{\\log c} = \\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{k}{5} \\Rightarrow 1 = \\frac{k}{30} \\Rightarrow k = 30$.",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 2 = 0.30103$, find the value of $\\log_{10} 50$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\log_{10} 50 = \\log_{10} \\left(\\frac{100}{2}\\right) = \\log_{10} 100 - \\log_{10} 2 = 2 - 0.30103 = 1.69897$.",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log 2 = 0.3010$ and $\\log 3 = 0.4771$, find the values of : (i) $\\log 25$ (ii) $\\log 4.5$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $\\log 25 = \\log \\left(\\frac{100}{4}\\right) = \\log 100 - \\log 4 = 2 - 2 \\log 2 = (2 - 2 \\times 0.3010) = 1.398$.\n(ii) $\\log 4.5 = \\log \\left(\\frac{9}{2}\\right) = \\log 9 - \\log 2 = 2 \\log 3 - \\log 2 = (2 \\times 0.4771 - 0.3010) = 0.6532$.",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "If $\\log 2 = 0.30103$, find the number of digits in $2^{56}$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\log (2^{56}) = 56 \\log 2 = (56 \\times 0.30103) = 16.85768$.\nIts characteristic is 16. Hence, the number of digits in $2^{56}$ is 17.",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_2 16$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{8}$",
+      "option_b": "$4$",
+      "option_c": "$8$",
+      "option_d": "$16$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{2}16=\\log_{2}2^{4}=4\\log_{2}2=4.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_{343} 7$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$-3$",
+      "option_c": "$-\\frac{1}{3}$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_{343}7=\\log_{7^{3}}7=\\frac{1}{3}\\log_{7}7=\\frac{1}{3}.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "M.B.A., 2011",
+      "passage_text": "",
+      "question_text": "The value of $\\log_5 \\frac{(125) (625)}{25}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$725$",
+      "option_b": "$5$",
+      "option_c": "$3125$",
+      "option_d": "$6$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{5}\\left(\\frac{125\\times625}{25}\\right)=\\log_{5}\\left(\\frac{5^{3}\\times5^{4}}{5^{2}}\\right)=\\log_{5}5^{5}=5\\log_{5}5=5.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $2 \\log_{\\sqrt{2}} 32$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{2}$",
+      "option_b": "$5$",
+      "option_c": "$10$",
+      "option_d": "$\\frac{1}{10}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{\\sqrt{2}}32=\\log_{2^{1/2}}2^{5}=\\frac{5}{1/2}\\log_{2}2=5\\times2=10.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "Determine the value of $\\log_{3\\sqrt{2}} \\left(\\frac{1}{18}\\right)$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$-2$",
+      "option_c": "$\\sqrt{2}$",
+      "option_d": "$\\sqrt{3}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{3\\sqrt{2}}\\left(\\frac{1}{18}\\right)=\\log_{3\\sqrt{2}}(3\\sqrt{2})^{-2}=\\log_{3\\sqrt{2}}(3\\sqrt{2})^{-2}=-2\\log_{3\\sqrt{2}}(3\\sqrt{2})=-2.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_{10} (.0001)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{4}$",
+      "option_b": "$-\\frac{1}{4}$",
+      "option_c": "$-4$",
+      "option_d": "$4$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{10}(.0001)=\\log_{10}\\left(\\frac{1}{10000}\\right)=\\log_{10}\\left(\\frac{1}{10^{4}}\\right)=\\log_{10}10^{-4}=-4\\log_{10}10=-4.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_{.01}(1000)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$-\\frac{1}{3}$",
+      "option_c": "$\\frac{3}{2}$",
+      "option_d": "$-\\frac{3}{2}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{.01}(1000)=\\log_{10^{-2}}(10^{3})=\\frac{3}{-2}\\log_{10}10=-\\frac{3}{2}.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "What is the value of $[\\log_{10} (5 \\log_{10} 100)]^2$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$2$",
+      "option_c": "$10$",
+      "option_d": "$25$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$[\\log_{10}(5\\log_{10}100)]^{2}=[\\log_{10}\\{5\\log_{10}(10)^{2}\\}]^{2}=[\\log_{10}(5\\times2)]^{2}=(\\log_{10}10)^{2}=1.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The logarithm of $0.0625$ to the base $2$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-4$",
+      "option_b": "$-2$",
+      "option_c": "$0.25$",
+      "option_d": "$0.5$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_{2}0.0625=\\log_{2}\\left(\\frac{625}{10000}\\right)=\\log_{2}\\left(\\frac{1}{16}\\right)=\\log_{2}2^{-4}=-4\\log_{2}2=-4.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The logarithm of $0.00001$ to the base $0.01$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-\\frac{5}{2}$",
+      "option_b": "$\\frac{5}{2}$",
+      "option_c": "$3$",
+      "option_d": "$5$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{0.01}0.0001=\\log_{10^{-2}}10^{-5}=\\frac{-5}{-2}\\log_{10}10=\\frac{5}{2}.$",
+      "page_numbers": [
+        "299"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_3 x = -2$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-9$",
+      "option_b": "$-6$",
+      "option_c": "$-8$",
+      "option_d": "$\\frac{1}{9}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{3}x=-2\\Rightarrow x=3^{-2}=\\frac{1}{3^{2}}=\\frac{1}{9}.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_8 x = \\frac{2}{3}$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{4}$",
+      "option_b": "$\\frac{4}{3}$",
+      "option_c": "$3$",
+      "option_d": "$4$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{8}x=\\frac{2}{3}\\Rightarrow x=8^{2/3}=(2^{3})^{2/3}=2^{2}=4.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_8 p = 25$ and $\\log_2 q = 5$, then",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$p = q^{15}$",
+      "option_b": "$p^2 = q^3$",
+      "option_c": "$p = q^5$",
+      "option_d": "$p^3 = q$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_{8}p=25\\text{ and }\\log_{2}q=5\\Rightarrow p=8^{25}\\text{ and }q=2^{5}$\n$\\Rightarrow p=(2^{3})^{25}\\text{ and }q=2^{5}$\n$\\Rightarrow p=2^{75}\\text{ and }q=2^{5}$\n$\\Rightarrow p=(2^{5})^{15}\\text{ and }q=2^{5}$\n$\\Rightarrow p=q^{15}.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_x \\left(\\frac{9}{16}\\right) = -\\frac{1}{2}$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-3/4$",
+      "option_b": "$3/4$",
+      "option_c": "$\\frac{81}{256}$",
+      "option_d": "$\\frac{256}{81}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{x}\\left(\\frac{9}{16}\\right)=-\\frac{1}{2}\\Leftrightarrow x^{-1/2}=\\frac{9}{16}\\Leftrightarrow \\frac{1}{\\sqrt{x}}=\\frac{9}{16}\\Leftrightarrow \\sqrt{x}=\\frac{16}{9}$\n$\\Leftrightarrow x=\\left(\\frac{16}{9}\\right)^{2}=\\frac{256}{81}.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_x 4 = 0.4$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$4$",
+      "option_c": "$16$",
+      "option_d": "$32$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{x}4=0.4\\Leftrightarrow \\log_{x}4=\\frac{4}{10}=\\frac{2}{5}\\Leftrightarrow x^{2/5}=4$\n$\\Leftrightarrow x=4^{5/2}=(2^{2})^{5/2}$\n$\\Leftrightarrow x=2^{2\\times\\frac{5}{2}}\\Leftrightarrow x=2^{5}\\Leftrightarrow x=32.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "N.M.A.T., 2006",
+      "passage_text": "",
+      "question_text": "If $\\log_{10000} x = -\\frac{1}{4}$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{10}$",
+      "option_b": "$\\frac{1}{100}$",
+      "option_c": "$\\frac{1}{1000}$",
+      "option_d": "$\\frac{1}{10000}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let $\\log_{10000}x=-\\frac{1}{4}\\Leftrightarrow x=(10000)^{-1/4}=(10^{4})^{-1/4}=10^{-1}=\\frac{1}{10}.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_x 4 = \\frac{1}{4}$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$16$",
+      "option_b": "$64$",
+      "option_c": "$128$",
+      "option_d": "$256$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{x}4=\\frac{1}{4}\\Leftrightarrow x^{1/4}=4\\Leftrightarrow x=4^{4}=256.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_x (0.1) = -\\frac{1}{3}$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$10$",
+      "option_b": "$100$",
+      "option_c": "$1000$",
+      "option_d": "$\\frac{1}{1000}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{x}(0.1)=-\\frac{1}{3}\\Leftrightarrow x^{-1/3}=0.1\\Leftrightarrow \\frac{1}{x^{1/3}}=0.1$\n$\\Leftrightarrow x^{1/3}=\\frac{1}{0.1}=10\\Leftrightarrow x=(10)^{3}=1000.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{32} x = 0.8$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$25.6$",
+      "option_b": "$16$",
+      "option_c": "$10$",
+      "option_d": "$12.8$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{32}x=0.8\\Leftrightarrow x=(32)^{0.8}=(2^{5})^{4/5}=2^{4}=16.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_x y = 100$ and $\\log_2 x = 10$, then the value of $y$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2^{10}$",
+      "option_b": "$2^{100}$",
+      "option_c": "$2^{1000}$",
+      "option_d": "$2^{100000}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{2}x=10\\Rightarrow x=2^{10}.$\n$\\therefore \\log_{x}y=100\\Rightarrow y=x^{100}=(2^{10})^{100}\\Rightarrow y=2^{1000}.$",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_{(-1/3)} 81$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-27$",
+      "option_b": "$-4$",
+      "option_c": "$4$",
+      "option_d": "$27$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let $\\log_{(-\\frac{1}{3})} 81 = x$. Then,\n$\\left(-\\frac{1}{3}\\right)^x = 81 = 3^4 = (-3)^4 = \\left(-\\frac{1}{3}\\right)^{-4}$\n$\\therefore x = -4$ i.e., $\\log_{(-\\frac{1}{3})} 81 = -4$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_{2\\sqrt{3}} (1728)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3$",
+      "option_b": "$5$",
+      "option_c": "$6$",
+      "option_d": "$9$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let $\\log_{2\\sqrt{3}} (1728) = x$. Then,\n$(2\\sqrt{3})^x = 1728 = (12)^3 = [(2\\sqrt{3})^2]^3 = (2\\sqrt{3})^6$.\n$\\therefore x = 6$, i.e., $\\log_{2\\sqrt{3}} (1728) = 6$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "M.B.A. 2004, I.A.F., 2002",
+      "passage_text": "",
+      "question_text": "$\\frac{\\log \\sqrt{8}}{\\log 8}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{8}$",
+      "option_b": "$\\frac{1}{4}$",
+      "option_c": "$\\frac{1}{2}$",
+      "option_d": "$\\frac{1}{8}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{\\log \\sqrt{8}}{\\log 8} = \\frac{\\log (8)^{1/2}}{\\log 8} = \\frac{\\frac{1}{2} \\log 8}{\\log 8} = \\frac{1}{2}$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "M.B.A., 2003",
+      "passage_text": "",
+      "question_text": "Which of the following statements is not correct ?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\log_{10} 10 = 1$",
+      "option_b": "$\\log (2 + 3) = \\log (2 \\times 3)$",
+      "option_c": "$\\log_{10} 1 = 0$",
+      "option_d": "$\\log (1 + 2 + 3) = \\log 1 + \\log 2 + \\log 3$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "(a) Since $\\log_a a = 1$, so $\\log_{10} 10 = 1$.\n(b) $\\log (2 + 3) = 5$ and $\\log (2 \\times 3) = \\log 6 = \\log 2 + \\log 3$.\n$\\therefore \\log (2 + 3) \\neq \\log (2 \\times 3)$.\n(c) Since $\\log_a 1 = 0$, so $\\log_{10} 1 = 0$.\n(d) $\\log (1 + 2 + 3) = \\log 6 = \\log (1 \\times 2 \\times 3) = \\log 1 + \\log 2 + \\log 3$.\nSo, (b) is incorrect.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "C.D.S., 2002",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{6 \\log_{10} 1000}{3 \\log_{10} 100}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{6 \\log_{10} 1000}{3 \\log_{10} 100} = \\frac{6 \\log_{10} 10^3}{3 \\log_{10} 10^2} = \\frac{6 \\times 3 \\log_{10} 10}{3 \\times 2 \\log_{10} 10} = \\frac{18}{6} = 3$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\\log_{10} (10 \\times 10^2 \\times 10^3 \\times ...... \\times 10^9)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$10$",
+      "option_b": "$20$",
+      "option_c": "$45$",
+      "option_d": "$55$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{10} (10 \\times 10^2 \\times 10^3 \\times ... \\times 10^9)$\n$= \\log_{10} 10^{(1 + 2 + 3 + ... + 9)} = \\log_{10} 10^{45} = 45 \\log_{10} 10 = 45$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_2 (\\log_5 625)$ is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$5$",
+      "option_c": "$10$",
+      "option_d": "$15$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_2 (\\log_5 625) = \\log_2 (\\log_5 5^4) = \\log_2 (4 \\log_5 5) = \\log_2 4 = \\log_2 2^2 = 2 \\log_2 2 = 2$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "M.B.A., 2007",
+      "passage_text": "",
+      "question_text": "If $\\log_2 [\\log_3 (\\log_2 x)] = 1$, then $x$ is equal to :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$12$",
+      "option_c": "$128$",
+      "option_d": "$512$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_2 [\\log_3 (\\log_2 x)] = 1 \\Rightarrow \\log_3 (\\log_2 x) = 2^1 = 2 \\Rightarrow \\log_2 x = 3^2 = 9 \\Rightarrow x = 2^9 = 512$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\\log_{10} \\log_{10} \\log_{10} (10^{10^{10}})$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$10$",
+      "option_d": "$100$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{10} \\log_{10} \\log_{10} (10^{10^{10}})$\n$= \\log_{10} \\log_{10} (10^{10} \\log_{10} 10) = \\log_{10} \\log_{10} (10^{10})$\n$= \\log_{10} (10 \\log_{10} 10) = \\log_{10} 10 = 1$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_2 \\log_2 \\log_3 \\log_3 27^3$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_2 \\log_2 \\log_3 (\\log_3 27^3)$\n$= \\log_2 \\log_2 \\log_3 [\\log_3 (3^3)^3] = \\log_2 \\log_2 \\log_3 [\\log_3 (3)^9]$\n$= \\log_2 \\log_2 \\log_3 (9 \\log_3 3) = \\log_2 \\log_2 \\log_3 9 \\quad [\\because \\log_3 3 = 1]$\n$= \\log_2 \\log_2 [\\log_3 (3)^2] = \\log_2 \\log_2 (2 \\log_3 3)$\n$= \\log_2 \\log_2 2 = \\log_2 1 = 0$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_2 [\\log_2 \\{\\log_4 (\\log_4 256^4)\\}]$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$4$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_2 [\\log_2 \\{\\log_4 (\\log_4 256^4)\\}] = \\log_2 \\log_2 [\\log_4 \\{\\log_4 (4^4)^4\\}] = \\log_2 \\log_2 [\\log_4 \\{\\log_4 4^{16}\\}]$\n$= \\log_2 \\log_2 [\\log_4 \\{16 \\log_4 4\\}] = \\log_2 \\log_2 \\log_4 16 = \\log_2 \\log_2 \\log_4 (4^2) = \\log_2 \\log_2 (2 \\log_4 4)$\n$= \\log_2 \\log_2 2 = \\log_2 1 = 0$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "304"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $a^x = b^y$, then",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\log \\frac{a}{b} = \\frac{x}{y}$",
+      "option_b": "$\\frac{\\log a}{\\log b} = \\frac{x}{y}$",
+      "option_c": "$\\frac{\\log a}{\\log b} = \\frac{y}{x}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$a^x = b^y \\Rightarrow \\log a^x = \\log b^y$\n$\\Rightarrow x \\log a = y \\log b \\Rightarrow \\frac{x}{y} = \\frac{\\log b}{\\log a}$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\\log 360$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2 \\log 2 + 3 \\log 3$",
+      "option_b": "$3 \\log 2 + 2 \\log 3$",
+      "option_c": "$3 \\log 2 + 2 \\log 3 - \\log 5$",
+      "option_d": "$3 \\log 2 + 2 \\log 3 + \\log 5$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$360 = (2 \\times 2 \\times 2) \\times (3 \\times 3) \\times 5$.\nSo, $\\log 360 = \\log (2^3 \\times 3^2 \\times 5) = \\log 2^3 + \\log 3^2 + \\log 5 = 3 \\log 2 + 2 \\log 3 + \\log 5$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\\log_{10} \\frac{26}{51} + \\log_{10} \\frac{119}{91} - \\log_{10} \\frac{13}{32} - \\log_{10} \\frac{64}{39}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_{10} \\frac{26}{51} + \\log_{10} \\frac{119}{91} - \\log_{10} \\frac{13}{32} - \\log_{10} \\frac{64}{39}$\n$= \\log_{10} \\left( \\frac{26}{51} \\times \\frac{119}{91} \\right) - \\log_{10} \\left( \\frac{13}{32} \\times \\frac{64}{39} \\right)$\n$= \\log_{10} \\left( \\frac{26}{51} \\times \\frac{119}{91} \\right) - \\log_{10} \\left( \\frac{13}{32} \\times \\frac{64}{39} \\right) = \\log_{10} \\frac{2}{3} - \\log_{10} \\frac{2}{3} = 0$.",
+      "page_numbers": [
+        "300"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\left(\\frac{1}{3} \\log_{10} 125 - 2 \\log_{10} 4 + \\log_{10} 32\\right)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$\\frac{4}{5}$",
+      "option_c": "$1$",
+      "option_d": "$2$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{1}{3} \\log_{10} 125 - 2 \\log_{10} 4 + \\log_{10} 32 = \\log_{10} (125)^{1/3} - \\log_{10} (4)^2 + \\log_{10} 32$\n$= \\log_{10} 5 - \\log_{10} 16 + \\log_{10} 32 = \\log_{10} \\left( \\frac{5 \\times 32}{16} \\right)$\n$= \\log_{10} 10 = 1$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_{10} \\left(1 + \\frac{1}{2}\\right) + \\log_{10} \\left(1 + \\frac{1}{3}\\right) + \\dots$ up to 198 terms is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$2$",
+      "option_c": "$10$",
+      "option_d": "$100$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{10} \\left( 1 + \\frac{1}{2} \\right) + \\log_{10} \\left( 1 + \\frac{1}{3} \\right) + \\dots \\log_{10} \\left( 1 + \\frac{1}{199} \\right)$\n$= \\log_{10} \\left( \\frac{3}{2} \\times \\frac{4}{3} \\times \\dots \\times \\frac{200}{199} \\right)$\n$= \\log_{10} \\left( \\frac{200}{2} \\right) = \\log_{10} 100 = \\log_{10} 10^2 = 2 \\log_{10} 10 = 2$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "I.I.F.T., 2005",
+      "passage_text": "",
+      "question_text": "What is the value of the following expression?\n$\\log \\left(\\frac{9}{14}\\right) - \\log \\left(\\frac{15}{16}\\right) + \\log \\left(\\frac{35}{24}\\right)$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log \\left( \\frac{9}{14} \\right) - \\log \\left( \\frac{15}{16} \\right) + \\log \\left( \\frac{35}{24} \\right)$\n$= \\log \\left( \\frac{9}{14} \\div \\frac{15}{16} \\times \\frac{35}{24} \\right) = \\log \\left( \\frac{9}{14} \\times \\frac{16}{15} \\times \\frac{35}{24} \\right) = \\log 1 = 0$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "M.B.A., 2002",
+      "passage_text": "",
+      "question_text": "$2 \\log_{10} 5 + \\log_{10} 8 - \\frac{1}{2} \\log_{10} 4 = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$4$",
+      "option_c": "$2 + 2 \\log_{10} 2$",
+      "option_d": "$4 - 4 \\log_{10} 2$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$2 \\log_{10} 5 + \\log_{10} 8 - \\frac{1}{2} \\log_{10} 4 = \\log_{10} (5^2) + \\log_{10} 8 - \\log_{10} (4^{1/2})$\n$= \\log_{10} 25 + \\log_{10} 8 - \\log_{10} 2 = \\log_{10} \\left( \\frac{25 \\times 8}{2} \\right)$\n$= \\log_{10} 100 = 2$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\log_{10} 2 + 16 \\log_{10} \\frac{16}{15} + 12 \\log_{10} \\frac{25}{24} + 7 \\log_{10} \\frac{81}{80}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{10} \\left( \\frac{16}{15} \\right)^2 + \\log_{10} \\left( \\frac{25}{24} \\right)^{16} + \\log_{10} \\left( \\frac{81}{80} \\right)^7$\n$= \\log_{10} \\left[ \\left( \\frac{16}{15} \\right)^2 \\times \\left( \\frac{25}{24} \\right)^{16} \\times \\left( \\frac{81}{80} \\right)^7 \\right]$\n$= \\log_{10} \\left[ \\frac{(2^4)^2}{(3 \\times 5)^2} \\times \\frac{(5^2)^{16}}{(2^3 \\times 3)^{16}} \\times \\frac{(3^4)^7}{(2^4 \\times 5)^7} \\right]$\n$= \\log_{10} \\left[ \\frac{2^8}{3^2 \\times 5^2} \\times \\frac{5^{32}}{2^{48} \\times 3^{16}} \\times \\frac{3^{28}}{2^{28} \\times 5^7} \\right]$\n$= \\log_{10} [2^{(8 - 48 - 28)} \\times 5^{(32 - 2 - 7)} \\times 3^{(28 - 2 - 16)}]$\n$= \\log_{10} (2^1 \\times 5^1 \\times 3^0) = \\log_{10} 10 = 1$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "M.A.T., 2002",
+      "passage_text": "",
+      "question_text": "If $\\log_a (ab) = x$, then $\\log_b (ab)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{x}$",
+      "option_b": "$\\frac{x}{x+1}$",
+      "option_c": "$\\frac{x}{1-x}$",
+      "option_d": "$\\frac{x}{x-1}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_a (ab) = x \\Leftrightarrow \\frac{\\log ab}{\\log a} = x \\Leftrightarrow \\frac{\\log a + \\log b}{\\log a} = x$\n$\\Leftrightarrow 1 + \\frac{\\log b}{\\log a} = x \\Leftrightarrow \\frac{\\log b}{\\log a} = x - 1 \\Leftrightarrow \\frac{\\log a}{\\log b} = \\frac{1}{x - 1}$\n$\\Leftrightarrow 1 + \\frac{\\log a}{\\log b} = 1 + \\frac{1}{x - 1} \\Leftrightarrow \\frac{\\log b + \\log a}{\\log b} = \\frac{x - 1 + 1}{x - 1}$\n$\\Leftrightarrow \\frac{\\log (ab)}{\\log b} = \\frac{x}{x - 1} \\Leftrightarrow \\log_b (ab) = \\frac{x}{x - 1}$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "305"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_a m = x$, then $\\log_{\\frac{1}{a}} m$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1 - x$",
+      "option_b": "$\\frac{1}{x}$",
+      "option_c": "$-x$",
+      "option_d": "$x$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\left(\\frac{1}{m}\\right)^{-1} = m^{-1} = \\log_a m^{-1} = -1 \\log_a m = -1 \\times -1 \\log_a m = \\log_a m = x$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 2 = a$ and $\\log_{10} 3 = b$, then $\\log_5 12$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{a+b}{1+a}$",
+      "option_b": "$\\frac{2a+b}{1+a}$",
+      "option_c": "$\\frac{a+2b}{1+a}$",
+      "option_d": "$\\frac{2a+b}{1-a}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_5 12 = \\log_5 (3 \\times 4) = \\log_5 3 + \\log_5 4 = \\log_5 3 + 2 \\log_5 2$\n$= \\frac{\\log_{10} 3 + 2 \\log_{10} 2}{\\log_{10} 5} = \\frac{\\log_{10} 3 + 2 \\log_{10} 2}{\\log_{10} 10 - \\log_{10} 2}$\n$= \\frac{b + 2a}{1 - a}$",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log 2 = x$, $\\log 3 = y$ and $\\log 7 = z$, then the value of $\\log 3 (4 \\cdot \\sqrt{63})$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2x + \\frac{2}{3}y - \\frac{1}{3}z$",
+      "option_b": "$2x + \\frac{2}{3}y + \\frac{1}{3}z$",
+      "option_c": "$2x - \\frac{2}{3}y + \\frac{1}{3}z$",
+      "option_d": "$2x - \\frac{2}{3}y + \\frac{1}{3}z + 1$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log (4\\sqrt[3]{63}) = \\log 4 + \\log (63)^{1/3} = \\log 4 + \\frac{1}{3} \\log 63$\n$= \\log (2^2) + \\frac{1}{3} \\log (7 \\times 3^2)$\n$= 2 \\log 2 + \\frac{1}{3} \\log 7 + \\frac{2}{3} \\log 3 = 2x + \\frac{1}{3} z + \\frac{2}{3} y$",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_4 x + \\log_2 x = 6$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$4$",
+      "option_c": "$8$",
+      "option_d": "$16$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_4 x + \\log_2 x = 6 \\iff \\frac{\\log x}{\\log 4} + \\frac{\\log x}{\\log 2} = 6$\n$\\iff \\frac{\\log x}{2 \\log 2} + \\frac{\\log x}{\\log 2} = 6$\n$\\iff 3 \\log x = 12 \\log 2 \\iff \\log x = 4 \\log 2$\n$\\iff \\log x = \\log (2^4) = \\log 16 \\iff x = 16$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} (x^2 - 6x + 10) = 0$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$2$",
+      "option_c": "$3$",
+      "option_d": "$4$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{10} (x^2 - 6x + 10) = 0 \\implies (x^2 - 6x + 10) = 10^0 = 1$\n$\\implies x^2 - 6x + 9 = 0$\n$\\implies (x - 3)^2 = 0 \\implies x = 3$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} x + \\log_{10} y = 3$ and $\\log_{10} x - \\log_{10} y = 1$, then $x$ and $y$ are respectively",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$10$ and $100$",
+      "option_b": "$100$ and $10$",
+      "option_c": "$1000$ and $100$",
+      "option_d": "$100$ and $1000$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{10} x + \\log_{10} y = 3 \\dots(i)$\n$\\log_{10} x - \\log_{10} y = 1 \\dots(ii)$\nAdding (i) and (ii), we get:\n$2 \\log_{10} x = 4$ or $\\log_{10} x = 2 \\implies x = 10^2 = 100$.\nAlso, $\\log_{10} y = 3 - \\log_{10} x = 3 - 2 = 1 \\implies y = 10^1 = 10$.\nHence, $x = 100, y = 10$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} x + \\log_{10} 5 = 2$, then $x$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$15$",
+      "option_b": "$20$",
+      "option_c": "$25$",
+      "option_d": "$100$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{10} x + \\log_{10} 5 = 2 \\implies \\log_{10} 5x = 2$\n$\\implies 5x = 10^2 = 100 \\implies x = 20$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_8 x + \\log_8 \\frac{1}{6} = \\frac{1}{3}$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$12$",
+      "option_b": "$16$",
+      "option_c": "$18$",
+      "option_d": "$24$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_8 x + \\log_8 \\frac{1}{6} = \\frac{1}{3}$\n$\\iff \\log_8 \\left(\\frac{x}{6}\\right) = \\frac{1}{3} \\iff \\frac{x}{6} = 8^{1/3} = 2$\n$\\iff x = 12$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "M.B.A., 2005",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 125 + \\log_{10} 8 = x$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$.064$",
+      "option_c": "$-3$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{10} 125 + \\log_{10} 8 = x \\implies \\log_{10} (125 \\times 8) = x$\n$\\implies x = \\log_{10} (1000) = \\log_{10} (10)^3 = 3 \\log_{10} 10 = 3$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $(\\log_9 27 + \\log_8 32)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{7}{2}$",
+      "option_b": "$\\frac{19}{6}$",
+      "option_c": "$4$",
+      "option_d": "$7$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_9 27 + \\log_8 32 = \\log_3 3^3 + \\log_2 2^5$\n$= \\frac{3}{2} \\log_3 3 + \\frac{5}{3} \\log_2 2 = \\frac{3}{2} + \\frac{5}{3} = \\frac{9 + 10}{6} = \\frac{19}{6}$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$(\\log_5 3) \\times (\\log_3 625)$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$2$",
+      "option_c": "$3$",
+      "option_d": "$4$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression\n$= \\frac{\\log 3 \\times \\log 625}{\\log 5 \\times \\log 3} = \\frac{\\log 625}{\\log 5} = \\frac{\\log (5^4)}{\\log 5} = \\frac{4 \\log 5}{\\log 5} = 4$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$(\\log_5 5) (\\log_4 9) (\\log_3 2)$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$\\frac{3}{2}$",
+      "option_c": "$2$",
+      "option_d": "$5$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression\n$= \\frac{\\log 9}{\\log 4} \\times \\frac{\\log 2}{\\log 3} = \\frac{2 \\log 3}{2 \\log 2} \\times \\frac{\\log 2}{\\log 3} = 1$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{12} 27 = a$, then $\\log_6 16$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{4(3-a)}{3+a}$",
+      "option_b": "$\\frac{4(3+a)}{3-a}$",
+      "option_c": "$\\frac{4(3+a)}{3-a}$",
+      "option_d": "$\\frac{4(3-a)}{3+a}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{12} 27 = a \\implies \\frac{\\log 27}{\\log 12} = a \\implies \\frac{3 \\log 3}{\\log (3 \\times 2^2)} = a$\n$\\implies \\frac{3 \\log 3}{\\log 3 + 2 \\log 2} = a \\implies 3 \\log 3 = a \\log 3 + 2a \\log 2$\n$\\implies \\log 3 (3 - a) = 2a \\log 2 \\implies \\log 3 = \\frac{2a}{3 - a} \\log 2$.\n$\\log_6 16 = \\frac{\\log 16}{\\log 6} = \\frac{4 \\log 2}{\\log 2 + \\log 3} = \\frac{4 \\log 2}{\\log 2 + \\frac{2a}{3 - a} \\log 2}$\n$= \\frac{4}{\\frac{3 - a + 2a}{3 - a}} = \\frac{4(3 - a)}{3 + a}$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 5 + \\log_{10} (5x + 1) = \\log_{10} (x + 5) + 1$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$3$",
+      "option_c": "$5$",
+      "option_d": "$10$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{10} 5 + \\log_{10} (5x + 1) = \\log_{10} (x + 5) + 1$\n$\\implies \\log_{10} [5 (5x + 1)] = \\log_{10} (x + 5) + \\log_{10} 10$\n$\\implies \\log_{10} [5 (5x + 1)] = \\log_{10} [10 (x + 5)]$\n$\\implies 5 (5x + 1) = 10 (x + 5)$\n$\\implies 5x + 1 = 2x + 10 \\implies 3x = 9 \\implies x = 3$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "M.B.A., 2007",
+      "passage_text": "",
+      "question_text": "If $\\log_5 (x^2 + x) - \\log_5 (x + 1) = 2$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5$",
+      "option_b": "$10$",
+      "option_c": "$25$",
+      "option_d": "$32$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_5 (x^2 + x) - \\log_5 (x + 1) = 2$\n$\\implies \\log_5 \\left[\\frac{x(x + 1)}{x + 1}\\right] = 2$\n$\\implies \\log_5 x = 2 \\implies x = 5^2 = 25$.",
+      "page_numbers": [
+        "301"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "$\\frac{1}{2} (\\log x + \\log y)$ will equal $\\log \\left(\\frac{x+y}{2}\\right)$ if",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$y = 0$",
+      "option_b": "$x = \\sqrt{y}$",
+      "option_c": "$x = y$",
+      "option_d": "$x = \\frac{y}{2}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{1}{2} (\\log x + \\log y) = \\log \\left(\\frac{x + y}{2}\\right) \\implies \\log (xy) = \\log \\left(\\frac{x + y}{2}\\right)^2$\n$\\implies xy = \\left(\\frac{x + y}{2}\\right)^2$\n$\\implies 4xy = x^2 + y^2 + 2xy$\n$\\implies x^2 + y^2 - 2xy = 0$\n$\\implies (x - y)^2 = 0 \\implies x - y = 0 \\implies x = y$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\left(\\frac{1}{\\log_3 60} + \\frac{1}{\\log_4 60} + \\frac{1}{\\log_5 60}\\right)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$5$",
+      "option_d": "$60$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression\n$= \\log_{60} 3 + \\log_{60} 4 + \\log_{60} 5 = \\log_{60} (3 \\times 4 \\times 5)$\n$= \\log_{60} 60 = 1$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $(\\log_3 4) (\\log_4 5) (\\log_5 6) (\\log_6 7) (\\log_7 8) (\\log_8 9)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$7$",
+      "option_c": "$8$",
+      "option_d": "$33$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given Expression\n$= \\left(\\frac{\\log 4}{\\log 3} \\times \\frac{\\log 5}{\\log 4} \\times \\frac{\\log 6}{\\log 5} \\times \\frac{\\log 7}{\\log 6} \\times \\frac{\\log 8}{\\log 7} \\times \\frac{\\log 9}{\\log 8}\\right)$\n$= \\frac{\\log 9}{\\log 3} = \\frac{2 \\log 3}{\\log 3} = 2$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $16^{\\log_4 5}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{64}$",
+      "option_b": "$5$",
+      "option_c": "$16$",
+      "option_d": "$25$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "We know that: $a^{\\log_a x} = x$.\n$\\therefore 16^{\\log_4 5} = (4^2)^{\\log_4 5} = 4^{2 \\log_4 5} = 4^{\\log_4 (5^2)}$\n$= 4^{\\log_4 25} = 25$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log x + \\log y = \\log (x + y)$, then",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$x = y$",
+      "option_b": "$xy = 1$",
+      "option_c": "$y = \\frac{x-1}{x}$",
+      "option_d": "$y = \\frac{x}{x-1}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log x + \\log y = \\log (x + y)$\n$\\implies \\log (xy) = \\log (x + y)$\n$\\implies x + y = xy \\implies y (x - 1) = x \\implies y = \\frac{x}{x - 1}$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "M.B.A., 2007",
+      "passage_text": "",
+      "question_text": "If $\\log \\frac{a}{b} + \\log \\frac{b}{a} = \\log (a + b)$, then",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$a + b = 1$",
+      "option_b": "$a - b = 1$",
+      "option_c": "$a = b$",
+      "option_d": "$a^2 - b^2 = 1$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log \\frac{a}{b} + \\log \\frac{b}{a} = \\log (a + b) \\Rightarrow \\log (a + b) = \\log \\left( \\frac{a}{b} \\times \\frac{b}{a} \\right) = \\log 1$.\nSo, $a + b = 1$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "M.B.A., 2006",
+      "passage_text": "",
+      "question_text": "$\\left[\\log \\left(\\frac{a^2}{bc}\\right) + \\log \\left(\\frac{b^2}{ac}\\right) + \\log \\left(\\frac{c^2}{ab}\\right)\\right]$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$abc$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression = $\\log \\left( \\frac{a^2}{bc} \\times \\frac{b^2}{ac} \\times \\frac{c^2}{ab} \\right) = \\log 1 = 0$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "Hotel Management, 2010",
+      "passage_text": "",
+      "question_text": "$\\frac{1}{\\log_a b} \\times \\frac{1}{\\log_b c} \\times \\frac{1}{\\log_c a}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$a + b + c$",
+      "option_b": "$abc$",
+      "option_c": "$0$",
+      "option_d": "$1$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression = $\\left( \\frac{\\log a}{\\log b} \\times \\frac{\\log b}{\\log c} \\times \\frac{\\log c}{\\log a} \\right) = 1$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "I.I.F.T., 2005",
+      "passage_text": "",
+      "question_text": "$\\left[\\frac{1}{(\\log_{ab} c) + 1} + \\frac{1}{(\\log_{bc} a) + 1} + \\frac{1}{(\\log_{ca} b) + 1}\\right]$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$\\frac{3}{2}$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression\n$= \\frac{1}{\\log_{a} (abc)} + \\frac{1}{\\log_{b} (abc)} + \\frac{1}{\\log_{c} (abc)}$\n$= \\log_{abc} a + \\log_{abc} b + \\log_{abc} c$\n$= \\log_{abc} (abc) = 1$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "65",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\left[\\frac{1}{\\log_{(p/q)} x} + \\frac{1}{\\log_{(q/r)} x} + \\frac{1}{\\log_{(r/p)} x}\\right]$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression\n$= \\log_{x} \\left( \\frac{p}{q} \\right) + \\log_{x} \\left( \\frac{q}{r} \\right) + \\log_{x} \\left( \\frac{r}{p} \\right)$\n$= \\log_{x} \\left( \\frac{p}{q} \\times \\frac{q}{r} \\times \\frac{r}{p} \\right) = \\log_{x} 1 = 0$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "66",
+      "exam_reference": "C.D.S., 2003",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 7 = a$, then $\\log_{10} \\left(\\frac{1}{70}\\right)$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-(1 + a)$",
+      "option_b": "$(1 + a)^{-1}$",
+      "option_c": "$\\frac{a}{10}$",
+      "option_d": "$\\frac{1}{10a}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_{10} \\left( \\frac{1}{70} \\right) = \\log_{10} 1 - \\log_{10} 70 = - \\log_{10} (7 \\times 10) = - (\\log_{10} 7 + \\log_{10} 10) = - (a + 1)$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "67",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $a = b^x$, $b = c^y$ and $c = a^z$, then the value of $xyz$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-1$",
+      "option_b": "$0$",
+      "option_c": "$1$",
+      "option_d": "$abc$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$a = b^x, b = c^y, c = a^z \\Rightarrow x = \\log_{b} a, y = \\log_{c} b, z = \\log_{a} c$\n$\\Rightarrow xyz = (\\log_{b} a) \\times (\\log_{c} b) \\times (\\log_{a} c)$\n$\\Rightarrow xyz = \\left( \\frac{\\log a}{\\log b} \\right) \\times \\left( \\frac{\\log b}{\\log c} \\right) \\times \\left( \\frac{\\log c}{\\log a} \\right) = 1$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "68",
+      "exam_reference": "M.B.A., 2011",
+      "passage_text": "",
+      "question_text": "If $\\log x - 5 \\log 3 = -2$, then $x$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.8$",
+      "option_b": "$0.81$",
+      "option_c": "$1.25$",
+      "option_d": "$2.43$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log x - 5 \\log 3 = - 2 \\Rightarrow \\log x - \\log 3^5 = - 2$\n$\\Rightarrow \\log \\left( \\frac{x}{243} \\right) = - 2 \\Rightarrow \\frac{x}{243} = 10^{-2} = \\frac{1}{100} \\Rightarrow x = \\frac{243}{100} = 2.43$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "69",
+      "exam_reference": "M.B.A., 2008",
+      "passage_text": "",
+      "question_text": "If $a = b^2 = c^3 = d^4$, then the value of $\\log_a (abcd)$ would be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\log_a 1 + \\log_a 2 + \\log_a 3 + \\log_a 4$",
+      "option_b": "$\\log_a 24$",
+      "option_c": "$\\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} + 1$",
+      "option_d": "$\\frac{1}{2!} + \\frac{1}{3!} + \\frac{1}{4!} + 1$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$a = b^2 = c^3 = d^4 \\Rightarrow b = a^{1/2}, c = a^{1/3}, d = a^{1/4}$.\n$\\therefore \\log_{a} (abcd) = \\log_{a} (a \\cdot a^{1/2} \\cdot a^{1/3} \\cdot a^{1/4}) = \\log_{a} (a^{1 + 1/2 + 1/3 + 1/4})$\n$= \\left( 1 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} \\right) \\log_{a} a = 1 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4}$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "70",
+      "exam_reference": "M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "If $\\log_3 x + \\log_9 x^2 + \\log_{27} x^3 = 9$, then $x$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3$",
+      "option_b": "$9$",
+      "option_c": "$27$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{3} x + \\log_{a} x^2 + \\log_{27} x^3 = 9 \\Rightarrow \\log_{3} x + \\log_{3^2} x^2 + \\log_{3^3} x^3 = 9$\n$\\Rightarrow \\log_{3} x + \\frac{2}{2} \\log_{3} x + \\frac{3}{3} \\log_{3} x = 9 \\Rightarrow 3 \\log_{3} x = 9 \\Rightarrow \\log_{3} x = 3 \\Rightarrow x = 3^3 = 27$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "71",
+      "exam_reference": "M.B.A., 2009",
+      "passage_text": "",
+      "question_text": "If $\\log_7 \\log_5 (\\sqrt{x+5} + \\sqrt{x}) = 0$, what is the value of $x$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$3$",
+      "option_c": "$4$",
+      "option_d": "$5$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{5} (\\sqrt{x+5} + \\sqrt{x}) = 0 \\Rightarrow \\sqrt{x+5} + \\sqrt{x} = 5^0 = 1$\n$\\Rightarrow \\sqrt{x+5} = 1 - \\sqrt{x} \\Rightarrow x + 5 = (1 - \\sqrt{x})^2$\n$\\Rightarrow x + 5 = 1 + x - 2\\sqrt{x} \\Rightarrow 2\\sqrt{x} = -4 \\Rightarrow \\sqrt{x} = -2$\n$\\Rightarrow x = 4$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "72",
+      "exam_reference": "M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "If $a = \\log_8 225$ and $b = \\log_2 15$, then $a$ in terms of $b$, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{b}{2}$",
+      "option_b": "$\\frac{2b}{3}$",
+      "option_c": "$b$",
+      "option_d": "$\\frac{3b}{2}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$a = \\log_{8} 225 = \\log_{2^3} (15^2) = \\frac{2}{3} \\log_{2} 15 = \\frac{2b}{3}$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "73",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log 27 = 1.431$, then the value of $\\log 9$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.934$",
+      "option_b": "$0.945$",
+      "option_c": "$0.954$",
+      "option_d": "$0.958$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log 27 = 1.431$\n$\\Rightarrow \\log (3^3) = 1.431 \\Rightarrow 3 \\log 3 = 1.431 \\Rightarrow \\log 3 = 0.477$.\n$\\therefore \\log 9 = \\log (3^2) = 2 \\log 3 = (2 \\times 0.477) = 0.954$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "74",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 2 = 0.3010$, then $\\log_2 10$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{699}{301}$",
+      "option_b": "$\\frac{1000}{301}$",
+      "option_c": "$0.3010$",
+      "option_d": "$0.6990$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{2} 10 = \\frac{1}{\\log_{10} 2} = \\frac{1}{0.3010} = \\frac{10000}{3010} = \\frac{1000}{301}$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "75",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 2 = 0.3010$, the value of $\\log_{10} 5$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.3241$",
+      "option_b": "$0.6911$",
+      "option_c": "$0.6990$",
+      "option_d": "$0.7525$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{10} 5 = \\log_{10} \\left( \\frac{10}{2} \\right) = \\log_{10} 10 - \\log_{10} 2 = 1 - \\log_{10} 2$\n$= (1 - 0.3010) = 0.6990$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "76",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 2 = 0.3010$, the value of $\\log_{10} 80$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1.6020$",
+      "option_b": "$1.9030$",
+      "option_c": "$3.9030$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log_{10} 80 = \\log_{10} (8 \\times 10) = \\log_{10} 8 + \\log_{10} 10 = \\log_{10} (2^3) + 1 = 3 \\log_{10} 2 + 1 = (3 \\times 0.3010) + 1 = 1.9030$.",
+      "page_numbers": [
+        "302"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "77",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log 3 = 0.477$ and $(1000)^x = 3$, then $x$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.0159$",
+      "option_b": "$0.0477$",
+      "option_c": "$0.159$",
+      "option_d": "$10$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$(1000)^x = 3 \\Rightarrow \\log [(1000)^x] = \\log 3 \\Rightarrow x \\log 1000 = \\log 3$\n$\\Rightarrow x \\log (10^3) = \\log 3 \\Rightarrow 3x \\log 10 = \\log 3$\n$\\Rightarrow 3x = \\log 3$\n$\\Rightarrow x = \\frac{0.477}{3} = 0.159$.",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "78",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 2 = 0.3010$, the value of $\\log_{10} 25$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.6020$",
+      "option_b": "$1.2040$",
+      "option_c": "$1.3980$",
+      "option_d": "$1.5050$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{10} 25 = \\log_{10} \\left( \\frac{100}{4} \\right) = \\log_{10} 100 - \\log_{10} 4$\n$= 2 - 2 \\log_{10} 2 = (2 - 2 \\times 0.3010)$\n$= (2 - 0.6020) = 1.3980$.",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "79",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 20 = 1.3010$ and $\\log_{10} 30 = 1.4771$, then $\\log_{10} (60000)$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.7781$",
+      "option_b": "$1.7781$",
+      "option_c": "$2.7781$",
+      "option_d": "$4.7781$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\log_{10} (60000) = \\log_{10} (20 \\times 30 \\times 100) = \\log_{10} 20 + \\log_{10} 30 + \\log_{10} 100$\n$= 1.3010 + 1.4771 + 2 = 4.7781$.",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "80",
+      "exam_reference": "M.A.T., 2002",
+      "passage_text": "",
+      "question_text": "If $\\log 2 = 0.3010$ and $\\log 3 = 0.4771$, the value of $\\log_5 512$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2.870$",
+      "option_b": "$2.967$",
+      "option_c": "$3.876$",
+      "option_d": "$3.912$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{5} 512 = \\frac{\\log 512}{\\log 5} = \\frac{\\log 2^9}{\\log (10/2)} = \\frac{9 \\log 2}{\\log 10 - \\log 2}$\n$= \\frac{9 \\times 0.3010}{1 - 0.3010} = \\frac{2.709}{0.699} = 3.876$.",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "81",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 3 = 0.4771$ and $\\log_{10} 7 = 0.8451$, then the value of $\\log_{10} \\left(23 \\frac{1}{3}\\right)$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.368$",
+      "option_b": "$1.356$",
+      "option_c": "$1.368$",
+      "option_d": "$1.477$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log_{10} \\left(\\frac{23}{33}\\right) = \\log_{10} \\left(\\frac{70}{3}\\right) = \\log_{10} 70 - \\log_{10} 3 = \\log_{10} (7 \\times 10) - \\log_{10} 3$\n$= \\log_{10} 7 + \\log_{10} 10 - \\log_{10} 3 = 0.8451 + 1 - 0.4771 = 1.368.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "82",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 2 = 0.3010$ and $\\log_{10} 3 = 0.4771$, then the value of $\\log_{10} 1.5$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.1761$",
+      "option_b": "$0.7116$",
+      "option_c": "$0.7161$",
+      "option_d": "$0.7611$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_{10} (1.5) = \\log_{10} \\left(\\frac{3}{2}\\right) = \\log_{10} 3 - \\log_{10} 2$\n$= (0.4771 - 0.3010) = 0.1761.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "83",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} 2 = 0.3010$ and $\\log_{10} 7 = 0.8451$, then the value of $\\log_{10} 2.8$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.4471$",
+      "option_b": "$1.4471$",
+      "option_c": "$2.4471$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log_{10} (2.8) = \\log_{10} \\left(\\frac{28}{10}\\right) = \\log_{10} 28 - \\log_{10} 10 = \\log_{10} (7 \\times 2^2) - 1 = \\log_{10} 7 + 2 \\log_{10} 2 - 1$\n$= 0.8451 + 2 \\times 0.3010 - 1 = 0.8451 + 0.602 - 1 = 0.4471.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "84",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log (0.57) = \\bar{1}.756$, then the value of $\\log 57 + \\log (0.57)^3 + \\log \\sqrt{0.57}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.902$",
+      "option_b": "$2.146$",
+      "option_c": "$1.902$",
+      "option_d": "$1.146$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log (0.57) = \\bar{1}.756 \\Rightarrow \\log 57 = 1.756$\n$[\\because \\text{mantissa will remain the same}]$\n$\\therefore \\log 57 + \\log (0.57)^3 + \\log 0.57$\n$= \\log 57 + 3 \\log \\left(\\frac{57}{100}\\right) + \\frac{1}{2} \\log \\left(\\frac{57}{100}\\right)$\n$= \\log 57 + 3 \\log 57 - 3 \\log 100 + \\frac{1}{2} \\log 57 - \\frac{1}{2} \\log 100$\n$= \\frac{9}{2} \\log 57 - \\frac{7}{2} \\log 100 = \\frac{9}{2} \\times 1.756 - \\frac{7}{2} \\times 2 = 7.902 - 7$\n$= 0.902.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "85",
+      "exam_reference": "M.B.A., 2009",
+      "passage_text": "",
+      "question_text": "If the logarithm of a number is $-3.153$, what are characteristic and mantissa?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Characteristic = $-4$, mantissa = $0.847$",
+      "option_b": "Characteristic = $-3$, mantissa = $-0.153$",
+      "option_c": "Characteristic = $4$, mantissa = $-0.847$",
+      "option_d": "Characteristic = $3$, mantissa = $-0.153$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let $\\log x = -3.153.$\nThen, $\\log x = -3.153 = -3 + (-0.153)$\n$= (-3 - 1) + (1 - 0.153) = -4 + 0.847 = \\bar{4}.847.$\nHence, characteristic = $-4,$ mantissa = $0.847.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "86",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log 2 = 0.30103$, the number of digits in $2^{64}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$18$",
+      "option_b": "$19$",
+      "option_c": "$20$",
+      "option_d": "$21$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log (2^{64}) = 64 \\times \\log 2 = (64 \\times 0.30103) = 19.26592.$\nIts characteristic is $19.$ Hence, the number of digits in $2^{64}$\nis $20.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "87",
+      "exam_reference": "Hotel Management, 2009",
+      "passage_text": "",
+      "question_text": "If $\\log 2 = 0.30103$, the number of digits in $4^{50}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$30$",
+      "option_b": "$31$",
+      "option_c": "$100$",
+      "option_d": "$200$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log 4^{50} = 50 \\log 4 = 50 \\log 2^2 = (50 \\times 2) \\log 2 = 100 \\times \\log 2$\n$= (100 \\times 0.30103) = 30.103.$\n$\\therefore$ Characteristic = $30.$ Hence, the number of digits in\n$4^{50} = 31.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "88",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log 2 = 0.30103$, then the number of digits in $5^{20}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$14$",
+      "option_b": "$16$",
+      "option_c": "$18$",
+      "option_d": "$25$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\log 5^{20} = 20 \\log 5 = 20 \\left[\\log \\left(\\frac{10}{2}\\right)\\right] = 20 (\\log 10 - \\log 2)$\n$= 20 (1 - 0.3010) = 20 \\times 0.6990 = 13.9800.$\n$\\therefore$ Characteristic = $13.$ Hence, the number of digits in\n$5^{20}$ is $14.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "89",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\log 2 = 0.30103$, $\\log 3 = 0.47712$, then the number of digits in $6^{20}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$15$",
+      "option_b": "$16$",
+      "option_c": "$17$",
+      "option_d": "$18$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\log 6^{20} = 20 \\log (2 \\times 3) = 20 (\\log 2 + \\log 3)$\n$= 20 (0.30103 + 0.47712)$\n$= 20 \\times 0.77815 = 15.563.$\n$\\therefore$ Characteristic = $15.$ Hence, the number of digits in\n$6^{20} = 16.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "90",
+      "exam_reference": "A.A.O. Exam, 2009",
+      "passage_text": "",
+      "question_text": "The number of digits in $4^9 \\times 5^{17}$, when expressed in usual form, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$16$",
+      "option_b": "$17$",
+      "option_c": "$18$",
+      "option_d": "$19$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\log (4^9 \\times 5^{17}) = \\log (4^9) + \\log (5^{17}) = \\log (2^2)^9 + \\log (5^{17})$\n$= \\log (2^{18}) + \\log (5^{17})$\n$= 18 \\log 2 + 17 \\log 5 = 18 \\log 2 + 17(\\log 10 - \\log 2)$\n$= 18 \\log 2 + 17 \\log 10 - 17 \\log 2 = \\log 2 + 17 \\log 10$\n$= 0.3010 + 17 \\times 1 = 17.3010.$\n$\\therefore$ Characteristic = $17.$ Hence, the number of digits in\n$(4^9 \\times 5^{17}) = 18.$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "91",
+      "exam_reference": "IIFT, 2012",
+      "passage_text": "",
+      "question_text": "If $\\log 3$, $\\log (3^x - 2)$ and $\\log (3^x + 4)$ are in arithmetic progression, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$8/3$",
+      "option_b": "$\\log 3^8$",
+      "option_c": "$\\log_3 2$",
+      "option_d": "$8$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "In arithmetic progression common ratios are equal to\n$\\log (3^x - 2) - \\log 3 = \\log (3^x + 4) - \\log (3^x - 2)$\n$\\frac{\\log (3^x - 2)}{\\log 3} = \\frac{\\log (3^x + 4)}{\\log (3^x - 2)}$\n$\\log 3^x \\log 3^x = \\log 4 \\log 2$\n$\\log 2 \\log 3 = \\log 3$\n$x = \\log_4 \\log_2 \\log_2$\n$x = \\log 8$\n$x = \\log 2^3$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "92",
+      "exam_reference": "CDS, 2012",
+      "passage_text": "",
+      "question_text": "If $\\log_{10} a = p$ and $\\log_{10} b = q$, then what is $\\log_{10} (a^p b^q)$ equal to?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$p^2 + q^2$",
+      "option_b": "$p^2 - q^2$",
+      "option_c": "$p^2 q^2$",
+      "option_d": "$\\frac{p^2}{q^2}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given $\\log_{10} a = p, \\log_{10} b = q$\n$\\log_{10} (a^p b^q) = \\log_{10} a^p + \\log_{10} b^q$\n$= p \\log_{10} a + q \\log_{10} b = p^2 + q^2$",
+      "page_numbers": [
+        "303"
+      ],
+      "answer_page_numbers": [
+        "307"
+      ]
+    }
+  ]
+}

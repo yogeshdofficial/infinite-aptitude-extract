@@ -1,0 +1,523 @@
+{
+  "chapter_title": "Chapter_34_Heights_and_Distances",
+  "question_count": 24,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the height of a pole is $2\times\text{3}$ metres and the length of its shadow is 2 metres, find the angle of elevation of the sun.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let AB be the pole and AC be its shadow.\nLet angle of elevation, $\\angle ACB = \\theta$.\nThen, AB = $2\\sqrt{3}$ m, AC = 2 m.\n$\\tan \\theta = \\frac{AB}{AC} = \\frac{2\\sqrt{3}}{2} = \\sqrt{3} \\Rightarrow \\theta = 60^{\\circ}$.\nSo, the angle of elevation is $60^{\\circ}$.",
+      "page_numbers": [
+        "871"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A ladder leaning against a wall makes an angle of $60^{\\circ}$ with the ground. If the length of the ladder is 19 m, find the distance of the foot of the ladder from the wall.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let AB be the wall and BC be the ladder.\nThen, $\\angle ACB = 60^{\\circ}$ and BC = 19 m.\nLet AC = x metres\n$\\frac{AC}{BC} = \\cos 60^{\\circ} \\Rightarrow \\frac{x}{19} = \\frac{1}{2} \\Rightarrow x = \\frac{19}{2} = 9.5$.\n$\\therefore$ Distance of the foot of the ladder from the wall = 9.5 m.",
+      "page_numbers": [
+        "871"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The angle of elevation of the top of a tower at a point on the ground is $30^{\\circ}$. On walking 24 m towards the tower, the angle of elevation becomes $60^{\\circ}$. Find the height of the tower.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let AB be the tower and C and D be the points of observation. Then,\n$\\frac{AB}{AD} = \\tan 60^{\\circ} = \\sqrt{3} \\Rightarrow AD = \\frac{AB}{\\sqrt{3}} = \\frac{h}{\\sqrt{3}}$.\n$\\frac{AB}{AC} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}} \\Rightarrow AC = AB \\times \\sqrt{3} = h\\sqrt{3}$.\nCD = (AC - AD) = $\\left(h\\sqrt{3} - \\frac{h}{\\sqrt{3}}\\right)$.\n$\\therefore h\\left(\\sqrt{3} - \\frac{1}{\\sqrt{3}}\\right) = 24 \\Rightarrow h\\left(\\frac{3-1}{\\sqrt{3}}\\right) = 24 \\Rightarrow h\\left(\\frac{2}{\\sqrt{3}}\\right) = 24 \\Rightarrow h = \\left(\\frac{24\\times\\sqrt{3}}{2}\\right) = 12\\sqrt{3} = (12 \\times 1.73) = 20.76$.\nHence, the height of the tower is 20.76 m.",
+      "page_numbers": [
+        "871"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man standing on the bank of a river observes that the angle subtended by a tree on the opposite bank is $60^{\\circ}$. When he retires 36 m from the bank, he finds the angle to be $30^{\\circ}$. Find the breadth of the river.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let AB be the tree and AC be the river. Let C and D be the two positions of the man. Then,\n$\\angle ACB = 60^{\\circ}$, $\\angle ADB = 30^{\\circ}$ and CD = 36 m.\nLet AB = h metres and AC = x metres.\nThen, AD = (36 + x) metres.\n$\\frac{AB}{AD} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}} \\Rightarrow \\frac{h}{36+x} = \\frac{1}{\\sqrt{3}} \\Rightarrow h = \\frac{36+x}{\\sqrt{3}}$ ...(i)\n$\\frac{AB}{AC} = \\tan 60^{\\circ} = \\sqrt{3} \\Rightarrow \\frac{h}{x} = \\sqrt{3} \\Rightarrow h = x\\sqrt{3}$ ...(ii)\nFrom (i) and (ii), we get : $\\frac{36+x}{\\sqrt{3}} = x\\sqrt{3} \\Rightarrow 36+x = 3x \\Rightarrow 2x = 36 \\Rightarrow x = 18$ m.\nSo, the breadth of the river = 18 m.",
+      "page_numbers": [
+        "871",
+        "872"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man on the top of a tower, standing on the seashore, finds that a boat coming towards him takes 10 minutes for the angle of depression to change from $30^{\\circ}$ to $60^{\\circ}$. Find the time taken by the boat to reach the shore from this position.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let AB be the tower and C and D be the two positions of the boat.\nLet AB = h, CD = x and AD = y. $\\frac{h}{y} = \\tan 60^{\\circ} = \\sqrt{3} \\Rightarrow y = \\frac{h}{\\sqrt{3}}$.\n$\\frac{h}{x+y} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}} \\Rightarrow x+y = h\\sqrt{3}$.\n$\\therefore x = (x+y) - y = \\left(h\\sqrt{3} - \\frac{h}{\\sqrt{3}}\\right) = \\frac{2h}{\\sqrt{3}}$.\nNow, $\\frac{2h}{\\sqrt{3}}$ is covered in 10 min.\n$\\therefore \\frac{h}{\\sqrt{3}}$ will be covered in $\\left(10 \\times \\frac{h}{\\sqrt{3}} \\times \\frac{\\sqrt{3}}{2h}\\right) = 5$ min.\nHence, required time = 5 minutes.",
+      "page_numbers": [
+        "872"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "There are two temples, one on each bank of a river, just opposite to each other. One temple is 54 m high. From the top of this temple, the angles of depression of the top and the foot of the other temple are $30^{\\circ}$ and $60^{\\circ}$ respectively. Find the width of the river and the height of the other temple.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let AB and CD be the two temples and AC be the river.\nThen, AB = 54 m.\nLet AC = x metres and CD = h metres. $\\angle ACB = 60^{\\circ}$, $\\angle EDB = 30^{\\circ}$.\n$\\frac{AB}{AC} = \\tan 60^{\\circ} = \\sqrt{3} \\Rightarrow AC = \\frac{AB}{\\sqrt{3}} = \\frac{54}{\\sqrt{3}} = \\left(\\frac{54\\times\\sqrt{3}}{\\sqrt{3}\\times\\sqrt{3}}\\right) = 18\\sqrt{3}$ m.\nDE = AC = $18\\sqrt{3}$ m.\n$\\frac{BE}{DE} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}} \\Rightarrow BE = DE \\times \\frac{1}{\\sqrt{3}} = 18\\sqrt{3} \\times \\frac{1}{\\sqrt{3}} = 18$ m.\n$\\therefore CD = AE = AB - BE = (54 - 18)$ m = 36 m.\nSo, Width of the river = AC = $18\\sqrt{3}$ m = $(18 \\times 1.73)$ m = 31.14 m.\nHeight of the other temple = CD = 18 m.",
+      "page_numbers": [
+        "872"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "The angle of elevation of the sun, when the length of the shadow of a tree is $\\sqrt{3}$ times the height of the tree, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$30^{\\circ}$",
+      "option_b": "$45^{\\circ}$",
+      "option_c": "$60^{\\circ}$",
+      "option_d": "$90^{\\circ}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let AB be the tree and AC be its shadow.\nLet $\\angle ACB = \\theta$.\nThen,\n$\\frac{AC}{AB} = \\sqrt{3}$\n$\\Rightarrow \\cot \\theta = \\sqrt{3} \\Rightarrow \\theta = 30^{\\circ}$.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "From a point P on a level ground, the angle of elevation of the top of a tower is $30^{\\circ}$. If the tower is 100 m high, the distance of point P from the foot of the tower is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "149 m",
+      "option_b": "156 m",
+      "option_c": "173 m",
+      "option_d": "200 m",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let AB be the tower.\nThen, $\\angle APB = 30^{\\circ}$ and AB = 100 m.\n$\\frac{AB}{AP} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$\n$\\Rightarrow AP = (AB \\times \\sqrt{3})$\n$= 100\\sqrt{3}$ m.\n$= (100 \\times 1.73)$ m = 173 m.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The angle of elevation of a ladder leaning against a wall is $60^{\\circ}$ and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.3 m",
+      "option_b": "4.6 m",
+      "option_c": "7.8 m",
+      "option_d": "9.2 m",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let AB be the wall and BC be the ladder.\nThen, $\\angle ACB = 60^{\\circ}$ and AC = 4.6 m.\n$\\frac{AC}{BC} = \\cos 60^{\\circ} = \\frac{1}{2}$\n$\\Rightarrow BC = 2 \\times AC = (2 \\times 4.6)$ m\n= 9.2 m.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "An observer 1.6 m tall is $20\\sqrt{3}$ m away from a tower. The angle of elevation from his eye to the top of the tower is $30^{\\circ}$. The height of the tower is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "21.6 m",
+      "option_b": "23.2 m",
+      "option_c": "24.72 m",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let AB be the observer and CD be the tower.\nDraw BE $\\perp$ CD.\nThen, CE = AB = 1.6 m,\nBE = AC = $20\\sqrt{3}$ m.\n$\\frac{DE}{BE} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$\n$\\Rightarrow DE = \\frac{20\\sqrt{3}}{\\sqrt{3}}$ m = 20 m.\n$\\therefore$ CD = CE + DE = (1.6 + 20) m = 21.6 m.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two ships are sailing in the sea on the two sides of a lighthouse. The angles of elevation of the top of the lighthouse as observed from the two ships are $30^{\\circ}$ and $45^{\\circ}$ respectively. If the lighthouse is 100 m high, the distance between the two ships is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "173 m",
+      "option_b": "200 m",
+      "option_c": "273 m",
+      "option_d": "300 m",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let AB be the lighthouse and C and D be the positions of the ships.\nThen, AB = 100 m, $\\angle ACB = 30^{\\circ}$ and $\\angle ADB = 45^{\\circ}$.\n$\\frac{AB}{AC} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$\n$\\Rightarrow AC = AB \\times \\sqrt{3} = 100\\sqrt{3}$ m.\n$\\frac{AB}{AD} = \\tan 45^{\\circ} = 1$\n$\\Rightarrow AD = AB = 100$ m.\n$\\therefore$ CD = (AC + AD) = $(100\\sqrt{3} + 100)$ m\n$= 100(\\sqrt{3} + 1)$ m = $(100 \\times 2.73)$ m = 273 m.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "Bank P.O., 2007",
+      "passage_text": "",
+      "question_text": "A man standing at a point P is watching the top of a tower, which makes an angle of elevation of $30^{\\circ}$ with the man’s eye. The man walks some distance towards the tower to watch its top and the angle of elevation becomes $60^{\\circ}$. What is the distance between the base of the tower and the point P?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$4\\sqrt{3}$ units",
+      "option_b": "8 units",
+      "option_c": "12 units",
+      "option_d": "Data inadequate",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "One of AB, AD and CD must have been given.\nSo, the data is inadequate.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The angle of elevation of the top of a tower from a certain point is $30^{\\circ}$. If the observer moves 20 m towards the tower, the angle of elevation of the top of the tower increases by $15^{\\circ}$. The height of the tower is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "17.3 m",
+      "option_b": "21.9 m",
+      "option_c": "27.3 m",
+      "option_d": "30 m",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let AB be the tower and C and D be the points of observation.\nThen, $\\angle ACB = 30^{\\circ}$, $\\angle ADB = 45^{\\circ}$ and CD = 20 m.\nLet AB = h.\nThen,\n$\\frac{AB}{AC} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$\n$\\Rightarrow AC = AB \\times \\sqrt{3} = h\\sqrt{3}$.\nAnd,\n$\\frac{AB}{AD} = \\tan 45^{\\circ} = 1$\n$\\Rightarrow AD = AB = h$.\nCD = 20 $\\Rightarrow$ (AC - AD) = 20 $\\Rightarrow$ $h\\sqrt{3} - h = 20$.\n$\\therefore h = \\frac{20}{(\\sqrt{3} - 1)} \\times \\frac{(\\sqrt{3} + 1)}{(\\sqrt{3} + 1)}$\n$= 10(\\sqrt{3} + 1)$ m = $(10 \\times 2.73)$ m = 27.3 m.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man is watching from the top of a tower a boat speeding away from the tower. The boat makes an angle of depression of $45^{\\circ}$ with the man’s eye when at a distance of 60 metres from the tower. After 5 seconds, the angle of depression becomes $30^{\\circ}$. What is the approximate speed of the boat, assuming that it is running in still water?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "32 kmph",
+      "option_b": "36 kmph",
+      "option_c": "38 kmph",
+      "option_d": "40 kmph",
+      "option_e": "42 kmph",
+      "correct_option": "a",
+      "solution": "Let AB be the tower and C and D be the two positions of the boats.\nThen, $\\angle ACB = 45^{\\circ}$, $\\angle ADB = 30^{\\circ}$ and AC = 60 m.\nLet AB = h.\nThen,\n$\\frac{AB}{AC} = \\tan 45^{\\circ} = 1$\n$\\Rightarrow AB = AC \\Rightarrow h = 60$ m.\nAnd,\n$\\frac{AB}{AD} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$\n$\\Rightarrow AD = (AB \\times \\sqrt{3}) = 60\\sqrt{3}$ m.\n$\\therefore$ CD = (AD - AC) = $60(\\sqrt{3} - 1)$ m.\nHence, required speed\n$= \\left[ \\frac{60(\\sqrt{3} - 1)}{5} \\right]$ m/s = $(12 \\times 0.73)$ m/s\n$= \\left( 12 \\times 0.73 \\times \\frac{18}{5} \\right)$ km/hr\n$= 31.5$ km/hr $\\approx 32$ km/hr.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "On the same side of a tower, two objects are located. Observed from the top of the tower, their angles of depression are $45^{\\circ}$ and $60^{\\circ}$. If the height of the tower is 150 m, the distance between the objects is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "63.5 m",
+      "option_b": "76.9 m",
+      "option_c": "86.7 m",
+      "option_d": "90 m",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let AB be the tower and C and D be the objects.\nThen, AB = 150 m, $\\angle ACB = 45^{\\circ}$ and $\\angle ADB = 60^{\\circ}$.\n$\\frac{AB}{AD} = \\tan 60^{\\circ} = \\sqrt{3}$\n$\\Rightarrow AD = \\frac{AB}{\\sqrt{3}} = \\frac{150}{\\sqrt{3}}$ m.\n$\\frac{AB}{AC} = \\tan 45^{\\circ} = 1$\n$\\Rightarrow AC = AB = 150$ m.\n$\\therefore$ CD = (AC - AD)\n$= \\left( 150 - \\frac{150}{\\sqrt{3}} \\right)$ m = $\\left[ 150 \\left( 1 - \\frac{1}{\\sqrt{3}} \\right) \\right]$ m\n$= \\left[ 150 \\left( \\frac{\\sqrt{3} - 1}{\\sqrt{3}} \\right) \\times \\frac{\\sqrt{3}}{\\sqrt{3}} \\right]$ m\n$= 50(3 - \\sqrt{3})$ m = $(50 \\times 1.27)$ m = 63.5 m.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "A man on the top of a vertical observation tower observes a car moving at a uniform speed coming directly towards it. If it takes 12 minutes for the angle of depression to change from $30^{\\circ}$ to $45^{\\circ}$, how soon after this will the car reach the observation tower?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "14 min. 35 sec.",
+      "option_b": "15 min. 49 sec.",
+      "option_c": "16 min. 23 sec.",
+      "option_d": "18 min. 5 sec.",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let AB be the tower and C and D be the two positions of the car.\nThen, $\\angle ACB = 45^{\\circ}$, $\\angle ADB = 30^{\\circ}$.\nLet AB = h, CD = x and AC = y.\n$\\frac{AB}{AC} = \\tan 45^{\\circ} = 1 \\Rightarrow \\frac{h}{y} = 1 \\Rightarrow y = h$.\n$\\frac{AB}{AD} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$\n$\\Rightarrow \\frac{h}{x + y} = \\frac{1}{\\sqrt{3}}$\n$\\Rightarrow x + y = h\\sqrt{3}$.\n$\\therefore x = (x + y) - y = h\\sqrt{3} - h = h(\\sqrt{3} - 1)$.\nNow, $h(\\sqrt{3} - 1)$ is covered in 12 min.\nSo, h will be covered in\n$\\left[ \\frac{12}{(\\sqrt{3} - 1)} \\times h \\right]$ min.\n$= \\left( \\frac{1200}{73} \\right)$ min. $\\approx 16$ min. 23 sec.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "R.R.B., 2009",
+      "passage_text": "",
+      "question_text": "The top of a 15 metre high tower makes an angle of elevation of $60^{\\circ}$ with the bottom of an electric pole and angle of elevation of $30^{\\circ}$ with the top of the pole. What is the height of the electric pole?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 metres",
+      "option_b": "8 metres",
+      "option_c": "10 metres",
+      "option_d": "12 metres",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let AB be the tower and CD be the electric pole.\nThen, $\\angle ACB = 60^{\\circ}$, $\\angle EDB = 30^{\\circ}$ and AB = 15 m.\nLet CD = h. Then, BE = (AB - AE) = (AB - CD) = (15 - h).\n$\\frac{AB}{AC} = \\tan 60^{\\circ} = \\sqrt{3} \\Rightarrow AC = \\frac{AB}{\\sqrt{3}} = \\frac{15}{\\sqrt{3}}$.\nAnd,\n$\\frac{BE}{DE} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$\n$\\Rightarrow DE = (BE \\times \\sqrt{3}) = \\sqrt{3}(15 - h)$.\nAC = DE $\\Rightarrow \\frac{15}{\\sqrt{3}} = \\sqrt{3}(15 - h)$\n$\\Rightarrow 3h = (45 - 15) \\Rightarrow h = 10$ m.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The angle of depression of a point situated at a distance of 70m from the base of a tower is $60^{\\circ}$. The height of the tower is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$35\\sqrt{3}$ m",
+      "option_b": "$70\\sqrt{3}$ m",
+      "option_c": "$\\frac{70\\sqrt{3}}{3}$ m",
+      "option_d": "70 m",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Length of the tower AB = h meter\n$\\angle DAC = \\angle ACB = 60^{\\circ}$\nBC = 70 meter\nIn $\\Delta ABC$,\n$\\frac{AB}{BC} = \\tan 60^{\\circ}$\n$\\Rightarrow \\frac{h}{70} = \\sqrt{3}$\n$\\Rightarrow h = 70\\sqrt{3}$ meter.",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "TF is a tower with F on the ground. The angle of elevation of T from A is $x^{\\circ}$ such that $\\tan x^{\\circ} = \\frac{2}{5}$ and AF = 200m. The angle of elevation of T from a nearer point B is $y^{\\circ}$ with BF = 80m. The value of $y^{\\circ}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$75^{\\circ}$",
+      "option_b": "$45^{\\circ}$",
+      "option_c": "$60^{\\circ}$",
+      "option_d": "$30^{\\circ}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given $\\tan x^{\\circ} = \\frac{2}{5}$; AF = 200 meter\n$\\therefore \\frac{TF}{AF} = \\frac{2}{5}$\n$\\Rightarrow TF = \\frac{2 \\times 200}{5}$\n$\\Rightarrow TF = 80$m\nWe have, BF = 80 m\n$\\therefore \\tan y^{\\circ} = \\frac{TF}{BF}$\n$\\Rightarrow \\tan y^{\\circ} = \\frac{80}{80}$\n$\\Rightarrow \\tan y^{\\circ} = 1 = \\tan 45^{\\circ}$\n$\\therefore y^{\\circ} = 45^{\\circ}$",
+      "page_numbers": [
+        "873"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "CLAT, 2016",
+      "passage_text": "",
+      "question_text": "A boy is standing at the top of the tower and another boy is at the ground at some distance from the foot of the tower, then the angle of elevation and depression between the boys when both look at each other will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "Equal",
+      "option_b": "Angle of elevation will be greater",
+      "option_c": "Cannot be predicted for relation",
+      "option_d": "Angle of depression will be greater",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Here, AD is parallel to BC and AC is a transversal.\n$\\Rightarrow \\theta_1 = \\theta_2$",
+      "page_numbers": [
+        "874"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "CDS, 2016",
+      "passage_text": "",
+      "question_text": "The angles of elevation of the top of a tower from two points P and Q at distances $m^2$ and $n^2$ respectively, from the base and in the same straight line with it are complementary. The height of the tower is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$(mn)^{1/2}$",
+      "option_b": "$mn^{1/2}$",
+      "option_c": "$m^{1/2}n$",
+      "option_d": "$mn$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\tan \\theta = \\frac{H}{m^2}$\n$\\tan(90^{\\circ} - \\theta) = \\frac{H}{n^2}$\n$\\Rightarrow \\cot \\theta = \\frac{H}{n^2}$\n$\\Rightarrow \\tan \\theta \\cdot \\cot \\theta = \\frac{H}{m^2} \\times \\frac{H}{n^2}$\n$\\Rightarrow \\frac{H^2}{m^2 n^2} = 1$\n$\\Rightarrow H^2 = m^n n^2$\n$\\Rightarrow H = mn$",
+      "page_numbers": [
+        "874"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "CDS, 2016",
+      "passage_text": "",
+      "question_text": "The angle of elevation of a cloud from a point 200 m above a lake is $30^\\circ$ and the angle of depression of its reflection in the lake is $60^\\circ$. The height of the cloud is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$200$ m",
+      "option_b": "$300$ m",
+      "option_c": "$400$ m",
+      "option_d": "$600$ m",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let AC = H m\nOA = a m\n$\\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}} = \\frac{H}{a}$\n$\\tan 60^{\\circ} = \\sqrt{3} = \\frac{H + 200 + 200}{a}$\n$\\Rightarrow \\frac{H + 400}{a} = \\sqrt{3}$\n$\\Rightarrow H + 400 = 3H$\n$\\Rightarrow 2H = 400$ m\n$\\Rightarrow H = 200$ m\nHeight of cloud above lake = 200 m",
+      "page_numbers": [
+        "874"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "CDS, 2016",
+      "passage_text": "",
+      "question_text": "From the top of a tower, the angles of depression of two objects P and Q (situated on the ground on the same side of the tower) separated at a distance of $(3-\\sqrt{3})$ m are $45^\\circ$ and $60^\\circ$ respectively. The height of the tower is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$200$ m",
+      "option_b": "$250$ m",
+      "option_c": "$300$ m",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let OP = a\n$\\tan 60^{\\circ} = \\frac{H}{a}$\n$\\Rightarrow H = \\sqrt{3}a$\n$\\Rightarrow a = \\frac{H}{\\sqrt{3}}$ ...(i)\n$\\tan 45^{\\circ} = 1 = \\frac{H}{a + 100\\sqrt{3}}$\n$\\Rightarrow a + 100\\sqrt{3} = H$\nFrom (i) $\\frac{H}{\\sqrt{3}} + 100\\sqrt{3} = H$\n$H + 300 - 3H = \\sqrt{3}H$\n$\\Rightarrow 300\\sqrt{3} - 300 = \\sqrt{3}H - H$\n$(\\sqrt{3} - 1)H = 300(\\sqrt{3} - 1)$\nH = 300 m",
+      "page_numbers": [
+        "874"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "If a 30 m ladder is placed against a 15 m wall such that it just reaches the top of the wall, then the elevation of the wall is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$45^\\circ$",
+      "option_b": "$30^\\circ$",
+      "option_c": "$60^\\circ$",
+      "option_d": "$50^\\circ$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "AC = 30 meter\nAB = 15 meter\n$\\angle ACB = \\theta$\n$\\therefore \\sin \\theta = \\frac{AB}{AC} = \\frac{15}{30} = \\frac{1}{2}$\n$\\Rightarrow \\sin \\theta = \\sin 30^{\\circ}$\n$\\Rightarrow \\theta = 30^{\\circ}$",
+      "page_numbers": [
+        "874"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    }
+  ]
+}

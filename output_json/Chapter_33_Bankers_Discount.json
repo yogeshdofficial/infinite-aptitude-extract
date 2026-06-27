@@ -1,0 +1,434 @@
+{
+  "chapter_title": "Chapter_33_Bankers_Discount",
+  "question_count": 20,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A bill for ₹ 6000 is drawn on July 14 at 5 months. It is discounted on 5th October at 10%. Find the banker’s discount, true discount, banker’s gain and the money that the holder of the bill receives.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Face value of the bill = ₹ 6000.\nDate on which the bill was drawn = July 14 at 5 months.\nNominally due date = December 14. Legally due date = December 17.\nDate on which the bill was discounted = October 5.\nUnexpired time : Oct. Nov. Dec.\n26 + 30 + 17 = 73 days = $\\frac{1}{5}$ year.\n$\\therefore$ B.D. = S.I. on ₹ 6000 for $\\frac{1}{5}$ year = $\\left(6000\\times10\\times\\frac{1}{5}\\times\\frac{1}{100}\\right)$ = ₹ 120.\nT.D. = $\\left[\\frac{6000\\times10\\times\\frac{1}{5}}{100+\\left(10\\times\\frac{1}{5}\\right)}\\right] = \\left(\\frac{12000}{102}\\right)$ = ₹ 117.64.\n$\\therefore$ B.G. = (B.D.) – (T.D.) = ₹ (120 – 117.64) = ₹ 2.36.\nMoney received by the holder of the bill = ₹ (6000 – 120) = ₹ 5880.",
+      "page_numbers": [
+        "866",
+        "867"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the true discount on a certain sum due 6 months hence at 15% is ₹ 120, what is the banker’s discount on the same sum for the same time and at the same rate?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "B.G. = S.I. on T.D. = $\\left(120\\times15\\times\\frac{1}{2}\\times\\frac{1}{100}\\right)$ = ₹ 9.\n$\\therefore$ (B.D.) – (T.D.) = ₹ 9.\n$\\therefore$ B.D. = ₹ (120 + 9) = ₹ 129.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on ₹ 1800 at 12% per annum is equal to the true discount on ₹ 1872 for the same time at the same rate. Find the time.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "S.I. on ₹ 1800 = T.D. on ₹ 1872.\n$\\therefore$ P.W. of ₹ 1872 is ₹ 1800.\n$\\therefore$ ₹ 72 is S.I. on ₹ 1800 at 12%.\n$\\therefore$ Time = $\\left(\\frac{100\\times72}{12\\times1800}\\right)$ year = $\\frac{1}{3}$ year = 4 months.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount and the true discount on a sum of money due 8 months hence are ₹ 120 and ₹ 110 respectively. Find the sum and the rate percent.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sum = $\\left(\\frac{B.D.\\times T.D.}{B.D. - T.D.}\\right) = \\left(\\frac{120\\times110}{120 - 110}\\right)$ = ₹ 1320.\nSince B.D. is S.I. on sum due, so S.I. on ₹ 1320 for 8 months is ₹ 120.\n$\\therefore$ Rate = $\\left(\\frac{100\\times120}{1320\\times\\frac{2}{3}}\\right)$% = $13\\frac{7}{11}$%.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of a bill due sometime hence is ₹ 1100 and the true discount on the bill is ₹ 110. Find the banker’s discount and the banker’s gain.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "T.D. = $\\sqrt{P.W.\\times B.G.}$\n$\\therefore$ B.G. = $\\left(\\frac{(T.D.)^2}{P.W.}\\right) = \\left(\\frac{110\\times110}{1100}\\right)$ = ₹ 11.\n$\\therefore$ B.D. = (T.D. + B.G.) = ₹ (110 + 11) = ₹ 121.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on ₹ 1650 due a certain time hence is ₹ 165. Find the true discount and the banker’s gain.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sum = $\\frac{B.D.\\times T.D.}{B.D. - T.D.} = \\frac{B.D.\\times T.D.}{B.G.}$\n$\\therefore$ $\\frac{T.D.}{B.G.} = \\frac{Sum}{B.D.} = \\frac{1650}{165} = \\frac{10}{1}$\nThus, if B.G. is Re 1, T.D. = ₹ 10.\nIf B.D. is ₹ 11, T.D. = ₹ 10. If B.D. is ₹ 165, T.D. = $\\left(\\frac{10}{11}\\times165\\right)$ = ₹ 150.\nAnd, B.G. = ₹ (165 – 150) = ₹ 15.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What rate percent does a man get for his money when in discounting a bill due 10 months hence, he deducts 10% of the amount of the bill?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let, amount of the bill = ₹ 100. Money deducted = ₹ 10.\nMoney received by the holder of the bill = ₹ (100 – 10) = ₹ 90.\n$\\therefore$ S.I. on ₹ 90 for 10 months = ₹ 10.\n$\\therefore$ Rate = $\\left(\\frac{100\\times10}{90\\times\\frac{10}{12}}\\right)$% = $13\\frac{1}{3}$%.",
+      "page_numbers": [
+        "867",
+        "868"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The true discount on a bill of ₹ 540 is ₹ 90. The banker’s discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 60",
+      "option_b": "₹ 108",
+      "option_c": "₹ 110",
+      "option_d": "₹ 112",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "P.W. = ₹ $(540 - 90)$ = ₹ $450$.\n$\\therefore$ S.I. on ₹ $450$ = ₹ $90$.\nS.I. on ₹ $540$ = ₹ $\\left(\\frac{90}{450}\\times540\\right)$ = ₹ $108$.\n$\\therefore$ B.D. = ₹ $108$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of a certain bill due sometime hence is ₹ 800 and the true discount is ₹ 36. The banker’s discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 37",
+      "option_b": "₹ 37.62",
+      "option_c": "₹ 34.38",
+      "option_d": "₹ 38.98",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "B.G. = ₹ $\\left(\\frac{(T.D.)^2}{P.W.}\\right)$ = ₹ $\\left(\\frac{36\\times36}{800}\\right)$ = ₹ $1.62$.\n$\\therefore$ B.D. = (T.D. + B.G.) = ₹ $(36 + 1.62)$ = ₹ $37.62$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of a certain sum due sometime hence is ₹ 1600 and the true discount is ₹ 160. The banker’s gain is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 20",
+      "option_b": "₹ 24",
+      "option_c": "₹ 16",
+      "option_d": "₹ 12",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "B.G. = ₹ $\\left(\\frac{(T.D.)^2}{P.W.}\\right)$ = ₹ $\\left(\\frac{160\\times160}{1600}\\right)$ = ₹ $16$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s gain of a certain sum due 2 years hence at 10% per annum is ₹ 24. The present worth is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 480",
+      "option_b": "₹ 520",
+      "option_c": "₹ 600",
+      "option_d": "₹ 960",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "T.D. = ₹ $\\left(\\frac{B.G.\\times100}{Rate\\times Time}\\right)$ = ₹ $\\left(\\frac{24\\times100}{10\\times2}\\right)$ = ₹ $120$.\n$\\therefore$ P.W. = ₹ $\\left(\\frac{100\\times T.D.}{Rate\\times Time}\\right)$ = ₹ $\\left(\\frac{100\\times120}{10\\times2}\\right)$ = ₹ $600$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s gain on a bill due 1 year hence at 12% per annum is ₹ 6. The true discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 72",
+      "option_b": "₹ 36",
+      "option_c": "₹ 54",
+      "option_d": "₹ 50",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "T.D. = ₹ $\\left(\\frac{B.G.\\times100}{R\\times T}\\right)$ = ₹ $\\left(\\frac{6\\times100}{12\\times1}\\right)$ = ₹ $50$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on a bill due 4 months hence at 15% is ₹ 420. The true discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 400",
+      "option_b": "₹ 360",
+      "option_c": "₹ 480",
+      "option_d": "₹ 320",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "T.D. = ₹ $\\left[\\frac{B.D.\\times100}{100+(R\\times T)}\\right]$ = ₹ $\\left[\\frac{420\\times100}{100+(15\\times\\frac{1}{3})}\\right]$\n= ₹ $\\left(\\frac{420\\times100}{105}\\right)$ = ₹ $400$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s gain on a sum due 3 years hence at 12% per annum is ₹ 270. The banker’s discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 960",
+      "option_b": "₹ 840",
+      "option_c": "₹ 1020",
+      "option_d": "₹ 760",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "T.D. = ₹ $\\left(\\frac{B.G.\\times100}{R\\times T}\\right)$ = ₹ $\\left(\\frac{270\\times100}{12\\times3}\\right)$ = ₹ $750$.\n$\\therefore$ B.D. = ₹ $(750 + 270)$ = ₹ $1020$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of a sum due sometime hence is ₹ 576 and the banker’s gain is ₹ 16. The true discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 36",
+      "option_b": "₹ 72",
+      "option_c": "₹ 48",
+      "option_d": "₹ 96",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "T.D. = $\\sqrt{P.W.\\times B.G.}$ = $\\sqrt{576\\times16}$ = $96$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on ₹ 1600 at 15% per annum is the same as true discount on ₹ 1680 for the same time and at the same rate. The time is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 months",
+      "option_b": "4 months",
+      "option_c": "6 months",
+      "option_d": "8 months",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "S.I. on ₹ $1600$ = T.D. on ₹ $1680$.\n$\\therefore$ ₹ $1600$ is the P.W. of ₹ $1680$, i.e.,\n₹ $80$ is S.I. on ₹ $1600$ at $15\\%$.\n$\\therefore$ Time = $\\left(\\frac{100\\times80}{1600\\times15}\\right)$ year = $\\frac{1}{3}$ year = $4$ months.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on a sum of money for $1\\frac{1}{2}$ years is ₹ 558 and the true discount on the same sum for 2 years is ₹ 600. The rate percent is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10%",
+      "option_b": "13%",
+      "option_c": "12%",
+      "option_d": "15%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "B.D. for $\\frac{3}{2}$ years = ₹ $558$. B.D. for $2$ years\n= ₹ $\\left(558\\times\\frac{2}{3}\\times2\\right)$ = ₹ $744$.\nT.D. for $2$ years = ₹ $600$.\n$\\therefore$ Sum = ₹ $\\left(\\frac{B.D.\\times T.D.}{B.D.-T.D.}\\right)$ = ₹ $\\left(\\frac{744\\times600}{144}\\right)$ = ₹ $3100$.\nThus, ₹ $744$ is S.I. on ₹ $3100$ for $2$ years.\n$\\therefore$ Rate = $\\left(\\frac{100\\times744}{3100\\times2}\\right)\\% = 12\\%$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount of a certain sum of money is ₹ 72 and the true discount on the same sum for the same time is ₹ 60. The sum due is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 360",
+      "option_b": "₹ 432",
+      "option_c": "₹ 540",
+      "option_d": "₹ 1080",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Sum = ₹ $\\left(\\frac{B.D.\\times T.D.}{B.D.-T.D.}\\right)$ = ₹ $\\left(\\frac{72\\times60}{72-60}\\right)$ = ₹ $\\left(\\frac{72\\times60}{12}\\right)$ = ₹ $360$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "The banker’s discount on a certain sum due 2 years hence is $\\frac{11}{10}$ of the true discount. The rate percent is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11%",
+      "option_b": "10%",
+      "option_c": "5%",
+      "option_d": "5.5%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let T.D. be ₹ $1$. Then, B.D. = $\\frac{11}{10}$ ₹ = ₹ $1.10$.\n$\\therefore$ Sum = ₹ $\\left(\\frac{1.10\\times1}{1.10-1}\\right)$ = ₹ $\\left(\\frac{110}{10}\\right)$ = ₹ $11$.\n$\\therefore$ S.I. on ₹ $11$ for $2$ years is ₹ $1.10$.\n$\\therefore$ Rate = $\\left(\\frac{100\\times1.10}{11\\times2}\\right)\\% = 5\\%$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s gain on a certain sum due $1\\frac{1}{2}$ years hence is $\\frac{3}{25}$ of the banker’s discount. The rate percent is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{1}{5}$%",
+      "option_b": "$1\\frac{1}{9}$%",
+      "option_c": "$1\\frac{1}{8}$%",
+      "option_d": "$1\\frac{1}{6}$%",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let, B.D. = ₹ $1$. Then, B.G. = ₹ $\\frac{3}{25}$.\n$\\therefore$ T.D. = (B.D. - B.G.) = ₹ $\\left(1-\\frac{3}{25}\\right)$ = ₹ $\\frac{22}{25}$.\nSum = ₹ $\\left(\\frac{1\\times\\frac{22}{25}}{1-\\frac{22}{25}}\\right)$ = ₹ $\\frac{22}{3}$.\nS.I. on ₹ $\\frac{22}{3}$ for $1\\frac{1}{2}$ years is ₹ $1$.\n$\\therefore$ Rate = $\\left(\\frac{100\\times1}{\\frac{22}{3}\\times\\frac{3}{2}}\\right)\\% = 9\\frac{1}{9}\\%$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ]
+    }
+  ]
+}

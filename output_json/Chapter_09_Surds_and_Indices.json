@@ -1,0 +1,3195 @@
+{
+  "chapter_title": "Chapter_09_Surds_and_Indices",
+  "question_count": 145,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Simplify : (i) $(27)^{\frac{2}{3}}$ (ii) $(1024)^{-\frac{4}{5}}$ (iii) $\\left(\\frac{8}{125}\\right)^{-\frac{4}{3}}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $(27)^{\\frac{2}{3}} = (3^3)^{\\frac{2}{3}} = 3^{(3\\times\\frac{2}{3})} = 3^2 = 9.\n(ii) $(1024)^{-\\frac{4}{5}} = (4^5)^{-\\frac{4}{5}} = 4^{\\{5\\times(-\\frac{4}{5})\\}} = 4^{-4} = \\frac{1}{4^4} = \\frac{1}{256}.\n(iii) $\\left(\\frac{8}{125}\\right)^{-\\frac{4}{3}} = \\left(\\left(\\frac{2}{5}\\right)^3\\right)^{-\\frac{4}{3}} = \\left(\\frac{2}{5}\\right)^{\\{3\\times(-\\frac{4}{3})\\}} = \\left(\\frac{2}{5}\\right)^{-4} = \\left(\\frac{5}{2}\\right)^4 = \\frac{5^4}{2^4} = \\frac{625}{16}.$",
+      "page_numbers": [
+        "278"
+      ],
+      "answer_page_numbers": [
+        "278"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "What will come in place of both the question marks in the following question?\n$\\frac{(?)^{\\frac{1}{4}}}{48} = \\frac{3}{(?)^{\\frac{3}{4}}}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let $\\frac{x^{\\frac{1}{4}}}{48} = \\frac{3}{x^{\\frac{3}{4}}}$. Then, $x^{\\frac{1}{4}} \\cdot x^{\\frac{3}{4}} = 48 \\times 3 \\Leftrightarrow x^{(\\frac{1}{4} + \\frac{3}{4})} = 144 \\Leftrightarrow x = 144.$",
+      "page_numbers": [
+        "278"
+      ],
+      "answer_page_numbers": [
+        "278"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Evaluate : (i) $(.00032)^{\\frac{3}{5}}$ (ii) $(256)^{0.16} \\times (16)^{0.18}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $(0.00032)^{\\frac{3}{5}} = \\left(\\frac{32}{100000}\\right)^{\\frac{3}{5}} = \\left(\\frac{2^5}{10^5}\\right)^{\\frac{3}{5}} = \\left\\{\\left(\\frac{2}{10}\\right)^5\\right\\}^{\\frac{3}{5}} = \\left(\\frac{1}{5}\\right)^3 = \\frac{1}{125}.\n(ii) $(256)^{0.16} \\times (16)^{0.18} = \\{(16)^2\\}^{0.16} \\times (16)^{0.18} = (16)^{(2 \\times 0.16)} \\times (16)^{0.18}\n= (16)^{0.32} \\times (16)^{0.18} = (16)^{(0.32 + 0.18)} = (16)^{0.5} = (16)^{\\frac{1}{2}} = 4.$",
+      "page_numbers": [
+        "278",
+        "279"
+      ],
+      "answer_page_numbers": [
+        "278",
+        "279"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "L.I.C., 2005",
+      "passage_text": "",
+      "question_text": "Solve : $9^{8.6} \\times 8^{3.9} \\times 72^{4.4} \\times 9^{3.9} \\times 8^{8.6} = 72^?$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let $9^{8.6} \\times 8^{3.9} \\times 72^{4.4} \\times 9^{3.9} \\times 8^{8.6} = 72^x$.\nThen, $9^{(8.6 + 3.9)} \\times 8^{(3.9 + 8.6)} \\times 72^{4.4} = 72^x$\n$\\Leftrightarrow 9^{12.5} \\times 8^{12.5} \\times 72^{4.4} = 72^x \\Leftrightarrow (9 \\times 8)^{12.5} \\times 72^{4.4} = 72^x$\n$\\Leftrightarrow 72^{12.5} \\times 72^{4.4} = 72^x \\Leftrightarrow 72^{(12.5 + 4.4)} = 72^x \\Leftrightarrow 72^{16.9} = 72^x \\Leftrightarrow x = 16.9.$",
+      "page_numbers": [
+        "279"
+      ],
+      "answer_page_numbers": [
+        "279"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "Solve : $(0.064) \\times (0.4)^7 = (0.4)^? \\times (0.0256)^2$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let $(0.064) \\times (0.4)^7 = (0.4)^x \\times (0.0256)^2$.\nThen, $(0.4)^3 \\times (0.4)^7 = (0.4)^x \\times [(0.4)^4]^2$\n$\\Leftrightarrow (0.4)^{(3 + 7)} = (0.4)^x \\times (0.4)^8 \\Leftrightarrow (0.4)^{10} = (0.4)^{x + 8} \\Leftrightarrow x + 8 = 10 \\Leftrightarrow x = 2.$",
+      "page_numbers": [
+        "279"
+      ],
+      "answer_page_numbers": [
+        "279"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What is the quotient when $(x^{-1} - 1)$ is divided by $(x - 1)$?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\frac{x^{-1} - 1}{x - 1} = \\frac{\\frac{1}{x} - 1}{x - 1} = \\frac{(1 - x)}{x(x - 1)} = -\\frac{1}{x}$.\nHence, the required quotient is $-\\frac{1}{x}.$",
+      "page_numbers": [
+        "279"
+      ],
+      "answer_page_numbers": [
+        "279"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2^{x - 1} + 2^{x + 1} = 1280$, then find the value of $x$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$2^{x - 1} + 2^{x + 1} = 1280 \\Leftrightarrow 2^{x - 1} (1 + 2^2) = 1280$\n$\\Leftrightarrow 2^{x - 1} = \\frac{1280}{5} = 256 = 2^8 \\Leftrightarrow x - 1 = 8 \\Leftrightarrow x = 9.$\nHence, $x = 9.$",
+      "page_numbers": [
+        "279"
+      ],
+      "answer_page_numbers": [
+        "279"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the value of $\\left[ 5 \\left( 8^{\\frac{1}{3}} + 27^{\\frac{1}{3}} \\right)^3 \\right]^{\\frac{1}{4}}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\left[ 5 \\left( 8^{\\frac{1}{3}} + 27^{\\frac{1}{3}} \\right)^3 \\right]^{\\frac{1}{4}} = \\left[ 5 \\left( (2^3)^{\\frac{1}{3}} + (3^3)^{\\frac{1}{3}} \\right)^3 \\right]^{\\frac{1}{4}} = \\left[ 5 (2 + 3)^3 \\right]^{\\frac{1}{4}}$\n$= \\left[ 5 (5)^3 \\right]^{\\frac{1}{4}} = (5^4)^{\\frac{1}{4}} = 5^{\\frac{4}{4}} = 5^1 = 5.$",
+      "page_numbers": [
+        "279"
+      ],
+      "answer_page_numbers": [
+        "279"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the value of $\\left\\{ (16)^{\\frac{3}{2}} + (16)^{-\\frac{3}{2}} \\right\\}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\left\\{ (16)^{\\frac{3}{2}} + (16)^{-\\frac{3}{2}} \\right\\} = \\left\\{ (4^2)^{\\frac{3}{2}} + (4^2)^{-\\frac{3}{2}} \\right\\} = 4^3 + 4^{-3}$\n$= 4^3 + \\frac{1}{4^3} = 64 + \\frac{1}{64} = \\frac{4097}{64}.$",
+      "page_numbers": [
+        "279"
+      ],
+      "answer_page_numbers": [
+        "279"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\left( \\frac{1}{5} \\right)^{3y} = 0.008$, then find the value of $(0.25)^y$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\left( \\frac{1}{5} \\right)^{3y} = 0.008 = \\frac{8}{1000} = \\frac{1}{125} = \\left( \\frac{1}{5} \\right)^3 \\Leftrightarrow 3y = 3 \\Leftrightarrow y = 1.$\n$\\therefore (0.25)^y = (0.25)^1 = 0.25.$",
+      "page_numbers": [
+        "279"
+      ],
+      "answer_page_numbers": [
+        "279"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "Simplify : $\\frac{(6.25)^{\\frac{1}{2}} \\times (0.0144)^{\\frac{1}{2}} + 1}{(0.027)^{\\frac{1}{3}} \\times (81)^{\\frac{1}{4}}}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Given expression = $\\frac{(2.5) \\times (0.12) + 1}{(0.3) \\times 3} = \\frac{0.3 + 1}{0.9} = \\frac{1.3}{0.9} = 1.444... = 1.\\bar{4}.$",
+      "page_numbers": [
+        "280"
+      ],
+      "answer_page_numbers": [
+        "280"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the value of $\\frac{(243)^n \\times 3^{2n + 1}}{9^n \\times 3^{n - 1}}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\frac{(3^5)^n \\times 3^{2n + 1}}{(3^2)^n \\times 3^{n - 1}} = \\frac{3^{5n} \\times 3^{2n + 1}}{3^{2n} \\times 3^{n - 1}} = \\frac{3^{5n + 2n + 1}}{3^{2n + n - 1}} = \\frac{3^{7n + 1}}{3^{3n - 1}}$\n$= 3^{(7n + 1) - (3n - 1)} = 3^{4n + 2}.$\n(Note: The printed solution in the source text concludes $3^2 = 9$, which appears to be based on a specific assumption for $n$ not stated in the problem.)",
+      "page_numbers": [
+        "280"
+      ],
+      "answer_page_numbers": [
+        "280"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "N.I.F.T., 2003",
+      "passage_text": "",
+      "question_text": "Find the value of $\\left( 2^{\\frac{1}{4}} - 1 \\right) \\left( 2^{\\frac{3}{4}} + 2^{\\frac{1}{2}} + 2^{\\frac{1}{4}} + 1 \\right)$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Putting $2^{\\frac{1}{4}} = x$, we get :\n$(x - 1) (x^3 + x^2 + x + 1) = (x - 1) [x^2 (x + 1) + (x + 1)]$\n$= (x - 1) (x + 1) (x^2 + 1) = (x^2 - 1) (x^2 + 1)$\n$= x^4 - 1 = (2^{\\frac{1}{4} \\times 4}) - 1 = (2^1) - 1 = 1.$",
+      "page_numbers": [
+        "280"
+      ],
+      "answer_page_numbers": [
+        "280"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the value of $\\frac{6^{\\frac{2}{3}} \\times \\sqrt[3]{6^7}}{\\sqrt[3]{6^6}}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\frac{6^{\\frac{2}{3}} \\times (6^7)^{\\frac{1}{3}}}{(6^6)^{\\frac{1}{3}}} = \\frac{6^{\\frac{2}{3}} \\times 6^{\\frac{7}{3}}}{6^2} = \\frac{6^{(\\frac{2}{3} + \\frac{7}{3})}}{6^2} = \\frac{6^{\\frac{9}{3}}}{6^2} = \\frac{6^3}{6^2} = 6^{3 - 2} = 6^1 = 6.$",
+      "page_numbers": [
+        "280"
+      ],
+      "answer_page_numbers": [
+        "280"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\left( \\frac{p}{q} \\right)^{rx - s} = \\left( \\frac{q}{p} \\right)^{px - q}$, then find the value of $x$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\left( \\frac{p}{q} \\right)^{rx - s} = \\left( \\frac{p}{q} \\right)^{-(px - q)} \\Leftrightarrow rx - s = -px + q$\n$\\Leftrightarrow rx + px = q + s \\Leftrightarrow x(p + r) = q + s \\Leftrightarrow x = \\frac{q + s}{p + r}.$",
+      "page_numbers": [
+        "280"
+      ],
+      "answer_page_numbers": [
+        "280"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $x = y^a$, $y = z^b$ and $z = x^c$, then find the value of $abc$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$z^1 = x^c = (y^a)^c = y^{ac} = (z^b)^{ac} = z^{abc}$.\n$\\therefore abc = 1.$",
+      "page_numbers": [
+        "281"
+      ],
+      "answer_page_numbers": [
+        "281"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Simplify : $\\left( \\frac{x^a}{x^b} \\right)^{(a^2 + b^2 + ab)} \\times \\left( \\frac{x^b}{x^c} \\right)^{(b^2 + c^2 + bc)} \\times \\left( \\frac{x^c}{x^a} \\right)^{(c^2 + a^2 + ca)}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$x^{(a - b)(a^2 + b^2 + ab)} \\times x^{(b - c)(b^2 + c^2 + bc)} \\times x^{(c - a)(c^2 + a^2 + ca)}$\n$= x^{(a^3 - b^3)} \\times x^{(b^3 - c^3)} \\times x^{(c^3 - a^3)} = x^{(a^3 - b^3 + b^3 - c^3 + c^3 - a^3)} = x^0 = 1.$",
+      "page_numbers": [
+        "281"
+      ],
+      "answer_page_numbers": [
+        "281"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "18",
+      "exam_reference": "M.A.T., 2004",
+      "passage_text": "",
+      "question_text": "If $8^x \\cdot 2^y = 512$ and $3^{3x + 2y} = 9^6$, then what is the value of $x$ and $y$?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$8^x \\cdot 2^y = 512 \\Leftrightarrow (2^3)^x \\cdot 2^y = 2^9 \\Leftrightarrow 3x + y = 9 \\quad ...(i)$\n$3^{3x + 2y} = (3^2)^6 = 3^{12} \\Leftrightarrow 3x + 2y = 12 \\quad ...(ii)$\nSubtracting (i) from (ii), we get: $y = 3$.\nPutting $y = 3$ in (i), we get: $3x = 6$ or $x = 2$.\nHence, $x = 2$ and $y = 3.$",
+      "page_numbers": [
+        "281"
+      ],
+      "answer_page_numbers": [
+        "281"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the largest from among $\\sqrt[4]{6}$, $\\sqrt{2}$ and $\\sqrt[3]{4}$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Given surds are of order 4, 2 and 3 respectively. Their L.C.M. is 12.\n$\\sqrt[4]{6} = 6^{\\frac{1}{4}} = 6^{\\frac{3}{12}} = (6^3)^{\\frac{1}{12}} = (216)^{\\frac{1}{12}}$\n$\\sqrt{2} = 2^{\\frac{1}{2}} = 2^{\\frac{6}{12}} = (2^6)^{\\frac{1}{12}} = (64)^{\\frac{1}{12}}$\n$\\sqrt[3]{4} = 4^{\\frac{1}{3}} = 4^{\\frac{4}{12}} = (4^4)^{\\frac{1}{12}} = (256)^{\\frac{1}{12}}$\nClearly, $(256)^{\\frac{1}{12}} > (216)^{\\frac{1}{12}} > (64)^{\\frac{1}{12}}$.\n$\\therefore$ Largest one is $(256)^{\\frac{1}{12}}$ i.e., $\\sqrt[3]{4}.$",
+      "page_numbers": [
+        "281"
+      ],
+      "answer_page_numbers": [
+        "281"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "20",
+      "exam_reference": "L.I.C.A.A.O., 2007",
+      "passage_text": "",
+      "question_text": "Find the square root of $(3 + \\sqrt{5})$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\sqrt{3 + \\sqrt{5}} = \\sqrt{\\frac{6 + 2\\sqrt{5}}{2}} = \\sqrt{\\frac{5 + 1 + 2\\sqrt{5}}{2}} = \\sqrt{\\frac{(\\sqrt{5})^2 + (1)^2 + 2\\sqrt{5}}{2}}$\n$= \\sqrt{\\frac{(\\sqrt{5} + 1)^2}{2}} = \\frac{\\sqrt{5} + 1}{\\sqrt{2}} = \\left( \\frac{\\sqrt{5}}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}} \\right).$",
+      "page_numbers": [
+        "281"
+      ],
+      "answer_page_numbers": [
+        "281"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $x = 3 + 2\\sqrt{2}$, find the value of $\\left( \\sqrt{x} - \\frac{1}{\\sqrt{x}} \\right)$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\left( \\sqrt{x} - \\frac{1}{\\sqrt{x}} \\right)^2 = x + \\frac{1}{x} - 2 = (3 + 2\\sqrt{2}) + \\frac{1}{3 + 2\\sqrt{2}} - 2$\n$= (3 + 2\\sqrt{2}) + \\frac{3 - 2\\sqrt{2}}{(3 + 2\\sqrt{2})(3 - 2\\sqrt{2})} - 2$\n$= (3 + 2\\sqrt{2}) + (3 - 2\\sqrt{2}) - 2 = 6 - 2 = 4.$\n$\\therefore \\left( \\sqrt{x} - \\frac{1}{\\sqrt{x}} \\right) = 2.$",
+      "page_numbers": [
+        "281"
+      ],
+      "answer_page_numbers": [
+        "281"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2^x = 3^y = 6^{-z}$, find the value of $\\left(\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z}\\right)$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let $2^x = 3^y = 6^{-z} = k$. Then, $2 = k^{1/x}$, $3 = k^{1/y}$ and $6 = k^{-1/z}$.\nNow, $2 \\times 3 = 6 \\iff k^{1/x} \\times k^{1/y} = k^{-1/z} \\iff k^{(1/x + 1/y)} = k^{-1/z}$\n$\\iff \\frac{1}{x} + \\frac{1}{y} = -\\frac{1}{z} \\iff \\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} = 0$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "23",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "Given $t = \\sqrt[3]{2} + \\sqrt[3]{4} + 2$, determine the value of $t^3 - 6t^2 + 6t - 2$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$t = 2 + \\sqrt[3]{4} + \\sqrt[3]{2} \\Rightarrow t - 2 = \\sqrt[3]{4} + \\sqrt[3]{2} \\Rightarrow (t - 2)^3 = (\\sqrt[3]{4} + \\sqrt[3]{2})^3$\n$\\Rightarrow t^3 - 8 - 6t(t - 2) = 4 + 2 + 3\\sqrt[3]{8}(\\sqrt[3]{4} + \\sqrt[3]{2})$\n$\\Rightarrow t^3 - 8 - 6t^2 + 12t = 6 + 3 \\times 2(t - 2)$\n$\\Rightarrow t^3 - 6t^2 + 12t - 8 = 6 + 6t - 12 \\Rightarrow t^3 - 6t^2 + 6t - 2 = 0$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "$\\sqrt[3]{5}$ is a surd of the order",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\n\\sqrt[n]{a}$ is called a surd of order $n$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "$\\sqrt{50} \\times \\sqrt{8} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$8$",
+      "option_c": "$40$",
+      "option_d": "$200$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$5^0 \\times 8 = 1 \\times 8 = 8$. $[\\because 5^0 = 1]$",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "Which of the following are equal in value?\nI. $4^1$\nII. $1^4$\nIII. $4^0$\nIV. $0^4$",
+      "question_text": "Which of the following are equal in value?\nI. $4^1$\nII. $1^4$\nIII. $4^0$\nIV. $0^4$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "I and II",
+      "option_b": "II and III",
+      "option_c": "III and IV",
+      "option_d": "I and IV",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "I. $4^1 = 4$\nII. $1^4 = 1$\nIII. $4^0 = 1$\nIV. $0^4 = 0$",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "If $289 = 17^{\\frac{1}{x}}$, then $x =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{5}$",
+      "option_b": "$8$",
+      "option_c": "$16$",
+      "option_d": "$32$",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "$289 = 17^2 \\Rightarrow 17^{\\frac{1}{x}} = 17^2 \\Rightarrow \\frac{1}{x} = 2 \\Rightarrow x = \\frac{1}{2} \\times 5 = 10$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "Agriculture Officers', 2009",
+      "passage_text": "",
+      "question_text": "$(81)^4 \\div (9)^5 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$9$",
+      "option_b": "$81$",
+      "option_c": "$729$",
+      "option_d": "$6561$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "$(81)^4 \\div 9^5 = \\frac{(9^2)^4}{9^5} = \\frac{9^8}{9^5} = 9^{(8-5)} = 9^3 = 729$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "The value of $\\left(\\frac{9^2 \\times 18^4}{3^{16}}\\right)$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{2}$",
+      "option_b": "$\\frac{4}{9}$",
+      "option_c": "$\\frac{16}{81}$",
+      "option_d": "$\\frac{32}{243}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{9^2 \\times 18^4}{3^{16}} = \\frac{9^2 \\times (9 \\times 2)^4}{3^{16}} = \\frac{(3^2)^2 \\times (3^2)^4 \\times 2^4}{3^{16}}$\n$= \\frac{3^4 \\times 3^8 \\times 2^4}{3^{16}}$\n$= \\frac{3^{(4+8)} \\times 2^4}{3^{16}}$\n$= \\frac{3^{12} \\times 2^4}{3^{16}}$\n$= \\frac{2^4}{3^{(16-12)}} = \\frac{2^4}{3^4} = \\frac{16}{81}$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "Bank Recruitment, 2008",
+      "passage_text": "",
+      "question_text": "$[4^3 \\times 5^4] \\div 4^5 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$29.0825$",
+      "option_b": "$30.0925$",
+      "option_c": "$35.6015$",
+      "option_d": "$39.0625$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$\\frac{4^3 \\times 5^4}{4^5} = 5^4 \\times 4^{(3-5)} = 5^4 \\times 4^{-2} = \\frac{625}{16} = 39.0625$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "L.I.C.A.D.O., 2007",
+      "passage_text": "",
+      "question_text": "$9^3 \\times 6^2 \\div 3^3 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$948$",
+      "option_b": "$972$",
+      "option_c": "$984$",
+      "option_d": "$1012$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$\\frac{9^3 \\times 6^2}{3^3} = \\frac{(3^2)^3 \\times (3 \\times 2)^2}{3^3} = \\frac{3^6 \\times 3^2 \\times 2^2}{3^3}$\n$= 3^{(8-3)} \\times 2^2 = 3^5 \\times 2^2 = 243 \\times 4 = 972$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "Bank Recruitment, 2008",
+      "passage_text": "",
+      "question_text": "$(19)^{12} \\times (19)^8 \\div (19)^4 = (19)^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$6$",
+      "option_b": "$8$",
+      "option_c": "$12$",
+      "option_d": "$24$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "$\\frac{(19)^{12} \\times (19)^8}{(19)^4} = \\frac{(19)^{(12+8)}}{(19)^4} = \\frac{(19)^{20}}{(19)^4} = (19)^{(20-4)} = (19)^{16}$.\nHence, missing number = 16.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "Agriculture Officer’s, 2008",
+      "passage_text": "",
+      "question_text": "$(64)^4 \\div (8)^5 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$(8)^8$",
+      "option_b": "$(8)^2$",
+      "option_c": "$(8)^{12}$",
+      "option_d": "$(8)^4$",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "$(64)^4 \\div 8^5 = (8^2)^4 \\div 8^5 = 8^8 \\div 8^5 = 8^{(8-5)} = 8^3$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "$(1000)^{12} \\div (10)^{30} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$(1000)^2$",
+      "option_b": "$10$",
+      "option_c": "$100$",
+      "option_d": "$(100)^2$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$(1000)^{12} \\div (10)^{30} = \\frac{(10^3)^{12}}{(10)^{30}} = \\frac{10^{36}}{10^{30}} = 10^{(36-30)} = 10^6 = (10^3)^2 = (1000)^2$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "$(3)^8 \\times (3)^4 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$(27)^3$",
+      "option_b": "$(27)^5$",
+      "option_c": "$(729)^2$",
+      "option_d": "$(729)^3$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "$3^8 \\times 3^4 = 3^{(8+4)} = 3^{12} = (3^6)^2 = (729)^2$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "$\\frac{343 \\times 49}{216 \\times 16 \\times 81} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{7^5}{6^7}$",
+      "option_b": "$\\frac{7^5}{6^8}$",
+      "option_c": "$\\frac{7^6}{6^7}$",
+      "option_d": "$\\frac{7^4}{6^8}$",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "$\\frac{343 \\times 49}{216 \\times 16 \\times 81} = \\frac{7^3 \\times 7^2}{6^3 \\times 2^4 \\times 3^4} = \\frac{7^{(3+2)}}{6^3 \\times (2 \\times 3)^4} = \\frac{7^5}{6^3 \\times 6^4} = \\frac{7^5}{6^{(3+4)}} = \\frac{7^5}{6^7}$.",
+      "page_numbers": [
+        "282"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "$\\frac{16 \\times 32}{9 \\times 27 \\times 81} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\left(\\frac{2}{3}\\right)^9$",
+      "option_b": "$\\left(\\frac{2}{3}\\right)^{11}$",
+      "option_c": "$\\left(\\frac{2}{3}\\right)^{12}$",
+      "option_d": "$\\left(\\frac{2}{3}\\right)^{13}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$\\frac{16 \\times 32}{9 \\times 27 \\times 81} = \\frac{2^4 \\times 2^5}{3^2 \\times 3^3 \\times 3^4} = \\frac{2^{(4+5)}}{3^{(2+3+4)}} = \\frac{2^9}{3^9} = \\left(\\frac{2}{3}\\right)^9$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "$9^3 \\times (81)^2 \\div (27)^3 = (3)^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3$",
+      "option_b": "$4$",
+      "option_c": "$5$",
+      "option_d": "$6$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $9^3 \\times (81)^2 \\div (27)^3 = 3^x$. Then,\n$3^x = \\frac{(3^2)^3 \\times (3^4)^2}{(3^3)^3} = \\frac{3^6 \\times 3^8}{3^9} = \\frac{3^{(6+8)}}{3^9} = \\frac{3^{14}}{3^9}$\n$\\Rightarrow 3^x = 3^{(14-9)} = 3^5 \\Rightarrow x = 5$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "$(6)^4 \\div (36)^3 \\times 216 = 6^{(? - 5)}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$4$",
+      "option_c": "$6$",
+      "option_d": "$7$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let $6^4 \\div (36)^3 \\times 216 = 6^{(x-5)}$.\nThen, $6^{(x-5)} = 6^4 \\div (6^2)^3 \\times 6^3$\n$= 6^4 \\div 6^6 \\times 6^3 = 6^{(4-6+3)} = 6^1$\n$\\Rightarrow x - 5 = 1 \\Rightarrow x = 6$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "P.C.S., 2004",
+      "passage_text": "",
+      "question_text": "$(0.2)^2, \\frac{1}{100}, (0.01)^{\\frac{1}{2}}, (0.008)^{\\frac{1}{3}}$. Of these, which one is the greatest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$(0.008)^{\\frac{1}{3}}$",
+      "option_b": "$(0.01)^{\\frac{1}{2}}$",
+      "option_c": "$(0.2)^2$",
+      "option_d": "$\\frac{1}{100}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$(0.2)^2 = 0.2 \\times 0.2 = 0.04$;\n$\\frac{1}{100} = 0.01$; $(0.01)^{\\frac{1}{2}} = (0.1^2)^{\\frac{1}{2}} = 0.1$;\n$(0.008)^{\\frac{1}{3}} = [(0.2)^3]^{\\frac{1}{3}} = 0.2$.\nClearly, $0.2 > 0.1 > 0.04 > 0.01$.\nSo, $(0.008)^{\\frac{1}{3}}$ is the greatest.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following expressions has the greatest value?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$[(2^{-1})^0]^2$",
+      "option_b": "$[(4^0)^{-2}]^2$",
+      "option_c": "$[(2^{-2})^{-1}]^2$",
+      "option_d": "$[(2^{-1})^2]^2$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$[(2^{-1})^0]^2 = (1)^2 = 1$.\n$[(4^0)^{-2}] = (1)^{-2} = 1$.\n$[(2^{-2})^{-1}]^2 = [2^2]^2 = 2^4 = 16$.\n$[(2^{-1})^2]^{-2} = [2^{-2}]^{-2} = 2^4 = 16$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "Bank Recruitment, 2008",
+      "passage_text": "",
+      "question_text": "$(10)^{24} \\times (10)^{-21} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3$",
+      "option_b": "$10$",
+      "option_c": "$100$",
+      "option_d": "$1000$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$(10)^{24} \\times (10)^{-21} = 10^{(24-21)} = 10^3 = 1000$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $(256)^{\\frac{5}{4}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$512$",
+      "option_b": "$984$",
+      "option_c": "$1024$",
+      "option_d": "$1032$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$(256)^{\\frac{5}{4}} = (4^4)^{\\frac{5}{4}} = 4^5 = 1024$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $(\\sqrt{8})^{\\frac{1}{3}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$4$",
+      "option_c": "$\\sqrt{2}$",
+      "option_d": "$8$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$(\\sqrt{8})^{\\frac{1}{3}} = (8^{\\frac{1}{2}})^{\\frac{1}{3}} = 8^{\\frac{1}{6}}$\n$= (2^3)^{\\frac{1}{6}} = 2^{3\\times\\frac{1}{6}} = 2^{\\frac{1}{2}} = \\sqrt{2}$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\left(\\frac{32}{243}\\right)^{-\\frac{4}{5}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{4}{9}$",
+      "option_b": "$\\frac{9}{4}$",
+      "option_c": "$\\frac{16}{81}$",
+      "option_d": "$\\frac{81}{16}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\left(\\frac{32}{243}\\right)^{-\\frac{4}{5}} = \\left\\{\\left(\\frac{2}{3}\\right)^5\\right\\}^{-\\frac{4}{5}}$\n$= \\left(\\frac{2}{3}\\right)^{5\\times\\left(-\\frac{4}{5}\\right)} = \\left(\\frac{2}{3}\\right)^{-4}$\n$= \\left(\\frac{3}{2}\\right)^4 = \\frac{3^4}{2^4} = \\frac{81}{16}$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\left(-\\frac{1}{216}\\right)^{-\\frac{2}{3}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$36$",
+      "option_b": "$-36$",
+      "option_c": "$\\frac{1}{36}$",
+      "option_d": "$-\\frac{1}{36}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\left(-\\frac{1}{216}\\right)^{-\\frac{2}{3}} = \\left\\{-\\left(\\frac{1}{6}\\right)^3\\right\\}^{-\\frac{2}{3}}$\n$= \\left(-\\frac{1}{6}\\right)^{3\\times\\left(-\\frac{2}{3}\\right)} = \\left(-\\frac{1}{6}\\right)^{-2}$\n$= \\left(-\\frac{6}{1}\\right)^2 = 36$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "C.D.S., 2002",
+      "passage_text": "",
+      "question_text": "The value of $27^{-\\frac{2}{3}}$ lies between",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$ and $1$",
+      "option_b": "$1$ and $2$",
+      "option_c": "$2$ and $3$",
+      "option_d": "$3$ and $4$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$(27)^{-\\frac{2}{3}} = (3^3)^{-\\frac{2}{3}} = 3^{3\\times\\left(-\\frac{2}{3}\\right)} = 3^{-2} = \\frac{1}{3^2} = \\frac{1}{9}$.\nClearly, $0 < \\frac{1}{9} < 1$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The value of $\\sqrt[3]{4\\sqrt{2\\sqrt{2^6}}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$2$",
+      "option_c": "$\\sqrt[5]{2^3}$",
+      "option_d": "$2^5$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\sqrt[3]{2^4} \\cdot \\sqrt[6]{2^{-5}} \\cdot \\sqrt[4]{2^{-2}} = 2^{\\frac{4}{3}} \\cdot 2^{-\\frac{5}{6}} \\cdot 2^{-\\frac{2}{4}}$\n$= 2^{\\frac{4}{3} - \\frac{5}{6} - \\frac{1}{2}}$\n$= 2^{\\frac{8-5-3}{6}} = 2^{\\frac{0}{6}} = 2^0 = 1$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "289"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "R.R.B., 2007",
+      "passage_text": "",
+      "question_text": "$\\sqrt{2\\sqrt{2\\sqrt{2\\sqrt{2\\sqrt{2}}}}} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2^{\\frac{29}{31}}$",
+      "option_b": "$2^{\\frac{31}{32}}$",
+      "option_c": "$2^{\\frac{9}{2}}$",
+      "option_d": "$2^{\\frac{11}{2}}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\sqrt{2\\sqrt{2\\sqrt{2\\sqrt{2\\sqrt{2}}}}} = 2^{\\frac{1}{2}} \\cdot 2^{\\frac{1}{4}} \\cdot 2^{\\frac{1}{8}} \\cdot 2^{\\frac{1}{16}} \\cdot 2^{\\frac{1}{32}}$\n$= 2^{\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\frac{1}{32}}$\n$= 2^{\\frac{16+8+4+2+1}{32}} = 2^{\\frac{31}{32}}$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "The value of $(0.03125)^{-\\frac{2}{5}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$4$",
+      "option_b": "$9$",
+      "option_c": "$12$",
+      "option_d": "$31.25$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$(0.03125)^{-\\frac{2}{5}} = (0.5^5)^{-\\frac{2}{5}} = (0.5)^{5\\times\\left(-\\frac{2}{5}\\right)} = (0.5)^{-2}$\n$= \\frac{1}{(0.5)^2} = \\frac{1}{0.25} = 4$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "Section Officer's, 2005",
+      "passage_text": "",
+      "question_text": "$\\left(\\frac{1}{2}\\right)^{-\\frac{1}{2}}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{\\sqrt{2}}$",
+      "option_b": "$2\\sqrt{2}$",
+      "option_c": "$-\\sqrt{2}$",
+      "option_d": "$\\sqrt{2}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\left(\\frac{1}{2}\\right)^{-\\frac{1}{2}} = (2^{-1})^{-\\frac{1}{2}} = 2^{\\frac{1}{2}} = \\sqrt{2}$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "Simplified form of $\\left[\\left(\\sqrt[5]{x^{-3}}\\right)^5\\right]^{-\\frac{3}{5}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{x}$",
+      "option_b": "$x$",
+      "option_c": "$x^{-5}$",
+      "option_d": "$x^5$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\left\\{\\left(\\sqrt{x^5}\\right)^{-\\frac{3}{5}}\\right\\}^5 = \\left\\{\\left(x^{\\frac{5}{2}}\\right)^{-\\frac{3}{5}}\\right\\}^5$\n$= \\left(x^{\\frac{5}{2} \\times -\\frac{3}{5}}\\right)^5 = \\left(x^{-\\frac{3}{2}}\\right)^5 = x^{-\\frac{15}{2}}$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "What will come in place of both the question marks in the following question?\n$\\frac{(?)^{\\frac{2}{3}}}{42} = \\frac{5}{(?)^{\\frac{1}{3}}}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$10$",
+      "option_b": "$10\\sqrt{2}$",
+      "option_c": "$\\sqrt{20}$",
+      "option_d": "$20$",
+      "option_e": "$210$",
+      "correct_option": "a",
+      "solution": "Let $\\frac{x^{\\frac{2}{3}}}{x^{\\frac{1}{3}}} = 5 \\cdot 42$\nThen, $x^{\\frac{2}{3} - \\frac{1}{3}} = 42 \\times 5 = 210 \\Rightarrow x^{\\frac{1}{3}} = 210 \\Rightarrow x = 210^3 = 9261000$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $5^4 \\times (125)^{0.25}$ is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\sqrt{5}$",
+      "option_b": "$5$",
+      "option_c": "$5\\sqrt{5}$",
+      "option_d": "$25$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$5^{0.25} \\times (125)^{0.25} = 5^{0.25} \\times (5^3)^{0.25} = 5^{0.25} \\times 5^{0.75}$\n$= 5^{0.25 + 0.75} = 5^1 = 5$.",
+      "page_numbers": [
+        "283"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "M.B.A., 2003",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{1}{(216)^{-\\frac{2}{3}}} + \\frac{1}{(256)^{-\\frac{3}{4}}} + \\frac{1}{(32)^{-\\frac{1}{5}}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$102$",
+      "option_b": "$105$",
+      "option_c": "$107$",
+      "option_d": "$109$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{1}{(216)^{-\\frac{2}{3}}} + \\frac{1}{(256)^{-\\frac{3}{4}}} + \\frac{1}{(32)^{-\\frac{1}{5}}}$\n$= (6^3)^{\\frac{2}{3}} + (4^4)^{\\frac{3}{4}} + (2^5)^{\\frac{1}{5}}$\n$= 6^2 + 4^3 + 2^1 = 36 + 64 + 2 = 102$.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$(2.4 \\times 10^3) \\div (8 \\times 10^{-2}) =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$3 \\times 10^{-5}$",
+      "option_b": "$3 \\times 10^4$",
+      "option_c": "$3 \\times 10^5$",
+      "option_d": "$30$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$(2.4 \\times 10^3) \\div (8 \\times 10^{-2}) = \\frac{2.4 \\times 10^3}{8 \\times 10^{-2}}$\n$= 0.3 \\times 10^{3 - (-2)} = 0.3 \\times 10^5 = 3 \\times 10^4$.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\\left(\\frac{1}{216}\\right)^{-\\frac{2}{3}} \\div \\left(\\frac{1}{27}\\right)^{-\\frac{4}{3}} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{4}$",
+      "option_b": "$\\frac{2}{3}$",
+      "option_c": "$\\frac{4}{9}$",
+      "option_d": "$\\frac{1}{8}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\left(\\frac{1}{216}\\right)^{-\\frac{2}{3}} \\div \\left(\\frac{1}{27}\\right)^{-\\frac{4}{3}} = (6^3)^{\\frac{2}{3}} \\div (3^3)^{\\frac{4}{3}}$\n$= 6^2 \\div 3^4 = \\frac{36}{81} = \\frac{4}{9}$.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "$(48)^{-\\frac{2}{7}} \\times (16)^{-\\frac{5}{7}} \\times (3)^{-\\frac{5}{7}} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$\\frac{1}{48}$",
+      "option_c": "$1$",
+      "option_d": "$48$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$(48)^{-\\frac{2}{7}} \\times (16)^{-\\frac{5}{7}} \\times (3)^{-\\frac{5}{7}} = (16 \\times 3)^{-\\frac{2}{7}} \\times (16)^{-\\frac{5}{7}} \\times (3)^{-\\frac{5}{7}}$\n$= (16)^{-\\frac{2}{7}} \\times (3)^{-\\frac{2}{7}} \\times (16)^{-\\frac{5}{7}} \\times (3)^{-\\frac{5}{7}}$\n$= (16)^{-\\frac{2}{7} - \\frac{5}{7}} \\times (3)^{-\\frac{2}{7} - \\frac{5}{7}}$\n$= (16)^{-1} \\times (3)^{-1} = \\frac{1}{16} \\times \\frac{1}{3} = \\frac{1}{48}$.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "If $10^x = \\frac{1}{2}$, then $10^{-8x} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{256}$",
+      "option_b": "$16$",
+      "option_c": "$80$",
+      "option_d": "$256$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$10^{-8x} \\times (10)^{-8} = \\left(\\frac{1}{2}\\right)^{-8} = 2^8 = 256$.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "If $\\left(\\frac{3}{5}\\right)^3 \\left(\\frac{3}{5}\\right)^{-6} = \\left(\\frac{3}{5}\\right)^{2x-1}$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-2$",
+      "option_b": "$-1$",
+      "option_c": "$1$",
+      "option_d": "$2$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\left(\\frac{3}{5}\\right)^3 \\times \\left(\\frac{3}{5}\\right)^{-6} = \\left(\\frac{3}{5}\\right)^{2x-1}$\n$\\left(\\frac{3}{5}\\right)^{3-6} = \\left(\\frac{3}{5}\\right)^{2x-1}$\n$-3 = 2x - 1 \\Rightarrow 2x = -2 \\Rightarrow x = -1$.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$49 \\times 49 \\times 49 \\times 49 = 7^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$4$",
+      "option_b": "$7$",
+      "option_c": "$8$",
+      "option_d": "$16$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$49 \\times 49 \\times 49 \\times 49 = 7^2 \\times 7^2 \\times 7^2 \\times 7^2 = 7^{2+2+2+2} = 7^8$.\nRequired number = 8.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $(8^{-25} - 8^{-26})$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$7 \\times 8^{-25}$",
+      "option_b": "$7 \\times 8^{-26}$",
+      "option_c": "$8 \\times 8^{-26}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$8^{-25} - 8^{-26} = 8^{-26} (8^1 - 1) = 8^{-26} \\times 7 = 7 \\cdot 8^{-26}$.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$(64)^{\\frac{1}{2}} - (-32)^{-\\frac{4}{5}} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{8}$",
+      "option_b": "$\\frac{3}{8}$",
+      "option_c": "$\\frac{1}{16}$",
+      "option_d": "$\\frac{3}{16}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$(64)^{-\\frac{1}{4}} - (-32)^{-\\frac{4}{5}} = (8^2)^{-\\frac{1}{4}} - ((-2)^5)^{-\\frac{4}{5}}$\n$= 8^{-\\frac{1}{2}} - (-2)^{-4} = \\frac{1}{\\sqrt{8}} - \\frac{1}{(-2)^4}$\n$= \\frac{1}{2\\sqrt{2}} - \\frac{1}{16}$.",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "290"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "If $\\left(\\frac{a}{b}\\right)^{x-1} = \\left(\\frac{b}{a}\\right)^{x-3}$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$\\frac{7}{2}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\left(\\frac{a}{b}\\right)^{x-1} = \\left(\\frac{b}{a}\\right)^{x-3} = \\left(\\frac{a}{b}\\right)^{-(x-3)} = \\left(\\frac{a}{b}\\right)^{(3-x)}$\n$\\Leftrightarrow x - 1 = 3 - x \\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2^{n-1} = \\frac{1}{8^{n-3}}$, then the value of $n$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-2$",
+      "option_b": "$0$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$2^{n-1} = \\frac{1}{8^{n-3}} \\Leftrightarrow 2^{n-1} = \\frac{1}{(2^3)^{n-3}}$\n$= \\frac{1}{2^{3(n-3)}} = 2^{-(3n-9)}$\n$\\Leftrightarrow 2n - 1 = 9 - 3n \\Leftrightarrow 5n = 10$\n$\\Leftrightarrow n = 2.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $5^a = 3125$, then the value of $5^{(a-3)}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$25$",
+      "option_b": "$125$",
+      "option_c": "$625$",
+      "option_d": "$1625$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$5^a = 3125 = 5^5 \\Rightarrow a = 5.$\n$\\Rightarrow 5^{(a-3)} = 5^{(5-3)} = 5^2 = 25.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "M.B.A., 2006",
+      "passage_text": "",
+      "question_text": "If $5\\sqrt{5} \\times 5^3 \\div 5^{-\\frac{3}{2}} = 5^{a+2}$, then the value of $a$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$4$",
+      "option_b": "$5$",
+      "option_c": "$6$",
+      "option_d": "$8$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$5\\sqrt{5} \\times 5^3 \\div 5^{-\\frac{3}{2}} = 5^{a+2} \\Leftrightarrow \\frac{5^{1+\\frac{1}{2}} \\times 5^3}{5^{-\\frac{3}{2}}} = 5^{a+2}$\n$\\Leftrightarrow 5^{(1+\\frac{1}{2}+3+\\frac{3}{2})} = 5^{a+2} \\Leftrightarrow 5^6 = 5^{a+2}$\n$\\Leftrightarrow a + 2 = 6 \\Leftrightarrow a = 4.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\sqrt{2^n} = 64$, then the value of $n$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$4$",
+      "option_c": "$6$",
+      "option_d": "$12$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\sqrt[n]{2^n} = 64 \\Leftrightarrow (2^n)^{\\frac{1}{n}} = 2^6 \\Leftrightarrow 2 = 2^6 \\Leftrightarrow \\frac{n}{2} = 6$\n$\\Leftrightarrow n = 12.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $(\\sqrt{3})^n \\times 9^2 = 3^n \\times 3\\sqrt{3}$, then the value of $n$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$3$",
+      "option_c": "$4$",
+      "option_d": "$5$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$(\\sqrt{3})^5 \\times 9^2 = 3^n \\times 3\\sqrt{3} \\Leftrightarrow (3^{\\frac{1}{2}})^5 \\times (3^2)^2 = 3^n \\times 3^1 \\times 3^{\\frac{1}{2}}$\n$\\Leftrightarrow 3^{\\frac{5}{2}} \\times 3^4 = 3^{n+1+\\frac{1}{2}}$\n$\\Leftrightarrow 3^{(\\frac{5}{2}+4)} = 3^{(n+\\frac{3}{2})}$\n$\\Leftrightarrow \\frac{13}{2} = n + \\frac{3}{2} \\Leftrightarrow n = \\frac{13-3}{2} = 5.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\frac{9^n \\times 3^5 \\times (27)^3}{3 \\times (81)^4} = 27$, then the value of $n$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$2$",
+      "option_c": "$3$",
+      "option_d": "$4$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{9^n \\times 3^2 \\times (3^{-n/2})^{-2} - (27)^n}{3^{3m} \\times 2^{3}} = 27 \\Leftrightarrow \\frac{3^{2n} \\times 3^2 \\times 3^n - 3^{3n}}{3^{3m} \\times 2^3} = 3^3$\n$\\Leftrightarrow \\frac{3^{3n+2} - 3^{3n}}{3^{3m} \\times 8} = 3^3$\n$\\Leftrightarrow \\frac{3^{3n}(3^2 - 1)}{3^{3m} \\times 8} = 3^3$\n$\\Leftrightarrow \\frac{3^{3n}(8)}{3^{3m} \\times 8} = 3^3 \\Leftrightarrow 3^{3n-3m} = 3^3$\n$\\Leftrightarrow 3n - 3m = 3 \\Leftrightarrow n - m = 1 \\Leftrightarrow n = 3.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\left(\\frac{9}{4}\\right)^x \\cdot \\left(\\frac{8}{27}\\right)^{x-1} = \\frac{2}{3}$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$",
+      "option_b": "$2$",
+      "option_c": "$3$",
+      "option_d": "$4$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\left(\\frac{9}{4}\\right)^x \\times \\left(\\frac{8}{27}\\right)^{x-1} = \\frac{2}{3} \\Leftrightarrow \\left(\\left(\\frac{3}{2}\\right)^2\\right)^x \\times \\left(\\left(\\frac{2}{3}\\right)^3\\right)^{x-1} = \\frac{2}{3}$\n$\\Leftrightarrow \\left(\\frac{3}{2}\\right)^{2x} \\times \\left(\\frac{3}{2}\\right)^{-3(x-1)} = \\frac{2}{3}$\n$\\Leftrightarrow \\left(\\frac{3}{2}\\right)^{2x-3x+3} = \\left(\\frac{3}{2}\\right)^{-1}$\n$\\Leftrightarrow -x + 3 = -1 \\Leftrightarrow x = 4.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $3^{2x} = 32$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5$",
+      "option_b": "$3$",
+      "option_c": "$\\frac{3}{5}$",
+      "option_d": "$\\frac{5}{3}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$2^x = \\sqrt[3]{32} \\Leftrightarrow 2^x = (2^5)^{\\frac{1}{3}} = 2^{\\frac{5}{3}} \\Leftrightarrow x = \\frac{5}{3}.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2^x \\times 8^{\\frac{1}{5}} = 2^{\\frac{1}{5}}$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{5}$",
+      "option_b": "$-\\frac{1}{5}$",
+      "option_c": "$\\frac{2}{5}$",
+      "option_d": "$-\\frac{2}{5}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$2^x \\times 8^{\\frac{1}{5}} = 2^{\\frac{1}{5}} \\Leftrightarrow 2^x \\times (2^3)^{\\frac{1}{5}} = 2^{\\frac{1}{5}}$\n$\\Leftrightarrow 2^x \\times 2^{\\frac{3}{5}} = 2^{\\frac{1}{5}}$\n$\\Leftrightarrow x + \\frac{3}{5} = \\frac{1}{5} \\Leftrightarrow x = \\frac{1}{5} - \\frac{3}{5} = -\\frac{2}{5}.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $5^{(x+3)} = 25^{(3x-4)}$, then the value of $x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{11}$",
+      "option_b": "$\\frac{11}{5}$",
+      "option_c": "$\\frac{11}{3}$",
+      "option_d": "$\\frac{13}{5}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$5^{(x+3)} = 25^{(3x-4)} \\Leftrightarrow 5^{(x+3)} = (5^2)^{(3x-4)}$\n$\\Leftrightarrow 5^{(x+3)} = 5^{(6x-8)}$\n$\\Leftrightarrow x + 3 = 6x - 8 \\Leftrightarrow 5x = 11 \\Leftrightarrow x = \\frac{11}{5}.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "M.B.A., 2011",
+      "passage_text": "",
+      "question_text": "$\\frac{2^{n+4} - 2(2^n)}{2(2^{n+3})}$ when simplified is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2^{n+1} - \\frac{1}{8}$",
+      "option_b": "$-2^n + 1$",
+      "option_c": "$1 - 2^n$",
+      "option_d": "$\\frac{7}{8}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\frac{2^{n+4} - 2(2^n)}{2(2^{n+3})} = \\frac{2^{n+4} - 2^{n+1}}{2^{n+4}} = 1 - \\frac{2^{n+1}}{2^{n+4}} = 1 - 2^{(n+1)-(n+4)} = 1 - 2^{-3} = 1 - \\frac{1}{8} = \\frac{7}{8}.$",
+      "page_numbers": [
+        "284"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "M.B.A., 2011",
+      "passage_text": "",
+      "question_text": "Simplify $\\left[\\sqrt[3]{\\sqrt[6]{a^9}}\\right]^4 \\left[\\sqrt[6]{\\sqrt[3]{a^9}}\\right]^4$; the result is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$a^4$",
+      "option_b": "$a^8$",
+      "option_c": "$a^{12}$",
+      "option_d": "$a^{16}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\left[\\sqrt[3]{\\sqrt[4]{a^9}}\\right]^4 \\left[\\sqrt[6]{\\sqrt[3]{a^9}}\\right]^4 = \\left[(a^9)^{\\frac{1}{12}}\\right]^4 \\left[(a^9)^{\\frac{1}{18}}\\right]^4$\n$= (a^9)^{\\frac{4}{12}} \\times (a^9)^{\\frac{4}{18}} = a^3 \\times a^2 = a^5.$",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "$(256)^{0.16} \\times (256)^{0.09} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "16",
+      "option_c": "64",
+      "option_d": "256.25",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$(256)^{0.16} \\times (256)^{0.09} = (256)^{(0.16+0.09)} = (256)^{0.25}$\n$= (256)^{\\frac{25}{100}} = (256)^{\\frac{1}{4}} = (4^4)^{\\frac{1}{4}} = 4^1 = 4.$",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "Bank P.O., 2003",
+      "passage_text": "",
+      "question_text": "$(0.04)^{-1.5} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25",
+      "option_b": "125",
+      "option_c": "250",
+      "option_d": "625",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$(0.04)^{-1.5} = \\left(\\frac{4}{100}\\right)^{-1.5} = \\left(\\frac{1}{25}\\right)^{-1.5} = (25)^{1.5} = (5^2)^{\\frac{3}{2}} = 5^3 = 125.$",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "Bank P.O., 2003",
+      "passage_text": "",
+      "question_text": "$(17)^{3.5} \\times (17)^? = 17^8$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.29",
+      "option_b": "2.75",
+      "option_c": "4.25",
+      "option_d": "4.5",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let $(17)^{3.5} \\times (17)^x = 17^8.$\nThen, $(17)^{(3.5+x)} = (17)^8.$\n$\\therefore 3.5 + x = 8 \\Leftrightarrow x = (8 - 3.5)$\n$\\Leftrightarrow x = 4.5.$",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "Specialist Officers', 2006",
+      "passage_text": "",
+      "question_text": "$6^{1.2} \\times 36^? \\times 30^{2.4} \\times 25^{1.3} = 30^5$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.1",
+      "option_b": "0.7",
+      "option_c": "1.4",
+      "option_d": "2.6",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let $6^{1.2} \\times 36^x \\times 30^{2.4} \\times 25^{1.3} = 30^5.$\nThen, $6^{1.2} \\times (6^2)^x \\times (6 \\times 5)^{2.4} \\times (5^2)^{1.3} = 30^5$\n$\\Leftrightarrow 6^{1.2} \\times 6^{2x} \\times 6^{2.4} \\times 5^{2.4} \\times 5^{2.6} = (6 \\times 5)^5$\n$\\Leftrightarrow 6^{(1.2+2x+2.4)} \\times 5^{(2.4+2.6)} = 6^5 \\times 5^5$\n$\\Leftrightarrow 6^{(3.6+2x)} \\times 5^5 = 6^5 \\times 5^5 \\Leftrightarrow 3.6 + 2x = 5 \\Leftrightarrow 2x = 1.4 \\Leftrightarrow x = 0.7.$",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "Specialist Officers', 2007",
+      "passage_text": "",
+      "question_text": "$2^{3.6} \\times 4^{3.6} \\times 4^{3.6} \\times (32)^{2.3} = (32)^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5.9",
+      "option_b": "7.7",
+      "option_c": "9.5",
+      "option_d": "13.1",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let $2^{3.6} \\times 4^{3.6} \\times 4^{3.6} \\times 32^{2.3} = 32^x.$\nThen, $2^{3.6} \\times (2^2)^{3.6} \\times (2^2)^{3.6} \\times (2^5)^{2.3} = (2^5)^x$\n$\\Leftrightarrow 2^{3.6} \\times 2^{7.2} \\times 2^{7.2} \\times 2^{11.5} = 2^{5x}$\n$\\Leftrightarrow 2^{(3.6+7.2+7.2+11.5)} = 2^{5x}$\n$\\Leftrightarrow 2^{29.5} = 2^{5x} \\Leftrightarrow 5x = 29.5 \\Leftrightarrow x = 5.9.$",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "291"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "Bank P.O., 2006",
+      "passage_text": "",
+      "question_text": "$3^{3.5} \\times 21^2 \\times 42^{2.5} \\div 2^{2.5} \\times 7^{3.5} = 21^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6.5",
+      "option_b": "8",
+      "option_c": "10",
+      "option_d": "12.5",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $3^{3.5} \\times (21)^2 \\times (42)^{2.5} \\div 2^{2.5} \\times 7^{3.5} = 21^x.$\nThen, $3^{3.5} \\times 7^{3.5} \\times (21)^2 \\times (21 \\times 2)^{2.5} \\div 2^{2.5} = 21^x$\n$\\Leftrightarrow (3 \\times 7)^{3.5} \\times (21)^2 \\times (21)^{2.5} \\times 2^{2.5} \\div 2^{2.5} = 21^x$\n$\\Leftrightarrow 21^{3.5} \\times 21^2 \\times 21^{2.5} = 21^x$\n$\\Leftrightarrow 21^{(3.5+2+2.5)} = 21^x \\Leftrightarrow 21^8 = 21^x \\Leftrightarrow x = 8.$",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "291",
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "Agriculture Officers', 2009",
+      "passage_text": "",
+      "question_text": "$8^{0.4} \\times 4^{1.6} \\times 2^{1.6} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "48",
+      "option_b": "52",
+      "option_c": "64",
+      "option_d": "76",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "$8^{0.4} \\times 4^{1.6} \\times 2^{1.6} = (2^3)^{0.4} \\times (2^2)^{1.6} \\times 2^{1.6}$\n$= 2^{(3 \\times 0.4)} \\times 2^{(2 \\times 1.6)} \\times 2^{1.6}$\n$= 2^{1.2} \\times 2^{3.2} \\times 2^{1.6} = 2^{(1.2+3.2+1.6)} = 2^6 = 64.$",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "$8^7 \\times 2^6 \\div 8^{2.4} = 8^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6.6",
+      "option_b": "8.6",
+      "option_c": "9.6",
+      "option_d": "10.6",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $8^7 \\times 2^6 \\div 8^{2.4} = 8^x$.\nThen, $8^7 \\times (2^3)^2 \\div 8^{2.4} = 8^x$\n$\\Leftrightarrow 8^7 \\times 8^2 \\div 8^{2.4} = 8^x$\n$\\Leftrightarrow 8^x = 8^{(7 + 2 - 2.4)}$\n$\\Leftrightarrow 8^x = 8^{6.6}$\n$\\Leftrightarrow x = 6.6$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "$25^{2.7} \\times 5^{4.2} \\div 5^{5.4} = 25^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.6",
+      "option_b": "1.7",
+      "option_c": "3.2",
+      "option_d": "3.6",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $25^{2.7} \\times 5^{4.2} \\div 5^{5.4} = 25^x$.\nThen, $(25)^{2.7} \\times 5^{(4.2 - 5.4)} = 25^x$\n$\\Leftrightarrow (25)^{2.7} \\times 5^{-1.2} = 25^x$\n$\\Leftrightarrow (25)^{2.7} \\times \\frac{1}{(25)^{0.6}} = 25^x$\n$\\Leftrightarrow \\frac{(25)^{2.7}}{(25)^{0.6}} = 25^x$\n$\\Leftrightarrow 25^x = 25^{(2.7 - 0.6)} = 25^{2.1}$\n$\\Leftrightarrow x = 2.1$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "$8^{2.4} \\times 2^{3.7} - (16)^{1.3} = 2^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4.8",
+      "option_b": "5.7",
+      "option_c": "5.8",
+      "option_d": "7.1",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $8^{2.4} \\times 2^{3.7} \\div (16)^{1.3} = 2^x$.\nThen, $(2^3)^{2.4} \\times 2^{3.7} \\div (2^4)^{1.3} = 2^x$\n$\\Leftrightarrow 2^{(3 \\times 2.4)} \\times 2^{3.7} \\div 2^{(4 \\times 1.3)} = 2^x$\n$\\Leftrightarrow 2^{7.2} \\times 2^{3.7} \\div 2^{5.2} = 2^x$\n$\\Leftrightarrow 2^x = 2^{(7.2 + 3.7 - 5.2)} = 2^{5.7}$\n$\\Leftrightarrow x = 5.7$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "$(0.04)^2 \\div (0.008) \\times (0.2)^6 = (0.2)^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "6",
+      "option_c": "8",
+      "option_d": "9",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $(0.04)^2 \\div (0.008) \\times (0.2)^6 = (0.2)^x$.\nThen, $(0.2)^x = [(0.2)^2]^2 \\div (0.2)^3 \\times (0.2)^6$\n$\\Leftrightarrow (0.2)^x = (0.2)^{(2 \\times 2)} \\div (0.2)^3 \\times (0.2)^6$\n$\\Leftrightarrow (0.2)^x = (0.2)^4 \\div (0.2)^3 \\times (0.2)^6 = (0.2)^{(4 - 3 + 6)} = (0.2)^7$\n$\\Leftrightarrow x = 7$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "65",
+      "exam_reference": "Bank P.O., 2003",
+      "passage_text": "",
+      "question_text": "$(18)^{3.5} \\div (27)^{3.5} \\times 6^{3.5} = 2^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3.5",
+      "option_b": "4.5",
+      "option_c": "6",
+      "option_d": "7",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "$(18)^{3.5} \\div (27)^{3.5} \\times 6^{3.5} = 2^x$\n$\\Leftrightarrow \\frac{(18)^{3.5} \\times 6^{3.5}}{(27)^{3.5}} = 2^x$\n$\\Leftrightarrow \\frac{(3^2 \\times 2)^{3.5} \\times (2 \\times 3)^{3.5}}{(3^3)^{3.5}} = 2^x$\n$\\Leftrightarrow \\frac{(3^{3.5} \\times 2^{3.5} \\times 3^{3.5}) \\times (2^{3.5} \\times 3^{3.5})}{3^{10.5}} = 2^x$\n$\\Leftrightarrow \\frac{3^{(3.5 + 3.5 + 3.5)} \\times 2^{(3.5 + 3.5)}}{3^{10.5}} = 2^x$\n$\\Leftrightarrow \\frac{3^{10.5} \\times 2^7}{3^{10.5}} = 2^x$\n$\\Leftrightarrow 2^7 = 2^x \\Leftrightarrow x = 7$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "66",
+      "exam_reference": "Bank P.O., 2003",
+      "passage_text": "",
+      "question_text": "$(25)^{7.5} \\times (5)^{2.5} \\div (125)^{1.5} = 5^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8.5",
+      "option_b": "13",
+      "option_c": "16",
+      "option_d": "17.5",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let $(25)^{7.5} \\times (5)^{2.5} \\div (125)^{1.5} = 5^x$.\nThen, $\\frac{(5^2)^{7.5} \\times 5^{2.5}}{(5^3)^{1.5}} = 5^x$\n$\\Leftrightarrow \\frac{5^{15} \\times 5^{2.5}}{5^{4.5}} = 5^x$\n$\\Leftrightarrow 5^{(15 + 2.5 - 4.5)} = 5^x$\n$\\Leftrightarrow 5^{13} = 5^x \\Leftrightarrow x = 13$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "67",
+      "exam_reference": "C.B.I., 2003",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{(243)^{0.13} \\times (243)^{0.07}}{(7)^{0.25} \\times (49)^{0.075} \\times (343)^{0.2}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{7}$",
+      "option_b": "$\\frac{7}{3}$",
+      "option_c": "$1\\frac{3}{7}$",
+      "option_d": "$2\\frac{2}{7}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\frac{(243)^{0.13} \\times (243)^{0.07}}{7^{0.25} \\times (49)^{0.075} \\times (343)^{0.2}}$\n$= \\frac{(243)^{(0.13 + 0.07)}}{7^{0.25} \\times (7^2)^{0.075} \\times (7^3)^{0.2}}$\n$= \\frac{(243)^{0.2}}{7^{0.25} \\times 7^{0.15} \\times 7^{0.6}}$\n$= \\frac{(3^5)^{0.2}}{7^{(0.25 + 0.15 + 0.6)}} = \\frac{3^1}{7^1} = \\frac{3}{7}$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "68",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "$(64x^3 \\div 27a^{-3})^{-\\frac{2}{3}} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{9ax}{16}$",
+      "option_b": "$\\frac{9}{16ax}$",
+      "option_c": "$\\frac{9}{16x^2a^2}$",
+      "option_d": "$\\frac{3}{4}x^{-2}a^{-2}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{(64x^3 + 27a^{-3})^{-\\frac{2}{3}}}{(27a^{-3})^{-\\frac{2}{3}}} = \\left( \\frac{64x^3}{27a^{-3}} + 1 \\right)^{-\\frac{2}{3}}$\n$= \\left( \\frac{64x^3}{27a^{-3}} \\right)^{-\\frac{2}{3}} \\times \\dots$ (simplified as follows)\n$= \\frac{\\{(4x)^3\\}^{-\\frac{2}{3}} \\cdot \\{(3a^{-1})^3\\}^{-\\frac{2}{3}}}{\\{(3a^{-1})^3\\}^{-\\frac{2}{3}}}$\n$= \\frac{(4x)^{-2} \\cdot (3a^{-1})^{-2}}{(3a^{-1})^{-2}}$\n$= (4x)^{-2} = \\frac{1}{16x^2}$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "69",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2^{n+4} - 2^{n+2} = 3$, then $n$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "2",
+      "option_c": "$-1$",
+      "option_d": "$-2$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$2^{n + 4} - 2^{n + 2} = 3$\n$\\Leftrightarrow 2^{n + 2} (2^2 - 1) = 3$\n$\\Leftrightarrow 2^{n + 2} (3) = 3$\n$\\Leftrightarrow 2^{n + 2} = 1 = 2^0$\n$\\Leftrightarrow n + 2 = 0 \\Leftrightarrow n = -2$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "70",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2^{n-1} + 2^{n+1} = 320$, then $n$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "8",
+      "option_c": "5",
+      "option_d": "7",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$2^{n - 1} + 2^{n + 1} = 320$\n$\\Leftrightarrow 2^{n - 1} (1 + 2^2) = 320$\n$\\Leftrightarrow 5 \\times 2^{n - 1} = 320$\n$\\Leftrightarrow 2^{n - 1} = \\frac{320}{5} = 64 = 2^6$\n$\\Leftrightarrow n - 1 = 6 \\Leftrightarrow n = 7$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "71",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $3^x - 3^{x-1} = 18$, then the value of $x^x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "8",
+      "option_c": "27",
+      "option_d": "216",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$3^x - 3^{x - 1} = 18$\n$\\Leftrightarrow 3^{x - 1} (3 - 1) = 18$\n$\\Leftrightarrow 3^{x - 1} (2) = 18$\n$\\Leftrightarrow 3^{x - 1} = 9 = 3^2$\n$\\Leftrightarrow x - 1 = 2 \\Leftrightarrow x = 3$.\n$\\therefore x^x = 3^3 = 27$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "72",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\\frac{2^{n+4} - 2 \\times 2^n}{2 \\times 2^{n+3}} + 2^{-3}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2^{n+1}$",
+      "option_b": "$\\frac{9}{8} - 2^n$",
+      "option_c": "$1 - 2^{n+1} + \\frac{1}{8}$",
+      "option_d": "1",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\\frac{2^{n + 4} - 2 \\times 2^n}{2 \\times 2^{n + 3}} + 2^{-3} = \\frac{2^n (2^4 - 2)}{2^{n + 4}} + \\frac{1}{8}$\n$= \\frac{2^n (14)}{2^n \\times 16} + \\frac{1}{8}$\n$= \\frac{14}{16} + \\frac{1}{8} = \\frac{7}{8} + \\frac{1}{8} = \\frac{8}{8} = 1$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "73",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{2^{3x+4} + 8^{x+1}}{8^{x+1} - 2^{3x+2}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "4",
+      "option_c": "5",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{2^{3x + 4} + 2^{8x + 1}}{2^{8x + 1} - 2^{3x + 2}} = \\frac{2^{3x + 4} + 2^{3x + 1}}{2^{3x + 1} - 2^{3x + 2}}$\n$= \\frac{2^{3x + 1} (2^3 + 1)}{2^{3x + 1} (1 - 2)} = \\frac{9}{-1} = -9$ (Note: The provided solution in the book calculates this as $3 \\times 2 = 6$ based on different grouping).",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "74",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{2^{n-1} - 2^n}{2^{n+4} + 2^{n+1}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-\\frac{1}{36}$",
+      "option_b": "$\\frac{2}{3}$",
+      "option_c": "$\\frac{1}{13}$",
+      "option_d": "$\\frac{5}{13}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\frac{2^{n - 1} - 2^n}{2^{n + 4} + 2^{n + 1}} = \\frac{2^{n - 1} (1 - 2)}{2^{n + 1} (2^3 + 1)}$\n$= \\frac{2^{n - 1} (-1)}{2^{n + 1} (9)} = \\frac{-1}{2^2 \\times 9} = \\frac{-1}{4 \\times 9} = -\\frac{1}{36}$.",
+      "page_numbers": [
+        "285"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "75",
+      "exam_reference": "A.A.O. Exam, 2009",
+      "passage_text": "",
+      "question_text": "If $x = 5 + 2\\sqrt{6}$, then $\\sqrt{x} - \\frac{1}{\\sqrt{x}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2\\sqrt{2}$",
+      "option_b": "$2\\sqrt{3}$",
+      "option_c": "$\\sqrt{3} + \\sqrt{2}$",
+      "option_d": "$\\sqrt{3} - \\sqrt{2}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\left( \\sqrt{x} - \\frac{1}{\\sqrt{x}} \\right)^2 = x + \\frac{1}{x} - 2 = (5 + 2\\sqrt{6}) + \\frac{1}{5 + 2\\sqrt{6}} - 2$\n$= (5 + 2\\sqrt{6}) + \\frac{5 - 2\\sqrt{6}}{(5 + 2\\sqrt{6})(5 - 2\\sqrt{6})} - 2$\n$= 5 + 2\\sqrt{6} + 5 - 2\\sqrt{6} - 2 = 10 - 2 = 8$.\n$\\therefore \\left( \\sqrt{x} - \\frac{1}{\\sqrt{x}} \\right) = \\sqrt{8} = 2\\sqrt{2}$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "292"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "76",
+      "exam_reference": "Section Officers', 2005",
+      "passage_text": "",
+      "question_text": "$(4 + \\sqrt{7})$, expressed as a perfect square, is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\left(2 + \\sqrt{7}\\right)^2$",
+      "option_b": "$\\left(\\frac{\\sqrt{7}+1}{2}\\right)^2$",
+      "option_c": "$\\left\\{\\frac{1}{2}(\\sqrt{7}+1)\\right\\}^2$",
+      "option_d": "$\\left(\\sqrt{3}+\\sqrt{4}\\right)^2$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$4 + \\sqrt{7} = \\frac{7}{2} + \\frac{1}{2} + 2 \\times \\frac{\\sqrt{7}}{\\sqrt{2}} \\times \\frac{1}{\\sqrt{2}}$\n$= \\left( \\sqrt{\\frac{7}{2}} \\right)^2 + \\left( \\sqrt{\\frac{1}{2}} \\right)^2 + 2 \\times \\sqrt{\\frac{7}{2}} \\times \\sqrt{\\frac{1}{2}}$\n$= \\left( \\sqrt{\\frac{7}{2}} + \\sqrt{\\frac{1}{2}} \\right)^2 = \\frac{1}{2} (\\sqrt{7} + 1)^2$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "293"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "77",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "$\\sqrt{8 - 2\\sqrt{15}}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\sqrt{3} - \\sqrt{5}$",
+      "option_b": "$\\sqrt{5} - \\sqrt{3}$",
+      "option_c": "$\\sqrt{5} - \\sqrt{3}$",
+      "option_d": "$\\sqrt{5} + \\sqrt{3}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\sqrt{8 - 2\\sqrt{15}} = \\sqrt{5 + 3 - 2\\sqrt{5} \\times \\sqrt{3}}$\n$= \\sqrt{(\\sqrt{5})^2 + (\\sqrt{3})^2 - 2\\sqrt{5} \\times \\sqrt{3}}$\n$= \\sqrt{(\\sqrt{5} - \\sqrt{3})^2} = \\sqrt{5} - \\sqrt{3}$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "293"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "78",
+      "exam_reference": "A.A.O. Exam, 2010",
+      "passage_text": "",
+      "question_text": "$\\sqrt{6 - 4\\sqrt{3} + \\sqrt{16 - 8\\sqrt{3}}}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1 - \\sqrt{3}$",
+      "option_b": "$\\sqrt{3} - 1$",
+      "option_c": "$2(2 - \\sqrt{3})$",
+      "option_d": "$2(2 + \\sqrt{3})$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\sqrt{6 - 4\\sqrt{3}} + \\sqrt{16 - 8\\sqrt{3}} = \\sqrt{6 - 4\\sqrt{3}} + \\sqrt{12 + 4 - 8\\sqrt{3}}$\n$= \\sqrt{6 - 4\\sqrt{3}} + \\sqrt{(2\\sqrt{3})^2 + (2)^2 - 2 \\times 2\\sqrt{3} \\times 2}$\n$= \\sqrt{6 - 4\\sqrt{3}} + (2\\sqrt{3} - 2)$\n$= \\sqrt{(\\sqrt{3})^2 + (1)^2 - 2 \\times \\sqrt{3} \\times 1} + 2\\sqrt{3} - 2$\n$= (\\sqrt{3} - 1) + 2\\sqrt{3} - 2 = 3\\sqrt{3} - 3$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "293"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "79",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{1}{\\sqrt{12 - \\sqrt{140}}} - \\frac{1}{\\sqrt{8 - \\sqrt{60}}} - \\frac{2}{\\sqrt{10 + \\sqrt{84}}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "1",
+      "option_c": "2",
+      "option_d": "3",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\\frac{1}{\\sqrt{12 - \\sqrt{140}}} - \\frac{1}{\\sqrt{8 - \\sqrt{60}}} - \\frac{2}{\\sqrt{10 + \\sqrt{84}}}$\n$= \\frac{1}{\\sqrt{7} - \\sqrt{5}} - \\frac{1}{\\sqrt{5} - \\sqrt{3}} - \\frac{2}{\\sqrt{7} + \\sqrt{3}}$\n$= \\frac{\\sqrt{7} + \\sqrt{5}}{2} - \\frac{\\sqrt{5} + \\sqrt{3}}{2} - \\frac{2(\\sqrt{7} - \\sqrt{3})}{4}$\n$= \\frac{\\sqrt{7} + \\sqrt{5} - \\sqrt{5} - \\sqrt{3} - \\sqrt{7} + \\sqrt{3}}{2} = 0$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "293"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "80",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of the expression $\\sqrt{4 + \\sqrt{15}} + \\sqrt{4 - \\sqrt{15}} - \\sqrt{12 - 4\\sqrt{5}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "an irrational number",
+      "option_b": "a negative integer",
+      "option_c": "a natural number",
+      "option_d": "a non-integer rational number",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\sqrt{4 + \\sqrt{15}} = \\sqrt{\\frac{5}{2} + \\frac{3}{2} + 2 \\times \\frac{\\sqrt{5}}{\\sqrt{2}} \\times \\frac{\\sqrt{3}}{\\sqrt{2}}} = \\frac{\\sqrt{5} + \\sqrt{3}}{\\sqrt{2}}$\nSimilarly, $\\sqrt{4 - \\sqrt{15}} = \\frac{\\sqrt{5} - \\sqrt{3}}{\\sqrt{2}}$\n$\\sqrt{12 - 4\\sqrt{5}} = \\sqrt{10 + 2 - 2\\sqrt{10} \\times \\sqrt{2}} = \\sqrt{10} - \\sqrt{2}$\nGiven expression $= \\left( \\frac{\\sqrt{5} + \\sqrt{3}}{\\sqrt{2}} \\right) \\left( \\frac{\\sqrt{5} - \\sqrt{3}}{\\sqrt{2}} \\right) - (\\sqrt{10} - \\sqrt{2}) = \\frac{5 - 3}{2} - \\sqrt{10} + \\sqrt{2} = 1 - \\sqrt{10} + \\sqrt{2}$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "293"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "81",
+      "exam_reference": "A.A.O. Exam., 2009",
+      "passage_text": "",
+      "question_text": "If $N = \\frac{\\sqrt{5+2} + \\sqrt{5-2}}{\\sqrt{5+1}} - 3 - 2\\sqrt{2}$, then the value of $N$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2\\sqrt{2} - 1$",
+      "option_b": "3",
+      "option_c": "1",
+      "option_d": "2",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let $X = \frac{\\sqrt{5}+2+\\sqrt{5}-2}{\\sqrt{5}+1}$\nThen $X^2 = \\frac{(\\sqrt{5}+2+\\sqrt{5}-2)^2}{(\\sqrt{5}+1)^2}$\n$= \\frac{(\\sqrt{5}+2)+(\\sqrt{5}-2)+2\\sqrt{(\\sqrt{5}+2)(\\sqrt{5}-2)}}{(\\sqrt{5}+1)}$\n$= \\frac{2\\sqrt{5}+2\\sqrt{(\\sqrt{5})^2-(2)^2}}{5+1+2\\sqrt{5}}$\n$= \\frac{2\\sqrt{5}+2\\sqrt{5-4}}{6+2\\sqrt{5}}$\n$= \\frac{2(\\sqrt{5}+1)}{2(3+\\sqrt{5})}$\n$= 2$\n$\\Rightarrow X = \\sqrt{2}$.\n$\\therefore N = \\sqrt{2}-\\sqrt{3-2\\sqrt{2}} = \\sqrt{2}-\\sqrt{(\\sqrt{2}-1)^2} = \\sqrt{2}-(\\sqrt{2}-1) = 1$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "293"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "82",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Given that $10^{0.48} = x$, $10^{0.70} = y$ and $x^z = y^2$, then the value of $z$ is close to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.45",
+      "option_b": "1.88",
+      "option_c": "2.9",
+      "option_d": "3.7",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$x^z = y^2 \\Leftrightarrow (10^{0.48})^z = (10^{0.70})^2$\n$\\Leftrightarrow 10^{(0.48z)} = 10^{(2\\times0.70)} = 10^{1.40}$\n$\\Leftrightarrow 0.48z = 1.40$\n$\\Leftrightarrow z = \\frac{140}{48} = \\frac{35}{12} = 2.9$ (approx.).",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "293"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "83",
+      "exam_reference": "S.S.C., 2001",
+      "passage_text": "",
+      "question_text": "If $m$ and $n$ are whole numbers such that $m^n = 121$, then the value of $(m - 1)^{n+1}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "10",
+      "option_c": "121",
+      "option_d": "1000",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "We know that $11^2 = 121$.\nPutting $m = 11$ and $n = 2$, we get :\n$(m-1)^{n+1} = (11-1)^{(2+1)} = 10^3 = 1000$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "293"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "84",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Number of prime factors in $(216)^{\\frac{3}{5}} \\times (2500)^{\\frac{2}{5}} \\times (300)^{\\frac{1}{5}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "7",
+      "option_c": "8",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$(216)^{\\frac{2}{3}} \\times (2500)^{\\frac{1}{2}} \\times (300)^{\\frac{1}{2}} = (3^3 \\times 2^3)^{\\frac{2}{3}} \\times (5^4 \\times 2^2)^{\\frac{1}{2}} \\times (5^2 \\times 2^2 \\times 3)^{\\frac{1}{2}}$\n$= 3^{(3\\times\\frac{2}{3})} \\times 2^{(3\\times\\frac{2}{3})} \\times 5^{(4\\times\\frac{1}{2})} \\times 2^{(2\\times\\frac{1}{2})} \\times 5^{(2\\times\\frac{1}{2})} \\times 2^{(2\\times\\frac{1}{2})} \\times 3^{\\frac{1}{2}}$\n$= 3^2 \\times 2^2 \\times 5^2 \\times 2^1 \\times 5^1 \\times 2^1 \\times 3^{\\frac{1}{2}}$\n$= 3^{(2+\\frac{1}{2})} \\times 2^{(2+1+1)} \\times 5^{(2+1)} = 3^{\\frac{5}{2}} \\times 2^4 \\times 5^3$.\nHence, the number of prime factors = $(2+3+2) = 7$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "85",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Number of prime factors in $\\frac{6^{12} \\times (35)^{28} \\times (15)^{16}}{(14)^{12} \\times (21)^{11}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "56",
+      "option_b": "66",
+      "option_c": "112",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\\frac{6^{12} \\times (35)^{28} \\times (15)^{16}}{(14)^{12} \\times (21)^{11}} = \\frac{(2 \\times 3)^{12} \\times (5 \\times 7)^{28} \\times (3 \\times 5)^{16}}{(2 \\times 7)^{12} \\times (3 \\times 7)^{11}}$\n$= \\frac{2^{12} \\times 3^{12} \\times 5^{28} \\times 7^{28} \\times 3^{16} \\times 5^{16}}{2^{12} \\times 7^{12} \\times 3^{11} \\times 7^{11}}$\n$= 2^{(12-12)} \\times 3^{(12+16-11)} \\times 5^{(28+16)} \\times 7^{(28-12-11)}$\n$= 2^0 \\times 3^{17} \\times 5^{44} \\times 7^5 = 3^{17} \\times 5^{44} \\times 7^5$.\nNumber of prime factors = $17 + 44 + 5 = 66$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "86",
+      "exam_reference": "Section Officers', 2005",
+      "passage_text": "",
+      "question_text": "$1 + (3 + 1) (3^2 + 1) (3^4 + 1) (3^8 + 1) (3^{16} + 1) (3^{32} + 1)$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3^{64} - 1}{2}$",
+      "option_b": "$\\frac{3^{64} + 1}{2}$",
+      "option_c": "$3^{64} - 1$",
+      "option_d": "$3^{64} + 1$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$1 + (3+1)(3^2+1)(3^4+1)(3^8+1)(3^{16}+1)(3^{32}+1)$\n$= 1 + \\frac{1}{2} [(3-1)(3+1)(3^2+1)(3^4+1)(3^8+1)(3^{16}+1)(3^{32}+1)]$\n$= 1 + \\frac{1}{2} [(3^2-1)(3^2+1)(3^4+1)(3^8+1)(3^{16}+1)(3^{32}+1)]$\n$= 1 + \\frac{1}{2} [(3^4-1)(3^4+1)(3^8+1)(3^{16}+1)(3^{32}+1)]$\n$= 1 + \\frac{1}{2} [(3^8-1)(3^8+1)(3^{16}+1)(3^{32}+1)]$\n$= 1 + \\frac{1}{2} [(3^{16}-1)(3^{16}+1)(3^{32}+1)]$\n$= 1 + \\frac{1}{2} [(3^{32}-1)(3^{32}+1)]$\n$= 1 + \\frac{3^{64}-1}{2} = \\frac{2+3^{64}-1}{2} = \\frac{3^{64}+1}{2}$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "87",
+      "exam_reference": "M.B.A., 2003; NMAT, 2006",
+      "passage_text": "",
+      "question_text": "$\\frac{1}{1 + a^{n-m}} + \\frac{1}{1 + a^{m-n}} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "$\\frac{1}{2}$",
+      "option_c": "1",
+      "option_d": "$a^{m+n}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{1}{1+a^{(n-m)}} + \\frac{1}{1+a^{(m-n)}} = \\frac{1}{1+\\frac{a^n}{a^m}} + \\frac{1}{1+\\frac{a^m}{a^n}}$\n$= \\frac{a^m}{a^m+a^n} + \\frac{a^n}{a^n+a^m} = \\frac{a^m+a^n}{a^m+a^n} = 1$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "88",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $a + b + c = 0$, then the value of $(x^a)^{b-c} \\cdot (x^b)^{c-a} \\cdot (x^c)^{a-b}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-2$",
+      "option_b": "$-1$",
+      "option_c": "0",
+      "option_d": "1",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$(x^a)^{a^2-bc} \\cdot (x^b)^{b^2-ca} \\cdot (x^c)^{c^2-ab}$\n$= x^{a(a^2-bc)} \\cdot x^{b(b^2-ca)} \\cdot x^{c(c^2-ab)}$\n$= x^{(a^3-abc)} \\cdot x^{(b^3-abc)} \\cdot x^{(c^3-abc)}$\n$= x^{(a^3-abc+b^3-abc+c^3-abc)}$\n$= x^{(a^3+b^3+c^3-3abc)}$\n$= x^{(3abc-3abc)} = x^0 = 1$.\n[$\\because$ If $a+b+c=0, a^3+b^3+c^3=3abc$]",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "89",
+      "exam_reference": "M.B.A., 2003",
+      "passage_text": "",
+      "question_text": "$\\frac{1}{1 + x^{b-a} + x^{c-a}} + \\frac{1}{1 + x^{a-b} + x^{c-b}} + \\frac{1}{1 + x^{b-c} + x^{a-c}} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "1",
+      "option_c": "$x^{a-b-c}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given Exp. = $\\frac{1}{1+x^{(b-a)}+x^{(c-a)}} + \\frac{1}{1+x^{(a-b)}+x^{(c-b)}} + \\frac{1}{1+x^{(a-c)}+x^{(b-c)}}$\n$= \\frac{x^a}{x^a+x^b+x^c} + \\frac{x^b}{x^b+x^a+x^c} + \\frac{x^c}{x^c+x^a+x^b}$\n$= \\frac{x^a+x^b+x^c}{x^a+x^b+x^c} = 1$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "90",
+      "exam_reference": "NMAT, 2005; L.I.C., 2003",
+      "passage_text": "",
+      "question_text": "$\\left(\\frac{x^b}{x^c}\\right)^{b+c-a} \\cdot \\left(\\frac{x^c}{x^a}\\right)^{c+a-b} \\cdot \\left(\\frac{x^a}{x^b}\\right)^{a+b-c} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$x^{abc}$",
+      "option_b": "1",
+      "option_c": "$x^{ab+bc+ca}$",
+      "option_d": "$x^{a+b+c}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given Exp. = $x^{(b-c)(b+c-a)} \\cdot x^{(c-a)(c+a-b)} \\cdot x^{(a-b)(a+b-c)}$\n$= x^{(b^2-c^2-a(b-c))} \\cdot x^{(c^2-a^2-b(c-a))} \\cdot x^{(a^2-b^2-c(a-b))}$\n$= x^{(b^2-c^2+c^2-a^2+a^2-b^2)} \\cdot x^{(-ab+ac-bc+ba-ca+cb)}$\n$= (x^0 \\times x^0) = (1 \\times 1) = 1$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "91",
+      "exam_reference": "M.B.A., 2006",
+      "passage_text": "",
+      "question_text": "$\\left(\\frac{x^a}{x^b}\\right)^{a+b} \\cdot \\left(\\frac{x^b}{x^c}\\right)^{b+c} \\cdot \\left(\\frac{x^c}{x^a}\\right)^{c+a} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "$x^{abc}$",
+      "option_c": "$x^{a+b+c}$",
+      "option_d": "1",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given Exp. = $x^{(a-b)(a+b)} \\cdot x^{(b-c)(b+c)} \\cdot x^{(c-a)(c+a)}$\n$= x^{(a^2-b^2)} \\cdot x^{(b^2-c^2)} \\cdot x^{(c^2-a^2)}$\n$= x^{(a^2-b^2+b^2-c^2+c^2-a^2)} = x^0 = 1$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "92",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\\left(\\frac{x^a}{x^b}\\right)^{\\frac{1}{ab}} \\cdot \\left(\\frac{x^b}{x^c}\\right)^{\\frac{1}{bc}} \\cdot \\left(\\frac{x^c}{x^a}\\right)^{\\frac{1}{ca}} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "$\\frac{1}{x^{abc}}$",
+      "option_c": "$\\frac{1}{x^{ab+bc+ca}}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given Exp. = $\\left\\{x^{\\frac{1}{ab}}\\right\\}^{(a-b)} \\cdot \\left\\{x^{\\frac{1}{bc}}\\right\\}^{(b-c)} \\cdot \\left\\{x^{\\frac{1}{ca}}\\right\\}^{(c-a)}$\n$= x^{\\frac{a-b}{ab}} \\cdot x^{\\frac{b-c}{bc}} \\cdot x^{\\frac{c-a}{ca}}$\n$= x^{(\\frac{1}{b}-\\frac{1}{a} + \\frac{1}{c}-\\frac{1}{b} + \\frac{1}{a}-\\frac{1}{c})}$\n$= x^0 = 1$.",
+      "page_numbers": [
+        "286"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "93",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The expression $\\frac{\\left(x + \\frac{1}{y}\\right)^a \\left(x - \\frac{1}{y}\\right)^b}{\\left(y + \\frac{1}{x}\\right)^a \\left(y - \\frac{1}{x}\\right)^b}$ reduces to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\left(\\frac{x}{y}\\right)^{a-b}$",
+      "option_b": "$\\left(\\frac{y}{x}\\right)^{a-b}$",
+      "option_c": "$\\left(\\frac{x}{y}\\right)^{a+b}$",
+      "option_d": "$\\left(\\frac{y}{x}\\right)^{a+b}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given Exp. = $\\left(\\frac{xy+1}{y}\\right)^a \\cdot \\left(\\frac{xy-1}{y}\\right)^b \\cdot \\left(\\frac{xy+1}{x}\\right)^{-a} \\cdot \\left(\\frac{xy-1}{x}\\right)^{-b}$\n$= \\frac{(xy+1)^a}{y^a} \\cdot \\frac{(xy-1)^b}{y^b} \\cdot \\frac{x^a}{(xy+1)^a} \\cdot \\frac{x^b}{(xy-1)^b}$\n$= \\frac{x^{(a+b)}}{y^{(a+b)}} = \\left(\\frac{x}{y}\\right)^{(a+b)}$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "94",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $(x^{\\frac{1}{b-c}})^{\\frac{1}{a-b}} \\cdot (x^{\\frac{1}{c-a}})^{\\frac{1}{b-c}} \\cdot (x^{\\frac{1}{a-b}})^{\\frac{1}{c-a}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "a",
+      "option_c": "b",
+      "option_d": "c",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given Exp. = $x^{\\frac{b+c}{(b-c)(c-a)}} \\cdot x^{\\frac{c+a}{(c-a)(a-b)}} \\cdot x^{\\frac{a+b}{(a-b)(b-c)}}$\n$= x^{\\frac{(b+c)(a-b)+(c+a)(b-c)+(a+b)(c-a)}{(a-b)(b-c)(c-a)}}$\n$= x^{\\frac{ab-b^2+ac-bc+bc-c^2+ab-ac+ac-a^2+bc-ab}{(a-b)(b-c)(c-a)}}$\n$= x^{\\frac{-(a^2+b^2+c^2-ab-bc-ca)}{(a-b)(b-c)(c-a)}} = x^0 = 1$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "95",
+      "exam_reference": "M.B.A. 2008",
+      "passage_text": "",
+      "question_text": "If $x^{\\frac{1}{p}} = y^{\\frac{1}{q}} = z^{\\frac{1}{r}}$ and $xyz = 1$, then the value of $p + q + r$ would be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "1",
+      "option_c": "2",
+      "option_d": "a rational number",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let $\\frac{1}{p} = \\frac{1}{q} = \\frac{1}{r} = k$. Then, $x = k^p, y = k^q, z = k^r$.\n$\\therefore xyz = 1 \\Rightarrow k^p \\cdot k^q \\cdot k^r = 1 = k^0$\n$\\Rightarrow k^{(p+q+r)} = k^0 \\Rightarrow p+q+r = 0$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "294"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "96",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $a^x = b^y = c^z$ and $b^2 = ac$, then $y$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{xz}{x+z}$",
+      "option_b": "$\\frac{xz}{2(x-z)}$",
+      "option_c": "$\\frac{xz}{2(z-x)}$",
+      "option_d": "$\\frac{2xz}{x+z}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let $a^x = b^y = c^z = k$.\nThen, $a = k^{\\frac{1}{x}}, b = k^{\\frac{1}{y}}, c = k^{\\frac{1}{z}}$.\n$\\therefore b^2 = ac \\Leftrightarrow (k^{\\frac{1}{y}})^2 = k^{\\frac{1}{x}} \\cdot k^{\\frac{1}{z}}$\n$\\Leftrightarrow k^{\\frac{2}{y}} = k^{(\\frac{1}{x} + \\frac{1}{z})} \\Leftrightarrow \\frac{2}{y} = \\frac{x+z}{xz} \\Leftrightarrow y = \\frac{2xz}{x+z}$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "97",
+      "exam_reference": "M.B.A., 2005; R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "If $a^x = b$, $b^y = c$ and $c^z = a$, then the value of $xyz$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "1",
+      "option_c": "$\\frac{1}{abc}$",
+      "option_d": "$abc$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$a^1 = c^z = (b^y)^z = b^{yz} = (a^x)^{yz} = a^{xyz} \\Rightarrow xyz = 1$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "98",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2^x = 4^y = 8^z$ and $\\left(\\frac{1}{2x} + \\frac{1}{4y} + \\frac{1}{6z}\\right) = \\frac{24}{7}$, then the value of $z$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{7}{16}$",
+      "option_b": "$\\frac{7}{32}$",
+      "option_c": "$\\frac{7}{48}$",
+      "option_d": "$\\frac{7}{64}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$2^x = 4^y = 8^z \\Leftrightarrow 2^x = 2^{2y} = 2^{3z} \\Leftrightarrow x = 2y = 3z$.\n$\\therefore \\frac{1}{x} + \\frac{1}{4y} + \\frac{1}{6z} = \\frac{1}{x} + \\frac{1}{2x} + \\frac{1}{2x} = \\frac{2+1+1}{2x} = \\frac{4}{2x} = \\frac{2}{x}$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "99",
+      "exam_reference": "A.A.O. Exam, 2009",
+      "passage_text": "",
+      "question_text": "Suppose $4^a = 5$, $5^b = 6$, $6^c = 7$, $7^d = 8$, then the value of $abcd$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "$\\frac{3}{2}$",
+      "option_c": "2",
+      "option_d": "$\\frac{5}{2}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$8 = 7^d = (6^c)^d = 6^{cd} = (5^b)^{cd} = 5^{bcd} = (4^a)^{bcd} = 4^{abcd}$\n$\\Rightarrow 4^{abcd} = 8 \\Rightarrow (2^2)^{abcd} = 2^3 \\Rightarrow 2^{abcd} = 3$\n$\\Rightarrow abcd = \\frac{3}{2}$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "100",
+      "exam_reference": "C.D.S. 2004",
+      "passage_text": "",
+      "question_text": "If $abc = 1$, then $\\left(\\frac{1}{1 + a + b^{-1}} + \\frac{1}{1 + b + c^{-1}} + \\frac{1}{1 + c + a^{-1}}\\right) =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "1",
+      "option_c": "$\\frac{1}{ab}$",
+      "option_d": "$ab$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given Exp. = $\\frac{1}{1+a+b^{-1}} + \\frac{1}{1+b+c^{-1}} + \\frac{1}{1+c+a^{-1}}$\n$= \\frac{1}{1+a+b^{-1}} + \\frac{b^{-1}}{b^{-1}+1+b^{-1}c^{-1}} + \\frac{ab}{ab+abc+b}$\n$= \\frac{1}{1+a+b^{-1}} + \\frac{b^{-1}}{b^{-1}+1+a} + \\frac{ab}{ab+1+b}$\n$= \\frac{1+b^{-1}+ab}{1+a+b^{-1}} = 1$.\n[$\\because abc = 1 \\Rightarrow (bc)^{-1} = a \\Rightarrow b^{-1}c^{-1} = a$ and $ac = b^{-1}$]",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "101",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $a, b, c$ are real numbers, then the value of $a^{-1}b \\cdot b^{-1}c \\cdot c^{-1}a$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$abc$",
+      "option_b": "$\\sqrt{abc}$",
+      "option_c": "$\\frac{1}{abc}$",
+      "option_d": "1",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{1}{\\sqrt{a}} \\cdot \\sqrt{a} \\cdot \\frac{1}{\\sqrt{b}} \\cdot \\sqrt{b} \\cdot \\frac{1}{\\sqrt{c}} \\cdot \\sqrt{c} = (a^{-1/2} \\cdot a^{1/2}) \\cdot (b^{-1/2} \\cdot b^{1/2}) \\cdot (c^{-1/2} \\cdot c^{1/2})$\n$= (a^{-1/2} \\cdot a^{1/2}) \\cdot (b^{-1/2} \\cdot b^{1/2}) \\cdot (c^{-1/2} \\cdot c^{1/2})$\n$= (1) \\cdot (1) \\cdot (1) = 1$",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "102",
+      "exam_reference": "R.R.B., 2003",
+      "passage_text": "",
+      "question_text": "If $3^{(x-y)} = 27$ and $3^{(x+y)} = 243$, then $x$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "2",
+      "option_c": "4",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$3^{x-y} = 27 = 3^3$\n$\\Leftrightarrow x - y = 3 \\dots (i)$\n$3^{x+y} = 243 = 3^5$\n$\\Leftrightarrow x + y = 5 \\dots (ii)$\nOn solving (i) and (ii), we get $x = 4$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "103",
+      "exam_reference": "M.C.A., 2005",
+      "passage_text": "",
+      "question_text": "If $x^y = y^x$, then $\\left(\\frac{x}{y}\\right)^{\\frac{x}{y}}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$x^{\\frac{y}{x}}$",
+      "option_b": "$x^{\\frac{x}{y}-1}$",
+      "option_c": "1",
+      "option_d": "$x^{\\frac{x}{y}}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let $x^y = y^x = k$.\nThen, $x = k^{1/y}$ and $y = k^{1/x}$.\n$\\therefore \\left(\\frac{x}{y}\\right)^{x/y} = \\left(\\frac{k^{1/y}}{k^{1/x}}\\right)^{x/y} = \\left(k^{\\frac{1}{y} - \\frac{1}{x}}\\right)^{x/y} = \\left(k^{\\frac{x-y}{xy}}\\right)^{x/y} = k^{\\frac{x-y}{y^2}}$\n$= \\left(k^{\\frac{x-y}{xy}}\\right)^{x/y} = \\left(k^{\\frac{x-y}{y^2}}\\right)$",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "104",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $4^{x+y} = 1$ and $4^{x-y} = 4$, then the values of $x$ and $y$ respectively are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$ and $-\\frac{1}{2}$",
+      "option_b": "$-\\frac{1}{2}$ and $-\\frac{1}{2}$",
+      "option_c": "$\\frac{1}{2}$ and $-\\frac{1}{2}$",
+      "option_d": "$\\frac{1}{2}$ and $\\frac{1}{2}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$4^{x+y} = 1 = 4^0 \\Leftrightarrow x + y = 0 \\dots (i)$\n$4^{x-y} = 4 = 4^1 \\Rightarrow x - y = 1 \\dots (ii)$\nAdding (i) and (ii), we get : $2x = 1$ or $x = \\frac{1}{2}$.\nPutting $x = \\frac{1}{2}$ in (i), we get : $y = -\\frac{1}{2}$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "105",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2^{2x-1} + 4^x = \\frac{1}{2^{x-2} + 2}$, then $x$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$\\frac{2}{3}$",
+      "option_c": "$\\frac{3}{2}$",
+      "option_d": "1",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$2^{2x-1} + 4^x = \\frac{2^{2x}}{2} + 2^{2x} = 2^{2x} \\left(\\frac{1}{2} + 1\\right) = 2^{2x} \\left(\\frac{3}{2}\\right)$\n$\\Leftrightarrow 2(2^{x-1})(1 + 2) = 2^{x-1}(1 + 2)$\n$\\Leftrightarrow 2(2^{x-1}) = 2^{x-1} \\Leftrightarrow 2x - 1 = x - 1 \\Leftrightarrow x = \\frac{1}{2}$",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "106",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "If $3^{2x-y} = 3^{x+y} = 27$, the value of $y$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$\\frac{1}{4}$",
+      "option_c": "$\\frac{3}{2}$",
+      "option_d": "$\\frac{3}{4}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$3^{2x-y} = 3^{x+y} = \\sqrt{3^3} = 3^{3/2} \\Leftrightarrow 2x - y = \\frac{3}{2}$ and $x + y = \\frac{3}{2}$\n$\\Leftrightarrow 3x = \\frac{3}{2} + \\frac{3}{2} = 3 \\Leftrightarrow x = 1$.\n$\\therefore y = \\frac{3}{2} - 1 = \\frac{1}{2}$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "107",
+      "exam_reference": "C.D.S., 2002",
+      "passage_text": "",
+      "question_text": "If $3^x = 5^y = 45^z$, then",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{z} = \\frac{1}{y} - \\frac{1}{x}$",
+      "option_b": "$\\frac{2}{y} = \\frac{1}{x} - \\frac{1}{z}$",
+      "option_c": "$\\frac{2}{x} = \\frac{1}{z} - \\frac{1}{y}$",
+      "option_d": "$x + y + z = 0$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let $3^x = 5^y = 45^z = k$. Then, $3 = k^{1/x}, 5 = k^{1/y}, 45 = k^{1/z}$.\n$45 = 3^2 \\times 5$\n$\\Leftrightarrow k^{1/z} = (k^{1/x})^2 \\times k^{1/y} = k^{2/x} \\times k^{1/y} = k^{\\frac{2}{x} + \\frac{1}{y}}$\n$\\Leftrightarrow \\frac{1}{z} = \\frac{2}{x} + \\frac{1}{y}$",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "108",
+      "exam_reference": "M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "Given $2^x = 8^{y+1}$ and $9^y = 3^{x-9}$, the value of $x + y$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "21",
+      "option_c": "24",
+      "option_d": "27",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$2^x = 8^{y+1} \\Leftrightarrow 2^x = (2^3)^{y+1} = 2^{3y+3}$\n$\\Leftrightarrow x = 3y + 3 \\Leftrightarrow x - 3y = 3 \\dots (i)$\n$9^y = 3^{x-9} \\Leftrightarrow (3^2)^y = 3^{x-9}$\n$\\Leftrightarrow 2y = x - 9 \\Leftrightarrow x - 2y = 9 \\dots (ii)$\nSubtracting (i) from (ii), we get: $y = 6$. Putting $y = 6$ in (i),\nwe get $x = 21$.\n$\\therefore x + y = 21 + 6 = 27$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "109",
+      "exam_reference": "C.A.T., 2006",
+      "passage_text": "",
+      "question_text": "What are the values of $x$ and $y$ that satisfy the equation $2^{0.7x} \\cdot 3^{-1.25y} = \\frac{8\\sqrt{6}}{27}$?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$2^{0.7x} \\cdot 3^{-1.25y} = \\frac{8\\sqrt{6}}{27}$\n$\\Leftrightarrow \\frac{2^{0.7x}}{3^{1.25y}} = \\frac{2^3 \\cdot 2^{0.5} \\cdot 3^{0.5}}{3^3} = \\frac{2^{3.5}}{3^{2.5}}$\n$\\therefore 0.7x = 3.5 \\Rightarrow x = \\frac{3.5}{0.7} = 5$ and $1.25y = 2.5$\n$\\Rightarrow y = \\frac{2.5}{1.25} = 2$.",
+      "page_numbers": [
+        "287"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "110",
+      "exam_reference": "M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "Let $r$ be the result of doubling both the base and the exponent of $a^b, b \\neq 0$. If $r$ equals the product of $a^b$ by $x^b$, then $x$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "4",
+      "option_c": "$2a$",
+      "option_d": "$4a$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$r = (2a)^{2b} = 2^{2b} \\times a^{2b} = (2^2)^b \\times (a^b)^2 = 4^b \\times (a^b)^2$.\nAlso, $r = a^b \\times x^b$.\n$\\therefore a^b \\times x^b = 4^b \\times (a^b)^2 \\Leftrightarrow x^b = 4^b \\times a^b = (4a)^b \\Leftrightarrow x = 4a$.",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "111",
+      "exam_reference": "Section Officers', 2005",
+      "passage_text": "",
+      "question_text": "Which of the following is the greatest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\sqrt{2}$",
+      "option_b": "$\\sqrt[3]{3}$",
+      "option_c": "$\\sqrt[4]{4}$",
+      "option_d": "$\\sqrt[6]{6}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "L.C.M. of 2, 3, 4, 6 is 12.\n$\\sqrt{2} = 2^{1/2} = 2^{6/12} = (2^6)^{1/12} = (64)^{1/12} = \\sqrt[12]{64}$.\n$\\sqrt[3]{3} = 3^{1/3} = 3^{4/12} = (3^4)^{1/12} = (81)^{1/12} = \\sqrt[12]{81}$.",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "295"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "112",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The greatest of $\\sqrt{2}, \\sqrt[3]{3}, \\sqrt[4]{4}, \\sqrt[6]{5}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\sqrt{2}$",
+      "option_b": "$\\sqrt[3]{4}$",
+      "option_c": "$\\sqrt[4]{5}$",
+      "option_d": "$\\sqrt[6]{3}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "L.C.M of 2, 3, 4, 6 is 12.\n$\\sqrt{2} = 2^{1/2} = 2^{6/12} = (2^6)^{1/12} = (64)^{1/12} = \\sqrt[12]{64}$.\n$\\sqrt[3]{3} = 3^{1/3} = 3^{4/12} = (3^4)^{1/12} = (81)^{1/12} = \\sqrt[12]{81}$.\n$\\sqrt[4]{4} = 4^{1/4} = 4^{3/12} = (4^3)^{1/12} = (64)^{1/12} = \\sqrt[12]{64}$.\n$\\sqrt[6]{5} = 5^{1/6} = 5^{2/12} = (5^2)^{1/12} = (25)^{1/12} = \\sqrt[12]{25}$.\nClearly, $\\sqrt[12]{81}$ i.e., $\\sqrt[3]{3}$ is the greatest.",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "113",
+      "exam_reference": "I.I.F.T., 2005",
+      "passage_text": "",
+      "question_text": "The largest number in the sequence $2^{\\frac{1}{2}}, 3^{\\frac{1}{3}}, 4^{\\frac{1}{4}}, \\dots, n^{\\frac{1}{n}}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2^{\\frac{1}{2}}$",
+      "option_b": "$3^{\\frac{1}{3}}$",
+      "option_c": "$5^{\\frac{1}{5}}$",
+      "option_d": "$6^{\\frac{1}{6}}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "....",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "114",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $x = 5 + 2\\sqrt{6}$, then $\\frac{(x-1)}{\\sqrt{x}}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\sqrt{2}$",
+      "option_b": "$2\\sqrt{2}$",
+      "option_c": "$\\sqrt{3}$",
+      "option_d": "$2\\sqrt{3}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$x = 5 + 2\\sqrt{6} = 3 + 2 + 2\\sqrt{6} = (\\sqrt{3})^2 + (\\sqrt{2})^2 + 2 \\times \\sqrt{3} \\times \\sqrt{2}$\n$= (\\sqrt{3} + \\sqrt{2})^2$.\nAlso, $(x - 1) = 4 + 2\\sqrt{6} = 2(2 + \\sqrt{6}) = 2\\sqrt{2}(\\sqrt{2} + \\sqrt{3})$.\n$\\therefore \\frac{x-1}{\\sqrt{x}} = \\frac{2\\sqrt{2}(\\sqrt{3} + \\sqrt{2})}{\\sqrt{3} + \\sqrt{2}} = 2\\sqrt{2}$.",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "115",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $x^{\\frac{1}{3}} + y^{\\frac{1}{3}} = z^{\\frac{1}{3}}$, then ${(x + y - z)}^3 + 27xyz$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-1$",
+      "option_b": "0",
+      "option_c": "1",
+      "option_d": "27",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$x^{1/3} + y^{1/3} = z^{1/3} \\Rightarrow (x^{1/3} + y^{1/3})^3 = (z^{1/3})^3$\n$\\Rightarrow x + y + 3x^{1/3}y^{1/3}(x^{1/3} + y^{1/3}) = z$\n$\\Rightarrow x + y + 3x^{1/3}y^{1/3}z^{1/3} = z$\n$\\Rightarrow x + y - z = -3x^{1/3}y^{1/3}z^{1/3}$\n$\\Rightarrow (x + y - z)^3 = (-3x^{1/3}y^{1/3}z^{1/3})^3$\n$\\Rightarrow (x + y - z)^3 = -27xyz \\Rightarrow (x + y - z)^3 + 27xyz = 0$.",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "116",
+      "exam_reference": "R.R.B., 2008",
+      "passage_text": "",
+      "question_text": "If $x = 2^{\\frac{2}{3}} + 2^{\\frac{1}{3}} + 2$, then the value of $x^3 - 6x^2 + 6x$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "2",
+      "option_c": "3",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$x = 2^{2/3} + 2^{1/3} \\Rightarrow (x - 2)^3 = (2^{2/3} + 2^{1/3})^3$\n$\\Rightarrow (x - 2)^3 = (2^{2/3})^3 + (2^{1/3})^3 + 3 \\cdot 2^{2/3} \\cdot 2^{1/3} (2^{2/3} + 2^{1/3})$\n$= 2^2 + 2^1 + 3 \\cdot 2^1 (2^{2/3} + 2^{1/3})$\n$\\Rightarrow (x - 2)^3 = 6 + 6(x - 2) = 6 + 6x - 12$\n$\\Rightarrow (x - 2)^3 = 6x - 6 \\Rightarrow x^3 - 8 - 6x(x - 2) = 6x - 6$\n$\\Rightarrow x^3 - 8 - 6x^2 + 12x = 6x - 6 \\Rightarrow x^3 - 6x^2 + 6x = 2$.",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "117",
+      "exam_reference": "ESIC—UDC Exam, 2016",
+      "passage_text": "",
+      "question_text": "Find the value of $(-2)^5 \\times (2)^{-5} \\times (3)^3$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-108$",
+      "option_b": "27",
+      "option_c": "$(2)^5 \\times (3)^3$",
+      "option_d": "$-27$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression $(-2)^5 \\times (2)^{-5} \\times (3)^3$\n$= \\frac{(-2)^5 \\times (3)^3}{2^5} = \\frac{-32 \\times 27}{32} = -27$",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "118",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The quotient when $10^{100}$ is divided by $5^{75}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2^{25} \\times 10^{75}$",
+      "option_b": "$10^{25}$",
+      "option_c": "$2^{75}$",
+      "option_d": "$2^{75} \\times 10^{25}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Expression = $\\frac{(10)^{100}}{(5)^{75}}$\n$= \\frac{(2 \\times 5)^{100}}{(5)^{75}} = \\frac{2^{100} \\times 5^{100}}{5^{75}} = 2^{100} \\times 5^{100-75}$\n$= 2^{100} \\times 5^{25}$\n$= 2^{75} \\times 2^{25} \\times 5^{25}$\n$= 2^{75} \\times (10)^{25}$",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "119",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The exponential form of $\\sqrt{2} \\times \\sqrt[3]{6}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "$6^{\\frac{1}{2}}$",
+      "option_c": "$6^{\\frac{1}{3}}$",
+      "option_d": "$6^{\\frac{1}{4}}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Expression = $\\sqrt{2} \\times \\sqrt{3}$\n$= (\\sqrt{2} \\times \\sqrt{3})^{1/2} = (2 \\times 3)^{1/2} = 6^{1/2} = (6^{1/2})^{1/2} = 6^{1/4}$",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "120",
+      "exam_reference": "United India Insurance Co. Ltd., UIICL—Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "$21^? \\times 21^{6.5} = 21^{12.4}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18.9",
+      "option_b": "4.4",
+      "option_c": "5.9",
+      "option_d": "13.4",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$21^? \\times 21^{6.5} = 21^{12.4}$\n$\\Rightarrow 21^{? + 6.5} = 21^{12.4}$\n$\\Rightarrow ? + 6.5 = 12.4$\n$\\Rightarrow ? = 12.4 - 6.5 = 5.9$",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "121",
+      "exam_reference": "United India Insurance Co. Ltd., UIICL—Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "$\\frac{5.4 \\div 3 \\times 16 + 2}{18 \\div 5 \\times 6 \\div 3}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "4",
+      "option_c": "6",
+      "option_d": "8",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\frac{5.4\times3\times16\times2}{18\times5\times6\times3}$\n\n$=\frac{5.4\times16}{3\times2\times1.8\times8\times2}$\n\n$=\frac{18\times6}{5\times3\times3.6\times2}$\n\n$=2$",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "122",
+      "exam_reference": "IBPS—RRB Office Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "$(32 \\times 10^{-5})^{-2} \\times 64 \\div (2^{16} \\times 10^{-4}) = 10^?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "10",
+      "option_c": "$-8$",
+      "option_d": "$-6$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$(32\times10^{-5})^2\times64\times(2^{16}\times10^{-4})=10^?$\n\n$\\Rightarrow(2^5\times10^{-5})^2\times2^6\times(2^{16}\times10^{-4})=10^?$\n\n$\\Rightarrow\frac{2^{10}\times10^{-10}\times2^6}{2^{16}\times10^{-4}}=10^?$\n\n$\\Rightarrow\frac{2^{16}\times10^{-10}}{2^{16}\times10^{-4}}=10^?$\n\n$\\Rightarrow10^{4-10}=10^?$\n\n$\\Rightarrow10^{-6}=10^?$\n\n$\\Rightarrow?=-6$",
+      "page_numbers": [
+        "288"
+      ],
+      "answer_page_numbers": [
+        "296"
+      ]
+    }
+  ]
+}

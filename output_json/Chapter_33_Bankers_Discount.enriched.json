@@ -1,0 +1,1231 @@
+{
+  "source_file": "Chapter_33_Bankers_Discount.pdf",
+  "chapter_title": "Chapter_33_Bankers_Discount",
+  "total_pages": 4,
+  "question_count": 20,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A bill for ₹ 6000 is drawn on July 14 at 5 months. It is discounted on 5th October at 10%. Find the banker’s discount, true discount, banker’s gain and the money that the holder of the bill receives.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Face value of the bill = ₹ 6000.\nDate on which the bill was drawn = July 14 at 5 months.\nNominally due date = December 14. Legally due date = December 17.\nDate on which the bill was discounted = October 5.\nUnexpired time : Oct. Nov. Dec.\n26 + 30 + 17 = 73 days = $\\frac{1}{5}$ year.\n$\\therefore$ B.D. = S.I. on ₹ 6000 for $\\frac{1}{5}$ year = $\\left(6000\\times10\\times\\frac{1}{5}\\times\\frac{1}{100}\\right)$ = ₹ 120.\nT.D. = $\\left[\\frac{6000\\times10\\times\\frac{1}{5}}{100+\\left(10\\times\\frac{1}{5}\\right)}\\right] = \\left(\\frac{12000}{102}\\right)$ = ₹ 117.64.\n$\\therefore$ B.G. = (B.D.) – (T.D.) = ₹ (120 – 117.64) = ₹ 2.36.\nMoney received by the holder of the bill = ₹ (6000 – 120) = ₹ 5880.",
+      "page_numbers": [
+        "866",
+        "867"
+      ],
+      "answer_page_numbers": [],
+      "ai_enrichment": {
+        "paraphrased_question": "A bill for ₹ 6000 is drawn on July 14 at 5 months. It is discounted on 5th October at 10%. Find the banker’s discount, true discount, banker’s gain and the money that the holder of the bill receives.",
+        "paraphrased_option_a": "",
+        "paraphrased_option_b": "",
+        "paraphrased_option_c": "",
+        "paraphrased_option_d": "",
+        "paraphrased_correct_option": "",
+        "paraphrased_final_answer": "B.D. = ₹ 120, T.D. = ₹ 117.64, B.G. = ₹ 2.36, Amount = ₹ 5880",
+        "traditional_solution": "First, we determine the due date. A bill drawn on July 14 for 5 months is nominally due on December 14. Adding 3 days of grace, the legally due date is December 17.\n\nNext, we calculate the unexpired time from the date of discounting (October 5) to the due date (December 17). The days remaining are 26 days in October, 30 days in November, and 17 days in December, totaling 73 days. Since there are 365 days in a year, this is\n\n$$\n\\frac{73}{365} = \\frac{1}{5} \\text{ year}\n$$\n\nThe Banker's Discount (B.D.) is the simple interest on the face value for the unexpired time:\n\n$$\n\\text{B.D.} = 6000 \\times \\frac{10}{100} \\times \\frac{1}{5} = 120\n$$\n\nSo, B.D. = ₹ 120.\n\nThe True Discount (T.D.) is the simple interest on the Present Worth (P.W.). Since $\\text{B.D.} = \\text{S.I. on Face Value}$ and $\\text{T.D.} = \\text{S.I. on P.W.}$, we use the formula $\\text{T.D.} = \\frac{\\text{Face Value} \\times \\text{Rate} \\times \\text{Time}}{100 + (\\text{Rate} \\times \\text{Time})}$:\n\n$$\n\\text{T.D.} = \\frac{6000 \\times 10 \\times \\frac{1}{5}}{100 + (10 \\times \\frac{1}{5})} = \\frac{12000}{102} \\approx 117.64\n$$\n\nSo, T.D. = ₹ 117.64.\n\nThe Banker's Gain (B.G.) is the difference between B.D. and T.D.:\n\n$$\n\\text{B.G.} = 120 - 117.64 = 2.36\n$$\n\nSo, B.G. = ₹ 2.36.\n\nFinally, the money received by the holder is the face value minus the banker's discount:\n\n$$\n6000 - 120 = 5880\n$$\n\nSo, the amount received is ₹ 5880.",
+        "shortcut_solution": "Calculate B.D. as simple interest on face value: $6000 \\times 0.10 \\times 0.2 = 120$. \n\nCalculate T.D. using the relation $\\text{T.D.} = \\frac{\\text{B.D.} \\times 100}{100 + (\\text{Rate} \\times \\text{Time})}$. \n\n$$\n\\text{T.D.} = \\frac{120 \\times 100}{100 + 2} = \\frac{12000}{102} = 117.64\n$$\n\nB.G. = $120 - 117.64 = 2.36$. \n\nAmount = $6000 - 120 = 5880$.",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "bankers_gain",
+          "simple_interest"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "fractions"
+        ],
+        "formulas_used": [
+          "$\\text{B.D.} = \\text{S.I. on Face Value}$",
+          "$\\text{T.D.} = \\frac{\\text{Face Value} \\times \\text{Rate} \\times \\text{Time}}{100 + (\\text{Rate} \\times \\text{Time})}$",
+          "$\\text{B.G.} = \\text{B.D.} - \\text{T.D.}$"
+        ],
+        "hints": [
+          "Calculate the exact number of days between the discount date and the due date.",
+          "Remember to add 3 days of grace to the nominal due date.",
+          "B.D. is calculated on the face value, while T.D. is calculated on the present worth."
+        ],
+        "common_mistakes": [
+          "Forgetting to add the 3 days of grace.",
+          "Calculating T.D. on the face value instead of the present worth.",
+          "Incorrectly calculating the fraction of the year."
+        ],
+        "related_patterns": [
+          "simple_interest_calculations"
+        ],
+        "confusing_patterns": [
+          "compound_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the true discount on a certain sum due 6 months hence at 15% is ₹ 120, what is the banker’s discount on the same sum for the same time and at the same rate?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "B.G. = S.I. on T.D. = $\\left(120\\times15\\times\\frac{1}{2}\\times\\frac{1}{100}\\right)$ = ₹ 9.\n$\\therefore$ (B.D.) – (T.D.) = ₹ 9.\n$\\therefore$ B.D. = ₹ (120 + 9) = ₹ 129.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": [],
+      "ai_enrichment": {
+        "paraphrased_question": "If the true discount on a certain sum due 6 months hence at 15% is ₹ 120, what is the banker’s discount on the same sum for the same time and at the same rate?",
+        "paraphrased_option_a": "",
+        "paraphrased_option_b": "",
+        "paraphrased_option_c": "",
+        "paraphrased_option_d": "",
+        "paraphrased_correct_option": "",
+        "paraphrased_final_answer": "₹ 129",
+        "traditional_solution": "The Banker's Gain (B.G.) is defined as the simple interest on the True Discount (T.D.) for the given time and rate. This is because the banker's discount is the interest on the sum, while the true discount is the interest on the present worth, and the difference between them is the interest on the true discount itself.\n\nGiven T.D. = ₹ 120, Rate = 15%, and Time = 6 months = $\\frac{1}{2}$ year, we calculate B.G.:\n\n$$\n\\text{B.G.} = 120 \\times \\frac{15}{100} \\times \\frac{1}{2} = 9\n$$\n\nSo, B.G. = ₹ 9.\n\nSince the Banker's Gain is the difference between the Banker's Discount (B.D.) and the True Discount (T.D.), we have\n\n$$\n\\text{B.D.} - \\text{T.D.} = \\text{B.G.}\n$$\n\nSubstituting the known values:\n\n$$\n\\text{B.D.} - 120 = 9\n$$\n\n$$\n\\text{B.D.} = 120 + 9 = 129\n$$\n\nThus, the banker's discount is ₹ 129.",
+        "shortcut_solution": "Use the relation $\\text{B.D.} = \\text{T.D.} + (\\text{T.D.} \\times \\text{Rate} \\times \\text{Time})$.\n\n$$\n\\text{B.D.} = 120 + (120 \\times 0.15 \\times 0.5) = 120 + 9 = 129\n$$",
+        "chapter": "bankers_discount",
+        "difficulty": "easy",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "bankers_gain"
+        ],
+        "prerequisites": [
+          "simple_interest"
+        ],
+        "formulas_used": [
+          "$\\text{B.G.} = \\text{S.I. on T.D.}$",
+          "$\\text{B.D.} = \\text{T.D.} + \\text{B.G.}$"
+        ],
+        "hints": [
+          "The banker's gain is simply the interest on the true discount.",
+          "Add the gain to the true discount to find the banker's discount."
+        ],
+        "common_mistakes": [
+          "Confusing banker's gain with banker's discount.",
+          "Calculating interest on the face value instead of the true discount."
+        ],
+        "related_patterns": [
+          "simple_interest_applications"
+        ],
+        "confusing_patterns": [
+          "compound_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on ₹ 1800 at 12% per annum is equal to the true discount on ₹ 1872 for the same time at the same rate. Find the time.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "S.I. on ₹ 1800 = T.D. on ₹ 1872.\n$\\therefore$ P.W. of ₹ 1872 is ₹ 1800.\n$\\therefore$ ₹ 72 is S.I. on ₹ 1800 at 12%.\n$\\therefore$ Time = $\\left(\\frac{100\\times72}{12\\times1800}\\right)$ year = $\\frac{1}{3}$ year = 4 months.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": [],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s discount on ₹ 1800 at 12% per annum is equal to the true discount on ₹ 1872 for the same time at the same rate. Find the time.",
+        "paraphrased_option_a": "",
+        "paraphrased_option_b": "",
+        "paraphrased_option_c": "",
+        "paraphrased_option_d": "",
+        "paraphrased_correct_option": "",
+        "paraphrased_final_answer": "4 months",
+        "traditional_solution": "We are given that the Banker's Discount (B.D.) on ₹ 1800 equals the True Discount (T.D.) on ₹ 1872. \n\nBy definition, the True Discount on a sum is the simple interest on its Present Worth (P.W.). If the T.D. on ₹ 1872 is equal to the B.D. on ₹ 1800, it implies that ₹ 1800 is the Present Worth of ₹ 1872.\n\nTherefore, the difference between the amount (₹ 1872) and the present worth (₹ 1800) is the interest earned on the present worth over that time:\n\n$$\n1872 - 1800 = 72\n$$\n\nThis ₹ 72 is the simple interest on ₹ 1800 at 12% per annum. We use the simple interest formula $\\text{S.I.} = \\frac{P \\times R \\times T}{100}$ to find the time $T$:\n\n$$\n72 = \\frac{1800 \\times 12 \\times T}{100}\n$$\n\nSolving for $T$:\n\n$$\n72 = 18 \\times 12 \\times T\n$$\n\n$$\n72 = 216 \\times T\n$$\n\n$$\nT = \\frac{72}{216} = \\frac{1}{3} \\text{ year}\n$$\n\nSince 1 year has 12 months, $\\frac{1}{3}$ year is\n\n$$\n\\frac{1}{3} \\times 12 = 4 \\text{ months}\n$$",
+        "shortcut_solution": "The difference between the two amounts is the interest on the smaller amount (P.W.).\n\n$$\n\\text{Interest} = 1872 - 1800 = 72\n$$\n\n$$\n\\text{Time} = \\frac{100 \\times 72}{1800 \\times 12} = \\frac{7200}{21600} = \\frac{1}{3} \\text{ year} = 4 \\text{ months}\n$$",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "present_worth"
+        ],
+        "prerequisites": [
+          "simple_interest"
+        ],
+        "formulas_used": [
+          "$\\text{S.I.} = \\frac{P \\times R \\times T}{100}$",
+          "$\\text{P.W.} = \\text{Amount} - \\text{T.D.}$"
+        ],
+        "hints": [
+          "Identify that the smaller sum is the present worth of the larger sum.",
+          "The difference between the two sums is the interest on the present worth."
+        ],
+        "common_mistakes": [
+          "Calculating interest on the larger sum instead of the smaller one.",
+          "Misinterpreting the relationship between B.D. and T.D."
+        ],
+        "related_patterns": [
+          "simple_interest_time_calculation"
+        ],
+        "confusing_patterns": [
+          "compound_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount and the true discount on a sum of money due 8 months hence are ₹ 120 and ₹ 110 respectively. Find the sum and the rate percent.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sum = $\\left(\\frac{B.D.\\times T.D.}{B.D. - T.D.}\\right) = \\left(\\frac{120\\times110}{120 - 110}\\right)$ = ₹ 1320.\nSince B.D. is S.I. on sum due, so S.I. on ₹ 1320 for 8 months is ₹ 120.\n$\\therefore$ Rate = $\\left(\\frac{100\\times120}{1320\\times\\frac{2}{3}}\\right)$% = $13\\frac{7}{11}$%.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": [],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s discount and the true discount on a sum of money due 8 months hence are ₹ 120 and ₹ 110 respectively. Find the sum and the rate percent.",
+        "paraphrased_option_a": "",
+        "paraphrased_option_b": "",
+        "paraphrased_option_c": "",
+        "paraphrased_option_d": "",
+        "paraphrased_correct_option": "",
+        "paraphrased_final_answer": "Sum = ₹ 1320, Rate = 13\\frac{7}{11}\\%",
+        "traditional_solution": "To find the sum (the face value of the bill), we use the relationship between Banker's Discount (B.D.), True Discount (T.D.), and the sum:\n\n$$\n\\text{Sum} = \\frac{\\text{B.D.} \\times \\text{T.D.}}{\\text{B.D.} - \\text{T.D.}}\n$$\n\nSubstituting the given values:\n\n$$\n\\text{Sum} = \\frac{120 \\times 110}{120 - 110} = \\frac{13200}{10} = 1320\n$$\n\nSo, the sum is ₹ 1320.\n\nNext, we find the rate percent. The Banker's Discount is the simple interest on the sum for the given time. Given B.D. = ₹ 120, Sum = ₹ 1320, and Time = 8 months = $\\frac{8}{12} = \\frac{2}{3}$ year, we use the simple interest formula $\\text{S.I.} = \\frac{P \\times R \\times T}{100}$:\n\n$$\n120 = \\frac{1320 \\times R \\times \\frac{2}{3}}{100}\n$$\n\nSolving for $R$:\n\n$$\n120 = \\frac{1320 \\times 2 \\times R}{300}\n$$\n\n$$\n120 = \\frac{2640 \\times R}{300}\n$$\n\n$$\n120 = 8.8 \\times R\n$$\n\n$$\nR = \\frac{120}{8.8} = \\frac{1200}{88} = \\frac{150}{11} = 13\\frac{7}{11}\n$$\n\nThus, the rate is $13\\frac{7}{11}\\%$.",
+        "shortcut_solution": "Sum = $\\frac{120 \\times 110}{10} = 1320$.\n\nRate = $\\frac{100 \\times \\text{B.D.}}{\\text{Sum} \\times \\text{Time}} = \\frac{100 \\times 120}{1320 \\times \\frac{2}{3}} = \\frac{12000}{880} = \\frac{150}{11} = 13\\frac{7}{11}\\%$.",
+        "chapter": "bankers_discount",
+        "difficulty": "hard",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "simple_interest"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "algebraic_equations"
+        ],
+        "formulas_used": [
+          "$\\text{Sum} = \\frac{\\text{B.D.} \\times \\text{T.D.}}{\\text{B.D.} - \\text{T.D.}}$",
+          "$\\text{Rate} = \\frac{100 \\times \\text{B.D.}}{\\text{Sum} \\times \\text{Time}}$"
+        ],
+        "hints": [
+          "Use the formula relating B.D., T.D., and the sum.",
+          "Remember that B.D. is the simple interest on the sum."
+        ],
+        "common_mistakes": [
+          "Using the wrong time unit (e.g., using 8 instead of 8/12).",
+          "Confusing the sum with the present worth."
+        ],
+        "related_patterns": [
+          "simple_interest_rate_calculation"
+        ],
+        "confusing_patterns": [
+          "compound_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of a bill due sometime hence is ₹ 1100 and the true discount on the bill is ₹ 110. Find the banker’s discount and the banker’s gain.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "T.D. = $\\sqrt{P.W.\\times B.G.}$\n$\\therefore$ B.G. = $\\left(\\frac{(T.D.)^2}{P.W.}\\right) = \\left(\\frac{110\\times110}{1100}\\right)$ = ₹ 11.\n$\\therefore$ B.D. = (T.D. + B.G.) = ₹ (110 + 11) = ₹ 121.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": [],
+      "ai_enrichment": {
+        "paraphrased_question": "The present worth of a bill due sometime hence is ₹ 1100 and the true discount on the bill is ₹ 110. Find the banker’s discount and the banker’s gain.",
+        "paraphrased_option_a": "",
+        "paraphrased_option_b": "",
+        "paraphrased_option_c": "",
+        "paraphrased_option_d": "",
+        "paraphrased_correct_option": "",
+        "paraphrased_final_answer": "B.D. = ₹ 121, B.G. = ₹ 11",
+        "traditional_solution": "We are given the Present Worth (P.W.) = ₹ 1100 and the True Discount (T.D.) = ₹ 110. \n\nWe use the relationship between True Discount, Present Worth, and Banker's Gain (B.G.):\n\n$$\n\\text{T.D.} = \\sqrt{\\text{P.W.} \\times \\text{B.G.}}\n$$\n\nSquaring both sides gives\n\n$$\n(\\text{T.D.})^2 = \\text{P.W.} \\times \\text{B.G.}\n$$\n\nSubstituting the given values:\n\n$$\n110^2 = 1100 \\times \\text{B.G.}\n$$\n\n$$\n12100 = 1100 \\times \\text{B.G.}\n$$\n\n$$\n\\text{B.G.} = \\frac{12100}{1100} = 11\n$$\n\nSo, the banker's gain is ₹ 11.\n\nNext, we find the Banker's Discount (B.D.). Since the Banker's Gain is the difference between the Banker's Discount and the True Discount, we have\n\n$$\n\\text{B.D.} = \\text{T.D.} + \\text{B.G.}\n$$\n\nSubstituting the values:\n\n$$\n\\text{B.D.} = 110 + 11 = 121\n$$\n\nSo, the banker's discount is ₹ 121.",
+        "shortcut_solution": "B.G. = $\\frac{(\\text{T.D.})^2}{\\text{P.W.}} = \\frac{110 \\times 110}{1100} = 11$.\n\nB.D. = $\\text{T.D.} + \\text{B.G.} = 110 + 11 = 121$.",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "bankers_gain",
+          "present_worth"
+        ],
+        "prerequisites": [
+          "algebraic_equations"
+        ],
+        "formulas_used": [
+          "$\\text{T.D.} = \\sqrt{\\text{P.W.} \\times \\text{B.G.}}$",
+          "$\\text{B.D.} = \\text{T.D.} + \\text{B.G.}$"
+        ],
+        "hints": [
+          "Use the geometric mean relationship between T.D., P.W., and B.G.",
+          "B.D. is always greater than T.D. by the amount of B.G."
+        ],
+        "common_mistakes": [
+          "Confusing P.W. with the face value of the bill.",
+          "Incorrectly rearranging the formula for B.G."
+        ],
+        "related_patterns": [
+          "geometric_mean_applications"
+        ],
+        "confusing_patterns": [
+          "compound_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on ₹ 1650 due a certain time hence is ₹ 165. Find the true discount and the banker’s gain.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sum = $\\frac{B.D.\\times T.D.}{B.D. - T.D.} = \\frac{B.D.\\times T.D.}{B.G.}$\n$\\therefore$ $\\frac{T.D.}{B.G.} = \\frac{Sum}{B.D.} = \\frac{1650}{165} = \\frac{10}{1}$\nThus, if B.G. is Re 1, T.D. = ₹ 10.\nIf B.D. is ₹ 11, T.D. = ₹ 10. If B.D. is ₹ 165, T.D. = $\\left(\\frac{10}{11}\\times165\\right)$ = ₹ 150.\nAnd, B.G. = ₹ (165 – 150) = ₹ 15.",
+      "page_numbers": [
+        "867"
+      ],
+      "answer_page_numbers": [],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s discount on ₹ 1650 due a certain time hence is ₹ 165. Find the true discount and the banker’s gain.",
+        "paraphrased_option_a": "",
+        "paraphrased_option_b": "",
+        "paraphrased_option_c": "",
+        "paraphrased_option_d": "",
+        "paraphrased_correct_option": "",
+        "paraphrased_final_answer": "True Discount = ₹ 150, Banker's Gain = ₹ 15",
+        "traditional_solution": "We know that the relationship between the sum (amount), banker's discount (B.D.), and true discount (T.D.) is defined by the formula:\n\n$$\n\\text{Sum} = \\frac{\\text{B.D.} \\times \\text{T.D.}}{\\text{B.D.} - \\text{T.D.}}\n$$\n\nSince the banker's gain (B.G.) is defined as the difference between the banker's discount and the true discount, we can rewrite this as:\n\n$$\n\\text{Sum} = \\frac{\\text{B.D.} \\times \\text{T.D.}}{\\text{B.G.}}\n$$\n\nRearranging this to find the ratio of T.D. to B.G., we get:\n\n$$\n\\frac{\\text{T.D.}}{\\text{B.G.}} = \\frac{\\text{Sum}}{\\text{B.D.}}\n$$\n\nSubstituting the given values of Sum = ₹ 1650 and B.D. = ₹ 165:\n\n$$\n\\frac{\\text{T.D.}}{\\text{B.G.}} = \\frac{1650}{165} = \\frac{10}{1}\n$$\n\nThis means that for every ₹ 1 of banker's gain, the true discount is ₹ 10. Because the banker's discount is the sum of the true discount and the banker's gain, the ratio of B.D. to T.D. is $(10+1) : 10$, or $11 : 10$. We can now find the true discount by setting up a proportion:\n\n$$\n\\frac{\\text{T.D.}}{\\text{B.D.}} = \\frac{10}{11}\n$$\n\n$$\n\\text{T.D.} = \\frac{10}{11} \\times 165 = 150\n$$\n\nFinally, the banker's gain is the difference between the banker's discount and the true discount:\n\n$$\n\\text{B.G.} = 165 - 150 = 15\n$$\n\nThus, the true discount is ₹ 150 and the banker's gain is ₹ 15.",
+        "shortcut_solution": "Given B.D. = ₹ 165 and Sum = ₹ 1650, the ratio of Sum to B.D. is $10:1$. Since $\\frac{\\text{Sum}}{\\text{B.D.}} = \\frac{\\text{T.D.}}{\\text{B.G.}} + 1$, we have $\\frac{\\text{T.D.}}{\\text{B.G.}} = 9$. Alternatively, using the property that $\\text{T.D.} = \\text{B.D.} \\times \\frac{\\text{P.W.}}{\\text{Sum}}$, we find $\\text{T.D.} = 165 \\times \\frac{1500}{1650} = 150$. Then $\\text{B.G.} = 165 - 150 = 15$.",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "bankers_gain",
+          "present_worth"
+        ],
+        "prerequisites": [
+          "ratio",
+          "proportions"
+        ],
+        "formulas_used": [
+          "$\\text{Sum} = \\frac{\\text{B.D.} \\times \\text{T.D.}}{\\text{B.D.} - \\text{T.D.}}$",
+          "$\\text{B.G.} = \\text{B.D.} - \\text{T.D.}$"
+        ],
+        "hints": [
+          "Use the relationship between Sum, B.D., and T.D.",
+          "Remember that B.D. = T.D. + B.G.",
+          "Calculate the ratio of T.D. to B.G. first."
+        ],
+        "common_mistakes": [
+          "Confusing B.D. with T.D.",
+          "Forgetting that B.D. is calculated on the amount, while T.D. is calculated on the present worth."
+        ],
+        "related_patterns": [
+          "simple_interest"
+        ],
+        "confusing_patterns": [
+          "compound_interest"
+        ]
+      }
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What rate percent does a man get for his money when in discounting a bill due 10 months hence, he deducts 10% of the amount of the bill?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let, amount of the bill = ₹ 100. Money deducted = ₹ 10.\nMoney received by the holder of the bill = ₹ (100 – 10) = ₹ 90.\n$\\therefore$ S.I. on ₹ 90 for 10 months = ₹ 10.\n$\\therefore$ Rate = $\\left(\\frac{100\\times10}{90\\times\\frac{10}{12}}\\right)$% = $13\\frac{1}{3}$%.",
+      "page_numbers": [
+        "867",
+        "868"
+      ],
+      "answer_page_numbers": [],
+      "ai_enrichment": {
+        "paraphrased_question": "What rate percent does a man get for his money when in discounting a bill due 10 months hence, he deducts 10% of the amount of the bill?",
+        "paraphrased_option_a": "",
+        "paraphrased_option_b": "",
+        "paraphrased_option_c": "",
+        "paraphrased_option_d": "",
+        "paraphrased_correct_option": "",
+        "paraphrased_final_answer": "13\\frac{1}{3}\\%",
+        "traditional_solution": "Assume the amount of the bill is ₹ 100. The man deducts 10% of this amount as a discount, so the deduction is ₹ 10.\n\nThe money the holder actually receives is the amount of the bill minus the deduction:\n\n$$\n100 - 10 = 90\n$$\n\nSo, the man effectively lends ₹ 90 for a period of 10 months to earn ₹ 10 in interest. We use the simple interest formula to find the rate, where $\\text{Interest} = \\frac{\\text{Principal} \\times \\text{Rate} \\times \\text{Time}}{100}$. Here, the time is 10 months, which is $\\frac{10}{12}$ of a year.\n\nRearranging for the rate:\n\n$$\n\\text{Rate} = \\frac{\\text{Interest} \\times 100}{\\text{Principal} \\times \\text{Time}}\n$$\n\nSubstituting our values:\n\n$$\n\\text{Rate} = \\frac{10 \\times 100}{90 \\times \\frac{10}{12}}\n$$\n\nSimplifying the expression:\n\n$$\n\\frac{1000}{90 \\times \\frac{5}{6}} = \\frac{1000}{75} = \\frac{40}{3}\n$$\n\nConverting to a mixed fraction:\n\n$$\n\\frac{40}{3} = 13\\frac{1}{3}\n$$\n\nThus, the rate percent is $13\\frac{1}{3}\\%$.",
+        "shortcut_solution": "The man earns 10% on the amount, but he only pays 90% of the amount. The effective rate for 10 months is $\\frac{10}{90} = \\frac{1}{9}$. To annualize this, multiply by $\\frac{12}{10}$:\n\n$$\n\\frac{1}{9} \\times \\frac{12}{10} = \\frac{12}{90} = \\frac{2}{15}\n$$\n\nConverting to percentage:\n\n$$\n\\frac{2}{15} \\times 100 = \\frac{40}{3} = 13\\frac{1}{3}\n$$\n\nThis works because the interest earned is relative to the actual cash outlaid (the discounted value).",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "simple_interest",
+          "discounting",
+          "rate_percent"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "fractions",
+          "percentages"
+        ],
+        "formulas_used": [
+          "$\\text{Rate} = \\frac{\\text{Interest} \\times 100}{\\text{Principal} \\times \\text{Time}}$"
+        ],
+        "hints": [
+          "Assume the bill amount is 100 to simplify calculations.",
+          "The interest is earned on the discounted value, not the face value.",
+          "Convert the time period from months to years."
+        ],
+        "common_mistakes": [
+          "Calculating interest on the face value instead of the discounted value.",
+          "Forgetting to convert months to years."
+        ],
+        "related_patterns": [
+          "simple_interest"
+        ],
+        "confusing_patterns": [
+          "compound_interest"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The true discount on a bill of ₹ 540 is ₹ 90. The banker’s discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 60",
+      "option_b": "₹ 108",
+      "option_c": "₹ 110",
+      "option_d": "₹ 112",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "P.W. = ₹ $(540 - 90)$ = ₹ $450$.\n$\\therefore$ S.I. on ₹ $450$ = ₹ $90$.\nS.I. on ₹ $540$ = ₹ $\\left(\\frac{90}{450}\\times540\\right)$ = ₹ $108$.\n$\\therefore$ B.D. = ₹ $108$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The true discount on a bill of ₹ 540 is ₹ 90. The banker’s discount is",
+        "paraphrased_option_a": "₹ 60",
+        "paraphrased_option_b": "₹ 108",
+        "paraphrased_option_c": "₹ 110",
+        "paraphrased_option_d": "₹ 112",
+        "paraphrased_correct_option": "b",
+        "paraphrased_final_answer": "₹ 108",
+        "traditional_solution": "The present worth (P.W.) is the amount of the bill minus the true discount (T.D.).\n\n$$\n\\text{P.W.} = 540 - 90 = 450\n$$\n\nTrue discount is essentially the simple interest on the present worth. So, the interest on ₹ 450 is ₹ 90.\n\nBanker's discount (B.D.) is the simple interest on the face value of the bill (the amount) for the same period. We can find the interest on ₹ 540 by using the ratio of the amounts:\n\n$$\n\\text{B.D.} = \\frac{90}{450} \\times 540\n$$\n\nCalculating this:\n\n$$\n\\frac{1}{5} \\times 540 = 108\n$$\n\nThus, the banker's discount is ₹ 108.",
+        "shortcut_solution": "The ratio of B.D. to T.D. is the same as the ratio of Amount to P.W. Since $\\text{Amount} = 540$ and $\\text{P.W.} = 450$, the ratio is $\\frac{540}{450} = \\frac{6}{5}$.\n\n$$\n\\text{B.D.} = \\text{T.D.} \\times \\frac{6}{5} = 90 \\times \\frac{6}{5} = 108\n$$\n\nThis works because B.D. is interest on the amount, while T.D. is interest on the present worth.",
+        "chapter": "bankers_discount",
+        "difficulty": "easy",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "present_worth"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "ratios"
+        ],
+        "formulas_used": [
+          "$\\text{B.D.} = \\text{T.D.} \\times \\frac{\\text{Amount}}{\\text{P.W.}}$"
+        ],
+        "hints": [
+          "Find the present worth first by subtracting T.D. from the amount.",
+          "Remember that T.D. is interest on P.W., and B.D. is interest on the amount.",
+          "Use the ratio of Amount to P.W. to scale the T.D. to B.D."
+        ],
+        "common_mistakes": [
+          "Confusing P.W. with the amount.",
+          "Calculating interest on the wrong principal."
+        ],
+        "related_patterns": [
+          "simple_interest"
+        ],
+        "confusing_patterns": [
+          "compound_interest"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of a certain bill due sometime hence is ₹ 800 and the true discount is ₹ 36. The banker’s discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 37",
+      "option_b": "₹ 37.62",
+      "option_c": "₹ 34.38",
+      "option_d": "₹ 38.98",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "B.G. = ₹ $\\left(\\frac{(T.D.)^2}{P.W.}\\right)$ = ₹ $\\left(\\frac{36\\times36}{800}\\right)$ = ₹ $1.62$.\n$\\therefore$ B.D. = (T.D. + B.G.) = ₹ $(36 + 1.62)$ = ₹ $37.62$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The present worth of a certain bill due sometime hence is ₹ 800 and the true discount is ₹ 36. The banker’s discount is",
+        "paraphrased_option_a": "₹ 37",
+        "paraphrased_option_b": "₹ 37.62",
+        "paraphrased_option_c": "₹ 34.38",
+        "paraphrased_option_d": "₹ 38.98",
+        "paraphrased_correct_option": "b",
+        "paraphrased_final_answer": "₹ 37.62",
+        "traditional_solution": "The banker's gain (B.G.) is the difference between the banker's discount and the true discount. It is also equal to the interest on the true discount for the given time. The formula for banker's gain is:\n\n$$\n\\text{B.G.} = \\frac{(\\text{T.D.})^2}{\\text{P.W.}}\n$$\n\nSubstituting the given values, T.D. = 36 and P.W. = 800:\n\n$$\n\\text{B.G.} = \\frac{36 \\times 36}{800} = \\frac{1296}{800} = 1.62\n$$\n\nSince the banker's discount is the sum of the true discount and the banker's gain:\n\n$$\n\\text{B.D.} = \\text{T.D.} + \\text{B.G.} = 36 + 1.62 = 37.62\n$$\n\nThus, the banker's discount is ₹ 37.62.",
+        "shortcut_solution": "Calculate B.G. directly as $\\frac{36^2}{800} = 1.62$. Then add T.D. to get B.D.: $36 + 1.62 = 37.62$.",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "bankers_gain"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "algebra"
+        ],
+        "formulas_used": [
+          "$\\text{B.G.} = \\frac{(\\text{T.D.})^2}{\\text{P.W.}}$",
+          "$\\text{B.D.} = \\text{T.D.} + \\text{B.G.}$"
+        ],
+        "hints": [
+          "Use the formula for banker's gain involving T.D. and P.W.",
+          "Remember that B.D. = T.D. + B.G.",
+          "Calculate B.G. first."
+        ],
+        "common_mistakes": [
+          "Forgetting to add T.D. back to B.G. to find B.D.",
+          "Miscalculating the square of T.D."
+        ],
+        "related_patterns": [
+          "simple_interest"
+        ],
+        "confusing_patterns": [
+          "compound_interest"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of a certain sum due sometime hence is ₹ 1600 and the true discount is ₹ 160. The banker’s gain is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 20",
+      "option_b": "₹ 24",
+      "option_c": "₹ 16",
+      "option_d": "₹ 12",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "B.G. = ₹ $\\left(\\frac{(T.D.)^2}{P.W.}\\right)$ = ₹ $\\left(\\frac{160\\times160}{1600}\\right)$ = ₹ $16$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The present worth of a certain sum due sometime hence is ₹ 1600 and the true discount is ₹ 160. The banker’s gain is",
+        "paraphrased_option_a": "₹ 20",
+        "paraphrased_option_b": "₹ 24",
+        "paraphrased_option_c": "₹ 16",
+        "paraphrased_option_d": "₹ 12",
+        "paraphrased_correct_option": "c",
+        "paraphrased_final_answer": "₹ 16",
+        "traditional_solution": "The banker's gain (B.G.) is the interest on the true discount for the given time period. The relationship between banker's gain, true discount, and present worth is given by the formula:\n\n$$\n\\text{B.G.} = \\frac{(\\text{T.D.})^2}{\\text{P.W.}}\n$$\n\nWe are given the true discount (T.D.) as ₹ 160 and the present worth (P.W.) as ₹ 1600. Substituting these values into the formula:\n\n$$\n\\text{B.G.} = \\frac{160 \\times 160}{1600}\n$$\n\nSimplifying the calculation:\n\n$$\n\\frac{25600}{1600} = 16\n$$\n\nThus, the banker's gain is ₹ 16.",
+        "shortcut_solution": "Since $\\text{B.G.} = \\frac{\\text{T.D.}^2}{\\text{P.W.}}$, we have $\\frac{160^2}{1600} = \\frac{160}{1600} \\times 160 = \\frac{1}{10} \\times 160 = 16$.",
+        "chapter": "bankers_discount",
+        "difficulty": "easy",
+        "concepts": [
+          "bankers_gain",
+          "true_discount",
+          "present_worth"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "algebra"
+        ],
+        "formulas_used": [
+          "$\\text{B.G.} = \\frac{(\\text{T.D.})^2}{\\text{P.W.}}$"
+        ],
+        "hints": [
+          "Use the direct formula for banker's gain.",
+          "Ensure you square the true discount correctly.",
+          "Divide by the present worth."
+        ],
+        "common_mistakes": [
+          "Using the wrong formula for B.G.",
+          "Confusing P.W. with the amount of the bill."
+        ],
+        "related_patterns": [
+          "simple_interest"
+        ],
+        "confusing_patterns": [
+          "compound_interest"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s gain of a certain sum due 2 years hence at 10% per annum is ₹ 24. The present worth is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 480",
+      "option_b": "₹ 520",
+      "option_c": "₹ 600",
+      "option_d": "₹ 960",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "T.D. = ₹ $\\left(\\frac{B.G.\\times100}{Rate\\times Time}\\right)$ = ₹ $\\left(\\frac{24\\times100}{10\\times2}\\right)$ = ₹ $120$.\n$\\therefore$ P.W. = ₹ $\\left(\\frac{100\\times T.D.}{Rate\\times Time}\\right)$ = ₹ $\\left(\\frac{100\\times120}{10\\times2}\\right)$ = ₹ $600$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s gain of a certain sum due 2 years hence at 10% per annum is ₹ 24. The present worth is",
+        "paraphrased_option_a": "₹ 480",
+        "paraphrased_option_b": "₹ 520",
+        "paraphrased_option_c": "₹ 600",
+        "paraphrased_option_d": "₹ 960",
+        "paraphrased_correct_option": "c",
+        "paraphrased_final_answer": "₹ 600",
+        "traditional_solution": "First, we find the True Discount (T.D.) using the relationship between Banker's Gain (B.G.), Rate (R), and Time (T). The formula for Banker's Gain is\n\n$$\nB.G. = \\frac{T.D. \\times R \\times T}{100}\n$$\n\nRearranging this to solve for T.D., we get\n\n$$\nT.D. = \\frac{B.G. \\times 100}{R \\times T}\n$$\n\nSubstituting the given values $B.G. = 24$, $R = 10$, and $T = 2$:\n\n$$\nT.D. = \\frac{24 \\times 100}{10 \\times 2} = \\frac{2400}{20} = 120\n$$\n\nSo, the True Discount is ₹ 120. Next, we find the Present Worth (P.W.). The formula for True Discount is\n\n$$\nT.D. = \\frac{P.W. \\times R \\times T}{100}\n$$\n\nRearranging to solve for P.W.:\n\n$$\nP.W. = \\frac{T.D. \\times 100}{R \\times T}\n$$\n\nSubstituting $T.D. = 120$, $R = 10$, and $T = 2$:\n\n$$\nP.W. = \\frac{120 \\times 100}{10 \\times 2} = \\frac{12000}{20} = 600\n$$\n\nTherefore, the present worth is ₹ 600.",
+        "shortcut_solution": "We know that $B.G. = \\frac{T.D. \\times R \\times T}{100}$ and $T.D. = \\frac{P.W. \\times R \\times T}{100}$.\n\nThus, $B.G. = \\frac{P.W. \\times (R \\times T)^2}{100^2}$.\n\nSubstituting the values:\n\n$$\n24 = \\frac{P.W. \\times (10 \\times 2)^2}{10000} = \\frac{P.W. \\times 400}{10000} = \\frac{P.W.}{25}\n$$\n\nSolving for P.W.:\n\n$$\nP.W. = 24 \\times 25 = 600\n$$\n\nHence, the present worth is ₹ 600.",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_gain",
+          "true_discount",
+          "present_worth"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "algebraic_rearrangement"
+        ],
+        "formulas_used": [
+          "$B.G. = \\frac{T.D. \\times R \\times T}{100}$",
+          "$T.D. = \\frac{P.W. \\times R \\times T}{100}$"
+        ],
+        "hints": [
+          "Use the formula relating Banker's Gain to True Discount first.",
+          "Once you have the True Discount, use the simple interest formula to find the Present Worth."
+        ],
+        "common_mistakes": [
+          "Confusing Banker's Discount with True Discount.",
+          "Forgetting to divide by 100 in the percentage calculation."
+        ],
+        "related_patterns": [
+          "simple_interest_calculation"
+        ],
+        "confusing_patterns": [
+          "compound_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s gain on a bill due 1 year hence at 12% per annum is ₹ 6. The true discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 72",
+      "option_b": "₹ 36",
+      "option_c": "₹ 54",
+      "option_d": "₹ 50",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "T.D. = ₹ $\\left(\\frac{B.G.\\times100}{R\\times T}\\right)$ = ₹ $\\left(\\frac{6\\times100}{12\\times1}\\right)$ = ₹ $50$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s gain on a bill due 1 year hence at 12% per annum is ₹ 6. The true discount is",
+        "paraphrased_option_a": "₹ 72",
+        "paraphrased_option_b": "₹ 36",
+        "paraphrased_option_c": "₹ 54",
+        "paraphrased_option_d": "₹ 50",
+        "paraphrased_correct_option": "d",
+        "paraphrased_final_answer": "₹ 50",
+        "traditional_solution": "The Banker's Gain (B.G.) is the difference between the Banker's Discount (B.D.) and the True Discount (T.D.). It is equivalent to the simple interest on the True Discount for the given time and rate. The formula is\n\n$$\nB.G. = \\frac{T.D. \\times R \\times T}{100}\n$$\n\nWe are given $B.G. = 6$, $R = 12$, and $T = 1$. We need to find the True Discount (T.D.). Rearranging the formula to solve for T.D.:\n\n$$\nT.D. = \\frac{B.G. \\times 100}{R \\times T}\n$$\n\nSubstituting the values:\n\n$$\nT.D. = \\frac{6 \\times 100}{12 \\times 1} = \\frac{600}{12} = 50\n$$\n\nTherefore, the true discount is ₹ 50.",
+        "shortcut_solution": "Since $B.G. = \\frac{T.D. \\times R \\times T}{100}$, we can directly calculate T.D. as\n\n$$\n\\frac{6 \\times 100}{12 \\times 1} = 50\n$$\n\nHence, the true discount is ₹ 50.",
+        "chapter": "bankers_discount",
+        "difficulty": "easy",
+        "concepts": [
+          "bankers_gain",
+          "true_discount"
+        ],
+        "prerequisites": [
+          "simple_interest"
+        ],
+        "formulas_used": [
+          "$B.G. = \\frac{T.D. \\times R \\times T}{100}$"
+        ],
+        "hints": [
+          "Banker's Gain is simply the interest on the True Discount.",
+          "Use the standard simple interest formula where the principal is the True Discount."
+        ],
+        "common_mistakes": [
+          "Mistaking Banker's Gain for Banker's Discount.",
+          "Incorrectly applying the time factor."
+        ],
+        "related_patterns": [
+          "simple_interest_problems"
+        ],
+        "confusing_patterns": [
+          "bankers_discount_calculation"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on a bill due 4 months hence at 15% is ₹ 420. The true discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 400",
+      "option_b": "₹ 360",
+      "option_c": "₹ 480",
+      "option_d": "₹ 320",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "T.D. = ₹ $\\left[\\frac{B.D.\\times100}{100+(R\\times T)}\\right]$ = ₹ $\\left[\\frac{420\\times100}{100+(15\\times\\frac{1}{3})}\\right]$\n= ₹ $\\left(\\frac{420\\times100}{105}\\right)$ = ₹ $400$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s discount on a bill due 4 months hence at 15% is ₹ 420. The true discount is",
+        "paraphrased_option_a": "₹ 400",
+        "paraphrased_option_b": "₹ 360",
+        "paraphrased_option_c": "₹ 480",
+        "paraphrased_option_d": "₹ 320",
+        "paraphrased_correct_option": "a",
+        "paraphrased_final_answer": "₹ 400",
+        "traditional_solution": "The relationship between Banker's Discount (B.D.) and True Discount (T.D.) is given by the formula\n\n$$\nB.D. = T.D. \\times \\left(1 + \\frac{R \\times T}{100}\\right)\n$$\n\nThis formula applies because the Banker's Discount is the simple interest on the Amount (Sum), while the True Discount is the simple interest on the Present Worth. We are given $B.D. = 420$, $R = 15$, and $T = 4 \\text{ months} = \\frac{4}{12} = \\frac{1}{3} \\text{ years}$. Substituting these values:\n\n$$\n420 = T.D. \\times \\left(1 + \\frac{15 \\times \\frac{1}{3}}{100}\\right)\n$$\n\nSimplify the term inside the parentheses:\n\n$$\n1 + \\frac{5}{100} = 1 + \\frac{1}{20} = \\frac{21}{20}\n$$\n\nNow, solve for T.D.:\n\n$$\n420 = T.D. \\times \\frac{21}{20}\n$$\n\n$$\nT.D. = 420 \\times \\frac{20}{21} = 20 \\times 20 = 400\n$$\n\nTherefore, the true discount is ₹ 400.",
+        "shortcut_solution": "The formula relating B.D. and T.D. is $B.D. = T.D. \\times (1 + \\frac{RT}{100})$.\n\nGiven $B.D. = 420$, $R = 15$, $T = \\frac{1}{3}$:\n\n$$\n420 = T.D. \\times (1 + \\frac{5}{100}) = T.D. \\times 1.05\n$$\n\n$$\nT.D. = \\frac{420}{1.05} = 400\n$$\n\nHence, the true discount is ₹ 400.",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_discount",
+          "true_discount"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "fractions"
+        ],
+        "formulas_used": [
+          "$B.D. = T.D. \\times (1 + \\frac{R \\times T}{100})$"
+        ],
+        "hints": [
+          "Convert the time from months to years.",
+          "Use the direct relationship formula between B.D. and T.D."
+        ],
+        "common_mistakes": [
+          "Forgetting to convert months to years.",
+          "Confusing the formula for B.D. with the formula for T.D."
+        ],
+        "related_patterns": [
+          "simple_interest_problems"
+        ],
+        "confusing_patterns": [
+          "bankers_gain_problems"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s gain on a sum due 3 years hence at 12% per annum is ₹ 270. The banker’s discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 960",
+      "option_b": "₹ 840",
+      "option_c": "₹ 1020",
+      "option_d": "₹ 760",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "T.D. = ₹ $\\left(\\frac{B.G.\\times100}{R\\times T}\\right)$ = ₹ $\\left(\\frac{270\\times100}{12\\times3}\\right)$ = ₹ $750$.\n$\\therefore$ B.D. = ₹ $(750 + 270)$ = ₹ $1020$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s gain on a sum due 3 years hence at 12% per annum is ₹ 270. The banker’s discount is",
+        "paraphrased_option_a": "₹ 960",
+        "paraphrased_option_b": "₹ 840",
+        "paraphrased_option_c": "₹ 1020",
+        "paraphrased_option_d": "₹ 760",
+        "paraphrased_correct_option": "c",
+        "paraphrased_final_answer": "₹ 1020",
+        "traditional_solution": "First, we find the True Discount (T.D.) using the Banker's Gain (B.G.) formula. The formula is\n\n$$\nB.G. = \\frac{T.D. \\times R \\times T}{100}\n$$\n\nGiven $B.G. = 270$, $R = 12$, and $T = 3$. Rearranging to solve for T.D.:\n\n$$\nT.D. = \\frac{B.G. \\times 100}{R \\times T} = \\frac{270 \\times 100}{12 \\times 3} = \\frac{27000}{36} = 750\n$$\n\nSo, the True Discount is ₹ 750. The Banker's Discount (B.D.) is the sum of the True Discount and the Banker's Gain, because the Banker's Gain is defined as the difference between the Banker's Discount and the True Discount ($B.G. = B.D. - T.D.$). Therefore,\n\n$$\nB.D. = T.D. + B.G. = 750 + 270 = 1020\n$$\n\nHence, the banker's discount is ₹ 1020.",
+        "shortcut_solution": "We know $B.G. = \\frac{T.D. \\times R \\times T}{100}$.\n\n$$\n270 = \\frac{T.D. \\times 12 \\times 3}{100} = \\frac{T.D. \\times 36}{100}\n$$\n\n$$\nT.D. = \\frac{27000}{36} = 750\n$$\n\nSince $B.D. = T.D. + B.G.$\n\n$$\nB.D. = 750 + 270 = 1020\n$$\n\nHence, the banker's discount is ₹ 1020.",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_gain",
+          "bankers_discount",
+          "true_discount"
+        ],
+        "prerequisites": [
+          "simple_interest"
+        ],
+        "formulas_used": [
+          "$B.G. = \\frac{T.D. \\times R \\times T}{100}$",
+          "$B.D. = T.D. + B.G.$"
+        ],
+        "hints": [
+          "Calculate True Discount first using the Banker's Gain formula.",
+          "Add the Banker's Gain to the True Discount to get the Banker's Discount."
+        ],
+        "common_mistakes": [
+          "Confusing the relationship between B.D., T.D., and B.G.",
+          "Incorrectly calculating the interest on the principal."
+        ],
+        "related_patterns": [
+          "simple_interest_problems"
+        ],
+        "confusing_patterns": [
+          "present_worth_problems"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present worth of a sum due sometime hence is ₹ 576 and the banker’s gain is ₹ 16. The true discount is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 36",
+      "option_b": "₹ 72",
+      "option_c": "₹ 48",
+      "option_d": "₹ 96",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "T.D. = $\\sqrt{P.W.\\times B.G.}$ = $\\sqrt{576\\times16}$ = $96$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The present worth of a sum due sometime hence is ₹ 576 and the banker’s gain is ₹ 16. The true discount is",
+        "paraphrased_option_a": "₹ 36",
+        "paraphrased_option_b": "₹ 72",
+        "paraphrased_option_c": "₹ 48",
+        "paraphrased_option_d": "₹ 96",
+        "paraphrased_correct_option": "d",
+        "paraphrased_final_answer": "₹ 96",
+        "traditional_solution": "There is a specific relationship between the True Discount (T.D.), Present Worth (P.W.), and Banker's Gain (B.G.) given by the formula\n\n$$\nB.G. = \\frac{T.D.^2}{P.W.}\n$$\n\nThis formula is derived from the fact that $T.D. = \\frac{P.W. \\times R \\times T}{100}$ and $B.G. = \\frac{T.D. \\times R \\times T}{100}$. Substituting the given values $P.W. = 576$ and $B.G. = 16$:\n\n$$\n16 = \\frac{T.D.^2}{576}\n$$\n\nTo solve for T.D., we multiply both sides by 576:\n\n$$\nT.D.^2 = 16 \\times 576\n$$\n\nTaking the square root of both sides:\n\n$$\nT.D. = \\sqrt{16 \\times 576} = 4 \\times 24 = 96\n$$\n\nTherefore, the true discount is ₹ 96.",
+        "shortcut_solution": "Using the property $T.D. = \\sqrt{P.W. \\times B.G.}$, we have\n\n$$\nT.D. = \\sqrt{576 \\times 16} = 24 \\times 4 = 96\n$$\n\nHence, the true discount is ₹ 96.",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_gain",
+          "true_discount",
+          "present_worth"
+        ],
+        "prerequisites": [
+          "square_roots",
+          "algebraic_manipulation"
+        ],
+        "formulas_used": [
+          "$T.D. = \\sqrt{P.W. \\times B.G.}$"
+        ],
+        "hints": [
+          "Use the direct relationship formula between T.D., P.W., and B.G.",
+          "Remember to take the square root of the product."
+        ],
+        "common_mistakes": [
+          "Forgetting the square root.",
+          "Mixing up the variables in the formula."
+        ],
+        "related_patterns": [
+          "geometric_mean_problems"
+        ],
+        "confusing_patterns": [
+          "simple_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on ₹ 1600 at 15% per annum is the same as true discount on ₹ 1680 for the same time and at the same rate. The time is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 months",
+      "option_b": "4 months",
+      "option_c": "6 months",
+      "option_d": "8 months",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "S.I. on ₹ $1600$ = T.D. on ₹ $1680$.\n$\\therefore$ ₹ $1600$ is the P.W. of ₹ $1680$, i.e.,\n₹ $80$ is S.I. on ₹ $1600$ at $15\\%$.\n$\\therefore$ Time = $\\left(\\frac{100\\times80}{1600\\times15}\\right)$ year = $\\frac{1}{3}$ year = $4$ months.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s discount on ₹ $1600$ at $15\\%$ per annum is the same as true discount on ₹ $1680$ for the same time and at the same rate. The time is",
+        "paraphrased_option_a": "3 months",
+        "paraphrased_option_b": "4 months",
+        "paraphrased_option_c": "6 months",
+        "paraphrased_option_d": "8 months",
+        "paraphrased_correct_option": "b",
+        "paraphrased_final_answer": "4 months",
+        "traditional_solution": "The banker's discount (B.D.) on a sum is the simple interest on the amount due. The true discount (T.D.) is the simple interest on the present worth (P.W.).\n\nGiven that the B.D. on ₹ $1600$ equals the T.D. on ₹ $1680$, it implies that ₹ $1600$ is the present worth of ₹ $1680$.\n\nThis means the difference between the amount (₹ $1680$) and the present worth (₹ $1600$) is the interest earned on the present worth over that time.\n\n$$1680-1600=80$$\n\nSo, ₹ $80$ is the simple interest on ₹ $1600$ at $15\\%$ per annum.\n\nWe use the simple interest formula:\n\n$$\\text{Interest} = \\frac{\\text{Principal} \\times \\text{Rate} \\times \\text{Time}}{100}$$\n\nSubstituting our values:\n\n$$80 = \\frac{1600 \\times 15 \\times \\text{Time}}{100}$$\n\nSolving for Time:\n\n$$\\text{Time} = \\frac{80 \\times 100}{1600 \\times 15} = \\frac{8000}{24000} = \\frac{1}{3} \\text{ year}$$\n\nSince $1$ year has $12$ months, $\\frac{1}{3}$ of a year is\n\n$$\\frac{1}{3} \\times 12 = 4 \\text{ months}$$",
+        "shortcut_solution": "The difference between the amount and the principal is the interest on the principal.\n\n$$1680-1600=80$$\n\nUsing the simple interest formula for time:\n\n$$\\text{Time} = \\frac{80 \\times 100}{1600 \\times 15} = \\frac{1}{3} \\text{ year} = 4 \\text{ months}$$",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "simple_interest"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "fractions"
+        ],
+        "formulas_used": [
+          "$\\text{Interest} = \\frac{\\text{Principal} \\times \\text{Rate} \\times \\text{Time}}{100}$"
+        ],
+        "hints": [
+          "Recognize that the difference between the amount and the present worth is the interest.",
+          "Use the simple interest formula to find the time."
+        ],
+        "common_mistakes": [
+          "Confusing banker's discount with true discount.",
+          "Forgetting to convert the time from years to months."
+        ],
+        "related_patterns": [
+          "true_discount_calculation"
+        ],
+        "confusing_patterns": [
+          "compound_interest_discount"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount on a sum of money for $1\\frac{1}{2}$ years is ₹ 558 and the true discount on the same sum for 2 years is ₹ 600. The rate percent is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10%",
+      "option_b": "13%",
+      "option_c": "12%",
+      "option_d": "15%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "B.D. for $\\frac{3}{2}$ years = ₹ $558$. B.D. for $2$ years\n= ₹ $\\left(558\\times\\frac{2}{3}\\times2\\right)$ = ₹ $744$.\nT.D. for $2$ years = ₹ $600$.\n$\\therefore$ Sum = ₹ $\\left(\\frac{B.D.\\times T.D.}{B.D.-T.D.}\\right)$ = ₹ $\\left(\\frac{744\\times600}{144}\\right)$ = ₹ $3100$.\nThus, ₹ $744$ is S.I. on ₹ $3100$ for $2$ years.\n$\\therefore$ Rate = $\\left(\\frac{100\\times744}{3100\\times2}\\right)\\% = 12\\%$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s discount on a sum of money for $1\\frac{1}{2}$ years is ₹ $558$ and the true discount on the same sum for $2$ years is ₹ $600$. The rate percent is",
+        "paraphrased_option_a": "10%",
+        "paraphrased_option_b": "13%",
+        "paraphrased_option_c": "12%",
+        "paraphrased_option_d": "15%",
+        "paraphrased_correct_option": "c",
+        "paraphrased_final_answer": "12%",
+        "traditional_solution": "Banker's discount (B.D.) is simple interest on the amount due. Since simple interest is proportional to time, we can find the B.D. for $2$ years.\n\nGiven B.D. for $\\frac{3}{2}$ years is ₹ $558$, the B.D. for $1$ year is\n\n$$\\frac{558}{$\\frac{3}{2}$} = 558 \\times \\frac{2}{3} = 372$$\n\nTherefore, B.D. for $2$ years is\n\n$$372 \\times 2 = 744$$\n\nWe know the relationship between the sum, B.D., and T.D. for the same time:\n\n$$\\text{Sum} = \\frac{B.D. \\times T.D.}{B.D. - T.D.}$$\n\nSubstituting the values for $2$ years:\n\n$$\\text{Sum} = \\frac{744 \\times 600}{744 - 600} = \\frac{744 \\times 600}{144} = 3100$$\n\nNow, the B.D. for $2$ years (₹ $744$) is the simple interest on the sum (₹ $3100$) for $2$ years. Using the simple interest formula:\n\n$$744 = \\frac{3100 \\times \\text{Rate} \\times 2}{100}$$\n\nSolving for Rate:\n\n$$\\text{Rate} = \\frac{744 \\times 100}{3100 \\times 2} = \\frac{74400}{6200} = 12\\%$$",
+        "shortcut_solution": "Calculate B.D. for $2$ years:\n\n$$558 \\times \\frac{2}{1.5} = 744$$\n\nCalculate the sum:\n\n$$\\frac{744 \\times 600}{744 - 600} = 3100$$\n\nCalculate the rate:\n\n$$\\frac{744 \\times 100}{3100 \\times 2} = 12\\%$$",
+        "chapter": "bankers_discount",
+        "difficulty": "hard",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "simple_interest"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "algebraic_equations"
+        ],
+        "formulas_used": [
+          "$\\text{Sum} = \\frac{B.D. \\times T.D.}{B.D. - T.D.}$",
+          "$\\text{Interest} = \\frac{\\text{Principal} \\times \\text{Rate} \\times \\text{Time}}{100}$"
+        ],
+        "hints": [
+          "Normalize the time periods to 2 years for both discounts.",
+          "Use the formula relating sum, B.D., and T.D."
+        ],
+        "common_mistakes": [
+          "Failing to normalize the time periods before using the sum formula.",
+          "Miscalculating the B.D. for 2 years."
+        ],
+        "related_patterns": [
+          "bankers_gain_problems"
+        ],
+        "confusing_patterns": [
+          "simple_interest_only_problems"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s discount of a certain sum of money is ₹ 72 and the true discount on the same sum for the same time is ₹ 60. The sum due is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "₹ 360",
+      "option_b": "₹ 432",
+      "option_c": "₹ 540",
+      "option_d": "₹ 1080",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Sum = ₹ $\\left(\\frac{B.D.\\times T.D.}{B.D.-T.D.}\\right)$ = ₹ $\\left(\\frac{72\\times60}{72-60}\\right)$ = ₹ $\\left(\\frac{72\\times60}{12}\\right)$ = ₹ $360$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s discount of a certain sum of money is ₹ $72$ and the true discount on the same sum for the same time is ₹ $60$. The sum due is",
+        "paraphrased_option_a": "₹ 360",
+        "paraphrased_option_b": "₹ 432",
+        "paraphrased_option_c": "₹ 540",
+        "paraphrased_option_d": "₹ 1080",
+        "paraphrased_correct_option": "a",
+        "paraphrased_final_answer": "₹ 360",
+        "traditional_solution": "The banker's gain (B.G.) is the difference between the banker's discount (B.D.) and the true discount (T.D.).\n\n$$B.G. = B.D. - T.D. = 72 - 60 = 12$$\n\nThe sum due is calculated using the relationship between the banker's discount, true discount, and the sum:\n\n$$\\text{Sum} = \\frac{B.D. \\times T.D.}{B.D. - T.D.}$$\n\nSubstituting the given values:\n\n$$\\text{Sum} = \\frac{72 \\times 60}{72 - 60} = \\frac{72 \\times 60}{12}$$\n\nPerforming the division:\n\n$$\\frac{72}{12} = 6$$\n\n$$6 \\times 60 = 360$$\n\nThus, the sum due is ₹ $360$.",
+        "shortcut_solution": "The sum is given by the formula:\n\n$$\\frac{B.D. \\times T.D.}{B.D. - T.D.} = \\frac{72 \\times 60}{12} = 360$$\n\nThe sum due is ₹ $360$.",
+        "chapter": "bankers_discount",
+        "difficulty": "easy",
+        "concepts": [
+          "bankers_discount",
+          "true_discount"
+        ],
+        "prerequisites": [
+          "basic_algebra"
+        ],
+        "formulas_used": [
+          "$\\text{Sum} = \\frac{B.D. \\times T.D.}{B.D. - T.D.}$"
+        ],
+        "hints": [
+          "Use the direct formula relating B.D., T.D., and the sum.",
+          "The difference between B.D. and T.D. is the denominator."
+        ],
+        "common_mistakes": [
+          "Swapping the numerator and denominator.",
+          "Incorrectly calculating the difference."
+        ],
+        "related_patterns": [
+          "bankers_gain_problems"
+        ],
+        "confusing_patterns": [
+          "simple_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "The banker’s discount on a certain sum due 2 years hence is $\\frac{11}{10}$ of the true discount. The rate percent is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11%",
+      "option_b": "10%",
+      "option_c": "5%",
+      "option_d": "5.5%",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let T.D. be ₹ $1$. Then, B.D. = $\\frac{11}{10}$ ₹ = ₹ $1.10$.\n$\\therefore$ Sum = ₹ $\\left(\\frac{1.10\\times1}{1.10-1}\\right)$ = ₹ $\\left(\\frac{110}{10}\\right)$ = ₹ $11$.\n$\\therefore$ S.I. on ₹ $11$ for $2$ years is ₹ $1.10$.\n$\\therefore$ Rate = $\\left(\\frac{100\\times1.10}{11\\times2}\\right)\\% = 5\\%$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s discount on a certain sum due $2$ years hence is $\\frac{11}{10}$ of the true discount. The rate percent is",
+        "paraphrased_option_a": "11%",
+        "paraphrased_option_b": "10%",
+        "paraphrased_option_c": "5%",
+        "paraphrased_option_d": "5.5%",
+        "paraphrased_correct_option": "c",
+        "paraphrased_final_answer": "5%",
+        "traditional_solution": "Let the true discount (T.D.) be ₹ $1$. According to the problem, the banker's discount (B.D.) is $\\frac{11}{10}$ of the T.D.\n\n$$B.D. = \\frac{11}{10} \\times 1 = 1.10$$\n\nWe use the formula for the sum due:\n\n$$\\text{Sum} = \\frac{B.D. \\times T.D.}{B.D. - T.D.}$$\n\nSubstituting the values:\n\n$$\\text{Sum} = \\frac{1.10 \\times 1}{1.10 - 1} = \\frac{1.10}{0.10} = 11$$\n\nThe banker's discount is the simple interest on the sum for the given time. Thus, ₹ $1.10$ is the simple interest on ₹ $11$ for $2$ years.\n\nUsing the simple interest formula:\n\n$$1.10 = \\frac{11 \\times \\text{Rate} \\times 2}{100}$$\n\nSolving for Rate:\n\n$$\\text{Rate} = \\frac{1.10 \\times 100}{11 \\times 2} = \\frac{110}{22} = 5\\%$$",
+        "shortcut_solution": "Using the relation $\\text{Rate} = \\frac{B.G. \\times 100}{T.D. \\times T}$ where $B.G. = B.D. - T.D.$:\n\n$$B.G. = 1.1 - 1 = 0.1$$\n\n$$\\text{Rate} = \\frac{0.1 \\times 100}{1 \\times 2} = 5\\%$$",
+        "chapter": "bankers_discount",
+        "difficulty": "medium",
+        "concepts": [
+          "bankers_discount",
+          "true_discount",
+          "simple_interest"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "ratios"
+        ],
+        "formulas_used": [
+          "$\\text{Sum} = \\frac{B.D. \\times T.D.}{B.D. - T.D.}$",
+          "$\\text{Rate} = \\frac{B.G. \\times 100}{T.D. \\times T}$"
+        ],
+        "hints": [
+          "Assume T.D. is 1 to simplify the ratio.",
+          "Calculate the sum first, then use the simple interest formula."
+        ],
+        "common_mistakes": [
+          "Misinterpreting the ratio of B.D. to T.D.",
+          "Forgetting to include the time factor in the rate calculation."
+        ],
+        "related_patterns": [
+          "bankers_gain_problems"
+        ],
+        "confusing_patterns": [
+          "compound_interest_problems"
+        ]
+      }
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The banker’s gain on a certain sum due $1\\frac{1}{2}$ years hence is $\\frac{3}{25}$ of the banker’s discount. The rate percent is :",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{1}{5}$%",
+      "option_b": "$1\\frac{1}{9}$%",
+      "option_c": "$1\\frac{1}{8}$%",
+      "option_d": "$1\\frac{1}{6}$%",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let, B.D. = ₹ $1$. Then, B.G. = ₹ $\\frac{3}{25}$.\n$\\therefore$ T.D. = (B.D. - B.G.) = ₹ $\\left(1-\\frac{3}{25}\\right)$ = ₹ $\\frac{22}{25}$.\nSum = ₹ $\\left(\\frac{1\\times\\frac{22}{25}}{1-\\frac{22}{25}}\\right)$ = ₹ $\\frac{22}{3}$.\nS.I. on ₹ $\\frac{22}{3}$ for $1\\frac{1}{2}$ years is ₹ $1$.\n$\\therefore$ Rate = $\\left(\\frac{100\\times1}{\\frac{22}{3}\\times\\frac{3}{2}}\\right)\\% = 9\\frac{1}{9}\\%$.",
+      "page_numbers": [
+        "868"
+      ],
+      "answer_page_numbers": [
+        "869"
+      ],
+      "ai_enrichment": {
+        "paraphrased_question": "The banker’s gain on a certain sum due $1\\frac{1}{2}$ years hence is $\\frac{3}{25}$ of the banker’s discount. The rate percent is :",
+        "paraphrased_option_a": "$1\\frac{1}{5}$%",
+        "paraphrased_option_b": "$1\\frac{1}{9}$%",
+        "paraphrased_option_c": "$1\\frac{1}{8}$%",
+        "paraphrased_option_d": "$1\\frac{1}{6}$%",
+        "paraphrased_correct_option": "b",
+        "paraphrased_final_answer": "9\\frac{1}{9}%",
+        "traditional_solution": "Let the banker's discount (B.D.) be ₹ $1$. The banker's gain (B.G.) is $\\frac{3}{25}$ of the B.D.\n\n$$B.G. = \\frac{3}{25} \\times 1 = \\frac{3}{25}$$\n\nThe true discount (T.D.) is the difference between B.D. and B.G.:\n\n$$T.D. = B.D. - B.G. = 1 - \\frac{3}{25} = \\frac{22}{25}$$\n\nThe sum due is calculated as:\n\n$$\\text{Sum} = \\frac{B.D. \\times T.D.}{B.D. - T.D.} = \\frac{1 \\times \\frac{22}{25}}{1 - \\frac{22}{25}} = \\frac{\\frac{22}{25}}{\\frac{3}{25}} = \\frac{22}{3}$$\n\nThe banker's discount (₹ $1$) is the simple interest on the sum (₹ $\\frac{22}{3}$) for $1\\frac{1}{2}$ years. Using the simple interest formula:\n\n$$1 = \\frac{\\frac{22}{3} \\times \\text{Rate} \\times \\frac{3}{2}}{100}$$\n\nSimplifying the equation:\n\n$$1 = \\frac{22 \\times \\text{Rate} \\times 3}{3 \\times 2 \\times 100} = \\frac{11 \\times \\text{Rate}}{100}$$\n\nSolving for Rate:\n\n$$\\text{Rate} = \\frac{100}{11} = 9\\frac{1}{9}\\%$$",
+        "shortcut_solution": "The formula for rate when B.G. is a fraction of B.D. is:\n\n$$\\text{Rate} = \\frac{\\text{Fraction} \\times 100}{\\text{Time} \\times (1 - \\text{Fraction})}$$\n\n$$\\text{Rate} = \\frac{\\frac{3}{25} \\times 100}{1.5 \\times (1 - \\frac{3}{25})} = \\frac{12}{1.5 \\times \\frac{22}{25}} = \\frac{12 \\times 25}{1.5 \\times 22} = \\frac{300}{33} = 9\\frac{1}{9}\\%$$",
+        "chapter": "bankers_discount",
+        "difficulty": "hard",
+        "concepts": [
+          "bankers_discount",
+          "bankers_gain",
+          "true_discount"
+        ],
+        "prerequisites": [
+          "simple_interest",
+          "fractions"
+        ],
+        "formulas_used": [
+          "$\\text{Sum} = \\frac{B.D. \\times T.D.}{B.D. - T.D.}$",
+          "$\\text{Interest} = \\frac{\\text{Principal} \\times \\text{Rate} \\times \\text{Time}}{100}$"
+        ],
+        "hints": [
+          "Define B.D. as 1 to simplify the ratio.",
+          "Calculate T.D. using the relationship B.D. - B.G. = T.D."
+        ],
+        "common_mistakes": [
+          "Confusing B.G. with T.D.",
+          "Errors in fraction arithmetic."
+        ],
+        "related_patterns": [
+          "bankers_gain_problems"
+        ],
+        "confusing_patterns": [
+          "simple_interest_problems"
+        ]
+      }
+    }
+  ]
+}
