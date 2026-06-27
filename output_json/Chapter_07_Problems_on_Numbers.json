@@ -1,0 +1,2737 @@
+{
+  "chapter_title": "Chapter_07_Problems_on_Numbers",
+  "question_count": 124,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A number is as much greater than 36 as is less than 86. Find the number.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be x. Then, x – 36 = 86 – x ⇒ 2x = 86 + 36 = 122 ⇒ x = 61.\nHence, the required number is 61.",
+      "page_numbers": [
+        "240"
+      ],
+      "answer_page_numbers": [
+        "240"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "Hotel Management, 2002",
+      "passage_text": "",
+      "question_text": "Find a number such that when 15 is subtracted from 7 times the number, the result is 10 more than twice the number.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be x. Then, 7x – 15 = 2x + 10 ⇒ 5x = 25 ⇒ x = 5.\nHence, the required number is 5.",
+      "page_numbers": [
+        "240"
+      ],
+      "answer_page_numbers": [
+        "240"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of a rational number and its reciprocal is $\\frac{13}{6}$. Find the number.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be x. Then,\n$x + \\frac{1}{x} = \\frac{13}{6} \\Rightarrow \\frac{x^2 + 1}{x} = \\frac{13}{6} \\Rightarrow 6x^2 - 13x + 6 = 0 \\Rightarrow 6x^2 - 9x - 4x + 6 = 0$\n$\\Rightarrow (3x - 2)(2x - 3) = 0 \\Rightarrow x = \\frac{2}{3}$ or $x = \\frac{3}{2}$.\nHence, the required number is $\\frac{2}{3}$ or $\\frac{3}{2}$.",
+      "page_numbers": [
+        "240"
+      ],
+      "answer_page_numbers": [
+        "240"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "Bank Recruitment, 2011",
+      "passage_text": "",
+      "question_text": "The sum of two numbers is 184. If one-third of the one exceeds one-seventh of the other by 8, find the smaller number.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x and (184 – x). Then,\n$\\frac{x}{3} - \\frac{(184 - x)}{7} = 8 \\Rightarrow 7x - 3(184 - x) = 168 \\Rightarrow 10x = 720 \\Rightarrow x = 72$.\nSo, the numbers are 72 and 112. Hence, smaller number = 72.",
+      "page_numbers": [
+        "240"
+      ],
+      "answer_page_numbers": [
+        "240"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference of two numbers is 11 and one-fifth of their sum is 9. Find the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x and y. Then\nx – y = 11 ...(i)\nand $\\frac{1}{5}(x + y) = 9 \\Rightarrow x + y = 45$ ...(ii)\nAdding (i) and (ii), we get : 2x = 56 or x = 28.\nPutting x = 28 in (i), we get : y = 17.\nHence, the numbers are 28 and 17.",
+      "page_numbers": [
+        "240"
+      ],
+      "answer_page_numbers": [
+        "240"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "S.S.C., 2003; B.Ed., 2010",
+      "passage_text": "",
+      "question_text": "If the sum of two numbers is 42 and their product is 437, then find the absolute difference between the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x and y. Then, x + y = 42 and xy = 437.\n$x - y = \\sqrt{(x + y)^2 - 4xy} = \\sqrt{(42)^2 - 4 \\times 437} = \\sqrt{1764 - 1748} = \\sqrt{16} = 4$.\n$\\therefore$ Required difference = 4.",
+      "page_numbers": [
+        "240"
+      ],
+      "answer_page_numbers": [
+        "240"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "P.C.S., 2006",
+      "passage_text": "",
+      "question_text": "If the sum of two numbers is 10 and the sum of their reciprocals is $\\frac{5}{12}$, find the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x and y.\nThen, x + y = 10 ...(i)\nAnd, $\\frac{1}{x} + \\frac{1}{y} = \\frac{5}{12} \\Rightarrow \\frac{x + y}{xy} = \\frac{5}{12} \\Rightarrow xy = \\frac{10 \\times 12}{5} = 24$ ...(ii)\n$\\therefore x - y = \\sqrt{(x + y)^2 - 4xy} = \\sqrt{(10)^2 - 4 \\times 24} = \\sqrt{100 - 96} = \\sqrt{4} = 2 \\Rightarrow x - y = 2$ ...(iii)\nAdding (i) and (iii), we get: 2x = 12 or x = 6.\nPutting x = 6 in (i), we get: y = 4.\nHence, the required numbers are 6 and 4.",
+      "page_numbers": [
+        "241"
+      ],
+      "answer_page_numbers": [
+        "241"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "R.R.B., 2007",
+      "passage_text": "",
+      "question_text": "Three numbers are in the ratio 3 : 2 : 5. The sum of their squares is 1862. Find the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be 3x, 2x and 5x.\nThen, $(3x)^2 + (2x)^2 + (5x)^2 = 1862 \\Rightarrow 9x^2 + 4x^2 + 25x^2 = 1862$\n$\\Rightarrow 38x^2 = 1862 \\Rightarrow x^2 = \\frac{1862}{38} = 49 \\Rightarrow x = \\sqrt{49} = 7$.\nHence, the numbers are 21, 14 and 35.",
+      "page_numbers": [
+        "241"
+      ],
+      "answer_page_numbers": [
+        "241"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "The sum of seven consecutive natural numbers is 1617. How many of these numbers are prime?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the seven consecutive numbers be x, (x + 1), (x + 2), (x + 3), (x + 4), (x + 5) and (x + 6).\nThen, x + (x + 1) + (x + 2) + (x + 3) + (x + 4) + (x + 5) + (x + 6) = 1617\n$\\Rightarrow 7x + 21 = 1617 \\Rightarrow 7x = 1596 \\Rightarrow x = 228$.\nThus, the numbers are 228, 229, 230, 231, 232, 233 and 234.\nOf these numbers, only two numbers i.e. 229 and 233, are prime.",
+      "page_numbers": [
+        "241"
+      ],
+      "answer_page_numbers": [
+        "241"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The product of two consecutive numbers is 4032. Find the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x and (x + 1).\nThen, $x(x + 1) = 4032 \\Rightarrow x^2 + x - 4032 = 0 \\Rightarrow x^2 + 64x - 63x - 4032 = 0$\n$\\Rightarrow x(x + 64) - 63(x + 64) = 0 \\Rightarrow (x + 64)(x - 63) = 0$\n$\\Rightarrow x = 63$. [$\\because x \\neq -64$]\nHence, the required numbers are 63 and 64.",
+      "page_numbers": [
+        "241"
+      ],
+      "answer_page_numbers": [
+        "241"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "The sum of two numbers is 15 and the sum of their squares is 113. Find the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x and (15 – x).\nThen, $x^2 + (15 - x)^2 = 113 \\Rightarrow x^2 + 225 + x^2 - 30x = 113$\n$\\Rightarrow 2x^2 - 30x + 112 = 0 \\Rightarrow x^2 - 15x + 56 = 0$\n$\\Rightarrow (x - 7)(x - 8) = 0 \\Rightarrow x = 7$ or $x = 8$.\nSo, the numbers are 7 and 8.",
+      "page_numbers": [
+        "241"
+      ],
+      "answer_page_numbers": [
+        "241"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The average of four consecutive even numbers is 27. Find the largest of these numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the four consecutive even numbers be x, x + 2, x + 4 and x + 6.\nThen, sum of these numbers = $(27 \\times 4) = 108$.\nSo, x + (x + 2) + (x + 4) + (x + 6) = 108 or 4x = 96 or x = 24.\n$\\therefore$ Largest number = (x + 6) = 30.",
+      "page_numbers": [
+        "241"
+      ],
+      "answer_page_numbers": [
+        "241"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "R.R.B., 2010",
+      "passage_text": "",
+      "question_text": "The sum of the squares of three consecutive odd numbers is 2531. Find the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x, x + 2 and x + 4.\nThen, $x^2 + (x + 2)^2 + (x + 4)^2 = 2531 \\Rightarrow 3x^2 + 12x - 2511 = 0 \\Rightarrow x^2 + 4x - 837 = 0$\n$\\Rightarrow (x - 27)(x + 31) = 0 \\Rightarrow x = 27$.\nHence, the required numbers are 27, 29 and 31.",
+      "page_numbers": [
+        "241"
+      ],
+      "answer_page_numbers": [
+        "241"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Of two numbers, 4 times the smaller one is less than 3 times the larger one by 5. If the sum of the numbers is larger than 6 times their difference by 6, find the two numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x and y, such that x > y.\nThen, 3x – 4y = 5 ...(i)\nand (x + y) – 6(x – y) = 6 $\\Rightarrow -5x + 7y = 6$ ...(ii)\nSolving (i) and (ii), we get : x = 59 and y = 43.\nHence, the required numbers are 59 and 43.",
+      "page_numbers": [
+        "242"
+      ],
+      "answer_page_numbers": [
+        "242"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "15",
+      "exam_reference": "S.B.I.P.O., 2005",
+      "passage_text": "",
+      "question_text": "The ratio between a two-digit number and the sum of the digits of that number is 4 : 1. If the digit in the unit’s place is 3 more than the digit in the ten’s place, what is the number?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the ten’s digit be x. Then, unit’s digit = (x + 3).\nSum of the digits = x + (x + 3) = 2x + 3. Number = 10x + (x + 3) = 11x + 3.\n$\\frac{11x + 3}{2x + 3} = \\frac{4}{1} \\Leftrightarrow 11x + 3 = 4(2x + 3) \\Leftrightarrow 3x = 9 \\Leftrightarrow x = 3$.\nHence, required number = 11x + 3 = 36.",
+      "page_numbers": [
+        "242"
+      ],
+      "answer_page_numbers": [
+        "242"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A number consists of two digits. The sum of the digits is 9. If 63 is subtracted from the number, its digits are interchanged. Find the number.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the ten’s digit be x. Then, unit’s digit = (9 – x).\nNumber = 10x + (9 – x) = 9x + 9.\nNumber obtained by reversing the digits = 10(9 – x) + x = 90 – 9x.\n$(9x + 9) - 63 = 90 - 9x \\Leftrightarrow 18x = 144 \\Leftrightarrow x = 8$.\nSo, ten’s digit = 8 and unit’s digit = 1.\nHence, the required number is 81.",
+      "page_numbers": [
+        "242"
+      ],
+      "answer_page_numbers": [
+        "242"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "17",
+      "exam_reference": "L.I.C., 2005",
+      "passage_text": "",
+      "question_text": "In a three-digit number, the digit in the units place is four times the digit in the hundreds place. If the digits in the units place and the tens place are interchanged, the new number so formed is 18 more than the original number. If the digit in the hundreds place is one-third of the digit in the tens place, what is the original number?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the digit in the hundreds place be x.\nThen, digit in the units place = 4x. And, digit in the tens place = 3x.\nOriginal number = 100x + 10 $\\times$ 3x + 4x = 100x + 30x + 4x = 134x.\nNumber formed on interchanging the unit’s and ten’s digits\n= 100x + 10 $\\times$ 4x + 3x = 143x.\n$143x - 134x = 18 \\Leftrightarrow 9x = 18 \\Leftrightarrow x = 2$.\nHence, original number = 134x = (134 $\\times$ 2) = 268.",
+      "page_numbers": [
+        "242"
+      ],
+      "answer_page_numbers": [
+        "242"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "18",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "If the digits of a two-digit number are interchanged, the number formed is greater than the original number by 45. If the difference between the digits is 5, what is the original number?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Since the number formed by interchanging the digits is greater so the ten’s digit of the original number is smaller than the unit’s digit.\nLet the ten’s digit be x. Then, unit’s digit = x + 5.\nOriginal number = 10x + (x + 5) = 11x + 5.\nNumber formed on interchanging the digits = 10(x + 5) + x = 11x + 50.\n$(11x + 50) - (11x + 5) = 45 \\Rightarrow 45 = 45$, which is independent of x.\nHence, the number cannot be determined from the given data.",
+      "page_numbers": [
+        "242"
+      ],
+      "answer_page_numbers": [
+        "242"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A fraction becomes $\\frac{2}{3}$ when 1 is added to both its numerator and denominator. And, it becomes $\\frac{1}{2}$ when 1 is subtracted from both the numerator and denominator. Find the fraction.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required fraction be $\\frac{x}{y}$. Then,\n$\\frac{x + 1}{y + 1} = \\frac{2}{3} \\Rightarrow 3x - 2y = -1$ ...(i) and $\\frac{x - 1}{y - 1} = \\frac{1}{2} \\Rightarrow 2x - y = 1$ ...(ii)\nSolving (i) and (ii), we get : x = 3, y = 5.\n$\\therefore$ Required fraction = $\\frac{3}{5}$.",
+      "page_numbers": [
+        "242"
+      ],
+      "answer_page_numbers": [
+        "242"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "50 is divided into two parts such that the sum of their reciprocals is $\\frac{1}{12}$. Find the two parts.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the two parts be x and (50 – x).\nThen, $\\frac{1}{x} + \\frac{1}{50 - x} = \\frac{1}{12} \\Rightarrow \\frac{50}{x(50 - x)} = \\frac{1}{12} \\Rightarrow x^2 - 50x + 600 = 0$\n$\\Rightarrow (x - 30)(x - 20) = 0 \\Rightarrow x = 30$ or x = 20.\nSo, the parts are 30 and 20.",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "243"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If three numbers are added in pairs, the sums equal 10, 19 and 21. Find the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be x, y and z. Then,\nx + y = 10 ...(i)\ny + z = 19 ...(ii)\nx + z = 21 ...(iii)\nAdding (i), (ii) and (iii), we get : 2(x + y + z) = 50 or (x + y + z) = 25.\nThus, x = (25 – 19) = 6; y = (25 – 21) = 4; z = (25 – 10) = 15.\nHence, the required numbers are 6, 4 and 15.",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "243"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "By how much is $\\frac{3}{4}$th of 568 lesser than $\\frac{7}{8}$th of 1008?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "444",
+      "option_b": "448",
+      "option_c": "452",
+      "option_d": "456",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "$\frac{7}{8}$ of $1008 - \frac{3}{4}$ of $568 = \frac{7}{8} \times 1008 - \frac{3}{4} \times 568$\n$= 882 - 426 = 456.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between a number and its three-fifths is 50. What is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "75",
+      "option_b": "100",
+      "option_c": "125",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $x - \frac{3}{5}x = 50 \n\n$\frac{2}{5}x = 50$\n\n$x = \frac{50 \times 5}{2} = 125.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "If a number is added to two-fifths of itself, the value so obtained is 455. What is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "325",
+      "option_b": "350",
+      "option_c": "400",
+      "option_d": "420",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $x + \frac{2}{5}x = 455 \n\n$\frac{7}{5}x = 455$\n\n$x = \frac{455 \times 5}{7} = 325.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "If a number is multiplied by two-thirds of itself the value so obtained is 864. What is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "34",
+      "option_b": "36",
+      "option_c": "38",
+      "option_d": "44",
+      "option_e": "46",
+      "correct_option": "",
+      "solution": "Let the number be $x$. Then, $x \times \frac{2}{3}x = 864$\n\n$\frac{2}{3}x^2 = 864$\n\n$x^2 = \frac{864 \times 3}{2} = 1296 \n\n$x = \frac{\\sqrt{1296}} = 36.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If a number is decreased by 4 and divided by 6, the result is 8. What would be the result if 2 is subtracted from the number and then it is divided by 5?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$9\\frac{2}{3}$",
+      "option_b": "10",
+      "option_c": "$10\\frac{1}{5}$",
+      "option_d": "$11\\frac{1}{5}$",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the number be $x$. Then, $\frac{x-4}{6} = 8$\n\n$x - 4 = 48$\n\n$x = 52.$\n\n$\frac{x-2}{5} = \frac{52-2}{5} = \frac{50}{5} = 10.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "P.C.S., 2004",
+      "passage_text": "",
+      "question_text": "A number when multiplied by 13 is increased by 180. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5",
+      "option_b": "12",
+      "option_c": "15",
+      "option_d": "45",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $13x = x + 180 \n\n$12x = 180$\n\n$x = \frac{180}{12} = 15.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "The sum of twice a number and three times of 42 is 238. What is the sum of thrice the number and two times of 42?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "245",
+      "option_b": "250",
+      "option_c": "252",
+      "option_d": "264",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $2x + 3 \times 42 = 238 \n\n$2x + 126 = 238$\n\n$2x = 112 \n\n$x = 56.$\n\nRequired sum $= 3x + 2 \times 42 = 3 \times 56 + 2 \times 42$\n$= 168 + 84 = 252.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If one-third of one-fourth of a number is 15, then three-tenths of that number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "35",
+      "option_b": "36",
+      "option_c": "45",
+      "option_d": "54",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$. Then, $\frac{1}{3}$ of $\frac{1}{4}$ of $x = 15$\n\n$x = 15 \times 12 = 180.$\n\nSo, required number $= \frac{3}{10} \times 180 = 54.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "Bank P.O., 2006",
+      "passage_text": "",
+      "question_text": "The difference between $\\frac{3}{5}$th of $\\frac{2}{3}$rd of a number and $\\frac{2}{5}$th of $\\frac{1}{4}$th of the same number is 288. What is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "850",
+      "option_b": "895",
+      "option_c": "955",
+      "option_d": "960",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\frac{3}{5}$ of $\frac{2}{3}$ of $x - \frac{2}{5}$ of $\frac{1}{4}$ of $x = 288$\n\n$\frac{3 \times 2}{5 \times 3}x - \frac{2 \times 1}{5 \times 4}x = 288$\n\n$\frac{2}{5}x - \frac{1}{10}x = 288$\n\n$\frac{3}{10}x = 288 \n\n$x = \frac{288 \times 10}{3} = 960.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A number is doubled and 9 is added. If the resultant is trebled, it becomes 75. What is that number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3.5",
+      "option_b": "6",
+      "option_c": "8",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $3(2x + 9) = 75 \n\n$2x + 9 = 25$\n\n$2x = 16 \n\n$x = 8.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Three-fourth of a number is 60 more than its one-third. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "84",
+      "option_b": "108",
+      "option_c": "144",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\frac{3}{4}x - \frac{1}{3}x = 60$\n\n$\frac{5}{12}x = 60$\n\n$x = \frac{60 \times 12}{5} = 144.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "SNAP, 2010",
+      "passage_text": "",
+      "question_text": "A number whose fifth part increased by 4 is equal to its fourth part diminished by 10, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "240",
+      "option_b": "260",
+      "option_c": "270",
+      "option_d": "280",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\frac{x}{5} + 4 = \frac{x}{4} - 10 \n\n$\frac{x}{4} - \frac{x}{5} = 14$\n\n$\frac{x}{20} = 14 \n\n$x = 14 \times 20 = 280.$",
+      "page_numbers": [
+        "243"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "When 24 is subtracted from a number, it reduces to its four-seventh. What is the sum of the digits of that number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "9",
+      "option_c": "11",
+      "option_d": "Data inadequate",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $x - 24 = \frac{4}{7}x \n\n$x - \frac{4}{7}x = 24$\n\n$\frac{3}{7}x = 24 \n\n$x = \frac{24 \times 7}{3} = 56.$\n\nSum of the digits $= (5 + 6) = 11.$",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "L.I.C., 2003",
+      "passage_text": "",
+      "question_text": "Find the number which when multiplied by 15 is increased by 196.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "14",
+      "option_b": "20",
+      "option_c": "26",
+      "option_d": "28",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $15x - x = 196 \n\n$14x = 196 \n\n$x = 14.$",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If a number, when divided by 4, is reduced by 21, the number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "20",
+      "option_c": "28",
+      "option_d": "38",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\frac{x}{4} = x - 21 \n\n$x = 4x - 84$\n\n$3x = 84 \n\n$x = 28.$",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A number whose fifth part increased by 4 is equal to its fourth part diminished by 10, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "240",
+      "option_b": "260",
+      "option_c": "270",
+      "option_d": "280",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\frac{1}{5}(x + 4) = \frac{1}{4}(x - 10)$\n\n$\frac{x}{20} = 14 \n\n$x = 14 \times 20 = 280.$",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference of two numbers is 20% of the larger number. If the smaller number is 12, the larger one is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "16",
+      "option_c": "18",
+      "option_d": "20",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $x - 12 = 20\\% \\text{ of } x - \frac{x}{5} = 12$\n\n$\frac{4x}{5} = 12 \n\n$x = \frac{12 \times 5}{4} = 15.$",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If one-seventh of a number exceeds its eleventh part by 100, then the number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "770",
+      "option_b": "1100",
+      "option_c": "1825",
+      "option_d": "1925",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\frac{1}{7}x - \frac{1}{11}x = 100 \n\n$\frac{4x}{77} = 100 \n\n$x = \frac{7700}{4} = 1925.$",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the sum of one-half and one-fifth of a number exceeds one-third of that number by $1\\frac{7}{3}$, the number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "18",
+      "option_c": "20",
+      "option_d": "30",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $(\frac{1}{2}x + \frac{1}{5}x) - \frac{1}{3}x = \frac{22}{3} \n\n$\frac{11x}{30} = \frac{22}{3} \n\n$x = \frac{22 \times 30}{3 \times 11} = 20.$",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If doubling a number and adding 20 to the result gives the same answer as multiplying the number by 8 and taking away 4 from the product, the number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "3",
+      "option_c": "4",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $2x + 20 = 8x - 4 \n\n$6x = 24 \n\n$x = 4.$",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "252"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "R.R.B., 2002",
+      "passage_text": "",
+      "question_text": "If 50 is subtracted from two-third of a number, the result is equal to sum of 40 and one-fourth of that number. What is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "174",
+      "option_b": "216",
+      "option_c": "246",
+      "option_d": "336",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\\frac{2}{3}x - 50 = \\frac{1}{4}x + 40 \\Leftrightarrow \\frac{2}{3}x - \\frac{1}{4}x = 90$\n$\\Leftrightarrow \\frac{5}{12}x = 90 \\Leftrightarrow x = \\left(\\frac{90 \\times 12}{5}\\right) = 216$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "A student was asked to divide the half of a certain number by 6 and the other half by 4 and then to add the two quantities so obtained. Instead of doing so the student divided the number by 5 and the result fell short by 4. The given number was",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "240",
+      "option_b": "288",
+      "option_c": "384",
+      "option_d": "480",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\\left[\\frac{x/2}{6} + \\frac{x/2}{4}\\right] - \\frac{x}{5} = 4 \\Leftrightarrow \\frac{x}{12} + \\frac{x}{8} - \\frac{x}{5} = 4$\n$\\Leftrightarrow \\frac{10x + 15x - 24x}{120} = 4$\n$\\Leftrightarrow x = 4 \\times 120 = 480$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "One-third of a two-digit number exceeds one-fourth of its successive number by 1. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "15",
+      "option_c": "18",
+      "option_d": "21",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\\frac{x}{3} - \\frac{x+1}{4} = 1 \\Leftrightarrow 4x - 3(x + 1) = 12 \\Leftrightarrow x = 15$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the sum of a number and its square is 182, what is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15",
+      "option_b": "26",
+      "option_c": "28",
+      "option_d": "91",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $x + x^2 = 182 \\Leftrightarrow x^2 + x - 182 = 0$\n$\\Leftrightarrow (x + 14) (x - 13) = 0 \\Leftrightarrow x = 13$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "L.I.C.A.D.O., 2007",
+      "passage_text": "",
+      "question_text": "If $(73)^2$ is subtracted from the square of a number, the answer so obtained is 5075. What is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "96",
+      "option_b": "98",
+      "option_c": "102",
+      "option_d": "106",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $x^2 - (73)^2 = 5075 \\Leftrightarrow x^2 - 5329 = 5075$\n$\\Leftrightarrow x^2 = 5075 + 5329 = 10404$\n$\\Leftrightarrow x = \\sqrt{10404} = 102$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Twenty times a positive integer is less than its square by 96. What is the integer?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "24",
+      "option_c": "30",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the integer be $x$.\nThen, $x^2 - 20x = 96$\n$\\Leftrightarrow x^2 - 20x - 96 = 0$\n$\\Leftrightarrow (x + 4) (x - 24) = 0$\n$\\Leftrightarrow x = 24$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "Thrice the square of a natural number decreased by 4 times the number is equal to 50 more than the number. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4",
+      "option_b": "5",
+      "option_c": "6",
+      "option_d": "10",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $3x^2 - 4x = x + 50$\n$\\Leftrightarrow 3x^2 - 5x - 50 = 0$\n$\\Leftrightarrow (3x + 10) (x - 5) = 0$\n$\\Leftrightarrow x = 5$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of a number and its reciprocal is one-eighth of 34. What is the product of the number and its square root?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "27",
+      "option_c": "32",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $x + \\frac{1}{x} = \\frac{34}{8} \\Leftrightarrow \\frac{x^2 + 1}{x} = \\frac{34}{8}$\n$\\Leftrightarrow 8x^2 - 34x + 8 = 0$\n$\\Leftrightarrow 4x^2 - 17x + 4 = 0$\n$\\Leftrightarrow (4x - 1) (x - 4) = 0$\n$\\Leftrightarrow x = 4$.\n[neglecting $\\frac{1}{4}$, as $x$ is a natural no.]\n$\\therefore$ Required number = $4 \\times \\sqrt{4} = 4 \\times 2 = 8$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two-third of a positive number and $\\frac{25}{216}$ of its reciprocal are equal. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{12}$",
+      "option_b": "$\\frac{12}{5}$",
+      "option_c": "$\\frac{25}{144}$",
+      "option_d": "$\\frac{144}{25}$",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\\frac{2}{3}x = \\frac{25}{216} \\times \\frac{1}{x} \\Leftrightarrow x^2 = \\frac{25}{216} \\times \\frac{3}{2}$\n$= \\frac{25}{144} \\Leftrightarrow x = \\sqrt{\\frac{25}{144}} = \\frac{5}{12}$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "M.A.T., 2007",
+      "passage_text": "",
+      "question_text": "Find the whole number which when increased by 20 is equal to 69 times the reciprocal of the number.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.5",
+      "option_b": "3",
+      "option_c": "5",
+      "option_d": "7",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the required number be $x$.\nThen, $x + 20 = \\frac{69}{x} \\Leftrightarrow x^2 + 20x - 69 = 0$\n$\\Leftrightarrow x^2 + 23x - 3x - 69 = 0$\n$\\Leftrightarrow x(x + 23) - 3(x + 23) = 0$\n$\\Leftrightarrow (x + 23) (x - 3) = 0$\n$\\Leftrightarrow x = 3$ [$\\because x \\neq -23$]",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A positive number when decreased by 4 is equal to 21 times the reciprocal of the number. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "5",
+      "option_c": "7",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $x - 4 = \\frac{21}{x} \\Leftrightarrow x^2 - 4x - 21 = 0$\n$\\Leftrightarrow (x - 7) (x + 3) = 0 \\Leftrightarrow x = 7$.",
+      "page_numbers": [
+        "244"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "The sum and product of two numbers are 12 and 35 respectively. The sum of their reciprocals will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{12}{35}$",
+      "option_b": "$\\frac{1}{35}$",
+      "option_c": "$\\frac{35}{8}$",
+      "option_d": "$\\frac{7}{32}$",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $x + y = 12$ and $xy = 35$.\n$\\therefore \\frac{1}{x} + \\frac{1}{y} = \\frac{x + y}{xy} = \\frac{12}{35}$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of a positive number and its reciprocal is thrice the difference of the number and its reciprocal. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\sqrt{2}$",
+      "option_b": "$\\frac{1}{\\sqrt{2}}$",
+      "option_c": "$\\sqrt{3}$",
+      "option_d": "$\\frac{1}{\\sqrt{3}}$",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$.\nThen, $\\frac{1}{x} + x = 3 \\left(x - \\frac{1}{x}\\right)$\n$\\Leftrightarrow \\frac{1 + x^2}{x} = 3 \\left(\\frac{x^2 - 1}{x}\\right)$\n$\\Leftrightarrow x^2 + 1 = 3x^2 - 3$\n$\\Leftrightarrow 2x^2 = 4$\n$\\Leftrightarrow x^2 = 2$\n$\\Leftrightarrow x = \\sqrt{2}$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "C.P.O., 2007",
+      "passage_text": "",
+      "question_text": "The product of two whole numbers is 37. The square root of the difference of the numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4.5",
+      "option_b": "6",
+      "option_c": "7.5",
+      "option_d": "8",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $a$ and $b$.\nThen, $ab = 37 \\Rightarrow a = 1$ and $b = 37$.\nSo, $\\sqrt{b - a} = \\sqrt{37 - 1} = \\sqrt{36} = 6$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The product of two natural numbers is 17. Then, the sum of the reciprocals of their squares is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{289}$",
+      "option_b": "$\\frac{289}{290}$",
+      "option_c": "$\\frac{290}{289}$",
+      "option_d": "289",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $a$ and $b$.\nThen, $ab = 17 \\Rightarrow a = 1$ and $b = 17$.\nSo, $\\frac{1}{a^2} + \\frac{1}{b^2} = \\frac{a^2 + b^2}{a^2b^2} = \\frac{1^2 + (17)^2}{(1 \\times 17)^2} = \\frac{290}{289}$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $1\\frac{1}{2}$ is added to a number and the sum multiplied by $4\\frac{1}{2}$ and 3 is added to the product and the sum is divided by $1\\frac{1}{5}$, the quotient becomes 25. What is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{1}{2}$",
+      "option_b": "$3\\frac{1}{2}$",
+      "option_c": "$4\\frac{1}{2}$",
+      "option_d": "$5\\frac{1}{2}$",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the number be $x$. Then,\n$4\\frac{1}{2} \\left(x + 2\\frac{1}{2}\\right) + 3 = 25 \\Leftrightarrow \\frac{9}{2} \\left(x + \\frac{5}{2}\\right) + 3 = 25$\n$\\Leftrightarrow \\frac{9x}{2} + \\frac{45}{4} + 3 = 25$\n$\\Leftrightarrow \\frac{9x}{2} = 30 - \\frac{57}{4} = \\frac{120 - 57}{4} = \\frac{63}{4}$\n$\\Leftrightarrow x = \\left(\\frac{63}{4} \\times \\frac{2}{9}\\right) = \\frac{7}{2} = 3\\frac{1}{2}$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Three numbers are in the ratio 4 : 5 : 6 and their average is 25. The largest number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30",
+      "option_b": "32",
+      "option_c": "36",
+      "option_d": "42",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $4x, 5x$ and $6x$.\nThen, $\\frac{4x + 5x + 6x}{3} = 25 \\Leftrightarrow 5x = 25 \\Leftrightarrow x = 5$.\n$\\therefore$ Largest number = $6x = 30$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "M.B.A., 2006",
+      "passage_text": "",
+      "question_text": "Three numbers are in the ratio of 3 : 4 : 6 and their product is 1944. The largest of these numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "12",
+      "option_c": "18",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $3x, 4x$ and $6x$.\nThen, $3x \\times 4x \\times 6x = 1944$\n$\\Leftrightarrow 72x^3 = 1944 \\Leftrightarrow x^3 = 27$\n$\\Leftrightarrow x = 3$.\n$\\therefore$ Largest number = $6x = 18$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "253"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "M.B.A., 2004",
+      "passage_text": "",
+      "question_text": "The ratio between a two-digit number and the sum of the digits of that number is 4 : 1. If the digit in the unit’s place is 3 more than the digit in the ten’s place, then the number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "24",
+      "option_b": "36",
+      "option_c": "63",
+      "option_d": "96",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the ten’s digit be $x$. Then, unit’s digit = $x + 3$.\nNumber = $10x + (x + 3) = 11x + 3$.\nSum of digits = $x + (x + 3) = 2x + 3$.\n$\\therefore \\frac{11x + 3}{2x + 3} = \\frac{4}{1}$\n$\\Leftrightarrow 11x + 3 = 8x + 12$\n$\\Leftrightarrow 3x = 9 \\Leftrightarrow x = 3$.\nHence, required number = $11x + 3 = 11 \\times 3 + 3 = 36$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "254"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two numbers are such that the square of one is 224 less than 8 times the square of the other. If the numbers be in the ratio of 3 : 4, the numbers are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6, 8",
+      "option_b": "9, 12",
+      "option_c": "12, 16",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $3x$ and $4x$.\nThen, $(4x)^2 = 8 \\times (3x)^2 - 224$\n$\\Leftrightarrow 16x^2 = 72x^2 - 224$\n$\\Leftrightarrow 56x^2 = 224 \\Leftrightarrow x^2 = 4$\n$\\Leftrightarrow x = 2$.\nSo, the numbers are 6 and 8.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "254"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two numbers are such that the ratio between them is 4 : 7. If each is increased by 4, the ratio becomes 3 : 5. The larger number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "36",
+      "option_b": "48",
+      "option_c": "56",
+      "option_d": "64",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $4x$ and $7x$.\nThen, $\\frac{4x+4}{7x+4} = \\frac{3}{5} \\Leftrightarrow 5(4x+4) = 3(7x+4) \\Leftrightarrow x=8$.\nLarger number = $7x = 56$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "R.R.B., 2004",
+      "passage_text": "",
+      "question_text": "The sum of three numbers is 264. If the first number be twice the second and third number be one-third of the first, then the second number is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "48",
+      "option_b": "54",
+      "option_c": "72",
+      "option_d": "84",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the second number be $x$. Then, first number = $2x$\nand third number = $\\frac{2x}{3}$.\n$2x + x + \\frac{2x}{3} = 264 \\Leftrightarrow \\frac{6x+3x+2x}{3} = 264$\n$\\Leftrightarrow \\frac{11x}{3} = 264 \\Leftrightarrow x = \\left(\\frac{264\\times3}{11}\\right) = 72$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of two numbers is 22. Five times one number is equal to 6 times the other. The bigger of the two numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10",
+      "option_b": "12",
+      "option_c": "15",
+      "option_d": "16",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $(22 - x)$. Then, $5x = 6(22 - x)$\n$\\Leftrightarrow 11x = 132 \\Leftrightarrow x = 12$.\nSo, the numbers are 12 and 10.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "One-fifth of a number is equal to $\\frac{5}{8}$ of another number. If 35 is added to the first number, it becomes four times of the second number. The second number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25",
+      "option_b": "40",
+      "option_c": "70",
+      "option_d": "125",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$. Then, $\\frac{1}{5}x = \\frac{5}{8}y \\Leftrightarrow y = \\frac{8}{25}x$.\nNow, $x + 35 = 4y \\Leftrightarrow x + 35 = 4\\left(\\frac{8}{25}x\\right)$\n$\\Leftrightarrow x + 35 = \\frac{32}{25}x \\Leftrightarrow \\frac{7}{25}x = 35 \\Leftrightarrow x = \\left(\\frac{35\\times25}{7}\\right) = 125$.\nSecond number = $y = \\left(\\frac{8}{25}\\times125\\right) = 40$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of two numbers is 25 and their difference is 13. Find their product.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "104",
+      "option_b": "114",
+      "option_c": "315",
+      "option_d": "325",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $x + y = 25$ and $x - y = 13$.\n$4xy = (x + y)^2 - (x - y)^2 = (25)^2 - (13)^2$\n$= 625 - 169 = 456 \\Rightarrow xy = 114$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the sum of two numbers is 33 and their difference is 15, the smaller number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "12",
+      "option_c": "15",
+      "option_d": "18",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$. Then,\n$x + y = 33$ ...(i)\nand $x - y = 15$ ...(ii)\nSolving (i) and (ii), we get : $x = 24, y = 9$.\nSmaller number = 9.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of two numbers is 40 and their difference is 4. The ratio of the numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "11 : 9",
+      "option_b": "11 : 18",
+      "option_c": "21 : 19",
+      "option_d": "22 : 9",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $\\frac{x+y}{x-y} = \\frac{40}{4} = 10 \\Leftrightarrow (x + y) = 10(x - y)$\n$\\Leftrightarrow 9x = 11y \\Leftrightarrow \\frac{x}{y} = \\frac{11}{9}$.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The product of two numbers is 192 and the sum of these two numbers is 28. What is the smaller of these two numbers?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "14",
+      "option_c": "16",
+      "option_d": "18",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $(28 - x)$.\nThen, $x(28 - x) = 192 \\Leftrightarrow x^2 - 28x + 192 = 0$\n$\\Leftrightarrow (x - 16)(x - 12) = 0$\n$\\Leftrightarrow x = 16$ or $x = 12$.\nSo, the numbers are 16 and 12.",
+      "page_numbers": [
+        "245"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "There are two numbers such that the sum of twice the first number and thrice the second number is 100 and the sum of thrice the first number and twice the second number is 120. Which is the larger number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "14",
+      "option_c": "32",
+      "option_d": "35",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$. Then,\n$2x + 3y = 100$ ...(i)\nand $3x + 2y = 120$ ...(ii)\nAdding (i) and (ii), we get : $5x + 5y = 220$\nor $x + y = 44$ ...(iii)\nSubtracting (i) from (ii); we get : $x - y = 20$ ...(iv)\nAdding (iii) and (iv), we get: $2x = 64$ or $x = 32$.\nPutting $x = 32$ in (iii), we get : $y = 12$.\nHence, larger number = 32.",
+      "page_numbers": [
+        "245",
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "What is the greater of the two numbers whose product is 1092 and the sum of the two numbers exceeds their difference by 42?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "44",
+      "option_b": "48",
+      "option_c": "52",
+      "option_d": "54",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$. Then,\n$xy = 1092$ ...(i)\nAnd, $(x + y) - (x - y) = 42$\n$\\Leftrightarrow 2y = 42$\n$\\Leftrightarrow y = 21$.\nPutting $y = 21$ in (i), we get : $x = \\frac{1092}{21} = 52$.\nHence, greater number = 52.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "Hotel Management, 2003",
+      "passage_text": "",
+      "question_text": "The difference between two integers is 5. Their product is 500. Find the numbers.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15, 20",
+      "option_b": "20, 25",
+      "option_c": "30, 25",
+      "option_d": "21, 26",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the integers be $x$ and $(x + 5)$. Then,\n$x(x + 5) = 500 \\Leftrightarrow x^2 + 5x - 500 = 0$\n$\\Leftrightarrow (x + 25)(x - 20) = 0$\n$\\Leftrightarrow x = 20$.\nSo, the numbers are 20 and 25.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two numbers differ by 5. If their product is 336, then the sum of the two numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "21",
+      "option_b": "28",
+      "option_c": "37",
+      "option_d": "51",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $x - y = 5$ and $xy = 336$.\n$(x + y)^2 = (x - y)^2 + 4xy = 25 + 4 \\times 336 = 1369$\n$\\Rightarrow x + y = \\sqrt{1369} = 37$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Two different natural numbers are such that their product is less than their sum. One of the numbers must be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "2",
+      "option_c": "3",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Since $1 < x < 1 + x$, so one of the numbers is 1.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "The product of two numbers is 9375 and the quotient, when the larger one is divided by the smaller, is 15. The sum of the numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "380",
+      "option_b": "395",
+      "option_c": "400",
+      "option_d": "425",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $xy = 9375$ and $\\frac{x}{y} = 15$.\n$\\frac{xy}{(x/y)} = \\frac{9375}{15} \\Leftrightarrow y^2 = 625 \\Leftrightarrow y = 25$\n$\\Rightarrow x = 15y = (15 \\times 25) = 375$.\nSum of the numbers = $375 + 25 = 400$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between two numbers is 1365. When the larger number is divided by the smaller one, the quotient is 6 and the remainder is 15. The smaller number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "240",
+      "option_b": "270",
+      "option_c": "295",
+      "option_d": "360",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $(x + 1365)$.\nThen, $x + 1365 = 6x + 15 \\Leftrightarrow 5x = 1350 \\Leftrightarrow x = 270$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between two numbers is 16. If one-third of the smaller number is greater than one-seventh of the larger number by 4, then the two numbers are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9 and 25",
+      "option_b": "12 and 28",
+      "option_c": "33 and 49",
+      "option_d": "56 and 72",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $(x + 16)$.\nThen, $\\frac{x}{3} - \\frac{x+16}{7} = 4 \\Leftrightarrow 7x - 3(x + 16) = 84$\n$\\Leftrightarrow 4x = 84 + 48 = 132 \\Leftrightarrow x = 33$.\nHence, the numbers are 33 and 49.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of two numbers is 40 and their product is 375. What will be the sum of their reciprocals?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{40}$",
+      "option_b": "$\\frac{8}{75}$",
+      "option_c": "$\\frac{75}{4}$",
+      "option_d": "$\\frac{75}{8}$",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $x + y = 40$ and $xy = 375$.\n$\\frac{1}{x} + \\frac{1}{y} = \\frac{x+y}{xy} = \\frac{40}{375} = \\frac{8}{75}$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "58",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of two positive integers multiplied by the bigger number is 204, and their difference multiplied by the smaller number is 35. The numbers are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12, 5",
+      "option_b": "13, 4",
+      "option_c": "14, 3",
+      "option_d": "24, 10",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$ such that $x > y$.\nThen, $x(x + y) = 204 \\Rightarrow x^2 + xy = 204$ ...(i)\nand $y(x - y) = 35 \\Rightarrow xy - y^2 = 35$ ...(ii)\nSubtracting (ii) from (i), we get : $x^2 + y^2 = 169$.\nThe only triplet satisfying this condition is (12, 5, 13).\nThus, $x = 12, y = 5$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "59",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the sum and difference of two numbers are 20 and 8 respectively, then the difference of their squares is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "28",
+      "option_c": "160",
+      "option_d": "180",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $x + y = 20$ and $x - y = 8$.\n$x^2 - y^2 = (x + y)(x - y) = 20 \\times 8 = 160$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "60",
+      "exam_reference": "M.B.A., 2010",
+      "passage_text": "",
+      "question_text": "Two numbers are such that their difference, their sum and their product are to one another as 1 : 7 : 24. The product of the two numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "12",
+      "option_c": "24",
+      "option_d": "48",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nLet $a - b = k$ ...(i)\n$a + b = 7k$ ...(ii)\n$ab = 24k$ ...(iii)\nAdding (i) and (ii), we get : $2a = 8k$ or $a = 4k$.\nPutting $a = 4k$ in (i), we get : $b = 3k$.\nPutting $a = 4k$ and $b = 3k$ in (iii), we get : $4k \\times 3k = 24k$\n$\\Leftrightarrow 12k^2 = 24k \\Leftrightarrow k = 2$.\nHence, product of numbers = $24k = 24 \\times 2 = 48$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "61",
+      "exam_reference": "R.R.B., 2004",
+      "passage_text": "",
+      "question_text": "The product of two numbers is 120 and the sum of their squares is 289. The sum of the numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "23",
+      "option_c": "169",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $xy = 120$ and $x^2 + y^2 = 289$.\n$\\therefore (x + y)^2 = x^2 + y^2 + 2xy = 289 + 240 = 529$.\n$\\therefore x + y = \\sqrt{529} = 23$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "255"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "62",
+      "exam_reference": "R.R.B., 2002",
+      "passage_text": "",
+      "question_text": "The product of two numbers is 45 and the sum of their squares is 106. The numbers are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 and 5",
+      "option_b": "5 and 9",
+      "option_c": "5 and 19",
+      "option_d": "45 and 1",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $xy = 45$ and $x^2 + y^2 = 106$.\n$(x + y) = \\sqrt{(x^2 + y^2) + 2xy}$\n$= \\sqrt{106 + 90} = \\sqrt{196} = 14$ ...(i)\n$(x - y) = \\sqrt{(x^2 + y^2) - 2xy}$\n$= \\sqrt{106 - 90} = \\sqrt{16} = 4$ ...(ii)\nSolving (i) and (ii), we get : $x = 9$ and $y = 5$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "255"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "63",
+      "exam_reference": "M.B.A., 2006",
+      "passage_text": "",
+      "question_text": "The sum of the squares of two numbers is 3341 and the difference of their squares is 891. The numbers are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25, 36",
+      "option_b": "25, 46",
+      "option_c": "35, 46",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$. Then,\n$x^2 + y^2 = 3341$ ...(i)\nand $x^2 - y^2 = 891$ ...(ii)\nAdding (i) and (ii), we get :\n$2x^2 = 4232$ or $x^2 = 2116$ or $x = 46$.\nSubtracting (ii) from (i), we get :\n$2y^2 = 2450$ or $y^2 = 1225$ or $y = 35$.\nSo, the numbers are 35 and 46.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "255"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "64",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "The difference between two positive integers is 3. If the sum of their squares is 369, then the sum of the numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25",
+      "option_b": "27",
+      "option_c": "33",
+      "option_d": "81",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $(x + 3)$. Then,\n$x^2 + (x + 3)^2 = 369$\n$\\Leftrightarrow x^2 + x^2 + 9 + 6x = 369$\n$\\Leftrightarrow 2x^2 + 6x - 360 = 0$\n$\\Leftrightarrow x^2 + 3x - 180 = 0$\n$\\Leftrightarrow (x + 15) (x - 12) = 0$\n$\\Leftrightarrow x = 12$.\nSo, the numbers are 12 and 15.\n$\\therefore$ Required sum = $(12 + 15) = 27$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "255"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "65",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the sum of two numbers is 22 and the sum of their squares is 404, then the product of the numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40",
+      "option_b": "44",
+      "option_c": "80",
+      "option_d": "88",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $(x + y) = 22$ and $x^2 + y^2 = 404$.\nNow, $2xy = (x + y)^2 - (x^2 + y^2) = (22)^2 - 404$\n$= 484 - 404 = 80 \\Rightarrow xy = 40$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "255"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "66",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between the squares of two numbers is 256000 and the sum of the numbers is 1000. The numbers are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "600, 400",
+      "option_b": "628, 372",
+      "option_c": "640, 360",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $x^2 - y^2 = 256000$ and $x + y = 1000$.\nOn dividing, we get : $x - y = 256$.\nSolving $x + y = 1000$ and $x - y = 256$,\nwe get : $x = 628$ and $y = 372$.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "255"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "67",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "The difference between two numbers is 3 and the difference between their squares is 63. Which is the larger number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9",
+      "option_b": "12",
+      "option_c": "15",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $y$.\nThen, $x^2 - y^2 = 63$ and $x - y = 3$.\nOn dividing, we get : $x + y = 21$.\nSolving $x + y = 21$ and $x - y = 3$,\nwe get : $x = 12$ and $y = 9$.\n$\\therefore$ Larger number = 12.",
+      "page_numbers": [
+        "246"
+      ],
+      "answer_page_numbers": [
+        "255"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "98",
+      "exam_reference": "Hotel Management, 2003",
+      "passage_text": "",
+      "question_text": "A number consists of 3 digits whose sum is 10. The middle digit is equal to the sum of the other two and the number will be increased by 99 if its digits are reversed. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "145",
+      "option_b": "253",
+      "option_c": "370",
+      "option_d": "352",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the middle digit be $x$.\nThen, $2x = 10$ or $x = 5$.\nSo, the number is either 253 or 352.\nSince the number increases on reversing the digits, so the\nhundred's digit is smaller than the unit's digit. Hence,\nrequired number = 253.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "99",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A two-digit number becomes five-sixth of itself when its digits are reversed. The two digits differ by one. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "45",
+      "option_b": "54",
+      "option_c": "56",
+      "option_d": "65",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Since the number reduces on reversing the digits, so\nten's digit is greater than the unit's digit.\nLet the unit's digit be $x$.\nThen, ten's digit = $(x + 1)$.\n$\\therefore 10x + (x + 1) = \\frac{5}{6} [10(x + 1) + x] \\Leftrightarrow 66x + 6$\n$= 55x + 50 \\Leftrightarrow 11x = 44 \\Leftrightarrow x = 4$.\nHence, required number = 54.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "100",
+      "exam_reference": "N.M.A.T., 2008",
+      "passage_text": "",
+      "question_text": "If the square of a two-digit number is reduced by the square of the number formed by reversing the digits of the number, the final result is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "divisible by 11",
+      "option_b": "divisible by 9",
+      "option_c": "necessarily irrational",
+      "option_d": "Both (a) and (b)",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the two-digit number be $10x + y$.\nThen, number formed by reversing the digits = $10y + x$.\nDifference of squares of the numbers\n$= (10x + y)^2 - (10y + x)^2$\n$= (100x^2 + y^2 + 20xy) - (100y^2 + x^2 + 20xy)$\n$= 99(x^2 - y^2)$, which is divisible by both 9 and 11",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "101",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "A number consists of two digits such that the digit in the ten’s place is less by 2 than the digit in the unit’s place. Three times the number added to $\\frac{6}{7}$ times the number obtained by reversing the digits equals 108. The sum of the digits in the number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "7",
+      "option_c": "8",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the unit's digit be $x$. Then, ten's digit = $(x - 2)$.\n$\\therefore \\frac{6}{7} [10(x - 2) + x] - [10x + (x - 2)] = 108$\n$\\Leftrightarrow 231x - 420 + 66x - 12 = 756$\n$\\Leftrightarrow 297x = 1188$\n$\\Leftrightarrow x = 4$.\nHence, sum of the digits = $x + (x - 2) = 2x - 2 = 6$.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "102",
+      "exam_reference": "S.B.I.P.O., 2001",
+      "passage_text": "",
+      "question_text": "The digit in the unit’s place of a number is equal to the digit in the ten’s place of half of that number and the digit in the ten’s place of that number is less than the digit in unit’s place of half of the number by 1. If the sum of the digits of the number is 7, then what is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "34",
+      "option_b": "52",
+      "option_c": "162",
+      "option_d": "Data inadequate",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the ten's digit be $x$ and unit's digit be $y$.\nThen, $\\frac{10x + y}{2} = 10y + (x + 1)$\n$\\Leftrightarrow 10x + y = 20y + 2x + 2$\n$\\Leftrightarrow 8x - 19y = 2$ ...(i)\nand $x + y = 7$ ...(ii)\nSolving (i) and (ii), we get : $x = 5, y = 2$. Hence, required\nnumber = 52.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "103",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a two-digit number, the digit in the unit’s place is more than twice the digit in ten’s place by 1. If the digits in the unit’s place and the ten’s place are interchanged, difference between the newly formed number and the original number is less than the original number by 1. What is the original number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25",
+      "option_b": "37",
+      "option_c": "49",
+      "option_d": "52",
+      "option_e": "73",
+      "correct_option": "b",
+      "solution": "Let the ten's digit be $x$.\nThen, unit's digit = $2x + 1$.\n$[10x + (2x + 1)] - [{10 (2x + 1) + x} - {10x + (2x + 1)}] = 1$\n$\\Leftrightarrow (12x + 1) - (9x + 9) = 1 \\Leftrightarrow 3x = 9 \\Leftrightarrow x = 3$.\nSo, ten's digit = 3 and unit's digit = 7. Hence, original\nnumber = 37.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "104",
+      "exam_reference": "N.M.A.T. 2006; L.I.C.A.A.O., 2003",
+      "passage_text": "",
+      "question_text": "A certain number of two digits is three times the sum of its digits and if 45 be added to it, the digits are reversed. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "23",
+      "option_b": "27",
+      "option_c": "32",
+      "option_d": "72",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the ten's digit be $x$ and unit's digit be $y$.\nThen, $10x + y = 3 (x + y) \\Rightarrow 7x - 2y = 0$ ...(i)\n$10x + y + 45 = 10y + x \\Rightarrow y - x = 5$ ...(ii)\nSolving (i) and (ii), we get : $x = 2$ and $y = 7$.\n$\\therefore$ Required number = 27.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "105",
+      "exam_reference": "M.B.A., 2003",
+      "passage_text": "",
+      "question_text": "A two-digit number is such that the product of the digits is 8. When 18 is added to the number, then the digits are reversed. The number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "24",
+      "option_c": "42",
+      "option_d": "81",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the ten's and unit's digits be $x$ and $\\frac{8}{x}$ respectively.\nThen, $10x + \\frac{8}{x} + 18 = 10\\left(\\frac{8}{x}\\right) + x$\n$\\Leftrightarrow 10x + \\frac{8}{x} + 18 = \\frac{80}{x} + x$\n$\\Leftrightarrow 9x^2 + 18x - 72 = 0$\n$\\Leftrightarrow x^2 + 2x - 8 = 0$\n$\\Leftrightarrow (x + 4) (x - 2) = 0$\n$\\Leftrightarrow x = 2$.\nSo, ten's digit = 2 and unit's digit = 4. Hence, required\nnumber = 24.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "106",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a number of three digits, the digits in the unit’s place and in the hundred’s place are equal and the sum of all the digits is 8. The number of such numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3",
+      "option_b": "4",
+      "option_c": "5",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Clearly, there are 4 such numbers: 161, 242, 323 and 404.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "107",
+      "exam_reference": "Bank P.O., 2006",
+      "passage_text": "",
+      "question_text": "In a three-digit number, the digit in the unit’s place is 75% of the digit in the ten’s place. The digit in the ten’s place is greater than the digit in the hundred’s place by 1. If the sum of the digits in the ten’s place and the hundred’s place is 15, what is the number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "687",
+      "option_b": "786",
+      "option_c": "795",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let hundred's digit = $x$.\nThen, ten's digit = $(x + 1)$.\nUnit's digit = 75% of $(x + 1) = \\frac{3}{4} (x + 1)$.\n$\\therefore (x + 1) + x = 15 \\Leftrightarrow 2x = 14 \\Leftrightarrow x = 7$.\nSo, hundreds' digit = 7; ten's digit = 8; unit's digit = $\\frac{3}{4} (7 + 1) = \\frac{3}{4} \\times 8 = 6$.\nHence, required number = 786.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "256"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "108",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The product of two fractions is $\\frac{14}{15}$ and their quotient is $\\frac{35}{24}$. The greater fraction is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{4}{5}$",
+      "option_b": "$\\frac{7}{6}$",
+      "option_c": "$\\frac{7}{4}$",
+      "option_d": "$\\frac{7}{3}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the two fractions be $a$ and $b$. Then, $ab = \\frac{14}{15}$ and $\\frac{a}{b} = \\frac{35}{24}$.\n$\\frac{ab}{a/b} = \\left(\\frac{14}{15} \\times \\frac{24}{35}\\right) \\Leftrightarrow b^2 = \\frac{16}{25} \\Leftrightarrow b = \\frac{4}{5}$;\n$ab = \\frac{14}{15} \\Rightarrow a = \\left(\\frac{14}{15} \\times \\frac{5}{4}\\right) = \\frac{7}{6}$.\nSince $a > b$, so greater fraction is $\\frac{7}{6}$.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "109",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In a pair of fractions, fraction A is twice the fraction B and the product of two fractions is $\\frac{2}{25}$. What is the value of fraction A?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{5}$",
+      "option_b": "$\\frac{1}{25}$",
+      "option_c": "$\\frac{2}{5}$",
+      "option_d": "Data inadequate",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$A = 2B \\Rightarrow B = \\frac{1}{2}A$. So, $AB = \\frac{2}{25}$\n$\\Rightarrow \\frac{1}{2}A^2 = \\frac{2}{25} \\Rightarrow A^2 = \\frac{4}{25} \\Rightarrow A = \\frac{2}{5}$.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "110",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "If the difference between the reciprocal of a positive proper fraction and the fraction itself be $\\frac{9}{20}$, then the fraction is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{5}$",
+      "option_b": "$\\frac{4}{5}$",
+      "option_c": "$\\frac{5}{4}$",
+      "option_d": "$\\frac{3}{10}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the fraction be $\\frac{1}{a}$.\nThen, $\\frac{1}{a} - a = \\frac{9}{20}$\n$\\Leftrightarrow \\frac{1 - a^2}{a} = \\frac{9}{20}$\n$\\Leftrightarrow 20 - 20a^2 = 9a$\n$\\Leftrightarrow 20a^2 + 9a - 20 = 0$\n$\\Leftrightarrow 20a^2 + 25a - 16a - 20 = 0$\n$\\Leftrightarrow 5a (4a + 5) - 4 (4a + 5) = 0$\n$\\Leftrightarrow (4a + 5) (5a - 4) = 0 \\Leftrightarrow a = \\frac{4}{5}$. $\\left[\\because a \\neq -\\frac{5}{4}\\right]$",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "111",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of the numerator and denominator of a fraction is 11. If 1 is added to the numerator and 2 is subtracted from the denominator, it becomes $\\frac{2}{3}$. The fraction is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{6}$",
+      "option_b": "$\\frac{6}{5}$",
+      "option_c": "$\\frac{3}{8}$",
+      "option_d": "$\\frac{8}{3}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the fraction be $\\frac{x}{y}$.\nThen, $x+y=11$ ...(i)\n$\\frac{x+1}{y-2}=3 \\Rightarrow x+1=3(y-2) \\Rightarrow x-3y=-7$ ...(ii)\nSolving (i) and (ii), we get: $x=3$ and $y=8$.\nSo, the fraction is $\\frac{3}{8}$.",
+      "page_numbers": [
+        "249"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "112",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The denominator of a fraction is 3 more than the numerator. If the numerator as well as the denominator is increased by 4, the fraction becomes $\\frac{4}{5}$. What was the original fraction?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{8}{11}$",
+      "option_b": "$\\frac{5}{8}$",
+      "option_c": "$\\frac{10}{13}$",
+      "option_d": "$\\frac{7}{10}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the numerator be $x$. Then, denominator $=x+3$.\nNow, $\\frac{x+4}{x+3+4}=\\frac{4}{5} \\Rightarrow 5(x+4)=4(x+7) \\Rightarrow x=8$.\nSo, the fraction is $\\frac{8}{11}$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "113",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between the numerator and the denominator of a fraction is 5. If 5 is added to its denominator, the fraction is decreased by $1\\frac{1}{4}$. Find the value of the fraction.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{6}$",
+      "option_b": "$1\\frac{2}{4}$",
+      "option_c": "$1\\frac{3}{4}$",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the denominator be $x$.\nThen, numerator $=x+5$.\nNow, $\\frac{x+5}{x}-\\frac{x+5}{x+5}=\\frac{5}{4} \\Rightarrow \\frac{x+5}{x}-1=\\frac{5}{4} \\Rightarrow \\frac{x+5}{x}=\\frac{9}{4} \\Rightarrow 4x+20=9x \\Rightarrow 5x=20 \\Rightarrow x=4$.\nSo, the fraction is $\\frac{9}{4}=2\\frac{1}{4}$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "114",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The numerator and denominator of a fraction are in the ratio of 2 : 3. If 6 is subtracted from the numerator, the result is a fraction that has a value $\\frac{2}{3}$ of the original fraction. The numerator of the original fraction is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6",
+      "option_b": "18",
+      "option_c": "27",
+      "option_d": "36",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the fraction be $\\frac{2x}{3x}$.\nThen, $\\frac{2x-6}{3x}=\\frac{2}{3}\\times\\frac{2x-6}{3x} \\Rightarrow \\frac{2x-6}{3x}=\\frac{4x-12}{9x} \\Rightarrow 3(2x-6)=4x-12 \\Rightarrow 6x-18=4x-12 \\Rightarrow 2x=6 \\Rightarrow x=3$.\nHence, numerator of the original fraction $=2x=6$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "115",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 1 is added to the denominator of a fraction, the fraction becomes $\\frac{1}{2}$. If 1 is added to the numerator of the fraction, the fraction becomes 1. The fraction is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{3}$",
+      "option_b": "$\\frac{2}{3}$",
+      "option_c": "$\\frac{3}{4}$",
+      "option_d": "$\\frac{3}{2}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the fraction be $\\frac{x}{y}$. Then,\n$\\frac{x}{y+1}=\\frac{1}{2} \\Rightarrow 2x-y=1$ ...(i)\nand, $\\frac{x+1}{y}=1 \\Rightarrow x-y=-1$ ...(ii)\nSolving (i) and (ii), we get : $x=2, y=3$.\nHence, the required fraction is $\\frac{2}{3}$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "116",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If the numerator of a fraction is increased by 2 and the denominator is increased by 3, the fraction becomes $\\frac{7}{9}$ and if both the numerator as well as the denominator are decreased by 1, the fraction becomes $\\frac{4}{5}$. What is the original fraction?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{6}$",
+      "option_b": "$\\frac{9}{11}$",
+      "option_c": "$\\frac{13}{16}$",
+      "option_d": "$\\frac{17}{21}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the fraction be $\\frac{x}{y}$. Then,\n$\\frac{x+2}{y+3}=\\frac{7}{9} \\Rightarrow 9x-7y=3$ ...(i)\nand $\\frac{x-1}{y-1}=\\frac{4}{5} \\Rightarrow 5x-4y=1$ ...(ii)\nSolving (i) and (ii), we get : $x=5, y=6$.\nHence, the original fraction is $\\frac{5}{6}$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "117",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "If the numerator of a fraction is increased by $\\frac{1}{4}$ and the denominator is decreased by $\\frac{1}{3}$, the new fraction obtained is $\\frac{33}{64}$. What was the original fraction?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{7}$",
+      "option_b": "$\\frac{5}{7}$",
+      "option_c": "$\\frac{7}{9}$",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let the fraction be $\\frac{x}{y}$. Then,\n$\\frac{x+\\frac{1}{4}}{y-\\frac{1}{3}}=\\frac{33}{64} \\Rightarrow \\frac{3(4x+1)}{4(3y-1)}=\\frac{33}{64} \\Rightarrow \\frac{4x+1}{3y-1}=\\frac{33}{64}\\times\\frac{4}{3}=\\frac{11}{16}$\n$\\Rightarrow 16(4x+1)=11(3y-1)$\n$\\Rightarrow 64x+16=33y-11$\n$\\Rightarrow 64x-33y=-27$, which cannot be solved to find $\\frac{x}{y}$.\nHence, the original fraction cannot be determined from the given data.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "118",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "If the numerator of a fraction is increased by 200% and the denominator is increased by 300%, the resultant fraction is $\\frac{15}{26}$. What was the original fraction?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{8}{11}$",
+      "option_b": "$\\frac{10}{11}$",
+      "option_c": "$\\frac{9}{13}$",
+      "option_d": "$\\frac{10}{13}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let the fraction be $\\frac{x}{y}$.\nThen, $\\frac{200\\% \\text{ of } x}{300\\% \\text{ of } y}=\\frac{15}{26} \\Rightarrow \\frac{2x}{3y}=\\frac{15}{26} \\Rightarrow \\frac{x}{y}=\\frac{15}{26}\\times\\frac{3}{2}=\\frac{45}{52}$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "119",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "When the numerator of a fraction increases by 4, the fraction increases by $\\frac{2}{3}$. The denominator of the fraction is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "3",
+      "option_c": "4",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the fraction be $\\frac{x}{y}$.\nThen, $\\frac{x+4}{y}-\\frac{x}{y}=\\frac{2}{3} \\Rightarrow \\frac{4}{y}=\\frac{2}{3} \\Rightarrow y=\\left(\\frac{4\\times3}{2}\\right)=6$.\n$\\therefore$ Denominator $=6$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "120",
+      "exam_reference": "A.T.M.A., 2004",
+      "passage_text": "",
+      "question_text": "A fraction is such that if the double of the numerator and the triple of the denominator is changed by + 10 percent and –30 percent respectively, then we get 11 percent of $\\frac{16}{21}$. Find the fraction.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{25}$",
+      "option_b": "$\\frac{3}{25}$",
+      "option_c": "$\\frac{4}{25}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the fraction be $\\frac{x}{y}$.\nThen, $\\frac{110\\% \\text{ of } 2x}{70\\% \\text{ of } 3y}=11\\% \\text{ of } \\frac{16}{21} \\Rightarrow \\frac{2.2x}{2.1y}=\\frac{11}{100}\\times\\frac{16}{21}$\n$\\Rightarrow \\frac{x}{y}=\\left(\\frac{11}{100}\\times\\frac{16}{21}\\times\\frac{2.1}{2.2}\\right)=\\frac{2}{25}$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "257"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "121",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "54 is to be divided into two parts such that the sum of 10 times the first and 22 times the second is 780. The bigger part is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "24",
+      "option_b": "34",
+      "option_c": "30",
+      "option_d": "32",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the two parts be $(54-x)$ and $x$.\nThen, $10(54-x)+22x=780 \\Rightarrow 12x=240 \\Rightarrow x=20$.\n$\\therefore$ Bigger part $=(54-x)=34$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "122",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "243 has been divided into three parts such that half of the first part, one-third of the second part and one-fourth of the third part are equal. The largest part is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "74",
+      "option_b": "86",
+      "option_c": "92",
+      "option_d": "108",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the three parts be $A, B$ and $C$.\nLet $\\frac{A}{2}=\\frac{B}{3}=\\frac{C}{4}=x$.\nThen, $A=2x, B=3x$ and $C=4x$.\nSo, $A:B:C=2:3:4$.\n$\\therefore$ Largest part $=\\left(243\\times\\frac{4}{9}\\right)=108$.",
+      "page_numbers": [
+        "250"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "123",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of four numbers is 64. If you add 3 to the first number, 3 is subtracted from the second number, the third is multiplied by 3 and the fourth is divided by 3, then all the results are equal. What is the difference between the largest and the smallest of the original numbers?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "21",
+      "option_b": "27",
+      "option_c": "32",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let the four numbers be $A, B, C$ and $D$.\nLet $A+3=B-3=3C=\\frac{D}{3}=x$.\nThen, $A=x-3, B=x+3, C=\\frac{x}{3}$ and $D=3x$.\n$A+B+C+D=64 \\Rightarrow (x-3)+(x+3)+\\frac{x}{3}+3x=64$\n$\\Rightarrow 5x+\\frac{x}{3}=64 \\Rightarrow 16x=192 \\Rightarrow x=12$.\nThus, the numbers are $9, 15, 4$ and $36$.\n$\\therefore$ Required difference $=(36-4)=32$.",
+      "page_numbers": [
+        "250",
+        "251"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "124",
+      "exam_reference": "Hotel Management, 1999",
+      "passage_text": "",
+      "question_text": "The sum of the squares of three numbers is 138, while the sum of their products taken two at a time is 131. Their sum is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "30",
+      "option_c": "40",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the numbers be $a, b$ and $c$. Then, $a^2+b^2+c^2=138$ and $(ab+bc+ca)=131$.\n$(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ca)=138+2\\times131=400$\n$\\Rightarrow (a+b+c)=\\sqrt{400}=20$.",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "125",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of three numbers is 136. If the ratio between first and second be 2 : 3 and that between second and third is 5 : 3, then the second number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40",
+      "option_b": "48",
+      "option_c": "60",
+      "option_d": "72",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$A:B=2:3$ and $B:C=5:3=\\left(5\\times\\frac{3}{5}\\right):\\left(3\\times\\frac{3}{5}\\right)=3:\\frac{9}{5}$.\nSo, $A:B:C=2:3:\\frac{9}{5}=10:15:9$.\n$\\therefore$ Second number $=\\left(136\\times\\frac{15}{34}\\right)=60$.",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "126",
+      "exam_reference": "NABARD, 2008",
+      "passage_text": "",
+      "question_text": "Of the three numbers, the sum of the first two is 73; the sum of the second and the third is 77 and the sum of the third and thrice the first is 104. The third number is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25",
+      "option_b": "39",
+      "option_c": "48",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Let the numbers be $x, y$ and $z$.\nThen, $x+y=73, y+z=77$ and $3x+z=104$.\n$\\therefore y=73-x, z=77-y=77-(73-x)=4+x$.\n$\\therefore 3x+4+x=104 \\Rightarrow 4x=100 \\Rightarrow x=25$.\n$y=(73-25)=48$ and $z=(4+25)=29$.\n$\\therefore$ Third number $=29$.",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "127",
+      "exam_reference": "Indian Railways—Gr. ‘D’ Exam, 2014",
+      "passage_text": "",
+      "question_text": "If the product of two numbers is 5 and one of the number is $\\frac{3}{2}$, then the sum of two numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$4\\frac{1}{3}$",
+      "option_b": "$4\\frac{2}{3}$",
+      "option_c": "$4\\frac{5}{6}$",
+      "option_d": "$5\\frac{1}{6}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let two numbers be $a$ and $b$.\nGiven $ab=5$ and $a=\\frac{3}{2}$.\n$\\Rightarrow b=\\frac{5}{a}=\\frac{5}{\\frac{3}{2}}=\\frac{5\\times2}{3}=\\frac{10}{3}$.\n$\\therefore$ Required sum of $a+b=\\frac{3}{2}+\\frac{10}{3}$.\nLCM of $2$ and $3=6$.\n$=\\frac{9+20}{6}=\\frac{29}{6}=4\\frac{5}{6}$.",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "128",
+      "exam_reference": "Indian Railways—Gr. ‘D’ Exam, 2014",
+      "passage_text": "",
+      "question_text": "The sum of the squares of two positive integers is 100 and the difference of their squares is 28. The sum of the numbers is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12",
+      "option_b": "13",
+      "option_c": "14",
+      "option_d": "15",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the positive integers be $a$ and $b$ where $a>b$.\nAccording to the question,\n$a^2+b^2=100$ ...(i)\n$a^2-b^2=28$ ...(ii)\nBy adding (i) and (ii), we get\n$2a^2=128$\n$\\Rightarrow a^2=\\frac{128}{2}=64$\n$\\therefore a=\\sqrt{64}=8$.\nFrom equation (i),\n$8^2+b^2=100$\n$\\Rightarrow b^2=100-64=36$\n$\\Rightarrow b=\\sqrt{36}=6$.\n$\\therefore a+b=8+6=14$.",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "129",
+      "exam_reference": "SSC—CHSL (10 +2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The sum of two number is 37 and the difference of their squares is 185, then the difference between the two numbers is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10",
+      "option_b": "4",
+      "option_c": "5",
+      "option_d": "3",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the numbers be $a$ and $b$ where $a>b$.\nAccording to the question,\n$a+b=37$ and $a^2-b^2=185$\n$\\Rightarrow (a+b)(a-b)=185$\n$\\Rightarrow 37(a-b)=185$\n$\\Rightarrow a-b=\\frac{185}{37}=5$.",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "130",
+      "exam_reference": "SSC—CHSL (10 +2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "A man bought some eggs of which 10% are rotten. He gives 80% of the remainder to his neighbors. Now he is left out with 36 eggs. How many eggs he bought?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40",
+      "option_b": "100",
+      "option_c": "200",
+      "option_d": "72",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the total number of eggs bought be $a$.\n$10\\%$ of eggs are rotten.\n$\\therefore$ Remaining eggs\n$=a-10\\% \\text{ of } a=a-\\frac{10a}{100}=\\frac{90a}{100}=\\frac{9a}{10}$.\nMan gives $80\\%$ of $\\frac{9a}{100}$ eggs to his neighbour\n$=80\\% \\text{ of } \\frac{9a}{100}=\\frac{80}{100}\\times\\frac{9a}{100}=\\frac{72a}{100}$.\nRemaining eggs $=\\frac{9a}{10}-\\frac{72a}{100}=\\frac{90a-72a}{100}=\\frac{18a}{100}=\\frac{9a}{50}$.\nAccording to the question,\n$\\frac{9a}{50}=36 \\Rightarrow a=\\frac{36\\times50}{9}=200$.\nHence the total number of eggs bought be $200$.",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "258"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "131",
+      "exam_reference": "SSC—CHSL (10 +2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The sum of two numbers is 75 and their difference is 25. The product of the two numbers is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1350",
+      "option_b": "1250",
+      "option_c": "125",
+      "option_d": "1000",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let the numbers be $a$ and $b$.\nAccording to the question.\n$a+b=75$\n$a-b=25$\n$\\because (a+b)^2-(a-b)^2=4ab$\n$\\Rightarrow 75^2-25^2=4ab$\n$4ab=(75+25)(75-25)$\n$\\Rightarrow 4ab=100\\times50$\n$\\Rightarrow ab=\\frac{100\\times50}{4}$\n$\\Rightarrow ab=1250$",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "132",
+      "exam_reference": "NICL—AAO Exam, 2015",
+      "passage_text": "",
+      "question_text": "In a Mathematics examination the number scored by 5 candidates are 5 successive odd integers. If their total marks are 185, the highest score is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "39",
+      "option_b": "43",
+      "option_c": "41",
+      "option_d": "47",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let the five successive odd number be,\n$x, x+2, x+4, x+6, x+8$\nThen, according to given information\n$185 = x + x + 2 + x + 4 + x + 6 + x + 8$\n$\\Rightarrow 185 = 5x + 20$\n$\\Rightarrow 5x = 185 - 20 = 165$\n$\\Rightarrow x = 33$\nHighest number = $33 + 8 = 41$",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "133",
+      "exam_reference": "ESIC—UDC Exam, 2016",
+      "passage_text": "",
+      "question_text": "The difference between two numbers is 10 and one-fifth of their sum is equal to 8. Find the smaller number",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "28",
+      "option_b": "45",
+      "option_c": "35",
+      "option_d": "15",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the numbers be $a$ and $b$ where $a > b$.\nAccording to the questions,\n$a - b = 10$ .....(i)\nAnd $\\frac{a+b}{5} = 8$\nBy cross multiplying, we get\n$\\Rightarrow a + b = 40$ ...(ii)\nBy subtracting equation (ii) from (i) we get\n$2b = 40 - 10 = 30$\n$\\Rightarrow b = \\frac{30}{2} = 15$\nAnd from (i)\n$a = 10 + 15 = 25$\n$\\Rightarrow a = 23$",
+      "page_numbers": [
+        "251"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    }
+  ]
+}

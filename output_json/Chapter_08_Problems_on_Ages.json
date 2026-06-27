@@ -1,0 +1,1408 @@
+{
+  "chapter_title": "Chapter_08_Problems_on_Ages",
+  "question_count": 64,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "The ratio of the ages of Tina and Rakesh is 9 : 10 respectively. Ten years ago, the ratio of their ages was 4 : 5 respectively. What is the present age of Rakesh?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let Tina’s age be $9x$ years. Then, Rakesh’s age = $10x$ years.\n$\\frac{9x-10}{10x-10} = \\frac{4}{5} \\Rightarrow 5(9x-10) = 4(10x-10) \\Rightarrow 45x-40x = 50-40 \\Rightarrow 5x = 10 \\Rightarrow x = 2$.\n$\\therefore$ Present age of Rakesh = $(10 \\times 2)$ years = 20 years.",
+      "page_numbers": [
+        "264"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "Samir’s age is one-fourth of his father’s age and two-third of his sister Reema’s age. What is the ratio of the ages of Samir, Reema and their father respectively?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Samir’s age = $\\frac{1}{4} \\times$ Father's age = $\\frac{2}{3} \\times$ Reema's age = $x$ years (say).\nThen, Samir’s age = $x$ years, Reema’s age = $\\frac{3}{2}x$ years and Father’s age = $4x$ years.\nRatio of the ages of Samir, Reema and father = $x : \\frac{3}{2}x : 4x = 2 : 3 : 8$.",
+      "page_numbers": [
+        "264"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "L.I.C., 2003",
+      "passage_text": "",
+      "question_text": "The age of father 10 years ago was thrice the age of his son. 10 years hence father’s age will be twice that of his son. Find the ratio of their present ages.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let son’s age 10 years ago be $x$ years. Then, father’s age 10 years ago = $3x$ years.\nSon’s age 10 years hence = $(x + 20)$ years.\nFather’s age 10 years hence = $(3x + 20)$ years.\n$\\therefore 3x + 20 = 2(x + 20) \\Rightarrow x = (40 - 20) = 20$.\nRatio of father’s age and son’s age at present = $(3x + 10) : (x + 10)$\n$= (3 \\times 20 + 10) : (20 + 10) = 70 : 30 = 7 : 3$.",
+      "page_numbers": [
+        "264"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "M.A.T., 2009",
+      "passage_text": "",
+      "question_text": "A man’s present age is two-fifths of the age of his mother. After 8 years, he will be one-half of the age of his mother. How old is the mother at present?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let mother’s age be $x$ years. Then, man’s age = $\\frac{2}{5}x$ years.\n$\\frac{2}{5}x + 8 = \\frac{1}{2}(x + 8) \\Rightarrow \\frac{2}{5}x + 8 = \\frac{1}{2}x + 4 \\Rightarrow \\frac{1}{2}x - \\frac{2}{5}x = 4 \\Rightarrow 5x - 4x = 40 \\Rightarrow x = 40$.\n$\\therefore$ Mother’s age = 40 years.",
+      "page_numbers": [
+        "264"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "L.I.C., 2009",
+      "passage_text": "",
+      "question_text": "The ages of two persons differ by 16 years. If 6 years ago, the elder one be three times as old as the younger one, find their present ages.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let their ages be $x$ years and $(x - 16)$ years. Then,\n$(x - 6) = 3 \\{(x - 16) - 6\\} \\Rightarrow x - 6 = 3(x - 22) \\Rightarrow 3x - x = 66 - 6 \\Rightarrow 2x = 60 \\Rightarrow x = 30$.\nSo, their ages are 30 years and $(30 - 16) = 14$ years.",
+      "page_numbers": [
+        "264"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The product of the ages of Ankit and Nikita is 240. If twice the age of Nikita is more than Ankit’s age by 4 years, then find Nikita’s age.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let Ankit’s age be $x$ years. Then, Nikita’s age = $\\frac{240}{x}$ years. $2 \\times \\frac{240}{x} - x = 4 \\Rightarrow \\frac{480}{x} - x = 4 \\Rightarrow 480 - x^2 = 4x$\n$\\Rightarrow x^2 + 4x - 480 = 0$\n$\\Rightarrow x^2 + 24x - 20x - 480 = 0 \\Rightarrow x(x + 24) - 20(x + 24) = 0$\n$\\Rightarrow (x + 24)(x - 20) = 0 \\Rightarrow x = 20$ [$\\because x \\neq -24$]\n$\\therefore$ Nikita’s age = $\\frac{240}{20}$ years = 12 years.",
+      "page_numbers": [
+        "264",
+        "265"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Reenu’s age after 6 years will be three–sevenths of her father’s age. 10 years ago, the ratio of their ages was 1 : 5. What is Reenu’s father’s age at present?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let Reenu’s age 10 years ago be $x$ years.\nThen, her father’s age 10 years ago = $5x$ years.\n$(x + 10) + 6 = \\frac{3}{7} \\times [(5x + 10) + 6] \\Rightarrow x + 16 = \\frac{3}{7}(5x + 16) \\Rightarrow 7x + 112 = 15x + 48 \\Rightarrow 8x = 64 \\Rightarrow x = 8$.\n$\\therefore$ Reenu’s father’s present age = $(5x + 10) = (5 \\times 8 + 10)$ years = 50 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": []
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "S.B.I. P.O., 2010",
+      "passage_text": "",
+      "question_text": "The ratio of the present ages of a mother and her daughter is 7 : 1. Four years ago, the ratio of their ages was 19 : 1. What will be the mother’s age four years from now?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "42 years",
+      "option_b": "38 years",
+      "option_c": "46 years",
+      "option_d": "36 years",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let mother’s age be $7x$ years. Then, daughter’s age = $x$ years.\n$\\frac{7x-4}{x-4}=\\frac{19}{1}$\n$\\Rightarrow 7x-4=19(x-4)$\n$\\Rightarrow 19x-7x=76-4$\n$\\Rightarrow 12x=72$\n$\\Rightarrow x=6$.\nMother’s age after 4 years = $(7x+4)$\n= $(7\\times6+4)$ years = 46 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The ages of Nishi and Vinnee are in the ratio 6 : 5 respectively. After 9 years, the ratio of their ages will be 9 : 8. What is the difference in their ages now?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3 years",
+      "option_b": "5 years",
+      "option_c": "7 years",
+      "option_d": "9 years",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let Nishi’s age be $6x$ years. Then, Vinnee’s age = $5x$ years.\n$\\therefore \\frac{6x+9}{5x+9}=\\frac{9}{8}$\n$\\Rightarrow 8(6x+9)=9(5x+9)$\n$\\Rightarrow 48x-45x=81-72$\n$\\Rightarrow 3x=9$\n$\\Rightarrow x=3$.\nDifference in their ages = $(6x-5x)=x$ years = 3 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "The present ages of Amit and his father are in the ratio 2 : 5 respectively. Four years hence, the ratio of their ages becomes 5 : 11 respectively. What was the father’s age five years ago?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30 years",
+      "option_b": "35 years",
+      "option_c": "40 years",
+      "option_d": "45 years",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let Amit’s age be $2x$ years. Then, his father’s age = $5x$ years.\n$\\therefore \\frac{2x+4}{5x+4}=\\frac{5}{11}$\n$\\Rightarrow 11(2x+4)=5(5x+4)$\n$\\Rightarrow 22x+44=25x+20$\n$\\Rightarrow 3x=24$\n$\\Rightarrow x=8$.\nFather’s age 5 years ago = $(5x-5)$ years\n= $(5\\times8-5)$ years = 35 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "The ratio of the ages of a father and his son is 17 : 7 respectively. Six years ago, the ratio of their ages was 3 : 1 respectively. What is the father’s present age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "64 years",
+      "option_b": "51 years",
+      "option_c": "48 years",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let father’s age be $17x$ years. Then, son’s age = $7x$ years.\n$\\frac{17x-6}{7x-6}=\\frac{3}{1}$\n$\\Rightarrow 3(7x-6)=17x-6$\n$\\Rightarrow 21x-18=17x-6$\n$\\Rightarrow 4x=12$\n$\\Rightarrow x=3$.\n$\\therefore$ Father’s present age = $17x$ years\n= $(17\\times3)$ years = 51 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The ages of Shakti and Kanti are in the ratio of 8 : 7 respectively. After 10 years, the ratio of their ages will be 13 : 12. What is the difference between their ages?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 years",
+      "option_b": "4 years",
+      "option_c": "8 years",
+      "option_d": "6 years",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let Shakti’s age be $8x$ years. Then, Kanti’s age = $7x$ years.\n$\\therefore \\frac{8x+10}{7x+10}=\\frac{13}{12}$\n$\\Rightarrow 12(8x+10)=13(7x+10)$\n$\\Rightarrow 96x+120=91x+130$\n$\\Rightarrow 5x=10$\n$\\Rightarrow x=2$.\nDifference between their ages = $(8x-7x)$ years\n= $x$ years = 2 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "The ages of A and B are in the ratio 6 : 5 and the sum of their ages is 44 years. What will be the ratio of their ages after 8 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7 : 6",
+      "option_b": "8 : 7",
+      "option_c": "9 : 8",
+      "option_d": "3 : 4",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "A’s age = $\\left(44\\times\\frac{6}{11}\\right)$ years = 24 years and B’s age\n= $(44-24)$ years = 20 years.\nRatio of their ages after 8 years = $\\frac{24+8}{20+8}=\\frac{32}{28}=\\frac{8}{7}=8:7$.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "1"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "Farah got married 8 years ago. Today her age is $2\\frac{1}{7}$ times her age at the time of her marriage. At present her daughter‘s age is one-sixth of her age. What was her daughter’s age 3 years ago?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 years",
+      "option_b": "3 years",
+      "option_c": "6 years",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let Farah’s age 8 years ago be $x$ years. Then, her present age = $(x+8)$ years.\n$\\therefore x+8=\\frac{9}{7}x \\Rightarrow 7x+56=9x$\n$\\Rightarrow 2x=56$\n$\\Rightarrow x=28$.\n$\\therefore$ Farah’s age now = $(x+8)$ years = $(28+8)$ years = 36 years.\nHer daughter’s age now = $\\left(\\frac{1}{6}\\times36\\right)$ years = 6 years.\nHer daughter’s age 3 years ago = $(6-3)$ years = 3 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "The age of a mother today is thrice that of her daughter. After 12 years, the age of the mother will be twice that of her daughter. The present age of the daughter is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 years",
+      "option_b": "14 years",
+      "option_c": "16 years",
+      "option_d": "18 years",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the daughter’s age be $x$ years. Then, mother’s age = $3x$ years.\n$3x+12=2(x+12)$\n$\\Rightarrow 3x+12=2x+24$\n$\\Rightarrow x=12$.\nPresent age of daughter = 12 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "L.I.C., 2007",
+      "passage_text": "",
+      "question_text": "The present age of Mr. Sanyal is three times the age of his son. Six years hence, the ratio of their ages will be 5 : 2. What is the present age of Mr. Sanyal?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "48 years",
+      "option_b": "50 years",
+      "option_c": "54 years",
+      "option_d": "60 years",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let the son’s age be $x$ years. Then, Mr. Sanyal’s age = $3x$ years.\n$\\therefore \\frac{3x+6}{x+6}=\\frac{5}{2}$\n$\\Rightarrow 2(3x+6)=5(x+6)$\n$\\Rightarrow 6x+12=5x+30$\n$\\Rightarrow x=18$.\n$\\therefore$ Present age of Mr. Sanyal = $3x$ years = $(3\\times18)$ years = 54 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The average of the ages of a man and his daughter is 34 years. If the respective ratio of their ages four years from now is 14 : 5, what is daughter’s present age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 years",
+      "option_b": "12 years",
+      "option_c": "18 years",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Average age of man and his daughter = 34 years.\nTheir total age = $(34\\times2)$ years = 68 years.\nLet man’s age be $x$ years. Then, daughter’s age = $(68-x)$ years.\n$\\therefore \\frac{x+4}{68-x+4}=\\frac{14}{5}$\n$\\Rightarrow 5(x+4)=14(72-x)$\n$\\Rightarrow 5x+20=1008-14x$\n$\\Rightarrow 19x=988$\n$\\Rightarrow x=52$.\n$\\therefore$ Daughter’s present age = $(68-52)$ years = 16 years.",
+      "page_numbers": [
+        "265"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "Ratio of Rani’s and Komal’s ages is 3 : 5 respectively. Ratio of Komal’s and Pooja’s ages is 2 : 3 respectively. If Rani is two-fifth of Pooja’s age, what is Rani’s age?",
+      "question_text": "If Rani is two-fifth of Pooja’s age, what is Rani’s age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 years",
+      "option_b": "15 years",
+      "option_c": "14 years",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Rani’s age : Komal’s age = $3:5 = \\frac{3}{5}:1$.\nKomal’s age : Pooja’s age = $2:3 = 1:\\frac{3}{2}$.\nRani’s age : Komal’s age : Pooja’s age = $\\frac{6}{10}:1:\\frac{15}{10} = 6:10:15$.\nLet Rani’s age be $6x$ years. Then, Komal’s age = $10x$ years and Pooja’s age = $15x$ years.\nRani’s age = $\\frac{2}{5}$ of Pooja’s age $\\Rightarrow 6x = \\frac{2}{5}\\times15x$.\nThus, we can not find the value of $x$ and therefore of $6x$.\nSo, the answer cannot be determined.",
+      "page_numbers": [
+        "265",
+        "266"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "P.C.S., 2009",
+      "passage_text": "",
+      "question_text": "The age of a father 10 years ago was thrice the age of his son. 10 years hence, the father’s age will be twice that of his son. The ratio of their present ages is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 : 5",
+      "option_b": "7 : 3",
+      "option_c": "9 : 5",
+      "option_d": "5 : 2",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let son’s age 10 years ago be $x$ years.\nThen, father’s age 10 years ago = $3x$ years.\nSon’s age now = $(x+10)$ years, Father’s age now = $(3x+10)$ years.\n$(3x+10)+10=2[(x+10)+10]$\n$\\Rightarrow 3x+20=2(x+20)$\n$\\Rightarrow 3x+20=2x+40$\n$\\Rightarrow x=20$.\nRatio of present ages of father and son\n$= \\frac{3x+10+10}{x+10+10} = \\frac{3(20)+20}{20+20} = \\frac{80}{40} = 2:1$.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "Railways, 2008",
+      "passage_text": "",
+      "question_text": "The ratio between the ages of Ram and Mohan is 4 : 5 and that between the ages of Ram and Anil is 5 : 6. If the sum of the ages of the three is 69 years, what is Mohan’s age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20 years",
+      "option_b": "24 years",
+      "option_c": "25 years",
+      "option_d": "30 years",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Ram’s age : Mohan’s age = $4:5 = 1:\\frac{5}{4}$.\nRam’s age : Anil’s age = $5:6 = 1:\\frac{6}{5}$.\nLet Ram’s age be $x$ years. Then, Mohan’s age = $\\frac{5x}{4}$ years.\nAnd, Anil’s age = $\\frac{6x}{5}$ years.\n$\\therefore x+\\frac{5x}{4}+\\frac{6x}{5}=69$\n$\\Rightarrow 20x+25x+24x=1380$\n$\\Rightarrow 69x=1380$\n$\\Rightarrow x=20$.\nMohan’s age = $\\frac{5\\times20}{4}$ years = 25 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "At present, Suresh’s age is twice the age of his daughter. After 6 years from now, the ratio of the ages of Suresh and his daughter will be 23 : 13. What is the present age of Suresh?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "36 years",
+      "option_b": "40 years",
+      "option_c": "46 years",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let daughter’s age be $x$ years. Suresh’s age = $2x$ years.\n$\\therefore \\frac{2x+6}{x+6}=\\frac{23}{13}$\n$\\Rightarrow 13(2x+6)=23(x+6)$\n$\\Rightarrow 26x+78=23x+138$\n$\\Rightarrow 3x=60$\n$\\Rightarrow x=20$.\nPresent age of Suresh = $2x$ years\n= $(2\\times20)$ years = 40 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The difference between the present ages of Arun and Deepak is 14 years. Seven years ago, the ratio of their ages was 5 : 7 respectively. What is Deepak’s present age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "35 years",
+      "option_b": "42 years",
+      "option_c": "49 years",
+      "option_d": "56 years",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let the ages of Arun and Deepak 7 years ago be $5x$ years and $7x$ years respectively. Then,\nArun’s present age = $(5x+7)$ years, Deepak’s present age = $(7x+7)$ years.\n$\\therefore (7x+7)-(5x+7)=14$\n$\\Rightarrow 2x=14$\n$\\Rightarrow x=7$.\nDeepak’s present age = $(7\\times7+7)$ years = 56 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "Railways, 2006",
+      "passage_text": "",
+      "question_text": "Ten years ago, a man was seven times as old as his son. Two years hence, twice his age will be equal to five times the age of his son. What is the present age of the son?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 years",
+      "option_b": "13 years",
+      "option_c": "14 years",
+      "option_d": "15 years",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let son’s age 10 years ago be $x$ years. Then, man’s age 10 years ago = $7x$ years.\nSon’s present age = $(x+10)$ years, Man’s present age = $(7x+10)$ years.\n$\\therefore 2[(7x+10)+2]=5[(x+10)+2]$\n$\\Rightarrow 2(7x+12)=5(x+12)$\n$\\Rightarrow 14x+24=5x+60$\n$\\Rightarrow 9x=36$\n$\\Rightarrow x=4$.\n$\\therefore$ Son’s present age = $(x+10)$ years = $(4+10)$ years = 14 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "2"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The ages of Samina and Suhana are in the ratio of 7 : 3 respectively. After 6 years, the ratio of their ages will be 5 : 3. What is the difference in their ages?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6 years",
+      "option_b": "8 years",
+      "option_c": "10 years",
+      "option_d": "12 years",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let Samina’s age be $7x$ years. Then, Suhana’s age = $3x$ years.\n$\\therefore \\frac{7x+6}{3x+6}=\\frac{5}{3}$\n$\\Rightarrow 3(7x+6)=5(3x+6)$\n$\\Rightarrow 21x+18=15x+30$\n$\\Rightarrow 6x=12$\n$\\Rightarrow x=2$.\nDifference in their ages = $(7x-3x)$ years\n= $4x$ years = $(4\\times2)$ years = 8 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The ages of Sulekha and Arunima are in the ratio of 9 : 8 respectively. After 5 years, the ratio of their ages will be 10 : 9. What is the difference in their ages?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 years",
+      "option_b": "5 years",
+      "option_c": "6 years",
+      "option_d": "7 years",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let Sulekha’s age be $9x$ years. Then, Arunima’s age = $8x$ years.\n$\\therefore \\frac{9x+5}{8x+5}=\\frac{10}{9}$\n$\\Rightarrow 9(9x+5)=10(8x+5)$\n$\\Rightarrow 81x+45=80x+50$\n$\\Rightarrow x=5$.\nDifference in their ages = $(9x-8x)$ years\n= $x$ years = 5 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "The ages of A and B are presently in the ratio of 5 : 6 respectively. Six years hence, this ratio will become 6 : 7 respectively. What was B’s age 5 years ago?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25 years",
+      "option_b": "30 years",
+      "option_c": "31 years",
+      "option_d": "36 years",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let A’s age be $5x$ years. Then, B’s age = $6x$ years.\n$\\therefore \\frac{5x+6}{6x+6}=\\frac{6}{7}$\n$\\Rightarrow 7(5x+6)=6(6x+6)$\n$\\Rightarrow 35x+42=36x+36$\n$\\Rightarrow x=6$.\nB’s age 5 years ago = $(6x-5)$ years\n= $(6\\times6-5)$ years = 31 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "The age of the mother today is thrice that of her daughter. After 12 years, the age of the mother will be twice that of her daughter. The age of the daughter today is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "12 years",
+      "option_b": "14 years",
+      "option_c": "16 years",
+      "option_d": "18 years",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let daughter’s age be $x$ years. Then, mother’s age = $3x$ years.\n$(3x+12)=2(x+12)$\n$\\Rightarrow 3x+12=2x+24$\n$\\Rightarrow x=12$.\n$\\therefore$ Daughter’s age today = 12 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "The sum of the ages of a daughter and her mother is 56 years. After four years, the age of the mother will be three times that of the daughter. At present their ages are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 years, 46 years",
+      "option_b": "12 years, 44 years",
+      "option_c": "11 years, 45 years",
+      "option_d": "13 years, 43 years",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let daughter's age be $x$ years. Then, mother's age = $(56 - x)$ years.\n$(56 - x) + 4 = 3(x + 4)$\n$\\Rightarrow 60 - x = 3x + 12$\n$\\Rightarrow 4x = 48$\n$\\Rightarrow x = 12$.\n$\\therefore$ Daughter's age = 12 years, Mother's age = 44 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "Railways, 2006",
+      "passage_text": "",
+      "question_text": "The present age of son is half of the present age of his mother. Ten years ago, his mother’s age was thrice the age of her son. What is the present age of the son?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20 years",
+      "option_b": "25 years",
+      "option_c": "30 years",
+      "option_d": "40 years",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let mother's age be $2x$ years. Then, son's age = $x$ years.\n$(2x - 10) = 3(x - 10)$\n$\\Rightarrow 2x - 10 = 3x - 30$\n$\\Rightarrow x = 20$.\nSon's age = 20 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "Railways, 2005",
+      "passage_text": "",
+      "question_text": "Ram’s son’s age is $\\frac{1}{3}$ of Ram’s wife’s age. Ram’s wife’s age is $\\frac{4}{5}$ of Ram’s age and Ram’s age is $\\frac{3}{5}$ of Ram’s father’s age. Find the age of Ram’s son, if Ram’s father is 50 years old.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6 years",
+      "option_b": "8 years",
+      "option_c": "10 years",
+      "option_d": "12 years",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Ram's father's age = 50 years, Ram's age\n$= \\left(\\frac{3}{5}\\times50\\right)$ years = 30 years.\nRam's wife's age = $\\left(\\frac{4}{5}\\times30\\right)$ years = 24 years.\nRam's son's age = $\\left(\\frac{1}{3}\\times24\\right)$ years = 8 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "Railways, 2006",
+      "passage_text": "",
+      "question_text": "Ratio between the ages of Subhash, Prasad and Amar is 3 : 6 : 7. If the difference between the ages of Prasad and Amar is 10 years, then what is the difference between the ages of Subhash and Prasad?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 years",
+      "option_b": "10 years",
+      "option_c": "20 years",
+      "option_d": "30 years",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let Subhash's age be $3x$ years. Then, Prasad's age\n$= 6x$ years and Amar's age $= 7x$ years.\n$\\therefore 7x - 6x = 10$\n$\\Rightarrow x = 10$.\nRequired difference = $(6x - 3x)$ years\n$= 3x$ years = $(3\\times10)$ years = 30 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "M.A.T., 2005",
+      "passage_text": "",
+      "question_text": "Rajan got married 8 years ago. His present age is $\\frac{6}{5}$ times his age at the time of his marriage. Rajan’s sister was 10 years younger to him at the time of his marriage. The age of Rajan’s sister is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "32 years",
+      "option_b": "36 years",
+      "option_c": "38 years",
+      "option_d": "40 years",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Let Rajan's age 8 years ago be $x$ years. His present age\n$= (x + 8)$ years.\n$\\therefore x + 8 = \\frac{6}{5}x \\Rightarrow 5x + 40 = 6x \\Rightarrow x = 40$.\nRajan's sister's age 8 years ago = $(40 - 10)$ years = 30\nyears.\nHis sister's age now = $(30 + 8)$ years = 38 years.",
+      "page_numbers": [
+        "266"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "M.A.T., 2004",
+      "passage_text": "",
+      "question_text": "The ages of two persons differ by 20 years. If 5 years ago, the older one be 5 times as old as the younger one, then their present ages are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25 years, 5 years",
+      "option_b": "30 years, 10 years",
+      "option_c": "35 years, 15 years",
+      "option_d": "50 years, 30 years",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let their present ages be $x$ years and $(x - 20)$ years.\n$(x - 5) = 5[(x - 20) - 5]$\n$\\Rightarrow (x - 5) = 5(x - 25)$\n$\\Rightarrow (x - 5) = 5x - 125$\n$\\Rightarrow 4x = 120$\n$\\Rightarrow x = 30$.\n$\\therefore$ Their present ages are 30 years and 10 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "P.C.S., 2008",
+      "passage_text": "",
+      "question_text": "A couple has a son and a daughter. The age of the father is four times that of the son and the age of the daughter is one-third of that of her mother. The wife is 6 years younger to her husband and the sister is 3 years older than her brother. The mother’s age is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "42 years",
+      "option_b": "48 years",
+      "option_c": "54 years",
+      "option_d": "63 years",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "M–Mother, F–Father, S–Son and D–Daughter.\n$F = 4S, D = \\frac{1}{3}M, M = F - 6$ and $S = D - 3$\n$\\therefore M = 3D = 3(S + 3)$\n$= 3S + 9 = 3\\left(\\frac{F}{4}\\right) + 9 = \\frac{3}{4}M + 9$\n$\\Rightarrow M - \\frac{3}{4}M = 9 \\Rightarrow \\frac{1}{4}M = 9$\n$\\Rightarrow M = 36$ years.\n$\\therefore$ The mother is 54 years old.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The present ages of three persons are in the proportion 4 : 7 : 9. Eight years ago, the sum of their ages was 56 years. The present age of the eldest person is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "28 years",
+      "option_b": "36 years",
+      "option_c": "45 years",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$A : B : C = 4 : 7 : 9$ and $(A + B + C)$\n$= 56 + (8 + 8 + 8) = 80$.\n$\\therefore C$'s age = $\\left(\\frac{9}{20}\\times80\\right)$ years = 36 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "In 10 years, A will be twice as old as B was 10 years ago. If A is now 9 years older than B, the present age of B is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "19 years",
+      "option_b": "29 years",
+      "option_c": "39 years",
+      "option_d": "49 years",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let B's age be $x$ years. Then, A's age = $(x + 9)$ years.\n$(x + 9) + 10 = 2(x - 10)$\n$\\Rightarrow x + 19 = 2x - 20$\n$\\Rightarrow x = 39$.\nB's age = 39 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Reenu’s father was 38 years of age when she was born while her mother was 36 years old when her brother 4 years younger to her was born. What is the difference between the ages of her parents?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 years",
+      "option_b": "4 years",
+      "option_c": "6 years",
+      "option_d": "8 years",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Mother's age when Reenu's brother was born = 36 years.\nFather's age when Reenu's brother was born = $(38 + 4)$\nyears = 42 years.\nRequired difference = $(42 - 36)$ years = 6 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of the ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 years",
+      "option_b": "6 years",
+      "option_c": "8 years",
+      "option_d": "10 years",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let the ages of children be $x, (x + 3), (x + 6), (x + 9)$ and\n$(x + 12)$ years.\nThen, $x + x + 3 + x + 6 + x + 9 + x + 12 = 50$\n$\\Rightarrow 5x = 20 \\Rightarrow x = 4$.\n$\\therefore$ Age of youngest child = 4 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "A man was asked to state his age in years. His reply was, “Take my age 3 years hence, multiply it by 3 and then subtract 3 times my age 3 years ago and you will know how old I am.” What is the age of the man?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18 years",
+      "option_b": "20 years",
+      "option_c": "24 years",
+      "option_d": "32 years",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the present age of the man be $x$ years. Then\n$3(x + 3) - 3(x - 3) = x$\n$\\Rightarrow (3x + 9) - (3x - 9) = x$\n$\\Rightarrow x = 18$.\n$\\therefore$ The present age of the man is 18 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of the ages of Jayant, Prem and Paras is 93 years. Ten years ago, the ratio of their ages was 2 : 3 : 4. What is the present age of Paras?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "24 years",
+      "option_b": "28 years",
+      "option_c": "32 years",
+      "option_d": "34 years",
+      "option_e": "38 years",
+      "correct_option": "e",
+      "solution": "Let their ages 10 years ago be $2x$ years, $3x$ years and $4x$\nyears respectively.\nThen, $(2x + 10) + (3x + 10) + (4x + 10) = 93$\n$\\Rightarrow 9x + 30 = 93$\n$\\Rightarrow 9x = 63 \\Rightarrow x = 7$.\nPresent age of Paras = $(4\\times7 + 10)$ years = 38 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of the ages of a man and his son is 45 years. Five years ago, the product of their ages was 34. The man’s age is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "40 years",
+      "option_b": "45 years",
+      "option_c": "50 years",
+      "option_d": "55 years",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Let the man's age be $x$ years.\nThen, son's age = $(45 - x)$ years.\n$(x - 5)(45 - x - 5) = 34$\n$\\Rightarrow (x - 5)(40 - x) = 34$\n$\\therefore 40x - x^2 - 200 + 5x = 34$\n$\\Rightarrow x^2 - 45x + 234 = 0$\n$\\Rightarrow x^2 - 39x - 6x + 234 = 0$\n$\\Rightarrow x(x - 39) - 6(x - 39) = 0$\n$\\Rightarrow (x - 39)(x - 6) = 0$\n$\\Rightarrow x = 39$ or $x = 6$.\n$\\therefore$ Man's age = 39 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The ratio of a man’s age and his son’s age is 7 : 3 and the product of their ages is 756. The ratio of their ages after 6 years will be",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 : 2",
+      "option_b": "2 : 1",
+      "option_c": "11 : 7",
+      "option_d": "13 : 9",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let the man's age be $7x$ years. Then, son's age = $3x$ years.\n$\\therefore 7x\\times3x = 756$\n$\\Rightarrow 21x^2 = 756$\n$\\Rightarrow x^2 = 36 = 6^2$\n$\\Rightarrow x = 6$.\nThe ratio of their ages after 6 years = $(7x + 6) : (3x + 6)$\n$= (7\\times6 + 6) : (3\\times6 + 6)$\n$= 48 : 24 = 2 : 1.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Sonal is 40 years old and Nitya is 60 years old. How many years ago was the ratio of their ages 3 : 5?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 years",
+      "option_b": "10 years",
+      "option_c": "20 years",
+      "option_d": "37 years",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let $x$ years ago the ratio of their ages be $3 : 5$.\nThen, $\\frac{40 - x}{60 - x} = \\frac{3}{5} \\Rightarrow 3(60 - x) = 5(40 - x)$\n$\\Rightarrow 180 - 3x = 200 - 5x$\n$\\Rightarrow 2x = 20$\n$\\Rightarrow x = 10$.\n$\\therefore$ 10 years ago, their ages were in the ratio $3 : 5$.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The ratio between the present ages of A and B is 5 : 3 respectively. The ratio between A’s age 4 years ago and B’s age 4 years hence is 1 : 1. What is the ratio between A’s age 4 years hence and B’s age 4 years ago?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 : 3",
+      "option_b": "3 : 1",
+      "option_c": "2 : 1",
+      "option_d": "4 : 1",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let A's age be $5x$ years. Then, B's age = $3x$ years.\n$\\frac{5x - 4}{3x + 4} = \\frac{1}{1} \\Rightarrow 5x - 4 = 3x + 4 \\Rightarrow 2x = 8 \\Rightarrow x = 4$.\n$\\therefore \\frac{\\text{A's age 4 years hence}}{\\text{B's age 4 years ago}} = \\frac{5x + 4}{3x - 4}$\n$= \\frac{5\\times4 + 4}{3\\times4 - 4} = \\frac{24}{8} = 3 : 1.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The ratio of the ages of a man and his wife is 4 : 3. After 4 years, this ratio will be 9 : 7. If at the time of their marriage, the ratio of their ages was 5 : 3, then how many years ago were they married?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8 years",
+      "option_b": "10 years",
+      "option_c": "12 years",
+      "option_d": "15 years",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let the man's age be $4x$ years. Then, his wife's age = $3x$\nyears.\nThen, $\\frac{4x + 4}{3x + 4} = \\frac{9}{7}$\n$\\Rightarrow 7(4x + 4) = 9(3x + 4)$\n$\\Rightarrow 28x + 28 = 27x + 36 \\Rightarrow x = 8$.\nMan's age = $(4\\times8)$ years\n= 32 years, Wife's age\n= $(3\\times8)$ years = 24 years.\nLet they be married $y$ years ago. Then,\n$\\frac{32 - y}{24 - y} = \\frac{5}{3} \\Rightarrow 3(32 - y) = 5(24 - y)$\n$\\Rightarrow 96 - 3y = 120 - 5y$\n$\\Rightarrow 2y = (120 - 96) = 24$\n$\\Rightarrow y = 12$.\nSo, they were married 12 years ago.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "Bank P.O., 2002",
+      "passage_text": "",
+      "question_text": "The ratio between the ages of Neelam and Shiny is 5 : 6 respectively. If the ratio between the one-third age of Neelam and half of Shiny’s age is 5 : 9, then what is Shiny’s age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25 years",
+      "option_b": "30 years",
+      "option_c": "36 years",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let Neelam's age be $5x$ years and Shiny's age be $6x$ years.\n$\\left(\\frac{1}{3}\\times5x\\right) : \\left(\\frac{1}{2}\\times6x\\right) = 5 : 9 \\Rightarrow \\frac{5x}{3} : 3x = \\frac{5}{9}$.\nThus, Shiny's age cannot be determined.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "18 years ago, a man was three times as old as his son. Now, the man is twice as old as his son. The sum of the present ages of the man and his son is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "54 years",
+      "option_b": "72 years",
+      "option_c": "105 years",
+      "option_d": "108 years",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let the son's age 18 years ago be $x$ years. Then, man's\nage 18 years ago = $3x$ years.\n$(3x + 18) = 2(x + 18)$\n$\\Rightarrow 3x + 18 = 2x + 36$\n$\\Rightarrow x = 18$.\nSum of their present ages = $(3x + 18 + x + 18)$ years\n$= (4x + 36)$ years\n$= (4\\times18 + 36)$ years = 108 years.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "A man is aged three times more than his son Ronit. After 8 years, he would be two anda half times of Ronit’s age. After further 8 years, how many times would he be of Ronit’s age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2 times",
+      "option_b": "$2\\frac{1}{2}$ times",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let Ronit’s present age be $x$ years.\nThen, the man’s age = $(x + 3x)$ years = $4x$ years.\n$\\frac{5}{2}x + 8 = (x + 8) \\Rightarrow 8x + 16 = 5x + 40 \\Rightarrow 3x = 24 \\Rightarrow x = 8$.\n$\\therefore$ Required ratio = $\\frac{(4x + 16)}{(x + 16)} = \\frac{(4 \\times 8 + 16)}{(8 + 16)} = \\frac{48}{24} = 2$ times.",
+      "page_numbers": [
+        "267"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "One year ago, Promila was four times as old as her daughter Sakshi. Six years hence, Promila’s age will exceed her daughter’s age by 9 years. The ratio of the present ages of Promila and her daughter is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9 : 2",
+      "option_b": "11 : 3",
+      "option_c": "12 : 5",
+      "option_d": "13 : 4",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Let Sakshi’s age $1$ year ago be $x$ years. Then, Promila’s age $1$ year ago = $4x$ years.\n$\\therefore$ Sakshi’s age now = $(x + 1)$ years, Promila’s age now = $(4x + 1)$ years.\n$(4x + 1) + 6 = (x + 1 + 6) + 9$\n$\\Rightarrow 4x + 7 = x + 16$\n$\\Rightarrow 3x = 9$\n$\\Rightarrow x = 3$.\nRatio of Promila’s age and Sakshi’s age now\n$= \\frac{(4x + 1)}{(x + 1)} = \\frac{13}{4} = 13 : 4$.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "L.I.C., 2003",
+      "passage_text": "",
+      "question_text": "The age of a man 10 years ago was thrice the age of his son. 10 years hence, the man’s age will be twice the age of his son. The ratio of their present ages is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "5 : 2",
+      "option_b": "7 : 3",
+      "option_c": "9 : 2",
+      "option_d": "13 : 4",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let son’s age $10$ years ago be $x$ years. Then, man’s age $10$ years ago = $3x$ years.\nSon’s present age = $(x + 10)$ years, Man’s present age = $(3x + 10)$ years.\n$(3x + 10) + 10 = 2 (x + 10 + 10)$\n$\\Rightarrow 3x + 20 = 2 (x + 20)$\n$\\Rightarrow 3x + 20 = 2x + 40$\n$\\Rightarrow x = 20$.\nRatio of present ages of man and the son\n$= \\frac{3x + 10}{x + 10} = \\frac{3 \\times 20 + 10}{20 + 10} = \\frac{70}{30} = 7 : 3$.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "Tanya’s grandfather was 8 times older to her 16 years ago. He would be 3 times of her age 8 years from now. 8 years ago, what was the ratio of Tanya’s age to that of her grandfather?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1 : 2",
+      "option_b": "1 : 5",
+      "option_c": "3 : 8",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$16$ years ago, let $T = x$ years and $G = 8x$ years.\nAfter $8$ years from now, $T = (x + 16 + 8)$ years and $G = (8x + 16 + 8)$ years.\n$\\therefore 8x + 24 = 3 (x + 24)$\n$\\Rightarrow 8x - 3x = 72 - 24$\n$\\Rightarrow 5x = 48$.\n$8$ years ago, $\\frac{T}{G} = \\frac{x + 8}{8x + 8} = \\frac{48/5 + 8}{8(48/5) + 8} = \\frac{48 + 40}{384 + 40} = \\frac{88}{424} = \\frac{11}{53}$.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "4"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The difference between the ages of two men is 10 years. 15 years ago, the elder one was twice as old as the younger one. The present age of the elder man is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25 years",
+      "option_b": "35 years",
+      "option_c": "45 years",
+      "option_d": "52 years",
+      "option_e": "55 years",
+      "correct_option": "b",
+      "solution": "Let their ages be $x$ years and $(x + 10)$ years.\nThen $(x + 10 - 15) = 2 (x - 15)$\n$\\Rightarrow x - 5 = 2x - 30$\n$\\Rightarrow x = 25$.\nPresent age of the elder man = $(x + 10)$ years = $(25 + 10)$ years = $35$ years.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "6 years ago, the ratio of the ages of Kunal and Sagar was 6 : 5. Four years hence, the ratio of their ages will be 11 : 10. What is Sagar’s age at present?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16 years",
+      "option_b": "18 years",
+      "option_c": "20 years",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Let the ages of Kunal and Sagar $6$ years ago be $6x$ and $5x$ years.\nThen, $\\frac{6x + 6 + 4}{5x + 6 + 4} = \\frac{11}{10} \\Rightarrow \\frac{6x + 10}{5x + 10} = \\frac{11}{10}$\n$\\Rightarrow 10 (6x + 10) = 11 (5x + 10)$\n$\\Rightarrow 60x + 100 = 55x + 110$\n$\\Rightarrow 5x = 10$\n$\\Rightarrow x = 2$.\nSagar’s present age = $(5x + 6)$ years = $(5 \\times 2 + 6)$ years = $16$ years.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Sneh’s age is $\\frac{1}{6}$th of her father’s age. Sneh’s father’s age will be twice of Vimal’s age after 10 years. If Vimal’s 8th birthday was celebrated 2 years ago, then what is Sneh’s present age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2\\frac{2}{3}$ years",
+      "option_b": "10 years",
+      "option_c": "12 years",
+      "option_d": "15 years",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "Vimal’s present age = $(8 + 2)$ years = $10$ years.\nSneh’s father’s age = $2 (10 + 10)$ years = $40$ years.\nSneh’s age = $\\left(\\frac{1}{6} \\times 40\\right)$ years = $\\frac{20}{3}$ years = $6\\frac{2}{3}$ years.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The ages of Samina and Suhana are in the ratio of 7 : 3 respectively. After 6 years, the ratio of their ages will be 5 : 3. What is the difference in their ages?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6 years",
+      "option_b": "8 years",
+      "option_c": "10 years",
+      "option_d": "12 years",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let Samina’s age be $7x$ years. Then, Suhana’s age = $3x$ years.\n$\\therefore \\frac{7x + 6}{3x + 6} = \\frac{5}{3} \\Rightarrow 3 (7x + 6) = 5 (3x + 6)$\n$\\Rightarrow 21x + 18 = 15x + 30$\n$\\Rightarrow 6x = 12$\n$\\Rightarrow x = 2$.\nDifference in their ages = $(7x - 3x)$ years = $4x$ years = $(4 \\times 2)$ years = $8$ years.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "The ages of Sulekha and Arunima are in the ratio 9 : 8 respectively. After 5 years, the ratio of their ages will be 10 : 9. What is the difference in their ages?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4 years",
+      "option_b": "5 years",
+      "option_c": "6 years",
+      "option_d": "7 years",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let Sulekha’s age be $9x$ years. Then, Arunima’s age = $8x$ years.\n$\\frac{9x + 5}{8x + 5} = \\frac{10}{9} \\Rightarrow 9 (9x + 5) = 10 (8x + 5)$\n$\\Rightarrow 81x + 45 = 80x + 50$\n$\\Rightarrow x = 5$.\nDifference in their ages = $(9x - 8x)$ years = $x$ years = $5$ years.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "Three years ago, the ratio of the ages of Amisha and Nimisha was 8 : 9 respectively. 3 years hence, the ratio of their ages will be 11 : 12 respectively. What is the present age of Amisha?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "16 years",
+      "option_b": "19 years",
+      "option_c": "21 years",
+      "option_d": "Cannot be determined",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let Amisha’s age $3$ years ago be $8x$ years. Then, Nimisha’s age $3$ years ago = $9x$ years.\nPresent age of Amisha = $(8x + 3)$ years.\nPresent age of Nimisha = $(9x + 3)$ years.\n$\\frac{(8x + 3) + 3}{(9x + 3) + 3} = \\frac{11}{12} \\Rightarrow \\frac{8x + 6}{9x + 6} = \\frac{11}{12}$\n$\\Rightarrow 12 (8x + 6) = 11 (9x + 6)$\n$\\Rightarrow 96x + 72 = 99x + 66$\n$\\Rightarrow 3x = 6$\n$\\Rightarrow x = 2$.\nAmisha’s present age = $(8 \\times 2 + 3)$ years = $19$ years.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "51",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If 10 years are subtracted from the present age of Mr. Roy and the remainder divided by 14, then you would get the present age of his grandson Sachin. If Sachin is 9 years younger to Saloni whose age is 14 years, then what is the present age of Mr. Roy?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "60 years",
+      "option_b": "70 years",
+      "option_c": "74 years",
+      "option_d": "80 years",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Saloni’s age = $14$ years $\\Rightarrow$ Sachin’s age = $(14 - 9)$ years = $5$ years.\nLet the present age of Mr. Roy be $x$ years.\n$\\frac{x - 10}{14} = 5 \\Rightarrow x - 10 = 70 \\Rightarrow x = 80$ years.",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "52",
+      "exam_reference": "IBPS—RRB Officer’s Gr. ‘B’ Exam, 2015",
+      "passage_text": "",
+      "question_text": "X’s age 3 years ago was three times the present age of Y. At present, Z’s age is twice the age of Y. Also Z is 12 years younger than X. What is the present age of Z?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15 year",
+      "option_b": "24 year",
+      "option_c": "12 year",
+      "option_d": "18 year",
+      "option_e": "6 year",
+      "correct_option": "d",
+      "solution": "Let the present age of Y be $a$ years.\nThree years ago X’s age = $3a$ years\nThen, present age of X is $(3a + 3)$\nZ’s present age = $2a$\nAccording to the given information\nNow, $(3a + 3) - 2a = 12 \\Rightarrow a = 9$ year\n$\\therefore$ Present age of Z = $2a = 2 \\times 9 = 18$ years",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "53",
+      "exam_reference": "RBI Gr. ‘B’ (Phase I) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Eight year ago, Poorvi’s age was equal to the sum of the present ages of her one son and one daughter. Five years hence, the respective ratio between the ages of her daughter and her son that time will be 7 : 6. If Poorvi’s husband is 7 years elder to her and his present age is three times the present age of their son, what is the present age of the daughter? (in years)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "15 years",
+      "option_b": "23 years",
+      "option_c": "19 years",
+      "option_d": "27 years",
+      "option_e": "13 years",
+      "correct_option": "b",
+      "solution": "Let the age of the son and the daughter of Poorvi be $6a$ years and $7a$ years respectively. $5$ years hence, present age of son = $6a - 5$ and present age of daughter = $7a - 5$\nAccording to the question,\nEight years ago, the age of Poorvi = $6a - 5 + 7a - 5 = 13a - 10$\nSo, present age of Poorvi = $13a - 10 + 8 = 13a - 2$.\nSince, present age of Poorvi husband = $3(6a - 5)$\nThe difference of present age of Poorvi husband and Poorvi = $7$, (given)\n$3(6a - 5) - (13a - 2) = 7 \\Rightarrow 18a - 15 - 13a + 2 = 7$\n$\\Rightarrow 5a = 20 \\Rightarrow a = 4$\nThe present age of daughter = $(7a - 5) = 7 \\times 4 - 5 = 23$ years",
+      "page_numbers": [
+        "268"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "54",
+      "exam_reference": "United India Insurance Co. Ltd., (UIICL) Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The sum of present ages of a father and his son is 8 years more than the present age of the mother. The mother is 22 years older than the son. What will be the age of the father after 4 years?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "34 years",
+      "option_b": "36 years",
+      "option_c": "40 years",
+      "option_d": "38 years",
+      "option_e": "28 years",
+      "correct_option": "a",
+      "solution": "Let present age of father, mother and son be $x, y$ and $z$ respectively\nSum of present ages of father and son = (Mother’s present age + $8$ years)\n$\\Rightarrow x + z = y + 8$ years ...(i)\nMother’s present age = (Son’s present age + $22$)\n$\\Rightarrow y = z + 22$ ...(ii)\nPut the value of $y$ in equation (i) we get\n$x + z = z + 22 + 8$\n$\\Rightarrow x + z = z + 30$\n$\\Rightarrow x = 30$ years\n$\\therefore$ Father’s present age = $30$ years\nAge of father after four years = $30 + 4 = 34$ years\n$\\therefore$ Required age of father = $34$ years",
+      "page_numbers": [
+        "268",
+        "269"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "55",
+      "exam_reference": "NICL—AAO Exam, 2015",
+      "passage_text": "",
+      "question_text": "Rahul is as much younger than Sagar as he is older than Purav. If the sum of the ages of Purav and Sagar is 66 years, and Sagar’s age is 48 years, then what is Purav’s age? (in years)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "18",
+      "option_b": "cannot be determined",
+      "option_c": "16",
+      "option_d": "20",
+      "option_e": "12",
+      "correct_option": "a",
+      "solution": "Let the age of Rahul, Sagar and Purav be $x, y$ and $z$ respectively\nAccording to the given information\nAge of Sagar - Age of Rahul = Age of Rahul - Age of Purav\n$\\Rightarrow y - x = x - z$\n$\\Rightarrow 2x = y + z$ ...(i)\nAlso $y + z = 66$ years\nFrom (i) $x = 33$ years\nAlso as per Eq (i) we have Purav’s age + Sagar’s age = $66$ years.\nBy going through option (a) given Purav = $18$, and Rahul = $33$ years, Sagar = $48$ years\nDifference between Rahul’s and Purav’s age = $18$ years",
+      "page_numbers": [
+        "269"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "56",
+      "exam_reference": "IBPS—RRB Officers Exam, 2015",
+      "passage_text": "",
+      "question_text": "4 years ago, the ratio of 1/2 of A’s age at that time and four times of B’s age at the time was 5 : 12. Eight years hence, 1/2 of A’s age at that time will be less than B’s age at that time by 2 years. What is B’s present age?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "10 years",
+      "option_b": "14 years",
+      "option_c": "12 years",
+      "option_d": "5 years",
+      "option_e": "8 years",
+      "correct_option": "a",
+      "solution": "Let the present age of A be $a$ years and that of B be $b$ years.\nThen, $4$ years ago,\nA’s age = $(a - 4)$ years\nB’s age = $(b - 4)$ years\nNow, according to the given information in question,\n$\\frac{a - 4}{2} : 4(b - 4) = 5 : 12$ or $\\frac{a - 4}{2 \\times 4(b - 4)} = \\frac{5}{12}$ or $\\frac{a - 4}{8(b - 4)} = \\frac{5}{12}$\nBy cross multiplying we get\nor, $12a - 48 = 40b - 160$\nor, $12a - 40b = -112$\nor, $3a - 10b = -28$ ...(i)\nAfter $8$ years,\n$\\frac{a + 8}{2} = (b + 8) - 2$\nor, $\\frac{a + 8}{2} = b + 6$\nor, $a + 8 = 2b + 12$\nor, $a - 2b = 4$ ...(ii)\nFrom (ii), $a = 2b + 4$. Putting the value of $a$ in equation (i), we get\n$3(2b + 4) - 10b = -28$\n$6b + 12 - 10b = -28$\n$-4b = -40$\n$\\therefore b = 10$\nHence, the present age of B is $10$ years.",
+      "page_numbers": [
+        "269"
+      ],
+      "answer_page_numbers": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "57",
+      "exam_reference": "CET—Maharashtra (MBA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Ten years hence, the respective ratio between Simmi’s age and Niti’s age will be 7 : 9. Two years ago, the respective ratio between Simmi’s age and Niti’s age was 1 : 3. If Abhay is 4 years older to his sister Niti, what is Abhay’s present age? (in years)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8",
+      "option_b": "4",
+      "option_c": "16",
+      "option_d": "12",
+      "option_e": "20",
+      "correct_option": "d",
+      "solution": "Let present ages of Simmi and Niti be $a$ and $b$ years, respectively.\nTen years hence, the ratio between Simmi’s age and Niti’s age = $7 : 9$\nAccording to the question, $\\frac{a + 10}{b + 10} = \\frac{7}{9}$\nBy cross multiplying we get\n$\\Rightarrow 9a + 90 = 7b + 70$\n$\\Rightarrow 7b - 9a = 20$ .....(i)\nAlso, $\\frac{a - 2}{b - 2} = \\frac{1}{3}$\nBy cross multiplying we get\n$3a - 6 = b - 2$\n$\\Rightarrow 3a - b = 4$ ...(ii)\nMultiplying equation (ii) by $3$\n$9a - 3b = 12$ ...(iii)\nAdding equation (i) and (iii) we get\n$4b = 32 \\Rightarrow b = 8$ year\nFrom equation (ii) we get\n$a = \\frac{4 + b}{3} = \\frac{4 + 8}{3} = \\frac{12}{3} = 4$ years\nSince, Abhay is $4$ years older to Niti.\nSo, Abhay present age = $8 + 4 = 12$ years",
+      "page_numbers": [
+        "269"
+      ],
+      "answer_page_numbers": [
+        "6"
+      ]
+    }
+  ]
+}

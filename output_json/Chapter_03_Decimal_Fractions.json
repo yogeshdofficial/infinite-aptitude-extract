@@ -1,0 +1,4096 @@
+{
+  "chapter_title": "Chapter_03_Decimal_Fractions",
+  "question_count": 184,
+  "questions": [
+    {
+      "section": "solved_example",
+      "question_number": "1",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Convert the following into vulgar fractions:\n(i) 0.75\n(ii) 3.004\n(iii) .0056",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $0.75 = \\frac{75}{100} = \\frac{3}{4}$\n(ii) $3.004 = \\frac{3004}{1000} = \\frac{751}{250}$\n(iii) $.0056 = \\frac{56}{10000} = \\frac{7}{1250}$",
+      "page_numbers": [
+        "70"
+      ],
+      "answer_page_numbers": [
+        "70"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Arrange the fractions $\\frac{5}{8}, \\frac{7}{12}, \\frac{13}{16}, \\frac{16}{29}$ and $\\frac{3}{4}$ in ascending order of magnitude.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Converting each of the given fractions into decimal form, we get:\n$\\frac{5}{8} = 0.625, \\frac{7}{12} = 0.5833, \\frac{13}{16} = 0.8125, \\frac{16}{29} = 0.5517$ and $\\frac{3}{4} = 0.75$.\nNow, $0.5517 < 0.5833 < 0.625 < 0.75 < 0.8125$.\n$\\therefore \\frac{16}{29} < \\frac{7}{12} < \\frac{5}{8} < \\frac{3}{4} < \\frac{13}{16}$",
+      "page_numbers": [
+        "70"
+      ],
+      "answer_page_numbers": [
+        "70"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Arrange the fractions $\\frac{3}{5}, \\frac{4}{7}, \\frac{8}{9}$ and $\\frac{9}{11}$ in their descending order.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Clearly, $\\frac{3}{5} = 0.6, \\frac{4}{7} = 0.571, \\frac{8}{9} = 0.88, \\frac{9}{11} = 0.818$.\nNow, $0.88 > 0.818 > 0.6 > 0.571$.\n$\\therefore \\frac{8}{9} > \\frac{9}{11} > \\frac{3}{5} > \\frac{4}{7}$.",
+      "page_numbers": [
+        "71"
+      ],
+      "answer_page_numbers": [
+        "71"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "4",
+      "exam_reference": "Bank Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "Evaluate:\n(i) $11.11 + 111.1 + 1111.11$\n(ii) $6202.5 + 620.25 + 62.025 + 6.2025 + 0.62025$\n(iii) $5.064 + 3.98 + .7036 + 7.6 + .3 + 2$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $11.11 + 111.10 + 1111.11 = 1233.32$\n(ii) $6202.5 + 620.25 + 62.025 + 6.2025 + 0.62025 = 6891.59775$\n(iii) $5.064 + 3.98 + 0.7036 + 7.6 + 0.3 + 2.0 = 19.6476$",
+      "page_numbers": [
+        "71"
+      ],
+      "answer_page_numbers": [
+        "71"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Evaluate:\n(i) $31.004 - 17.2386$\n(ii) $13 - 5.1967$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $31.0040 - 17.2386 = 13.7654$\n(ii) $13.0000 - 5.1967 = 7.8033$",
+      "page_numbers": [
+        "71"
+      ],
+      "answer_page_numbers": [
+        "71"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "6",
+      "exam_reference": "Bank P.O., 2009; Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "Evaluate:\n(i) $515.15 - 15.51 - 1.51 - 5.11 - 1.11$\n(ii) $43.231 - 12.779 - 6.542 - 0.669$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) Given expression = $515.15 - (15.51 + 1.51 + 5.11 + 1.11) = 515.15 - 23.24 = 491.91$.\n(ii) Given expression = $43.231 - (12.779 + 6.542 + 0.669) = 43.231 - 19.990 = 23.241$.",
+      "page_numbers": [
+        "71"
+      ],
+      "answer_page_numbers": [
+        "71"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "7",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What value will replace the question mark in the following equations?\n(i) $5172.49 + 378.352 + ? = 9318.678$\n(ii) $? - 7328.96 = 5169.38$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) Let $5172.49 + 378.352 + x = 9318.678$.\nThen, $x = 9318.678 - (5172.49 + 378.352) = 9318.678 - 5550.842 = 3767.836$.\n(ii) Let $x - 7328.96 = 5169.38$. Then, $x = 5169.38 + 7328.96 = 12498.34$.",
+      "page_numbers": [
+        "71"
+      ],
+      "answer_page_numbers": [
+        "71"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the products: (i) $6.3204 \\times 100$ (ii) $.069 \\times 10000$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $6.3204 \\times 100 = 632.04$.\n(ii) $.069 \\times 10000 = .0690 \\times 10000 = 690$.",
+      "page_numbers": [
+        "71"
+      ],
+      "answer_page_numbers": [
+        "71"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "9",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "Find the products:\n(i) $2.1693 \\times 1.4$\n(ii) $.4 \\times .04 \\times .004 \\times 40$\n(iii) $6.66 \\times 66.6 \\times 66$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $21693 \\times 14 = 303702$. Sum of decimal places = $(4 + 1) = 5$.\n$\\therefore 2.1693 \\times 1.4 = 3.03702$.\n(ii) $4 \\times 4 \\times 4 \\times 40 = 2560$. Sum of decimal places = $(1 + 2 + 3) = 6$.\n$\\therefore .4 \\times .04 \\times .004 \\times 40 = .002560$.\n(iii) $666 \\times 666 \\times 66 = 29274696$. Sum of decimal places = $(2 + 1) = 3$.\n$\\therefore 6.66 \\times 66.6 \\times 66 = 29274.696$.",
+      "page_numbers": [
+        "71"
+      ],
+      "answer_page_numbers": [
+        "71"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Given that $268 \\times 74 = 19832$, find the value of $2.68 \\times .74$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Sum of decimal places = $(2 + 2) = 4$.\n$\\therefore 2.68 \\times .74 = 1.9832$.",
+      "page_numbers": [
+        "72"
+      ],
+      "answer_page_numbers": [
+        "72"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the quotient:\n(i) $0.63 \\div 9$\n(ii) $0.0204 \\div 17$\n(iii) $3.1603 \\div 13$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $63 \\div 9 = 7$. Dividend contains 2 places of decimal.\n$\\therefore 0.63 \\div 9 = .07$.\n(ii) $204 \\div 17 = 12$. Dividend contains 4 places of decimal.\n$\\therefore 0.0204 \\div 17 = .0012$.\n(iii) $31603 \\div 13 = 2431$. Dividend contains 4 places of decimal.\n$\\therefore 3.1603 \\div 13 = .2431$.",
+      "page_numbers": [
+        "72"
+      ],
+      "answer_page_numbers": [
+        "72"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "12",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Evaluate:\n(i) $35 \\div .07$\n(ii) $2.5 \\div 0.0005$\n(iii) $136.09 \\div 43.9$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $\\frac{35}{.07} = \\frac{35 \\times 100}{.07 \\times 100} = \\frac{3500}{7} = 500$.\n(ii) $\\frac{2.5}{0.0005} = \\frac{2.5 \\times 10000}{0.0005 \\times 10000} = \\frac{25000}{5} = 5000$.\n(iii) $\\frac{136.09}{43.9} = \\frac{136.09 \\times 10}{43.9 \\times 10} = \\frac{1360.9}{439} = 3.1$.",
+      "page_numbers": [
+        "72"
+      ],
+      "answer_page_numbers": [
+        "72"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "13",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What value will come in place of question mark in the following equations?\n(i) $0.006 \\div ? = 0.6$\n(ii) $? \\div .025 = 80$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) Let $\\frac{0.006}{x} = 0.6$. Then, $x = \\frac{0.006}{0.6} = \\frac{0.006 \\times 10}{0.6 \\times 10} = \\frac{0.06}{6} = 0.01$.\n(ii) Let $\\frac{x}{.025} = 80$. Then, $x = 80 \\times .025 = 2$.",
+      "page_numbers": [
+        "72"
+      ],
+      "answer_page_numbers": [
+        "72"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "14",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\\frac{1}{3.718} = .2689$, then find the value of $\\frac{1}{.0003718}$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\frac{1}{.0003718} = \\frac{10000}{3.718} = \\left(10000 \\times \\frac{1}{3.718}\\right) = 10000 \\times .2689 = 2689$.",
+      "page_numbers": [
+        "72"
+      ],
+      "answer_page_numbers": [
+        "72"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "15",
+      "exam_reference": "Bank Recruitment, 2010; Bank P.O., 2010; Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "Evaluate:\n(i) $0.5 \\times 5.6 \\div 0.5 \\times 12$\n(ii) $25 \\times 3.25 + 50.4 \\div 24$\n(iii) $0.01 \\times 0.1 - 0.001 \\div 10 + 0.01$\n(iv) $12.28 \\times 1.5 - 36 \\div 2.4$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) Given expression = $0.5 \\times \\frac{5.6}{0.5} \\times 12 = \\frac{5 \\times 56 \\times 12}{50} = \\frac{3360}{50} = 67.2$.\n(ii) Given expression = $25 \\times 3.25 + \\frac{50.4}{24} = 81.25 + 2.1 = 83.35$.\n(iii) Given expression = $0.001 - \\frac{0.001}{10} + 0.01 = 0.001 - 0.0001 + 0.01 = 0.011 - 0.0001 = 0.0109$.\n(iv) Given expression = $12.28 \\times 1.5 - \\frac{36}{2.4} = 18.42 - 15 = 3.42$.",
+      "page_numbers": [
+        "72"
+      ],
+      "answer_page_numbers": [
+        "72"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "16",
+      "exam_reference": "R.R.B., 2009",
+      "passage_text": "",
+      "question_text": "The product of two numbers is $0.008$ and one is $\\frac{1}{5}$ of the other. Find the numbers.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let the numbers be $x$ and $\\frac{x}{5}$. Then,\n$x \\times \\frac{x}{5} = 0.008 \\Rightarrow \\frac{x^2}{5} = 0.008 \\Rightarrow x^2 = 0.008 \\times 5 = 0.04 \\Rightarrow x = \\sqrt{0.04} = 0.2$.\n$\\therefore$ Greater number = $0.2$. Smaller number = $\\frac{0.2}{5} = 0.04$.\nHence, the required numbers are $0.2$ and $0.04$.",
+      "page_numbers": [
+        "72",
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "17",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "Express as vulgar fractions:\n(i) $0.\\overline{37}$\n(ii) $0.\\overline{053}$\n(iii) $0.\\overline{001}$\n(iv) $3.\\overline{142857}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $0.\\overline{37} = \\frac{37}{99}$.\n(ii) $0.\\overline{053} = \\frac{53}{999}$.\n(iii) $0.\\overline{001} = \\frac{1}{999}$.\n(iv) $3.\\overline{142857} = 3 + 0.\\overline{142857} = 3 + \\frac{142857}{999999} = 3 + \\frac{1}{7} = \\frac{22}{7}$.",
+      "page_numbers": [
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Express as vulgar fractions:\n(i) $0.1\\overline{7}$\n(ii) $0.12\\overline{54}$\n(iii) $2.5\\overline{36}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) $0.1\\overline{7} = \\frac{17 - 1}{90} = \\frac{16}{90} = \\frac{8}{45}$.\n(ii) $0.12\\overline{54} = \\frac{1254 - 12}{9900} = \\frac{1242}{9900} = \\frac{69}{550}$.\n(iii) $2.5\\overline{36} = 2 + 0.5\\overline{36} = 2 + \\frac{536 - 53}{900} = 2 + \\frac{483}{900} = 2 + \\frac{161}{300} = 2\\frac{161}{300}$.",
+      "page_numbers": [
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "19",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "If $\\frac{b}{a} = 0.25$, then what is the value of $\\frac{2a - b}{2a + b} + \\frac{2}{9}$?",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$\\frac{2a - b}{2a + b} + \\frac{2}{9} = \\frac{2 - \\frac{b}{a}}{2 + \\frac{b}{a}} + \\frac{2}{9}$ [Dividing numerator and denominator by $a$]\n$= \\frac{2 - 0.25}{2 + 0.25} + \\frac{2}{9} = \\frac{1.75}{2.25} + \\frac{2}{9} = \\frac{7}{9} + \\frac{2}{9} = 1$.",
+      "page_numbers": [
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "20",
+      "exam_reference": "Campus Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "Find the value of $(1.99)^2$.",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "$(1.99)^2 = (2 - 0.01)^2 = 2^2 + (0.01)^2 - 2 \\times 2 \\times 0.01 = 4 + 0.0001 - 0.04 = 3.9601$.",
+      "page_numbers": [
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "21",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "Simplify: $\\sqrt{\\frac{0.009 \\times 0.036 \\times 0.016 \\times 0.08}{0.002 \\times 0.0008 \\times 0.0002}}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Since the sum of the decimal places in the numerator and denominator is the same, we have:\nGiven expression = $\\sqrt{\\frac{9 \\times 36 \\times 16 \\times 8}{2 \\times 8 \\times 2}} = \\sqrt{1296} = 36$.",
+      "page_numbers": [
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "22",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "Simplify: $\\frac{(0.35)^2 - (0.03)^2}{0.19}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Given expression = $\\frac{(0.35 + 0.03)(0.35 - 0.03)}{0.19} = \\frac{0.38 \\times 0.32}{0.19} = 2 \\times 0.32 = 0.64$.",
+      "page_numbers": [
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "23",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "Find the value of $\\frac{0.21 \\times 0.21 \\times 0.21 + 0.021 \\times 0.021 \\times 0.021}{0.63 \\times 0.63 \\times 0.63 + 0.063 \\times 0.063 \\times 0.063}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Let $a = 0.21$ and $b = 0.021$. Then,\nGiven expression = $\\frac{a^3 + b^3}{(3a)^3 + (3b)^3} = \\frac{a^3 + b^3}{27a^3 + 27b^3} = \\frac{a^3 + b^3}{27(a^3 + b^3)} = \\frac{1}{27}$.",
+      "page_numbers": [
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "24",
+      "exam_reference": "C.P.O., 2007; S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "Simplify:\n(i) $\\frac{2.75 \\times 2.75 \\times 2.75 - 2.25 \\times 2.25 \\times 2.25}{2.75 \\times 2.75 + 2.75 \\times 2.25 + 2.25 \\times 2.25}$\n(ii) $\\frac{0.0347 \\times 0.0347 \\times 0.0347 + 0.9653 \\times 0.9653 \\times 0.9653}{0.0347 \\times 0.0347 - 0.0347 \\times 0.9653 + 0.9653 \\times 0.9653}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "(i) Expression is of the form $\\frac{a^3 - b^3}{a^2 + ab + b^2} = (a - b) = (2.75 - 2.25) = 0.5$.\n(ii) Expression is of the form $\\frac{a^3 + b^3}{a^2 - ab + b^2} = (a + b) = (0.0347 + 0.9653) = 1$.",
+      "page_numbers": [
+        "73"
+      ],
+      "answer_page_numbers": [
+        "73"
+      ]
+    },
+    {
+      "section": "solved_example",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the value of: $\\frac{(0.01)^2 + (0.22)^2 + (0.333)^2}{(0.001)^2 + (0.022)^2 + (0.0333)^2}$",
+      "is_mcq": false,
+      "is_data_sufficiency": false,
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "option_e": "",
+      "correct_option": "",
+      "solution": "Given expression = $\\frac{a^2 + b^2 + c^2}{(\\frac{a}{10})^2 + (\\frac{b}{10})^2 + (\\frac{c}{10})^2}$, where $a = 0.01, b = 0.022, c = 0.0333 = \\frac{100(a^2 + b^2 + c^2)}{(a^2 + b^2 + c^2)} = 100$.",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "74"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "1",
+      "exam_reference": "L.I.C.A.D.O., 2008",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{42}{10000}$ in decimal fraction is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$.0042$",
+      "option_b": "$.00042$",
+      "option_c": "$.0420$",
+      "option_d": "$42000$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\frac{42}{10000} = .0042.$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "85"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "2",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The fraction $101 \\frac{27}{100000}$ in decimal form is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$.01027$",
+      "option_b": "$.10127$",
+      "option_c": "$101.00027$",
+      "option_d": "$101.000027$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$101 + \frac{27}{100000} = 101 + .00027 = 101.00027.$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "85"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "3",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "When $.36$ is written in simplest fractional form, the sum of the numerator and the denominator is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$15$",
+      "option_b": "$34$",
+      "option_c": "$114$",
+      "option_d": "$135$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$0.36 = \frac{36}{100} = \frac{9}{25}$\nSum of numerator and denominator = $9 + 25 = 34.$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "85"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "4",
+      "exam_reference": "L.I.C.A.D.O., 2008",
+      "passage_text": "",
+      "question_text": "The place value of $9$ in $0.06945$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$9$",
+      "option_b": "$\\frac{9}{10}$",
+      "option_c": "$\\frac{9}{100}$",
+      "option_d": "$\\frac{9}{1000}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$9$ is at thousandths place in $0.06945.$\nSo, place value of $9 = \frac{9}{1000}$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "85"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "5",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What decimal of an hour is a second?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$.0025$",
+      "option_b": "$.0256$",
+      "option_c": "$.00027$",
+      "option_d": "$.000126$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Required decimal = $\frac{1}{60 \times 60} = \frac{1}{3600} = .00027.$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "85"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "6",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $47.2506 = 4A + \\frac{7}{B} + 2C + \\frac{5}{D} + 6E$, then the value of $5A + 3B + 6C + D + 3E$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$53.6003$",
+      "option_b": "$53.6031$",
+      "option_c": "$153.6003$",
+      "option_d": "$213.0003$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$4A + \frac{7}{B} + 2C + \frac{5}{D} + 6E = 47.2506$\n$\frac{7}{B} + 4A + 2C + \frac{5}{D} + 6E = 40 + 7 + 0.2 + 0.05 + 0.0006$\nComparing the terms on both sides, we get:\n$4A = 40, \frac{7}{B} = 7, 2C = 0.2, \frac{5}{D} = 0.05, 6E = 0.0006$\nor $A = 10, B = 1, C = 0.1, D = 100, E = 0.0001.$\n$\\therefore 5A + 3B + 6C + D + 3E$\n$= (5 \times 10) + (3 \times 1) + (6 \times 0.1) + 100 + (3 \times 0.0001)$\n$= 50 + 3 + 0.6 + 100 + 0.0003 = 153.6003.$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "85"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "7",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "Express $\\frac{1999}{2111}$ in decimal.",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.893$",
+      "option_b": "$0.904$",
+      "option_c": "$0.946$",
+      "option_d": "$0.986$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\frac{1999}{2111} = 0.946$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "85"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "8",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "How many times is $0.1$ greater than $0.01$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1$ time",
+      "option_b": "$10$ times",
+      "option_c": "$100$ times",
+      "option_d": "$1000$ times",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$0.1 = 10 \times 0.01$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "9",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "Out of the fractions $\\frac{3}{7}, \\frac{4}{11}, \\frac{5}{9}, \\frac{6}{13}, \\frac{7}{12}$, which is the second largest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{3}{7}$",
+      "option_b": "$\\frac{4}{11}$",
+      "option_c": "$\\frac{5}{9}$",
+      "option_d": "$\\frac{6}{13}$",
+      "option_e": "$\\frac{7}{12}$",
+      "correct_option": "c",
+      "solution": "Converting each of the given fractions into decimal form, we get:\n$\frac{3}{7} = 0.428, \frac{4}{11} = 0.363, \frac{5}{9} = 0.555, \frac{6}{13} = 0.461, \frac{7}{12} = 0.583$\nClearly, $0.583 > 0.555 > 0.461 > 0.428 > 0.363.$\nSo, $\frac{7}{12} > \frac{5}{9} > \frac{6}{13} > \frac{3}{7} > \frac{4}{11}$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "10",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following has fractions in ascending order?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{3}, \\frac{3}{5}, \\frac{7}{9}, \\frac{8}{11}, \\frac{9}{9}$",
+      "option_b": "$\\frac{3}{5}, \\frac{2}{3}, \\frac{9}{11}, \\frac{7}{9}, \\frac{8}{9}$",
+      "option_c": "$\\frac{3}{5}, \\frac{2}{3}, \\frac{7}{9}, \\frac{9}{11}, \\frac{8}{9}$",
+      "option_d": "$\\frac{8}{9}, \\frac{9}{11}, \\frac{7}{9}, \\frac{2}{3}, \\frac{3}{5}$",
+      "option_e": "$\\frac{8}{9}, \\frac{9}{11}, \\frac{7}{9}, \\frac{3}{5}, \\frac{2}{3}$",
+      "correct_option": "c",
+      "solution": "Converting each of the given fractions into decimal form, we get:\n$\frac{2}{3} = 0.66, \frac{3}{5} = 0.6, \frac{7}{9} = 0.77, \frac{9}{11} = 0.81, \frac{8}{9} = 0.88.$\nClearly, $0.6 < 0.66 < 0.77 < 0.81 < 0.88.$\nSo, $\frac{3}{5} < \frac{2}{3} < \frac{7}{9} < \frac{9}{11} < \frac{8}{9}$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "11",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following are in descending order of their values?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{5}{9}, \\frac{7}{11}, \\frac{8}{15}, \\frac{11}{17}$",
+      "option_b": "$\\frac{5}{9}, \\frac{8}{15}, \\frac{11}{17}, \\frac{7}{11}$",
+      "option_c": "$\\frac{11}{17}, \\frac{7}{11}, \\frac{8}{15}, \\frac{5}{9}$",
+      "option_d": "$\\frac{11}{17}, \\frac{7}{11}, \\frac{5}{9}, \\frac{8}{15}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Converting each of the given fractions into decimal form, we get:\n$\frac{5}{9} = 0.55, \frac{7}{11} = 0.63, \frac{8}{15} = 0.533, \frac{11}{17} = 0.647.$\nClearly, $0.647 > 0.63 > 0.55 > 0.533.$\nSo, $\frac{11}{17} > \frac{7}{11} > \frac{5}{9} > \frac{8}{15}$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "12",
+      "exam_reference": "S.S.C., 2006",
+      "passage_text": "",
+      "question_text": "What is the difference between the biggest and the smallest fraction among $\\frac{2}{3}, \\frac{3}{4}, \\frac{4}{5}$ and $\\frac{5}{6}$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{6}$",
+      "option_b": "$\\frac{1}{12}$",
+      "option_c": "$\\frac{1}{20}$",
+      "option_d": "$\\frac{1}{30}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Converting each of the given fractions into decimal form, we get:\n$\frac{2}{3} = 0.66, \frac{3}{4} = 0.75, \frac{4}{5} = 0.8, \frac{5}{6} = 0.833.$\nSince $0.833 > 0.8 > 0.75 > 0.66, so \frac{5}{6} > \frac{4}{5} > \frac{3}{4} > \frac{2}{3}.$\n$\\therefore$ Required difference $= \frac{5}{6} - \frac{2}{3} = \frac{1}{6}$",
+      "page_numbers": [
+        "74"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "13",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "The least among the following fractions is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{15}{16}$",
+      "option_b": "$\\frac{19}{20}$",
+      "option_c": "$\\frac{24}{25}$",
+      "option_d": "$\\frac{34}{35}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Converting each of the given fractions into decimal form, we get:\n$\frac{15}{16} = 0.9375, \frac{19}{20} = 0.95, \frac{24}{25} = 0.96, \frac{34}{35} = 0.971$\nClearly, $0.9375 < 0.95 < 0.96 < 0.971.$ So, $\frac{15}{16} < \frac{19}{20} < \frac{24}{25} < \frac{34}{35}$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "14",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "Out of the fractions $\\frac{9}{31}, \\frac{3}{17}, \\frac{6}{23}, \\frac{4}{11}$ and $\\frac{7}{25}$, which is the largest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{9}{31}$",
+      "option_b": "$\\frac{3}{17}$",
+      "option_c": "$\\frac{6}{23}$",
+      "option_d": "$\\frac{4}{11}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Converting each of the given fractions into decimal form, we get:\n$\frac{9}{31} = 0.29, \frac{3}{17} = 0.176, \frac{6}{23} = 0.26, \frac{4}{11} = 0.363, \frac{7}{25} = 0.28.$\nClearly, $0.363 > 0.29 > 0.28 > 0.26 > 0.176.$\nSo, $\frac{4}{11} > \frac{9}{31} > \frac{7}{25} > \frac{6}{23} > \frac{3}{17}$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "15",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "If the fractions $\\frac{2}{5}, \\frac{3}{8}, \\frac{4}{9}, \\frac{5}{13}$ and $\\frac{6}{11}$ are arranged in ascending order of their values, which one will be the fourth?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{5}$",
+      "option_b": "$\\frac{3}{8}$",
+      "option_c": "$\\frac{4}{9}$",
+      "option_d": "$\\frac{5}{13}$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Converting each of the given fractions into decimal form, we get:\n$\frac{2}{5} = 0.4, \frac{3}{8} = 0.375, \frac{4}{9} = 0.444, \frac{5}{13} = 0.384, \frac{6}{11} = 0.545$\nClearly, $0.375 < 0.384 < 0.4 < 0.444 < 0.545.$\nSo, $\frac{3}{8} < \frac{5}{13} < \frac{2}{5} < \frac{4}{9} < \frac{6}{11}$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "16",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which part contains the fractions in ascending order?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{11}{14}, \\frac{16}{19}, \\frac{19}{21}$",
+      "option_b": "$\\frac{16}{19}, \\frac{11}{14}, \\frac{19}{21}$",
+      "option_c": "$\\frac{16}{19}, \\frac{19}{21}, \\frac{11}{14}$",
+      "option_d": "$\\frac{19}{21}, \\frac{11}{14}, \\frac{16}{19}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Clearly, $\frac{11}{14} = 0.785, \frac{16}{19} = 0.842, \frac{19}{21} = 0.904.$\nNow, $0.785 < 0.842 < 0.904.$ So, $\frac{11}{14} < \frac{16}{19} < \frac{19}{21}$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "17",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following fractions is the smallest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{13}{16}$",
+      "option_b": "$\\frac{15}{19}$",
+      "option_c": "$\\frac{17}{21}$",
+      "option_d": "$\\frac{7}{8}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "We have:\n$\frac{13}{16} = 0.8125, \frac{15}{19} = 0.7894, \frac{17}{21} = 0.8095$ and $\frac{7}{8} = 0.875.$\nSince $0.7894$ is the smallest, so $\frac{15}{19}$ is the smallest.",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "18",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following fractions is greater than $\\frac{3}{4}$ and less than $\\frac{5}{6}$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$\\frac{2}{3}$",
+      "option_c": "$\\frac{4}{5}$",
+      "option_d": "$\\frac{9}{10}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\frac{3}{4} = 0.75, \frac{5}{6} = 0.833, \frac{1}{2} = 0.5, \frac{2}{3} = 0.66, \frac{4}{5} = 0.8, \frac{9}{10} = 0.9.$\nClearly, $0.8$ lies between $0.75$ and $0.833.$\n$\\therefore \frac{4}{5}$ lies between $\frac{3}{4}$ and $\frac{5}{6}$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "19",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following fractions is less than $\\frac{7}{8}$ and greater than $\\frac{1}{3}$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{4}$",
+      "option_b": "$\\frac{23}{24}$",
+      "option_c": "$\\frac{11}{12}$",
+      "option_d": "$\\frac{17}{24}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{7}{8} = 0.875, \frac{1}{3} = 0.333, \frac{1}{4} = 0.25, \frac{23}{24} = 0.958, \frac{11}{12} = 0.916, \frac{17}{24} = 0.708.$\nClearly, $0.708$ lies between $0.333$ and $0.875.$\n$\\therefore \frac{17}{24}$ lies between $\frac{1}{3}$ and $\frac{7}{8}$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "20",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following numbers does not lie between $\\frac{4}{5}$ and $\\frac{7}{13}$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{2}$",
+      "option_b": "$\\frac{2}{3}$",
+      "option_c": "$\\frac{3}{4}$",
+      "option_d": "$\\frac{5}{7}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\frac{4}{5} = 0.8, \frac{7}{13} = 0.53, \frac{1}{2} = 0.5, \frac{2}{3} = 0.66, \frac{3}{4} = 0.75, \frac{5}{7} = 0.714.$\nClearly, $0.5$ does not lie between $0.53$ and $0.8.$\n$\\therefore \frac{1}{2}$ does not lie between $\frac{7}{13}$ and $\frac{4}{5}$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "21",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The arrangement of rational numbers $\\frac{7}{10}, \\frac{5}{-8}, \\frac{2}{-3}$ in ascending order is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{-3}, \\frac{5}{-8}, \\frac{7}{10}$",
+      "option_b": "$\\frac{5}{-8}, \\frac{2}{-3}, \\frac{7}{10}$",
+      "option_c": "$\\frac{7}{10}, \\frac{5}{-8}, \\frac{2}{-3}$",
+      "option_d": "$\\frac{7}{10}, \\frac{2}{-3}, \\frac{5}{-8}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\frac{7}{10} = -0.7, \frac{5}{8} = -0.625, \frac{2}{3} = -0.66.$\nSince $-0.7 < -0.66 < -0.625,$ so $-\frac{7}{10} < -\frac{2}{3} < -\frac{5}{8}.$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "22",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "Which of the following fractions lies between $\\frac{2}{3}$ and $\\frac{3}{5}$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{5}$",
+      "option_b": "$\\frac{1}{3}$",
+      "option_c": "$\\frac{1}{15}$",
+      "option_d": "$\\frac{31}{50}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{2}{3} = 0.666, \frac{3}{5} = 0.6, \frac{2}{5} = 0.4, \frac{1}{3} = 0.333, \frac{1}{15} = 0.066, \frac{31}{50} = 0.62.$\nClearly, $0.62$ lies between $0.6$ and $0.666.$ So, $\frac{31}{50}$ lies between $\frac{3}{5}$ and $\frac{2}{3}.$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "23",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "Which of the following fractions is less than $\\frac{1}{5}$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{8}{35}$",
+      "option_b": "$\\frac{8}{37}$",
+      "option_c": "$\\frac{8}{39}$",
+      "option_d": "$\\frac{2}{11}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{1}{5} = 0.2, \frac{8}{35} = 0.228, \frac{8}{37} = 0.216, \frac{2}{9} = 0.205, \frac{2}{11} = 0.181.$\nClearly, $0.181 < 0.2.$ So, $\frac{2}{11} < \frac{1}{5}.$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "24",
+      "exam_reference": "R.R.B., 2006",
+      "passage_text": "",
+      "question_text": "Which of the following fractions is nearest to $\\frac{2}{5}$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{4}{5}$",
+      "option_b": "$\\frac{21}{50}$",
+      "option_c": "$\\frac{20001}{50000}$",
+      "option_d": "$\\frac{200001}{500000}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{2}{5} = 0.4, \frac{4}{5} = 0.8, \frac{21}{50} = 0.42, \frac{20001}{50000} = 0.40002, \frac{200001}{500000} = 0.400002.$\nClearly, $0.400002$ is nearest to $0.4.$\nSo, $\frac{200001}{500000}$ is nearest to $\frac{2}{5}.$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "25",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The rational numbers lying between $\\frac{1}{3}$ and $\\frac{3}{4}$ are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{117}{300}, \\frac{287}{400}$",
+      "option_b": "$\\frac{95}{300}, \\frac{301}{400}$",
+      "option_c": "$\\frac{99}{300}, \\frac{301}{400}$",
+      "option_d": "$\\frac{97}{300}, \\frac{299}{500}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\frac{1}{3} = 0.333, \frac{3}{4} = 0.75, \frac{117}{300} = 0.39, \frac{287}{400} = 0.7175, \frac{95}{300} = 0.316, \frac{301}{400} = 0.7525, \frac{99}{300} = 0.33, \frac{97}{300} = 0.323, \frac{299}{500} = 0.598.$\nClearly, each one of $0.39$ and $0.7175$ lies between $0.333$ and $0.75.$\nSo, $\frac{117}{300}$ and $\frac{287}{400}$ lie between $\frac{1}{3}$ and $\frac{3}{4}.$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "86",
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "26",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Three rational numbers between $\\frac{1}{5}$ and $\\frac{1}{6}$ are",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{4}{25}, \\frac{9}{50}, \\frac{17}{100}$",
+      "option_b": "$\\frac{4}{25}, \\frac{17}{100}, \\frac{167}{1000}$",
+      "option_c": "$\\frac{4}{25}, \\frac{9}{50}, \\frac{167}{1000}$",
+      "option_d": "$\\frac{9}{50}, \\frac{17}{100}, \\frac{167}{1000}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{1}{5} = 0.2$ and $\frac{1}{6} = 0.166.$\n(a) $\frac{4}{25} = 0.16, \frac{9}{50} = 0.18, \frac{17}{100} = 0.17$\n(b) $\frac{4}{25} = 0.16, \frac{17}{100} = 0.17, \frac{167}{1000} = 0.167$\n(c) $\frac{4}{25} = 0.16, \frac{9}{50} = 0.18, \frac{167}{1000} = 0.167$\n(d) $\frac{9}{50} = 0.18, \frac{17}{100} = 0.17, \frac{167}{1000} = 0.167$",
+      "page_numbers": [
+        "75"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "27",
+      "exam_reference": "NABARD, 2009",
+      "passage_text": "",
+      "question_text": "$0.3 + 3 + 3.33 + 3.3 + 3.03 + 333 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$345.99$",
+      "option_b": "$355.96$",
+      "option_c": "$375.66$",
+      "option_d": "$375.93$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "$0.3 + 3.0 + 3.33 + 3.03 + 333.0 = 345.96$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "28",
+      "exam_reference": "Bank Recruitment, 2009",
+      "passage_text": "",
+      "question_text": "$636.66 + 366.36 + 363.33 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1336.35$",
+      "option_b": "$1363.25$",
+      "option_c": "$1366.25$",
+      "option_d": "$1636.25$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "$636.66 + 366.36 + 363.33 = 1366.35$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "29",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "$24.424 + 5.656 + 1.131 + 0.089 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$31.003$",
+      "option_b": "$31.3$",
+      "option_c": "$31.0003$",
+      "option_d": "$31.03$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "$24.424 + 5.656 + 1.131 + 0.089 = 31.300$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "30",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "$555.05 + 55.5 + 5.55 + 5 + 0.55 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$621.65$",
+      "option_b": "$634.85$",
+      "option_c": "$647.35$",
+      "option_d": "$655.75$",
+      "option_e": "None of these",
+      "correct_option": "a",
+      "solution": "$555.05 + 55.5 + 5.55 + 5.0 + 0.55 = 621.65$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "31",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "$4 + 4.44 + 0.4 + 44.04 + 444 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$469.88$",
+      "option_b": "$487.66$",
+      "option_c": "$496.88$",
+      "option_d": "$497.24$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$4.0 + 4.44 + 0.4 + 44.04 + 444.0 = 496.88$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "32",
+      "exam_reference": "Bank Recruitment, 2008",
+      "passage_text": "",
+      "question_text": "$999.99 + 99.99 + 9.99 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1019.89$",
+      "option_b": "$1099.88$",
+      "option_c": "$1108.99$",
+      "option_d": "$1109.99$",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "$999.9 + 99.9 + 9.99 + 9.99 = 1109.97$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "33",
+      "exam_reference": "E.P.F.O.S.S.A., 2004",
+      "passage_text": "",
+      "question_text": "$10.0001 + 9.9999 - 8.9995 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$9.0005$",
+      "option_b": "$10.9995$",
+      "option_c": "$11.0001$",
+      "option_d": "$11.0005$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$10.0001 + 9.9999 = 20.0000$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "34",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$48.95 - 32.006 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$16.089$",
+      "option_b": "$16.35$",
+      "option_c": "$16.89$",
+      "option_d": "$16.944$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$20.0000 - 8.9995 = 11.0005$ and $48.95 - 32.006 = 16.944$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "35",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "$58.621 - 13.829 - 7.302 - 1.214 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$31.254$",
+      "option_b": "$35.272$",
+      "option_c": "$36.276$",
+      "option_d": "$37.281$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Given expression $= 58.621 - (13.829 + 7.302 + 1.214)$\n$= 58.621 - 22.345 = 36.276.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "36",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "$341.42 - 53.74 =? - 62.86$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$260.44$",
+      "option_b": "$340.44$",
+      "option_c": "$350.54$",
+      "option_d": "$450.54$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Let $341.42 - 53.74 = x - 62.86.$\nThen, $x = (341.42 + 62.86) - 53.74$\n$= 404.28 - 53.74 = 350.54.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "37",
+      "exam_reference": "Bank P.O., 2010",
+      "passage_text": "",
+      "question_text": "$534.596 + 61.472 - 496.708 =? + 27.271$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$62.069$",
+      "option_b": "$72.089$",
+      "option_c": "$126.631$",
+      "option_d": "$132.788$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Let $534.596 + 61.472 - 496.708 = x + 27.271$\nThen, $x = (534.596 + 61.472) - (496.708 + 27.271)$\n$= 596.068 - 523.979 = 72.089.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "38",
+      "exam_reference": "Bank Recruitment, 2010",
+      "passage_text": "",
+      "question_text": "$11.71 - 0.86 + 1.78 - 9.20 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2.43$",
+      "option_b": "$3.13$",
+      "option_c": "$3.43$",
+      "option_d": "$4.13$",
+      "option_e": "None of these",
+      "correct_option": "c",
+      "solution": "Given expression $= (11.71 + 1.78) - (0.86 + 9.20)$\n$= 13.49 - 10.06 = 3.43.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "39",
+      "exam_reference": "Bank P.O., 2009",
+      "passage_text": "",
+      "question_text": "$726.34 + 888.12 -? = 1001.88$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$602.64$",
+      "option_b": "$618.78$",
+      "option_c": "$621.58$",
+      "option_d": "$654.54$",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Let $726.34 + 888.12 - x = 1001.88.$\nThen, $x = (726.34 + 888.12) - 1001.88$\n$= 1614.46 - 1001.88 = 612.58.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "40",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$832.58 - 242.31 = 779.84 -?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$179.57$",
+      "option_b": "$199.57$",
+      "option_c": "$295.05$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let $832.58 - 242.31 = 779.84 - x.$\nThen, $x = (779.84 + 242.31) - 832.58$\n$= 1022.15 - 832.58 = 189.57.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "87"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "41",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which one of the following is wrong?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{9}{4} + 1.75 = 4$",
+      "option_b": "$\\frac{9}{5} + 2.2 = 4$",
+      "option_c": "$\\frac{6}{5} + 2.8 = 4$",
+      "option_d": "$\\frac{3}{2} + 1.5 = 4$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "(a) $\frac{9}{4}+1.75 = 2.25 + 1.75 = 4.$\n(b) $\frac{9}{5}+2.2 = 1.8 + 2.2 = 4.$\n(c) $\frac{6}{5}+2.8 = 1.2 + 2.8 = 4.$\n(d) $\frac{3}{2}+1.5 = 1.5 + 1.5 = 3.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "42",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $x = 10$ and $y = 0.1$, which of the following is the greatest?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$x^2 + y^2$",
+      "option_b": "$x^2 - y^2$",
+      "option_c": "$x^2 y^2$",
+      "option_d": "$\\frac{x^2}{y^2}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "(a) $x^2 + y^2 = (10)^2 + (0.1)^2 = 100 + 0.01 = 100.01.$\n(b) $x^2 - y^2 = (10)^2 - (0.1)^2 = 100 - 0.01 = 99.99.$\n(c) $x^2 y^2 = (10)^2 \\times (0.1)^2 = 100 \\times 0.01 = 1.$\n(d) $\\frac{x^2}{y^2} = \\frac{(10)^2}{(0.1)^2} = \\frac{100}{0.01} = 10000.$\nClearly, $\\frac{x^2}{y^2}$ is the greatest.",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "43",
+      "exam_reference": "M.C.A., 2005",
+      "passage_text": "",
+      "question_text": "Which of the following is closest to zero?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$(0.09)^2$",
+      "option_b": "$0.09$",
+      "option_c": "$(1 - 0.9)^2$",
+      "option_d": "$1 - (0.9)^2$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "(a) $(0.09)^2 = 0.0081$\n(b) $0.09$\n(c) $(1 - 0.9)^2 = (0.1)^2 = 0.01$\n(d) $1 - (0.9)^2 = 1 - 0.81 = 0.19$\nClearly, $0.0081 < 0.01 < 0.09 < 0.19.$\nSo, $0.0081$ is closest to zero.",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "44",
+      "exam_reference": "M.C.A., 2005",
+      "passage_text": "",
+      "question_text": "One hundredth of centimetre when written in fractions of kilometres, is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.0000001$",
+      "option_b": "$0.000001$",
+      "option_c": "$0.0001$",
+      "option_d": "$0.001$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Required fraction = $\\left(\\frac{1}{100} \\text{ cm}\\right) \\div (1000 \\times 100) \\text{ cm}$\n$= \\frac{1}{100 \\times 1000 \\times 100}$\n$= \\frac{1}{10000000} = 0.0000001.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "45",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "What will come in place of question mark in the following equation?\n$54.(?)3 + 543 + 5.43 = 603.26$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5$",
+      "option_b": "$6$",
+      "option_c": "$8$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Let $x + 543 + 5.43 = 603.26.$\nThen, $x = 603.26 - (543 + 5.43)$\n$= 603.26 - 548.43 = 54.83.$\n$\\therefore$ Missing digit = $8.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "46",
+      "exam_reference": "Hotel Management, 2003",
+      "passage_text": "",
+      "question_text": "Which of the following is equal to $3.14 \\times 10^6$?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$314$",
+      "option_b": "$3140$",
+      "option_c": "$3140000$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$3.14 \\times 10^6 = 3.140000 \\times 1000000 = 3140000.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "47",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The number $518,000,000$ when expressed in scientific notation, equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$51.8 \\times 10^6$",
+      "option_b": "$51.8 \\times 10^7$",
+      "option_c": "$5.18 \\times 10^8$",
+      "option_d": "$5.18 \\times 10^9$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$518,000,000 = 5.18 \\times 100000000 = 5.18 \\times 10^8.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "48",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$0.000006723$ when expressed in scientific notation, is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$6723 \\times 10^{-5}$",
+      "option_b": "$67.23 \\times 10^{-7}$",
+      "option_c": "$6.723 \\times 10^{-6}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$0.000006723 = \\frac{0.000006723 \\times 10^6}{10^6}$\n$= \\frac{6.723}{10^6} = 6.723 \\times 10^{-6}.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "49",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $1.125 \\times 10^k = 0.001125$, then the value of $k$ is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$-4$",
+      "option_b": "$-3$",
+      "option_c": "$-2$",
+      "option_d": "$-1$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$10^k = \\frac{0.001125}{1.125} = \\frac{1.125 \\times 10^{-3}}{1.125} = \\frac{1}{10^3} = 10^{-3}.$\n$\\therefore k = -3.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "50",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "$(0.1 \\times 0.01 \\times 0.001 \\times 10^7)$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{10}$",
+      "option_b": "$\\frac{1}{100}$",
+      "option_c": "$10$",
+      "option_d": "$100$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $\\left(\\frac{1}{10} \\times \\frac{1}{100} \\times \\frac{1}{1000} \\times 10^7\\right)$\n$= \\left(\\frac{10^7}{10^{(1+2+3)}}\\right) = \\frac{10^7}{10^6} = 10^{(7-6)} = 10.$",
+      "page_numbers": [
+        "76"
+      ],
+      "answer_page_numbers": [
+        "3"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "98",
+      "exam_reference": "A.T.M.A., 2006",
+      "passage_text": "",
+      "question_text": "A sum of ₹ 6.25 is made up of 80 coins which are either 10P or 5P. How many are there of each kind?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "45, 35",
+      "option_b": "40, 40",
+      "option_c": "35, 45",
+      "option_d": "25, 55",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the number of 10P coins be $x.$\nThen, number of 5P coins = $(80 - x).$\n$\\therefore 0.1x + 0.05 (80 - x) = 6.25$\n$\\Rightarrow 0.1x + 4 - 0.05x = 6.25 \\Rightarrow 0.05x = 2.25$\n$\\Rightarrow x = \\frac{2.25}{0.05} = \\frac{225}{5} = 45.$\nHence, number of 10P coins = $45.$ And, number of 5P coins = $(80 - 45) = 35.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "99",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "The number $0.121212 \text{......}$ in the form $\frac{p}{q}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{2}{11}$",
+      "option_b": "$\frac{4}{11}$",
+      "option_c": "$\frac{2}{33}$",
+      "option_d": "$\frac{4}{33}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$0.121212..... = 0.\\overline{12} = \\frac{12}{99} = \\frac{4}{33}.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "100",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The rational number for the recurring decimal $0.125125 \text{.....}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{63}{487}$",
+      "option_b": "$\frac{119}{993}$",
+      "option_c": "$\frac{125}{999}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$0.125125 ..... = 0.\\overline{125} = \\frac{125}{999}.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "101",
+      "exam_reference": "Section Officers’, 2003",
+      "passage_text": "",
+      "question_text": "When $0.\bar{47}$ is converted into a fraction, the result is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{46}{90}$",
+      "option_b": "$\frac{46}{99}$",
+      "option_c": "$\frac{47}{90}$",
+      "option_d": "$\frac{47}{99}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$0.\\overline{47} = \\frac{47}{99}.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "102",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$0.\bar{36}$ expressed in the form $\frac{p}{q}$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{4}{11}$",
+      "option_b": "$\frac{4}{13}$",
+      "option_c": "$\frac{35}{90}$",
+      "option_d": "$\frac{35}{99}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$0.\\overline{36} = \\frac{36}{99} = \\frac{4}{11}.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "103",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The least among the following is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.2$",
+      "option_b": "$1 \text{ } \frac{\text{}}{\text{}} \text{ } 0.2$",
+      "option_c": "$0.\bar{2}$",
+      "option_d": "$(0.2)^2$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$1 \\div 0.2 = \\frac{1}{0.2} = 5; 0.\\overline{2} = 0.222 .....; (0.2)^2 = 0.04.$\n$0.04 < 0.2 < 0.22..... < 5.$\nSince $0.04$ is the least, so $(0.2)^2$ is the least.",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "104",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "$1.\bar{27}$ in the form $\frac{p}{q}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{127}{100}$",
+      "option_b": "$\frac{14}{11}$",
+      "option_c": "$\frac{73}{100}$",
+      "option_d": "$\frac{11}{14}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$1.27 = 1 + 0.\\overline{27} = 1 + \\frac{27}{99} = 1 + \\frac{3}{11} = \\frac{11+3}{11} = \\frac{14}{11}.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "105",
+      "exam_reference": "C.P.O., 2005",
+      "passage_text": "",
+      "question_text": "$0.4\bar{23}$ is equivalent to the fraction",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{94}{99}$",
+      "option_b": "$\frac{49}{99}$",
+      "option_c": "$\frac{491}{990}$",
+      "option_d": "$\frac{419}{990}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$0.4\\overline{23} = \\frac{423 - 4}{990} = \\frac{419}{990}.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "106",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "Express $0.2\bar{956}$ in the form $\frac{p}{q}$ (vulgar fraction)",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{2956}{1000}$",
+      "option_b": "$\frac{2956}{10000}$",
+      "option_c": "$\frac{2927}{9900}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$0.2\\overline{956} = \\frac{2956 - 29}{9900} = \\frac{2927}{9900}.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "107",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Let $F = 0.8\bar{4181}$. When $F$ is written as a fraction in lowest terms, the denominator exceeds the numerator by",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "13",
+      "option_b": "14",
+      "option_c": "29",
+      "option_d": "87",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$0.\\overline{84181} = \\frac{84181 - 841}{99000} = \\frac{83340}{99000} = \\frac{463}{550}.$\n$\\therefore$ Required difference = $(550 - 463) = 87.$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "5"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "108",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $4.\bar{12}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$4 \frac{11}{90}$",
+      "option_b": "$4 \frac{11}{99}$",
+      "option_c": "$\frac{371}{900}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$4.\bar{12} = 4 + 0.\bar{12} = 4 + \frac{12-1}{90} = 4 + \frac{11}{90}$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "109",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "$2.8\bar{768}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2 \frac{878}{999}$",
+      "option_b": "$2 \frac{9}{10}$",
+      "option_c": "$2 \frac{292}{333}$",
+      "option_d": "$2 \frac{4394}{4995}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$2.\bar{8768} = 2 + 0.\bar{8768} = 2 + \frac{8768-8}{9990} = 2 + \frac{8760}{9990} = 2 + \frac{292}{333}$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "110",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The value of $(0.\bar{2} + 0.\bar{3} + 0.\bar{32})$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.77",
+      "option_b": "0.82",
+      "option_c": "0.86",
+      "option_d": "0.87",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$0.\bar{2} + 0.\bar{3} + 0.\bar{32} = \frac{2}{9} + \frac{3}{9} + \frac{32}{99} = \frac{22+33+32}{99} = \frac{87}{99} = 0.\bar{87}$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "111",
+      "exam_reference": "S.S.C., 2007",
+      "passage_text": "",
+      "question_text": "$0.142857 \text{ } \frac{\text{}}{\text{}} \text{ } 0.285714$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{1}{2}$",
+      "option_b": "$\frac{1}{3}$",
+      "option_c": "2",
+      "option_d": "10",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$0.\bar{142857} \times 0.\bar{285714} = \frac{142857}{999999} \times \frac{285714}{999999} = \frac{142857}{999999} \times \frac{1}{2} \times \frac{999999}{142857} = \frac{1}{2}$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "112",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$3.\bar{87} - 2.\bar{59} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.20",
+      "option_b": "$1.\bar{2}$",
+      "option_c": "1.27",
+      "option_d": "1.28",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$3.\bar{87} - 2.\bar{59} = (3 + 0.\bar{87}) - (2 + 0.\bar{59}) = (3 - 2) + (\frac{87}{99} - \frac{59}{99}) = 1 + \frac{28}{99} = 1.\bar{28}$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "113",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The simplification of $3.\bar{36} - 2.\bar{05} + 1.\bar{33}$ equals",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.60",
+      "option_b": "2.64",
+      "option_c": "2.61",
+      "option_d": "$2.\bar{64}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$3.\bar{36} - 2.\bar{05} + 1.\bar{33} = (3 + \frac{36}{99}) - (2 + \frac{05}{99}) + (1 + \frac{33}{99}) = (3 - 2 + 1) + (\frac{36-5+33}{99}) = 2 + \frac{64}{99} = 2.\bar{64}$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "114",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "$(0.09 \times 7.\bar{3})$ is equal to:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$.6$",
+      "option_b": "$.657$",
+      "option_c": "$.67$",
+      "option_d": "$.6\bar{57}$",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$0.\bar{09} \times 7.\bar{3} = \frac{9}{99} \times \frac{73-7}{9} = \frac{1}{11} \times \frac{66}{9} = \frac{1}{11} \times \frac{22}{3} = \frac{2}{3} = 0.\bar{6}$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "115",
+      "exam_reference": "Hotel Management, 2002",
+      "passage_text": "",
+      "question_text": "$(0.34\bar{67} + 0.1\bar{333})$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.48",
+      "option_b": "$0.4\bar{8}$",
+      "option_c": "0.4801",
+      "option_d": "$0.4\bar{8}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$0.\bar{3467} + 0.\bar{1333} = \frac{3467-34}{9900} + \frac{1333-13}{9900} = \frac{3433+1320}{9900} = \frac{4753}{9900} = 0.4801$ (approx)",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "116",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "$(8.\bar{31} + 0.\bar{6} + 0.0\bar{02})$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "8.912",
+      "option_b": "$8.9\bar{12}$",
+      "option_c": "8.979",
+      "option_d": "$8.9\bar{79}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$8.\bar{31} + 0.\bar{6} + 0.00\bar{2} = 8 + \frac{31-3}{90} + \frac{6}{9} + \frac{2}{900} = 8 + \frac{280}{900} + \frac{600}{900} + \frac{2}{900} = 8 + \frac{882}{900} = 8.979$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "117",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of $2.\bar{75}$ and $3.\bar{78}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1.\bar{03}$",
+      "option_b": "$1.\bar{53}$",
+      "option_c": "$4.\bar{53}$",
+      "option_d": "$5.\bar{53}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$2.\bar{75} + 3.\bar{78} = (2 + 0.\bar{75}) + (3 + 0.\bar{78}) = 5 + (\frac{75}{99} + \frac{78}{99}) = 5 + \frac{153}{99} = 5 + 1.\bar{53} = 6.\bar{53}$",
+      "page_numbers": [
+        "79"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "118",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\frac{547.527}{0.0082} = x$, then the value of $\frac{547527}{82}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{x}{10}$",
+      "option_b": "$10x$",
+      "option_c": "$100x$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\frac{547527}{82} = \frac{54.7527}{0.0082} = \frac{547.527}{0.082} = \frac{1}{10}$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "119",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $2994 \text{ } \frac{\text{}}{\text{}} \text{ } 14.5 = 172$, then $29.94 \text{ } \frac{\text{}}{\text{}} \text{ } 1.45 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.172",
+      "option_b": "1.72",
+      "option_c": "17.2",
+      "option_d": "172",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\frac{29.94}{1.45} = \frac{299.4}{14.5} = 17.2$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "120",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $213 \times 16 = 3408$, then $1.6 \times 21.3$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.3408",
+      "option_b": "3.408",
+      "option_c": "34.08",
+      "option_d": "340.8",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$1.6 \times 21.3 = \frac{16}{10} \times \frac{213}{10} = \frac{3408}{100} = 34.08$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "121",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $\frac{1}{6.198} = 0.16134$, then the value of $\frac{1}{0.0006198}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.016134",
+      "option_b": "0.16134",
+      "option_c": "1613.4",
+      "option_d": "16134",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\frac{1}{0.0006198} = \frac{10000}{6.198} = 10000 \times 0.16134 = 1613.4$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "89"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "122",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "When 52416 is divided by 312, the quotient is 168. What will be the quotient when 52.416 is divided by 0.0168?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3.12",
+      "option_b": "312",
+      "option_c": "3120",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\frac{52.416}{0.0168} = \frac{524160}{168} = 3120$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "123",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Given $168 \times 32 = 5376$, then $5.376 \text{ } \frac{\text{}}{\text{}} \text{ } 16.8$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.032",
+      "option_b": "0.32",
+      "option_c": "3.2",
+      "option_d": "32",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\frac{5.376}{16.8} = \frac{53.76}{168} = \frac{5376}{16800} = 0.32$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "124",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$54.327 \times 357.2 \times 0.0057$ is the same as",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5.4327 \times 3.572 \times 5.7$",
+      "option_b": "$5.4327 \times 3.572 \times 0.57$",
+      "option_c": "$54327 \times 3572 \times 0.0000057$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "The expression in (a) has the same number of decimal places as the given expression.",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "125",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\frac{5.3472 \times 324.23}{3.489 \times 5.42}$ is the same as",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{53472 \times 3.2423}{3.489 \times 54.2}$",
+      "option_b": "$\frac{53472 \times 32423}{3489 \times 542}$",
+      "option_c": "$\frac{534.72 \times 324.23}{34.89 \times 5.42}$",
+      "option_d": "$\frac{53472 \times 3242.3}{3489 \times 542}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "For the expressions to be equivalent, the difference between the sum of the decimal places in the numerator and that in the denominator must be equal. This difference is 1 in the given expression and 1 in (d).",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "126",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\frac{96.54 - 89.63}{96.54 + 89.63} \text{ } \frac{\text{}}{\text{}} \text{ } \frac{965.4 - 896.3}{9.654 + 8.963} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$10^{-2}$",
+      "option_b": "$10^{-1}$",
+      "option_c": "10",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\frac{(96.54-89.63)(9.654+8.963)}{(965.4-896.3)(96.54+89.63)} = \frac{(96.54-89.63)(9.654+8.963)}{10(96.54-89.63)(96.54+89.63)} = \frac{1}{10} \times \frac{1}{10} = \frac{1}{100} = 10^{-2}$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "127",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "If $1^3 + 2^3 + \text{.....} + 9^3 = 2025$, then the value of $(0.11)^3 + (0.22)^3 + \text{.....} + (0.99)^3$ is close to:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.2695",
+      "option_b": "0.3695",
+      "option_c": "2.695",
+      "option_d": "3.695",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$(0.11)^3 + (0.22)^3 + \text{.....} + (0.99)^3 = (0.11)^3 (1^3 + 2^3 + \text{.....} + 9^3) = 0.001331 \times 2025 = 2.695275 \thickapprox 2.695$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "128",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{1}{1 \times 4} + \frac{1}{4 \times 5} + \frac{1}{4 \times 5 \times 6}$ correct to 4 decimal places is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.3075",
+      "option_b": "0.3082",
+      "option_c": "0.3083",
+      "option_d": "0.3085",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\frac{1}{4\times5} + \frac{1}{4\times5\times6} = \frac{1}{4} \times \frac{1}{5} + \frac{1}{4\times5\times6}$\n$= \frac{1}{4} \times \frac{1}{5} \times \frac{1}{6} \times (30 + 6 + 1)$\n$= \frac{1}{4} \times \frac{37}{30}$\n$= \frac{37}{120} = 0.3083$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "129",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Find the value of the following expression upto four places of decimals.\n$\frac{1}{1 \times 2} + \frac{1}{1 \times 2 \times 4} + \frac{1}{1 \times 2 \times 4 \times 8} + \frac{1}{1 \times 2 \times 4 \times 8 \times 16}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.6414",
+      "option_b": "1.6415",
+      "option_c": "1.6416",
+      "option_d": "1.6428",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression\n$= \frac{2\times4\times8\times16 + 4\times8\times16 + 8\times16 + 16 + 1}{2\times4\times8\times16}$\n$= \frac{1024 + 512 + 128 + 16 + 1}{1024}$\n$= \frac{1681}{1024} = 1.6416$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "130",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The sum of the first 20 terms of the series $\frac{1}{5 \times 6} + \frac{1}{6 \times 7} + \frac{1}{7 \times 8} + \text{.....}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.16",
+      "option_b": "1.6",
+      "option_c": "16",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression\n$= \frac{1}{5\times6} + \frac{1}{6\times7} + \frac{1}{7\times8} + \frac{1}{24\times25}$\n$= \frac{1}{5} - \frac{1}{6} + \frac{1}{6} - \frac{1}{7} + \frac{1}{7} - \frac{1}{8} + \frac{1}{24} - \frac{1}{25}$\n$= \frac{1}{5} - \frac{1}{25} = \frac{5-1}{25} = \frac{4}{25} = 0.16$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "131",
+      "exam_reference": "Hotel Management, 2010",
+      "passage_text": "",
+      "question_text": "The last digit in the decimal representation of $(\frac{1}{5})^{2000}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "4",
+      "option_c": "5",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{1}{5} = 0.2$; $\frac{1}{5}^2 = (0.2)^2 = 0.04$; $\frac{1}{5}^3 = (0.2)^3 = 0.008$;\n$\frac{1}{5}^4 = (0.2)^4 = 0.0016$.\nClearly, for every power which is a multiple of 4, the expression would have 6 as the last digit.\nSo, $\frac{1}{5}^{2000}$ would have 6 as the last digit.",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "132",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Which of the following is equal to 1?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{(0.11)^2}{(1.1)^2 \times 0.1}$",
+      "option_b": "$\frac{(1.1)^2}{11^2 \times (0.01)^2}$",
+      "option_c": "$\frac{(0.011)^2}{(1.1)^2 \times (0.01)^2}$",
+      "option_d": "$\frac{(0.11)^2}{11^2 \times (0.01)^2}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "To get 1 as the answer, the expression must have the same number of decimal places in the numerator and denominator.\nThe number of decimal places in the given expressions are as under:\n(a) Numerator $\rightarrow$ 4; Denominator $\rightarrow$ 3\n(b) Numerator $\rightarrow$ 2; Denominator $\rightarrow$ 4\n(c) Numerator $\rightarrow$ 6; Denominator $\rightarrow$ 6\n(d) Numerator $\rightarrow$ 4; Denominator $\rightarrow$ 2\n$\therefore$ The correct answer is (c).",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "133",
+      "exam_reference": "A.A.O. Exam, 2010",
+      "passage_text": "",
+      "question_text": "The expression $\frac{3}{4} + \frac{5}{36} + \frac{7}{144} + \text{.....} + \frac{17}{5184} + \frac{19}{8100}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.9",
+      "option_b": "0.95",
+      "option_c": "0.99",
+      "option_d": "1.91",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression\n$= (1 - \frac{1}{4}) + (1 - \frac{1}{9}) + (1 - \frac{1}{16}) + \frac{1}{81} - \frac{1}{100}$\n$= 1 - \frac{1}{100} = \frac{99}{100} = 0.99$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "134",
+      "exam_reference": "N.M.A.T. 2006; M.B.A. 2007; S.S.C. 2010",
+      "passage_text": "",
+      "question_text": "If $1.5x = 0.04y$, then the value of $\frac{y-x}{y+x}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{730}{77}$",
+      "option_b": "$\frac{73}{77}$",
+      "option_c": "$\frac{7.3}{77}$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\frac{x}{y} = \frac{0.04}{1.5} = \frac{4}{150} = \frac{2}{75}$\n$\frac{y-x}{y+x} = \frac{1-\frac{x}{y}}{1+\frac{x}{y}} = \frac{1-\frac{2}{75}}{1+\frac{2}{75}} = \frac{\frac{73}{75}}{\frac{77}{75}} = \frac{73}{77}$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "135",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{1}{3} \times \frac{1}{3} \times \frac{1}{3} \text{ } \frac{\text{}}{\text{}} \text{ } \frac{1}{3} \times \frac{1}{3} \times \frac{1}{3}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30",
+      "option_b": "34.8",
+      "option_c": "36.6",
+      "option_d": "41.4",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression\n$= 35.7 - \frac{33}{10} - \frac{12}{5} = 35.7 - 3.3 - 2.4$\n$= 35.7 - 5.7 = 30$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "136",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\frac{0.1667 \times 0.8333 \times 0.3333}{0.2222 \times 0.6667 \times 0.1250}$ is approximately equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2",
+      "option_b": "2.40",
+      "option_c": "2.43",
+      "option_d": "2.50",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression $= \frac{0.3333 \times 0.1667 \times 0.8333}{0.2222 \times 0.6667 \times 0.1250}$\n$= \frac{3333 \times \frac{1}{6} \times \frac{5}{6}}{2222 \times \frac{2}{3} \times \frac{1}{8}} \times \frac{1}{1000}$\n$= \frac{3}{2} \times \frac{1}{6} \times \frac{5}{6} \times 8 \times 2 = 2.50$",
+      "page_numbers": [
+        "80"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "137",
+      "exam_reference": "L.I.C.A.D.O., 2007",
+      "passage_text": "",
+      "question_text": "$\frac{3.5 \times 1.4}{0.7} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.7",
+      "option_b": "2.4",
+      "option_c": "3.5",
+      "option_d": "7.1",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Given expression $= \frac{35 \times 1.4}{7} = 5 \times 1.4 = 7$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "138",
+      "exam_reference": "Bank Recruitment, 2007",
+      "passage_text": "",
+      "question_text": "$\frac{1.6 \times 3.2}{0.08} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.8",
+      "option_b": "6.4",
+      "option_c": "8",
+      "option_d": "64",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Given expression $= \frac{16 \times 32}{8} = 16 \times 4 = 64$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "139",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "$\frac{4.41 \times 0.16}{2.1 \times 1.6 \times 0.21}$ is simplified to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "0.1",
+      "option_c": "0.01",
+      "option_d": "10",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression $= \frac{441 \times 16}{21 \times 16} = 1$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "6",
+        "90"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "140",
+      "exam_reference": "I.I.F.T. 2005",
+      "passage_text": "",
+      "question_text": "$\frac{.625 \times .0729 \times 28.9}{.0081 \times .025 \times 1.7} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "382.5",
+      "option_b": "3625",
+      "option_c": "3725",
+      "option_d": "3825",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Given expression $= \frac{625 \times 729 \times 289}{81 \times 25 \times 17} = 3825$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "91"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "141",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{3.6 \times 0.48 \times 2.50}{0.12 \times 0.09 \times 0.5}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "80",
+      "option_b": "800",
+      "option_c": "8000",
+      "option_d": "80000",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{3.6 \times 0.48 \times 2.50}{0.12 \times 0.09 \times 0.5} = \frac{36 \times 48 \times 250}{12 \times 9 \times 5} = 800$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "91"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "142",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\frac{0.0203 \times 2.92}{0.0073 \times 14.5 \times 0.7} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.8",
+      "option_b": "1.45",
+      "option_c": "2.40",
+      "option_d": "3.25",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "$\frac{0.0203 \times 2.92}{0.0073 \times 14.5 \times 0.7} = \frac{203 \times 292}{73 \times 145 \times 7} \times \frac{4}{5} = 0.8$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "91"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "143",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{3.157 \times 4126 \times 3.198}{63.972 \times 2835.121}$ is closest to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.002",
+      "option_b": "0.02",
+      "option_c": "0.2",
+      "option_d": "2",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "$\frac{3.157 \times 4126 \times 3.198}{63.972 \times 2835.121} \times \frac{3.2 \times 4126 \times 3.2}{64 \times 2835}$\n$= \frac{32 \times 4126 \times 32}{64 \times 2835} \times \frac{1}{100}$\n$= \frac{66016}{2835} \times \frac{1}{100} = 23.28 \times \frac{1}{100} = 0.23 \times 0.2$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "91"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "144",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{489.1375 \times 0.0483 \times 1.956}{0.0873 \times 92.581 \times 99.749}$ is closest to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.006",
+      "option_b": "0.06",
+      "option_c": "0.6",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\frac{489.1375 \times 0.0483 \times 1.956}{0.0873 \times 92.581 \times 99.749} \times \frac{489 \times 0.05 \times 2}{0.09 \times 93 \times 100} \times \frac{489}{9 \times 93 \times 10}$\n$= \frac{163 \times 1}{279} \times \frac{0.58}{10} = 0.058 \times 0.06$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "91"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "145",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{241.6 \times 0.3814 \times 6.842}{0.4618 \times 38.25 \times 73.65}$ is close to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.2",
+      "option_b": "0.4",
+      "option_c": "0.6",
+      "option_d": "1",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$\frac{241.6 \times 0.3814 \times 6.842}{0.4618 \times 38.25 \times 73.65} \times \frac{240 \times 0.38 \times 6.9}{0.46 \times 38 \times 75}$\n$= \frac{240 \times 38 \times 69}{46 \times 38 \times 75} \times \frac{1}{10} \times \frac{24}{5} \times \frac{1}{10} = 4.8 \times 0.48$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "91"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "146",
+      "exam_reference": "Section Officers’, 2003",
+      "passage_text": "",
+      "question_text": "$(0.2 \times 0.2 + 0.01) (0.1 \times 0.1 + 0.02)^{-1}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{5}{3}$",
+      "option_b": "$\frac{9}{5}$",
+      "option_c": "$\frac{41}{4}$",
+      "option_d": "$\frac{41}{12}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression $= \frac{(0.2 \times 0.2 + 0.01)}{(0.1 \times 0.1 + 0.02)} = \frac{0.04 + 0.01}{0.01 + 0.02} = \frac{0.05}{0.03} = \frac{5}{3}$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "91"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "147",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\frac{5 \times 1.6 - 2 \times 1.4}{1.3} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.4",
+      "option_b": "1.2",
+      "option_c": "1.4",
+      "option_d": "4",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression $= \frac{8 - 2.8}{1.3} = \frac{5.2}{1.3} = 4$",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7",
+        "91"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "148",
+      "exam_reference": "IGNOU, 2003",
+      "passage_text": "",
+      "question_text": "The value of $(4.7 \times 13.26 + 4.7 \times 9.43 + 4.7 \times 77.31)$ is:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.47",
+      "option_b": "47",
+      "option_c": "470",
+      "option_d": "4700",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $4.7 \\times (13.26 + 9.43 + 77.31)$\n= $4.7 \\times 100 = 470$.",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "149",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Simplify : $\frac{0.2 \times 0.2 + 0.2 \times 0.02}{0.044}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.004",
+      "option_b": "0.4",
+      "option_c": "1",
+      "option_d": "2",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $\\frac{0.2 (0.2 + 0.02)}{0.044} = \\frac{0.2 \\times 0.22}{0.044} = \\frac{0.044}{0.044} = 1$.",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "150",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{8.6 \times 5.3 + 8.6 \times 4.7}{4.3 \times 9.7 + 4.3 \times 8.7}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3.3",
+      "option_b": "6.847",
+      "option_c": "13.9",
+      "option_d": "20",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression = $\\frac{8.6 (5.3 + 4.7)}{4.3 (9.7 - 8.7)} = \\frac{8.6 \\times 10}{4.3 \\times 1} = 20$.",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "151",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{.896 \times .763 + .896 \times .237}{.7 \times .064 + .7 \times .936}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": ".976",
+      "option_b": "9.76",
+      "option_c": "1.28",
+      "option_d": "12.8",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $\\frac{.896 (.763 + .237)}{.7 (.064 + .936)}$\n= $\\frac{.896 \\times 1}{.7 \\times 1} = \\frac{8.96}{7} = 1.28$.",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "152",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $(1.25)^3 - 2.25 (1.25)^2 + 3.75 (0.75)^2 - (0.75)^3$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "$\frac{1}{2}$",
+      "option_c": "$\frac{1}{4}$",
+      "option_d": "$\frac{1}{8}$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression = $(1.25)^3 - (0.75)^3 - 3 \\times (1.25)^2 \\times 0.75 + 3 \\times 1.25 \\times (0.75)^2$\n= $(1.25 - 0.75)^3 = (0.5)^3 = \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}$.\n[$\\because (a - b)^3 = a^3 - b^3 - 3a^2b + 3ab^2$]",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "153",
+      "exam_reference": "S.B.I.P.O., 2008",
+      "passage_text": "",
+      "question_text": "$(78.95)^2 - (43.35)^2 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "4148",
+      "option_b": "4235.78",
+      "option_c": "4305",
+      "option_d": "4353.88",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$(78.95)^2 - (43.35)^2 = (78.95 + 43.35) (78.95 - 43.35)$\n= $122.3 \\times 35.6 = 4353.88$.\n[$\\because a^2 - b^2 = (a + b) (a - b)$]",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "154",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{(75.8)^2 - (55.8)^2}{20}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "20",
+      "option_b": "40",
+      "option_c": "121.6",
+      "option_d": "131.6",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression = $\\frac{a^2 - b^2}{a - b}$, where $a = 75.8, b = 55.8$\n= $\\frac{(a - b)(a + b)}{(a - b)} = a + b$\n= $75.8 + 55.8 = 131.6$.",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "155",
+      "exam_reference": "C.P.O., 2006",
+      "passage_text": "",
+      "question_text": "$\frac{(3.63)^2 - (2.37)^2}{3.63 + 2.37}$ is simplified to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1.26",
+      "option_b": "1.36",
+      "option_c": "2.26",
+      "option_d": "6",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression = $\\frac{a^2 - b^2}{a + b}$, where $a = 3.63, b = 2.37$\n= $\\frac{(a - b)(a + b)}{(a + b)} = (a - b)$\n= $3.63 - 2.37 = 1.26$.",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "156",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\frac{(36.54)^2 - (3.46)^2}{40} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "3.308",
+      "option_b": "4",
+      "option_c": "33.08",
+      "option_d": "330.8",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Let $\\frac{(36.54)^2 - (3.46)^2}{x} = 40$. Then,\n$x = \\frac{(36.54)^2 - (3.46)^2}{40} = \\frac{(36.54)^2 - (3.46)^2}{36.54 + 3.46}$\n= $\\frac{a^2 - b^2}{a + b} = (a - b) = (36.54 - 3.46) = 33.08$.",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "157",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{(67.542)^2 - (32.458)^2}{75.458 - 40.374}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "10",
+      "option_c": "100",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $\\frac{(67.542)^2 - (32.458)^2}{(67.542 + 7.196) - (32.458 + 7.916)}$\n= $\\frac{(67.542)^2 - (32.458)^2}{67.542 - 32.458}$\n= $(67.542 + 32.458) = 100$.",
+      "page_numbers": [
+        "81"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "158",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "$\frac{1.49 \times 14.9 - 0.51 \times 5.1}{14.9 - 5.1}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.20",
+      "option_b": "2.00",
+      "option_c": "20",
+      "option_d": "22",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{1.49 \\times 1.49 \\times 10 - 0.51 \\times 0.51 \\times 10}{1.49 \\times 10 - 0.51 \\times 10}$\n= $\\frac{10 [(1.49)^2 - (0.51)^2]}{10 (1.49 - 0.51)}$\n= $(1.49 + 0.51) = 2$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "159",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\frac{4.2 \times 4.2 - 1.9 \times 1.9}{2.3 \times 6.1} =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.5",
+      "option_b": "1",
+      "option_c": "1.9",
+      "option_d": "4.2",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{a^2 - b^2}{a^2 - b^2} = 1$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "160",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "Simplify: $\frac{5.32 \times 56 + 5.32 \times 44}{(7.66)^2 - (2.34)^2}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "7.2",
+      "option_b": "8.5",
+      "option_c": "10",
+      "option_d": "12",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $\\frac{5.32 (56 + 44)}{(7.66 + 2.34) (7.66 - 2.34)}$\n= $\\frac{5.32 \\times 100}{10 \\times 5.32} = 10$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "161",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$\frac{(0.6)^4 - (0.5)^4}{(0.6)^2 + (0.5)^2}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.1",
+      "option_b": "0.11",
+      "option_c": "1.1",
+      "option_d": "11",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{[(0.6)^2]^2 - [(0.5)^2]^2}{(0.6)^2 + (0.5)^2}$\n= $\\frac{[(0.6)^2 + (0.5)^2] [(0.6)^2 - (0.5)^2]}{(0.6)^2 + (0.5)^2}$\n= $(0.6)^2 - (0.5)^2 = (0.6 + 0.5) (0.6 - 0.5)$\n= $(1.1 \\times 0.1) = 0.11$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "162",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "$(7.5 \times 7.5 + 37.5 + 2.5 \times 2.5)$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "30",
+      "option_b": "60",
+      "option_c": "80",
+      "option_d": "100",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression = $(7.5 \\times 7.5 + 2 \\times 7.5 \\times 2.5 + 2.5 \\times 2.5)$\n= $(a^2 + 2ab + b^2) = (a + b)^2$\n= $(7.5 + 2.5)^2 = 10^2 = 100$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "163",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The simplification of $\frac{0.2 \times 0.2 + 0.02 \times 0.02 - 0.4 \times 0.02}{0.36}$ gives",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.009",
+      "option_b": "0.09",
+      "option_c": "0.9",
+      "option_d": "9",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$0.2 \\times 0.2 + 0.02 \\times 0.02 - 0.4 \\times 0.02$\n= $0.2 \\times 0.2 + 0.02 \\times 0.02 - 2 \\times 0.2 \\times 0.02$\n= $(a^2 + b^2 - 2ab) = (a - b)^2 = (0.2 - 0.02)^2 = (0.18)^2$.\n$\\therefore$ Given expression = $\\frac{(0.18 \\times 0.18)}{0.36} = 0.09$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "164",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "$(99.75)^2 - 2250.0625 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "6545.625",
+      "option_b": "7700",
+      "option_c": "8875",
+      "option_d": "9900.625",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Given expression = $(100 - 0.25)^2 - 2250.0625$\n= $(100)^2 + (0.25)^2 - 2 \\times 100 \\times 0.25 - 2250.0625$\n= $10000.0625 - 50 - 2250.0625 = 10000.0625 - 2300.0625$\n= $7700$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "7"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "165",
+      "exam_reference": "Bank P.O., 2008",
+      "passage_text": "",
+      "question_text": "$(55.25)^2 - 637.5625 =?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "25.25",
+      "option_b": "625",
+      "option_c": "1375",
+      "option_d": "2415",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Given expression = $(55.25)^2 - (25.25)^2$\n= $(55.25 + 25.25) (55.25 - 25.25)$\n= $80.5 \\times 30 = 2415$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "166",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "$\frac{3.25 \times 3.20 - 3.20 \times 3.05}{0.064}$ is equal to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "1",
+      "option_b": "$\frac{1}{2}$",
+      "option_c": "$\frac{1}{10}$",
+      "option_d": "10",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{3.20 (3.25 - 3.05)}{0.064} = \\frac{3.20 \\times 0.2}{0.064}$\n= $\\frac{0.64}{0.064} = \\frac{64}{6.4} = 10$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "167",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The value of $(.98)^3 + (.02)^3 + 3 \times .98 \times .02 - 1$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0",
+      "option_b": "1",
+      "option_c": "1.09",
+      "option_d": "1.98",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $[(.98)^3 + (.02)^3 + 3 \\times .98 \\times .02 (.98 + .02)] - 1 = (.98 + .02)^3 - 1 = (1)^3 - 1 = 0$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "168",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The expression $(11.98 \times 11.98 + 11.98 \times x + 0.02 \times 0.02)$ will be a perfect square for $x$ equal to:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.02",
+      "option_b": "0.2",
+      "option_c": "0.04",
+      "option_d": "0.4",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $(11.98)^2 + (0.02)^2 + 11.98 \\times x$.\nFor the given expression to be a perfect square, we must have:\n$11.98 \\times x = 2 \\times 11.98 \\times 0.02$ or $x = 0.04$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "169",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{(2.697 - 0.498)^2 + (2.697 + 0.498)^2}{2.697 \times 2.697 + 0.498 \times 0.498}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.5",
+      "option_b": "2",
+      "option_c": "2.199",
+      "option_d": "3.195",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{(a-b)^2 + (a+b)^2}{a^2+b^2} = \\frac{2(a^2+b^2)}{(a^2+b^2)} = 2$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "170",
+      "exam_reference": "",
+      "passage_text": "",
+      "question_text": "The value of $\frac{(0.137 + 0.098)^2 - (0.137 - 0.098)^2}{0.137 \times 0.098}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.039",
+      "option_b": "0.235",
+      "option_c": "0.25",
+      "option_d": "4",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression = $\\frac{(a+b)^2 - (a-b)^2}{ab} = \\frac{4ab}{ab} = 4$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "171",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "The value of $\frac{0.051 \times 0.051 \times 0.051 + 0.041 \times 0.041 \times 0.041}{0.051 \times 0.051 - 0.051 \times 0.041 + 0.041 \times 0.041}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.00092",
+      "option_b": "0.0092",
+      "option_c": "0.092",
+      "option_d": "0.92",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $\\frac{(0.051)^3 + (0.041)^3}{(0.051)^2 - (0.051 \\times 0.041) + (0.041)^2}$\n$= \\frac{a^3+b^3}{a^2-ab+b^2}$\n$= (a+b) = (0.051 + 0.041) = 0.092$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "172",
+      "exam_reference": "S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The value of $\frac{5.71 \times 5.71 \times 5.71 - 2.79 \times 2.79 \times 2.79}{5.71 \times 5.71 + 5.71 \times 2.79 + 2.79 \times 2.79}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "2.82",
+      "option_b": "2.92",
+      "option_c": "8.5",
+      "option_d": "8.6",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{(5.71)^3 - (2.79)^3}{(5.71)^2 + 5.71 \\times 2.97 + (2.79)^2}$\n$= \\frac{a^3-b^3}{a^2+ab+b^2}$\n$= (a-b) = (5.71 - 2.79) = 2.92$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "173",
+      "exam_reference": "M.B.A., 2005",
+      "passage_text": "",
+      "question_text": "The value of $\frac{0.943 \times 0.943 \times 0.943 + 0.057 \times 0.057 \times 0.057}{0.943 \times 0.943 - 0.943 \times 0.057 + 0.057 \times 0.057}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.32",
+      "option_b": "0.886",
+      "option_c": "1.1286",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression = $\\frac{(0.943)^3 - (0.943 \\times 0.057) + (0.057)^3}{(0.943)^3 + (0.057)^3}$\n$= \\frac{a^2-ab+b^2}{a^3+b^3} = \\frac{1}{a+b}$\n$= \\frac{1}{0.943 + 0.057} = 1$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "174",
+      "exam_reference": "S.S.C., 2010",
+      "passage_text": "",
+      "question_text": "The value of $\frac{0.125 + 0.027}{0.5 \times 0.5 + 0.09 - 0.15}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.08",
+      "option_b": "0.2",
+      "option_c": "0.8",
+      "option_d": "1",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Given expression = $\\frac{(0.5)^3 + (0.3)^3}{(0.5)^2 + (0.3)^2 - (0.5 \\times 0.3)}$\n$= \\frac{a^3+b^3}{a^2+b^2-ab}$\n$= (a+b) = (0.5 + 0.3) = 0.8$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "175",
+      "exam_reference": "S.S.C., 2004",
+      "passage_text": "",
+      "question_text": "$\frac{10.3 \times 10.3 \times 10.3 + 1}{10.3 \times 10.3 - 10.3 + 1}$ is equal to:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "9.3",
+      "option_b": "10.3",
+      "option_c": "11.3",
+      "option_d": "12.3",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression = $\\frac{(10.3)^3 + (1)^3}{(10.3)^2 - (10.3 \\times 1) + (1)^2}$\n$= \\frac{a^3+b^3}{a^2-ab+b^2}$\n$= (a+b) = (10.3 + 1) = 11.3$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "176",
+      "exam_reference": "S.S.C., 2003",
+      "passage_text": "",
+      "question_text": "$\frac{8(3.75)^3 + 1}{(7.5)^2 - 6.5}$ is equal to:",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\frac{9}{5}$",
+      "option_b": "2.75",
+      "option_c": "4.75",
+      "option_d": "8.5",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{(2 \\times 3.75)^3 + (1)^3}{(7.5)^2 - (7.5 \\times 1) + (1)^2}$\n$= \\frac{(7.5)^3 + (1)^3}{(7.5)^2 - (7.5 \\times 1) + (1)^2}$\n$= \\frac{a^3+b^3}{a^2-ab+b^2} = (a+b) = (7.5 + 1) = 8.5$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "177",
+      "exam_reference": "Hotel Management 2003; S.S.C., 2005",
+      "passage_text": "",
+      "question_text": "The value of $\frac{0.1 \times 0.1 \times 0.1 + 0.02 \times 0.02 \times 0.02}{0.2 \times 0.2 \times 0.2 + 0.04 \times 0.04 \times 0.04}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "0.0125",
+      "option_b": "0.125",
+      "option_c": "0.25",
+      "option_d": "0.5",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{(0.1)^3 + (0.02)^3}{2[(0.1)^2 + (0.02)^2]} = \\frac{1}{8} = 0.125$.",
+      "page_numbers": [
+        "82"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "178",
+      "exam_reference": "I.I.F.T., 2005",
+      "passage_text": "",
+      "question_text": "$\\frac{(0.013)^3+0.000000343}{(0.013)^2-0.000091+0.000049} = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.002$",
+      "option_b": "$0.020$",
+      "option_c": "$0.021$",
+      "option_d": "$0.023$",
+      "option_e": "None of these",
+      "correct_option": "b",
+      "solution": "Given expression = $\\frac{(0.013)^3 + (0.007)^3}{(0.013)^2 - (0.013 \\times 0.007) + (0.007)^2}$\n$= \\frac{a^3+b^3}{a^2-ab+b^2}$\n$= a + b = 0.013 + 0.007 = 0.020$.",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "179",
+      "exam_reference": "R.R.B., 2005",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{(2.3)^3-.027}{(2.3)^2+.69+.09}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1.6$",
+      "option_c": "$2$",
+      "option_d": "$3.4$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $\\frac{(2.3)^3 - (0.3)^3}{(2.3)^2 + (2.3 \\times 0.3) + (0.3)^2}$\n$= \\frac{a^3-b^3}{a^2+ab+b^2}$\n$= (a-b) = (2.3 - 0.3) = 2$.",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "180",
+      "exam_reference": "N.M.A.T. 2006; G.B.O. 2007",
+      "passage_text": "",
+      "question_text": "The value of $\\frac{(0.06)^2+(0.47)^2+(0.079)^2}{(0.006)^2+(0.047)^2+(0.0079)^2}$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.1$",
+      "option_b": "$10$",
+      "option_c": "$100$",
+      "option_d": "$1000$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Given expression = $\\frac{\\left(\\frac{a}{10}\\right)^2 + \\left(\\frac{b}{10}\\right)^2 + \\left(\\frac{c}{10}\\right)^2}{a^2+b^2+c^2}$\nwhere $a = 0.06, b = 0.47$ and $c = 0.079$.\n$= \\frac{1}{100} \\frac{(a^2+b^2+c^2)}{(a^2+b^2+c^2)} = 100$.",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "181",
+      "exam_reference": "C.P.O., 2004",
+      "passage_text": "",
+      "question_text": "$\\frac{(4.53-3.07)^2}{(3.07-2.15)(2.15-4.53)} + \\frac{(3.07-2.15)^2}{(2.15-4.53)(4.53-3.07)} + \\frac{(2.15-4.53)^2}{(4.53-3.07)(3.07-2.15)}$ is simplified to",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0$",
+      "option_b": "$1$",
+      "option_c": "$2$",
+      "option_d": "$3$",
+      "option_e": "",
+      "correct_option": "d",
+      "solution": "Given expression\n$= \\frac{(4.53 - 3.07)^3 + (3.07 - 2.15)^3 + (2.15 - 4.53)^3}{(4.53 - 3.07)(3.07 - 2.15)(2.15 - 4.53)}$\n$= \\frac{a^3+b^3+c^3}{abc} = \\frac{3abc}{abc} = 3$.\n[Q if $a + b + c = 0, a^3 + b^3 + c^3 = 3abc$]",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "182",
+      "exam_reference": "Indian Railways Gr. ‘D’ Exam, 2014",
+      "passage_text": "",
+      "question_text": "The fraction equivalent to $2\\%$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{1}{40}$",
+      "option_b": "$\\frac{1}{125}$",
+      "option_c": "$\\frac{1}{250}$",
+      "option_d": "$\\frac{1}{500}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "$\\frac{2}{5}\\% = \\frac{2}{5} \\times \\frac{1}{100} = \\frac{1}{250}$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "183",
+      "exam_reference": "SSC—CHSL (10+2) Exam, 2015",
+      "passage_text": "",
+      "question_text": "The vulgar fraction of $0.3939$ is",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{15}{33}$",
+      "option_b": "$\\frac{11}{39}$",
+      "option_c": "$\\frac{17}{39}$",
+      "option_d": "$\\frac{13}{33}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "The given expression can be written in this form also\n$N = 0.3939$ ...(i)\nMultiply equation (i) with 100 on both sides.\n$100N = 39.39$ ...(ii)\nSubtracting equation (i) from (ii) we get\n$\\Rightarrow 100N - N = 39.39 - 0.39$\n$99N = 39$\n$\\Rightarrow N = \\frac{39}{99} = \\frac{13}{33}$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "184",
+      "exam_reference": "IBPS—Bank Spl. Officers (IT) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $(41.99)^2 - (18.04)^2 \\div ? = 13.11 - 138.99$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$48$",
+      "option_b": "$12$",
+      "option_c": "$72$",
+      "option_d": "$84$",
+      "option_e": "$128$",
+      "correct_option": "a",
+      "solution": "$\\{(41.99)^2 - (18.04)^2\\} \\div ? = (13.11)^2 - 138.99$\n$\\Rightarrow \\{(42)^2 - (18)^2\\} \\div ? = (13)^2 - 139$ [Q $a^2 - b^2 = (a+b)(a-b)$]\n$\\Rightarrow \\{(42 + 18)(42 - 18)\\} \\div ? = 169 - 139$\n$\\Rightarrow 60 \\times 24 \\div ? = 30$\n$\\Rightarrow ? = \\frac{60 \\times 24}{30} = 48$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "8",
+        "92"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "185",
+      "exam_reference": "United India Insurance Co. Ltd. (UIICL) Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $\\frac{3}{5}$ of $\\frac{4}{7}$ of $\\frac{5}{12}$ of $1015 = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$220$",
+      "option_b": "$340$",
+      "option_c": "$240$",
+      "option_d": "$145$",
+      "option_e": "$190$",
+      "correct_option": "d",
+      "solution": "Given $\\frac{3}{5}$ of $\\frac{4}{7}$ of $\\frac{5}{12}$ of $1015$\n$\\Rightarrow x = \\frac{3}{5} \\times \\frac{4}{7} \\times \\frac{5}{12} \\times 1015 = 145$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9",
+        "93"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "186",
+      "exam_reference": "United India Insurance Co. Ltd. (UIICL) Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $1\\frac{1}{8} + 1\\frac{6}{7} + 3\\frac{3}{5} = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$8\\frac{121}{140}$",
+      "option_b": "$6\\frac{163}{280}$",
+      "option_c": "$9\\frac{197}{280}$",
+      "option_d": "$7\\frac{117}{140}$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "Given $1\\frac{1}{8} + 1\\frac{1}{7} + 3\\frac{1}{5}$\n$\\frac{9}{8} + \\frac{13}{7} + \\frac{18}{5} = x$\nBy taking the LCM of 8, 7 and 5 is 280.\n$\\frac{315 + 520 + 1008}{280} = \\frac{1843}{280} = 6\\frac{163}{280}$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9",
+        "93"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "187",
+      "exam_reference": "IDBI Bank Executive Officers Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $2\\frac{1.5}{5} + 2\\frac{1}{6} - \\frac{3.5}{15} = \\frac{(?)^{1/3}}{4} + 1\\frac{7}{30}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$8$",
+      "option_c": "$512$",
+      "option_d": "$324$",
+      "option_e": "None of these",
+      "correct_option": "d",
+      "solution": "$\\frac{1.5}{5} + \\frac{2}{6} - \\frac{3.5}{15} = \\frac{x^{1/3}}{4} + \\frac{7}{30}$\n$\\Rightarrow \\frac{11.5}{5} + \\frac{13}{6} - \\frac{18.5}{15} = \\frac{x^{1/3}}{4} + \\frac{37}{30}$\nLCM of 5, 6 and 15 is 30.\n$\\Rightarrow \\frac{69 + 65 - 37}{30} = \\frac{x^{1/3}}{4} + \\frac{37}{30}$\n$\\Rightarrow \\frac{97}{30} = \\frac{x^{1/3}}{4} + \\frac{37}{30}$\n$\\Rightarrow \\frac{x^{1/3}}{4} = \\frac{97}{30} - \\frac{37}{30}$\n$\\Rightarrow x^{1/3} = \\frac{60}{30} \\times 4$\n$\\Rightarrow x^{1/3} = 8 \\Rightarrow x = (8)^3$\n$\\Rightarrow x = 512$\nHence, the number is 512.",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9",
+        "93"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "188",
+      "exam_reference": "NICL—AAO Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $323.46 + 23.04 - 43.17 - ? = 303$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$0.33$",
+      "option_b": "$1.33$",
+      "option_c": "$1.23$",
+      "option_d": "$0.21$",
+      "option_e": "$0.51$",
+      "correct_option": "c",
+      "solution": "Let the missing number be $x$.\nGiven $323.46 + 23.04 - 43.17 - x = 303$\n$x = 323.46 + 23.04 - 43.17 - 303$\n$= 0.33$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "189",
+      "exam_reference": "NICL—AAO Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $1\\frac{1}{2} + 2\\frac{1}{2} = 3\\frac{1}{7} + ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2/3$",
+      "option_b": "$2/7$",
+      "option_c": "$5/8$",
+      "option_d": "$7/2$",
+      "option_e": "$1/7$",
+      "correct_option": "b",
+      "solution": "Let the missing number be $x$.\nGiven $1\frac{1}{2} + 2\frac{2}{7} = 3\frac{1}{2} + x$\n$x = 1\frac{1}{2} + 2\frac{2}{7} - 3\frac{1}{2}$\n$x = \frac{3}{2} + \frac{16}{7} - \frac{7}{2}$\n$x = \frac{21 + 32 - 49}{14}$\n$x = \frac{4}{14} = \frac{2}{7}$\nHence, the number is $\frac{2}{7}$.",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "190",
+      "exam_reference": "NICL—AAO Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $48.2 \\times 2.5 \\times 2.2 + ? = 270$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$6.5$",
+      "option_b": "$2.8$",
+      "option_c": "$4.9$",
+      "option_d": "$3.4$",
+      "option_e": "$1.2$",
+      "correct_option": "c",
+      "solution": "Let the missing number be $x$.\nGiven $48.2 \times 2.5 \times 2.2 + x = 270$\n$\\Rightarrow x = 270 - 48.2 \times 2.5 \times 2.2$\n$x = 270 - 265.1 = 4.9$\nHence, the number is $4.9$.",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "191",
+      "exam_reference": "NICL—AAO Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $4\\frac{2}{3} + 3\\frac{1}{2} - 1\\frac{2}{3} = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1\\frac{2}{5}$",
+      "option_b": "$5\\frac{2}{3}$",
+      "option_c": "$3\\frac{1}{4}$",
+      "option_d": "$1\\frac{1}{2}$",
+      "option_e": "$1\\frac{6}{2}$",
+      "correct_option": "e",
+      "solution": "Given $4\frac{2}{3} + 3\frac{1}{2} - 1\frac{2}{3} = \frac{14}{3} + \frac{7}{2} - \frac{5}{3}$\nBy taking LCM of $3$, $2$ and $3$ is $6$.\n$= \frac{28 + 21 - 10}{6}$\n$= \frac{39}{6} = \frac{13}{2} = 6\frac{1}{2}$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "192",
+      "exam_reference": "NICL—AAO Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve: $17292/33 \\div 8 = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$23.5$",
+      "option_b": "$53.5$",
+      "option_c": "$65.5$",
+      "option_d": "$33.5$",
+      "option_e": "$45.5$",
+      "correct_option": "c",
+      "solution": "$\frac{17292}{33} \times \frac{1}{8}$\n$= \frac{17292}{33 \times 8} = 65.5$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "193",
+      "exam_reference": "IBPS—BANK PO/MT (Pre.) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $1599 \\div 39.99 + \\frac{4}{5} \\times 2449 - 120.05 = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1680$",
+      "option_b": "$1940$",
+      "option_c": "$1640$",
+      "option_d": "$1880$",
+      "option_e": "$1780$",
+      "correct_option": "d",
+      "solution": "Given $= 1599 \times \frac{1}{39.99} + \frac{4}{5} \times 2449 - 120.05$\n$= 1600 \times \frac{1}{40} + \frac{4}{5} \times 2450 - 120$\n$= 1600 \times \frac{1}{40} + 1960 - 120$\n$= 40 + 1960 - 120 = 1880$",
+      "page_numbers": [
+        "83"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "194",
+      "exam_reference": "IBPS—BANK PO/MT (Pre.) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $1576 \\div 45.02 + 23.99 \\times \\sqrt{255} = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$340$",
+      "option_b": "$420$",
+      "option_c": "$380$",
+      "option_d": "$460$",
+      "option_e": "$360$",
+      "correct_option": "b",
+      "solution": "Given expression\n$= 1576 \times \frac{1}{45.02} + 23.99 \times 255$\n$= 1575 \times \frac{1}{45} + 24 \times 256$\n$= 35 + 24 \times 16 = 35 + 384 = 419$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "195",
+      "exam_reference": "IBPS—BANK PO/MT (Pre.) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $3899 \\div 11.99 - 2379 \\div 13.97 = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$125$",
+      "option_b": "$250$",
+      "option_c": "$155$",
+      "option_d": "$135$",
+      "option_e": "$225$",
+      "correct_option": "c",
+      "solution": "$= 3899 \times \frac{1}{11.99} - 2379 \times \frac{1}{13.97}$\n$= 3900 \times \frac{1}{12} - 2380 \times \frac{1}{14}$\n$\\approx 325 - 170 \\approx 155$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "196",
+      "exam_reference": "IBPS—RRB Office Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $2\\frac{2}{9} + 1\\frac{1}{18} - 1\\frac{1}{2} = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$5\\frac{4}{9}$",
+      "option_b": "$7\\frac{4}{9}$",
+      "option_c": "$8\\frac{5}{9}$",
+      "option_d": "$1\\frac{6}{2}$",
+      "option_e": "$2\\frac{5}{3}$",
+      "correct_option": "b",
+      "solution": "$2\frac{1}{2} + 4\frac{1}{18} - 1\frac{1}{2} = ?$\nLet the missing number be $x$\n$x = \frac{20}{9} + \frac{73}{18} - \frac{3}{2}$\nLCM of $9$, $18$ and $2$ is $18$.\n$= \frac{40 + 73 - 27}{18} = \frac{86}{18}$\n$= \frac{43}{9} = 4\frac{7}{9}$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "197",
+      "exam_reference": "IBPS—RRB Office Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $\\frac{294 \\div 14 \\times 5 + 11}{?} = 8^2 \\div 5 + 1.7$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$8$",
+      "option_b": "$6$",
+      "option_c": "$12$",
+      "option_d": "$5$",
+      "option_e": "$10$",
+      "correct_option": "a",
+      "solution": "Let the missing number be $x$.\n$\frac{294}{x} \times 14 \times 5 + 11 = 8^2 + 5 + 1.7$\n$\\Rightarrow \frac{294 \times 5 \times 11}{14} = \frac{64}{5} + 1.7$\n$\\Rightarrow \frac{21 \times 5 \times 11}{x} = 12.8 + 1.7$\n$\\Rightarrow \frac{105 + 11}{x} = 12.8 + 1.7$\n$\\Rightarrow \frac{116}{x} = 14.5$\n$\\Rightarrow x = \frac{116}{14.5} = \frac{116 \times 10}{145} = 8$\nHence, the number is $8$.",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "198",
+      "exam_reference": "IBPS—RRB Office Assistant (Online) Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $2.5 \\times 4.8 + 7.2 \\times 1.5 - 1.2 \\times 14 = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$1.2$",
+      "option_b": "$6.5$",
+      "option_c": "$4$",
+      "option_d": "$4.8$",
+      "option_e": "$6$",
+      "correct_option": "e",
+      "solution": "Let the missing number be $x$\n$x = 2.5 \times 4.8 + 7.2 \times 1.5 - 1.2 \times 14$\n$= (12 + 10.8 - 16.8) = 6$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "199",
+      "exam_reference": "IBPS—Bank PO/PT Exam, 2015",
+      "passage_text": "",
+      "question_text": "Solve $\\sqrt{197} \\times 6.99 + 626.96 = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$885$",
+      "option_b": "$725$",
+      "option_c": "$825$",
+      "option_d": "$650$",
+      "option_e": "$675$",
+      "correct_option": "b",
+      "solution": "Given $\\sqrt{197} \times 6.99 + 626.96$\n$= \\sqrt{196} \times 7 + 627$\n$= 14 \times 7 + 627 = 98 + 627 = 725$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "200",
+      "exam_reference": "ESIC—UDC Exam, 2016",
+      "passage_text": "",
+      "question_text": "Which of the following fractions is the largest? $\\frac{3}{2}, \\frac{7}{3}, \\frac{5}{4}, \\frac{7}{2}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{7}{3}$",
+      "option_b": "$\\frac{5}{4}$",
+      "option_c": "$\\frac{7}{2}$",
+      "option_d": "$\\frac{3}{2}$",
+      "option_e": "",
+      "correct_option": "c",
+      "solution": "Each fraction is equivalent to decimal\n$\frac{3}{2} = 1.5$; $\frac{7}{3} = 2.3$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "9"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "201",
+      "exam_reference": "SBI Jr. Associates (Pre.) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Solve $\\frac{?}{529} = \\frac{329}{?}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$404$",
+      "option_b": "$408$",
+      "option_c": "$410$",
+      "option_d": "$414$",
+      "option_e": "$416$",
+      "correct_option": "e",
+      "solution": "Let the missing number be $x$; $\frac{x}{529} = \frac{329}{x}$\n$x \times x = 529 \times 329$\n$x = \\sqrt{174041} = 417.18 \\approx 416$\nHence, the number is $416$.",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "202",
+      "exam_reference": "SBI Jr. Associates (Pre.) Exam, 2016",
+      "passage_text": "",
+      "question_text": "The numerator of a fraction is decreased by $25\\%$ and the denominator is increased by $250\\%$. If the resultant fraction is $\\frac{6}{5}$, what is the original fraction?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{22}{5}$",
+      "option_b": "$\\frac{24}{5}$",
+      "option_c": "$\\frac{27}{6}$",
+      "option_d": "$\\frac{28}{5}$",
+      "option_e": "$\\frac{30}{11}$",
+      "correct_option": "d",
+      "solution": "Let original fraction be $\\frac{a}{b}$.\nNow, according to the question\n$\frac{a - a \times \frac{25}{100}}{b + b \times \frac{250}{100}} = \frac{6}{5}$\n$\frac{0.75a}{3.50b} = \frac{6}{5}$\n$\\Rightarrow \frac{a}{b} = \frac{6 \times 3.50}{5 \times 0.75} = \frac{6 \times 350 \times 100}{5 \times 75 \times 100} = \frac{28}{5}$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "203",
+      "exam_reference": "IBPS—Bank Sp. Officer (Marketing) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Solve $\\frac{21.5}{5} + \\frac{21}{6} - \\frac{13.5}{15} = \\frac{(?)^{1/3}}{4} + \\frac{17}{30}$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$2$",
+      "option_b": "$8$",
+      "option_c": "$512$",
+      "option_d": "$324$",
+      "option_e": "None of these",
+      "correct_option": "e",
+      "solution": "Let the missing number be $x$.\n$\frac{21.5}{5} + \frac{21}{6} - \frac{13.5}{15} = \frac{(x)^{\\frac{1}{3}}}{4} + \frac{17}{30}$\n$\frac{21.5}{5} + \frac{21}{6} - \frac{13.5}{15} - \frac{17}{30} = \frac{(x)^{\\frac{1}{3}}}{4}$\nLCM of $5$, $6$, $15$ and $30$ is $30$.\n$\frac{129 + 105 - 27 - 17}{30} = \frac{\\sqrt[3]{x}}{4}$\n$\frac{190}{30} = \frac{\\sqrt[3]{x}}{4} = 25.33 \\approx 25$\n$x = 25^3$\n$x = 15625$\nHence, the number is $15625$.",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "204",
+      "exam_reference": "IBPS—Bank Sp. Officer (Marketing) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Solve $\\left(\\frac{18}{4}\\right)^2 \\times \\left(\\frac{455}{19}\\right) \\div \\left(\\frac{61}{799}\\right) = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$6320$",
+      "option_b": "$6400$",
+      "option_c": "$6350$",
+      "option_d": "$6430$",
+      "option_e": "$6490$",
+      "correct_option": "c",
+      "solution": "$\\left(\\frac{18}{4}\\right)^2 \\times \\left(\\frac{455}{19}\\right) \\div \\left(\\frac{61}{799}\\right)$\n$= \\frac{324}{16} \\times \\frac{455}{19} \\times \\frac{799}{61} = 6350$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "205",
+      "exam_reference": "DMRC—Customer Relationship Assistant (CRA) Exam, 2016",
+      "passage_text": "",
+      "question_text": "$\\frac{5}{9}$ of a number is equal to twenty five percent of second number. Second number is equal to $\\frac{1}{4}$ of third number. The value of third number is $2960$. What is $30\\%$ of first number?",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$99.9$",
+      "option_b": "$88.8$",
+      "option_c": "$77.7$",
+      "option_d": "None of these",
+      "option_e": "",
+      "correct_option": "a",
+      "solution": "Let the third number be $2960$\nSecond number = $\\frac{1}{4}$ of third number = $\\frac{1}{4} \\times 2960 = 740$\n$\\frac{5}{9}$ of first number = $25\\%$ of second number\n$\\frac{5}{9}$ first number = $\\frac{25 \times 740}{100} = 185$\n$\\Rightarrow$ First number = $\\frac{185 \times 9}{5} = 333$\n$30\\%$ of $333 = \\frac{30 \times 333}{100} = 999$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    },
+    {
+      "section": "exercise",
+      "question_number": "206",
+      "exam_reference": "UPSSSC—Lower Subordinate (Pre.) Exam, 2016",
+      "passage_text": "",
+      "question_text": "Solve $7\\frac{1}{2} - \\left[2\\frac{1}{4} + \\left\\{1\\frac{1}{4} - \\left(1\\frac{1}{2} - \\frac{1}{3} - \\frac{1}{6}\\right)\\right\\}\\right] = ?$",
+      "is_mcq": true,
+      "is_data_sufficiency": false,
+      "option_a": "$\\frac{2}{9}$",
+      "option_b": "$1\\frac{4}{2}$",
+      "option_c": "$1\\frac{9}{2}$",
+      "option_d": "$\\frac{77}{228}$",
+      "option_e": "",
+      "correct_option": "b",
+      "solution": "$7\frac{1}{2} - \\left[2\frac{1}{4} + \\left\\{1\frac{1}{4} - \\frac{1}{2} \\left(1\frac{1}{2} - \\frac{1}{3} - \\frac{1}{6}\\right)\\right\\}\\right]$\n$= \\frac{15}{2} - \\left[\\frac{9}{4} + \\left\\{\\frac{5}{4} - \\frac{1}{2} \\left(\\frac{3}{2} - \\frac{1}{3} - \\frac{1}{6}\\right)\\right\\}\\right]$\n$= \\frac{15}{2} - \\left[\\frac{9}{4} + \\left\\{\\frac{5}{4} - \\frac{1}{2} \\left(\\frac{9 - 2 - 1}{6}\\right)\\right\\}\\right]$\n$= \\frac{15}{2} - \\left[\\frac{9}{4} + \\left\\{\\frac{5}{4} - \\frac{1}{2} \\left(\\frac{6}{6}\\right)\\right\\}\\right] = \\frac{15}{2} - \\left[\\frac{9}{4} + \\left\\{\\frac{5}{4} - \\frac{1}{2}\\right\\}\\right]$\n$= \\frac{15}{2} - \\left[\\frac{9}{4} + \\left(\\frac{5 - 2}{4}\\right)\\right]$\n$= \\frac{15}{2} - \\left[\\frac{9}{4} + \\frac{3}{4}\\right] = \\frac{15}{2} - \\left[\\frac{9 + 3}{4}\\right]$\n$= \\frac{15}{2} - 3 = \\frac{15 - 6}{2} = \\frac{9}{2} = 4\frac{1}{2}$",
+      "page_numbers": [
+        "84"
+      ],
+      "answer_page_numbers": [
+        "10"
+      ]
+    }
+  ]
+}
